@@ -1,1 +1,1902 @@
-{"tr":{"time":{"formats":{"friendly":"%e %B %Y saat %H:%M"}},"activerecord":{"models":{"acl":"Erişim Kontrol Listesi","changeset":"Değişiklik Kaydı","changeset_tag":"Değişiklik kayıdının etiketi","country":"Ülke","diary_comment":"Günlük Yorumu","diary_entry":"Günlük Girdisi","friend":"Arkadaş","language":"Dil","message":"Mesaj","node":"Nokta","node_tag":"Nokta Etiketi","notifier":"Bildiren","old_node":"Eski Nokta","old_node_tag":"Eski Nokta Etiketi","old_relation":"Eski Relasyon","old_way":"Eski Yol","old_way_tag":"Eski Yol Etiketi","relation":"İlişki","relation_member":"Relasyon Üyesi","session":"Oturum","trace":"Rota","tracepoint":"İzleme Noktası","tracetag":"İzleme Etiketi","user":"Kullanıcı","user_preference":"Kullanıcı Tercihleri","way":"Yol","way_node":"Yol Noktası","way_tag":"Yol Etiketi"},"attributes":{"diary_comment":{"body":"Mesaj"},"diary_entry":{"user":"Kullanıcı","title":"Konu","latitude":"Enlem","longitude":"Boylam","language":"Dil"},"friend":{"user":"Kullanıcı","friend":"Arkadaş"},"trace":{"user":"Kullanıcı","visible":"Görünür","name":"Ad","size":"Boyut","latitude":"Enlem","longitude":"Boylam","public":"Kamu","description":"Açıklama"},"message":{"sender":"Gönderen","title":"Konu","body":"Mesaj","recipient":"Alıcı"},"user":{"email":"E-posta","active":"Etkin","display_name":"Görünen Ad","description":"Tanım","languages":"Diller","pass_crypt":"Şifre"}}},"editor":{"default":"Varsayılan (kullanılan %{name})","potlatch":{"name":"Potlatch 1","description":"Potlatch 1 (flash tarayıcı düzenleyici, eski)"},"id":{"name":"iD","description":"iD (tarayıcı düzenleyici)"},"potlatch2":{"name":"Potlatch 2","description":"Potlatch 2 (flash tarayıcı düzenleyici, yeni)"},"remote":{"name":"Uzaktan Kumanda","description":"Uzaktan Kumanda (JOSM veya Merkaartor)"}},"browse":{"created":"Oluşturuldu","closed":"Kapandı","created_html":"<abbr title='%{title}'>%{time} önce</abbr> oluşturuldu","closed_html":"<abbr title='%{title}'>%{time} önce</abbr> kapandı","created_by_html":"<abbr title='%{title}'>%{time} önce</abbr> %{user} tarafından oluşturuldu","deleted_by_html":"<abbr title='%{title}'>%{time} önce</abbr> %{user} tarafından silindi","edited_by_html":"<abbr title='%{title}'>%{time} önce</abbr> %{user} tarafından düzenlendi","closed_by_html":"<abbr title='%{title}'>%{time} önce</abbr> %{user} tarafından kapandı","version":"Sürüm","in_changeset":"Değişiklik Kayıdı","anonymous":"anonim","no_comment":"(yorum yok)","part_of":"Ortak parça","download_xml":"XML İndir","view_history":"Geçmişi Görüntüle","view_details":"Ayrıntıları Görüntüle","location":"Konum:","changeset":{"title":"Değişiklik takımı: %{id}","belongs_to":"Yazar","node":"Noktalar (%{count})","node_paginated":"Nokta (%{x}-%{y} - toplam %{count})","way":"Yollar (%{count})","way_paginated":"Yol (%{x}-%{y} - toplam %{count})","relation":"Relasyonlar (%{count})","relation_paginated":"Relasyon (%{x}-%{y} - toplam %{count})","changesetxml":"Değişiklik takımı XML","osmchangexml":"osmChange XML","feed":{"title":"Değişiklik takımı %{id}","title_comment":"Değişiklik takımı %{id} - %{comment}"},"join_discussion":"Tartışmaya katılmak için lütfen giriş yap","discussion":"Tartışma"},"node":{"title":"Nokta: %{name}","history_title":"Nokta Geçmişi: %{name}"},"way":{"title":"Yol: %{name}","history_title":"Yol geçmişi: %{name}","nodes":"Noktalar"},"relation":{"title":"Relasyon: %{name}","history_title":"Relasyon Geçmişi: %{name}","members":"Üyeler"},"relation_member":{"entry_role":"%{type} %{name}, adı %{role}","type":{"node":"Nokta","way":"Yol","relation":"İlişki"}},"containing_relation":{"entry":"İlişki %{relation_name}","entry_role":"İlişki %{relation_name} (%{relation_role} olarak)"},"not_found":{"sorry":"Üzgünüm, #%{id} numaralı %{type} bulunamadı.","type":{"node":"nokta","way":"yol","relation":"ilişki","changeset":"değişiklik takımı"}},"timeout":{"type":{"node":"nokta","way":"yol","relation":"ilişki","changeset":"değişiklik takımı"}},"redacted":{"type":{"node":"nokta","way":"yol","relation":"ilişki"}},"start_rjs":{"feature_warning":"Tarayıcınızın yavaşlamasına veya yanıt vermemesine sebep olabilecek %{num_features} özellik yükleniyor. Bu veriyi görüntülemek istediğinize emin misiniz?","load_data":"Veri Yükle","loading":"Yükleniyor..."},"tag_details":{"tags":"Etiketler","wiki_link":{"key":"%{key} parametresi için Viki açıklaması","tag":"%{key}=%{value} parametresi için Viki açıklaması"},"wikipedia_link":"%{page} hakkında Vikipedi maddesi","telephone_link":"%{phone_number} ara"},"note":{"title":"Not: %{id}","new_note":"Yeni Not","description":"Açıklama","open_title":"Çözümlenmemiş not: #%{note_name}","closed_title":"Çözümlenmiş not: #%{note_name}","hidden_title":"Saklı not #%{note_name}","open_by":"%{user} tarafından <abbr title='%{exact_time}'>%{when} önce</abbr> oluşturuldu","open_by_anonymous":"Anonim olarak <abbr title='%{exact_time}'>%{when} önce</abbr> oluşturuldu","commented_by":"%{user} kullanıcısının <abbr title='%{exact_time}'>%{when} önceki</abbr> yorumu","commented_by_anonymous":"Anonim kullanıcının <abbr title='%{exact_time}'>%{when} önceki</abbr> yorumu"},"query":{"title":"Özellikleri Göster"}},"changeset":{"changeset_paging_nav":{"showing_page":"Sayfa: %{page}","next":"Sonraki »","previous":"« Önceki"},"changeset":{"anonymous":"Anonim","no_edits":"(düzenleme yok)","view_changeset_details":"Değişiklik setleri ayrıntılı görüntüle"},"changesets":{"id":"NO","saved_at":"Kaydetme Tarih","user":"Kullanıcı","comment":"Yorum","area":"Alan"},"list":{"title":"Değişiklik Setleri","title_user":"%{user} tarafından değişiklik setleri","title_friend":"Arkadaşların değişiklik kayıtları","title_nearby":"Yakındaki kullanıcıların değişiklik kayıtları","load_more":"Daha fazla"},"timeout":{"sorry":"Üzgünüz, değişiklik kayıtlarının listelenmesi fazla sürdü."},"rss":{"title_all":"Değişiklik takımı tartışması","title_particular":"Değişiklik takımı #%{changeset_id} tartışması","full":"Bütün tartışma"}},"diary_entry":{"new":{"title":"Yeni Günlük Girdisi"},"list":{"title":"Kullanıcıların günlükleri","title_friends":"Arkadaşlarının günlükleri","title_nearby":"Yakındaki kullanıcıların günlükleri","user_title":"%{user} (Günlük)","in_language_title":"%{language} dillindeki günlük kayıtları","new":"Yeni Günlük Kayıdı","new_title":"Yeni bir kayıt ekle günlüğünde","no_entries":"Günlük girdisi yok","recent_entries":"Son günlük kayıtları","older_entries":"Daha eski kayıtlar","newer_entries":"Daha yeni kayıtlar"},"edit":{"title":"Günlük girdisi düzenle","subject":"Konu:","body":"Mesaj:","language":"Dil:","location":"Konum:","latitude":"Enlem:","longitude":"Boylam:","use_map_link":"Haritayı kullanarak belirt","save_button":"Kaydet","marker_text":"Girdisinin konumu"},"view":{"title":"%{user} (günlük) | %{title}","user_title":"%{user} (Günlük)","leave_a_comment":"Yorum yaz","login_to_leave_a_comment":"Yorum yazmak için %{login_link}","login":"Giriş","save_button":"Kaydet"},"no_such_entry":{"title":"Böyle bir günlük kaydı bulunmuyor","heading":"Bu numaraya sahip giriş yok: %{id}","body":"Üzgünüz, %{id} numaralı bir günlük girdisi ya da yorumu yok. Lütfen harfleri kontrol edin, ya da tıkladığınız link yanlış olabilir."},"diary_entry":{"posted_by":"%{link_user} tarafından %{created} tarihinde %{language_link} dilinde gönderildi","comment_link":"Bu girdisi yorumla","reply_link":"Bu girdisi yanıtla","comment_count":{"one":"1 yorum","zero":"yorumsuz","other":"%{count} yorum"},"edit_link":"Bu girdisi düzenle","hide_link":"Bu girdisi gizle","confirm":"Onayla"},"diary_comment":{"comment_from":"%{link_user} tarafından %{comment_created_at} tarihindeki yorum","hide_link":"Bu yorum gizle","confirm":"Onayla"},"location":{"location":"Konum:","view":"Göster","edit":"Düzenle"},"feed":{"user":{"title":"%{user} tarafından haritacılık konusunda yazdığı günlük girdileri","description":"%{user} tarafından haritacılık konusunda yazdığı en son günlük girdileri"},"language":{"title":"%{language_name} dillindeki günlük girdileri","description":"Kullanıcıların %{language_name} dillindeki en son günlük girdileri"},"all":{"title":"OpenStreetMap günlük girdileri","description":"OpenStreetMap kullanıcıların en son günlük kayıtları"}},"comments":{"has_commented_on":"%{display_name} aşağıdaki günlük girdilerini yorumladı","post":"Yazı","when":"Tarih","comment":"Yorum","ago":"%{ago} önce","newer_comments":"Daha yeni yorumlar","older_comments":"Daha eski yorumlar"}},"export":{"title":"Dışa aktar","start":{"area_to_export":"Çıkartılacak alan","manually_select":"Fare kullanarak farklı bir alan seç","format_to_export":"Çıkartma biçimi","osm_xml_data":"OpenStreetMap XML Veri","map_image":"Harita (varsayılan katmanı gösterir)","embeddable_html":"Gömülebilir HTML","licence":"Lisans","export_details":"OpenStreetMap verileri, <a href=\"http://opendatacommons.org/licenses/odbl/1.0/\">Open Data Commons Open Database License</a>  (ODbL) altında lisanslanmıştır.","too_large":{"body":"Bu alan OpenStreetMap XML verisi olarak verilmesine kadar büyüktür. Lütfen yakınlaştır veya daha küçük bir alan seç ya da aşağıdaki verilen diğer kaynakları kullan.","planet":{"title":"OSM Gezegeni"},"overpass":{"title":"Overpass API"},"geofabrik":{"title":"Geofabrik İndirmeleri"},"metro":{"title":"Büyükşehir Çıktıları","description":"Büyükşehir ile banliyölerin çıktıkları"},"other":{"title":"Diğer Kaynaklar"}},"options":"Seçenekler","format":"Biçim","scale":"Ölçek","max":"maks.","image_size":"Resim Boyutu","zoom":"Yakınlaştır","add_marker":"Haritaya bir işaret ekle","latitude":"Enlem:","longitude":"Boylam:","output":"Çıktı","paste_html":"Yukarıdaki HTML kodu kopyalayıp websitesinde yapıştırabilir","export_button":"Çıkart"}},"geocoder":{"search":{"title":{"latlon":"<a href=\"http://openstreetmap.org/\">OSM</a>'in sonuçları","us_postcode":"<a href=\"http://geocoder.us/\">Geocoder.us</a>'ın sonuçları","uk_postcode":"<a href=\"http://www.npemap.org.uk/\">FreeThe Postcode</a> sonuçları (İngiltere)","ca_postcode":"<a href=\"http://geocoder.ca/\">Geocoder.CA</a>'dan sonuçları","osm_nominatim":"<a href=\"http://nominatim.openstreetmap.org/\">OSM Nominatim</a> sonuçları","geonames":"<a href=\"http://www.geonames.org/\">GeoNames</a>'in sonuçları","osm_nominatim_reverse":"<a href=\"http://nominatim.openstreetmap.org/\">OpenStreetMap Nominatim</a>'in sonuçları","geonames_reverse":"<a href=\"http://www.geonames.org/\">GeoNames</a>'in sonuçları"}},"search_osm_nominatim":{"prefix":{"aerialway":{"station":"Teleferik İstasyonu"},"aeroway":{"aerodrome":"Havaalanı","apron":"Apron","gate":"Kapı","helipad":"Helikopter alanı","runway":"Uçak pisti","taxiway":"Taksi yolu","terminal":"Terminal"},"amenity":{"airport":"Havaalanı","arts_centre":"Sanat Merkezi","artwork":"Sanat eseri","atm":"Bankamatik","auditorium":"Oditoryum","bank":"Banka","bar":"Bar","bbq":"Mangal alanı","bench":"Bank","bicycle_parking":"Bisiklet Parkı","bicycle_rental":"Bisiklet kiralama","biergarten":"Bira Bahçesi","brothel":"Genelev","bureau_de_change":"Döviz bürosu","bus_station":"Otogar","cafe":"Cafe","car_rental":"Araba Kiralama","car_sharing":"Araç Paylaşımı","car_wash":"Oto Yıkama","casino":"Kasino","charging_station":"Şarj İstasyonu","cinema":"Sinema","clinic":"Klinik","club":"Kulüp","college":"Lise","courthouse":"Adliye","crematorium":"Krematoryum","dentist":"Diş hekimi","doctors":"Doktorlar","dormitory":"Yurt","drinking_water":"İçme Suyu","driving_school":"Sürücü Kursu","embassy":"Elçilik","emergency_phone":"Acil Telefon","fast_food":"Büfe / Fast Food","ferry_terminal":"Feribot Terminali","fire_hydrant":"Yangın musluğu","fire_station":"Itfaiye","fountain":"Fıskiye","fuel":"Petrol ofisi","grave_yard":"Mezarlık","gym":"Fitness Merkezi / Spor Salonu","hall":"Toplantı salonu","health_centre":"Sağlık Merkezi","hospital":"Hastane","hotel":"Hotel","hunting_stand":"Avcılık Standı","ice_cream":"Dondurma","kindergarten":"Kreş","library":"Kütüphane","market":"Pazar yeri","marketplace":"Pazar yeri","mountain_rescue":"Dağ Kurtarma","nightclub":"Gece Kulübü","nursery":"Kreş","nursing_home":"Huzurevi","office":"Ofis","park":"Park","parking":"Otopark","pharmacy":"Eczane","place_of_worship":"İbadethane / Tapınak","police":"Polis","post_box":"Posta kutusu","post_office":"Postane","preschool":"Anaokulu","prison":"Cezaevi","pub":"Birahane","public_building":"Kamu Binası","public_market":"Halk Pazarı","reception_area":"Resepsiyon Alanı","recycling":"Geri dönüşüm noktası","restaurant":"Restoran","retirement_home":"Bakımevi","sauna":"Hamam / Sauna","school":"Okul","shelter":"Korunak","shop":"Dükkan","shopping":"Alışveriş Merkezi","shower":"Duş","social_centre":"Sosyal Merkez","social_club":"Sosyal kulübü","social_facility":"Sosyal Tesis","studio":"Stüdyo","supermarket":"Süpermarket","swimming_pool":"Yüzme Havuzu","taxi":"Taksi","telephone":"Telefon","theatre":"Tiyatro","toilets":"Tuvalet","townhall":"Belediye binası","university":"Üniversite","vending_machine":"Satış makinesi","veterinary":"Veteriner","village_hall":"Köy odası","waste_basket":"Çöp sepeti","wifi":"WiFi erişim","WLAN":"WiFi Erişim Noktası","youth_centre":"Gençlik Merkezi"},"boundary":{"administrative":"İdari Sınır","national_park":"Milli Park","protected_area":"Korumalı Alan"},"bridge":{"aqueduct":"Su kemeri","suspension":"Asma köprüsü","swing":"Asma Köprüsü","viaduct":"Viyadük","yes":"Köprü"},"building":{"yes":"Bina"},"emergency":{"fire_hydrant":"Yangın Musluğu","phone":"Acil Durum Telefonu"},"highway":{"bridleway":"At yürüyüş yolu","bus_guideway":"Güdümlü otobüs yolu","bus_stop":"Otobüs durağı","byway":"Yan yolu","construction":"İnşaa halinde yolu","cycleway":"Bisiklet Yolu","emergency_access_point":"Acil Erişim Noktası","footway":"Yaya yolu","ford":"Akarsu geçidi","living_street":"Yaşam sokağı","milestone":"Kilometre taşı","minor":"Ufak yol","motorway":"Otoyol","motorway_junction":"Otoyol Kavşağı","motorway_link":"Otoyol bağlantısı","path":"Patika","pedestrian":"Trafiğe kapalı yolu","platform":"Peron","primary":"Devlet Yolu","primary_link":"Devlet Yolu bağlantısı","proposed":"Planlanmış Yol","raceway":"Koşu yolu","residential":"Sokak","rest_area":"Dinlenme Alanı","road":"Yol","secondary":"İl yolu","secondary_link":"İl yolunun bağlantısı","service":"Servis Yolu","services":"Dinleme Tesisi","speed_camera":"Hız Kamerası","steps":"Merdiven","street_lamp":"Sokak Lambası","stile":"Çit basamağı","tertiary":"Köy arası yolu","tertiary_link":"Köy arası yolu","track":"Toprak yolu","trail":"İz","trunk":"Bölünmüş anayol","trunk_link":"Bölünmüş anayol bağlantısı","unclassified":"Sınıflandırılmamış yolu","unsurfaced":"Ham yolu"},"historic":{"archaeological_site":"Arkeolojik Alan","battlefield":"Savaş alanı","boundary_stone":"Sınır Taşı","building":"Bina","castle":"Kale","church":"Kilise","citywalls":"Şehir Surları","fort":"Hisar","house":"Tarihi Konak","icon":"Simge","manor":"Köşk","memorial":"Anıt","mine":"Maden Ocağı","monument":"Anıt","museum":"Müze","ruins":"Harabe","tomb":"Mezar","tower":"Kule","wreck":"Batık Gemi"},"landuse":{"allotments":"Bostan","basin":"Havuz","brownfield":"Çıplak Arazi","cemetery":"Mezarlık","commercial":"Ticari ve Hizmet Alanı","conservation":"Koruma","construction":"İnşaat","farm":"Çiftlik","farmland":"Tarım arazisi","farmyard":"Çiftlik avlusu","forest":"Orman","garages":"Garajlar","grass":"Çim","greenfield":"Nadas Alanı","industrial":"Sanayi Alanı","landfill":"Çöplük","meadow":"Mera","military":"Askeri Bölge","mine":"Maden Ocağı","orchard":"Meyve Bahçesi","nature_reserve":"Doğa Koruma Alanı","park":"Park","piste":"Pist","quarry":"Ocak","railway":"Demiryolu","recreation_ground":"Eğlence Parkı","reservoir":"Baraj Gölü","reservoir_watershed":"Akarsu Havzası","residential":"Yerleşim Bölgesi","retail":"Esnaf","road":"Yol Alanı","village_green":"Yeşil Alan","vineyard":"Bağ","wetland":"Sulak Alan","wood":"Orman"},"leisure":{"beach_resort":"Plajlı tatilköyü","bird_hide":"Kuş Gözleme Yeri","common":"Genel Arazi","fishing":"Balıkçılık alanı","fitness_station":"Spor Merkezi","garden":"Bahçe","golf_course":"Golf Sahası","ice_rink":"Buz pateni","marina":"Marina","miniature_golf":"Minyatür Golf","nature_reserve":"Doğa Koruma Alanı","park":"Park","pitch":"Spor sahası","playground":"Çocuk parkı","recreation_ground":"Eğlence parkı","sauna":"Sauna","slipway":"Kızak yolu","sports_centre":"Spor Merkezi","stadium":"Stadyum","swimming_pool":"Yüzme Havuzu","track":"Koşuş yolu","water_park":"Su Parkı"},"military":{"airfield":"Askeri Havaalanı","barracks":"Kışla","bunker":"Sığınak"},"mountain_pass":{"yes":"Dağ Geçidi"},"natural":{"bay":"Koy / körfez","beach":"Plaj","cape":"Burun","cave_entrance":"Mağara girişi","channel":"Kanal","cliff":"Uçurum","crater":"Krater","dune":"Kumul","feature":"Özelliği","fell":"Ağaçsız tepe","fjord":"Haliç","forest":"Orman","geyser":"Gayzer","glacier":"Buzul","heath":"Fundalık","hill":"Tepe","island":"Ada","land":"Kara","marsh":"Bataklık","moor":"Bataklık","mud":"Balçık","peak":"Tepe / zirve","point":"Nokta","reef":"Resif","ridge":"Sırt","river":"Nehir","rock":"Kayaç","scree":"Kayşat","scrub":"Çalılık","shoal":"Sığlık","spring":"Pınar","stone":"Taş","strait":"Boğaz","tree":"Ağaç","valley":"Dere/vadi","volcano":"Yanardağ","water":"Su","wetland":"Sulak alan","wetlands":"Sulak Alanlar","wood":"Orman"},"office":{"accountant":"Muhasebeci","architect":"Mimar","company":"Şirket","employment_agency":"İş ve İşçi Bulma Kurumu","estate_agent":"Emlakçı","government":"Devlet Ofisi","insurance":"Sigorta Ofisi","lawyer":"Avukat","ngo":"STK Ofisi","telecommunication":"Telekomünikasyon Ofisi","travel_agent":"Seyahat Acentası","yes":"Ofis"},"place":{"airport":"Havaalanı","city":"Büyükşehir / İl Merkezi","country":"Ülke","county":"İlçe","farm":"Tarla","hamlet":"Mezra","house":"Ev","houses":"Evler","island":"Ada","islet":"Adacık","isolated_dwelling":"İzole Konut","locality":"Yer/mevkii","moor":"Bataklık","municipality":"Belediye","neighbourhood":"Mahalle","postcode":"Posta kodu","region":"Bölge","sea":"Deniz","state":"İl","subdivision":"Alt bölümü","suburb":"Mahalle / Banliyö","town":"Şehir / ilçe merkezi","unincorporated_area":"Arazi","village":"Köy"},"railway":{"abandoned":"Terkedilmiş Demiryolu","construction":"Yapım aşamasında Demiryolu","disused":"Kullanılmayan Demiryolu","disused_station":"Kullanılmayan Tren İstasyonu","funicular":"Füniküler hattı","halt":"Tren Durağı","historic_station":"Tarihi tren istasyonu","junction":"Demiryolu Kavşağı","level_crossing":"Demiryolu Geçidi","light_rail":"Dar raylı demiryolu","platform":"Peron","station":"Tren istasyonu","stop":"Tren Durağı","subway":"Metro istasyonu","subway_entrance":"Metro Giriş","switch":"Demiryolu makası","tram":"Tramvay","tram_stop":"Tramvay Durağı","yard":"Tren Avlusu"},"shop":{"alcohol":"Tekel bayii","antiques":"Antikacı","art":"Sanat Galerisi","bakery":"Fırın","beauty":"Güzellik Salonu","beverages":"İçecek Dükkanı","bicycle":"Bisikletçi","books":"Kitap Evi","boutique":"Butik","butcher":"Kasap","car":"Araba Galerisi","car_parts":"Araba Parçası Dükkanı","car_repair":"Oto tamir","carpet":"Halı Dükkanı","chemist":"Eczacı","clothes":"Giysi Dükkanı","computer":"Bilgisayar Mağazası","confectionery":"Pastane","convenience":"Bakkal","copyshop":"Fotokopi Merkezi","cosmetics":"Kozmetik Mağazası","deli":"Şarküteri","department_store":"Mağaza","discount":"İndirimli Ürünler Mağazası","dry_cleaning":"Kuru Temizleme","electronics":"Elektronik Mağazası","estate_agent":"Emlakçı","farm":"Tarım Ürünleri Dükkanı","fashion":"Moda Dükkanı","fish":"Balık Dükkanı","florist":"Çiçekçi","food":"Yiyecek Dükkanı","furniture":"Mobilya","gallery":"Galeri","garden_centre":"Bahçe Merkezi","general":"Bakkal","gift":"Hediye eşya","greengrocer":"Manav","grocery":"Manav","hairdresser":"Kuaför","hardware":"Hırdavatçı","hifi":"Hi-Fi","insurance":"Sigorta","jewelry":"Kuyumcu","kiosk":"Tekel Bayii","laundry":"Çamaşırhane","mall":"Alışveriş merkezi","market":"Market","mobile_phone":"Cep Telefonu Dükkanı","motorcycle":"Motosiklet Dükkanı","music":"Müzik Mağazası","newsagent":"Gazete bayii","optician":"Gözlükçü","organic":"Organik Yiyecek Dükkanı","outdoor":"Outdoor Sporları Mağazası","pet":"Hayvan Mağazası","pharmacy":"Eczane","photo":"Fotoğrafçı","salon":"Kuaför","second_hand":"İkinci El Dükkanı","shoes":"Ayakkabı Dükkanı","shopping_centre":"Alışveriş Merkezi","sports":"Spor Malzemeleri Mağazası","stationery":"Kırtasiye","supermarket":"Süpermarket","tailor":"Terzi","toys":"Oyuncakçı","travel_agency":"Seyahat Acentası","video":"Video-CD Dükkanı","wine":"Şarap evi","yes":"Dükkan"},"tourism":{"alpine_hut":"Dağ evi","artwork":"Sanat eseri","attraction":"Gezelim görelim yeri","bed_and_breakfast":"Oda Kahvaltı","cabin":"Dam","camp_site":"Kamp yeri","caravan_site":"Karavan yeri","chalet":"Yayla evi","guest_house":"Konuk Evi","hostel":"Hostel","hotel":"Hotel","information":"Bilgi","lean_to":"Ek binası","motel":"Motel","museum":"Müze","picnic_site":"Piknik yeri","theme_park":"Lunapark","valley":"Dere/vadi","viewpoint":"Panoramik view","zoo":"Hayvanat bahçesi"},"tunnel":{"culvert":"Menfez","yes":"Tünel"},"waterway":{"artificial":"Yapay su yolu","boatyard":"Tersane","canal":"Kanal","connector":"Su yolu bağlantısı","dam":"Baraj","derelict_canal":"Sahipsiz kanal","ditch":"Sulama kanalı","dock":"İskele","drain":"Atık su kanalı","lock":"İskele","lock_gate":"Menfez","mineral_spring":"Maden Suyu","mooring":"Baba","rapids":"Akıntı","river":"Nehir","riverbank":"Irmak kenarı","stream":"Çay","wadi":"Vadi","waterfall":"Şelale","water_point":"İçme suyu","weir":"Küçük köprü"}},"admin_levels":{"level2":"Ülke Sınırı","level4":"Eyalet Sınırı","level5":"Bölge Sınırı","level6":"İlçe Sınırı","level8":"Şehir Sınırı","level9":"Köy Sınırı","level10":"Mahalle Sınırı"}},"description":{"title":{"osm_nominatim":"<a href=\"http://nominatim.openstreetmap.org/\">OSM Nominatim</a> tarafından konum","geonames":"<a href=\"http://www.geonames.org/\">GeoNames</a> tarafından konum"},"types":{"cities":"Büyükşehirler","towns":"Şehirler","places":"Yerler"}},"results":{"no_results":"Sonuç bulunamadı","more_results":"Daha fazla sonuç"},"distance":{"one":"yaklaşık 1km","zero":"1km'den az","other":"yaklaşık %{count}km"},"direction":{"south_west":"güney-batı","south":"güney","south_east":"güney-doğu","east":"doğu","north_east":"kuzey-doğu","north":"kuzey","north_west":"kuzey-batı","west":"batı"}},"layouts":{"logo":{"alt_text":"OpenStreetMap logosu"},"home":"Kendin Konuma Git","logout":"Çıkış","log_in":"Oturum aç","log_in_tooltip":"Var olan bir hesapla giriş yapın","sign_up":"Kaydol","start_mapping":"Harita Çizmeye Başla","sign_up_tooltip":"Düzenleme moduna girmek için bir hesap oluştur","edit":"Düzenle","history":"Geçmiş","export":"Dışa aktar","data":"Veri","export_data":"Verinin Dışalımı","gps_traces":"GPS İzleri","gps_traces_tooltip":"GPS izleri yönet","user_diaries":"Günlük","user_diaries_tooltip":"Kullanıcı günlükleri görüntüle","edit_with":"%{editor} kullanarak düzenle","tag_line":"Özgür Viki Dünya Haritası","intro_header":"OpenStreetMap'e hoş geldiniz!","intro_text":"OpenStreetMap senin gibi insanlar tarafından oluşturulan, kullanımı serbest ve açık lisans altında olan bir dünya haritasıdır.","intro_2_create_account":"hesap oluşturunuz","partners_html":"Barındırma hizmeti, %{ucl}, %{ic}, %{bytemark} ve diğer %{partners} tarafından desteklenmektedir.","partners_ucl":"UCL VR Centre","partners_ic":"Imperial College London","partners_bytemark":"Bytemark Hosting","partners_partners":"ortaklar","osm_offline":"OpenStreetMap veritabanı bakım çalışmaları yürütüldüğü için veritabanı şu anda çevrimdışıdır.","osm_read_only":"OpenStreetMap veritabanı bakım çalışmaları yürütüldüğü için veritabanı şu anda sadece okunur durumdadır.","donate":"Donanım Yükseltme Fonu'na %{link} yaparak OpenStreetMap'e destek veriniz.","help":"Yardım","about":"Hakkında","copyright":"Telif Hakkı","community":"Topluluk","community_blogs":"Üye Blogları","community_blogs_title":"OpenStreetMap üyelerinin blogları","foundation":"Vakıf","foundation_title":"OpenStreetMap Vakfı","make_a_donation":{"title":"OpenStreetMap para bağışı ile destek verebilirsiniz","text":"Bağış Yapın"},"learn_more":"Daha Fazla Bilgi","more":"Daha fazla"},"license_page":{"foreign":{"title":"Bu çeviri hakkında","english_link":"İngilizce orijinal"},"native":{"title":"Sayfa hakkında","native_link":"Türkçe sürümü","mapping_link":"harita çizmeye başla"},"legal_babble":{"title_html":"Telif Hakkı ve Lisans","credit_3_html":"Bir gezinebilir elektronik haritanın sağ alt köşesinde kredisi görünmesi lazım.\nÖrnegin:","contributors_title_html":"Katkıcılarımız"}},"welcome_page":{"title":"Hoş geldiniz!","introduction_html":"Dünyanın düzenlenebilir ve ücretsiz haritası OpenStreetMap'e hoş geldiniz. Şu an kaydoldunuz ve bütün haritalama işlemlerine başlamanız için her şey hazır. İşte bilmeniz gereken en önemli şeylerin hızlı bir kılavuzu.","whats_on_the_map":{"title":"Haritada ne bulunur","on_html":"OpenStreetMap, <em>gerçek ve güncel</em> şeyleri haritalamak için bir yerdir. Bu milyonlarca binaları, yolları ve yerler hakkında diğer ayrıntıları içerir. İlgini çeken her türlü gerçek dünya özelliklerini haritalayabilirsin.","off_html":"Neyi <em>içermez?</em> Ön yargılı veriler gibi değerlendirmeler, tarihî ya da farazi özellikler ve telif hakkı olan kaynaklardan gelen verileri <em>içermez.</em> Özel izniniz yoksa, çevrim içi ya da kağıt haritaları kopyalamayın."},"basic_terms":{"title":"Haritacılığın temel terimleri","paragraph_1_html":"OpenStreetMap'in kendine ait bazı argoları vardır. İşte kullanışlı gelecek birkaç anahtar kelime.","editor_html":"<strong>Düzenleyici</strong> haritayı düzenlemek için kullanabileceğiniz bir program ya da web sayfasıdır.","node_html":"<strong>Düğüm</strong>, haritadaki bir noktadır. Bu bir restoran ya da bir ağaç olabilir.","way_html":"<strong>Yol</strong>, bir çizgi ya da alan, bir cadde, akarsu, göl ya da bina olabilir.","tag_html":"<strong>Etiket</strong>, bir düğümün ya da yolun veri parçasıdır. Bu bir restoranın ismi ya da yolun hız sınırı olabilir."},"questions":{"title":"Sorularınız var mı?","paragraph_1_html":"OpenStreetMap, proje hakkında bilgiler içeren, soru sormak ve soruları cevaplamak için ve işbirliği halinde tartışma yapılan ve haritalama konularını belgelemek için çeşitli kaynaklara sahiptir. <a href='%{help_url}'>Buradan yardım alın</a>."},"start_mapping":"Harita çizmeye başla","add_a_note":{"title":"Düzenlemek için vaktin yok mu? O zaman bir not ekle!"}},"fixthemap":{"title":"Sorun bildir / Haritayı onar","how_to_help":{"title":"Nasıl yardım edebilirim?","join_the_community":{"title":"Topluluğa katılın"},"add_a_note":{"instructions_html":"Sadece <a class='icon note'></a> ikonuna tıklayın veya harita görünümü üzerinde aynı ikona tıklayın.\nBu haritaya daha sonra sürükleyerek taşıyabileceğiniz bir işaretleyici ekleyecek. Mesajınızı ekleyin ve kaydedin, diğer haritacılar bunu araştıracaklar."}},"other_concerns":{"title":"Diğer sorunlar"}},"help_page":{"title":"Yardım Almak","welcome":{"title":"OSM'ye hoşgeldin!","description":"OpenStreetMap temellerini öğrenmek için kısa bir kılavuz ile başla."},"help":{"url":"https://help.openstreetmap.org/","title":"help.openstreetmap.org","description":"Bir soru sor veya OSM'ın soru-ve-cevap sitesinde yanıtları ara."},"wiki":{"url":"http://wiki.openstreetmap.org/","title":"wiki.openstreetmap.org"}},"about_page":{"next":"İleri","copyright_html":"<span>&copy;</span>OpenStreetMap<br>katkıda bulunanları","local_knowledge_title":"Yerel Bilgi","community_driven_title":"Katılım Kaynaklı","open_data_title":"Açık Veri","partners_title":"Ortaklar"},"notifier":{"diary_comment_notification":{"subject":"[OpenStreetMap] günlük kayıdın %{user} tarafından yorumlandı","hi":"Merhaba %{to_user},","header":"%{from_user} senin %{subject} konulu OpenStreetMap günlüğü girdisi yorumladı:"},"message_notification":{"hi":"Merhaba %{to_user},","header":"OpenStreetMap kullanıcı %{from_user} sana %{subject} konulu bir mesaj gönderdi:"},"friend_notification":{"subject":"[OpenStreetMap] kullanıcı %{user} seni arkadaş olarak ekledi","had_added_you":"Kullanıcı %{user} seni arkadaş olarak OpenStreetMap'te ekledi.","see_their_profile":"%{userurl} üzerinden profillerini görebilirsiniz.","befriend_them":"%{befriendurl} üzerinden arkadaş olarak da ekleyebilirsiniz."},"gpx_notification":{"greeting":"Merhaba,","with_description":"açıklamayla beraber","and_no_tags":"ve etiket yok.","failure":{"subject":"[OpenStreetMap] GPX dosyası maalesef alınamadı","failed_to_import":"GPX dosyası alınamadı. Hata bu:"},"success":{"subject":"[OpenStreetMap] GPX dosyası başarıyla alındı"}},"signup_confirm":{"subject":"[OpenStreetMap]'e hoşgeldin","greeting":"Merhaba!","created":"Birisi (umarım sen) %{site_url} sitesinde yeni bir hesap açtı."},"email_confirm":{"subject":"[OpenStreetMap] E-posta adresi onaylama mesajı"},"email_confirm_plain":{"greeting":"Merhaba,","click_the_link":"Bu e-posta adresi sana aitse onaylamak için aşağıdaki bağlantıyı tıkla."},"email_confirm_html":{"greeting":"Merhaba,","hopefully_you":"Birisi (umarım sen) %{server_url} deki kayıtlı olan e-posta adresi %{new_address} olarak değiştirmek istiyor.","click_the_link":"Bu e-postayı sana aitse onaylamak için aşağıdaki bağlantıyı tıkla."},"lost_password":{"subject":"[OpenStreetMap] Şifre sıfırlama isteği"},"lost_password_plain":{"greeting":"Merhaba,","click_the_link":"Bu istek sana aitse şifre sıfırlamak için aşağıdaki bağlantıyı tıkla."},"lost_password_html":{"greeting":"Merhaba,","click_the_link":"Bu istek sana aitse şifre sıfırlamak için aşağıdaki bağlantıyı tıkla."},"note_comment_notification":{"greeting":"Merhaba,"}},"message":{"inbox":{"title":"Gelen Kutusu","my_inbox":"Gelen kutusu","outbox":"Gönderilmiş kutusu","messages":"%{new_messages} yeni ve %{old_messages} eski mesaj var","from":"Gönderen","subject":"Konu","date":"Tarih","people_mapping_nearby":"yakın çevredeki haritacılar"},"message_summary":{"unread_button":"Okunmadı olarak işaretle","read_button":"Okundu olarak işaretle","reply_button":"Yanıtla","delete_button":"Sil"},"new":{"title":"Mesaj Gönder","send_message_to":"%{name}'ya yeni bir mesaj gönder","subject":"Konu","body":"Mesaj","send_button":"Gönder","back_to_inbox":"Gelen kutusuna dön","message_sent":"Mesaj gönderildi","limit_exceeded":"Kısa sürede birçok ileti gönderdiniz. Lütfen daha fazla göndermeden önce bir süre bekleyin."},"no_such_message":{"title":"Böyle bir mesaj yok","heading":"Böyle bir mesaj yok","body":"Üzgünüz, bu id ile bir mesaj yok."},"outbox":{"title":"Gönderilmiş Kutusu","my_inbox":"Benim %{inbox_link}","inbox":"gelen kutusu","outbox":"gönderilmiş kutusu","to":"Alıcı","subject":"Konu","date":"Tarih","people_mapping_nearby":"yakın çevredeki haritacılar"},"read":{"title":"Mesaj oku","from":"Gönderen","subject":"Konu","date":"Tarih","reply_button":"Yanıtla","unread_button":"Okunmadı olarak işaretle","back":"Geri","to":"Alıcı"},"sent_message_summary":{"delete_button":"Sil"},"mark":{"as_read":"Mesaj okundu olarak işaretlendi","as_unread":"Mesaj okunmadı olarak işaretlendi"},"delete":{"deleted":"Mesaj silindi"}},"site":{"index":{"js_2":"OpenStreetMap harita gösterim için JavaScript kullanıyor.","permalink":"Kalıcı Bağlantı","shortlink":"Kısa Bağlantı","createnote":"Bir not ekle","license":{"copyright":"Telif Hakkı OpenStreetMap ve katılımcılar, açık lisans altında"}},"edit":{"user_page_link":"kullanıcı sayfası","anon_edits":"(%{link})"},"sidebar":{"search_results":"Arama Sonuçları","close":"Kapat"},"search":{"search":"Ara","where_am_i":"Ben neredeyim?","where_am_i_title":"Arama motoru kullanarak geçerli konumunu tanımlar","submit_text":"Git"},"key":{"table":{"entry":{"motorway":"Otoyol","trunk":"Bölünmüş anayol","primary":"Devlet Yolu","secondary":"İl yolu","unclassified":"Sınıflandırılmamış yol","unsurfaced":"Ham yolu","track":"Toprak yolu","byway":"Yan yolu","bridleway":"Binici yolu","cycleway":"Bisiklet yolu","footway":"Yaya yolu","rail":"Demiryolu","subway":"Metro","tram":["Dar raylı demiryolu","tramvay"],"cable":["Teleferik","gondol"],"runway":["Uçuş pisti","Uçak pisti"],"apron":["Havaalanı apronu","terminal"],"admin":"İdari sınırı","forest":"Orman","wood":"Orman","golf":"Golf sahası","park":"Park","resident":"Yerleşim bölgesi","tourist":"Turistik yer","common":["Çimen","mera"],"retail":"Alışveriş merkezi","industrial":"Sanayi alanı","commercial":"Ticari ve hizmet alanı","heathland":"Fundalık","lake":["Göl","baraj"],"farm":"Çiftlik","brownfield":"Çıplak arazi","cemetery":"Mezarlık","allotments":"Bostan","pitch":"Spor sahası","centre":"Spor merkezi","reserve":"Doğa koruma alanı","military":"Askeri bölge","school":["Okul","Üniversite"],"building":"Önemli yapı","station":"Gar","summit":["Zirve","Dağ"],"tunnel":"çizgili kenar = tünel","bridge":"Siyah kenar = köprü","private":"Özel giriş","construction":"yapım aşamasında yolu"}}},"richtext_area":{"edit":"Düzenle","preview":"Ön izle"},"markdown_help":{"headings":"Başlıklar","heading":"Başlık","unordered":"Sırasız liste","ordered":"Sıralı liste","first":"İlk öğe","second":"İkinci öğe","link":"Bağlantı","text":"Metin","image":"Görsel","url":"URL"}},"trace":{"visibility":{"private":"Kişiye özel (sadece anonim ve sıralanmamış noktalar olarak paylaşılır)","public":"Kamu malı (izleme listesinde ve anonim, sıralanmamış noktalar ile gösterilir)","trackable":"İzlenebilir (anonim olarak paylaşılmış ve sıralanmış zaman damgaları ile işaretlenmiş)","identifiable":"Tanımlanabilir (izleme listesinde ve tanımlanabilir zaman damgaları ile işaretlenmiş gösterilir)"},"create":{"upload_trace":"GPS İzi Gönder","trace_uploaded":"GPX dosya yüklendi ve veritabanına eklemek için bekliyor. Bu işlem genellikle yarım saat içinde gerçekleşir ve tamamlandığında sana bir e-posta gönderiliyor."},"edit":{"title":"%{name} izisi düzenleniyor","heading":"%{name} izini düzenleniyor","filename":"Dosya adı:","download":"indir","uploaded_at":"Gönderme tarihi:","points":"Nokta sayısı:","start_coord":"Başlangıç koordinat:","map":"harita","edit":"düzenle","owner":"Sahibi:","description":"Açıklama:","tags":"Etiketler:","tags_help":"virgülle ayrılmış","save_button":"Değişiklikleri Kaydet","visibility":"Görünürlük","visibility_help":"Bu ne demek?"},"trace_form":{"upload_gpx":"GPX Dosyası Gönder:","description":"Tanıtım","tags":"Etiketler:","tags_help":"virgül (,) ile ayrılmış","visibility":"Görünürlük:","visibility_help":"Bu ne demek?","upload_button":"Gönder","help":"Yardım"},"trace_header":{"upload_trace":"GPS izi gönder","see_all_traces":"Tüm izleri görüntüle","see_your_traces":"Bütün kendi izlerini görüntüle"},"trace_optionals":{"tags":"Etiketler"},"view":{"title":"%{name} gpx dosyası görüntüleniyor","heading":"İz %{name} görüntüleniyor","pending":"BEKLEMEDE","filename":"Dosya Adı:","download":"indir","uploaded":"Yüklendi:","points":"Nokta sayısı:","start_coordinates":"Başlangıç koordinat:","map":"harita","edit":"düzenle","owner":"Gönderen:","description":"Açıklama:","tags":"Etiketler:","none":"Hiç","edit_track":"Bu iz düzenle","delete_track":"Bu izi sil","trace_not_found":"İz bulunmadı!","visibility":"Görünürlük:"},"trace_paging_nav":{"showing_page":"Sayfa %{page}","older":"Daha Eski İzler","newer":"En Yeni İzler"},"trace":{"pending":"BEKLEMEDE","count_points":"%{count} puan","ago":"%{time_in_words_ago} önce","more":"ayrıntı","trace_details":"İz Ayrıntılarını Görüntüle","view_map":"Harita Görüntüle","edit":"değiştir","edit_map":"Haritayı Düzenle","public":"KAMU","identifiable":"TANIMLANABİLİR","private":"ÖZEL","trackable":"İZLENEBİLİR","by":"yükleyen:","in":"etiketler:","map":"harita"},"list":{"public_traces":"Herkese açık GPS izleri","your_traces":"Senin GPS izleri","public_traces_from":"%{user} tarafından gelen herkese açık GPS izleri","description":"Son GPS izi güncellemelerine göz at","tagged_with":" %{tags} ile etiketlendi"},"make_public":{"made_public":"Iz herkese açık"},"offline_warning":{"message":"GPX dosya gönderme sistemi şu anda kullanılamıyor"},"offline":{"heading":"GPX Yükleme Servisi Çevrimdışı"},"georss":{"title":"OpenStreetMap GPS İzleri"}},"oauth":{"oauthorize_success":{"verification":"Doğrulama kodu %{code}."},"oauthorize_failure":{"title":"Yetkilendirme isteği başarısız oldu","denied":"%{app_name} uygulamasının hesabınıza erişmesini engellediniz."}},"oauth_clients":{"new":{"submit":"Kayıt ol"},"edit":{"submit":"Değiştir"},"show":{"edit":"Ayrıntıları Düzenle","delete":"İstemci Sil","confirm":"Emin misiniz?"},"index":{"title":"OAuth Ayrıntılarım","revoke":"İptal!","my_apps":"Benim istemci uygulamalarım"},"form":{"name":"Isim","required":"Gerekli","allow_write_api":"haritayı düzenle."}},"user":{"login":{"title":"Giriş","heading":"Giriş","email or username":"E-posta Adresi veya Kullanıcı Adı:","password":"Şifre:","remember":"Beni hatırla:","lost password link":"Şifren mi unuttun?","login_button":"Gir","register now":"Şimdi kayıt ol","with username":"OpenStreetMap hesabınız var mı? Lütfen kullanıcı adı ve şifrenizle giriş yapınız:","with openid":"Bunun yerine, OpenID kullanarak giriş yapın:","new to osm":"OpenStreetMap sitesinde yeni misiniz?","to make changes":"OpenStreetMap verileri değiştirmek için bir hesabın olması gerekir.","create account minute":"Bir hesap oluştur. Bir dakika bile sürmez.","no account":"Hesabın yok mu?","account not active":"Üzgünüz, hesabınız henüz aktif değil.<br />Lütfen aldığın onaylama e-postasında ki bağlantı tıkla veya <a href=\"%{reconfirm}\">yeni bir onaylama e-posta</a> iste.","auth failure":"Üzgünüz, bu giriş ile oturum açılamadı.","openid missing provider":"Üzgünüz, OpenID sağlayınızla iletişim kurulamadı","openid invalid":"Üzgünüz, OpenID hatalı biçimlendirilmiş gözüküyor","openid_logo_alt":"OpenID ile giriş","openid_providers":{"openid":{"title":"OpenID kullanarak oturum aç","alt":"OpenID URL ile giriş"},"google":{"title":"Google ile giriş","alt":"Google OpenID ile giriş"},"yahoo":{"title":"Yahoo ile giriş","alt":"Yahoo OpenID ile giriş"},"wordpress":{"title":"Wordpress ile giriş","alt":"Wordpress OpenID ile giriş"},"aol":{"title":"AOL ile giriş","alt":"AOL OpenID ile giriş"}}},"logout":{"title":"Çıkış","heading":"OpenStreetMap'den çıkış","logout_button":"Çıkış"},"lost_password":{"title":"Kayıp Şifre","heading":"Şifre mi unuttun?","email address":"E-posta Adresi:","new password button":"Şifreyi sıfırla","notice email cannot find":"Üzgünüz: bu e-posta adresi bulunamadı."},"reset_password":{"title":"Şifreyi sıfırla","heading":"%{user} için şifre sıfırla","password":"Şifre:","confirm password":"Sifre Onayla:","reset":"Şifre Sıfırla","flash changed":"Şifren başarıyla değiştirildi."},"new":{"title":"Hesap oluştur","about":{"header":"Ücretsiz ve düzenlenebilir","html":"<p>Diğer haritaların aksine, OpenStreetMap tamamıyla sizin gibi insanlar tarafından oluşturulur ve düzeltme, güncelleme, indirme ve kullanma herkes için ücretsizdir.</p>\n<p>Katkıda bulunmaya başlamak için kayıt olun. Hesabınızın onaylanması için size bir e-posta göndereceğiz.</p>"},"email address":"E-posta Adresi:","confirm email address":"E-posta Adresini Onayla","not displayed publicly":"Herkes tarafından görüntülenemez (bkz. <a href=\"http://wiki.openstreetmap.org/wiki/Privacy_Policy\" title=\"e-posta adresleri bölümünü de içinde bulunduran viki gizlilik politikası\">gizlilik politikası</a>)","display name":"Görünen Ad:","display name description":"Herkes tarafından görünen ad. Bu adı istediği zaman 'tercihlerim' bölümünde değiştirebilirsin.","openid":"%{logo} OpenID:","password":"Şifre:","confirm password":"Şifre Onayla:","use openid":"Bunun yerine, %{logo} kullanarak giriş yapın","continue":"Kaydol","terms accepted":"Yeni katılımcı şartları kabul ettiğin için teşekkür ederiz!"},"terms":{"title":"Katılımcı Şartları","heading":"Katılımcı Şartları","read and accept":"Lütfen aşağıdaki anlaşmayı okuyun ve mevcut ya da gelecekteki katkılarınız için bu sözleşmenin şartlarını kabul ettiğinizi onaylamak için kabul et butonuna basın.","consider_pd":"Yukarıdaki anlaşmaya ek olarak, katkılarınızın kamu malı olarak kabul edilmesini de seçebilirsiniz","consider_pd_why":"bu nedir?","guidance":"Buradaki bilgileri anlamanıza yardımcı olabilecek bilgiler:  <a href=\"%{summary}\">okunabilir bir özet</a> ve ayrıca <a href=\"%{translations}\">genel çeviriler</a>","agree":"Kabul Et","decline":"Reddet","you need to accept or decline":"Lütfen katılımcı şartlarını okuyunuz ve şartları kabul ya da ret ediniz.","legale_select":"İkamet edilen ülke:","legale_names":{"france":"Fransa","italy":"İtalya","rest_of_world":"Dünyanın geri kalanı"}},"no_such_user":{"title":"Böyle bir kullanıcı yok","heading":"%{user} adlı bir kullanıcı yok.","body":"Üzgünüz, %{user} adlı bir kullanıcı yok. Lütfen yazımınızı denetleyin veya tıkladığınız bağlantı belki yanlış idi."},"view":{"my diary":"Günlüğüm","new diary entry":"yeni kayıt","my edits":"Katkılarım","my traces":"GPS İzlerim","my notes":"Notlarım","my messages":"İletilerim","my profile":"Profilim","my settings":"Tercihlerim","my comments":"Yorumlarım","oauth settings":"OAuth ayarları","blocks on me":"Engellendiklerim","blocks by me":"Engellediklerim","send message":"Mesaj Gönder","diary":"Günlük","edits":"Düzenlemeleri","traces":"İzleri","notes":"Harita Notları","remove as friend":"Arkadaş listesinden çıkart","add as friend":"Arkadaş olarak ekle","mapper since":"Haritacılığın başlangıç tarihi:","ago":"(%{time_in_words_ago} önce)","ct status":"Katılımcının şartları:","ct undecided":"Kararsız","ct declined":"Reddetti","ct accepted":"%{ago} önce kabul etti","latest edit":"Son değişiklik %{ago}:","email address":"E-posta adresi:","created from":"Kullanıldı yazılım:","status":"Durum:","spam score":"Spam puanı:","description":"Açıklama","user location":"Kullanıcının konumu","settings_link_text":"ayarları","your friends":"Arkadaş listesi","no friends":"Henüz herhangi bir arkadaş eklemediniz.","km away":"%{count} km uzak","m away":"%{count} metre yakın","nearby users":"Yakın çevrede bulunan kullanıcılar","no nearby users":"Yakın çevredeki herhangi başka kullanıcı henüz yok.","role":{"administrator":"Bu kullanıcı bir yönetici dir.","moderator":"Bu kullanıcı bir moderatör dür.","grant":{"administrator":"Yönetici erişim hakkı","moderator":"Moderatör erişim izni"},"revoke":{"administrator":"Yönetici erişimini iptal etme","moderator":"Moderatör erişimini iptal etme"}},"block_history":"alınan engellemeleri","moderator_history":"verilen engellemeleri","comments":"Yorumlar","create_block":"Bu kullanıcıyı engelle","activate_user":"Bu kullanıcıyı etkinleştir","deactivate_user":"bu kullanıcıyı pasifleştir","confirm_user":"bu kullanıcıyı onayla","hide_user":"bu kullanıcı gizle","unhide_user":"kullanıcının gizlenmesini kaldır","delete_user":"bu kullanıcıyı sil","confirm":"Onayla","friends_changesets":"arkadaşların değişiklik kayıtları","friends_diaries":"arkadaşların günlük girdileri","nearby_changesets":"yakınlarındaki kullanıcıların bütün değişiklik kayıtları","nearby_diaries":"yakınlarındaki kullanıcıların bütün günlük girdileri"},"popup":{"your location":"Konumum","nearby mapper":"Komşu haritacı","friend":"Arkadaş"},"account":{"title":"Hesabı düzenle","my settings":"Profil ayarlarım","current email address":"Geçerli E-posta Adresi:","new email address":"Yeni E-posta Adresi:","email never displayed publicly":"(hiçbir zaman görüntülenmez)","openid":{"openid":"OpenID:","link":"http://wiki.openstreetmap.org/wiki/OpenID","link text":"Bu nedir?"},"public editing":{"heading":"Herkese açık düzenleme modu:","enabled":"Etkin. Anonim değil ve verileri düzenleyebilir.","enabled link":"http://wiki.openstreetmap.org/wiki/Anonymous_edits","enabled link text":"Bu nedir?","disabled":"Devre dışı ve verileri düzenleyemez; önceki düzenlemeleri hepsi anonimdir.","disabled link text":"neden düzenleyemiyorum?"},"public editing note":{"heading":"Herkese açık düzenleme modu"},"contributor terms":{"heading":"Katılımcı Şartları:","agreed":"Yeni katılımcı şartları kabul ettin.","not yet agreed":"Yeni katılımcı şartları kabul etmedin.","agreed_with_pd":"Ayrıca düzenlediklerin Kamu Malı olsun diye kabul ettin.","link text":"Bu nedir?"},"profile description":"Tanıtım:","preferred languages":"Tercih edilen diller (mesela tr,en,de):","preferred editor":"Tercih edilen harita düzenleyici:","image":"Resim:","gravatar":{"gravatar":"Gravatar kullanın","link text":"bu nedir?"},"new image":"Resim ekle","keep image":"Geçerli resim dursun","delete image":"Geçerli resim kaldır","replace image":"Geçerli resmi değiştir","image size hint":"(100x100 olan kare görüntüleri en iyi görünür)","home location":"Konum:","no home location":"Konumunu girmedin.","latitude":"Enlem:","longitude":"Boylam:","update home location on click":"Haritada tıkladığımda konumum güncelleştirilsin mi?","save changes button":"Değişiklikleri Kaydet","make edits public button":"Bütün girdiklerim herkese açık olsun","return to profile":"Profile dön","flash update success confirm needed":"Kullanıcı bilgisi başarıyla güncellendi. Yeni e-posta adresinizi onaylamak için e-mail'inizi lütfen kontrol ediniz.","flash update success":"Kullanıcı bilgisi başarıyla güncellendi."},"confirm":{"heading":"E-postalarını kontrol et!","introduction_1":"Size bir doğrulama e-postası gönderdik.","introduction_2":"E-postadaki bağlantıya tıklayarak hesabınızı doğrulayın ve daha sonra haritalama yapmanız mümkün olacak.","button":"Onayla","reconfirm_html":"Doğrulama e-postasının tekrar gönderimi için bize ihtiyacınız varsa, <a href=\"%{reconfirm}\">buraya tıklayın</a>."},"confirm_resend":{"success":"Yeni bir onay mesajı %{email} adresine gönderdik. Mesajı onaylar onaylamaz haritacılığı başlayabilirsiniz.<br><br>Eğer onaylama mesajını almadısanız e-postanızın Antispam/Junk/İstenmeyen klasörüne lütfen kontrol ediniz.","failure":"%{name} kullanıcısı bulunamadı."},"confirm_email":{"button":"Onayla","success":"E-posta adresinizi doğrulandı, kaydolduğu için teşekkür ederiz! İyi çalışmaları dileriz!"},"set_home":{"flash success":"Ev konumu başarıyla kaydedildi"},"make_friend":{"success":"%{name} arkadaş listesinde eklendi."},"remove_friend":{"success":"%{name} arkadaş listesinden çıkarıldı."},"list":{"title":"Kullanıcılar","heading":"Kullanıcılar","showing":{"one":"Sayfa %{page} (%{first_item} - toplam %{items})","other":"Sayfa %{page} (%{first_item}-%{last_item} - toplam %{items})"},"summary_no_ip":"%{name} %{date} tarihinde oluşturuldu."},"suspended":{"title":"Hesap Askıda","heading":"Hesap Askıda","webmaster":"site yönetici"}},"user_role":{"grant":{"confirm":"Onayla"},"revoke":{"confirm":"Onayla"}},"user_block":{"create":{"try_contacting":"Lütfen kullanıcıyı engellemeden önce onunla iletişime geçmeyi deneyin ve cevap verebilmesi için makul bir zaman verin.","try_waiting":"Lütfen kullanıcıyı engellemeden önce, cevap verebilmesi için makul bir süre veriniz.","flash":"%{name} kullanıcısına engel oluşturuldu."},"update":{"only_creator_can_edit":"Sadece bu engeli oluşturan moderatör düzenleyebilir.","success":"Engel güncellendi."},"index":{"title":"Kullanıcı engelleri","heading":"Kullanıcı engelleri listesi","empty":"Henüz engelleme yapılmamış."},"revoke":{"title":"%{block_on} engellerini iptal etme","heading":"%{block_by} tarafından yapılan %{block_on} engellerini iptal etme","time_future":"Engellenme %{time} içerisinde bitecek.","past":"Bu engelleme %{time} önce bitmiş ve artık iptal edilemez.","confirm":"Bu engeli kaldırmak istediğine emin misin?","revoke":"İptal!","flash":"Engel kaldırıldı."},"period":{"one":"1 saat","other":"%{count} saat"},"partial":{"show":"Göster","edit":"Düzenle","revoke":"İptal!","confirm":"Emin misin?","display_name":"Engellenmiş kullanıcı","creator_name":"Oluşturan","reason":"Engelleme sebebi","status":"Durum","revoker_name":"İptal eden","not_revoked":"(iptal edilmemiş)","showing_page":"Sayfa %{page}","next":"Sonraki »","previous":"« Önceki"},"helper":{"time_future":"%{time} içinde bitecek.","until_login":"Kullanıcı giriş yapana kadar aktif.","time_past":"%{time} önce bitti."},"blocks_on":{"title":"%{name} kişisinin engelleri","heading":"%{name} hakkında engelleme kayıtları","empty":"%{name} henüz engellenmiş değil."},"blocks_by":{"title":"%{name} tarafından engellenenler","heading":"%{name} tarafından engellenenlerin listesi","empty":"%{name} şimdiye kadar hiç bloklamamış."},"show":{"title":"%{block_on} kişisi %{block_by} tarafından engellendi","heading":"%{block_on} kişisi %{block_by} tarafından engellendi","time_future":"%{time} içinde bitecek","time_past":"%{time} önce bitti","status":"Durum","show":"Göster","edit":"Değiştir","revoke":"İptal!","confirm":"Emin misin?","reason":"Engelleme sebebi:","back":"Tüm engellemeleri göster","revoker":"Geri alan:","needs_view":"Engel kaldırılmadan önce kullanıcının giriş yapması gerekiyor."}},"note":{"description":{"opened_at_by_html":"%{when} önce %{user} tarafından oluşturuldu"}},"javascripts":{"share":{"title":"Paylaş","cancel":"İptal","image":"Görsel","link":"Bağlantı veya HTML","long_link":"Bağlantı","short_link":"Kısa Bağlantı","embed":"HTML","custom_dimensions":"Özel boyutlar belirt","scale":"Ölçek:","image_size":"Görsel standart katmanı şu boyutta gösterecek (piksel)","download":"İndir","include_marker":"İşaret ekle"},"key":{"title":"Lejant","tooltip":"Lejant","tooltip_disabled":"Lejant sadece standart katmanı için kullanılmakta"},"map":{"zoom":{"in":"Yakınlaştır","out":"Uzaklaştır"},"locate":{"title":"Konumumu göster"},"base":{"standard":"Standart","cycle_map":"Bisikletler için Harita","transport_map":"Ulaşım Haritası","mapquest":"MapQuest Open","hot":"İnsancıl"},"layers":{"header":"Harita Katmanları","notes":"Harita Notları","data":"Harita Verileri","overlays":"Sorun giderebilmek için kaplamaları etkinleştir","title":"Katmanlar"},"copyright":"© <a href='%{copyright_url}'>OpenStreetMap katkıda bulunanları</a>","donate_link_text":"<a class='donate-attr' href='%{donate_url}'>Bağış Yapın</a>"},"site":{"edit_tooltip":"Haritayı düzenle","edit_disabled_tooltip":"Haritayı düzenlemek için yakınlaştırın","createnote_tooltip":"Haritaya bir not ekle","createnote_disabled_tooltip":"Not eklemek için haritayı yakınlaştır","map_notes_zoom_in_tooltip":"Harita notları görmek için yakınlaştır","map_data_zoom_in_tooltip":"Harita verileri görmek için yakınlaştır","queryfeature_tooltip":"Özellikleri göster","queryfeature_disabled_tooltip":"Özellikler görmek için yakınlaştır"},"notes":{"new":{"intro":"Bir hata ya da eksik bir şey mi var? Bu sorunun düzeltilebilmesi için diğer haritacılara bildirin. İmleci doğru konuma taşıyın ve sorunu açıklayan bir not yazın. (Lütfen kişisel bilgilerinizi ya da telif hakkı saklı olan haritalardaki bilgileri ya da rehber listeleri girmeyiniz.)","add":"Not Ekle"},"show":{"anonymous_warning":"Bu not anonim kullanıcılardan yorumlar içerdiğinden bağımsız olarak doğrulanması gerekir.","hide":"Gizle","resolve":"Çözümle","comment":"Yorum"}},"edit_help":"Haritayı sürükleyip ve düzenleme yapmak istediğiniz konuma yakınlaştırdıktan sonra buraya tıklayın."},"redaction":{"edit":{"description":"Açıklama","heading":"Redaksiyonu düzenle","submit":"Redaksiyonu kaydet","title":"Redaksiyonu düzenle"},"index":{"empty":"Gösterilecek redaksiyon yok.","heading":"Redaksiyonların listesi","title":"Redaksiyonların listesi"},"new":{"description":"Açıklama","heading":"Yeni redaksiyon için bilgi giriniz","submit":"Redaksiyon oluştur","title":"Yeni redaksiyon oluşturma"},"show":{"description":"Açıklama:","heading":"Redaksiyon \"%{title}\" göster","title":"Redaksiyon göster","user":"Oluşturan:","edit":"Bu redaksiyonu düzenle","destroy":"Bu redaksiyonu kaldır","confirm":"Emin misiniz?"},"create":{"flash":"Redaksiyon oluşturuldu."},"update":{"flash":"Değişiklikler kaydedildi."},"destroy":{"not_empty":"Redaksiyon boş değil. Lütfen bu redaksiyonu kaldırmadan önce tüm sürümlerini tekrar düzenleyin.","flash":"Redaksiyon kaldırıldı.","error":"Bu redaksiyon kaldırılırken bir hata oluştu."}}}}
+{
+	"tr": {
+		"time": {
+			"formats": {
+				"friendly": "%e %B %Y saat %H:%M"
+			}
+		},
+		"activerecord": {
+			"models": {
+				"acl": "Erişim Kontrol Listesi",
+				"changeset": "Değişiklik Kaydı",
+				"changeset_tag": "Değişiklik kayıdının etiketi",
+				"country": "Ülke",
+				"diary_comment": "Günlük Yorumu",
+				"diary_entry": "Günlük Girdisi",
+				"friend": "Arkadaş",
+				"language": "Dil",
+				"message": "Mesaj",
+				"node": "Nokta",
+				"node_tag": "Nokta Etiketi",
+				"notifier": "Bildiren",
+				"old_node": "Eski Nokta",
+				"old_node_tag": "Eski Nokta Etiketi",
+				"old_relation": "Eski Relasyon",
+				"old_way": "Eski Yol",
+				"old_way_tag": "Eski Yol Etiketi",
+				"relation": "İlişki",
+				"relation_member": "Relasyon Üyesi",
+				"session": "Oturum",
+				"trace": "Rota",
+				"tracepoint": "İzleme Noktası",
+				"tracetag": "İzleme Etiketi",
+				"user": "Kullanıcı",
+				"user_preference": "Kullanıcı Tercihleri",
+				"way": "Yol",
+				"way_node": "Yol Noktası",
+				"way_tag": "Yol Etiketi"
+			},
+			"attributes": {
+				"diary_comment": {
+					"body": "Mesaj"
+				},
+				"diary_entry": {
+					"user": "Kullanıcı",
+					"title": "Konu",
+					"latitude": "Enlem",
+					"longitude": "Boylam",
+					"language": "Dil"
+				},
+				"friend": {
+					"user": "Kullanıcı",
+					"friend": "Arkadaş"
+				},
+				"trace": {
+					"user": "Kullanıcı",
+					"visible": "Görünür",
+					"name": "Ad",
+					"size": "Boyut",
+					"latitude": "Enlem",
+					"longitude": "Boylam",
+					"public": "Kamu",
+					"description": "Açıklama"
+				},
+				"message": {
+					"sender": "Gönderen",
+					"title": "Konu",
+					"body": "Mesaj",
+					"recipient": "Alıcı"
+				},
+				"user": {
+					"email": "E-posta",
+					"active": "Etkin",
+					"display_name": "Görünen Ad",
+					"description": "Tanım",
+					"languages": "Diller",
+					"pass_crypt": "Şifre"
+				}
+			}
+		},
+		"editor": {
+			"default": "Varsayılan (kullanılan %{name})",
+			"potlatch": {
+				"name": "Potlatch 1",
+				"description": "Potlatch 1 (flash tarayıcı düzenleyici, eski)"
+			},
+			"id": {
+				"name": "iD",
+				"description": "iD (tarayıcı düzenleyici)"
+			},
+			"potlatch2": {
+				"name": "Potlatch 2",
+				"description": "Potlatch 2 (flash tarayıcı düzenleyici, yeni)"
+			},
+			"remote": {
+				"name": "Uzaktan Kumanda",
+				"description": "Uzaktan Kumanda (JOSM veya Merkaartor)"
+			}
+		},
+		"browse": {
+			"created": "Oluşturuldu",
+			"closed": "Kapandı",
+			"created_html": "<abbr title='%{title}'>%{time} önce</abbr> oluşturuldu",
+			"closed_html": "<abbr title='%{title}'>%{time} önce</abbr> kapandı",
+			"created_by_html": "<abbr title='%{title}'>%{time} önce</abbr> %{user} tarafından oluşturuldu",
+			"deleted_by_html": "<abbr title='%{title}'>%{time} önce</abbr> %{user} tarafından silindi",
+			"edited_by_html": "<abbr title='%{title}'>%{time} önce</abbr> %{user} tarafından düzenlendi",
+			"closed_by_html": "<abbr title='%{title}'>%{time} önce</abbr> %{user} tarafından kapandı",
+			"version": "Sürüm",
+			"in_changeset": "Değişiklik Kayıdı",
+			"anonymous": "anonim",
+			"no_comment": "(yorum yok)",
+			"part_of": "Ortak parça",
+			"download_xml": "XML İndir",
+			"view_history": "Geçmişi Görüntüle",
+			"view_details": "Ayrıntıları Görüntüle",
+			"location": "Konum:",
+			"changeset": {
+				"title": "Değişiklik takımı: %{id}",
+				"belongs_to": "Yazar",
+				"node": "Noktalar (%{count})",
+				"node_paginated": "Nokta (%{x}-%{y} - toplam %{count})",
+				"way": "Yollar (%{count})",
+				"way_paginated": "Yol (%{x}-%{y} - toplam %{count})",
+				"relation": "Relasyonlar (%{count})",
+				"relation_paginated": "Relasyon (%{x}-%{y} - toplam %{count})",
+				"changesetxml": "Değişiklik takımı XML",
+				"osmchangexml": "osmChange XML",
+				"feed": {
+					"title": "Değişiklik takımı %{id}",
+					"title_comment": "Değişiklik takımı %{id} - %{comment}"
+				},
+				"join_discussion": "Tartışmaya katılmak için lütfen giriş yap",
+				"discussion": "Tartışma"
+			},
+			"node": {
+				"title": "Nokta: %{name}",
+				"history_title": "Nokta Geçmişi: %{name}"
+			},
+			"way": {
+				"title": "Yol: %{name}",
+				"history_title": "Yol geçmişi: %{name}",
+				"nodes": "Noktalar"
+			},
+			"relation": {
+				"title": "Relasyon: %{name}",
+				"history_title": "Relasyon Geçmişi: %{name}",
+				"members": "Üyeler"
+			},
+			"relation_member": {
+				"entry_role": "%{type} %{name}, adı %{role}",
+				"type": {
+					"node": "Nokta",
+					"way": "Yol",
+					"relation": "İlişki"
+				}
+			},
+			"containing_relation": {
+				"entry": "İlişki %{relation_name}",
+				"entry_role": "İlişki %{relation_name} (%{relation_role} olarak)"
+			},
+			"not_found": {
+				"sorry": "Üzgünüm, #%{id} numaralı %{type} bulunamadı.",
+				"type": {
+					"node": "nokta",
+					"way": "yol",
+					"relation": "ilişki",
+					"changeset": "değişiklik takımı"
+				}
+			},
+			"timeout": {
+				"type": {
+					"node": "nokta",
+					"way": "yol",
+					"relation": "ilişki",
+					"changeset": "değişiklik takımı"
+				}
+			},
+			"redacted": {
+				"type": {
+					"node": "nokta",
+					"way": "yol",
+					"relation": "ilişki"
+				}
+			},
+			"start_rjs": {
+				"feature_warning": "Tarayıcınızın yavaşlamasına veya yanıt vermemesine sebep olabilecek %{num_features} özellik yükleniyor. Bu veriyi görüntülemek istediğinize emin misiniz?",
+				"load_data": "Veri Yükle",
+				"loading": "Yükleniyor..."
+			},
+			"tag_details": {
+				"tags": "Etiketler",
+				"wiki_link": {
+					"key": "%{key} parametresi için Viki açıklaması",
+					"tag": "%{key}=%{value} parametresi için Viki açıklaması"
+				},
+				"wikipedia_link": "%{page} hakkında Vikipedi maddesi",
+				"telephone_link": "%{phone_number} ara"
+			},
+			"note": {
+				"title": "Not: %{id}",
+				"new_note": "Yeni Not",
+				"description": "Açıklama",
+				"open_title": "Çözümlenmemiş not: #%{note_name}",
+				"closed_title": "Çözümlenmiş not: #%{note_name}",
+				"hidden_title": "Saklı not #%{note_name}",
+				"open_by": "%{user} tarafından <abbr title='%{exact_time}'>%{when} önce</abbr> oluşturuldu",
+				"open_by_anonymous": "Anonim olarak <abbr title='%{exact_time}'>%{when} önce</abbr> oluşturuldu",
+				"commented_by": "%{user} kullanıcısının <abbr title='%{exact_time}'>%{when} önceki</abbr> yorumu",
+				"commented_by_anonymous": "Anonim kullanıcının <abbr title='%{exact_time}'>%{when} önceki</abbr> yorumu"
+			},
+			"query": {
+				"title": "Özellikleri Göster"
+			}
+		},
+		"changeset": {
+			"changeset_paging_nav": {
+				"showing_page": "Sayfa: %{page}",
+				"next": "Sonraki »",
+				"previous": "« Önceki"
+			},
+			"changeset": {
+				"anonymous": "Anonim",
+				"no_edits": "(düzenleme yok)",
+				"view_changeset_details": "Değişiklik setleri ayrıntılı görüntüle"
+			},
+			"changesets": {
+				"id": "NO",
+				"saved_at": "Kaydetme Tarih",
+				"user": "Kullanıcı",
+				"comment": "Yorum",
+				"area": "Alan"
+			},
+			"list": {
+				"title": "Değişiklik Setleri",
+				"title_user": "%{user} tarafından değişiklik setleri",
+				"title_friend": "Arkadaşların değişiklik kayıtları",
+				"title_nearby": "Yakındaki kullanıcıların değişiklik kayıtları",
+				"load_more": "Daha fazla"
+			},
+			"timeout": {
+				"sorry": "Üzgünüz, değişiklik kayıtlarının listelenmesi fazla sürdü."
+			},
+			"rss": {
+				"title_all": "Değişiklik takımı tartışması",
+				"title_particular": "Değişiklik takımı #%{changeset_id} tartışması",
+				"full": "Bütün tartışma"
+			}
+		},
+		"diary_entry": {
+			"new": {
+				"title": "Yeni Günlük Girdisi"
+			},
+			"list": {
+				"title": "Kullanıcıların günlükleri",
+				"title_friends": "Arkadaşlarının günlükleri",
+				"title_nearby": "Yakındaki kullanıcıların günlükleri",
+				"user_title": "%{user} (Günlük)",
+				"in_language_title": "%{language} dillindeki günlük kayıtları",
+				"new": "Yeni Günlük Kayıdı",
+				"new_title": "Yeni bir kayıt ekle günlüğünde",
+				"no_entries": "Günlük girdisi yok",
+				"recent_entries": "Son günlük kayıtları",
+				"older_entries": "Daha eski kayıtlar",
+				"newer_entries": "Daha yeni kayıtlar"
+			},
+			"edit": {
+				"title": "Günlük girdisi düzenle",
+				"subject": "Konu:",
+				"body": "Mesaj:",
+				"language": "Dil:",
+				"location": "Konum:",
+				"latitude": "Enlem:",
+				"longitude": "Boylam:",
+				"use_map_link": "Haritayı kullanarak belirt",
+				"save_button": "Kaydet",
+				"marker_text": "Girdisinin konumu"
+			},
+			"view": {
+				"title": "%{user} (günlük) | %{title}",
+				"user_title": "%{user} (Günlük)",
+				"leave_a_comment": "Yorum yaz",
+				"login_to_leave_a_comment": "Yorum yazmak için %{login_link}",
+				"login": "Giriş",
+				"save_button": "Kaydet"
+			},
+			"no_such_entry": {
+				"title": "Böyle bir günlük kaydı bulunmuyor",
+				"heading": "Bu numaraya sahip giriş yok: %{id}",
+				"body": "Üzgünüz, %{id} numaralı bir günlük girdisi ya da yorumu yok. Lütfen harfleri kontrol edin, ya da tıkladığınız link yanlış olabilir."
+			},
+			"diary_entry": {
+				"posted_by": "%{link_user} tarafından %{created} tarihinde %{language_link} dilinde gönderildi",
+				"comment_link": "Bu girdisi yorumla",
+				"reply_link": "Bu girdisi yanıtla",
+				"comment_count": {
+					"one": "1 yorum",
+					"zero": "yorumsuz",
+					"other": "%{count} yorum"
+				},
+				"edit_link": "Bu girdisi düzenle",
+				"hide_link": "Bu girdisi gizle",
+				"confirm": "Onayla"
+			},
+			"diary_comment": {
+				"comment_from": "%{link_user} tarafından %{comment_created_at} tarihindeki yorum",
+				"hide_link": "Bu yorum gizle",
+				"confirm": "Onayla"
+			},
+			"location": {
+				"location": "Konum:",
+				"view": "Göster",
+				"edit": "Düzenle"
+			},
+			"feed": {
+				"user": {
+					"title": "%{user} tarafından haritacılık konusunda yazdığı günlük girdileri",
+					"description": "%{user} tarafından haritacılık konusunda yazdığı en son günlük girdileri"
+				},
+				"language": {
+					"title": "%{language_name} dillindeki günlük girdileri",
+					"description": "Kullanıcıların %{language_name} dillindeki en son günlük girdileri"
+				},
+				"all": {
+					"title": "OpenStreetMap günlük girdileri",
+					"description": "OpenStreetMap kullanıcıların en son günlük kayıtları"
+				}
+			},
+			"comments": {
+				"has_commented_on": "%{display_name} aşağıdaki günlük girdilerini yorumladı",
+				"post": "Yazı",
+				"when": "Tarih",
+				"comment": "Yorum",
+				"ago": "%{ago} önce",
+				"newer_comments": "Daha yeni yorumlar",
+				"older_comments": "Daha eski yorumlar"
+			}
+		},
+		"export": {
+			"title": "Dışa aktar",
+			"start": {
+				"area_to_export": "Çıkartılacak alan",
+				"manually_select": "Fare kullanarak farklı bir alan seç",
+				"format_to_export": "Çıkartma biçimi",
+				"osm_xml_data": "OpenStreetMap XML Veri",
+				"map_image": "Harita (varsayılan katmanı gösterir)",
+				"embeddable_html": "Gömülebilir HTML",
+				"licence": "Lisans",
+				"export_details": "OpenStreetMap verileri, <a href=\"http://opendatacommons.org/licenses/odbl/1.0/\">Open Data Commons Open Database License</a>  (ODbL) altında lisanslanmıştır.",
+				"too_large": {
+					"body": "Bu alan OpenStreetMap XML verisi olarak verilmesine kadar büyüktür. Lütfen yakınlaştır veya daha küçük bir alan seç ya da aşağıdaki verilen diğer kaynakları kullan.",
+					"planet": {
+						"title": "OSM Gezegeni"
+					},
+					"overpass": {
+						"title": "Overpass API"
+					},
+					"geofabrik": {
+						"title": "Geofabrik İndirmeleri"
+					},
+					"metro": {
+						"title": "Büyükşehir Çıktıları",
+						"description": "Büyükşehir ile banliyölerin çıktıkları"
+					},
+					"other": {
+						"title": "Diğer Kaynaklar"
+					}
+				},
+				"options": "Seçenekler",
+				"format": "Biçim",
+				"scale": "Ölçek",
+				"max": "maks.",
+				"image_size": "Resim Boyutu",
+				"zoom": "Yakınlaştır",
+				"add_marker": "Haritaya bir işaret ekle",
+				"latitude": "Enlem:",
+				"longitude": "Boylam:",
+				"output": "Çıktı",
+				"paste_html": "Yukarıdaki HTML kodu kopyalayıp websitesinde yapıştırabilir",
+				"export_button": "Çıkart"
+			}
+		},
+		"geocoder": {
+			"search": {
+				"title": {
+					"latlon": "<a href=\"http://openstreetmap.org/\">OSM</a>'in sonuçları",
+					"us_postcode": "<a href=\"http://geocoder.us/\">Geocoder.us</a>'ın sonuçları",
+					"uk_postcode": "<a href=\"http://www.npemap.org.uk/\">FreeThe Postcode</a> sonuçları (İngiltere)",
+					"ca_postcode": "<a href=\"http://geocoder.ca/\">Geocoder.CA</a>'dan sonuçları",
+					"osm_nominatim": "<a href=\"http://nominatim.openstreetmap.org/\">OSM Nominatim</a> sonuçları",
+					"geonames": "<a href=\"http://www.geonames.org/\">GeoNames</a>'in sonuçları",
+					"osm_nominatim_reverse": "<a href=\"http://nominatim.openstreetmap.org/\">OpenStreetMap Nominatim</a>'in sonuçları",
+					"geonames_reverse": "<a href=\"http://www.geonames.org/\">GeoNames</a>'in sonuçları"
+				}
+			},
+			"search_osm_nominatim": {
+				"prefix": {
+					"aerialway": {
+						"station": "Teleferik İstasyonu"
+					},
+					"aeroway": {
+						"aerodrome": "Havaalanı",
+						"apron": "Apron",
+						"gate": "Kapı",
+						"helipad": "Helikopter alanı",
+						"runway": "Uçak pisti",
+						"taxiway": "Taksi yolu",
+						"terminal": "Terminal"
+					},
+					"amenity": {
+						"airport": "Havaalanı",
+						"arts_centre": "Sanat Merkezi",
+						"artwork": "Sanat eseri",
+						"atm": "Bankamatik",
+						"auditorium": "Oditoryum",
+						"bank": "Banka",
+						"bar": "Bar",
+						"bbq": "Mangal alanı",
+						"bench": "Bank",
+						"bicycle_parking": "Bisiklet Parkı",
+						"bicycle_rental": "Bisiklet kiralama",
+						"biergarten": "Bira Bahçesi",
+						"brothel": "Genelev",
+						"bureau_de_change": "Döviz bürosu",
+						"bus_station": "Otogar",
+						"cafe": "Cafe",
+						"car_rental": "Araba Kiralama",
+						"car_sharing": "Araç Paylaşımı",
+						"car_wash": "Oto Yıkama",
+						"casino": "Kasino",
+						"charging_station": "Şarj İstasyonu",
+						"cinema": "Sinema",
+						"clinic": "Klinik",
+						"club": "Kulüp",
+						"college": "Lise",
+						"courthouse": "Adliye",
+						"crematorium": "Krematoryum",
+						"dentist": "Diş hekimi",
+						"doctors": "Doktorlar",
+						"dormitory": "Yurt",
+						"drinking_water": "İçme Suyu",
+						"driving_school": "Sürücü Kursu",
+						"embassy": "Elçilik",
+						"emergency_phone": "Acil Telefon",
+						"fast_food": "Büfe / Fast Food",
+						"ferry_terminal": "Feribot Terminali",
+						"fire_hydrant": "Yangın musluğu",
+						"fire_station": "Itfaiye",
+						"fountain": "Fıskiye",
+						"fuel": "Petrol ofisi",
+						"grave_yard": "Mezarlık",
+						"gym": "Fitness Merkezi / Spor Salonu",
+						"hall": "Toplantı salonu",
+						"health_centre": "Sağlık Merkezi",
+						"hospital": "Hastane",
+						"hotel": "Hotel",
+						"hunting_stand": "Avcılık Standı",
+						"ice_cream": "Dondurma",
+						"kindergarten": "Kreş",
+						"library": "Kütüphane",
+						"market": "Pazar yeri",
+						"marketplace": "Pazar yeri",
+						"mountain_rescue": "Dağ Kurtarma",
+						"nightclub": "Gece Kulübü",
+						"nursery": "Kreş",
+						"nursing_home": "Huzurevi",
+						"office": "Ofis",
+						"park": "Park",
+						"parking": "Otopark",
+						"pharmacy": "Eczane",
+						"place_of_worship": "İbadethane / Tapınak",
+						"police": "Polis",
+						"post_box": "Posta kutusu",
+						"post_office": "Postane",
+						"preschool": "Anaokulu",
+						"prison": "Cezaevi",
+						"pub": "Birahane",
+						"public_building": "Kamu Binası",
+						"public_market": "Halk Pazarı",
+						"reception_area": "Resepsiyon Alanı",
+						"recycling": "Geri dönüşüm noktası",
+						"restaurant": "Restoran",
+						"retirement_home": "Bakımevi",
+						"sauna": "Hamam / Sauna",
+						"school": "Okul",
+						"shelter": "Korunak",
+						"shop": "Dükkan",
+						"shopping": "Alışveriş Merkezi",
+						"shower": "Duş",
+						"social_centre": "Sosyal Merkez",
+						"social_club": "Sosyal kulübü",
+						"social_facility": "Sosyal Tesis",
+						"studio": "Stüdyo",
+						"supermarket": "Süpermarket",
+						"swimming_pool": "Yüzme Havuzu",
+						"taxi": "Taksi",
+						"telephone": "Telefon",
+						"theatre": "Tiyatro",
+						"toilets": "Tuvalet",
+						"townhall": "Belediye binası",
+						"university": "Üniversite",
+						"vending_machine": "Satış makinesi",
+						"veterinary": "Veteriner",
+						"village_hall": "Köy odası",
+						"waste_basket": "Çöp sepeti",
+						"wifi": "WiFi erişim",
+						"WLAN": "WiFi Erişim Noktası",
+						"youth_centre": "Gençlik Merkezi"
+					},
+					"boundary": {
+						"administrative": "İdari Sınır",
+						"national_park": "Milli Park",
+						"protected_area": "Korumalı Alan"
+					},
+					"bridge": {
+						"aqueduct": "Su kemeri",
+						"suspension": "Asma köprüsü",
+						"swing": "Asma Köprüsü",
+						"viaduct": "Viyadük",
+						"yes": "Köprü"
+					},
+					"building": {
+						"yes": "Bina"
+					},
+					"emergency": {
+						"fire_hydrant": "Yangın Musluğu",
+						"phone": "Acil Durum Telefonu"
+					},
+					"highway": {
+						"bridleway": "At yürüyüş yolu",
+						"bus_guideway": "Güdümlü otobüs yolu",
+						"bus_stop": "Otobüs durağı",
+						"byway": "Yan yolu",
+						"construction": "İnşaa halinde yolu",
+						"cycleway": "Bisiklet Yolu",
+						"emergency_access_point": "Acil Erişim Noktası",
+						"footway": "Yaya yolu",
+						"ford": "Akarsu geçidi",
+						"living_street": "Yaşam sokağı",
+						"milestone": "Kilometre taşı",
+						"minor": "Ufak yol",
+						"motorway": "Otoyol",
+						"motorway_junction": "Otoyol Kavşağı",
+						"motorway_link": "Otoyol bağlantısı",
+						"path": "Patika",
+						"pedestrian": "Trafiğe kapalı yolu",
+						"platform": "Peron",
+						"primary": "Devlet Yolu",
+						"primary_link": "Devlet Yolu bağlantısı",
+						"proposed": "Planlanmış Yol",
+						"raceway": "Koşu yolu",
+						"residential": "Sokak",
+						"rest_area": "Dinlenme Alanı",
+						"road": "Yol",
+						"secondary": "İl yolu",
+						"secondary_link": "İl yolunun bağlantısı",
+						"service": "Servis Yolu",
+						"services": "Dinleme Tesisi",
+						"speed_camera": "Hız Kamerası",
+						"steps": "Merdiven",
+						"street_lamp": "Sokak Lambası",
+						"stile": "Çit basamağı",
+						"tertiary": "Köy arası yolu",
+						"tertiary_link": "Köy arası yolu",
+						"track": "Toprak yolu",
+						"trail": "İz",
+						"trunk": "Bölünmüş anayol",
+						"trunk_link": "Bölünmüş anayol bağlantısı",
+						"unclassified": "Sınıflandırılmamış yolu",
+						"unsurfaced": "Ham yolu"
+					},
+					"historic": {
+						"archaeological_site": "Arkeolojik Alan",
+						"battlefield": "Savaş alanı",
+						"boundary_stone": "Sınır Taşı",
+						"building": "Bina",
+						"castle": "Kale",
+						"church": "Kilise",
+						"citywalls": "Şehir Surları",
+						"fort": "Hisar",
+						"house": "Tarihi Konak",
+						"icon": "Simge",
+						"manor": "Köşk",
+						"memorial": "Anıt",
+						"mine": "Maden Ocağı",
+						"monument": "Anıt",
+						"museum": "Müze",
+						"ruins": "Harabe",
+						"tomb": "Mezar",
+						"tower": "Kule",
+						"wreck": "Batık Gemi"
+					},
+					"landuse": {
+						"allotments": "Bostan",
+						"basin": "Havuz",
+						"brownfield": "Çıplak Arazi",
+						"cemetery": "Mezarlık",
+						"commercial": "Ticari ve Hizmet Alanı",
+						"conservation": "Koruma",
+						"construction": "İnşaat",
+						"farm": "Çiftlik",
+						"farmland": "Tarım arazisi",
+						"farmyard": "Çiftlik avlusu",
+						"forest": "Orman",
+						"garages": "Garajlar",
+						"grass": "Çim",
+						"greenfield": "Nadas Alanı",
+						"industrial": "Sanayi Alanı",
+						"landfill": "Çöplük",
+						"meadow": "Mera",
+						"military": "Askeri Bölge",
+						"mine": "Maden Ocağı",
+						"orchard": "Meyve Bahçesi",
+						"nature_reserve": "Doğa Koruma Alanı",
+						"park": "Park",
+						"piste": "Pist",
+						"quarry": "Ocak",
+						"railway": "Demiryolu",
+						"recreation_ground": "Eğlence Parkı",
+						"reservoir": "Baraj Gölü",
+						"reservoir_watershed": "Akarsu Havzası",
+						"residential": "Yerleşim Bölgesi",
+						"retail": "Esnaf",
+						"road": "Yol Alanı",
+						"village_green": "Yeşil Alan",
+						"vineyard": "Bağ",
+						"wetland": "Sulak Alan",
+						"wood": "Orman"
+					},
+					"leisure": {
+						"beach_resort": "Plajlı tatilköyü",
+						"bird_hide": "Kuş Gözleme Yeri",
+						"common": "Genel Arazi",
+						"fishing": "Balıkçılık alanı",
+						"fitness_station": "Spor Merkezi",
+						"garden": "Bahçe",
+						"golf_course": "Golf Sahası",
+						"ice_rink": "Buz pateni",
+						"marina": "Marina",
+						"miniature_golf": "Minyatür Golf",
+						"nature_reserve": "Doğa Koruma Alanı",
+						"park": "Park",
+						"pitch": "Spor sahası",
+						"playground": "Çocuk parkı",
+						"recreation_ground": "Eğlence parkı",
+						"sauna": "Sauna",
+						"slipway": "Kızak yolu",
+						"sports_centre": "Spor Merkezi",
+						"stadium": "Stadyum",
+						"swimming_pool": "Yüzme Havuzu",
+						"track": "Koşuş yolu",
+						"water_park": "Su Parkı"
+					},
+					"military": {
+						"airfield": "Askeri Havaalanı",
+						"barracks": "Kışla",
+						"bunker": "Sığınak"
+					},
+					"mountain_pass": {
+						"yes": "Dağ Geçidi"
+					},
+					"natural": {
+						"bay": "Koy / körfez",
+						"beach": "Plaj",
+						"cape": "Burun",
+						"cave_entrance": "Mağara girişi",
+						"channel": "Kanal",
+						"cliff": "Uçurum",
+						"crater": "Krater",
+						"dune": "Kumul",
+						"feature": "Özelliği",
+						"fell": "Ağaçsız tepe",
+						"fjord": "Haliç",
+						"forest": "Orman",
+						"geyser": "Gayzer",
+						"glacier": "Buzul",
+						"heath": "Fundalık",
+						"hill": "Tepe",
+						"island": "Ada",
+						"land": "Kara",
+						"marsh": "Bataklık",
+						"moor": "Bataklık",
+						"mud": "Balçık",
+						"peak": "Tepe / zirve",
+						"point": "Nokta",
+						"reef": "Resif",
+						"ridge": "Sırt",
+						"river": "Nehir",
+						"rock": "Kayaç",
+						"scree": "Kayşat",
+						"scrub": "Çalılık",
+						"shoal": "Sığlık",
+						"spring": "Pınar",
+						"stone": "Taş",
+						"strait": "Boğaz",
+						"tree": "Ağaç",
+						"valley": "Dere/vadi",
+						"volcano": "Yanardağ",
+						"water": "Su",
+						"wetland": "Sulak alan",
+						"wetlands": "Sulak Alanlar",
+						"wood": "Orman"
+					},
+					"office": {
+						"accountant": "Muhasebeci",
+						"architect": "Mimar",
+						"company": "Şirket",
+						"employment_agency": "İş ve İşçi Bulma Kurumu",
+						"estate_agent": "Emlakçı",
+						"government": "Devlet Ofisi",
+						"insurance": "Sigorta Ofisi",
+						"lawyer": "Avukat",
+						"ngo": "STK Ofisi",
+						"telecommunication": "Telekomünikasyon Ofisi",
+						"travel_agent": "Seyahat Acentası",
+						"yes": "Ofis"
+					},
+					"place": {
+						"airport": "Havaalanı",
+						"city": "Büyükşehir / İl Merkezi",
+						"country": "Ülke",
+						"county": "İlçe",
+						"farm": "Tarla",
+						"hamlet": "Mezra",
+						"house": "Ev",
+						"houses": "Evler",
+						"island": "Ada",
+						"islet": "Adacık",
+						"isolated_dwelling": "İzole Konut",
+						"locality": "Yer/mevkii",
+						"moor": "Bataklık",
+						"municipality": "Belediye",
+						"neighbourhood": "Mahalle",
+						"postcode": "Posta kodu",
+						"region": "Bölge",
+						"sea": "Deniz",
+						"state": "İl",
+						"subdivision": "Alt bölümü",
+						"suburb": "Mahalle / Banliyö",
+						"town": "Şehir / ilçe merkezi",
+						"unincorporated_area": "Arazi",
+						"village": "Köy"
+					},
+					"railway": {
+						"abandoned": "Terkedilmiş Demiryolu",
+						"construction": "Yapım aşamasında Demiryolu",
+						"disused": "Kullanılmayan Demiryolu",
+						"disused_station": "Kullanılmayan Tren İstasyonu",
+						"funicular": "Füniküler hattı",
+						"halt": "Tren Durağı",
+						"historic_station": "Tarihi tren istasyonu",
+						"junction": "Demiryolu Kavşağı",
+						"level_crossing": "Demiryolu Geçidi",
+						"light_rail": "Dar raylı demiryolu",
+						"platform": "Peron",
+						"station": "Tren istasyonu",
+						"stop": "Tren Durağı",
+						"subway": "Metro istasyonu",
+						"subway_entrance": "Metro Giriş",
+						"switch": "Demiryolu makası",
+						"tram": "Tramvay",
+						"tram_stop": "Tramvay Durağı",
+						"yard": "Tren Avlusu"
+					},
+					"shop": {
+						"alcohol": "Tekel bayii",
+						"antiques": "Antikacı",
+						"art": "Sanat Galerisi",
+						"bakery": "Fırın",
+						"beauty": "Güzellik Salonu",
+						"beverages": "İçecek Dükkanı",
+						"bicycle": "Bisikletçi",
+						"books": "Kitap Evi",
+						"boutique": "Butik",
+						"butcher": "Kasap",
+						"car": "Araba Galerisi",
+						"car_parts": "Araba Parçası Dükkanı",
+						"car_repair": "Oto tamir",
+						"carpet": "Halı Dükkanı",
+						"chemist": "Eczacı",
+						"clothes": "Giysi Dükkanı",
+						"computer": "Bilgisayar Mağazası",
+						"confectionery": "Pastane",
+						"convenience": "Bakkal",
+						"copyshop": "Fotokopi Merkezi",
+						"cosmetics": "Kozmetik Mağazası",
+						"deli": "Şarküteri",
+						"department_store": "Mağaza",
+						"discount": "İndirimli Ürünler Mağazası",
+						"dry_cleaning": "Kuru Temizleme",
+						"electronics": "Elektronik Mağazası",
+						"estate_agent": "Emlakçı",
+						"farm": "Tarım Ürünleri Dükkanı",
+						"fashion": "Moda Dükkanı",
+						"fish": "Balık Dükkanı",
+						"florist": "Çiçekçi",
+						"food": "Yiyecek Dükkanı",
+						"furniture": "Mobilya",
+						"gallery": "Galeri",
+						"garden_centre": "Bahçe Merkezi",
+						"general": "Bakkal",
+						"gift": "Hediye eşya",
+						"greengrocer": "Manav",
+						"grocery": "Manav",
+						"hairdresser": "Kuaför",
+						"hardware": "Hırdavatçı",
+						"hifi": "Hi-Fi",
+						"insurance": "Sigorta",
+						"jewelry": "Kuyumcu",
+						"kiosk": "Tekel Bayii",
+						"laundry": "Çamaşırhane",
+						"mall": "Alışveriş merkezi",
+						"market": "Market",
+						"mobile_phone": "Cep Telefonu Dükkanı",
+						"motorcycle": "Motosiklet Dükkanı",
+						"music": "Müzik Mağazası",
+						"newsagent": "Gazete bayii",
+						"optician": "Gözlükçü",
+						"organic": "Organik Yiyecek Dükkanı",
+						"outdoor": "Outdoor Sporları Mağazası",
+						"pet": "Hayvan Mağazası",
+						"pharmacy": "Eczane",
+						"photo": "Fotoğrafçı",
+						"salon": "Kuaför",
+						"second_hand": "İkinci El Dükkanı",
+						"shoes": "Ayakkabı Dükkanı",
+						"shopping_centre": "Alışveriş Merkezi",
+						"sports": "Spor Malzemeleri Mağazası",
+						"stationery": "Kırtasiye",
+						"supermarket": "Süpermarket",
+						"tailor": "Terzi",
+						"toys": "Oyuncakçı",
+						"travel_agency": "Seyahat Acentası",
+						"video": "Video-CD Dükkanı",
+						"wine": "Şarap evi",
+						"yes": "Dükkan"
+					},
+					"tourism": {
+						"alpine_hut": "Dağ evi",
+						"artwork": "Sanat eseri",
+						"attraction": "Gezelim görelim yeri",
+						"bed_and_breakfast": "Oda Kahvaltı",
+						"cabin": "Dam",
+						"camp_site": "Kamp yeri",
+						"caravan_site": "Karavan yeri",
+						"chalet": "Yayla evi",
+						"guest_house": "Konuk Evi",
+						"hostel": "Hostel",
+						"hotel": "Hotel",
+						"information": "Bilgi",
+						"lean_to": "Ek binası",
+						"motel": "Motel",
+						"museum": "Müze",
+						"picnic_site": "Piknik yeri",
+						"theme_park": "Lunapark",
+						"valley": "Dere/vadi",
+						"viewpoint": "Panoramik view",
+						"zoo": "Hayvanat bahçesi"
+					},
+					"tunnel": {
+						"culvert": "Menfez",
+						"yes": "Tünel"
+					},
+					"waterway": {
+						"artificial": "Yapay su yolu",
+						"boatyard": "Tersane",
+						"canal": "Kanal",
+						"connector": "Su yolu bağlantısı",
+						"dam": "Baraj",
+						"derelict_canal": "Sahipsiz kanal",
+						"ditch": "Sulama kanalı",
+						"dock": "İskele",
+						"drain": "Atık su kanalı",
+						"lock": "İskele",
+						"lock_gate": "Menfez",
+						"mineral_spring": "Maden Suyu",
+						"mooring": "Baba",
+						"rapids": "Akıntı",
+						"river": "Nehir",
+						"riverbank": "Irmak kenarı",
+						"stream": "Çay",
+						"wadi": "Vadi",
+						"waterfall": "Şelale",
+						"water_point": "İçme suyu",
+						"weir": "Küçük köprü"
+					}
+				},
+				"admin_levels": {
+					"level2": "Ülke Sınırı",
+					"level4": "Eyalet Sınırı",
+					"level5": "Bölge Sınırı",
+					"level6": "İlçe Sınırı",
+					"level8": "Şehir Sınırı",
+					"level9": "Köy Sınırı",
+					"level10": "Mahalle Sınırı"
+				}
+			},
+			"description": {
+				"title": {
+					"osm_nominatim": "<a href=\"http://nominatim.openstreetmap.org/\">OSM Nominatim</a> tarafından konum",
+					"geonames": "<a href=\"http://www.geonames.org/\">GeoNames</a> tarafından konum"
+				},
+				"types": {
+					"cities": "Büyükşehirler",
+					"towns": "Şehirler",
+					"places": "Yerler"
+				}
+			},
+			"results": {
+				"no_results": "Sonuç bulunamadı",
+				"more_results": "Daha fazla sonuç"
+			},
+			"distance": {
+				"one": "yaklaşık 1km",
+				"zero": "1km'den az",
+				"other": "yaklaşık %{count}km"
+			},
+			"direction": {
+				"south_west": "güney-batı",
+				"south": "güney",
+				"south_east": "güney-doğu",
+				"east": "doğu",
+				"north_east": "kuzey-doğu",
+				"north": "kuzey",
+				"north_west": "kuzey-batı",
+				"west": "batı"
+			}
+		},
+		"layouts": {
+			"logo": {
+				"alt_text": "OpenStreetMap logosu"
+			},
+			"home": "Kendin Konuma Git",
+			"logout": "Çıkış",
+			"log_in": "Oturum aç",
+			"log_in_tooltip": "Var olan bir hesapla giriş yapın",
+			"sign_up": "Kaydol",
+			"start_mapping": "Harita Çizmeye Başla",
+			"sign_up_tooltip": "Düzenleme moduna girmek için bir hesap oluştur",
+			"edit": "Düzenle",
+			"history": "Geçmiş",
+			"export": "Dışa aktar",
+			"data": "Veri",
+			"export_data": "Verinin Dışalımı",
+			"gps_traces": "GPS İzleri",
+			"gps_traces_tooltip": "GPS izleri yönet",
+			"user_diaries": "Günlük",
+			"user_diaries_tooltip": "Kullanıcı günlükleri görüntüle",
+			"edit_with": "%{editor} kullanarak düzenle",
+			"tag_line": "Özgür Viki Dünya Haritası",
+			"intro_header": "OpenStreetMap'e hoş geldiniz!",
+			"intro_text": "OpenStreetMap senin gibi insanlar tarafından oluşturulan, kullanımı serbest ve açık lisans altında olan bir dünya haritasıdır.",
+			"intro_2_create_account": "hesap oluşturunuz",
+			"partners_html": "Barındırma hizmeti, %{ucl}, %{ic}, %{bytemark} ve diğer %{partners} tarafından desteklenmektedir.",
+			"partners_ucl": "UCL VR Centre",
+			"partners_ic": "Imperial College London",
+			"partners_bytemark": "Bytemark Hosting",
+			"partners_partners": "ortaklar",
+			"osm_offline": "OpenStreetMap veritabanı bakım çalışmaları yürütüldüğü için veritabanı şu anda çevrimdışıdır.",
+			"osm_read_only": "OpenStreetMap veritabanı bakım çalışmaları yürütüldüğü için veritabanı şu anda sadece okunur durumdadır.",
+			"donate": "Donanım Yükseltme Fonu'na %{link} yaparak OpenStreetMap'e destek veriniz.",
+			"help": "Yardım",
+			"about": "Hakkında",
+			"copyright": "Telif Hakkı",
+			"community": "Topluluk",
+			"community_blogs": "Üye Blogları",
+			"community_blogs_title": "OpenStreetMap üyelerinin blogları",
+			"foundation": "Vakıf",
+			"foundation_title": "OpenStreetMap Vakfı",
+			"make_a_donation": {
+				"title": "OpenStreetMap para bağışı ile destek verebilirsiniz",
+				"text": "Bağış Yapın"
+			},
+			"learn_more": "Daha Fazla Bilgi",
+			"more": "Daha fazla"
+		},
+		"license_page": {
+			"foreign": {
+				"title": "Bu çeviri hakkında",
+				"english_link": "İngilizce orijinal"
+			},
+			"native": {
+				"title": "Sayfa hakkında",
+				"native_link": "Türkçe sürümü",
+				"mapping_link": "harita çizmeye başla"
+			},
+			"legal_babble": {
+				"title_html": "Telif Hakkı ve Lisans",
+				"credit_3_html": "Bir gezinebilir elektronik haritanın sağ alt köşesinde kredisi görünmesi lazım.\nÖrnegin:",
+				"contributors_title_html": "Katkıcılarımız"
+			}
+		},
+		"welcome_page": {
+			"title": "Hoş geldiniz!",
+			"introduction_html": "Dünyanın düzenlenebilir ve ücretsiz haritası OpenStreetMap'e hoş geldiniz. Şu an kaydoldunuz ve bütün haritalama işlemlerine başlamanız için her şey hazır. İşte bilmeniz gereken en önemli şeylerin hızlı bir kılavuzu.",
+			"whats_on_the_map": {
+				"title": "Haritada ne bulunur",
+				"on_html": "OpenStreetMap, <em>gerçek ve güncel</em> şeyleri haritalamak için bir yerdir. Bu milyonlarca binaları, yolları ve yerler hakkında diğer ayrıntıları içerir. İlgini çeken her türlü gerçek dünya özelliklerini haritalayabilirsin.",
+				"off_html": "Neyi <em>içermez?</em> Ön yargılı veriler gibi değerlendirmeler, tarihî ya da farazi özellikler ve telif hakkı olan kaynaklardan gelen verileri <em>içermez.</em> Özel izniniz yoksa, çevrim içi ya da kağıt haritaları kopyalamayın."
+			},
+			"basic_terms": {
+				"title": "Haritacılığın temel terimleri",
+				"paragraph_1_html": "OpenStreetMap'in kendine ait bazı argoları vardır. İşte kullanışlı gelecek birkaç anahtar kelime.",
+				"editor_html": "<strong>Düzenleyici</strong> haritayı düzenlemek için kullanabileceğiniz bir program ya da web sayfasıdır.",
+				"node_html": "<strong>Düğüm</strong>, haritadaki bir noktadır. Bu bir restoran ya da bir ağaç olabilir.",
+				"way_html": "<strong>Yol</strong>, bir çizgi ya da alan, bir cadde, akarsu, göl ya da bina olabilir.",
+				"tag_html": "<strong>Etiket</strong>, bir düğümün ya da yolun veri parçasıdır. Bu bir restoranın ismi ya da yolun hız sınırı olabilir."
+			},
+			"questions": {
+				"title": "Sorularınız var mı?",
+				"paragraph_1_html": "OpenStreetMap, proje hakkında bilgiler içeren, soru sormak ve soruları cevaplamak için ve işbirliği halinde tartışma yapılan ve haritalama konularını belgelemek için çeşitli kaynaklara sahiptir. <a href='%{help_url}'>Buradan yardım alın</a>."
+			},
+			"start_mapping": "Harita çizmeye başla",
+			"add_a_note": {
+				"title": "Düzenlemek için vaktin yok mu? O zaman bir not ekle!"
+			}
+		},
+		"fixthemap": {
+			"title": "Sorun bildir / Haritayı onar",
+			"how_to_help": {
+				"title": "Nasıl yardım edebilirim?",
+				"join_the_community": {
+					"title": "Topluluğa katılın"
+				},
+				"add_a_note": {
+					"instructions_html": "Sadece <a class='icon note'></a> ikonuna tıklayın veya harita görünümü üzerinde aynı ikona tıklayın.\nBu haritaya daha sonra sürükleyerek taşıyabileceğiniz bir işaretleyici ekleyecek. Mesajınızı ekleyin ve kaydedin, diğer haritacılar bunu araştıracaklar."
+				}
+			},
+			"other_concerns": {
+				"title": "Diğer sorunlar"
+			}
+		},
+		"help_page": {
+			"title": "Yardım Almak",
+			"welcome": {
+				"title": "OSM'ye hoşgeldin!",
+				"description": "OpenStreetMap temellerini öğrenmek için kısa bir kılavuz ile başla."
+			},
+			"help": {
+				"url": "https://help.openstreetmap.org/",
+				"title": "help.openstreetmap.org",
+				"description": "Bir soru sor veya OSM'ın soru-ve-cevap sitesinde yanıtları ara."
+			},
+			"wiki": {
+				"url": "http://wiki.openstreetmap.org/",
+				"title": "wiki.openstreetmap.org"
+			}
+		},
+		"about_page": {
+			"next": "İleri",
+			"copyright_html": "<span>&copy;</span>OpenStreetMap<br>katkıda bulunanları",
+			"local_knowledge_title": "Yerel Bilgi",
+			"community_driven_title": "Katılım Kaynaklı",
+			"open_data_title": "Açık Veri",
+			"partners_title": "Ortaklar"
+		},
+		"notifier": {
+			"diary_comment_notification": {
+				"subject": "[OpenStreetMap] günlük kayıdın %{user} tarafından yorumlandı",
+				"hi": "Merhaba %{to_user},",
+				"header": "%{from_user} senin %{subject} konulu OpenStreetMap günlüğü girdisi yorumladı:"
+			},
+			"message_notification": {
+				"hi": "Merhaba %{to_user},",
+				"header": "OpenStreetMap kullanıcı %{from_user} sana %{subject} konulu bir mesaj gönderdi:"
+			},
+			"friend_notification": {
+				"subject": "[OpenStreetMap] kullanıcı %{user} seni arkadaş olarak ekledi",
+				"had_added_you": "Kullanıcı %{user} seni arkadaş olarak OpenStreetMap'te ekledi.",
+				"see_their_profile": "%{userurl} üzerinden profillerini görebilirsiniz.",
+				"befriend_them": "%{befriendurl} üzerinden arkadaş olarak da ekleyebilirsiniz."
+			},
+			"gpx_notification": {
+				"greeting": "Merhaba,",
+				"with_description": "açıklamayla beraber",
+				"and_no_tags": "ve etiket yok.",
+				"failure": {
+					"subject": "[OpenStreetMap] GPX dosyası maalesef alınamadı",
+					"failed_to_import": "GPX dosyası alınamadı. Hata bu:"
+				},
+				"success": {
+					"subject": "[OpenStreetMap] GPX dosyası başarıyla alındı"
+				}
+			},
+			"signup_confirm": {
+				"subject": "[OpenStreetMap]'e hoşgeldin",
+				"greeting": "Merhaba!",
+				"created": "Birisi (umarım sen) %{site_url} sitesinde yeni bir hesap açtı."
+			},
+			"email_confirm": {
+				"subject": "[OpenStreetMap] E-posta adresi onaylama mesajı"
+			},
+			"email_confirm_plain": {
+				"greeting": "Merhaba,",
+				"click_the_link": "Bu e-posta adresi sana aitse onaylamak için aşağıdaki bağlantıyı tıkla."
+			},
+			"email_confirm_html": {
+				"greeting": "Merhaba,",
+				"hopefully_you": "Birisi (umarım sen) %{server_url} deki kayıtlı olan e-posta adresi %{new_address} olarak değiştirmek istiyor.",
+				"click_the_link": "Bu e-postayı sana aitse onaylamak için aşağıdaki bağlantıyı tıkla."
+			},
+			"lost_password": {
+				"subject": "[OpenStreetMap] Şifre sıfırlama isteği"
+			},
+			"lost_password_plain": {
+				"greeting": "Merhaba,",
+				"click_the_link": "Bu istek sana aitse şifre sıfırlamak için aşağıdaki bağlantıyı tıkla."
+			},
+			"lost_password_html": {
+				"greeting": "Merhaba,",
+				"click_the_link": "Bu istek sana aitse şifre sıfırlamak için aşağıdaki bağlantıyı tıkla."
+			},
+			"note_comment_notification": {
+				"greeting": "Merhaba,"
+			}
+		},
+		"message": {
+			"inbox": {
+				"title": "Gelen Kutusu",
+				"my_inbox": "Gelen kutusu",
+				"outbox": "Gönderilmiş kutusu",
+				"messages": "%{new_messages} yeni ve %{old_messages} eski mesaj var",
+				"from": "Gönderen",
+				"subject": "Konu",
+				"date": "Tarih",
+				"people_mapping_nearby": "yakın çevredeki haritacılar"
+			},
+			"message_summary": {
+				"unread_button": "Okunmadı olarak işaretle",
+				"read_button": "Okundu olarak işaretle",
+				"reply_button": "Yanıtla",
+				"delete_button": "Sil"
+			},
+			"new": {
+				"title": "Mesaj Gönder",
+				"send_message_to": "%{name}'ya yeni bir mesaj gönder",
+				"subject": "Konu",
+				"body": "Mesaj",
+				"send_button": "Gönder",
+				"back_to_inbox": "Gelen kutusuna dön",
+				"message_sent": "Mesaj gönderildi",
+				"limit_exceeded": "Kısa sürede birçok ileti gönderdiniz. Lütfen daha fazla göndermeden önce bir süre bekleyin."
+			},
+			"no_such_message": {
+				"title": "Böyle bir mesaj yok",
+				"heading": "Böyle bir mesaj yok",
+				"body": "Üzgünüz, bu id ile bir mesaj yok."
+			},
+			"outbox": {
+				"title": "Gönderilmiş Kutusu",
+				"my_inbox": "Benim %{inbox_link}",
+				"inbox": "gelen kutusu",
+				"outbox": "gönderilmiş kutusu",
+				"to": "Alıcı",
+				"subject": "Konu",
+				"date": "Tarih",
+				"people_mapping_nearby": "yakın çevredeki haritacılar"
+			},
+			"read": {
+				"title": "Mesaj oku",
+				"from": "Gönderen",
+				"subject": "Konu",
+				"date": "Tarih",
+				"reply_button": "Yanıtla",
+				"unread_button": "Okunmadı olarak işaretle",
+				"back": "Geri",
+				"to": "Alıcı"
+			},
+			"sent_message_summary": {
+				"delete_button": "Sil"
+			},
+			"mark": {
+				"as_read": "Mesaj okundu olarak işaretlendi",
+				"as_unread": "Mesaj okunmadı olarak işaretlendi"
+			},
+			"delete": {
+				"deleted": "Mesaj silindi"
+			}
+		},
+		"site": {
+			"index": {
+				"js_2": "OpenStreetMap harita gösterim için JavaScript kullanıyor.",
+				"permalink": "Kalıcı Bağlantı",
+				"shortlink": "Kısa Bağlantı",
+				"createnote": "Bir not ekle",
+				"license": {
+					"copyright": "Telif Hakkı OpenStreetMap ve katılımcılar, açık lisans altında"
+				}
+			},
+			"edit": {
+				"user_page_link": "kullanıcı sayfası",
+				"anon_edits": "(%{link})"
+			},
+			"sidebar": {
+				"search_results": "Arama Sonuçları",
+				"close": "Kapat"
+			},
+			"search": {
+				"search": "Ara",
+				"where_am_i": "Ben neredeyim?",
+				"where_am_i_title": "Arama motoru kullanarak geçerli konumunu tanımlar",
+				"submit_text": "Git"
+			},
+			"key": {
+				"table": {
+					"entry": {
+						"motorway": "Otoyol",
+						"trunk": "Bölünmüş anayol",
+						"primary": "Devlet Yolu",
+						"secondary": "İl yolu",
+						"unclassified": "Sınıflandırılmamış yol",
+						"unsurfaced": "Ham yolu",
+						"track": "Toprak yolu",
+						"byway": "Yan yolu",
+						"bridleway": "Binici yolu",
+						"cycleway": "Bisiklet yolu",
+						"footway": "Yaya yolu",
+						"rail": "Demiryolu",
+						"subway": "Metro",
+						"tram": [
+							"Dar raylı demiryolu",
+							"tramvay"
+						],
+						"cable": [
+							"Teleferik",
+							"gondol"
+						],
+						"runway": [
+							"Uçuş pisti",
+							"Uçak pisti"
+						],
+						"apron": [
+							"Havaalanı apronu",
+							"terminal"
+						],
+						"admin": "İdari sınırı",
+						"forest": "Orman",
+						"wood": "Orman",
+						"golf": "Golf sahası",
+						"park": "Park",
+						"resident": "Yerleşim bölgesi",
+						"tourist": "Turistik yer",
+						"common": [
+							"Çimen",
+							"mera"
+						],
+						"retail": "Alışveriş merkezi",
+						"industrial": "Sanayi alanı",
+						"commercial": "Ticari ve hizmet alanı",
+						"heathland": "Fundalık",
+						"lake": [
+							"Göl",
+							"baraj"
+						],
+						"farm": "Çiftlik",
+						"brownfield": "Çıplak arazi",
+						"cemetery": "Mezarlık",
+						"allotments": "Bostan",
+						"pitch": "Spor sahası",
+						"centre": "Spor merkezi",
+						"reserve": "Doğa koruma alanı",
+						"military": "Askeri bölge",
+						"school": [
+							"Okul",
+							"Üniversite"
+						],
+						"building": "Önemli yapı",
+						"station": "Gar",
+						"summit": [
+							"Zirve",
+							"Dağ"
+						],
+						"tunnel": "çizgili kenar = tünel",
+						"bridge": "Siyah kenar = köprü",
+						"private": "Özel giriş",
+						"construction": "yapım aşamasında yolu"
+					}
+				}
+			},
+			"richtext_area": {
+				"edit": "Düzenle",
+				"preview": "Ön izle"
+			},
+			"markdown_help": {
+				"headings": "Başlıklar",
+				"heading": "Başlık",
+				"unordered": "Sırasız liste",
+				"ordered": "Sıralı liste",
+				"first": "İlk öğe",
+				"second": "İkinci öğe",
+				"link": "Bağlantı",
+				"text": "Metin",
+				"image": "Görsel",
+				"url": "URL"
+			}
+		},
+		"trace": {
+			"visibility": {
+				"private": "Kişiye özel (sadece anonim ve sıralanmamış noktalar olarak paylaşılır)",
+				"public": "Kamu malı (izleme listesinde ve anonim, sıralanmamış noktalar ile gösterilir)",
+				"trackable": "İzlenebilir (anonim olarak paylaşılmış ve sıralanmış zaman damgaları ile işaretlenmiş)",
+				"identifiable": "Tanımlanabilir (izleme listesinde ve tanımlanabilir zaman damgaları ile işaretlenmiş gösterilir)"
+			},
+			"create": {
+				"upload_trace": "GPS İzi Gönder",
+				"trace_uploaded": "GPX dosya yüklendi ve veritabanına eklemek için bekliyor. Bu işlem genellikle yarım saat içinde gerçekleşir ve tamamlandığında sana bir e-posta gönderiliyor."
+			},
+			"edit": {
+				"title": "%{name} izisi düzenleniyor",
+				"heading": "%{name} izini düzenleniyor",
+				"filename": "Dosya adı:",
+				"download": "indir",
+				"uploaded_at": "Gönderme tarihi:",
+				"points": "Nokta sayısı:",
+				"start_coord": "Başlangıç koordinat:",
+				"map": "harita",
+				"edit": "düzenle",
+				"owner": "Sahibi:",
+				"description": "Açıklama:",
+				"tags": "Etiketler:",
+				"tags_help": "virgülle ayrılmış",
+				"save_button": "Değişiklikleri Kaydet",
+				"visibility": "Görünürlük",
+				"visibility_help": "Bu ne demek?"
+			},
+			"trace_form": {
+				"upload_gpx": "GPX Dosyası Gönder:",
+				"description": "Tanıtım",
+				"tags": "Etiketler:",
+				"tags_help": "virgül (,) ile ayrılmış",
+				"visibility": "Görünürlük:",
+				"visibility_help": "Bu ne demek?",
+				"upload_button": "Gönder",
+				"help": "Yardım"
+			},
+			"trace_header": {
+				"upload_trace": "GPS izi gönder",
+				"see_all_traces": "Tüm izleri görüntüle",
+				"see_your_traces": "Bütün kendi izlerini görüntüle"
+			},
+			"trace_optionals": {
+				"tags": "Etiketler"
+			},
+			"view": {
+				"title": "%{name} gpx dosyası görüntüleniyor",
+				"heading": "İz %{name} görüntüleniyor",
+				"pending": "BEKLEMEDE",
+				"filename": "Dosya Adı:",
+				"download": "indir",
+				"uploaded": "Yüklendi:",
+				"points": "Nokta sayısı:",
+				"start_coordinates": "Başlangıç koordinat:",
+				"map": "harita",
+				"edit": "düzenle",
+				"owner": "Gönderen:",
+				"description": "Açıklama:",
+				"tags": "Etiketler:",
+				"none": "Hiç",
+				"edit_track": "Bu iz düzenle",
+				"delete_track": "Bu izi sil",
+				"trace_not_found": "İz bulunmadı!",
+				"visibility": "Görünürlük:"
+			},
+			"trace_paging_nav": {
+				"showing_page": "Sayfa %{page}",
+				"older": "Daha Eski İzler",
+				"newer": "En Yeni İzler"
+			},
+			"trace": {
+				"pending": "BEKLEMEDE",
+				"count_points": "%{count} puan",
+				"ago": "%{time_in_words_ago} önce",
+				"more": "ayrıntı",
+				"trace_details": "İz Ayrıntılarını Görüntüle",
+				"view_map": "Harita Görüntüle",
+				"edit": "değiştir",
+				"edit_map": "Haritayı Düzenle",
+				"public": "KAMU",
+				"identifiable": "TANIMLANABİLİR",
+				"private": "ÖZEL",
+				"trackable": "İZLENEBİLİR",
+				"by": "yükleyen:",
+				"in": "etiketler:",
+				"map": "harita"
+			},
+			"list": {
+				"public_traces": "Herkese açık GPS izleri",
+				"your_traces": "Senin GPS izleri",
+				"public_traces_from": "%{user} tarafından gelen herkese açık GPS izleri",
+				"description": "Son GPS izi güncellemelerine göz at",
+				"tagged_with": " %{tags} ile etiketlendi"
+			},
+			"make_public": {
+				"made_public": "Iz herkese açık"
+			},
+			"offline_warning": {
+				"message": "GPX dosya gönderme sistemi şu anda kullanılamıyor"
+			},
+			"offline": {
+				"heading": "GPX Yükleme Servisi Çevrimdışı"
+			},
+			"georss": {
+				"title": "OpenStreetMap GPS İzleri"
+			}
+		},
+		"oauth": {
+			"oauthorize_success": {
+				"verification": "Doğrulama kodu %{code}."
+			},
+			"oauthorize_failure": {
+				"title": "Yetkilendirme isteği başarısız oldu",
+				"denied": "%{app_name} uygulamasının hesabınıza erişmesini engellediniz."
+			}
+		},
+		"oauth_clients": {
+			"new": {
+				"submit": "Kayıt ol"
+			},
+			"edit": {
+				"submit": "Değiştir"
+			},
+			"show": {
+				"edit": "Ayrıntıları Düzenle",
+				"delete": "İstemci Sil",
+				"confirm": "Emin misiniz?"
+			},
+			"index": {
+				"title": "OAuth Ayrıntılarım",
+				"revoke": "İptal!",
+				"my_apps": "Benim istemci uygulamalarım"
+			},
+			"form": {
+				"name": "Isim",
+				"required": "Gerekli",
+				"allow_write_api": "haritayı düzenle."
+			}
+		},
+		"user": {
+			"login": {
+				"title": "Giriş",
+				"heading": "Giriş",
+				"email or username": "E-posta Adresi veya Kullanıcı Adı:",
+				"password": "Şifre:",
+				"remember": "Beni hatırla:",
+				"lost password link": "Şifren mi unuttun?",
+				"login_button": "Gir",
+				"register now": "Şimdi kayıt ol",
+				"with username": "OpenStreetMap hesabınız var mı? Lütfen kullanıcı adı ve şifrenizle giriş yapınız:",
+				"with openid": "Bunun yerine, OpenID kullanarak giriş yapın:",
+				"new to osm": "OpenStreetMap sitesinde yeni misiniz?",
+				"to make changes": "OpenStreetMap verileri değiştirmek için bir hesabın olması gerekir.",
+				"create account minute": "Bir hesap oluştur. Bir dakika bile sürmez.",
+				"no account": "Hesabın yok mu?",
+				"account not active": "Üzgünüz, hesabınız henüz aktif değil.<br />Lütfen aldığın onaylama e-postasında ki bağlantı tıkla veya <a href=\"%{reconfirm}\">yeni bir onaylama e-posta</a> iste.",
+				"auth failure": "Üzgünüz, bu giriş ile oturum açılamadı.",
+				"openid missing provider": "Üzgünüz, OpenID sağlayınızla iletişim kurulamadı",
+				"openid invalid": "Üzgünüz, OpenID hatalı biçimlendirilmiş gözüküyor",
+				"openid_logo_alt": "OpenID ile giriş",
+				"openid_providers": {
+					"openid": {
+						"title": "OpenID kullanarak oturum aç",
+						"alt": "OpenID URL ile giriş"
+					},
+					"google": {
+						"title": "Google ile giriş",
+						"alt": "Google OpenID ile giriş"
+					},
+					"yahoo": {
+						"title": "Yahoo ile giriş",
+						"alt": "Yahoo OpenID ile giriş"
+					},
+					"wordpress": {
+						"title": "Wordpress ile giriş",
+						"alt": "Wordpress OpenID ile giriş"
+					},
+					"aol": {
+						"title": "AOL ile giriş",
+						"alt": "AOL OpenID ile giriş"
+					}
+				}
+			},
+			"logout": {
+				"title": "Çıkış",
+				"heading": "OpenStreetMap'den çıkış",
+				"logout_button": "Çıkış"
+			},
+			"lost_password": {
+				"title": "Kayıp Şifre",
+				"heading": "Şifre mi unuttun?",
+				"email address": "E-posta Adresi:",
+				"new password button": "Şifreyi sıfırla",
+				"notice email cannot find": "Üzgünüz: bu e-posta adresi bulunamadı."
+			},
+			"reset_password": {
+				"title": "Şifreyi sıfırla",
+				"heading": "%{user} için şifre sıfırla",
+				"password": "Şifre:",
+				"confirm password": "Sifre Onayla:",
+				"reset": "Şifre Sıfırla",
+				"flash changed": "Şifren başarıyla değiştirildi."
+			},
+			"new": {
+				"title": "Hesap oluştur",
+				"about": {
+					"header": "Ücretsiz ve düzenlenebilir",
+					"html": "<p>Diğer haritaların aksine, OpenStreetMap tamamıyla sizin gibi insanlar tarafından oluşturulur ve düzeltme, güncelleme, indirme ve kullanma herkes için ücretsizdir.</p>\n<p>Katkıda bulunmaya başlamak için kayıt olun. Hesabınızın onaylanması için size bir e-posta göndereceğiz.</p>"
+				},
+				"email address": "E-posta Adresi:",
+				"confirm email address": "E-posta Adresini Onayla",
+				"not displayed publicly": "Herkes tarafından görüntülenemez (bkz. <a href=\"http://wiki.openstreetmap.org/wiki/Privacy_Policy\" title=\"e-posta adresleri bölümünü de içinde bulunduran viki gizlilik politikası\">gizlilik politikası</a>)",
+				"display name": "Görünen Ad:",
+				"display name description": "Herkes tarafından görünen ad. Bu adı istediği zaman 'tercihlerim' bölümünde değiştirebilirsin.",
+				"openid": "%{logo} OpenID:",
+				"password": "Şifre:",
+				"confirm password": "Şifre Onayla:",
+				"use openid": "Bunun yerine, %{logo} kullanarak giriş yapın",
+				"continue": "Kaydol",
+				"terms accepted": "Yeni katılımcı şartları kabul ettiğin için teşekkür ederiz!"
+			},
+			"terms": {
+				"title": "Katılımcı Şartları",
+				"heading": "Katılımcı Şartları",
+				"read and accept": "Lütfen aşağıdaki anlaşmayı okuyun ve mevcut ya da gelecekteki katkılarınız için bu sözleşmenin şartlarını kabul ettiğinizi onaylamak için kabul et butonuna basın.",
+				"consider_pd": "Yukarıdaki anlaşmaya ek olarak, katkılarınızın kamu malı olarak kabul edilmesini de seçebilirsiniz",
+				"consider_pd_why": "bu nedir?",
+				"guidance": "Buradaki bilgileri anlamanıza yardımcı olabilecek bilgiler:  <a href=\"%{summary}\">okunabilir bir özet</a> ve ayrıca <a href=\"%{translations}\">genel çeviriler</a>",
+				"agree": "Kabul Et",
+				"decline": "Reddet",
+				"you need to accept or decline": "Lütfen katılımcı şartlarını okuyunuz ve şartları kabul ya da ret ediniz.",
+				"legale_select": "İkamet edilen ülke:",
+				"legale_names": {
+					"france": "Fransa",
+					"italy": "İtalya",
+					"rest_of_world": "Dünyanın geri kalanı"
+				}
+			},
+			"no_such_user": {
+				"title": "Böyle bir kullanıcı yok",
+				"heading": "%{user} adlı bir kullanıcı yok.",
+				"body": "Üzgünüz, %{user} adlı bir kullanıcı yok. Lütfen yazımınızı denetleyin veya tıkladığınız bağlantı belki yanlış idi."
+			},
+			"view": {
+				"my diary": "Günlüğüm",
+				"new diary entry": "yeni kayıt",
+				"my edits": "Katkılarım",
+				"my traces": "GPS İzlerim",
+				"my notes": "Notlarım",
+				"my messages": "İletilerim",
+				"my profile": "Profilim",
+				"my settings": "Tercihlerim",
+				"my comments": "Yorumlarım",
+				"oauth settings": "OAuth ayarları",
+				"blocks on me": "Engellendiklerim",
+				"blocks by me": "Engellediklerim",
+				"send message": "Mesaj Gönder",
+				"diary": "Günlük",
+				"edits": "Düzenlemeleri",
+				"traces": "İzleri",
+				"notes": "Harita Notları",
+				"remove as friend": "Arkadaş listesinden çıkart",
+				"add as friend": "Arkadaş olarak ekle",
+				"mapper since": "Haritacılığın başlangıç tarihi:",
+				"ago": "(%{time_in_words_ago} önce)",
+				"ct status": "Katılımcının şartları:",
+				"ct undecided": "Kararsız",
+				"ct declined": "Reddetti",
+				"ct accepted": "%{ago} önce kabul etti",
+				"latest edit": "Son değişiklik %{ago}:",
+				"email address": "E-posta adresi:",
+				"created from": "Kullanıldı yazılım:",
+				"status": "Durum:",
+				"spam score": "Spam puanı:",
+				"description": "Açıklama",
+				"user location": "Kullanıcının konumu",
+				"settings_link_text": "ayarları",
+				"your friends": "Arkadaş listesi",
+				"no friends": "Henüz herhangi bir arkadaş eklemediniz.",
+				"km away": "%{count} km uzak",
+				"m away": "%{count} metre yakın",
+				"nearby users": "Yakın çevrede bulunan kullanıcılar",
+				"no nearby users": "Yakın çevredeki herhangi başka kullanıcı henüz yok.",
+				"role": {
+					"administrator": "Bu kullanıcı bir yönetici dir.",
+					"moderator": "Bu kullanıcı bir moderatör dür.",
+					"grant": {
+						"administrator": "Yönetici erişim hakkı",
+						"moderator": "Moderatör erişim izni"
+					},
+					"revoke": {
+						"administrator": "Yönetici erişimini iptal etme",
+						"moderator": "Moderatör erişimini iptal etme"
+					}
+				},
+				"block_history": "alınan engellemeleri",
+				"moderator_history": "verilen engellemeleri",
+				"comments": "Yorumlar",
+				"create_block": "Bu kullanıcıyı engelle",
+				"activate_user": "Bu kullanıcıyı etkinleştir",
+				"deactivate_user": "bu kullanıcıyı pasifleştir",
+				"confirm_user": "bu kullanıcıyı onayla",
+				"hide_user": "bu kullanıcı gizle",
+				"unhide_user": "kullanıcının gizlenmesini kaldır",
+				"delete_user": "bu kullanıcıyı sil",
+				"confirm": "Onayla",
+				"friends_changesets": "arkadaşların değişiklik kayıtları",
+				"friends_diaries": "arkadaşların günlük girdileri",
+				"nearby_changesets": "yakınlarındaki kullanıcıların bütün değişiklik kayıtları",
+				"nearby_diaries": "yakınlarındaki kullanıcıların bütün günlük girdileri"
+			},
+			"popup": {
+				"your location": "Konumum",
+				"nearby mapper": "Komşu haritacı",
+				"friend": "Arkadaş"
+			},
+			"account": {
+				"title": "Hesabı düzenle",
+				"my settings": "Profil ayarlarım",
+				"current email address": "Geçerli E-posta Adresi:",
+				"new email address": "Yeni E-posta Adresi:",
+				"email never displayed publicly": "(hiçbir zaman görüntülenmez)",
+				"openid": {
+					"openid": "OpenID:",
+					"link": "http://wiki.openstreetmap.org/wiki/OpenID",
+					"link text": "Bu nedir?"
+				},
+				"public editing": {
+					"heading": "Herkese açık düzenleme modu:",
+					"enabled": "Etkin. Anonim değil ve verileri düzenleyebilir.",
+					"enabled link": "http://wiki.openstreetmap.org/wiki/Anonymous_edits",
+					"enabled link text": "Bu nedir?",
+					"disabled": "Devre dışı ve verileri düzenleyemez; önceki düzenlemeleri hepsi anonimdir.",
+					"disabled link text": "neden düzenleyemiyorum?"
+				},
+				"public editing note": {
+					"heading": "Herkese açık düzenleme modu"
+				},
+				"contributor terms": {
+					"heading": "Katılımcı Şartları:",
+					"agreed": "Yeni katılımcı şartları kabul ettin.",
+					"not yet agreed": "Yeni katılımcı şartları kabul etmedin.",
+					"agreed_with_pd": "Ayrıca düzenlediklerin Kamu Malı olsun diye kabul ettin.",
+					"link text": "Bu nedir?"
+				},
+				"profile description": "Tanıtım:",
+				"preferred languages": "Tercih edilen diller (mesela tr,en,de):",
+				"preferred editor": "Tercih edilen harita düzenleyici:",
+				"image": "Resim:",
+				"gravatar": {
+					"gravatar": "Gravatar kullanın",
+					"link text": "bu nedir?"
+				},
+				"new image": "Resim ekle",
+				"keep image": "Geçerli resim dursun",
+				"delete image": "Geçerli resim kaldır",
+				"replace image": "Geçerli resmi değiştir",
+				"image size hint": "(100x100 olan kare görüntüleri en iyi görünür)",
+				"home location": "Konum:",
+				"no home location": "Konumunu girmedin.",
+				"latitude": "Enlem:",
+				"longitude": "Boylam:",
+				"update home location on click": "Haritada tıkladığımda konumum güncelleştirilsin mi?",
+				"save changes button": "Değişiklikleri Kaydet",
+				"make edits public button": "Bütün girdiklerim herkese açık olsun",
+				"return to profile": "Profile dön",
+				"flash update success confirm needed": "Kullanıcı bilgisi başarıyla güncellendi. Yeni e-posta adresinizi onaylamak için e-mail'inizi lütfen kontrol ediniz.",
+				"flash update success": "Kullanıcı bilgisi başarıyla güncellendi."
+			},
+			"confirm": {
+				"heading": "E-postalarını kontrol et!",
+				"introduction_1": "Size bir doğrulama e-postası gönderdik.",
+				"introduction_2": "E-postadaki bağlantıya tıklayarak hesabınızı doğrulayın ve daha sonra haritalama yapmanız mümkün olacak.",
+				"button": "Onayla",
+				"reconfirm_html": "Doğrulama e-postasının tekrar gönderimi için bize ihtiyacınız varsa, <a href=\"%{reconfirm}\">buraya tıklayın</a>."
+			},
+			"confirm_resend": {
+				"success": "Yeni bir onay mesajı %{email} adresine gönderdik. Mesajı onaylar onaylamaz haritacılığı başlayabilirsiniz.<br><br>Eğer onaylama mesajını almadısanız e-postanızın Antispam/Junk/İstenmeyen klasörüne lütfen kontrol ediniz.",
+				"failure": "%{name} kullanıcısı bulunamadı."
+			},
+			"confirm_email": {
+				"button": "Onayla",
+				"success": "E-posta adresinizi doğrulandı, kaydolduğu için teşekkür ederiz! İyi çalışmaları dileriz!"
+			},
+			"set_home": {
+				"flash success": "Ev konumu başarıyla kaydedildi"
+			},
+			"make_friend": {
+				"success": "%{name} arkadaş listesinde eklendi."
+			},
+			"remove_friend": {
+				"success": "%{name} arkadaş listesinden çıkarıldı."
+			},
+			"list": {
+				"title": "Kullanıcılar",
+				"heading": "Kullanıcılar",
+				"showing": {
+					"one": "Sayfa %{page} (%{first_item} - toplam %{items})",
+					"other": "Sayfa %{page} (%{first_item}-%{last_item} - toplam %{items})"
+				},
+				"summary_no_ip": "%{name} %{date} tarihinde oluşturuldu."
+			},
+			"suspended": {
+				"title": "Hesap Askıda",
+				"heading": "Hesap Askıda",
+				"webmaster": "site yönetici"
+			}
+		},
+		"user_role": {
+			"grant": {
+				"confirm": "Onayla"
+			},
+			"revoke": {
+				"confirm": "Onayla"
+			}
+		},
+		"user_block": {
+			"create": {
+				"try_contacting": "Lütfen kullanıcıyı engellemeden önce onunla iletişime geçmeyi deneyin ve cevap verebilmesi için makul bir zaman verin.",
+				"try_waiting": "Lütfen kullanıcıyı engellemeden önce, cevap verebilmesi için makul bir süre veriniz.",
+				"flash": "%{name} kullanıcısına engel oluşturuldu."
+			},
+			"update": {
+				"only_creator_can_edit": "Sadece bu engeli oluşturan moderatör düzenleyebilir.",
+				"success": "Engel güncellendi."
+			},
+			"index": {
+				"title": "Kullanıcı engelleri",
+				"heading": "Kullanıcı engelleri listesi",
+				"empty": "Henüz engelleme yapılmamış."
+			},
+			"revoke": {
+				"title": "%{block_on} engellerini iptal etme",
+				"heading": "%{block_by} tarafından yapılan %{block_on} engellerini iptal etme",
+				"time_future": "Engellenme %{time} içerisinde bitecek.",
+				"past": "Bu engelleme %{time} önce bitmiş ve artık iptal edilemez.",
+				"confirm": "Bu engeli kaldırmak istediğine emin misin?",
+				"revoke": "İptal!",
+				"flash": "Engel kaldırıldı."
+			},
+			"period": {
+				"one": "1 saat",
+				"other": "%{count} saat"
+			},
+			"partial": {
+				"show": "Göster",
+				"edit": "Düzenle",
+				"revoke": "İptal!",
+				"confirm": "Emin misin?",
+				"display_name": "Engellenmiş kullanıcı",
+				"creator_name": "Oluşturan",
+				"reason": "Engelleme sebebi",
+				"status": "Durum",
+				"revoker_name": "İptal eden",
+				"not_revoked": "(iptal edilmemiş)",
+				"showing_page": "Sayfa %{page}",
+				"next": "Sonraki »",
+				"previous": "« Önceki"
+			},
+			"helper": {
+				"time_future": "%{time} içinde bitecek.",
+				"until_login": "Kullanıcı giriş yapana kadar aktif.",
+				"time_past": "%{time} önce bitti."
+			},
+			"blocks_on": {
+				"title": "%{name} kişisinin engelleri",
+				"heading": "%{name} hakkında engelleme kayıtları",
+				"empty": "%{name} henüz engellenmiş değil."
+			},
+			"blocks_by": {
+				"title": "%{name} tarafından engellenenler",
+				"heading": "%{name} tarafından engellenenlerin listesi",
+				"empty": "%{name} şimdiye kadar hiç bloklamamış."
+			},
+			"show": {
+				"title": "%{block_on} kişisi %{block_by} tarafından engellendi",
+				"heading": "%{block_on} kişisi %{block_by} tarafından engellendi",
+				"time_future": "%{time} içinde bitecek",
+				"time_past": "%{time} önce bitti",
+				"status": "Durum",
+				"show": "Göster",
+				"edit": "Değiştir",
+				"revoke": "İptal!",
+				"confirm": "Emin misin?",
+				"reason": "Engelleme sebebi:",
+				"back": "Tüm engellemeleri göster",
+				"revoker": "Geri alan:",
+				"needs_view": "Engel kaldırılmadan önce kullanıcının giriş yapması gerekiyor."
+			}
+		},
+		"note": {
+			"description": {
+				"opened_at_by_html": "%{when} önce %{user} tarafından oluşturuldu"
+			}
+		},
+		"javascripts": {
+			"share": {
+				"title": "Paylaş",
+				"cancel": "İptal",
+				"image": "Görsel",
+				"link": "Bağlantı veya HTML",
+				"long_link": "Bağlantı",
+				"short_link": "Kısa Bağlantı",
+				"embed": "HTML",
+				"custom_dimensions": "Özel boyutlar belirt",
+				"scale": "Ölçek:",
+				"image_size": "Görsel standart katmanı şu boyutta gösterecek (piksel)",
+				"download": "İndir",
+				"include_marker": "İşaret ekle"
+			},
+			"key": {
+				"title": "Lejant",
+				"tooltip": "Lejant",
+				"tooltip_disabled": "Lejant sadece standart katmanı için kullanılmakta"
+			},
+			"map": {
+				"zoom": {
+					"in": "Yakınlaştır",
+					"out": "Uzaklaştır"
+				},
+				"locate": {
+					"title": "Konumumu göster"
+				},
+				"base": {
+					"standard": "Standart",
+					"cycle_map": "Bisikletler için Harita",
+					"transport_map": "Ulaşım Haritası",
+					"mapquest": "MapQuest Open",
+					"hot": "İnsancıl"
+				},
+				"layers": {
+					"header": "Harita Katmanları",
+					"notes": "Harita Notları",
+					"data": "Harita Verileri",
+					"overlays": "Sorun giderebilmek için kaplamaları etkinleştir",
+					"title": "Katmanlar"
+				},
+				"copyright": "© <a href='%{copyright_url}'>OpenStreetMap katkıda bulunanları</a>",
+				"donate_link_text": "<a class='donate-attr' href='%{donate_url}'>Bağış Yapın</a>"
+			},
+			"site": {
+				"edit_tooltip": "Haritayı düzenle",
+				"edit_disabled_tooltip": "Haritayı düzenlemek için yakınlaştırın",
+				"createnote_tooltip": "Haritaya bir not ekle",
+				"createnote_disabled_tooltip": "Not eklemek için haritayı yakınlaştır",
+				"map_notes_zoom_in_tooltip": "Harita notları görmek için yakınlaştır",
+				"map_data_zoom_in_tooltip": "Harita verileri görmek için yakınlaştır",
+				"queryfeature_tooltip": "Özellikleri göster",
+				"queryfeature_disabled_tooltip": "Özellikler görmek için yakınlaştır"
+			},
+			"notes": {
+				"new": {
+					"intro": "Bir hata ya da eksik bir şey mi var? Bu sorunun düzeltilebilmesi için diğer haritacılara bildirin. İmleci doğru konuma taşıyın ve sorunu açıklayan bir not yazın. (Lütfen kişisel bilgilerinizi ya da telif hakkı saklı olan haritalardaki bilgileri ya da rehber listeleri girmeyiniz.)",
+					"add": "Not Ekle"
+				},
+				"show": {
+					"anonymous_warning": "Bu not anonim kullanıcılardan yorumlar içerdiğinden bağımsız olarak doğrulanması gerekir.",
+					"hide": "Gizle",
+					"resolve": "Çözümle",
+					"comment": "Yorum"
+				}
+			},
+			"edit_help": "Haritayı sürükleyip ve düzenleme yapmak istediğiniz konuma yakınlaştırdıktan sonra buraya tıklayın."
+		},
+		"redaction": {
+			"edit": {
+				"description": "Açıklama",
+				"heading": "Redaksiyonu düzenle",
+				"submit": "Redaksiyonu kaydet",
+				"title": "Redaksiyonu düzenle"
+			},
+			"index": {
+				"empty": "Gösterilecek redaksiyon yok.",
+				"heading": "Redaksiyonların listesi",
+				"title": "Redaksiyonların listesi"
+			},
+			"new": {
+				"description": "Açıklama",
+				"heading": "Yeni redaksiyon için bilgi giriniz",
+				"submit": "Redaksiyon oluştur",
+				"title": "Yeni redaksiyon oluşturma"
+			},
+			"show": {
+				"description": "Açıklama:",
+				"heading": "Redaksiyon \"%{title}\" göster",
+				"title": "Redaksiyon göster",
+				"user": "Oluşturan:",
+				"edit": "Bu redaksiyonu düzenle",
+				"destroy": "Bu redaksiyonu kaldır",
+				"confirm": "Emin misiniz?"
+			},
+			"create": {
+				"flash": "Redaksiyon oluşturuldu."
+			},
+			"update": {
+				"flash": "Değişiklikler kaydedildi."
+			},
+			"destroy": {
+				"not_empty": "Redaksiyon boş değil. Lütfen bu redaksiyonu kaldırmadan önce tüm sürümlerini tekrar düzenleyin.",
+				"flash": "Redaksiyon kaldırıldı.",
+				"error": "Bu redaksiyon kaldırılırken bir hata oluştu."
+			}
+		}
+	}
+}

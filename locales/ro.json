@@ -1,1 +1,885 @@
-{"ro":{"time":{"formats":{"friendly":"%e %B %Y la %H:%M"}},"activerecord":{"models":{"acl":"Lista de control al accesului","changeset":"Set de modificări","changeset_tag":"Etichetă pentru setul de modificări","country":"Țară","diary_comment":"Comentariu jurnal","diary_entry":"Intrare în jurnal","friend":"Prieten","language":"Limbă","message":"Mesaj","node":"Nod","node_tag":"Etichetă nod","notifier":"Notificator","old_node":"Nod vechi","old_node_tag":"Etichetă nod vechi","old_relation":"Relație veche","old_relation_member":"Membru al relației vechi","old_relation_tag":"Etichetă pentru relația veche","old_way":"Cale veche","old_way_node":"Nod cale veche","old_way_tag":"Etichetă cale veche","relation":"Relație","relation_member":"Membru relație","relation_tag":"Etichetă relație","session":"Sesiune","trace":"Înregistrare GPS","tracepoint":"Punct al unei înregistrări GPS","tracetag":"Etichetă înregistrare GPS","user":"Utilizator","user_preference":"Preferințe utilizator","way":"Cale","way_node":"Nod cale","way_tag":"Etichetă cale"},"attributes":{"diary_comment":{"body":"Corp"},"diary_entry":{"user":"Utilizator","title":"Subiect","latitude":"Latitudine","longitude":"Longitudine","language":"Limbă"},"friend":{"user":"Utilizator","friend":"Prieten"},"trace":{"user":"Utilizator","visible":"Vizibilă","name":"Nume","size":"Dimensiune","latitude":"Latitudine","longitude":"Longitudine","public":"Public","description":"Descriere"},"message":{"sender":"Expeditor","title":"Subiect","body":"Corp","recipient":"Destinatar"},"user":{"email":"E-mail","active":"Activ","display_name":"Afișare nume","description":"Descriere","languages":"Limbi","pass_crypt":"Parolă"}}},"editor":{"default":"Implicit (în prezent %{name})","potlatch":{"name":"Potlatch 1","description":"Potlatch 1 (editor înglobat în navigator)"},"potlatch2":{"name":"Potlatch 2","description":"Potlatch 2 (editor înglobat în navigator)"},"remote":{"description":"Control de la distanță (JOSM sau Merkaartor)"}},"browse":{"version":"Versiune","in_changeset":"Set de modificări","anonymous":"anonim","no_comment":"(niciun comentariu)","changeset":{"title":"Set de modificări: %{id}","belongs_to":"Autor","node":"Noduri (%{count})","node_paginated":"Noduri (%{x}-%{y} din %{count})","changesetxml":"Set de modificări XML","osmchangexml":"XML osmChange","feed":{"title":"Set de modificări: %{id}","title_comment":"Set de modificări %{id} — %{comment}"}},"way":{"nodes":"Noduri"},"relation_member":{"entry_role":"%{type} %{name} ca %{role}","type":{"node":"Nod","way":"Cale","relation":"Relație"}},"containing_relation":{"entry":"Relația %{relation_name}","entry_role":"Relația %{relation_name} (ca %{relation_role})"},"not_found":{"sorry":"Ne pare rău, dar %{type} #%{id} nu s-a putut găsi.","type":{"node":"nod","way":"drum","relation":"relație","changeset":"set de modificări"}},"timeout":{"sorry":"Ne pare rău, dar durata recepționării datelor pentru %{type} cu identificatorul %{id} a fost prea mare.","type":{"node":"nodul","way":"calea","relation":"relația","changeset":"setul de schimbări"}},"redacted":{"redaction":"Redactarea %{id}","message_html":"Nu se poate afișa versiunea %{version} a acestui/acestei %{type} pentru că a fost redactată. Vă rugăm să consultați %{redaction_link} pentru detalii.","type":{"node":"nod","way":"drum","relation":"relații"}},"start_rjs":{"load_data":"Încărcare date","loading":"Se încarcă..."},"tag_details":{"tags":"Etichete","wiki_link":{"key":"Pagina de pe wiki pentru tagul %{key}","tag":"Pagina de pe wiki pentru tagul %{key}=%{value}"},"wikipedia_link":"Articolul %{page} pe Wikipedia"},"note":{"title":"Notă: %{id}"}},"changeset":{"changeset_paging_nav":{"showing_page":"Pagina %{page}","next":"Următoarea »","previous":"« Precedenta"},"changeset":{"anonymous":"Anonim","no_edits":"(nu există editări)","view_changeset_details":"Vizualizare detalii set de schimbări"},"changesets":{"id":"ID","saved_at":"Salvat la","user":"Utilizator","comment":"Comentariu","area":"Zonă"},"list":{"title":"Set de modificări","title_user":"Seturi de modificări făcute de %{user}","title_friend":"Seturi de modificări de la prietenii dv.","title_nearby":"Modificări de la utilizatori din apropiere","empty":"Niciun set de modificări găsit.","empty_area":"Niciun set de modificări în această zonă.","empty_user":"Niciun set de modificări de la acest utilizator.","no_more":"Nu s-au mai găsit seturi de modificări.","no_more_area":"Nu s-au mai găsit seturi de modificări în această zonă.","no_more_user":"Nu s-au mai găsit seturi de modificări de la acest utilizator.","load_more":"Încarcă mai multe"},"timeout":{"sorry":"Ne pare rău, preluarea listei de modificări pe care ați solicitat-o a durat prea mult."}},"diary_entry":{"new":{"title":"O nouă înregistrare în jurnal"},"list":{"title":"Jurnalele utilizatorilor","title_friends":"Jurnalele prietenilor","title_nearby":"Jurnalele utilizatorilor aflați în apropiere","user_title":"Jurnalul utilizatorului %{user}","in_language_title":"Înregistrări de jurnal în %{language}","new":"O nouă înregistrare în jurnal","new_title":"Compune o înregistrare nouă în jurnalul dvs. de utilizator","no_entries":"Nu există înregistrări în jurnal","recent_entries":"Înregistrări recente din jurnal","older_entries":"Înregistrări mai vechi","newer_entries":"Înregistrări mai noi"},"edit":{"title":"Editare înregistrare din jurnal","subject":"Subiect:","body":"Corpul mesajului:","language":"Limbă:","location":"Loc:","latitude":"Latitudine:","longitude":"Longitudine:","use_map_link":"utilizează harta","save_button":"Salvează","marker_text":"Poziția înregistrării din jurnal"},"view":{"title":"Jurnalul utilizatorului %{user} | %{title}","user_title":"Jurnalul utilizatorului %{user}","leave_a_comment":"Adaugă un comentariu","login_to_leave_a_comment":"%{login_link} este necesară pentru a comenta","login":"Autentificare","save_button":"Salvează"},"no_such_entry":{"title":"Nu există o asemenea înregistrare","heading":"Nici o înregistrare cu identificatorul %{id}","body":"Ne pare rău, dar nu există nici o înregistrare de jurnal sau comentariu cu identificatorul %{id}. Vă rugăm să verificați ortografia; sau poate ați făcut clic pe un link invalid."},"diary_entry":{"posted_by":"Postat de către %{link_user} pe %{created} în %{language_link}","comment_link":"Comentează la această înregistrare","reply_link":"Răspunde la această înregistrare","comment_count":{"zero":"niciun comentariu","one":"%{count} comentariu","other":"%{count} comentarii"},"edit_link":"Editează această înregistrare","hide_link":"Ascunde această înregistrare","confirm":"Confirmă"},"diary_comment":{"comment_from":"Comentariu de la %{link_user} pe %{comment_created_at}","hide_link":"Ascunde acest comentariu","confirm":"Confirmă"},"location":{"location":"Loc:","view":"Vizualizează","edit":"Modifică"},"feed":{"user":{"title":"Înregistrări în jurnalul OpenStreetMap pentru %{user}","description":"Înregistrări recente în jurnalul OpenStreetMap de la %{user}"},"language":{"title":"Înregistrări recente în jurnalul OpenStreetMap în %{language_name}","description":"Înregistrări recente în jurnale de la utilizatorii OpenStreetMap în limba %{language_name}"},"all":{"title":"Înregistrări în jurnalul OpenStreetMap","description":"Înregistrări recente în jurnale de la utilizatorii OpenStreetMap"}},"comments":{"has_commented_on":"%{display_name} a comentat pe următoarele înregistrări din jurnal","post":"Trimite","when":"Când","comment":"Comentariu","ago":"cu %{ago} în urmă","newer_comments":"Comentarii mai noi","older_comments":"Comentarii mai vechi"}},"export":{"title":"Exportare","start":{"area_to_export":"Zona pentru export","manually_select":"Selectați manual o altă zonă","format_to_export":"Format de exportat","osm_xml_data":"Date XML OpenStreetMap","licence":"Licență","options":"Opțiuni","format":"Format","scale":"Scară","max":"max","image_size":"Dimensiune imagine","zoom":"Zoom","add_marker":"Adaugă un marcator pe hartă","latitude":"Lat:","longitude":"Long:","output":"Date de ieșire","export_button":"Exportare"}},"geocoder":{"search":{"title":{"latlon":"Rezultate <a href=\"http://openstreetmap.org/\">interne</a>","us_postcode":"Rezultate de la <a href=\"http://geocoder.us/\">Geocoder.us</a>","uk_postcode":"Rezultate de la <a href=\"http://www.npemap.org.uk/\">NPEMap / FreeThe Postcode</a>","ca_postcode":"Rezultate de la <a href=\"http://geocoder.ca/\">Geocoder.CA</a>","osm_nominatim":"Rezultate de la <a href=\"http://nominatim.openstreetmap.org/\">OpenStreetMap Nominatim</a>","geonames":"Rezultate de la <a href=\"http://www.geonames.org/\">GeoNames</a>"}},"search_osm_nominatim":{"prefix":{"aeroway":{"aerodrome":"Aerodrom","apron":"Peron de aeroport","gate":"Poartă de aeroport","helipad":"Helipad","runway":"Pistă","taxiway":"Pistă de manevră","terminal":"Terminal"},"amenity":{"airport":"Aeroport","arts_centre":"Centru de arte","artwork":"Operă de artă","atm":"Bancomat","auditorium":"Auditoriu","bank":"Instituție bancară","bar":"Bar","bbq":"Grătar","bench":"Bancă","bicycle_parking":"Parcare de biciclete","bicycle_rental":"Închiriere de biciclete","biergarten":"Braserie în aer liber","brothel":"Bordel","bureau_de_change":"Casă de schimb valutar","bus_station":"Stație de autobuz","cafe":"Cafenea","car_rental":"Închiriere de mașini","car_wash":"Spălătorie auto","casino":"Cazinou","charging_station":"Stație de taxare","cinema":"Cinematograf","clinic":"Clinică","club":"Club","college":"Colegiu","community_centre":"Centru comunitar","courthouse":"Tribunal","crematorium":"Crematoriu","dentist":"Dentist","doctors":"Medici","dormitory":"Cămin","drinking_water":"Cișmea","driving_school":"Școală de șoferi","embassy":"Ambasadă","emergency_phone":"Telefon de urgență","fast_food":"Fast-food","ferry_terminal":"Terminal pentru feriboturi","fire_hydrant":"Hidrant","fire_station":"Stație de pompieri","fountain":"Fântână","fuel":"Benzinărie","grave_yard":"Cimitir","gym":"Sală de fitness / gimnastică","hall":"Sală","health_centre":"Centru de sănătate","hospital":"Spital","hotel":"Hotel","hunting_stand":"Stand de vânătoare","ice_cream":"Înghețată","kindergarten":"Grădiniță","library":"Bibliotecă","market":"Piață","marketplace":"Piață de mărfuri","mountain_rescue":"Salvamont","nightclub":"Club de noapte","nursery":"Creșă","nursing_home":"Azil de bătrâni","office":"Birou","park":"Parc","parking":"Parcare","pharmacy":"Farmacie","place_of_worship":"Lăcaș de cult","police":"Poliție","post_box":"Cutie poștală","post_office":"Oficiu poștal","prison":"Închisoare","pub":"Pub","public_building":"Clădire publică","public_market":"Piață publică","reception_area":"Zonă de recepție","recycling":"Punct de reciclare","restaurant":"Restaurant","retirement_home":"Casă de bătrâni","sauna":"Saună","school":"Școală","shelter":"Adăpost","shop":"Magazin","shopping":"Cumpărături","shower":"Duș","social_centre":"Centru social","social_club":"Club social","studio":"Studio","supermarket":"Supermarket","swimming_pool":"Bazin de înot","taxi":"Taxi","telephone":"Telefon public","theatre":"Teatru","toilets":"Toalete","townhall":"Primărie","university":"Universitate","vending_machine":"Vendomat","veterinary":"Medic veterinar","village_hall":"Primărie comunală","waste_basket":"Coș de gunoi","wifi":"Acces WiFi","WLAN":"Acces WiFi","youth_centre":"Centru de tineret"},"boundary":{"administrative":"Graniță administrativă","national_park":"Parc național","protected_area":"Zonă protejată"},"bridge":{"aqueduct":"Apeduct","suspension":"Pod suspendat","swing":"Pod batant","viaduct":"Viaduct","yes":"Pod"},"building":{"yes":"Clădire"},"highway":{"bridleway":"Drum pentru călărie","bus_guideway":"Linie de autobuz ghidată","bus_stop":"Stație de autobuz","byway":"Rută secundară","construction":"Drum în construcție","cycleway":"Pistă de biciclete","emergency_access_point":"Punct de acces de urgență","footway":"Cale pietonală","ford":"Vad","living_street":"Zonă pietonală","milestone":"Bornă kilometrică","minor":"Drum minor","motorway":"Autostradă","motorway_junction":"Intersecție pe autostradă","motorway_link":"Autostradă","path":"Potecă","pedestrian":"Cale pietonală","platform":"Platformă","primary":"Drum principal","primary_link":"Drum principal","raceway":"Pistă","residential":"Rezidențial","rest_area":"Zonă pentru odihnă","road":"Drum","secondary":"Drum secundar","secondary_link":"Drum secundar","service":"Stradă de serviciu","services":"Servicii pe autostradă","speed_camera":"Radar cu cameră foto","steps":"Scară","tertiary":"Drum terțiar","tertiary_link":"Drum terțiar","track":"Drum forestier sau agricol","trail":"Potecă","unclassified":"Drum neclasificat","unsurfaced":"Drum neasfaltat"},"historic":{"archaeological_site":"Sit arheologic","battlefield":"Câmp de luptă","boundary_stone":"Bornă de graniță","building":"Clădire","castle":"Castel","church":"Biserică","fort":"Fort","house":"Casă","manor":"Conac","memorial":"Memorial","mine":"Mină","monument":"Monument","museum":"Muzeu","ruins":"Ruine","tower":"Turn","wayside_cross":"Troiță","wayside_shrine":"Altar","wreck":"Epavă"},"landuse":{"basin":"Bazin","cemetery":"Cimitir","commercial":"Zonă comercială","construction":"Construcție","farm":"Fermă","farmland":"Teren agricol","forest":"Pădure","grass":"Iarbă","industrial":"Zonă industrială","landfill":"Groapă de gunoi","meadow":"Luncă","military":"Zonă militară","mine":"Mină","nature_reserve":"Rezervație naturală","park":"Parc","quarry":"Carieră","railway":"Cale ferată","recreation_ground":"Zonă de recreere","reservoir":"Rezervor","residential":"Zonă rezidențială","vineyard":"Podgorie","wood":"Pădure"},"leisure":{"beach_resort":"Stațiune balneară","fishing":"Zonă de pescuit","garden":"Grădină","golf_course":"Teren de golf","ice_rink":"Patinoar","miniature_golf":"Minigolf","nature_reserve":"Rezervație naturală","park":"Parc","pitch":"Teren de sport","playground":"Loc de joacă","recreation_ground":"Zonă de recreere","stadium":"Stadion","swimming_pool":"Bazin de înot","track":"Pistă de atletism","water_park":"Parc acvatic"},"natural":{"bay":"Golf","beach":"Plajă","cape":"Cap","cave_entrance":"Intrare în peșteră","channel":"Canal","cliff":"Stâncă","crater":"Crater","fjord":"Fiord","geyser":"Gheizer","glacier":"Ghețar","hill":"Deal","island":"Insulă","land":"Teren","marsh":"Mlaștină","moor":"Baltă","mud":"Noroi","peak":"Vârf","reef":"Recif","ridge":"Creastă","river":"Râu","rock":"Rocă","scree":"Grohotiș","scrub":"Tufăriș","shoal":"Banc de nisip","spring":"Izvor","strait":"Strâmtoare","tree":"Copac","valley":"Vale","volcano":"Vulcan","water":"Apă","wood":"Pădure"},"place":{"airport":"Aeroport","city":"Oraș","country":"Țară","county":"Județ","farm":"Fermă","hamlet":"Cătun","house":"Casă","houses":"Case","island":"Insulă","islet":"Insuliță","locality":"Localitate","moor":"Baltă","municipality":"Comună","postcode":"Cod poștal","region":"Regiune","sea":"Mare","state":"Stat","subdivision":"Subdiviziune","suburb":"Suburbie","town":"Orășel","unincorporated_area":"Zonă neîncorporată","village":"Sat"},"railway":{"abandoned":"Cale ferată abandonată","construction":"Cale ferată în construcție","disused":"Cale ferată dezafectată","disused_station":"Gară dezafectată","funicular":"Funicular","historic_station":"Gară istorică","junction":"Nod feroviar","level_crossing":"Trecere la nivel","light_rail":"Metrou","monorail":"Monoșină","narrow_gauge":"Cale ferată cu ecartament îngust","platform":"Platformă feroviară","station":"Gară","subway":"Stație de metrou","subway_entrance":"Intrare la metrou","tram":"Tramvai","tram_stop":"Stație de tramvai","yard":"Depou"},"shop":{"art":"Magazin de artă","bakery":"Brutărie","beauty":"Salon de frumusețe","beverages":"Magazin de băuturi","bicycle":"Magazin de biciclete","books":"Librărie","butcher":"Măcelărie","car_parts":"Piese auto","car_repair":"Service auto","clothes":"Magazin de haine","confectionery":"Cofetărie","cosmetics":"Magazin de cosmetice","dry_cleaning":"Curățătorie chimică","electronics":"Magazin de electronice","estate_agent":"Agent imobiliar","fish":"Pescărie","florist":"Florărie","food":"Alimentară","furniture":"Mobilier","gallery":"Galerie","grocery":"Magazin alimentar","hairdresser":"Coafor","hifi":"Hi-Fi","insurance":"Asigurare","jewelry":"Bijuterie","kiosk":"Chioșc","laundry":"Spălătorie","mall":"Mall","market":"Piață","newsagent":"Chioșc de ziare","optician":"Optician","organic":"Magazin de alimente organice","salon":"Salon de frumusețe","shopping_centre":"Centru comercial","stationery":"Magazin de papetărie","supermarket":"Supermarket","toys":"Magazin de jucării","travel_agency":"Agenție de turism"},"tourism":{"alpine_hut":"Refugiu montan","artwork":"Operă de artă","attraction":"Atracție","cabin":"Cabină","camp_site":"Loc de campare","chalet":"Cabană","guest_house":"Casă de oaspeți","hostel":"Hotel de tineret","hotel":"Hotel","information":"Informații","motel":"Motel","museum":"Muzeu","theme_park":"Parc tematic","valley":"Vale","zoo":"Gradină zoologică"},"waterway":{"canal":"Canal","dam":"Baraj","ditch":"Șanț","dock":"Doc","drain":"Scurgere","lock":"Ecluză","lock_gate":"Poartă de ecluză","mooring":"Amaraj","river":"Râu","waterfall":"Cascadă","weir":"Stăvilar"}}},"description":{"types":{"cities":"Orașe","towns":"Orășele","places":"Locuri"}},"results":{"no_results":"Niciun rezultat găsit","more_results":"Mai multe rezultate"},"distance":{"one":"circa 1 km","zero":"mai puțin de 1 km","other":"circa %{count} km"},"direction":{"south_west":"sud-vest","south":"sud","south_east":"sud-est","east":"est","north_east":"nord-est","north":"nord","north_west":"nord-vest","west":"vest"}},"layouts":{"logo":{"alt_text":"Logoul OpenStreetMap"},"home":"acasă","logout":"Închide sesiunea","log_in":"Autentificare","log_in_tooltip":"Autentificare cu un cont existent","sign_up":"Înregistrare","start_mapping":"Start la cartografiere","sign_up_tooltip":"Creați un cont pentru editare","edit":"Modificare","history":"Istoric","edit_with":"Modificare cu %{editor}","partners_partners":"parteneri","help":"Ajutor","about":"Despre","copyright":"Drepturi de autor","community":"Comunitate","community_blogs":"Bloguri ale comunității","community_blogs_title":"Bloguri ale membrilor comunității OpenStreetMap","foundation":"Fundația","foundation_title":"Fundația OpenStreetMap","make_a_donation":{"title":"Sprijiniți OpenStreetMap printr-o donație în bani","text":"Faceți o donație"},"learn_more":"Aflați mai multe","more":"Mai multe"},"license_page":{"foreign":{"title":"Despre această traducere"},"native":{"title":"Despre această pagină"},"legal_babble":{"title_html":"Drepturi de autor și licență","infringement_title_html":"Încălcarea drepturilor de autor"}},"welcome_page":{"title":"Bun venit!","questions":{"title":"Întrebări?"}},"fixthemap":{"how_to_help":{"join_the_community":{"title":"Alăturați-vă comunității"}}},"message":{"message_summary":{"delete_button":"Şterge"},"outbox":{"title":"Mesaje trimise","my_inbox":"Mesajele mele primite","inbox":"mesaje primite","outbox":"mesaje trimise","messages":{"one":"Aveți %{count} mesaj trimis","other":"Aveți %{count} (de) mesaje trimise"},"to":"Către","subject":"Subiect","date":"Dată"},"read":{"title":"Citire mesaj","from":"De la","subject":"Subiect","date":"Dată","reply_button":"Răspunde","unread_button":"Marchează ca necitit","to":"Către"},"sent_message_summary":{"delete_button":"Şterge"},"delete":{"deleted":"Mesaj șters"}},"site":{"index":{"permalink":"Legătură permanentă","shortlink":"Legătură scurtată"},"edit":{"user_page_link":"pagină de utilizator"}},"trace":{"edit":{"visibility":"Vizibilitate:","visibility_help":"ce înseamnă asta?"},"trace_form":{"upload_gpx":"Încărcați fișier GPX:","description":"Descriere:","tags":"Etichete:","tags_help":"use commas","visibility":"Vizibilitate:","visibility_help":"ce înseamnă asta?"},"view":{"filename":"Nume fișier:","uploaded":"Încărcate:","tags":"Etichete:","visibility":"Vizibilitate:"}},"oauth":{"oauthorize":{"request_access":"Aplicația %{app_name} cere acces la contul dumneavoastră, %{user}. Vă rugăm să alegeți care din următoarele permisiuni le poate avea aplicația. Puteți alege cât de multe sau cât de puține doriți."}},"oauth_clients":{"new":{"title":"Înregistrare aplicație nouă","submit":"Înregistrează"},"edit":{"submit":"Editează"},"show":{"allow_write_api":"modifică harta."},"index":{"revoke":"Revocă!"},"form":{"name":"Nume","required":"Necesar"}},"user":{"login":{"password":"Parolă:"},"reset_password":{"password":"Parola:","confirm password":"Confirmați parola:","reset":"Resetează parola","flash changed":"Parola dumneavoastră a fost schimbată."},"new":{"password":"Parolă:","confirm password":"Confirmați parola:"}}}}
+{
+	"ro": {
+		"time": {
+			"formats": {
+				"friendly": "%e %B %Y la %H:%M"
+			}
+		},
+		"activerecord": {
+			"models": {
+				"acl": "Lista de control al accesului",
+				"changeset": "Set de modificări",
+				"changeset_tag": "Etichetă pentru setul de modificări",
+				"country": "Țară",
+				"diary_comment": "Comentariu jurnal",
+				"diary_entry": "Intrare în jurnal",
+				"friend": "Prieten",
+				"language": "Limbă",
+				"message": "Mesaj",
+				"node": "Nod",
+				"node_tag": "Etichetă nod",
+				"notifier": "Notificator",
+				"old_node": "Nod vechi",
+				"old_node_tag": "Etichetă nod vechi",
+				"old_relation": "Relație veche",
+				"old_relation_member": "Membru al relației vechi",
+				"old_relation_tag": "Etichetă pentru relația veche",
+				"old_way": "Cale veche",
+				"old_way_node": "Nod cale veche",
+				"old_way_tag": "Etichetă cale veche",
+				"relation": "Relație",
+				"relation_member": "Membru relație",
+				"relation_tag": "Etichetă relație",
+				"session": "Sesiune",
+				"trace": "Înregistrare GPS",
+				"tracepoint": "Punct al unei înregistrări GPS",
+				"tracetag": "Etichetă înregistrare GPS",
+				"user": "Utilizator",
+				"user_preference": "Preferințe utilizator",
+				"way": "Cale",
+				"way_node": "Nod cale",
+				"way_tag": "Etichetă cale"
+			},
+			"attributes": {
+				"diary_comment": {
+					"body": "Corp"
+				},
+				"diary_entry": {
+					"user": "Utilizator",
+					"title": "Subiect",
+					"latitude": "Latitudine",
+					"longitude": "Longitudine",
+					"language": "Limbă"
+				},
+				"friend": {
+					"user": "Utilizator",
+					"friend": "Prieten"
+				},
+				"trace": {
+					"user": "Utilizator",
+					"visible": "Vizibilă",
+					"name": "Nume",
+					"size": "Dimensiune",
+					"latitude": "Latitudine",
+					"longitude": "Longitudine",
+					"public": "Public",
+					"description": "Descriere"
+				},
+				"message": {
+					"sender": "Expeditor",
+					"title": "Subiect",
+					"body": "Corp",
+					"recipient": "Destinatar"
+				},
+				"user": {
+					"email": "E-mail",
+					"active": "Activ",
+					"display_name": "Afișare nume",
+					"description": "Descriere",
+					"languages": "Limbi",
+					"pass_crypt": "Parolă"
+				}
+			}
+		},
+		"editor": {
+			"default": "Implicit (în prezent %{name})",
+			"potlatch": {
+				"name": "Potlatch 1",
+				"description": "Potlatch 1 (editor înglobat în navigator)"
+			},
+			"potlatch2": {
+				"name": "Potlatch 2",
+				"description": "Potlatch 2 (editor înglobat în navigator)"
+			},
+			"remote": {
+				"description": "Control de la distanță (JOSM sau Merkaartor)"
+			}
+		},
+		"browse": {
+			"version": "Versiune",
+			"in_changeset": "Set de modificări",
+			"anonymous": "anonim",
+			"no_comment": "(niciun comentariu)",
+			"changeset": {
+				"title": "Set de modificări: %{id}",
+				"belongs_to": "Autor",
+				"node": "Noduri (%{count})",
+				"node_paginated": "Noduri (%{x}-%{y} din %{count})",
+				"changesetxml": "Set de modificări XML",
+				"osmchangexml": "XML osmChange",
+				"feed": {
+					"title": "Set de modificări: %{id}",
+					"title_comment": "Set de modificări %{id} — %{comment}"
+				}
+			},
+			"way": {
+				"nodes": "Noduri"
+			},
+			"relation_member": {
+				"entry_role": "%{type} %{name} ca %{role}",
+				"type": {
+					"node": "Nod",
+					"way": "Cale",
+					"relation": "Relație"
+				}
+			},
+			"containing_relation": {
+				"entry": "Relația %{relation_name}",
+				"entry_role": "Relația %{relation_name} (ca %{relation_role})"
+			},
+			"not_found": {
+				"sorry": "Ne pare rău, dar %{type} #%{id} nu s-a putut găsi.",
+				"type": {
+					"node": "nod",
+					"way": "drum",
+					"relation": "relație",
+					"changeset": "set de modificări"
+				}
+			},
+			"timeout": {
+				"sorry": "Ne pare rău, dar durata recepționării datelor pentru %{type} cu identificatorul %{id} a fost prea mare.",
+				"type": {
+					"node": "nodul",
+					"way": "calea",
+					"relation": "relația",
+					"changeset": "setul de schimbări"
+				}
+			},
+			"redacted": {
+				"redaction": "Redactarea %{id}",
+				"message_html": "Nu se poate afișa versiunea %{version} a acestui/acestei %{type} pentru că a fost redactată. Vă rugăm să consultați %{redaction_link} pentru detalii.",
+				"type": {
+					"node": "nod",
+					"way": "drum",
+					"relation": "relații"
+				}
+			},
+			"start_rjs": {
+				"load_data": "Încărcare date",
+				"loading": "Se încarcă..."
+			},
+			"tag_details": {
+				"tags": "Etichete",
+				"wiki_link": {
+					"key": "Pagina de pe wiki pentru tagul %{key}",
+					"tag": "Pagina de pe wiki pentru tagul %{key}=%{value}"
+				},
+				"wikipedia_link": "Articolul %{page} pe Wikipedia"
+			},
+			"note": {
+				"title": "Notă: %{id}"
+			}
+		},
+		"changeset": {
+			"changeset_paging_nav": {
+				"showing_page": "Pagina %{page}",
+				"next": "Următoarea »",
+				"previous": "« Precedenta"
+			},
+			"changeset": {
+				"anonymous": "Anonim",
+				"no_edits": "(nu există editări)",
+				"view_changeset_details": "Vizualizare detalii set de schimbări"
+			},
+			"changesets": {
+				"id": "ID",
+				"saved_at": "Salvat la",
+				"user": "Utilizator",
+				"comment": "Comentariu",
+				"area": "Zonă"
+			},
+			"list": {
+				"title": "Set de modificări",
+				"title_user": "Seturi de modificări făcute de %{user}",
+				"title_friend": "Seturi de modificări de la prietenii dv.",
+				"title_nearby": "Modificări de la utilizatori din apropiere",
+				"empty": "Niciun set de modificări găsit.",
+				"empty_area": "Niciun set de modificări în această zonă.",
+				"empty_user": "Niciun set de modificări de la acest utilizator.",
+				"no_more": "Nu s-au mai găsit seturi de modificări.",
+				"no_more_area": "Nu s-au mai găsit seturi de modificări în această zonă.",
+				"no_more_user": "Nu s-au mai găsit seturi de modificări de la acest utilizator.",
+				"load_more": "Încarcă mai multe"
+			},
+			"timeout": {
+				"sorry": "Ne pare rău, preluarea listei de modificări pe care ați solicitat-o a durat prea mult."
+			}
+		},
+		"diary_entry": {
+			"new": {
+				"title": "O nouă înregistrare în jurnal"
+			},
+			"list": {
+				"title": "Jurnalele utilizatorilor",
+				"title_friends": "Jurnalele prietenilor",
+				"title_nearby": "Jurnalele utilizatorilor aflați în apropiere",
+				"user_title": "Jurnalul utilizatorului %{user}",
+				"in_language_title": "Înregistrări de jurnal în %{language}",
+				"new": "O nouă înregistrare în jurnal",
+				"new_title": "Compune o înregistrare nouă în jurnalul dvs. de utilizator",
+				"no_entries": "Nu există înregistrări în jurnal",
+				"recent_entries": "Înregistrări recente din jurnal",
+				"older_entries": "Înregistrări mai vechi",
+				"newer_entries": "Înregistrări mai noi"
+			},
+			"edit": {
+				"title": "Editare înregistrare din jurnal",
+				"subject": "Subiect:",
+				"body": "Corpul mesajului:",
+				"language": "Limbă:",
+				"location": "Loc:",
+				"latitude": "Latitudine:",
+				"longitude": "Longitudine:",
+				"use_map_link": "utilizează harta",
+				"save_button": "Salvează",
+				"marker_text": "Poziția înregistrării din jurnal"
+			},
+			"view": {
+				"title": "Jurnalul utilizatorului %{user} | %{title}",
+				"user_title": "Jurnalul utilizatorului %{user}",
+				"leave_a_comment": "Adaugă un comentariu",
+				"login_to_leave_a_comment": "%{login_link} este necesară pentru a comenta",
+				"login": "Autentificare",
+				"save_button": "Salvează"
+			},
+			"no_such_entry": {
+				"title": "Nu există o asemenea înregistrare",
+				"heading": "Nici o înregistrare cu identificatorul %{id}",
+				"body": "Ne pare rău, dar nu există nici o înregistrare de jurnal sau comentariu cu identificatorul %{id}. Vă rugăm să verificați ortografia; sau poate ați făcut clic pe un link invalid."
+			},
+			"diary_entry": {
+				"posted_by": "Postat de către %{link_user} pe %{created} în %{language_link}",
+				"comment_link": "Comentează la această înregistrare",
+				"reply_link": "Răspunde la această înregistrare",
+				"comment_count": {
+					"zero": "niciun comentariu",
+					"one": "%{count} comentariu",
+					"other": "%{count} comentarii"
+				},
+				"edit_link": "Editează această înregistrare",
+				"hide_link": "Ascunde această înregistrare",
+				"confirm": "Confirmă"
+			},
+			"diary_comment": {
+				"comment_from": "Comentariu de la %{link_user} pe %{comment_created_at}",
+				"hide_link": "Ascunde acest comentariu",
+				"confirm": "Confirmă"
+			},
+			"location": {
+				"location": "Loc:",
+				"view": "Vizualizează",
+				"edit": "Modifică"
+			},
+			"feed": {
+				"user": {
+					"title": "Înregistrări în jurnalul OpenStreetMap pentru %{user}",
+					"description": "Înregistrări recente în jurnalul OpenStreetMap de la %{user}"
+				},
+				"language": {
+					"title": "Înregistrări recente în jurnalul OpenStreetMap în %{language_name}",
+					"description": "Înregistrări recente în jurnale de la utilizatorii OpenStreetMap în limba %{language_name}"
+				},
+				"all": {
+					"title": "Înregistrări în jurnalul OpenStreetMap",
+					"description": "Înregistrări recente în jurnale de la utilizatorii OpenStreetMap"
+				}
+			},
+			"comments": {
+				"has_commented_on": "%{display_name} a comentat pe următoarele înregistrări din jurnal",
+				"post": "Trimite",
+				"when": "Când",
+				"comment": "Comentariu",
+				"ago": "cu %{ago} în urmă",
+				"newer_comments": "Comentarii mai noi",
+				"older_comments": "Comentarii mai vechi"
+			}
+		},
+		"export": {
+			"title": "Exportare",
+			"start": {
+				"area_to_export": "Zona pentru export",
+				"manually_select": "Selectați manual o altă zonă",
+				"format_to_export": "Format de exportat",
+				"osm_xml_data": "Date XML OpenStreetMap",
+				"licence": "Licență",
+				"options": "Opțiuni",
+				"format": "Format",
+				"scale": "Scară",
+				"max": "max",
+				"image_size": "Dimensiune imagine",
+				"zoom": "Zoom",
+				"add_marker": "Adaugă un marcator pe hartă",
+				"latitude": "Lat:",
+				"longitude": "Long:",
+				"output": "Date de ieșire",
+				"export_button": "Exportare"
+			}
+		},
+		"geocoder": {
+			"search": {
+				"title": {
+					"latlon": "Rezultate <a href=\"http://openstreetmap.org/\">interne</a>",
+					"us_postcode": "Rezultate de la <a href=\"http://geocoder.us/\">Geocoder.us</a>",
+					"uk_postcode": "Rezultate de la <a href=\"http://www.npemap.org.uk/\">NPEMap / FreeThe Postcode</a>",
+					"ca_postcode": "Rezultate de la <a href=\"http://geocoder.ca/\">Geocoder.CA</a>",
+					"osm_nominatim": "Rezultate de la <a href=\"http://nominatim.openstreetmap.org/\">OpenStreetMap Nominatim</a>",
+					"geonames": "Rezultate de la <a href=\"http://www.geonames.org/\">GeoNames</a>"
+				}
+			},
+			"search_osm_nominatim": {
+				"prefix": {
+					"aeroway": {
+						"aerodrome": "Aerodrom",
+						"apron": "Peron de aeroport",
+						"gate": "Poartă de aeroport",
+						"helipad": "Helipad",
+						"runway": "Pistă",
+						"taxiway": "Pistă de manevră",
+						"terminal": "Terminal"
+					},
+					"amenity": {
+						"airport": "Aeroport",
+						"arts_centre": "Centru de arte",
+						"artwork": "Operă de artă",
+						"atm": "Bancomat",
+						"auditorium": "Auditoriu",
+						"bank": "Instituție bancară",
+						"bar": "Bar",
+						"bbq": "Grătar",
+						"bench": "Bancă",
+						"bicycle_parking": "Parcare de biciclete",
+						"bicycle_rental": "Închiriere de biciclete",
+						"biergarten": "Braserie în aer liber",
+						"brothel": "Bordel",
+						"bureau_de_change": "Casă de schimb valutar",
+						"bus_station": "Stație de autobuz",
+						"cafe": "Cafenea",
+						"car_rental": "Închiriere de mașini",
+						"car_wash": "Spălătorie auto",
+						"casino": "Cazinou",
+						"charging_station": "Stație de taxare",
+						"cinema": "Cinematograf",
+						"clinic": "Clinică",
+						"club": "Club",
+						"college": "Colegiu",
+						"community_centre": "Centru comunitar",
+						"courthouse": "Tribunal",
+						"crematorium": "Crematoriu",
+						"dentist": "Dentist",
+						"doctors": "Medici",
+						"dormitory": "Cămin",
+						"drinking_water": "Cișmea",
+						"driving_school": "Școală de șoferi",
+						"embassy": "Ambasadă",
+						"emergency_phone": "Telefon de urgență",
+						"fast_food": "Fast-food",
+						"ferry_terminal": "Terminal pentru feriboturi",
+						"fire_hydrant": "Hidrant",
+						"fire_station": "Stație de pompieri",
+						"fountain": "Fântână",
+						"fuel": "Benzinărie",
+						"grave_yard": "Cimitir",
+						"gym": "Sală de fitness / gimnastică",
+						"hall": "Sală",
+						"health_centre": "Centru de sănătate",
+						"hospital": "Spital",
+						"hotel": "Hotel",
+						"hunting_stand": "Stand de vânătoare",
+						"ice_cream": "Înghețată",
+						"kindergarten": "Grădiniță",
+						"library": "Bibliotecă",
+						"market": "Piață",
+						"marketplace": "Piață de mărfuri",
+						"mountain_rescue": "Salvamont",
+						"nightclub": "Club de noapte",
+						"nursery": "Creșă",
+						"nursing_home": "Azil de bătrâni",
+						"office": "Birou",
+						"park": "Parc",
+						"parking": "Parcare",
+						"pharmacy": "Farmacie",
+						"place_of_worship": "Lăcaș de cult",
+						"police": "Poliție",
+						"post_box": "Cutie poștală",
+						"post_office": "Oficiu poștal",
+						"prison": "Închisoare",
+						"pub": "Pub",
+						"public_building": "Clădire publică",
+						"public_market": "Piață publică",
+						"reception_area": "Zonă de recepție",
+						"recycling": "Punct de reciclare",
+						"restaurant": "Restaurant",
+						"retirement_home": "Casă de bătrâni",
+						"sauna": "Saună",
+						"school": "Școală",
+						"shelter": "Adăpost",
+						"shop": "Magazin",
+						"shopping": "Cumpărături",
+						"shower": "Duș",
+						"social_centre": "Centru social",
+						"social_club": "Club social",
+						"studio": "Studio",
+						"supermarket": "Supermarket",
+						"swimming_pool": "Bazin de înot",
+						"taxi": "Taxi",
+						"telephone": "Telefon public",
+						"theatre": "Teatru",
+						"toilets": "Toalete",
+						"townhall": "Primărie",
+						"university": "Universitate",
+						"vending_machine": "Vendomat",
+						"veterinary": "Medic veterinar",
+						"village_hall": "Primărie comunală",
+						"waste_basket": "Coș de gunoi",
+						"wifi": "Acces WiFi",
+						"WLAN": "Acces WiFi",
+						"youth_centre": "Centru de tineret"
+					},
+					"boundary": {
+						"administrative": "Graniță administrativă",
+						"national_park": "Parc național",
+						"protected_area": "Zonă protejată"
+					},
+					"bridge": {
+						"aqueduct": "Apeduct",
+						"suspension": "Pod suspendat",
+						"swing": "Pod batant",
+						"viaduct": "Viaduct",
+						"yes": "Pod"
+					},
+					"building": {
+						"yes": "Clădire"
+					},
+					"highway": {
+						"bridleway": "Drum pentru călărie",
+						"bus_guideway": "Linie de autobuz ghidată",
+						"bus_stop": "Stație de autobuz",
+						"byway": "Rută secundară",
+						"construction": "Drum în construcție",
+						"cycleway": "Pistă de biciclete",
+						"emergency_access_point": "Punct de acces de urgență",
+						"footway": "Cale pietonală",
+						"ford": "Vad",
+						"living_street": "Zonă pietonală",
+						"milestone": "Bornă kilometrică",
+						"minor": "Drum minor",
+						"motorway": "Autostradă",
+						"motorway_junction": "Intersecție pe autostradă",
+						"motorway_link": "Autostradă",
+						"path": "Potecă",
+						"pedestrian": "Cale pietonală",
+						"platform": "Platformă",
+						"primary": "Drum principal",
+						"primary_link": "Drum principal",
+						"raceway": "Pistă",
+						"residential": "Rezidențial",
+						"rest_area": "Zonă pentru odihnă",
+						"road": "Drum",
+						"secondary": "Drum secundar",
+						"secondary_link": "Drum secundar",
+						"service": "Stradă de serviciu",
+						"services": "Servicii pe autostradă",
+						"speed_camera": "Radar cu cameră foto",
+						"steps": "Scară",
+						"tertiary": "Drum terțiar",
+						"tertiary_link": "Drum terțiar",
+						"track": "Drum forestier sau agricol",
+						"trail": "Potecă",
+						"unclassified": "Drum neclasificat",
+						"unsurfaced": "Drum neasfaltat"
+					},
+					"historic": {
+						"archaeological_site": "Sit arheologic",
+						"battlefield": "Câmp de luptă",
+						"boundary_stone": "Bornă de graniță",
+						"building": "Clădire",
+						"castle": "Castel",
+						"church": "Biserică",
+						"fort": "Fort",
+						"house": "Casă",
+						"manor": "Conac",
+						"memorial": "Memorial",
+						"mine": "Mină",
+						"monument": "Monument",
+						"museum": "Muzeu",
+						"ruins": "Ruine",
+						"tower": "Turn",
+						"wayside_cross": "Troiță",
+						"wayside_shrine": "Altar",
+						"wreck": "Epavă"
+					},
+					"landuse": {
+						"basin": "Bazin",
+						"cemetery": "Cimitir",
+						"commercial": "Zonă comercială",
+						"construction": "Construcție",
+						"farm": "Fermă",
+						"farmland": "Teren agricol",
+						"forest": "Pădure",
+						"grass": "Iarbă",
+						"industrial": "Zonă industrială",
+						"landfill": "Groapă de gunoi",
+						"meadow": "Luncă",
+						"military": "Zonă militară",
+						"mine": "Mină",
+						"nature_reserve": "Rezervație naturală",
+						"park": "Parc",
+						"quarry": "Carieră",
+						"railway": "Cale ferată",
+						"recreation_ground": "Zonă de recreere",
+						"reservoir": "Rezervor",
+						"residential": "Zonă rezidențială",
+						"vineyard": "Podgorie",
+						"wood": "Pădure"
+					},
+					"leisure": {
+						"beach_resort": "Stațiune balneară",
+						"fishing": "Zonă de pescuit",
+						"garden": "Grădină",
+						"golf_course": "Teren de golf",
+						"ice_rink": "Patinoar",
+						"miniature_golf": "Minigolf",
+						"nature_reserve": "Rezervație naturală",
+						"park": "Parc",
+						"pitch": "Teren de sport",
+						"playground": "Loc de joacă",
+						"recreation_ground": "Zonă de recreere",
+						"stadium": "Stadion",
+						"swimming_pool": "Bazin de înot",
+						"track": "Pistă de atletism",
+						"water_park": "Parc acvatic"
+					},
+					"natural": {
+						"bay": "Golf",
+						"beach": "Plajă",
+						"cape": "Cap",
+						"cave_entrance": "Intrare în peșteră",
+						"channel": "Canal",
+						"cliff": "Stâncă",
+						"crater": "Crater",
+						"fjord": "Fiord",
+						"geyser": "Gheizer",
+						"glacier": "Ghețar",
+						"hill": "Deal",
+						"island": "Insulă",
+						"land": "Teren",
+						"marsh": "Mlaștină",
+						"moor": "Baltă",
+						"mud": "Noroi",
+						"peak": "Vârf",
+						"reef": "Recif",
+						"ridge": "Creastă",
+						"river": "Râu",
+						"rock": "Rocă",
+						"scree": "Grohotiș",
+						"scrub": "Tufăriș",
+						"shoal": "Banc de nisip",
+						"spring": "Izvor",
+						"strait": "Strâmtoare",
+						"tree": "Copac",
+						"valley": "Vale",
+						"volcano": "Vulcan",
+						"water": "Apă",
+						"wood": "Pădure"
+					},
+					"place": {
+						"airport": "Aeroport",
+						"city": "Oraș",
+						"country": "Țară",
+						"county": "Județ",
+						"farm": "Fermă",
+						"hamlet": "Cătun",
+						"house": "Casă",
+						"houses": "Case",
+						"island": "Insulă",
+						"islet": "Insuliță",
+						"locality": "Localitate",
+						"moor": "Baltă",
+						"municipality": "Comună",
+						"postcode": "Cod poștal",
+						"region": "Regiune",
+						"sea": "Mare",
+						"state": "Stat",
+						"subdivision": "Subdiviziune",
+						"suburb": "Suburbie",
+						"town": "Orășel",
+						"unincorporated_area": "Zonă neîncorporată",
+						"village": "Sat"
+					},
+					"railway": {
+						"abandoned": "Cale ferată abandonată",
+						"construction": "Cale ferată în construcție",
+						"disused": "Cale ferată dezafectată",
+						"disused_station": "Gară dezafectată",
+						"funicular": "Funicular",
+						"historic_station": "Gară istorică",
+						"junction": "Nod feroviar",
+						"level_crossing": "Trecere la nivel",
+						"light_rail": "Metrou",
+						"monorail": "Monoșină",
+						"narrow_gauge": "Cale ferată cu ecartament îngust",
+						"platform": "Platformă feroviară",
+						"station": "Gară",
+						"subway": "Stație de metrou",
+						"subway_entrance": "Intrare la metrou",
+						"tram": "Tramvai",
+						"tram_stop": "Stație de tramvai",
+						"yard": "Depou"
+					},
+					"shop": {
+						"art": "Magazin de artă",
+						"bakery": "Brutărie",
+						"beauty": "Salon de frumusețe",
+						"beverages": "Magazin de băuturi",
+						"bicycle": "Magazin de biciclete",
+						"books": "Librărie",
+						"butcher": "Măcelărie",
+						"car_parts": "Piese auto",
+						"car_repair": "Service auto",
+						"clothes": "Magazin de haine",
+						"confectionery": "Cofetărie",
+						"cosmetics": "Magazin de cosmetice",
+						"dry_cleaning": "Curățătorie chimică",
+						"electronics": "Magazin de electronice",
+						"estate_agent": "Agent imobiliar",
+						"fish": "Pescărie",
+						"florist": "Florărie",
+						"food": "Alimentară",
+						"furniture": "Mobilier",
+						"gallery": "Galerie",
+						"grocery": "Magazin alimentar",
+						"hairdresser": "Coafor",
+						"hifi": "Hi-Fi",
+						"insurance": "Asigurare",
+						"jewelry": "Bijuterie",
+						"kiosk": "Chioșc",
+						"laundry": "Spălătorie",
+						"mall": "Mall",
+						"market": "Piață",
+						"newsagent": "Chioșc de ziare",
+						"optician": "Optician",
+						"organic": "Magazin de alimente organice",
+						"salon": "Salon de frumusețe",
+						"shopping_centre": "Centru comercial",
+						"stationery": "Magazin de papetărie",
+						"supermarket": "Supermarket",
+						"toys": "Magazin de jucării",
+						"travel_agency": "Agenție de turism"
+					},
+					"tourism": {
+						"alpine_hut": "Refugiu montan",
+						"artwork": "Operă de artă",
+						"attraction": "Atracție",
+						"cabin": "Cabină",
+						"camp_site": "Loc de campare",
+						"chalet": "Cabană",
+						"guest_house": "Casă de oaspeți",
+						"hostel": "Hotel de tineret",
+						"hotel": "Hotel",
+						"information": "Informații",
+						"motel": "Motel",
+						"museum": "Muzeu",
+						"theme_park": "Parc tematic",
+						"valley": "Vale",
+						"zoo": "Gradină zoologică"
+					},
+					"waterway": {
+						"canal": "Canal",
+						"dam": "Baraj",
+						"ditch": "Șanț",
+						"dock": "Doc",
+						"drain": "Scurgere",
+						"lock": "Ecluză",
+						"lock_gate": "Poartă de ecluză",
+						"mooring": "Amaraj",
+						"river": "Râu",
+						"waterfall": "Cascadă",
+						"weir": "Stăvilar"
+					}
+				}
+			},
+			"description": {
+				"types": {
+					"cities": "Orașe",
+					"towns": "Orășele",
+					"places": "Locuri"
+				}
+			},
+			"results": {
+				"no_results": "Niciun rezultat găsit",
+				"more_results": "Mai multe rezultate"
+			},
+			"distance": {
+				"one": "circa 1 km",
+				"zero": "mai puțin de 1 km",
+				"other": "circa %{count} km"
+			},
+			"direction": {
+				"south_west": "sud-vest",
+				"south": "sud",
+				"south_east": "sud-est",
+				"east": "est",
+				"north_east": "nord-est",
+				"north": "nord",
+				"north_west": "nord-vest",
+				"west": "vest"
+			}
+		},
+		"layouts": {
+			"logo": {
+				"alt_text": "Logoul OpenStreetMap"
+			},
+			"home": "acasă",
+			"logout": "Închide sesiunea",
+			"log_in": "Autentificare",
+			"log_in_tooltip": "Autentificare cu un cont existent",
+			"sign_up": "Înregistrare",
+			"start_mapping": "Start la cartografiere",
+			"sign_up_tooltip": "Creați un cont pentru editare",
+			"edit": "Modificare",
+			"history": "Istoric",
+			"edit_with": "Modificare cu %{editor}",
+			"partners_partners": "parteneri",
+			"help": "Ajutor",
+			"about": "Despre",
+			"copyright": "Drepturi de autor",
+			"community": "Comunitate",
+			"community_blogs": "Bloguri ale comunității",
+			"community_blogs_title": "Bloguri ale membrilor comunității OpenStreetMap",
+			"foundation": "Fundația",
+			"foundation_title": "Fundația OpenStreetMap",
+			"make_a_donation": {
+				"title": "Sprijiniți OpenStreetMap printr-o donație în bani",
+				"text": "Faceți o donație"
+			},
+			"learn_more": "Aflați mai multe",
+			"more": "Mai multe"
+		},
+		"license_page": {
+			"foreign": {
+				"title": "Despre această traducere"
+			},
+			"native": {
+				"title": "Despre această pagină"
+			},
+			"legal_babble": {
+				"title_html": "Drepturi de autor și licență",
+				"infringement_title_html": "Încălcarea drepturilor de autor"
+			}
+		},
+		"welcome_page": {
+			"title": "Bun venit!",
+			"questions": {
+				"title": "Întrebări?"
+			}
+		},
+		"fixthemap": {
+			"how_to_help": {
+				"join_the_community": {
+					"title": "Alăturați-vă comunității"
+				}
+			}
+		},
+		"message": {
+			"message_summary": {
+				"delete_button": "Şterge"
+			},
+			"outbox": {
+				"title": "Mesaje trimise",
+				"my_inbox": "Mesajele mele primite",
+				"inbox": "mesaje primite",
+				"outbox": "mesaje trimise",
+				"messages": {
+					"one": "Aveți %{count} mesaj trimis",
+					"other": "Aveți %{count} (de) mesaje trimise"
+				},
+				"to": "Către",
+				"subject": "Subiect",
+				"date": "Dată"
+			},
+			"read": {
+				"title": "Citire mesaj",
+				"from": "De la",
+				"subject": "Subiect",
+				"date": "Dată",
+				"reply_button": "Răspunde",
+				"unread_button": "Marchează ca necitit",
+				"to": "Către"
+			},
+			"sent_message_summary": {
+				"delete_button": "Şterge"
+			},
+			"delete": {
+				"deleted": "Mesaj șters"
+			}
+		},
+		"site": {
+			"index": {
+				"permalink": "Legătură permanentă",
+				"shortlink": "Legătură scurtată"
+			},
+			"edit": {
+				"user_page_link": "pagină de utilizator"
+			}
+		},
+		"trace": {
+			"edit": {
+				"visibility": "Vizibilitate:",
+				"visibility_help": "ce înseamnă asta?"
+			},
+			"trace_form": {
+				"upload_gpx": "Încărcați fișier GPX:",
+				"description": "Descriere:",
+				"tags": "Etichete:",
+				"tags_help": "use commas",
+				"visibility": "Vizibilitate:",
+				"visibility_help": "ce înseamnă asta?"
+			},
+			"view": {
+				"filename": "Nume fișier:",
+				"uploaded": "Încărcate:",
+				"tags": "Etichete:",
+				"visibility": "Vizibilitate:"
+			}
+		},
+		"oauth": {
+			"oauthorize": {
+				"request_access": "Aplicația %{app_name} cere acces la contul dumneavoastră, %{user}. Vă rugăm să alegeți care din următoarele permisiuni le poate avea aplicația. Puteți alege cât de multe sau cât de puține doriți."
+			}
+		},
+		"oauth_clients": {
+			"new": {
+				"title": "Înregistrare aplicație nouă",
+				"submit": "Înregistrează"
+			},
+			"edit": {
+				"submit": "Editează"
+			},
+			"show": {
+				"allow_write_api": "modifică harta."
+			},
+			"index": {
+				"revoke": "Revocă!"
+			},
+			"form": {
+				"name": "Nume",
+				"required": "Necesar"
+			}
+		},
+		"user": {
+			"login": {
+				"password": "Parolă:"
+			},
+			"reset_password": {
+				"password": "Parola:",
+				"confirm password": "Confirmați parola:",
+				"reset": "Resetează parola",
+				"flash changed": "Parola dumneavoastră a fost schimbată."
+			},
+			"new": {
+				"password": "Parolă:",
+				"confirm password": "Confirmați parola:"
+			}
+		}
+	}
+}

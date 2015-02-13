@@ -15,7 +15,7 @@ for (var i in lang_files){
 	
 		//Convert the current file
 		var lang_en_yaml = yaml.safeLoad(fs.readFileSync(current_file, 'utf8'));	
-		var lang_en_json = JSON.stringify(lang_en_yaml);
+		var lang_en_json = JSON.stringify(lang_en_yaml,null,'\t');
 
 		//Write to file
 		fs.writeFile('./locales/'+lang_files[i].split("\.")[0]+'.json', lang_en_json, 'utf8');
