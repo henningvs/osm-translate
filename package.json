@@ -1,0 +1,37 @@
+
+{
+	"name": "osm-translate",
+	"version": "0.0.1",
+	"description": "JS Library for translating osm key/value.",
+	"author": "Henning von See <henning@vonsee.de>",
+	"contributors": [{
+	"name": "Henning von See",
+	"email": "henning@vonsee.de"
+}],
+	"scripts": {
+		"test": "",
+		"start": "node ./genJson.js",
+		"predeploy": "",
+		"postdeploy": "",
+		"prepublish": ""
+	},
+	
+	"main": "./src/osm-translate.js",
+	"repository": {
+	"type": "git",
+	"url": "https://github.com/henningvs/osm-localisation"
+},
+	"bugs": {
+	"url": "https://github.com/henningvs/osm-translate/issues"
+},
+	"keywords": [
+		"openstreetmap",
+		"osm-translate",
+		"localize"
+	],
+	"dependencies": {
+		"js-yaml": "*",
+		"fs": "*"
+	},
+	"license": "GPL"
+}
