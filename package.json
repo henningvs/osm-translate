@@ -10,7 +10,7 @@
 }],
 	"scripts": {
 		"test": "",
-		"start": "node ./genJson.js",
+		"start": "node ./genJson.js && id-editor/translations/downloadTranslations.js",
 		"predeploy": "",
 		"postdeploy": "",
 		"prepublish": ""
@@ -31,7 +31,8 @@
 	],
 	"dependencies": {
 		"js-yaml": "*",
-		"fs": "*"
+		"fs": "*",
+		"http": "*"
 	},
 	"license": "GPL"
 }
