@@ -5,7 +5,7 @@ var yaml = require("js-yaml");
 
 var resources = ['core', 'presets'];
 var outdir = './yaml/';
-var api = 'http://www.transifex.com/api/2/';
+var api = 'https://www.transifex.com/api/2/';
 var project = api + 'project/id-editor/';
 var localesLanguages = {"en", "de"};
 
@@ -32,17 +32,4 @@ getIDTransifexLocales = function() {
 
 };
 
-function getLanguage(resource) {
-    return function(code, callback) {
-        code = code.replace(/-/g, '_');
-        var url = resource + 'translation/' + code;
-        if (code === 'vi') url += '?mode=reviewed';
-        request.get(url, {
-                auth: auth
-            },
-            function(err, resp, body) {
-                if (err) return callback(err);
-                callback(null, yaml.load(JSON.parse(body).content)[code]);
-            });
-    };
-}
+getIDTransifexLocales();

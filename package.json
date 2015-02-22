@@ -31,8 +31,7 @@
 	],
 	"dependencies": {
 		"js-yaml": "*",
-		"fs": "*",
-		"http": "*"
+		"fs": "*"
 	},
 	"license": "GPL"
 }
