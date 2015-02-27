@@ -9,8 +9,8 @@
 	"email": "henning@vonsee.de"
 }],
 	"scripts": {
-		"test": "",
-		"start": "node osm-website/translations/genLocalesJson.js && id-editor/translations/downloadTranslations.js",
+		"test": "node osm-website/translations/genLocalesJson.js",
+		"start": "node id-editor/translations/downloadTranslations.js",
 		"predeploy": "",
 		"postdeploy": "",
 		"prepublish": ""
