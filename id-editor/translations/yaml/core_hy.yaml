@@ -1,0 +1,4 @@
+{
+    "content": "hy:\n  modes:\n    add_line:\n      title: Գիծ\n    add_point:\n      title: Կետ\n      tail: Կետ ավելացնելու համար կտացրեք քարտեզի վրա։\n  operations:\n    add:\n      annotation:\n        point: Կետ է ավլեացրել։\n    disconnect:\n      title: Անջատել\n      description: Անջատել գծերը/տարածքները իրարից։\n    merge:\n      title: Միացնել\n      description: Միացնել այս գծերը։\n  translate:\n    translate: Թարգմանել\n    localized_translation_language: Ընտրեք լեզուն\n    localized_translation_name: Անուն\n  intro:\n    lines:\n      title: \"Գծեր\"\n", 
+    "mimetype": "text/plain"
+}

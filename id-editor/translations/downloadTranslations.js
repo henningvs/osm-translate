@@ -10,7 +10,7 @@ var outdir = 'id-editor/translations/yaml/';
 var host = 'www.transifex.com';
 var api = '/api/2/';
 var project = api + 'project/id-editor/';
-var localesLanguages = ['en', 'de'];
+var localesLanguages = ['en', 'af', 'sq', 'ar', 'ar_AA', 'hy', 'ast', 'bn', 'bs', 'bg_BG', 'ca', 'zh', 'zh_CN', 'gan', 'zh_HK', 'zh_TW', 'yue', 'hr', 'cs', 'da', 'nl', 'en_GB', 'eo', 'et', 'fi', 'fr', 'gl', 'de', 'el', 'hi_IN', 'hu', 'is', 'id', 'it', 'kn', 'km', 'ko', 'ko_KR', 'lv', 'lt', 'ne', 'no', 'nn', 'fa', 'pl', 'pt', 'pt_BR', 'ro_RO', 'sc', 'sr', 'si', 'sk', 'sl', 'es', 'sv', 'tl', 'ta', 'te', 'tr', 'uk', 'vi'];
 
 var auth = JSON.parse(fs.readFileSync('id-editor/translations/transifex.auth', 'utf8'));
 
