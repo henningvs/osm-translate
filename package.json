@@ -31,7 +31,8 @@
 	],
 	"dependencies": {
 		"js-yaml": "*",
-		"fs": "*"
+		"fs": "*",
+		"async": "*"
 	},
 	"license": "GPL"
 }
