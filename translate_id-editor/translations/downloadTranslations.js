@@ -7,6 +7,7 @@ var async = require('async');
 
 var resources = ['core', 'presets'];
 var outdir = 'translate_id-editor/translations/yaml/';
+var outdirJson = 'translate_id-editor/translations/json/';
 var host = 'www.transifex.com';
 var api = '/api/2/';
 var project = api + 'project/id-editor/';
@@ -26,7 +27,7 @@ getIDTransifexLocales = function() {
 	    }		
 	}
 	
-	async.each(array, downloadFile)
+	async.each(array, downloadFile);
 
 };
 

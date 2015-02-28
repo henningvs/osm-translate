@@ -1,0 +1,4 @@
+{
+	"content": "sc:\n  modes:\n    browse:\n      title: Circa\n  operations:\n    delete:\n      title: Boga\n    move:\n      title: Movi\n    split:\n      title: Sperra\n",
+	"mimetype": "text/plain"
+}
