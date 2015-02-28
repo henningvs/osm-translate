@@ -1,4 +1,1200 @@
 {
-	"content": "af:\n  modes:\n    add_area:\n      title: Area\n      description: \"Sit 'n park, gebou, meer of iets ander by die kaart.\"\n      tail: \"Klick op die kaart om 'n area te begin teken soos 'n park, meer of gebou.\"\n    add_line:\n      title: Lyn\n      description: \"Sit snelwee, strate, voetslaanpaaidjies, kanaale of ander lyne by die kaart.\"\n      tail: \"Klick op die kaart om 'n pad, paaidjie of roete te teken.\"\n    add_point:\n      title: Punt\n      description: \"Sit 'n restaurant, monument, posbus of ander punte by die kaart.\"\n      tail: Klick op die kaart om 'n punt by te sit.\n    browse:\n      title: Blaai rond\n      description: Kyk rond en zoom die kaart.\n  operations:\n    add:\n      annotation:\n        point: Punt is bygesit.\n        vertex: '''n Punt is bygesit by ''n weg.'\n    start:\n      annotation:\n        line: Begin 'n lyn.\n        area: Begin 'n area.\n    continue:\n      annotation:\n        line: Gaan voort met 'n lyn.\n        area: Gaan voort met 'n area.\n    cancel_draw:\n      annotation: Kanseleer teken.\n    change_tags:\n      annotation: Veranderde kenmerke.\n    circularize:\n      title: Maak rond\n      description:\n        line: Maak hierdie lyn rond.\n        area: Maak die area rond.\n      key: O\n      annotation:\n        line: Maak 'n lyn rond.\n        area: Maak 'n area rond.\n    orthogonalize:\n      annotation:\n        line: Maak die hoeke van 'n lyn reghoekig.\n        area: Maak die hoeke van 'n area reghoekig.\n    delete:\n      title: Verwyder\n      annotation:\n        point: Verwyder 'n punt.\n        vertex: Verwyder 'n punt van 'n weg.\n        line: '''n Lyn is verwyder.'\n        area: '''n Area is verwyder.'\n        relation: '''n Verhouding is verwyder.'\n        multiple: \"{n} stukke is verwyder.\"\n    connect:\n      annotation:\n        point: '''n Weg is gekoppel aan ''n punt.'\n        vertex: Een weg is aan 'n ander gekoppel.\n        line: '''n Weg is aan ''n lyn gekoppel.'\n        area: '''n Weg is aan ''n area gekoppel.'\n    disconnect:\n      title: Ontkoppel.\n      description: Ontkoppel hierdie lyne/areas van mekkaar.\n      key: D\n      annotation: Lyne/areas geontkoppel.\n      not_connected: Daar is nie genoeg lyne/areas hier om te ontkoppel nie.\n    merge:\n      title: Smelt saam\n      description: Smelt die lyne saam.\n      key: C\n      annotation: \"{n} lyne saamgesmelt.\"\n      not_eligible: Hierdie items kan nie saamgesmelt word nie.\n      not_adjacent: Hierdie lyne kan nie saamgesmelt word nie, want hulle is nie verbind nie.\n    move:\n      title: Skuif\n      description: Skuif na 'n ander plek.\n      key: M\n      annotation:\n        point: '''n Punt is geskuif.'\n        vertex: '''n Punt in weg is geskuif.'\n        line: '''n Lyn is geskuif.'\n        area: '''n Area is geskuif.'\n        multiple: Verskeie stukke is geskuif.\n      incomplete_relation: Hierdie item kan nie geskuif word nie want dit is nie volledig afgelaai nie.\n    rotate:\n      title: Draai\n      key: R\n      annotation:\n        line: '''n Lyn is gedraai.'\n        area: '''n Area is gedraai.'\n    reverse:\n      title: Draai om\n      description: Maak die lyn ander kant toe gaan.\n      key: V\n      annotation: '''n Lyn is omgedraai.'\n    split:\n      title: Split\n      description:\n        line: Split die lyn in twee by hierdie punt.\n        area: Split die grens van hierdie area in twee.\n        multiple: Split die lyn/area grens by hierdie punt in twee.\n      key: X\n      annotation:\n        line: Split 'n lyn.\n        area: Split 'n area grens.\n        multiple: \"Split {n} lyn/area grense.\"\n      not_eligible: Lyne kan nie gesplit word by hulle begin of eind punte nie.\n      multiple_ways: Daar is te veel lyne hier om te split.\n  undo:\n    nothing: Niks om ongedaan te maak.\n  redo:\n    nothing: Niks om weer te doen nie.\n  browser_notice: \"Hierdie program is bruikbaar in Firefox, Chrome, Safair, Opera en Internet Explorer 9 en later weergawes. Gradeer asseblief jou webbrowser op of gebruik Potlatch 2 om die kaart te verander.\"\n  logout: voetsek\n  loading_auth: \"Maak kontak met OpenStreetMap...\"\n  report_a_bug: Raporteer 'n probleem\n  status:\n    error: Kan nie aan die API koppel nie.\n    offline: Die API is aflyn, probeer asseblief later weer.\n    readonly: Die API is lees alleenliks. Jy sal so bietjie moet wag voordat jy verandering kan bêre.\n  commit:\n    title: Bêre veranderinge\n    description_placeholder: Kortlikse beskrywing van jou bydraes\n    message_label: Bêre boodskap\n    save: Bȇre\n    cancel: Kanseleer\n    warnings: Waarskuwings\n    modified: Verander\n    deleted: Verwyder\n    created: Gemaak\n  geolocate:\n    title: Wys waar ek is\n  inspector:\n    no_documentation_combination: Daar is geen dokumentasie beskikbaar vir hierdie kenmerk kombinasie nie\n    no_documentation_key: Daar is geen dokumentasie beskikbaar vir hierdie sleutel nie\n    show_more: Wys meer\n    view_on_osm: Kyk daarna op openstreetmap.org\n    choose: Kies funksie tipe\n    results: \"{n} resultate vir {search}\"\n    reference: Kyk daarna op OpenStreetMap Wiki\n    remove: Verwyder\n  background:\n    title: Agtergrond\n    description: Agtergrond stellings\n    percent_brightness: \"{opacity}% helderheid\"\n    reset: begin van voor\n  restore:\n    heading: Jy het verandering wat nog gebêre moet word\n    description: \"Wil jy graag ongebêrede veranderinge heroep van 'n vorige kaart veranderingssessie?\"\n    restore: Herstel\n    reset: Begin van voor\n  save:\n    title: Stoor\n    help: \"Stoor veranderinge na OpenStreetMap, en maak dit sigbaar vir ander gebruikers.\"\n    no_changes: Geen verandering om te stoor.\n    error: '''n Fout het ingekruip toe jy probeer stoor het'\n    uploading: Laai verandering op na OpenStreetMap.\n    unsaved_changes: Jy het ongestoorde veranderinge\n  success:\n    just_edited: \"Jy het nou net 'n OpenStreetMapKaart bydra gemaak!\"\n    view_on_osm: \"Besigtig op OSM\"\n  splash:\n    welcome: Welkom by die iD OpenStreetMap program\n    walkthrough: \"Begin die Deurloop\"\n    start: \"Verander Nou\"\n  source_switch:\n    live: lewendig\n    lose_changes: \"Jy het ongebêrede verandering, as jy die van kaart server verander gaan jy die veranderings weggooi. Is jy seker jy wil van kaart server verander?\"\n    dev: dev\n  tag_reference:\n    description: Beskrywing\n    on_wiki: \"{tag} op wiki.osm.org\"\n    used_with: \"gebruik met {type}\"\n  validations:\n    untagged_point: Punt sonder eienskappe\n    untagged_line: Lyn het geen kenmerk\n    untagged_area: Area het geen kenmerk\n    many_deletions: \"Jy verwyder items van die kaart. Dit affekteer die kaart wat almal sien op openstreetmap.org. Maak asseblief seker dit is wat jy wil doen.\"\n    tag_suggests_area: \"Die kenmerk {tag} is geoormerk vir 'n area nie vir 'n lyn nie.\"\n    deprecated_tags: \"Vervalde kenmerke: {tags}\"\n  zoom:\n    in: Zoom in\n    out: Zoom uit\n  cannot_zoom: \"Kan nie verder uitzoom in die huidige mode nie.\"\n  gpx:\n    local_layer: \"Plaaslike GPX leer\"\n  help:\n    title: \"Help\"\n  intro:\n    navigation:\n      drag: \"Die hoofkaartarea toon OpenStreetMap data aan op 'n agtergrond. Jy kan navigeer deur te trek en te sleep net soos met enige ander web gebaseerde kaart. **Probeer dit nou!**\"\n      select: \"Kaart eienskappe word verteenwoordig op drie maniere: punte, lyne en areas. All eienskappe kan uitgekies word deur daarop te klick. **Klick op 'n punt om dit uit te kies.**\"\n      header: \"Die opskrif wys ons die eienskap tipe.\"\n      pane: \"Die itemkieslys word vertoon sodra jy 'n item op die kaart kies. Die opskrif dui die itemtipe aan en die hoofpaneel dui die item se eienskappe aan soos 'n naam en adres. **Om die itemkieslys toe te maak druk die knoppie regs bo.**\"\n    points:\n      add: \"Punte kan gebruik word om winkels, restaurante, monemente en soortgelyke plekke aan te dui. Dit merk 'n spesifieke punt en beskryf wat daar gevind kan word. **Druk op die Punt knoppe om  'n nuwe punt by te voeg.**\"\n      place: \"Die punt kan op die kaart geplaas word deur daarop te klick. **Sit die punt bo-op die gebou.**\"\n      describe: \"Die punt is nou gemerk as 'n kafee. Gebruik die eienskapslys om meer inligting by te sit. **Sit 'n naam by**\"\n      close: \"Die eienskapslys kan toegemaak word deur op die toemaak knoppie te klick. **Maak die eienskapslys toe**\"\n      reselect: \"Baie kere gaan 'n punt klaar bestaan, maar met foute of onvolledig. Jy kan bestaande punte verander. **Kies die punt wat jy nou net gemaak het.**\"\n      fixname: \"**Verander die naam en maak die eienskapslys toe.**\"\n      reselect_delete: \"Alle eienskappe op die kaart kan verwyder word. **Klick op die punt wat jy nou net gemaak het. **\"\n      delete: \"Wanneer jy op 'n punt druk verskyn verskillende opsies, soos verwyder die punt. **Verwyder die punt.**\"\n    areas:\n      describe: \"**Sit 'n naam by en maak die eienskappe lys toe**\"\n    lines:\n      start: \"** Begin die lyn deur op die einde van die pad te klick.**\"\n      residential: \"Daar is verskillende tipes paaie, die mees algemeenste is 'n residensieel pad. ** Kies die Residentieele Pad tipe**\"\n      describe: \"**Gee die pad 'n naam en maak die eienskappe lys toe.**\"\n      restart: \"Die pad moet Flower Straat Kruis.\"\n    startediting:\n      help: \"Meer dokumentasie en hierdie deurloop is beskikbaar hier.\"\n      save: \"Moenie vergeet om gereeld verandering te bêre nie!\"\n      start: \"Begin die kaart teken!\"\n",
-	"mimetype": "text/plain"
+
+"af": {
+
+
+"modes": {
+
+
+
+"add_area": {
+
+
+
+
+"title": "Area",
+
+
+
+
+"description": "Sit 'n park, gebou, meer of iets ander by die kaart.",
+
+
+
+
+"tail": "Klick op die kaart om 'n area te begin teken soos 'n park, meer of gebou."
+
+
+
+},
+
+
+
+"add_line": {
+
+
+
+
+"title": "Lyn",
+
+
+
+
+"description": "Sit snelwee, strate, voetslaanpaaidjies, kanaale of ander lyne by die kaart.",
+
+
+
+
+"tail": "Klick op die kaart om 'n pad, paaidjie of roete te teken."
+
+
+
+},
+
+
+
+"add_point": {
+
+
+
+
+"title": "Punt",
+
+
+
+
+"description": "Sit 'n restaurant, monument, posbus of ander punte by die kaart.",
+
+
+
+
+"tail": "Klick op die kaart om 'n punt by te sit."
+
+
+
+},
+
+
+
+"browse": {
+
+
+
+
+"title": "Blaai rond",
+
+
+
+
+"description": "Kyk rond en zoom die kaart."
+
+
+
+}
+
+
+},
+
+
+"operations": {
+
+
+
+"add": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Punt is bygesit.",
+
+
+
+
+
+"vertex": "'n Punt is bygesit by 'n weg."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"start": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Begin 'n lyn.",
+
+
+
+
+
+"area": "Begin 'n area."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"continue": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Gaan voort met 'n lyn.",
+
+
+
+
+
+"area": "Gaan voort met 'n area."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"cancel_draw": {
+
+
+
+
+"annotation": "Kanseleer teken."
+
+
+
+},
+
+
+
+"change_tags": {
+
+
+
+
+"annotation": "Veranderde kenmerke."
+
+
+
+},
+
+
+
+"circularize": {
+
+
+
+
+"title": "Maak rond",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Maak hierdie lyn rond.",
+
+
+
+
+
+"area": "Maak die area rond."
+
+
+
+
+},
+
+
+
+
+"key": "O",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Maak 'n lyn rond.",
+
+
+
+
+
+"area": "Maak 'n area rond."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"orthogonalize": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Maak die hoeke van 'n lyn reghoekig.",
+
+
+
+
+
+"area": "Maak die hoeke van 'n area reghoekig."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"delete": {
+
+
+
+
+"title": "Verwyder",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Verwyder 'n punt.",
+
+
+
+
+
+"vertex": "Verwyder 'n punt van 'n weg.",
+
+
+
+
+
+"line": "'n Lyn is verwyder.",
+
+
+
+
+
+"area": "'n Area is verwyder.",
+
+
+
+
+
+"relation": "'n Verhouding is verwyder.",
+
+
+
+
+
+"multiple": "{n} stukke is verwyder."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"connect": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "'n Weg is gekoppel aan 'n punt.",
+
+
+
+
+
+"vertex": "Een weg is aan 'n ander gekoppel.",
+
+
+
+
+
+"line": "'n Weg is aan 'n lyn gekoppel.",
+
+
+
+
+
+"area": "'n Weg is aan 'n area gekoppel."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"disconnect": {
+
+
+
+
+"title": "Ontkoppel.",
+
+
+
+
+"description": "Ontkoppel hierdie lyne/areas van mekkaar.",
+
+
+
+
+"key": "D",
+
+
+
+
+"annotation": "Lyne/areas geontkoppel.",
+
+
+
+
+"not_connected": "Daar is nie genoeg lyne/areas hier om te ontkoppel nie."
+
+
+
+},
+
+
+
+"merge": {
+
+
+
+
+"title": "Smelt saam",
+
+
+
+
+"description": "Smelt die lyne saam.",
+
+
+
+
+"key": "C",
+
+
+
+
+"annotation": "{n} lyne saamgesmelt.",
+
+
+
+
+"not_eligible": "Hierdie items kan nie saamgesmelt word nie.",
+
+
+
+
+"not_adjacent": "Hierdie lyne kan nie saamgesmelt word nie, want hulle is nie verbind nie."
+
+
+
+},
+
+
+
+"move": {
+
+
+
+
+"title": "Skuif",
+
+
+
+
+"description": "Skuif na 'n ander plek.",
+
+
+
+
+"key": "M",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "'n Punt is geskuif.",
+
+
+
+
+
+"vertex": "'n Punt in weg is geskuif.",
+
+
+
+
+
+"line": "'n Lyn is geskuif.",
+
+
+
+
+
+"area": "'n Area is geskuif.",
+
+
+
+
+
+"multiple": "Verskeie stukke is geskuif."
+
+
+
+
+},
+
+
+
+
+"incomplete_relation": "Hierdie item kan nie geskuif word nie want dit is nie volledig afgelaai nie."
+
+
+
+},
+
+
+
+"rotate": {
+
+
+
+
+"title": "Draai",
+
+
+
+
+"key": "R",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "'n Lyn is gedraai.",
+
+
+
+
+
+"area": "'n Area is gedraai."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"reverse": {
+
+
+
+
+"title": "Draai om",
+
+
+
+
+"description": "Maak die lyn ander kant toe gaan.",
+
+
+
+
+"key": "V",
+
+
+
+
+"annotation": "'n Lyn is omgedraai."
+
+
+
+},
+
+
+
+"split": {
+
+
+
+
+"title": "Split",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Split die lyn in twee by hierdie punt.",
+
+
+
+
+
+"area": "Split die grens van hierdie area in twee.",
+
+
+
+
+
+"multiple": "Split die lyn/area grens by hierdie punt in twee."
+
+
+
+
+},
+
+
+
+
+"key": "X",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Split 'n lyn.",
+
+
+
+
+
+"area": "Split 'n area grens.",
+
+
+
+
+
+"multiple": "Split {n} lyn/area grense."
+
+
+
+
+},
+
+
+
+
+"not_eligible": "Lyne kan nie gesplit word by hulle begin of eind punte nie.",
+
+
+
+
+"multiple_ways": "Daar is te veel lyne hier om te split."
+
+
+
+}
+
+
+},
+
+
+"undo": {
+
+
+
+"nothing": "Niks om ongedaan te maak."
+
+
+},
+
+
+"redo": {
+
+
+
+"nothing": "Niks om weer te doen nie."
+
+
+},
+
+
+"browser_notice": "Hierdie program is bruikbaar in Firefox, Chrome, Safair, Opera en Internet Explorer 9 en later weergawes. Gradeer asseblief jou webbrowser op of gebruik Potlatch 2 om die kaart te verander.",
+
+
+"logout": "voetsek",
+
+
+"loading_auth": "Maak kontak met OpenStreetMap...",
+
+
+"report_a_bug": "Raporteer 'n probleem",
+
+
+"status": {
+
+
+
+"error": "Kan nie aan die API koppel nie.",
+
+
+
+"offline": "Die API is aflyn, probeer asseblief later weer.",
+
+
+
+"readonly": "Die API is lees alleenliks. Jy sal so bietjie moet wag voordat jy verandering kan bêre."
+
+
+},
+
+
+"commit": {
+
+
+
+"title": "Bêre veranderinge",
+
+
+
+"description_placeholder": "Kortlikse beskrywing van jou bydraes",
+
+
+
+"message_label": "Bêre boodskap",
+
+
+
+"save": "Bȇre",
+
+
+
+"cancel": "Kanseleer",
+
+
+
+"warnings": "Waarskuwings",
+
+
+
+"modified": "Verander",
+
+
+
+"deleted": "Verwyder",
+
+
+
+"created": "Gemaak"
+
+
+},
+
+
+"geolocate": {
+
+
+
+"title": "Wys waar ek is"
+
+
+},
+
+
+"inspector": {
+
+
+
+"no_documentation_combination": "Daar is geen dokumentasie beskikbaar vir hierdie kenmerk kombinasie nie",
+
+
+
+"no_documentation_key": "Daar is geen dokumentasie beskikbaar vir hierdie sleutel nie",
+
+
+
+"show_more": "Wys meer",
+
+
+
+"view_on_osm": "Kyk daarna op openstreetmap.org",
+
+
+
+"choose": "Kies funksie tipe",
+
+
+
+"results": "{n} resultate vir {search}",
+
+
+
+"reference": "Kyk daarna op OpenStreetMap Wiki",
+
+
+
+"remove": "Verwyder"
+
+
+},
+
+
+"background": {
+
+
+
+"title": "Agtergrond",
+
+
+
+"description": "Agtergrond stellings",
+
+
+
+"percent_brightness": "{opacity}% helderheid",
+
+
+
+"reset": "begin van voor"
+
+
+},
+
+
+"restore": {
+
+
+
+"heading": "Jy het verandering wat nog gebêre moet word",
+
+
+
+"description": "Wil jy graag ongebêrede veranderinge heroep van 'n vorige kaart veranderingssessie?",
+
+
+
+"restore": "Herstel",
+
+
+
+"reset": "Begin van voor"
+
+
+},
+
+
+"save": {
+
+
+
+"title": "Stoor",
+
+
+
+"help": "Stoor veranderinge na OpenStreetMap, en maak dit sigbaar vir ander gebruikers.",
+
+
+
+"no_changes": "Geen verandering om te stoor.",
+
+
+
+"error": "'n Fout het ingekruip toe jy probeer stoor het",
+
+
+
+"uploading": "Laai verandering op na OpenStreetMap.",
+
+
+
+"unsaved_changes": "Jy het ongestoorde veranderinge"
+
+
+},
+
+
+"success": {
+
+
+
+"just_edited": "Jy het nou net 'n OpenStreetMapKaart bydra gemaak!",
+
+
+
+"view_on_osm": "Besigtig op OSM"
+
+
+},
+
+
+"splash": {
+
+
+
+"welcome": "Welkom by die iD OpenStreetMap program",
+
+
+
+"walkthrough": "Begin die Deurloop",
+
+
+
+"start": "Verander Nou"
+
+
+},
+
+
+"source_switch": {
+
+
+
+"live": "lewendig",
+
+
+
+"lose_changes": "Jy het ongebêrede verandering, as jy die van kaart server verander gaan jy die veranderings weggooi. Is jy seker jy wil van kaart server verander?",
+
+
+
+"dev": "dev"
+
+
+},
+
+
+"tag_reference": {
+
+
+
+"description": "Beskrywing",
+
+
+
+"on_wiki": "{tag} op wiki.osm.org",
+
+
+
+"used_with": "gebruik met {type}"
+
+
+},
+
+
+"validations": {
+
+
+
+"untagged_point": "Punt sonder eienskappe",
+
+
+
+"untagged_line": "Lyn het geen kenmerk",
+
+
+
+"untagged_area": "Area het geen kenmerk",
+
+
+
+"many_deletions": "Jy verwyder items van die kaart. Dit affekteer die kaart wat almal sien op openstreetmap.org. Maak asseblief seker dit is wat jy wil doen.",
+
+
+
+"tag_suggests_area": "Die kenmerk {tag} is geoormerk vir 'n area nie vir 'n lyn nie.",
+
+
+
+"deprecated_tags": "Vervalde kenmerke: {tags}"
+
+
+},
+
+
+"zoom": {
+
+
+
+"in": "Zoom in",
+
+
+
+"out": "Zoom uit"
+
+
+},
+
+
+"cannot_zoom": "Kan nie verder uitzoom in die huidige mode nie.",
+
+
+"gpx": {
+
+
+
+"local_layer": "Plaaslike GPX leer"
+
+
+},
+
+
+"help": {
+
+
+
+"title": "Help"
+
+
+},
+
+
+"intro": {
+
+
+
+"navigation": {
+
+
+
+
+"drag": "Die hoofkaartarea toon OpenStreetMap data aan op 'n agtergrond. Jy kan navigeer deur te trek en te sleep net soos met enige ander web gebaseerde kaart. **Probeer dit nou!**",
+
+
+
+
+"select": "Kaart eienskappe word verteenwoordig op drie maniere: punte, lyne en areas. All eienskappe kan uitgekies word deur daarop te klick. **Klick op 'n punt om dit uit te kies.**",
+
+
+
+
+"header": "Die opskrif wys ons die eienskap tipe.",
+
+
+
+
+"pane": "Die itemkieslys word vertoon sodra jy 'n item op die kaart kies. Die opskrif dui die itemtipe aan en die hoofpaneel dui die item se eienskappe aan soos 'n naam en adres. **Om die itemkieslys toe te maak druk die knoppie regs bo.**"
+
+
+
+},
+
+
+
+"points": {
+
+
+
+
+"add": "Punte kan gebruik word om winkels, restaurante, monemente en soortgelyke plekke aan te dui. Dit merk 'n spesifieke punt en beskryf wat daar gevind kan word. **Druk op die Punt knoppe om  'n nuwe punt by te voeg.**",
+
+
+
+
+"place": "Die punt kan op die kaart geplaas word deur daarop te klick. **Sit die punt bo-op die gebou.**",
+
+
+
+
+"describe": "Die punt is nou gemerk as 'n kafee. Gebruik die eienskapslys om meer inligting by te sit. **Sit 'n naam by**",
+
+
+
+
+"close": "Die eienskapslys kan toegemaak word deur op die toemaak knoppie te klick. **Maak die eienskapslys toe**",
+
+
+
+
+"reselect": "Baie kere gaan 'n punt klaar bestaan, maar met foute of onvolledig. Jy kan bestaande punte verander. **Kies die punt wat jy nou net gemaak het.**",
+
+
+
+
+"fixname": "**Verander die naam en maak die eienskapslys toe.**",
+
+
+
+
+"reselect_delete": "Alle eienskappe op die kaart kan verwyder word. **Klick op die punt wat jy nou net gemaak het. **",
+
+
+
+
+"delete": "Wanneer jy op 'n punt druk verskyn verskillende opsies, soos verwyder die punt. **Verwyder die punt.**"
+
+
+
+},
+
+
+
+"areas": {
+
+
+
+
+"describe": "**Sit 'n naam by en maak die eienskappe lys toe**"
+
+
+
+},
+
+
+
+"lines": {
+
+
+
+
+"start": "** Begin die lyn deur op die einde van die pad te klick.**",
+
+
+
+
+"residential": "Daar is verskillende tipes paaie, die mees algemeenste is 'n residensieel pad. ** Kies die Residentieele Pad tipe**",
+
+
+
+
+"describe": "**Gee die pad 'n naam en maak die eienskappe lys toe.**",
+
+
+
+
+"restart": "Die pad moet Flower Straat Kruis."
+
+
+
+},
+
+
+
+"startediting": {
+
+
+
+
+"help": "Meer dokumentasie en hierdie deurloop is beskikbaar hier.",
+
+
+
+
+"save": "Moenie vergeet om gereeld verandering te bêre nie!",
+
+
+
+
+"start": "Begin die kaart teken!"
+
+
+
+}
+
+
+}
+
+}
 }

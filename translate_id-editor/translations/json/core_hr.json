@@ -1,4 +1,2242 @@
 {
-	"content": "hr:\n  modes:\n    add_area:\n      title: Područje\n      description: \"Dodaj parkove, zgrade, jezera ili druga područja na kartu.\"\n      tail: \"Klikni na kartu da počneš crtati područje, npr. park, jezero ili zgradu.\"\n    add_line:\n      title: Linija\n      description: \"Dodaj ceste, ulice, pješačke puteljke, kanale ili druge linijske objekte na kartu\"\n      tail: \"Klikni na kartu da počneš crtati cestu, put ili rutu.\"\n    add_point:\n      title: Točka\n      description: \"Dodaj restorane, spomenike, poštanske sandučiće ili druge točke na kartu.\"\n      tail: Klikni na kartu za dodavanje točke.\n    browse:\n      title: Pretraži\n      description: Pomiči i uvećaj ili smanji prikaz karte.\n    draw_area:\n      tail: Klikni za dodavanje rubnih točaka područja. Kliknu na prvu točku za zatvaranje područja.\n    draw_line:\n      tail: \"Klikni za dodavanje više točaka linije. Klikni na druge linije da ih spojiš i dvaput klikni da završiš liniju.\"\n  operations:\n    add:\n      annotation:\n        point: Točka je dodana.\n        vertex: Putu je dodana točka.\n        relation: Relacija je dodana.\n    start:\n      annotation:\n        line: Linija je započeta.\n        area: Područje je započeto.\n    continue:\n      key: A\n      title: Produži\n      description: Produži ovu liniju.\n      not_eligible: Nema linije koja bi se mogla ovdje produžiti.\n      multiple: Nekoliko linija se ovdje može produžiti. Za odabir linije, pritisni tipku Shift i klikni na liniju.\n      annotation:\n        line: Linija je nastavljena.\n        area: Područje je nastavljeno.\n    cancel_draw:\n      annotation: Crtanje je otkazano.\n    change_role:\n      annotation: Promijenjena uloga člana relacije.\n    change_tags:\n      annotation: Oznake su izmijenjene.\n    circularize:\n      title: Zaokruži\n      description:\n        line: Zaokruži ovu liniju.\n        area: Zaokruži ovo područje.\n      key: O\n      annotation:\n        line: Linija je zaokružena.\n        area: Područje je zaokruženo.\n      not_closed: Ovo se ne može zaokružiti jer nije zatvoren objekt.\n      too_large: Ovo se ne može zaokružiti jer se trenutno ne vidi cijeli objekt.\n      connected_to_hidden: Ovo se ne može zaokružiti jer je spojeno na skrivenu značajku.\n    orthogonalize:\n      title: Stavi pod pravi kut\n      description:\n        line: Stavi pod pravi kut lomove linije.\n        area: Stavi pod pravi kut ćoškove područja.\n      key: S\n      annotation:\n        line: Kutovi linije su pod pravim kutom.\n        area: Kutovi područja su pod pravim kutom.\n      not_squarish: Ovo se ne može ukvadratičiti jer nije kvadratičastog oblika.\n      too_large: Ovo se ne može ukvadratičiti jer se trenutno ne vidi cijeli objekt.\n      connected_to_hidden: Ovo se ne može ukvadratičiti jer je spojeno na skrivenu značajku.\n    straighten:\n      title: Izravnaj\n      description: Izravnaj ovu liniju.\n      key: S\n      annotation: Linija je izravnana.\n      too_bendy: Ovo se ne može izravnati jer je previše krivudavo.\n      connected_to_hidden: Ova linija se ne može ispraviti jer je spojena na skrivenu značajku.\n    delete:\n      title: Izbriši\n      description: Trajno obriši objekt.\n      annotation:\n        point: Točka je obrisana.\n        vertex: Točka puta je obrisana.\n        line: Linija je obrisana.\n        area: Područje je obrisano.\n        relation: Relacija je obrisana.\n        multiple: \"Obrisano je {n} objekata.\"\n      incomplete_relation: Ova se značajka ne može se obrisati jer nije potpuno preuzeta.\n      part_of_relation: Ova značajka se ne može obrisati jer je dio veće relacije. Moraš ju prvo obrisati iz relacije.\n      connected_to_hidden: Ovo se ne može se obrisati jer je spojeno na skrivenu značajku.\n    add_member:\n      annotation: Dodaj člana relacije.\n    delete_member:\n      annotation: Uklonjen član relacije.\n    connect:\n      annotation:\n        point: Put je spojen na točku.\n        vertex: Put povezan na drugi put.\n        line: Put je spojen na liniju.\n        area: Put je spojen na područje.\n    disconnect:\n      title: Razdvoji\n      description: Međusobno razdvoji ove linije/područja.\n      key: D\n      annotation: Razdvoji linije/područja.\n      not_connected: Ovdje nema dovoljno linija/područja za odvajanje.\n      connected_to_hidden: Ovo se ne može odvojiti jer je spojeno na skrivenu značajku.\n    merge:\n      title: Spoji\n      description: Spoji ove linije.\n      key: C\n      annotation: \"Spojeno {n} linija.\"\n      not_eligible: Ova svojstva se ne mogu spojiti.\n      not_adjacent: Ove se linije ne mogu stopiti u jednu jer nisu spojene.\n      restriction: Ove se linije ne mogu spojiti jer je barem jedna član \"{relation}\" relacije.\n      incomplete_relation: Ove se značajke ne mogu spojiti jer bar jedna od njih nije potpuno preuzeta s Interneta.\n    move:\n      title: Premjesti\n      description: Premjesti ovo na drugu lokaciju.\n      key: M\n      annotation:\n        point: Točka je premještena.\n        vertex: Točka je premještena na put.\n        line: Linija je premještena.\n        area: Područje je premješteno.\n        multiple: Nekoliko objekata je premješteno.\n      incomplete_relation: Ova značajka se ne može premjestiti jer nije potpuno preuzeto.\n      too_large: Ovo se ne može premjestiti jer je premalo objekta trenutno vidljivo.\n      connected_to_hidden: Ovo se ne može premjestiti jer je spojeno na skrivenu značajku.\n    rotate:\n      title: Rotiraj\n      description: Rotiraj ovaj objekt oko njegove središnje točke.\n      key: R\n      annotation:\n        line: Linija je rotirana.\n        area: Područje je rotirana.\n      too_large: Ovo se ne može zakrenuti jer je premalo objekta trenutno vidljivo.\n      connected_to_hidden: ' Ovo se ne može zakrenuti jer je spojeno na skrivenu značajku.'\n    reverse:\n      title: Obrni smjer\n      description: Obrni smjer ove linije.\n      key: V\n      annotation: Liniji je promijenjen smjer.\n    split:\n      title: Razdvoji\n      description:\n        line: Razdjeli ovu liniju na dvije u ovoj točki.\n        area: Podijeli granicu ovog područja na dvije.\n        multiple: Razdjeli granice linija/područja na dvije u ovoj točki.\n      key: X\n      annotation:\n        line: Razdvoji liniju.\n        area: Razdvoji granicu područja.\n        multiple: \"Razdvoji {n} granica linija/područja.\"\n      not_eligible: Linije ne mogu biti razdvojene na svom početku ili kraju.\n      multiple_ways: Previše linija za razdvajanje.\n      connected_to_hidden: Ovo se ne može razdvojiti jer je spojeno na skrivenu značajku.\n    restriction:\n      help:\n        select: Klikni za selektiranje dijela ceste.\n        toggle: Klikni za uključivanje zabrane skretanja.\n        toggle_on: 'Klikni za dodavanje \"{restriction}\" zabrane.'\n        toggle_off: 'Klikni za uklanjanje \"{restriction}\" zabrane.'\n      annotation:\n        create: Zabrana skretanja je dodana\n        delete: Zabrana skretanja je uklonjena\n  undo:\n    tooltip: \"Opovrgni: {action}\"\n    nothing: Nema ništa za opovrgnuti.\n  redo:\n    tooltip: \"Ponovi: {action}\"\n    nothing: Nema ništa za ponoviti.\n  tooltip_keyhint: \"Kratica:\"\n  browser_notice: \"Ovaj uređivač je podržan u preglednicima: Firefox, Chrome, Safari, Opera i Internet Explorer 9 ili novijim. Molimo nadogradite svoj preglednik ili koristite Potlatch 2 za uređivanje karte.\"\n  translate:\n    translate: Prevedi\n    localized_translation_label: Višejezični naziv\n    localized_translation_language: Odaberi jezik\n    localized_translation_name: Ime\n  zoom_in_edit: Povećaj prikaz za uređivanje\n  logout: odjava\n  loading_auth: \"Spajanje na OpenStreetMap...\"\n  report_a_bug: Prijavi grešku\n  feature_info:\n    hidden_warning: \"{count} skrivenih značajki\"\n    hidden_details: \"Ove značajke su trenutno skrivene: {details}\"\n  status:\n    error: Onemogućeno spajanje na API.\n    offline: API je izvan mreže. Molim pokušaj uređivanje kasnije.\n    readonly: API je \"samo za čitanje\". Moraš pričekati za spremanje svojih promjena.\n  commit:\n    title: Spremi promjene\n    description_placeholder: Kratki opis tvojih doprinosa\n    message_label: Predaj poruku\n    upload_explanation: \"Promjene koje postaviš biti će vidljive na svim kartama koje koriste podatke OpenStreetMap-a.\"\n    upload_explanation_with_user: \"Promjene koje postaviš kao {user} biti će vidljive na svim kartama koje koriste podatke OpenStreetMap-a.\"\n    save: Spremi\n    cancel: Otkaži\n    changes: \"{count} Promjena\"\n    warnings: Upozorenja\n    modified: Promijenjeno\n    deleted: Obrisano\n    created: Stvoreno\n  contributors:\n    list: \"Uređivali {users}\"\n    truncated_list: \"Uređivali {users} i {count} drugih\"\n  geocoder:\n    search: Globalna pretraga...\n    no_results_visible: Nema rezultata na vidljivom dijelu karte\n    no_results_worldwide: Nema nađenih rezultata\n  geolocate:\n    title: Pokaži moju lokaciju\n  inspector:\n    no_documentation_combination: Ne postoji dokumentacija za ovu kombinaciju oznaka\n    no_documentation_key: Ne postoji dokumentacija za ovaj ključ.\n    show_more: Prikaži više\n    view_on_osm: Pogledaj na openstreetmap.org\n    all_tags: Sve oznake\n    all_members: Svi članovi\n    all_relations: Sve relacije\n    new_relation: Nova relacija...\n    role: Uloga\n    choose: Odaberi tip svojstva\n    results: \"{n} rezultata za {search}\"\n    reference: Pogledaj na OpenStreetMap Wiki\n    back_tooltip: Promijeni svojstvo\n    remove: Ukloni\n    search: Pretraži\n    multiselect: Odabrane stavke\n    unknown: Nepoznato\n    incomplete: <nije preuzeto>\n    feature_list: Pretraži svojstva\n    edit: Uredi svojstvo\n    check:\n      'yes': \"Da\"\n      'no': \"Ne\"\n    none: Nijedna\n    node: Točka\n    way: Put\n    relation: Relacija\n    location: Lokacija\n    add_fields: \"Dodaj polje:\"\n  background:\n    title: Pozadina\n    description: Postavke pozadine\n    percent_brightness: \"{opacity}% svjetline\"\n    none: Nijedna\n    custom: Podesivo\n    custom_button: Uredi prilagođenu pozadinu\n    custom_prompt: \"Unesi URL predložak za popločavanje. Ispravni znakovi su {z}, {x}, {y} za Z/X/Y shemu i {u} za quadtile shemu.\"\n    fix_misalignment: Popravi odstupanje\n    reset: resetiraj\n  map_data:\n    title: Podaci karte\n    description: Podaci karte\n    data_layers: Slojevi podataka\n    fill_area: Ispuni područja\n    map_features: Značajke karte\n    autohidden: \"Ove značajke su automatski skrivene jer ih je previše za prikaz na zaslonu. Možeš povećati prikaz za njihovo uređivanje.\"\n  feature:\n    points:\n      description: Točke\n      tooltip: \"Interesne točke\"\n    major_roads:\n      description: Glavne ceste\n      tooltip: \"Prometnice, ulice, itd.\"\n    minor_roads:\n      description: Sporedne ceste\n      tooltip: \"Pristupne ceste, parkirni prolazi, zemljani putovi, itd.\"\n    paths:\n      description: Staze\n      tooltip: \"Pločnici, pješačke staze, biciklističke staze, itd.\"\n    buildings:\n      description: Građevine\n      tooltip: \"Zgrade, skloništa, garaže, itd.\"\n    landuse:\n      description: Značajke korištenja zemljišta\n      tooltip: \"Šume, poljoprivredno zemlj., parkovi, građevinsko, poslovna zona, itd.\"\n    boundaries:\n      description: Granice\n      tooltip: \"Administrativne granice\"\n    water:\n      description: Vodene značajke\n      tooltip: \"Rijeke, jezera, lokve, bazeni, itd.\"\n    rail:\n      description: Značajke željeznice\n      tooltip: \"Željezničke pruge\"\n    power:\n      description: Elektroenergetske značajke\n      tooltip: \"Dalekovodi, elektrane, trafostanice, itd.\"\n    past_future:\n      description: Prošlost/Budućnost\n      tooltip: \"U planu, u izgradnji, napušteno, srušeno, itd.\"\n    others:\n      description: Ostali\n      tooltip: \"Sve ostalo\"\n  area_fill:\n    wireframe:\n      description: Bez ispune (žičani način)\n      tooltip: \"Omogućenjem žičanog načina jednostavnije je vidjeti pozadinske snimke.\"\n    partial:\n      description: Djelomična ispuna\n      tooltip: \"Područja su iscrtana s ispunom samo oko njihovih unutarnjih rubova. (Preporučeno za početnike)\"\n    full:\n      description: Potpuno ispuni\n      tooltip: \"Područja su iscrtana potpuno ispunjena.\"\n  restore:\n    heading: Imaš nespremljenih promjena\n    description: \"Želiš li vratiti nespremljene promjene od posljednji puta kada si uređivao/la?\"\n    restore: Vrati\n    reset: Resetiraj\n  save:\n    title: Spremi\n    help: \"Spremi promjene na OpenStreetMap, čime će biti vidljive drugim korisnicima.\"\n    no_changes: Nema promjena za spremiti.\n    error: Dogodila se pogreška pri pokušaju spremanja.\n    unknown_error_details: \"Molim provjeri jesi li spojen na internet.\"\n    uploading: Postavljanje promjena na OpenStreetMap.\n    unsaved_changes: Imaš nespremljenih promjena.\n  success:\n    edited_osm: \"Uređen OSM!\"\n    just_edited: \"Upravo si uredio/la OpenStreetMap!\"\n    view_on_osm: \"Pogledaj na OSM\"\n    facebook: \"Podijeli na mreži Facebook\"\n    twitter: \"Podijeli na mreži Twitter\"\n    google: \"Podijeli na mreži Google+\"\n    help_html: |\n      Tvoje promjene bi se trebale pojaviti u sloju \"Standard\" kroz par minuta. Za druge slojeve i određena svojstva trebati će više vremena.\n      (<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>detalji</a>).\n  confirm:\n    okay: \"Ok\"\n  splash:\n    welcome: Dobrodošli na iD OpenStreetMap uređivač\n    text: \"iD je vrlo jednostavan ali moćan alat za doprinošenje najboljoj besplatnoj karti svijeta. Ovo je verzija {version}. Za više informacija pogledaj {website} i prijavi greške u softveru na {github}.\"\n    walkthrough: \"Počni prohod\"\n    start: \"Uredi sada\"\n  source_switch:\n    live: uživo\n    lose_changes: \"Imaš nespremljenih promjena. Zamjena servera karte će poništiti promjene. Jesi li siguran/na da želiš zamijeniti servere?\"\n    dev: razvojno\n  tag_reference:\n    description: Opis\n    on_wiki: \"{tag} na wiki.osm.org\"\n    used_with: \"koristi se sa {type}\"\n  validations:\n    untagged_point: Neoznačena točka\n    untagged_line: Neoznačena linija\n    untagged_area: Neoznačeno područje\n    many_deletions: \"Brišeš {n} objekata. Jesi li siguran/na da to želiš učiniti? Ovo će ih obrisati sa karte koju svi vide na openstreetmap.org.\"\n    tag_suggests_area: \"Oznaka {tag} ukazuje da bi linija trebala biti područje, ali nije područje\"\n    untagged_point_tooltip: \"Odaberi značajku koja opisuje što ova točka predstavlja.\"\n    untagged_line_tooltip: \"Odaberi značajku koja opisuje što ova linija predstavlja.\"\n    untagged_area_tooltip: \"Odaberi značajku koja opisuje što ovo područje predstavlja.\"\n    deprecated_tags: \"Zastarjele oznake: {tags}\"\n  zoom:\n    in: Povećaj prikaz\n    out: Smanji prikaz\n  cannot_zoom: \"Nemoguće smanjiti povećanje u trenutnom môdu.\"\n  gpx:\n    local_layer: \"Lokalna GPX datoteka\"\n    drag_drop: \"Dovuci i ispusti .gpx datoteku na stranicu ili klikni gumb s desne strane za pretraživanje datoteka.\"\n    zoom: \"Povećaj na GPX putanju\"\n    browse: \"Potraži .gpx datoteku\"\n  mapillary:\n    tooltip: \"Ulične fotografije s Mapillary servisa\"\n    title: \"Foto preklop (Mapillary)\"\n    view_on_mapillary: \"Pogledaj ovu sliku na Mapillary\"\n  help:\n    title: \"Pomoć\"\n    help: \"# Pomoć\\n\\niD je program za uređivanje [OpenStreetMap](http://www.openstreetmap.org/), \\nbesplatne karte svijeta. Možeš ga koristiti za dodavanje i obnavljanje podataka u \\nsvom području, čime stvaraš bolju kartu svijeta slobodnih izvornika i podataka \\ndostupnu svima.\\n\\nKorekcije koje napraviš na karti će biti vidljive svakome tko koristi\\nOpenStreetMap.\\\n      \\ Da bi mogao/la uređivati kartu, trebaš [besplatni\\nOpenStreetMap korisnički račun](https://www.openstreetmap.org/user/new).\\n\\n[iD editor](http://ideditor.com/) je suradnički projekt sa [izvornim kôdom dostupnim \\nna GitHub-u](https://github.com/openstreetmap/iD).\\n\"\n    editing_saving: \"# Uređivanje i spremanje promjena\\n\\nOvaj uređivač je primarno dizajniran za uređivanje na mreži i trenutačno ga\\nkoristiš kroz internet preglednik kao web stranicu.\\n\\n### Odabir značajki\\n\\nZa odabir značajke karte, npr. ceste ili točke od interesa, klikni na nju na karti.\\nPojaviti će se obrub oko značajke, otvoriti će se bočno okno koje\\\n      \\ prikazuje više\\ndetalja o značajki i prikazati će se alatni izbornik sa mogućnostima koje možeš\\nnapraviti na značajki.\\n\\nZa odabir nekoliko značajki istovremeno, drži tipku \\\"Shift\\\". Zatim ili klikni na\\nznačajke koje želiš odabrati ili klikni i povuci za crtanje četverokuta. Time ćeš\\nodabrati sve točke unutar četverokuta.\\n\\n### Spremanje uređivanja\\n\\\n      \\nKada napraviš promjene na karti, npr. urediš ulice, zgrade i mjesta, one su\\nspremljene lokalno sve dok ih ne spremiš na server. Nemoraš se briniti ukoliko\\nnapraviš pogrešku - možeš poništiti promjene klikom na tipku \\\"Opovrgni\\\" i\\nponoviti promjene klikom na tipku \\\"Ponovi\\\".\\n\\nKlikni na tipku \\\"Spremi\\\" da završiš grupu promjena - na primjer ako\\\n      \\ si završio/la\\npodručje grada i želiš početi uređivati novo područje. Nakon što stisneš \\\"Spremi\\\"\\nmoći ćeš pregledati sve promjene koje si napravio/la i uređivač će ti dati korisne\\nprijedloge i upozorenja ako je nešto neuobičajeno među promjenama.\\n\\nAko je sve u redu, možeš ostaviti kratak komentar u kojem ćeš opisati napravljenu\\npromjenu na karti.\\\n      \\ Ponovno klikni \\\"Spremi\\\" za postavljanje promjena na\\n[OpenStreetMap.org](http://www.openstreetmap.org/), gdje će biti vidljive svim\\ndrugim korisnicima i dostupne drugima za dopunu i nadogradnju.\\n\\nAko ne možeš završiti sve planirane promjene odjednom, možeš ugasiti prozor\\nuređivača i kasnije se vratiti (na isti internet preglednik i isto računalo)\\\n      \\ i uređivač\\nće ti ponuditi da nastaviš gdje si stao/la. \\n\"\n    roads: |\n      # Ceste\n\n      Možeš stvarati, popraviti/urediti i obrisati ceste pomoću ovog uređivača. Ceste\n      mogu biti svih vrsta: puteljci, ceste, poljski putovi, biciklističke staze i drugo -\n      sve staze preko kojih se često prolazi bi se trebale kartirati.\n\n      ### Odabir\n\n      Klikni na cestu da ju odabereš. Pojaviti će se obrub oko ceste, zajedno s\n      malim alatnim izbornikom na karti i bočnim oknom koji prikazuje dodatne\n      informacije o selektiranoj cesti.\n\n      ### Uređivanje\n\n      Često ćeš vidjeti ceste koje se ne podudaraju s pozadinskim snimcima ili s\n      GNSS tragom. Možeš urediti te ceste tako da se nalaze na ispravnom mjestu.\n\n      Prvo klikni na cestu koju želiš urediti. To će ju označiti i prikazati kontrolne\n      točke unutar nje koje možeš premjestiti na točnije lokacije. Ako želiš dodati\n      nove kontrolne točke za precizniju putanju, klikni dvoklikom na dio ceste gdje\n      nema točke kako bi dodao/la novu.\n\n      Ako se cesta spaja s drugom cestom, ali nije ispravno spojena na karti, možeš\n      povući kontrolnu točku na drugu cestu kako bi ih spojio/la. Spojene ceste su\n      vrlo važne za kartu i osnova za omogućavanje uputa za navigaciju.\n\n      Također možeš kliknuti alat \"Premjesti\" ili pritisnuti kraticu - tipku `M` za\n      pomak cijele ceste odjednom i zatim kliknuti ponovno za spremanje tog\n      pomaka.\n\n      ### Brisanje\n\n      Ako je cesta potpuno krivo ucrtana - ne vidi se na satelitskim snimkama i ako\n      si utvrdio/la da zbilja ne postoji uvidom na terenu možeš ju obrisati, što će ju\n      obrisati s karte. Budi oprezan/na kada brišeš značajke - kao i kod svakog\n      drugog uređivanja rezultati su vidljivi svima, a satelitske snimke su često\n      zastarjele, pa je moguće da je cesta nedavno sagrađena.\n\n      Za brisanje ceste najprije ju označi, a zatim klikni na ikonicu kante za smeće ili\n      pritisni tipku \"Delete\".\n\n      ### Stvaranje\n\n      Ako si pronašao/la cestu koja bi trebala biti ucrtana ali nije, klikni ikonicu\n      \"Linija\" na gornjem lijevom dijelu uređivača ili pritisni kraticu - tipku `2` da\n      započneš crtanje linije.\n\n      Klikni na početak ceste na karti da započneš crtanje. Ako se cesta odvaja od\n      postojeće ceste, klikni na mjesto gdje se spajaju.\n\n      Zatim klikni na točke duž ceste tako da prate ispravnu putanju ceste, prema\n      podacima satelitske snimke ili GNSS traga. Ako se cesta koju crtaš križa s\n      drugom cestom, spoji ih klikom na mjestu raskrižja. Kada si završio/la s\n      crtanjem, klikni dvoklikom sastrane ili pritisni tipku \"Return\" ili \"Enter\" na\n      tipkovnici.\n    gps: \"# GNSS \\n\\nGNSS podaci su najpouzdaniji izvor podataka za OpenStreetMap. Ovaj uređivač podržava lokalne tragove - `.gpx` datoteteke s tvog računala. Takav oblik GNSS traga možeš prikupiti s raznim aplikacijama za pametne telefone kao i s drugim GNSS/GPS uređajima.\\n\\nZa više informacija o postupku izmjere pomoću GNSS satelita, pročitaj članak [\\\"Mjerenje\\\n      \\ sa GPS-om\\\"](http://learnosm.org/en/beginner/using-gps/).\\n\\nKako bi koristio GPX tragove za kartiranje, povuci i ispusti GPX datoteku na uređivač karte. Ako se datoteka ispravno učita, biti će dodana na kartu kao linija svjetlo ljubičaste boje. Klikni na izbornik \\\"Podaci karte\\\" s desne strane za uključivanje, isključivanje ili povećanje na taj novi\\\n      \\ GPX sloj.\\n\\nGPX trag nije direktno postavljen na OpenStreetMap, samo je prikazan na karti. Da bi ga iskoristio/la na najbolji način, preko njega crtaj na karti koristeći ga kao vodilju za dodavanje novih značajki. Trag možeš također [postaviti na OpenStreetMap](http://www.openstreetmap.org/trace/create) kako bi ga i drugi\\nkorisnici mogli koristiti.\\n\"\n    imagery: |\n      # Fotografski snimci\n\n      Zračni snimci su važan izvor za kartiranje. Kombinacija snimaka iz aviona,\n      satelitskih snimaka i drugih besplatno prikupljenih izvornika je dostupna s\n      desne strane u izborniku \"Postavke pozadine\".\n\n      Početno je u pozadini prikazan sloj satelitskih snimaka [karte Bing Maps](http://www.bing.com/maps/). Novi izvornici postaju dostupni pomicanjem\n      i povećanjem karte na novo geografsko područje. Neke države, poput SAD-a,\n      Francuske i Danske imaju dostupne vrlo kvalitetne snimke za određena\n      područja.\n\n      Snimke su ponekad pomaknute u odnosu na podatke karte zbog pogreške\n      na koordinatama izvornih snimaka. Ako vidiš puno cesta izmaknutih u\n      odnosu na pozadinu, nemoj ih odmah pomicati da se poklope sa pozadinom.\n      Umjesto toga, možeš podesiti snimke da odgovaraju postojećim podacima\n      tako da klikneš \"Popravi odstupanje\" na dnu izbornika \"Postavke pozadine\".\n    addresses: |\n      # Adrese\n\n      Adrese spadaju u najkorisnije informacije na karti.\n\n      Iako su adrese često prikazane kao dio ulica, na OpenStreetMap karti su zapisane\n      kao svojstva građevina i mjesta uzduž ulica.\n\n      Možeš dodati informacije o adresi na mjesta kartirana kao rub građevine, ali i na\n      građevine koje su kartirane kao točkasti objekt. Najbolji izvor podataka o adresama\n      je prikupljanje podataka na terenu ili iz osobnog znanja - kao i svake druge\n      značajke, kopiranje sa komercijalnih izvora poput Google Maps servisa je strogo\n      zabranjeno.\n    inspector: |\n      # Korištenje preglednika\n\n      Preglednik je element korisničkog sučelja na lijevoj strani stranice koji se pojavljuje\n      nakon što se neka značajka odabere i on omogućava uređivanje detalja značajke.\n\n      ### Odabir vrste značajke\n\n      Nakon što dodaš točku, liniju ili područje, možeš odabrati koje je vrste ta značajka,\n      npr. je li to državna cesta ili ulica, veletrgovina ili kafić.\n\n      Preglednik će prikazati tipke za često korištene vrste značajki, a ostale možeš\n      pronaći upisivanjem naziva vrste koju tražiš u okvir za pretraživanje.\n\n      Klikni na \"i\" na desnoj strani vrste značajke da saznaš više o toj značajki. Klikni na\n      tipku sa imenom vrste da odabereš tu vrstu.\n\n      ### Korištenje obrazaca i oznaka\n\n      Nakon što odabereš vrstu značajke ili kada odabereš značajku koja već ima\n      defeniranu vrstu, preglednik će ti prikazati polja sa detaljima o značajki, npr.\n      njezino ime i adresu.\n\n      Ispod polja možeš kliknuti na ikone za dodavanje drugih detalja, kao informacije sa\n      [Wikipedije](http://www.wikipedia.org/), pristup invalidskim kolicima i drugo.\n\n      Na dnu preglednika, klikni na \"Sve oznake\" za dodavanje proizvoljnih drugih\n      oznaka za značajke. [Taginfo](http://taginfo.openstreetmap.org/) je izvrstan\n      izvornik za učenje o popularnim kombinacijama oznaka koje se koriste.\n\n      Promjene koje napraviš u pregledniku su automatski primijenjene na kartu.\n\n      Možeš poništiti promjene u bilo kojem trenutku pritiskom na tipku \"Opovrgni\".\n    buildings: |\n      # Građevine\n\n      OpenStreetMap je najveća svjetska baza podataka o građevinama. Možeš\n      stvarati i unaprijediti tu bazu podataka.\n\n      ### Odabir\n\n      Možeš odabrati građevinu klikom na njezin rub. Pojaviti će se obrub oko\n      građevine i otvoriti će se mali alatni izbornik i bočno okno koje prikazuje više\n      informacija o građevini.\n\n      ### Uređivanje\n\n      Ponekad su građevine neispravno pozicionirane ili imaju netočna svojstva.\n\n      Za premještanje cijele građevine, odaberi ju, a zatim klikni alat \"Premjesti\".\n      Pomakom miša namjesti točnu lokaciju građevine i zatim klikni lijevu tipku\n      miša.\n\n      Za ispravak oblika zgrade, klikni i povlači rubne točke građevine na ispravnije\n      mjesto.\n\n      ### Stvaranje\n\n      Jedno od glavnih pitanja u vezi dodavanja građevina na kartu je kako ih dodati\n      - kao područje ili kao točke. Pravilo je da se građevine _crtaju kao područje\n      kada je god to moguće_, a označavanje tvrtki, kuća, kućnih brojeva, usluga i\n      drugih stvari za koje se građevine koriste kao točke koje se nalaze unutar\n      površine građevine.\n\n      Započni crtanje građevine kao površine klikom na tipku \"Površina\" u gornjem\n      lijevom kutu sučelja, a po završetku crtanja građevine pritisni tipku \"Return\"\n      na tipkovnici ili klikni na početnu točku za zatvaranje oblika.\n\n      ### Brisanje\n\n      Ako je građevina potpuno krivo ucrtana - ne vidi se na satelitskim snimkama i\n      ako si utvrdio/la da zbilja ne postoji uvidom na terenu možeš ju obrisati, što će\n      ju obrisati s karte. Budi oprezan/na kada brišeš značajke - kao i kod svakog\n      drugog uređivanja rezultati su vidljivi svima, a satelitske snimke su često\n      zastarjele, pa je moguće da je građevina nedavno sagrađena.\n\n      Možeš obrisati građevinu tako da klikneš na rub za selektiranje, a zatim\n      klikneš na ikonu kante za smeće ili pritiskom tipke \"Delete\" na tipkovnici.\n    relations: |\n      # Relacije\n\n      Relacija je poseban oblik značajki na OpenStreetMap karti koja grupira druge\n      značajke. Na primjer, dvije često korištene relacije su *cestovne relacije*, koje\n      međusobno grupiraju dijelove cesta koje zajedno pripadaju državnoj ili\n      županijskoj cesti i *multipoligoni*, koji međusobno grupiraju nekoliko linija\n      koje definiraju složena područja (koja se sastoje od  više područja ili ona koja\n      imaju rupu u sebi poput krafne).\n\n      Skupine značajki u relaciji se nazivaju *članovi*. U bočnom oknu možeš vidjeti\n      kojim sve relacijama značajka pripada i tamo kliknuti na relaciju kako bi ju\n      odabrao/la. Kada je relacija odabrana možeš vidjeti sve njezine članove koji su\n      označeni na karti i izlistani u bočnom oknu.\n\n      iD će uglavnom automatski održavati relacije dok ti uređuješ kartu. Glavna\n      stvar koje moraš biti svjestan/na je da ako obrišeš dio ceste da ju nacrtaš\n      preciznije, trebaš provjeriti da je i novi dio član istih relacija kao i originalni\n      dio.\n\n      ## Uređivanje relacija\n\n      Ako želiš uređivati relacije, ovdje su navedene osnove.\n\n      Za dodavanje značajke nekoj relaciji, označi značajku, klikni tipku \"+\" u odjeljku\n      \"Sve relacije\" na dnu bočnog okna i odaberi ili upiši ime relacije.\n\n      Za stvaranje nove relacije, odaberi prvu značajku koja bi trebala biti član,\n      zatim klikni tipku \"+\" u odjeljku \"Sve relacije\" i odaberi \"Nova relacija...\".\n\n      Za odstranjivanje značajke iz relacije, odaberi značajku i klikni ikonu kante za\n      smeće pokraj relacije iz koje ju želiš ukloniti.\n\n      Možeš stvarati višestruke poligone - multipoligone sa rupama pomoću alata\n      \"Spoji\". Nacrtaj dva područja (unutarnje i vanjsko), drži tipku Shift i klikni na\n      oba područja kako bi ih selektirao/la i zatim klikni na tipku \"Spoji\" (+).\n  intro:\n    navigation:\n      title: \"Navigacija\"\n      drag: \"Glavno područje karte prikazuje OpenStreetMap podatke iznad pozadine. Možeš mijenjati pogled povlačeći i pomičući, kao na svakoj drugoj web karti. **Pomakni prikaz karte.**\"\n      select: \"Značajke karte su prikazane na tri načina: koristeći točke, linije ili područja. Sve značajke mogu se odabrati klikom na njih. **Klikni na točku kako bi ju odabrao/la.**\"\n      header: \"Zaglavlje nam pokazuje tip svojstva.\"\n      pane: \"Kada je značajka odabrana, prikazan je uređivač svojstava. Zaglavlje prikazuje tip značajke, a glavni prozor prikazuje njegova svojstva npr. naziv i adresu. **Zatvori uređivač svojstava gumbom X u gornjem desnom kutu.**\"\n    points:\n      title: \"Točke\"\n      add: \"Točke se koriste za predstavljanje značajki kao što su trgovine, restorani i spomenici. One označavaju specifičnu lokaciju i opisuju što je ondje. **Klikni na gumb 'Točka' za dodavanje nove točke.**\"\n      place: \"Točka se može postaviti klikom na kartu. **Postavi točku na vrh zgrade.**\"\n      search: \"Postoje mnoge različite značajke koje mogu biti prikazane točkom. Točka koju si upravo dodao/la je kafić. **Pretraži '{name}'.**\"\n      choose: \"**Odaberi 'Kafić' sa liste.**\"\n      describe: \"Točka je sada označena kao kafić. Koristeći uređivač svojstava, možemo dodati više informacija o toj značajki. **Dodaj ime kafiću.**\"\n      close: \"Uređivač svojstava može se zatvoriti klikom na gumb X. **Zatvori uređivač svojstava.**\"\n      reselect: \"Često će točke već postojati, ali mogu biti pogrešne ili nedovršene. Možemo urediti postojeće točke. **Odaberi točku koju si upravo kreirao/la.**\"\n      fixname: \"**Promijeni ime i zatvori uređivač svojstava.**\"\n      reselect_delete: \"Sva svojstva na karti se mogu obrisati. **Klikni na točku koji si stvorio/la.**\"\n      delete: \"Izbornik oko točke sadrži operacije koje se mogu izvršiti nad njom, uključujući brisanje. **Obriši točku.**\"\n    areas:\n      title: \"Područja\"\n      add: \"Područja se koriste za prikaz granica značajki poput jezera, zgrada i naseljenih područja. Također se mogu koristiti za detaljnije kartiranje mnogih značajki koje se inače prikazuju točkama. **Klikni na gumb 'Područje' za dodavanje novog područja.**\"\n      corner: \"Područja se crtaju postavljanjem točaka koje označavaju granicu područja. **Postavi početnu točku na jedan rub igrališta.**\"\n      place: \"Nacrtaj područje dodavanjem više točaka. Završi područje tako da klikneš na početnu točku. **Nacrtaj područje igrališta.**\"\n      search: \"**Pretraži za '{name}'.**\"\n      choose: \"**Odaberi igralište sa liste.**\"\n      describe: \"**Dodaj ime i zatvori uređivač svojstava.**\"\n    lines:\n      title: \"Linije\"\n      add: \"Linije se koriste za predstavljanje značajki kao što su npr. ceste, željeznice i rijeke. **Klikni na gumb 'Linija' za dodavanje nove linije.**\"\n      start: \"**Započni liniju tako da klikneš na kraj ceste.**\"\n      intersect: \"Klikni za dodavanje više točaka linije. Možeš pomicati pogled na kartu dok crtaš ako je potrebno. Ceste i mnoge druge vrste linija su dio veće mreže. Važno je da su sve linije pravilno spojene kako bi softveri za određivanje rute ispravno funkcionirali. **Klikni na 'Flower Street' za stvaranje raskrižja povezujući dvije linije.**\"\n      finish: \"Linije se mogu završiti tako da ponovno kliknete na posljednju točku. **Završi crtanje ceste.**\"\n      road: \"**Odaberi Prometnica sa liste.**\"\n      residential: \"Postoje različite vrste cesta, najčešća je Ulica. **Odaberi tip 'Ulica'.**\"\n      describe: \"**Dodaj naziv ulice i zatvori uređivač svojstava.**\"\n      restart: \"Cesta treba presijecati Flower Street.\"\n      wrong_preset: \"Nisi označio/la cestu koja predstavlja ulicu. **Klikni ovdje za ponovni odabir**\"\n    startediting:\n      title: \"Započni uređivanje\"\n      help: \"Više dokumentacije i ovaj prohod su dostupni ovdje.\"\n      save: \"Ne zaboravi redovno spremiti tvoje promjene!\"\n      start: \"Počni mapirati!\"\n",
-	"mimetype": "text/plain"
+
+"hr": {
+
+
+"modes": {
+
+
+
+"add_area": {
+
+
+
+
+"title": "Područje",
+
+
+
+
+"description": "Dodaj parkove, zgrade, jezera ili druga područja na kartu.",
+
+
+
+
+"tail": "Klikni na kartu da počneš crtati područje, npr. park, jezero ili zgradu."
+
+
+
+},
+
+
+
+"add_line": {
+
+
+
+
+"title": "Linija",
+
+
+
+
+"description": "Dodaj ceste, ulice, pješačke puteljke, kanale ili druge linijske objekte na kartu",
+
+
+
+
+"tail": "Klikni na kartu da počneš crtati cestu, put ili rutu."
+
+
+
+},
+
+
+
+"add_point": {
+
+
+
+
+"title": "Točka",
+
+
+
+
+"description": "Dodaj restorane, spomenike, poštanske sandučiće ili druge točke na kartu.",
+
+
+
+
+"tail": "Klikni na kartu za dodavanje točke."
+
+
+
+},
+
+
+
+"browse": {
+
+
+
+
+"title": "Pretraži",
+
+
+
+
+"description": "Pomiči i uvećaj ili smanji prikaz karte."
+
+
+
+},
+
+
+
+"draw_area": {
+
+
+
+
+"tail": "Klikni za dodavanje rubnih točaka područja. Kliknu na prvu točku za zatvaranje područja."
+
+
+
+},
+
+
+
+"draw_line": {
+
+
+
+
+"tail": "Klikni za dodavanje više točaka linije. Klikni na druge linije da ih spojiš i dvaput klikni da završiš liniju."
+
+
+
+}
+
+
+},
+
+
+"operations": {
+
+
+
+"add": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Točka je dodana.",
+
+
+
+
+
+"vertex": "Putu je dodana točka.",
+
+
+
+
+
+"relation": "Relacija je dodana."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"start": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Linija je započeta.",
+
+
+
+
+
+"area": "Područje je započeto."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"continue": {
+
+
+
+
+"key": "A",
+
+
+
+
+"title": "Produži",
+
+
+
+
+"description": "Produži ovu liniju.",
+
+
+
+
+"not_eligible": "Nema linije koja bi se mogla ovdje produžiti.",
+
+
+
+
+"multiple": "Nekoliko linija se ovdje može produžiti. Za odabir linije, pritisni tipku Shift i klikni na liniju.",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Linija je nastavljena.",
+
+
+
+
+
+"area": "Područje je nastavljeno."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"cancel_draw": {
+
+
+
+
+"annotation": "Crtanje je otkazano."
+
+
+
+},
+
+
+
+"change_role": {
+
+
+
+
+"annotation": "Promijenjena uloga člana relacije."
+
+
+
+},
+
+
+
+"change_tags": {
+
+
+
+
+"annotation": "Oznake su izmijenjene."
+
+
+
+},
+
+
+
+"circularize": {
+
+
+
+
+"title": "Zaokruži",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Zaokruži ovu liniju.",
+
+
+
+
+
+"area": "Zaokruži ovo područje."
+
+
+
+
+},
+
+
+
+
+"key": "O",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Linija je zaokružena.",
+
+
+
+
+
+"area": "Područje je zaokruženo."
+
+
+
+
+},
+
+
+
+
+"not_closed": "Ovo se ne može zaokružiti jer nije zatvoren objekt.",
+
+
+
+
+"too_large": "Ovo se ne može zaokružiti jer se trenutno ne vidi cijeli objekt.",
+
+
+
+
+"connected_to_hidden": "Ovo se ne može zaokružiti jer je spojeno na skrivenu značajku."
+
+
+
+},
+
+
+
+"orthogonalize": {
+
+
+
+
+"title": "Stavi pod pravi kut",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Stavi pod pravi kut lomove linije.",
+
+
+
+
+
+"area": "Stavi pod pravi kut ćoškove područja."
+
+
+
+
+},
+
+
+
+
+"key": "S",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Kutovi linije su pod pravim kutom.",
+
+
+
+
+
+"area": "Kutovi područja su pod pravim kutom."
+
+
+
+
+},
+
+
+
+
+"not_squarish": "Ovo se ne može ukvadratičiti jer nije kvadratičastog oblika.",
+
+
+
+
+"too_large": "Ovo se ne može ukvadratičiti jer se trenutno ne vidi cijeli objekt.",
+
+
+
+
+"connected_to_hidden": "Ovo se ne može ukvadratičiti jer je spojeno na skrivenu značajku."
+
+
+
+},
+
+
+
+"straighten": {
+
+
+
+
+"title": "Izravnaj",
+
+
+
+
+"description": "Izravnaj ovu liniju.",
+
+
+
+
+"key": "S",
+
+
+
+
+"annotation": "Linija je izravnana.",
+
+
+
+
+"too_bendy": "Ovo se ne može izravnati jer je previše krivudavo.",
+
+
+
+
+"connected_to_hidden": "Ova linija se ne može ispraviti jer je spojena na skrivenu značajku."
+
+
+
+},
+
+
+
+"delete": {
+
+
+
+
+"title": "Izbriši",
+
+
+
+
+"description": "Trajno obriši objekt.",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Točka je obrisana.",
+
+
+
+
+
+"vertex": "Točka puta je obrisana.",
+
+
+
+
+
+"line": "Linija je obrisana.",
+
+
+
+
+
+"area": "Područje je obrisano.",
+
+
+
+
+
+"relation": "Relacija je obrisana.",
+
+
+
+
+
+"multiple": "Obrisano je {n} objekata."
+
+
+
+
+},
+
+
+
+
+"incomplete_relation": "Ova se značajka ne može se obrisati jer nije potpuno preuzeta.",
+
+
+
+
+"part_of_relation": "Ova značajka se ne može obrisati jer je dio veće relacije. Moraš ju prvo obrisati iz relacije.",
+
+
+
+
+"connected_to_hidden": "Ovo se ne može se obrisati jer je spojeno na skrivenu značajku."
+
+
+
+},
+
+
+
+"add_member": {
+
+
+
+
+"annotation": "Dodaj člana relacije."
+
+
+
+},
+
+
+
+"delete_member": {
+
+
+
+
+"annotation": "Uklonjen član relacije."
+
+
+
+},
+
+
+
+"connect": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Put je spojen na točku.",
+
+
+
+
+
+"vertex": "Put povezan na drugi put.",
+
+
+
+
+
+"line": "Put je spojen na liniju.",
+
+
+
+
+
+"area": "Put je spojen na područje."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"disconnect": {
+
+
+
+
+"title": "Razdvoji",
+
+
+
+
+"description": "Međusobno razdvoji ove linije/područja.",
+
+
+
+
+"key": "D",
+
+
+
+
+"annotation": "Razdvoji linije/područja.",
+
+
+
+
+"not_connected": "Ovdje nema dovoljno linija/područja za odvajanje.",
+
+
+
+
+"connected_to_hidden": "Ovo se ne može odvojiti jer je spojeno na skrivenu značajku."
+
+
+
+},
+
+
+
+"merge": {
+
+
+
+
+"title": "Spoji",
+
+
+
+
+"description": "Spoji ove linije.",
+
+
+
+
+"key": "C",
+
+
+
+
+"annotation": "Spojeno {n} linija.",
+
+
+
+
+"not_eligible": "Ova svojstva se ne mogu spojiti.",
+
+
+
+
+"not_adjacent": "Ove se linije ne mogu stopiti u jednu jer nisu spojene.",
+
+
+
+
+"restriction": "Ove se linije ne mogu spojiti jer je barem jedna član \"{relation}\" relacije.",
+
+
+
+
+"incomplete_relation": "Ove se značajke ne mogu spojiti jer bar jedna od njih nije potpuno preuzeta s Interneta."
+
+
+
+},
+
+
+
+"move": {
+
+
+
+
+"title": "Premjesti",
+
+
+
+
+"description": "Premjesti ovo na drugu lokaciju.",
+
+
+
+
+"key": "M",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Točka je premještena.",
+
+
+
+
+
+"vertex": "Točka je premještena na put.",
+
+
+
+
+
+"line": "Linija je premještena.",
+
+
+
+
+
+"area": "Područje je premješteno.",
+
+
+
+
+
+"multiple": "Nekoliko objekata je premješteno."
+
+
+
+
+},
+
+
+
+
+"incomplete_relation": "Ova značajka se ne može premjestiti jer nije potpuno preuzeto.",
+
+
+
+
+"too_large": "Ovo se ne može premjestiti jer je premalo objekta trenutno vidljivo.",
+
+
+
+
+"connected_to_hidden": "Ovo se ne može premjestiti jer je spojeno na skrivenu značajku."
+
+
+
+},
+
+
+
+"rotate": {
+
+
+
+
+"title": "Rotiraj",
+
+
+
+
+"description": "Rotiraj ovaj objekt oko njegove središnje točke.",
+
+
+
+
+"key": "R",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Linija je rotirana.",
+
+
+
+
+
+"area": "Područje je rotirana."
+
+
+
+
+},
+
+
+
+
+"too_large": "Ovo se ne može zakrenuti jer je premalo objekta trenutno vidljivo.",
+
+
+
+
+"connected_to_hidden": " Ovo se ne može zakrenuti jer je spojeno na skrivenu značajku."
+
+
+
+},
+
+
+
+"reverse": {
+
+
+
+
+"title": "Obrni smjer",
+
+
+
+
+"description": "Obrni smjer ove linije.",
+
+
+
+
+"key": "V",
+
+
+
+
+"annotation": "Liniji je promijenjen smjer."
+
+
+
+},
+
+
+
+"split": {
+
+
+
+
+"title": "Razdvoji",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Razdjeli ovu liniju na dvije u ovoj točki.",
+
+
+
+
+
+"area": "Podijeli granicu ovog područja na dvije.",
+
+
+
+
+
+"multiple": "Razdjeli granice linija/područja na dvije u ovoj točki."
+
+
+
+
+},
+
+
+
+
+"key": "X",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Razdvoji liniju.",
+
+
+
+
+
+"area": "Razdvoji granicu područja.",
+
+
+
+
+
+"multiple": "Razdvoji {n} granica linija/područja."
+
+
+
+
+},
+
+
+
+
+"not_eligible": "Linije ne mogu biti razdvojene na svom početku ili kraju.",
+
+
+
+
+"multiple_ways": "Previše linija za razdvajanje.",
+
+
+
+
+"connected_to_hidden": "Ovo se ne može razdvojiti jer je spojeno na skrivenu značajku."
+
+
+
+},
+
+
+
+"restriction": {
+
+
+
+
+"help": {
+
+
+
+
+
+"select": "Klikni za selektiranje dijela ceste.",
+
+
+
+
+
+"toggle": "Klikni za uključivanje zabrane skretanja.",
+
+
+
+
+
+"toggle_on": "Klikni za dodavanje \"{restriction}\" zabrane.",
+
+
+
+
+
+"toggle_off": "Klikni za uklanjanje \"{restriction}\" zabrane."
+
+
+
+
+},
+
+
+
+
+"annotation": {
+
+
+
+
+
+"create": "Zabrana skretanja je dodana",
+
+
+
+
+
+"delete": "Zabrana skretanja je uklonjena"
+
+
+
+
+}
+
+
+
+}
+
+
+},
+
+
+"undo": {
+
+
+
+"tooltip": "Opovrgni: {action}",
+
+
+
+"nothing": "Nema ništa za opovrgnuti."
+
+
+},
+
+
+"redo": {
+
+
+
+"tooltip": "Ponovi: {action}",
+
+
+
+"nothing": "Nema ništa za ponoviti."
+
+
+},
+
+
+"tooltip_keyhint": "Kratica:",
+
+
+"browser_notice": "Ovaj uređivač je podržan u preglednicima: Firefox, Chrome, Safari, Opera i Internet Explorer 9 ili novijim. Molimo nadogradite svoj preglednik ili koristite Potlatch 2 za uređivanje karte.",
+
+
+"translate": {
+
+
+
+"translate": "Prevedi",
+
+
+
+"localized_translation_label": "Višejezični naziv",
+
+
+
+"localized_translation_language": "Odaberi jezik",
+
+
+
+"localized_translation_name": "Ime"
+
+
+},
+
+
+"zoom_in_edit": "Povećaj prikaz za uređivanje",
+
+
+"logout": "odjava",
+
+
+"loading_auth": "Spajanje na OpenStreetMap...",
+
+
+"report_a_bug": "Prijavi grešku",
+
+
+"feature_info": {
+
+
+
+"hidden_warning": "{count} skrivenih značajki",
+
+
+
+"hidden_details": "Ove značajke su trenutno skrivene: {details}"
+
+
+},
+
+
+"status": {
+
+
+
+"error": "Onemogućeno spajanje na API.",
+
+
+
+"offline": "API je izvan mreže. Molim pokušaj uređivanje kasnije.",
+
+
+
+"readonly": "API je \"samo za čitanje\". Moraš pričekati za spremanje svojih promjena."
+
+
+},
+
+
+"commit": {
+
+
+
+"title": "Spremi promjene",
+
+
+
+"description_placeholder": "Kratki opis tvojih doprinosa",
+
+
+
+"message_label": "Predaj poruku",
+
+
+
+"upload_explanation": "Promjene koje postaviš biti će vidljive na svim kartama koje koriste podatke OpenStreetMap-a.",
+
+
+
+"upload_explanation_with_user": "Promjene koje postaviš kao {user} biti će vidljive na svim kartama koje koriste podatke OpenStreetMap-a.",
+
+
+
+"save": "Spremi",
+
+
+
+"cancel": "Otkaži",
+
+
+
+"changes": "{count} Promjena",
+
+
+
+"warnings": "Upozorenja",
+
+
+
+"modified": "Promijenjeno",
+
+
+
+"deleted": "Obrisano",
+
+
+
+"created": "Stvoreno"
+
+
+},
+
+
+"contributors": {
+
+
+
+"list": "Uređivali {users}",
+
+
+
+"truncated_list": "Uređivali {users} i {count} drugih"
+
+
+},
+
+
+"geocoder": {
+
+
+
+"search": "Globalna pretraga...",
+
+
+
+"no_results_visible": "Nema rezultata na vidljivom dijelu karte",
+
+
+
+"no_results_worldwide": "Nema nađenih rezultata"
+
+
+},
+
+
+"geolocate": {
+
+
+
+"title": "Pokaži moju lokaciju"
+
+
+},
+
+
+"inspector": {
+
+
+
+"no_documentation_combination": "Ne postoji dokumentacija za ovu kombinaciju oznaka",
+
+
+
+"no_documentation_key": "Ne postoji dokumentacija za ovaj ključ.",
+
+
+
+"show_more": "Prikaži više",
+
+
+
+"view_on_osm": "Pogledaj na openstreetmap.org",
+
+
+
+"all_tags": "Sve oznake",
+
+
+
+"all_members": "Svi članovi",
+
+
+
+"all_relations": "Sve relacije",
+
+
+
+"new_relation": "Nova relacija...",
+
+
+
+"role": "Uloga",
+
+
+
+"choose": "Odaberi tip svojstva",
+
+
+
+"results": "{n} rezultata za {search}",
+
+
+
+"reference": "Pogledaj na OpenStreetMap Wiki",
+
+
+
+"back_tooltip": "Promijeni svojstvo",
+
+
+
+"remove": "Ukloni",
+
+
+
+"search": "Pretraži",
+
+
+
+"multiselect": "Odabrane stavke",
+
+
+
+"unknown": "Nepoznato",
+
+
+
+"incomplete": "<nije preuzeto>",
+
+
+
+"feature_list": "Pretraži svojstva",
+
+
+
+"edit": "Uredi svojstvo",
+
+
+
+"check": {
+
+
+
+
+"yes": "Da",
+
+
+
+
+"no": "Ne"
+
+
+
+},
+
+
+
+"none": "Nijedna",
+
+
+
+"node": "Točka",
+
+
+
+"way": "Put",
+
+
+
+"relation": "Relacija",
+
+
+
+"location": "Lokacija",
+
+
+
+"add_fields": "Dodaj polje:"
+
+
+},
+
+
+"background": {
+
+
+
+"title": "Pozadina",
+
+
+
+"description": "Postavke pozadine",
+
+
+
+"percent_brightness": "{opacity}% svjetline",
+
+
+
+"none": "Nijedna",
+
+
+
+"custom": "Podesivo",
+
+
+
+"custom_button": "Uredi prilagođenu pozadinu",
+
+
+
+"custom_prompt": "Unesi URL predložak za popločavanje. Ispravni znakovi su {z}, {x}, {y} za Z/X/Y shemu i {u} za quadtile shemu.",
+
+
+
+"fix_misalignment": "Popravi odstupanje",
+
+
+
+"reset": "resetiraj"
+
+
+},
+
+
+"map_data": {
+
+
+
+"title": "Podaci karte",
+
+
+
+"description": "Podaci karte",
+
+
+
+"data_layers": "Slojevi podataka",
+
+
+
+"fill_area": "Ispuni područja",
+
+
+
+"map_features": "Značajke karte",
+
+
+
+"autohidden": "Ove značajke su automatski skrivene jer ih je previše za prikaz na zaslonu. Možeš povećati prikaz za njihovo uređivanje."
+
+
+},
+
+
+"feature": {
+
+
+
+"points": {
+
+
+
+
+"description": "Točke",
+
+
+
+
+"tooltip": "Interesne točke"
+
+
+
+},
+
+
+
+"major_roads": {
+
+
+
+
+"description": "Glavne ceste",
+
+
+
+
+"tooltip": "Prometnice, ulice, itd."
+
+
+
+},
+
+
+
+"minor_roads": {
+
+
+
+
+"description": "Sporedne ceste",
+
+
+
+
+"tooltip": "Pristupne ceste, parkirni prolazi, zemljani putovi, itd."
+
+
+
+},
+
+
+
+"paths": {
+
+
+
+
+"description": "Staze",
+
+
+
+
+"tooltip": "Pločnici, pješačke staze, biciklističke staze, itd."
+
+
+
+},
+
+
+
+"buildings": {
+
+
+
+
+"description": "Građevine",
+
+
+
+
+"tooltip": "Zgrade, skloništa, garaže, itd."
+
+
+
+},
+
+
+
+"landuse": {
+
+
+
+
+"description": "Značajke korištenja zemljišta",
+
+
+
+
+"tooltip": "Šume, poljoprivredno zemlj., parkovi, građevinsko, poslovna zona, itd."
+
+
+
+},
+
+
+
+"boundaries": {
+
+
+
+
+"description": "Granice",
+
+
+
+
+"tooltip": "Administrativne granice"
+
+
+
+},
+
+
+
+"water": {
+
+
+
+
+"description": "Vodene značajke",
+
+
+
+
+"tooltip": "Rijeke, jezera, lokve, bazeni, itd."
+
+
+
+},
+
+
+
+"rail": {
+
+
+
+
+"description": "Značajke željeznice",
+
+
+
+
+"tooltip": "Željezničke pruge"
+
+
+
+},
+
+
+
+"power": {
+
+
+
+
+"description": "Elektroenergetske značajke",
+
+
+
+
+"tooltip": "Dalekovodi, elektrane, trafostanice, itd."
+
+
+
+},
+
+
+
+"past_future": {
+
+
+
+
+"description": "Prošlost/Budućnost",
+
+
+
+
+"tooltip": "U planu, u izgradnji, napušteno, srušeno, itd."
+
+
+
+},
+
+
+
+"others": {
+
+
+
+
+"description": "Ostali",
+
+
+
+
+"tooltip": "Sve ostalo"
+
+
+
+}
+
+
+},
+
+
+"area_fill": {
+
+
+
+"wireframe": {
+
+
+
+
+"description": "Bez ispune (žičani način)",
+
+
+
+
+"tooltip": "Omogućenjem žičanog načina jednostavnije je vidjeti pozadinske snimke."
+
+
+
+},
+
+
+
+"partial": {
+
+
+
+
+"description": "Djelomična ispuna",
+
+
+
+
+"tooltip": "Područja su iscrtana s ispunom samo oko njihovih unutarnjih rubova. (Preporučeno za početnike)"
+
+
+
+},
+
+
+
+"full": {
+
+
+
+
+"description": "Potpuno ispuni",
+
+
+
+
+"tooltip": "Područja su iscrtana potpuno ispunjena."
+
+
+
+}
+
+
+},
+
+
+"restore": {
+
+
+
+"heading": "Imaš nespremljenih promjena",
+
+
+
+"description": "Želiš li vratiti nespremljene promjene od posljednji puta kada si uređivao/la?",
+
+
+
+"restore": "Vrati",
+
+
+
+"reset": "Resetiraj"
+
+
+},
+
+
+"save": {
+
+
+
+"title": "Spremi",
+
+
+
+"help": "Spremi promjene na OpenStreetMap, čime će biti vidljive drugim korisnicima.",
+
+
+
+"no_changes": "Nema promjena za spremiti.",
+
+
+
+"error": "Dogodila se pogreška pri pokušaju spremanja.",
+
+
+
+"unknown_error_details": "Molim provjeri jesi li spojen na internet.",
+
+
+
+"uploading": "Postavljanje promjena na OpenStreetMap.",
+
+
+
+"unsaved_changes": "Imaš nespremljenih promjena."
+
+
+},
+
+
+"success": {
+
+
+
+"edited_osm": "Uređen OSM!",
+
+
+
+"just_edited": "Upravo si uredio/la OpenStreetMap!",
+
+
+
+"view_on_osm": "Pogledaj na OSM",
+
+
+
+"facebook": "Podijeli na mreži Facebook",
+
+
+
+"twitter": "Podijeli na mreži Twitter",
+
+
+
+"google": "Podijeli na mreži Google+",
+
+
+
+"help_html": "Tvoje promjene bi se trebale pojaviti u sloju \"Standard\" kroz par minuta. Za druge slojeve i određena svojstva trebati će više vremena.\n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>detalji</a>).\n"
+
+
+},
+
+
+"confirm": {
+
+
+
+"okay": "Ok"
+
+
+},
+
+
+"splash": {
+
+
+
+"welcome": "Dobrodošli na iD OpenStreetMap uređivač",
+
+
+
+"text": "iD je vrlo jednostavan ali moćan alat za doprinošenje najboljoj besplatnoj karti svijeta. Ovo je verzija {version}. Za više informacija pogledaj {website} i prijavi greške u softveru na {github}.",
+
+
+
+"walkthrough": "Počni prohod",
+
+
+
+"start": "Uredi sada"
+
+
+},
+
+
+"source_switch": {
+
+
+
+"live": "uživo",
+
+
+
+"lose_changes": "Imaš nespremljenih promjena. Zamjena servera karte će poništiti promjene. Jesi li siguran/na da želiš zamijeniti servere?",
+
+
+
+"dev": "razvojno"
+
+
+},
+
+
+"tag_reference": {
+
+
+
+"description": "Opis",
+
+
+
+"on_wiki": "{tag} na wiki.osm.org",
+
+
+
+"used_with": "koristi se sa {type}"
+
+
+},
+
+
+"validations": {
+
+
+
+"untagged_point": "Neoznačena točka",
+
+
+
+"untagged_line": "Neoznačena linija",
+
+
+
+"untagged_area": "Neoznačeno područje",
+
+
+
+"many_deletions": "Brišeš {n} objekata. Jesi li siguran/na da to želiš učiniti? Ovo će ih obrisati sa karte koju svi vide na openstreetmap.org.",
+
+
+
+"tag_suggests_area": "Oznaka {tag} ukazuje da bi linija trebala biti područje, ali nije područje",
+
+
+
+"untagged_point_tooltip": "Odaberi značajku koja opisuje što ova točka predstavlja.",
+
+
+
+"untagged_line_tooltip": "Odaberi značajku koja opisuje što ova linija predstavlja.",
+
+
+
+"untagged_area_tooltip": "Odaberi značajku koja opisuje što ovo područje predstavlja.",
+
+
+
+"deprecated_tags": "Zastarjele oznake: {tags}"
+
+
+},
+
+
+"zoom": {
+
+
+
+"in": "Povećaj prikaz",
+
+
+
+"out": "Smanji prikaz"
+
+
+},
+
+
+"cannot_zoom": "Nemoguće smanjiti povećanje u trenutnom môdu.",
+
+
+"gpx": {
+
+
+
+"local_layer": "Lokalna GPX datoteka",
+
+
+
+"drag_drop": "Dovuci i ispusti .gpx datoteku na stranicu ili klikni gumb s desne strane za pretraživanje datoteka.",
+
+
+
+"zoom": "Povećaj na GPX putanju",
+
+
+
+"browse": "Potraži .gpx datoteku"
+
+
+},
+
+
+"mapillary": {
+
+
+
+"tooltip": "Ulične fotografije s Mapillary servisa",
+
+
+
+"title": "Foto preklop (Mapillary)",
+
+
+
+"view_on_mapillary": "Pogledaj ovu sliku na Mapillary"
+
+
+},
+
+
+"help": {
+
+
+
+"title": "Pomoć",
+
+
+
+"help": "# Pomoć\n\niD je program za uređivanje [OpenStreetMap](http://www.openstreetmap.org/), \nbesplatne karte svijeta. Možeš ga koristiti za dodavanje i obnavljanje podataka u \nsvom području, čime stvaraš bolju kartu svijeta slobodnih izvornika i podataka \ndostupnu svima.\n\nKorekcije koje napraviš na karti će biti vidljive svakome tko koristi\nOpenStreetMap. Da bi mogao/la uređivati kartu, trebaš [besplatni\nOpenStreetMap korisnički račun](https://www.openstreetmap.org/user/new).\n\n[iD editor](http://ideditor.com/) je suradnički projekt sa [izvornim kôdom dostupnim \nna GitHub-u](https://github.com/openstreetmap/iD).\n",
+
+
+
+"editing_saving": "# Uređivanje i spremanje promjena\n\nOvaj uređivač je primarno dizajniran za uređivanje na mreži i trenutačno ga\nkoristiš kroz internet preglednik kao web stranicu.\n\n### Odabir značajki\n\nZa odabir značajke karte, npr. ceste ili točke od interesa, klikni na nju na karti.\nPojaviti će se obrub oko značajke, otvoriti će se bočno okno koje prikazuje više\ndetalja o značajki i prikazati će se alatni izbornik sa mogućnostima koje možeš\nnapraviti na značajki.\n\nZa odabir nekoliko značajki istovremeno, drži tipku \"Shift\". Zatim ili klikni na\nznačajke koje želiš odabrati ili klikni i povuci za crtanje četverokuta. Time ćeš\nodabrati sve točke unutar četverokuta.\n\n### Spremanje uređivanja\n\nKada napraviš promjene na karti, npr. urediš ulice, zgrade i mjesta, one su\nspremljene lokalno sve dok ih ne spremiš na server. Nemoraš se briniti ukoliko\nnapraviš pogrešku - možeš poništiti promjene klikom na tipku \"Opovrgni\" i\nponoviti promjene klikom na tipku \"Ponovi\".\n\nKlikni na tipku \"Spremi\" da završiš grupu promjena - na primjer ako si završio/la\npodručje grada i želiš početi uređivati novo područje. Nakon što stisneš \"Spremi\"\nmoći ćeš pregledati sve promjene koje si napravio/la i uređivač će ti dati korisne\nprijedloge i upozorenja ako je nešto neuobičajeno među promjenama.\n\nAko je sve u redu, možeš ostaviti kratak komentar u kojem ćeš opisati napravljenu\npromjenu na karti. Ponovno klikni \"Spremi\" za postavljanje promjena na\n[OpenStreetMap.org](http://www.openstreetmap.org/), gdje će biti vidljive svim\ndrugim korisnicima i dostupne drugima za dopunu i nadogradnju.\n\nAko ne možeš završiti sve planirane promjene odjednom, možeš ugasiti prozor\nuređivača i kasnije se vratiti (na isti internet preglednik i isto računalo) i uređivač\nće ti ponuditi da nastaviš gdje si stao/la. \n",
+
+
+
+"roads": "# Ceste\n\nMožeš stvarati, popraviti/urediti i obrisati ceste pomoću ovog uređivača. Ceste\nmogu biti svih vrsta: puteljci, ceste, poljski putovi, biciklističke staze i drugo -\nsve staze preko kojih se često prolazi bi se trebale kartirati.\n\n### Odabir\n\nKlikni na cestu da ju odabereš. Pojaviti će se obrub oko ceste, zajedno s\nmalim alatnim izbornikom na karti i bočnim oknom koji prikazuje dodatne\ninformacije o selektiranoj cesti.\n\n### Uređivanje\n\nČesto ćeš vidjeti ceste koje se ne podudaraju s pozadinskim snimcima ili s\nGNSS tragom. Možeš urediti te ceste tako da se nalaze na ispravnom mjestu.\n\nPrvo klikni na cestu koju želiš urediti. To će ju označiti i prikazati kontrolne\ntočke unutar nje koje možeš premjestiti na točnije lokacije. Ako želiš dodati\nnove kontrolne točke za precizniju putanju, klikni dvoklikom na dio ceste gdje\nnema točke kako bi dodao/la novu.\n\nAko se cesta spaja s drugom cestom, ali nije ispravno spojena na karti, možeš\npovući kontrolnu točku na drugu cestu kako bi ih spojio/la. Spojene ceste su\nvrlo važne za kartu i osnova za omogućavanje uputa za navigaciju.\n\nTakođer možeš kliknuti alat \"Premjesti\" ili pritisnuti kraticu - tipku `M` za\npomak cijele ceste odjednom i zatim kliknuti ponovno za spremanje tog\npomaka.\n\n### Brisanje\n\nAko je cesta potpuno krivo ucrtana - ne vidi se na satelitskim snimkama i ako\nsi utvrdio/la da zbilja ne postoji uvidom na terenu možeš ju obrisati, što će ju\nobrisati s karte. Budi oprezan/na kada brišeš značajke - kao i kod svakog\ndrugog uređivanja rezultati su vidljivi svima, a satelitske snimke su često\nzastarjele, pa je moguće da je cesta nedavno sagrađena.\n\nZa brisanje ceste najprije ju označi, a zatim klikni na ikonicu kante za smeće ili\npritisni tipku \"Delete\".\n\n### Stvaranje\n\nAko si pronašao/la cestu koja bi trebala biti ucrtana ali nije, klikni ikonicu\n\"Linija\" na gornjem lijevom dijelu uređivača ili pritisni kraticu - tipku `2` da\nzapočneš crtanje linije.\n\nKlikni na početak ceste na karti da započneš crtanje. Ako se cesta odvaja od\npostojeće ceste, klikni na mjesto gdje se spajaju.\n\nZatim klikni na točke duž ceste tako da prate ispravnu putanju ceste, prema\npodacima satelitske snimke ili GNSS traga. Ako se cesta koju crtaš križa s\ndrugom cestom, spoji ih klikom na mjestu raskrižja. Kada si završio/la s\ncrtanjem, klikni dvoklikom sastrane ili pritisni tipku \"Return\" ili \"Enter\" na\ntipkovnici.\n",
+
+
+
+"gps": "# GNSS \n\nGNSS podaci su najpouzdaniji izvor podataka za OpenStreetMap. Ovaj uređivač podržava lokalne tragove - `.gpx` datoteteke s tvog računala. Takav oblik GNSS traga možeš prikupiti s raznim aplikacijama za pametne telefone kao i s drugim GNSS/GPS uređajima.\n\nZa više informacija o postupku izmjere pomoću GNSS satelita, pročitaj članak [\"Mjerenje sa GPS-om\"](http://learnosm.org/en/beginner/using-gps/).\n\nKako bi koristio GPX tragove za kartiranje, povuci i ispusti GPX datoteku na uređivač karte. Ako se datoteka ispravno učita, biti će dodana na kartu kao linija svjetlo ljubičaste boje. Klikni na izbornik \"Podaci karte\" s desne strane za uključivanje, isključivanje ili povećanje na taj novi GPX sloj.\n\nGPX trag nije direktno postavljen na OpenStreetMap, samo je prikazan na karti. Da bi ga iskoristio/la na najbolji način, preko njega crtaj na karti koristeći ga kao vodilju za dodavanje novih značajki. Trag možeš također [postaviti na OpenStreetMap](http://www.openstreetmap.org/trace/create) kako bi ga i drugi\nkorisnici mogli koristiti.\n",
+
+
+
+"imagery": "# Fotografski snimci\n\nZračni snimci su važan izvor za kartiranje. Kombinacija snimaka iz aviona,\nsatelitskih snimaka i drugih besplatno prikupljenih izvornika je dostupna s\ndesne strane u izborniku \"Postavke pozadine\".\n\nPočetno je u pozadini prikazan sloj satelitskih snimaka [karte Bing Maps](http://www.bing.com/maps/). Novi izvornici postaju dostupni pomicanjem\ni povećanjem karte na novo geografsko područje. Neke države, poput SAD-a,\nFrancuske i Danske imaju dostupne vrlo kvalitetne snimke za određena\npodručja.\n\nSnimke su ponekad pomaknute u odnosu na podatke karte zbog pogreške\nna koordinatama izvornih snimaka. Ako vidiš puno cesta izmaknutih u\nodnosu na pozadinu, nemoj ih odmah pomicati da se poklope sa pozadinom.\nUmjesto toga, možeš podesiti snimke da odgovaraju postojećim podacima\ntako da klikneš \"Popravi odstupanje\" na dnu izbornika \"Postavke pozadine\".\n",
+
+
+
+"addresses": "# Adrese\n\nAdrese spadaju u najkorisnije informacije na karti.\n\nIako su adrese često prikazane kao dio ulica, na OpenStreetMap karti su zapisane\nkao svojstva građevina i mjesta uzduž ulica.\n\nMožeš dodati informacije o adresi na mjesta kartirana kao rub građevine, ali i na\ngrađevine koje su kartirane kao točkasti objekt. Najbolji izvor podataka o adresama\nje prikupljanje podataka na terenu ili iz osobnog znanja - kao i svake druge\nznačajke, kopiranje sa komercijalnih izvora poput Google Maps servisa je strogo\nzabranjeno.\n",
+
+
+
+"inspector": "# Korištenje preglednika\n\nPreglednik je element korisničkog sučelja na lijevoj strani stranice koji se pojavljuje\nnakon što se neka značajka odabere i on omogućava uređivanje detalja značajke.\n\n### Odabir vrste značajke\n\nNakon što dodaš točku, liniju ili područje, možeš odabrati koje je vrste ta značajka,\nnpr. je li to državna cesta ili ulica, veletrgovina ili kafić.\n\nPreglednik će prikazati tipke za često korištene vrste značajki, a ostale možeš\npronaći upisivanjem naziva vrste koju tražiš u okvir za pretraživanje.\n\nKlikni na \"i\" na desnoj strani vrste značajke da saznaš više o toj značajki. Klikni na\ntipku sa imenom vrste da odabereš tu vrstu.\n\n### Korištenje obrazaca i oznaka\n\nNakon što odabereš vrstu značajke ili kada odabereš značajku koja već ima\ndefeniranu vrstu, preglednik će ti prikazati polja sa detaljima o značajki, npr.\nnjezino ime i adresu.\n\nIspod polja možeš kliknuti na ikone za dodavanje drugih detalja, kao informacije sa\n[Wikipedije](http://www.wikipedia.org/), pristup invalidskim kolicima i drugo.\n\nNa dnu preglednika, klikni na \"Sve oznake\" za dodavanje proizvoljnih drugih\noznaka za značajke. [Taginfo](http://taginfo.openstreetmap.org/) je izvrstan\nizvornik za učenje o popularnim kombinacijama oznaka koje se koriste.\n\nPromjene koje napraviš u pregledniku su automatski primijenjene na kartu.\n\nMožeš poništiti promjene u bilo kojem trenutku pritiskom na tipku \"Opovrgni\".\n",
+
+
+
+"buildings": "# Građevine\n\nOpenStreetMap je najveća svjetska baza podataka o građevinama. Možeš\nstvarati i unaprijediti tu bazu podataka.\n\n### Odabir\n\nMožeš odabrati građevinu klikom na njezin rub. Pojaviti će se obrub oko\ngrađevine i otvoriti će se mali alatni izbornik i bočno okno koje prikazuje više\ninformacija o građevini.\n\n### Uređivanje\n\nPonekad su građevine neispravno pozicionirane ili imaju netočna svojstva.\n\nZa premještanje cijele građevine, odaberi ju, a zatim klikni alat \"Premjesti\".\nPomakom miša namjesti točnu lokaciju građevine i zatim klikni lijevu tipku\nmiša.\n\nZa ispravak oblika zgrade, klikni i povlači rubne točke građevine na ispravnije\nmjesto.\n\n### Stvaranje\n\nJedno od glavnih pitanja u vezi dodavanja građevina na kartu je kako ih dodati\n- kao područje ili kao točke. Pravilo je da se građevine _crtaju kao područje\nkada je god to moguće_, a označavanje tvrtki, kuća, kućnih brojeva, usluga i\ndrugih stvari za koje se građevine koriste kao točke koje se nalaze unutar\npovršine građevine.\n\nZapočni crtanje građevine kao površine klikom na tipku \"Površina\" u gornjem\nlijevom kutu sučelja, a po završetku crtanja građevine pritisni tipku \"Return\"\nna tipkovnici ili klikni na početnu točku za zatvaranje oblika.\n\n### Brisanje\n\nAko je građevina potpuno krivo ucrtana - ne vidi se na satelitskim snimkama i\nako si utvrdio/la da zbilja ne postoji uvidom na terenu možeš ju obrisati, što će\nju obrisati s karte. Budi oprezan/na kada brišeš značajke - kao i kod svakog\ndrugog uređivanja rezultati su vidljivi svima, a satelitske snimke su često\nzastarjele, pa je moguće da je građevina nedavno sagrađena.\n\nMožeš obrisati građevinu tako da klikneš na rub za selektiranje, a zatim\nklikneš na ikonu kante za smeće ili pritiskom tipke \"Delete\" na tipkovnici.\n",
+
+
+
+"relations": "# Relacije\n\nRelacija je poseban oblik značajki na OpenStreetMap karti koja grupira druge\nznačajke. Na primjer, dvije često korištene relacije su *cestovne relacije*, koje\nmeđusobno grupiraju dijelove cesta koje zajedno pripadaju državnoj ili\nžupanijskoj cesti i *multipoligoni*, koji međusobno grupiraju nekoliko linija\nkoje definiraju složena područja (koja se sastoje od  više područja ili ona koja\nimaju rupu u sebi poput krafne).\n\nSkupine značajki u relaciji se nazivaju *članovi*. U bočnom oknu možeš vidjeti\nkojim sve relacijama značajka pripada i tamo kliknuti na relaciju kako bi ju\nodabrao/la. Kada je relacija odabrana možeš vidjeti sve njezine članove koji su\noznačeni na karti i izlistani u bočnom oknu.\n\niD će uglavnom automatski održavati relacije dok ti uređuješ kartu. Glavna\nstvar koje moraš biti svjestan/na je da ako obrišeš dio ceste da ju nacrtaš\npreciznije, trebaš provjeriti da je i novi dio član istih relacija kao i originalni\ndio.\n\n## Uređivanje relacija\n\nAko želiš uređivati relacije, ovdje su navedene osnove.\n\nZa dodavanje značajke nekoj relaciji, označi značajku, klikni tipku \"+\" u odjeljku\n\"Sve relacije\" na dnu bočnog okna i odaberi ili upiši ime relacije.\n\nZa stvaranje nove relacije, odaberi prvu značajku koja bi trebala biti član,\nzatim klikni tipku \"+\" u odjeljku \"Sve relacije\" i odaberi \"Nova relacija...\".\n\nZa odstranjivanje značajke iz relacije, odaberi značajku i klikni ikonu kante za\nsmeće pokraj relacije iz koje ju želiš ukloniti.\n\nMožeš stvarati višestruke poligone - multipoligone sa rupama pomoću alata\n\"Spoji\". Nacrtaj dva područja (unutarnje i vanjsko), drži tipku Shift i klikni na\noba područja kako bi ih selektirao/la i zatim klikni na tipku \"Spoji\" (+).\n"
+
+
+},
+
+
+"intro": {
+
+
+
+"navigation": {
+
+
+
+
+"title": "Navigacija",
+
+
+
+
+"drag": "Glavno područje karte prikazuje OpenStreetMap podatke iznad pozadine. Možeš mijenjati pogled povlačeći i pomičući, kao na svakoj drugoj web karti. **Pomakni prikaz karte.**",
+
+
+
+
+"select": "Značajke karte su prikazane na tri načina: koristeći točke, linije ili područja. Sve značajke mogu se odabrati klikom na njih. **Klikni na točku kako bi ju odabrao/la.**",
+
+
+
+
+"header": "Zaglavlje nam pokazuje tip svojstva.",
+
+
+
+
+"pane": "Kada je značajka odabrana, prikazan je uređivač svojstava. Zaglavlje prikazuje tip značajke, a glavni prozor prikazuje njegova svojstva npr. naziv i adresu. **Zatvori uređivač svojstava gumbom X u gornjem desnom kutu.**"
+
+
+
+},
+
+
+
+"points": {
+
+
+
+
+"title": "Točke",
+
+
+
+
+"add": "Točke se koriste za predstavljanje značajki kao što su trgovine, restorani i spomenici. One označavaju specifičnu lokaciju i opisuju što je ondje. **Klikni na gumb 'Točka' za dodavanje nove točke.**",
+
+
+
+
+"place": "Točka se može postaviti klikom na kartu. **Postavi točku na vrh zgrade.**",
+
+
+
+
+"search": "Postoje mnoge različite značajke koje mogu biti prikazane točkom. Točka koju si upravo dodao/la je kafić. **Pretraži '{name}'.**",
+
+
+
+
+"choose": "**Odaberi 'Kafić' sa liste.**",
+
+
+
+
+"describe": "Točka je sada označena kao kafić. Koristeći uređivač svojstava, možemo dodati više informacija o toj značajki. **Dodaj ime kafiću.**",
+
+
+
+
+"close": "Uređivač svojstava može se zatvoriti klikom na gumb X. **Zatvori uređivač svojstava.**",
+
+
+
+
+"reselect": "Često će točke već postojati, ali mogu biti pogrešne ili nedovršene. Možemo urediti postojeće točke. **Odaberi točku koju si upravo kreirao/la.**",
+
+
+
+
+"fixname": "**Promijeni ime i zatvori uređivač svojstava.**",
+
+
+
+
+"reselect_delete": "Sva svojstva na karti se mogu obrisati. **Klikni na točku koji si stvorio/la.**",
+
+
+
+
+"delete": "Izbornik oko točke sadrži operacije koje se mogu izvršiti nad njom, uključujući brisanje. **Obriši točku.**"
+
+
+
+},
+
+
+
+"areas": {
+
+
+
+
+"title": "Područja",
+
+
+
+
+"add": "Područja se koriste za prikaz granica značajki poput jezera, zgrada i naseljenih područja. Također se mogu koristiti za detaljnije kartiranje mnogih značajki koje se inače prikazuju točkama. **Klikni na gumb 'Područje' za dodavanje novog područja.**",
+
+
+
+
+"corner": "Područja se crtaju postavljanjem točaka koje označavaju granicu područja. **Postavi početnu točku na jedan rub igrališta.**",
+
+
+
+
+"place": "Nacrtaj područje dodavanjem više točaka. Završi područje tako da klikneš na početnu točku. **Nacrtaj područje igrališta.**",
+
+
+
+
+"search": "**Pretraži za '{name}'.**",
+
+
+
+
+"choose": "**Odaberi igralište sa liste.**",
+
+
+
+
+"describe": "**Dodaj ime i zatvori uređivač svojstava.**"
+
+
+
+},
+
+
+
+"lines": {
+
+
+
+
+"title": "Linije",
+
+
+
+
+"add": "Linije se koriste za predstavljanje značajki kao što su npr. ceste, željeznice i rijeke. **Klikni na gumb 'Linija' za dodavanje nove linije.**",
+
+
+
+
+"start": "**Započni liniju tako da klikneš na kraj ceste.**",
+
+
+
+
+"intersect": "Klikni za dodavanje više točaka linije. Možeš pomicati pogled na kartu dok crtaš ako je potrebno. Ceste i mnoge druge vrste linija su dio veće mreže. Važno je da su sve linije pravilno spojene kako bi softveri za određivanje rute ispravno funkcionirali. **Klikni na 'Flower Street' za stvaranje raskrižja povezujući dvije linije.**",
+
+
+
+
+"finish": "Linije se mogu završiti tako da ponovno kliknete na posljednju točku. **Završi crtanje ceste.**",
+
+
+
+
+"road": "**Odaberi Prometnica sa liste.**",
+
+
+
+
+"residential": "Postoje različite vrste cesta, najčešća je Ulica. **Odaberi tip 'Ulica'.**",
+
+
+
+
+"describe": "**Dodaj naziv ulice i zatvori uređivač svojstava.**",
+
+
+
+
+"restart": "Cesta treba presijecati Flower Street.",
+
+
+
+
+"wrong_preset": "Nisi označio/la cestu koja predstavlja ulicu. **Klikni ovdje za ponovni odabir**"
+
+
+
+},
+
+
+
+"startediting": {
+
+
+
+
+"title": "Započni uređivanje",
+
+
+
+
+"help": "Više dokumentacije i ovaj prohod su dostupni ovdje.",
+
+
+
+
+"save": "Ne zaboravi redovno spremiti tvoje promjene!",
+
+
+
+
+"start": "Počni mapirati!"
+
+
+
+}
+
+
+}
+
+}
 }

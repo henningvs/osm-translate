@@ -1,4 +1,2242 @@
 {
-	"content": "lt:\n  modes:\n    add_area:\n      title: Plotas\n      description: \"Pridėkite parkus, pastatus, ežerus ar kitas vietas į žemėlapį.\"\n      tail: \"Spauskite ant žemėlapio, kad pradėtumėte braižyti plotą: parką, ežerą, pastatą ar pan.\"\n    add_line:\n      title: Linija\n      description: \"Pridėti greitkelius, gatves, pėsčiųjų takus, kanalus ar kitas linijas į žemėlapį.\"\n      tail: \"Spauskite ant žemėlapio, kad pradėtumėte braižyti kelią, taką ar maršrutą.\"\n    add_point:\n      title: Taškas\n      description: \"Pridėti restoranus, paminklus, pašto dėžutes ar kitus taškus į žemėlapį.\"\n      tail: Spustelėkite žemėlapį, norėdami pridėti tašką.\n    browse:\n      title: Naršyti\n      description: Perkelti ir padidinti žemėlapį.\n    draw_area:\n      tail: Spauskite, kad pridėtumėte taškus jūsų plote. Spauskite ant pirmo taško, kad baigtumėte plotą.\n    draw_line:\n      tail: \"Spauskite, kad pridėtumėte daugiau taškų linijoje. Spauskite ant kitų linijų, kad jas sujungtumėte. Spauskite du kartus, kad baigtumėte linijos piešimą.\"\n  operations:\n    add:\n      annotation:\n        point: Taškas pridėtas.\n        vertex: Viršūnė pridėta prie kelio.\n        relation: Ryšys pridėtas.\n    start:\n      annotation:\n        line: Pradėta linija.\n        area: Pradėtas plotas.\n    continue:\n      key: A\n      title: Tęsti\n      description: Tęsti šią liniją.\n      not_eligible: Čia negalima tęsti jokios linijos.\n      multiple: Čia galima tęsti daugiau nei vieną liniją. Norėdami parinkti liniją, spauskite Shift ir parinkite liniją.\n      annotation:\n        line: Pratęsta linija.\n        area: Pratęstas plotas.\n    cancel_draw:\n      annotation: Nutrauktas braižymas.\n    change_role:\n      annotation: Pakeista ryšio nario rolė.\n    change_tags:\n      annotation: Pakeistos žymos.\n    circularize:\n      title: Apvalinti\n      description:\n        line: Suapvalinti šią liniją.\n        area: Suapvalinti šį plotą.\n      key: O\n      annotation:\n        line: Suapvalinta linija.\n        area: Suapvalintas plotas.\n      not_closed: Negalima suapvalinti, nes linija nėra uždara.\n      too_large: Negalima suapvalinti, nes nepilnai matoma\n      connected_to_hidden: Negalima suapvalinti, nes yra prijungtas prie paslėpto objekto.\n    orthogonalize:\n      title: Statūs kampai\n      description:\n        line: Keisti šios linijos kampus stačiais.\n        area: Keisti šio ploto kampus stačiais.\n      key: S\n      annotation:\n        line: Keisti linijos kampus stačiais.\n        area: Keisti ploto kampus stačiais.\n      not_squarish: Negalima pakeisti kampų stačiais, nes jie labai nestatūs.\n      too_large: Negalima kvadratizuoti, nes nepilnai matoma\n      connected_to_hidden: Negalima kampų paversti stačiais, nes yra prijungtas prie paslėpto objekto.\n    straighten:\n      title: Tiesinti\n      description: Tiesinti šią liniją.\n      key: S\n      annotation: Linija ištiesinta.\n      too_bendy: Ši negali būti ištiesinta, nes ji per daug išlenkta.\n      connected_to_hidden: Ši linija negali būti ištiesinta, nes ji prijungta prie paslėpto objekto.\n    delete:\n      title: Ištrinti\n      description: Ištrinti objektą visam.\n      annotation:\n        point: Taškas ištrintas.\n        vertex: Viršūnė pašalinta iš kelio.\n        line: Linija ištrinta.\n        area: Teritorija ištrinta.\n        relation: Pašalintas ryšys.\n        multiple: \"Pašalinta {n} objektų.\"\n      incomplete_relation: Šio objekto negalima panaikinti, nes jis nebuvo pilnai atsiųstas.\n      part_of_relation: Šis objektas negali būti ištrintas, nes jis yra didesnio ryšio dalis. Visų pirma turite jį pašalinti iš ryšio.\n      connected_to_hidden: Tai negali būti panaikinta, nes yra prijungta prie paslėpto objekto.\n    add_member:\n      annotation: Narys pridėtas prie ryšio.\n    delete_member:\n      annotation: Narys pašalintas iš ryšio.\n    connect:\n      annotation:\n        point: Kelias prijungtas prie taško.\n        vertex: Kelias prijungtas prie kito.\n        line: Kelias prijungtas prie linijos.\n        area: Kelias prijungtas prie ploto.\n    disconnect:\n      title: Atskirti\n      description: Atjungti šias linijas/plotus vieną nuo kito.\n      key: D\n      annotation: Atjungtos linijos/plotai.\n      not_connected: Nepakankamai linijų/plotų, kad būtų galima atjungti.\n      connected_to_hidden: Tai negali būti atjungta, nes yra prijungta prie paslėpto objekto.\n    merge:\n      title: Sujungti\n      description: Sujungti šias linijas.\n      key: C\n      annotation: \"Sujungtos {n} linijos.\"\n      not_eligible: Šie geoobjektai negali būti sulieti.\n      not_adjacent: Šios linijos negali būti sulietos, nes jos nesusijungia.\n      restriction: Šių linijų negalima sulieti, nes bent viena iš jų yra ryšio „{relation}“ narė.\n      incomplete_relation: Šie objektai negali būti sujungti, nes ne visi pilnai atsiųsti.\n    move:\n      title: Perkelti\n      description: Perkelti tai į kitą vietą.\n      key: M\n      annotation:\n        point: Taškas perkeltas.\n        vertex: Perkeltas taškas kelyje.\n        line: Linija perkelta.\n        area: Perkeltas plotas.\n        multiple: Perkelti keli objektai.\n      incomplete_relation: Šio geoobjekto negalima perkelti, nes jis nėra pilnai atsiųstas.\n      too_large: Negalima perkelti, nes nepilnai matomas.\n      connected_to_hidden: Tai negali būti perkelta, nes yra prijungta prie paslėpto objekto.\n    rotate:\n      title: Pasukti\n      description: Pasukti šį objektą ties centro tašku.\n      key: R\n      annotation:\n        line: Linija pasukta.\n        area: Pasuktas plotas.\n      too_large: Negalima sukti, nes nepilnai matomas.\n      connected_to_hidden: Tai negali būti pasukta, nes yra prijungta prie paslėpto objekto.\n    reverse:\n      title: Atstatyti\n      description: Pakeisti linijos kryptį.\n      key: V\n      annotation: Pakeista linijos kryptis.\n    split:\n      title: Padalinti\n      description:\n        line: Dalinti šią liniją į dvi ties šiuo tašku.\n        area: Dalinti šio ploto kontūrą į du.\n        multiple: Dalinti linijų/plotų kontūrus į du ties šiuo tašku.\n      key: X\n      annotation:\n        line: Dalinti liniją.\n        area: Dalinti ploto kontūrą.\n        multiple: \"Dalinti {n} linijų/plotų kontūrus.\"\n      not_eligible: Linijos negali būti dalinamos ties jų pradžia ar pabaiga.\n      multiple_ways: Čia yra per daug linijų, kurias galima dalinti.\n      connected_to_hidden: Tai negali būti padalinta, nes yra prijungta prie paslėpto objekto.\n    restriction:\n      help:\n        select: Spustelėkite, kad pasiringtumėte kelio atkarpą.\n        toggle: Spustelėkite, kad nustatytumėte posūkio apribojimus.\n        toggle_on: 'Spustelėkite, kad pridėtumėte \"{restriction}\" apribojimą.'\n        toggle_off: 'Spustelėkite, kad panaikintumėte \"{restriction}\" apribojimą.'\n      annotation:\n        create: Posūkio apribojimas pridėtas\n        delete: Posūkio apribojimas panaikintas\n  undo:\n    tooltip: \"Atstatyti: {action}\"\n    nothing: Nėra ką atstatyti.\n  redo:\n    tooltip: \"Pakartoti: {action}\"\n    nothing: Nėra ką pakartoti.\n  tooltip_keyhint: \"Kombinacija:\"\n  browser_notice: \"Šis redaktorius palaikomas Firefox, Chrome, Safari, Opera ir Internet Explorer 9 ir naujesnėse naršyklėse. Prašome atnaujinti jūsų naršyklę arba žemėlapio redagavimui naudoti Potlatch 2.\"\n  translate:\n    translate: Versti\n    localized_translation_label: Daugiakalbis pavadinimas\n    localized_translation_language: Pasirinkti kalbą\n    localized_translation_name: Pavadinimas\n  zoom_in_edit: Padidinkite prieš redaguodami\n  logout: atsijungti\n  loading_auth: \"Jungiamasi prie OpenStreetMap...\"\n  report_a_bug: pranešti apie klaidą\n  feature_info:\n    hidden_warning: \"{count} paslėptų objektų\"\n    hidden_details: \"Šie objektai šiuo metu paslėpti: {details}\"\n  status:\n    error: Nepavyksta prisijungti prie API.\n    offline: API išjungtas. Bandykite redaguoti vėliau.\n    readonly: API yra tik skaitymo režime. Prieš įrašydami savo pakeitimus turėsite palaukti.\n  commit:\n    title: Išsaugoti pakeitimus\n    description_placeholder: Trumpas jūsų indėlio aprašymas\n    message_label: Pakeitimo aprašymas\n    upload_explanation: \"Jūsų įkeliami pakeitimai bus matomi visuose žemėlapiuose, naudojančiuose OpenStreetMap duomenis.\"\n    upload_explanation_with_user: \"Pakeitimai, kuriuos jūs įkeliate kaip naudotojas {user} bus matomi visuose žemėlapiuose, naudojančiuose OpenStreetMap duomenis.\"\n    save: Išsaugoti\n    cancel: Atšaukti\n    changes: \"{count} Pakeitimai\"\n    warnings: Įspėjimai\n    modified: Pakeista\n    deleted: Ištrinta\n    created: Sukurta\n  contributors:\n    list: \"Keitėjai {users}\"\n    truncated_list: \"Keitėjai {users} ir {count} kitų\"\n  geocoder:\n    search: Ieškoti visam pasaulyje...\n    no_results_visible: Nėra rezultatų matomame žemėlapio plote\n    no_results_worldwide: Nėra rezultatų\n  geolocate:\n    title: Rodyti mano vietą\n  inspector:\n    no_documentation_combination: Nėra šios žymos ar žymų kombinacijos aprašymo\n    no_documentation_key: Šis raktas neturi dokumentacijos\n    show_more: Rodyti daugiau\n    view_on_osm: Žiūrėti svetainėje openstreetmap.org\n    all_tags: Visos žymos\n    all_members: Visi nariai\n    all_relations: Visi ryšiai\n    new_relation: Naujas ryšys...\n    role: Rolė\n    choose: Parinkite geoobjekto tipą\n    results: \"{n} paieškos {search} rezultatai\"\n    reference: Žiūrėti OpenStreetMap Wikyje\n    back_tooltip: Keisti objektą\n    remove: Pašalinti\n    search: Ieškoti\n    multiselect: Pažymėti elementai\n    unknown: Nežinoma\n    incomplete: <neatsiųsta>\n    feature_list: Ieškoti objektų\n    edit: Keisti objektą\n    check:\n      'yes': \"Taip\"\n      'no': \"Ne\"\n    none: Jokio\n    node: Taškas\n    way: Kelias\n    relation: Ryšys\n    location: Vieta\n    add_fields: \"Pridėti lauką:\"\n  background:\n    title: Fonas\n    description: Fono nustatymai\n    percent_brightness: \"{opacity}% ryškumas\"\n    none: Jokio\n    custom: Savas\n    custom_button: Redaguoti pasirinktiną foną\n    custom_prompt: \"Įveskite kaladėlių URL šabloną. Galimi ženklai yra {z}, {x}, {y} Z/X/Y schemai ir {u} quadtile schemai.\"\n    fix_misalignment: Taisyti poziciją\n    reset: iš naujo\n  map_data:\n    title: Žemėlapio duomenys\n    description: Žemėlapio duomenys\n    data_layers: Duomenų sluoksniai\n    fill_area: Pildyti plotus\n    map_features: Žemėlapio savybės\n    autohidden: \"Šie objektai buvo automatiškai paslėpti, nes ekrane tektų rodyti per daug. Galite didinti, jei norite juos keisti.\"\n  feature:\n    points:\n      description: Taškai\n      tooltip: \"Lankytinos vietos\"\n    major_roads:\n      description: Pagrindiniai keliai\n      tooltip: \"Plentai, gatvės ir pan.\"\n    minor_roads:\n      description: Nedideli keliai\n      tooltip: \"Privažiavimai, parkavimo keliai, miško/laukų keliai ir pan.\"\n    paths:\n      description: Takai\n      tooltip: \"Šaligatviai, pėsčiųjų takai, dviračių takai ir pan.\"\n    buildings:\n      description: Pastatai\n      tooltip: \"Pastatai, pastogės, garažai ir pan.\"\n    landuse:\n      description: Žemėnaudos objektai\n      tooltip: \"Miškai, dirbama žemė, parkai, gyvenamosios, komercinės zonos ir pan.\"\n    boundaries:\n      description: Ribos\n      tooltip: \"Administracinės ribos\"\n    water:\n      description: Vandens objektai\n      tooltip: \"Upės, ežerai, prūdai, tvenkiniai ir pan.\"\n    rail:\n      description: Gelžkelio objektai\n      tooltip: \"Geležinkeliai\"\n    power:\n      description: Energetikos objektai\n      tooltip: \"Elektros linijos, jėgainės, pastotės ir pan.\"\n    past_future:\n      description: Praeitis/Ateitis\n      tooltip: \"Siūloma, statoma, apleista, nugriauta ir pan.\"\n    others:\n      description: Kita\n      tooltip: \"Visa kita\"\n  area_fill:\n    wireframe:\n      description: Be užpildymo (tik rėmai)\n      tooltip: \"Įjungus rėmo režimą galima fone geriau matyti nuotraukas.\"\n    partial:\n      description: Dalinis užpildymas\n      tooltip: \"Plotai paišomi užpildant tik vietas ties vidiniais kampais. (Rekomenduojama pradedantiems žymėtojams)\"\n    full:\n      description: Pilnas užpildymas\n      tooltip: \"Plotai paišomi pilnai užpildant\"\n  restore:\n    heading: Turite neįrašytų pakeitimų\n    description: \"Ar norite atstatyti neįrašytus ankstesnės redagavimo sesijos pakeitimus?\"\n    restore: Atstatyti\n    reset: Iš naujo\n  save:\n    title: Išsaugoti\n    help: \"Įrašyti pakeitimus į OpenStreetMap, kad jie būtų matomi kitiems naudotojams.\"\n    no_changes: Nėra pakeitimų.\n    error: Bandant įrašyti įvyko klaida.\n    unknown_error_details: \"Prašome įsitikinti, kad esate prisijungęs prie interneto.\"\n    uploading: Pakeitimai įkeliami į OpenStreetMap.\n    unsaved_changes: Turite neįrašytų pakeitimų\n  success:\n    edited_osm: \"Pakeitėte OSM!\"\n    just_edited: \"Jūs ką tik pakeitėte OpenStreetMap!\"\n    view_on_osm: \"Žiūrėti OSM žemėlapyje\"\n    facebook: \"Pasidalinti Facebook'e\"\n    twitter: \"Pasidalinti Twitter'yje\"\n    google: \"Pasidalinti Google+\"\n    help_html: |\n      Jūsų pakeitimai turėtų pasirodyti „Standartiniame“ sluoksnyje po kelių minučių. Kiti sluoksniai ar konkretūs objektai gali pasirodyti vėliau\n      (<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>daugiau informacijos</a>).\n  confirm:\n    okay: \"Gerai\"\n  splash:\n    welcome: Jus sveikina iD OpenStreetMap redaktorius\n    text: \"iD yra draugiškas, bet galingas įrankis pildant didžiausią, atviriausią ir nemokamą/laisvą pasaulio žemėlapį. Šiuo metu naudojate versiją {version}. Daugiau informacijos rasite svetainėje {website}, o apie klaidas galite pranešti {github}.\"\n    walkthrough: \"Pradėti pažingsninę demonstraciją\"\n    start: \"Keisti dabar\"\n  source_switch:\n    live: gyva\n    lose_changes: \"Turite neįrašytų pakeitimų. Perjungiant žemėlapio stotį jie bus panaikinti. Ar tikrai norite pakeisti žemėlapių stotį?\"\n    dev: dev\n  tag_reference:\n    description: Aprašymas\n    on_wiki: \"{tag} svetainėje wiki.osm.org\"\n    used_with: \"naudojama su {type}\"\n  validations:\n    untagged_point: Taškas be žymų\n    untagged_line: Linija be žymų\n    untagged_area: Plotas be žymų\n    many_deletions: \"Jūs naikinate {n} objektų. Ar tikrai norite tai padaryti? Tai panaikins objektus iš žemėlapio, kurį visi mato svetainėje openstreetmap.org.\"\n    tag_suggests_area: \"Žyma {tag} rodo, kad linija turėtų būti plotas, bet ji nėra plotas\"\n    untagged_point_tooltip: \"Pasirinkite objekto tipą, kuris apibūdina, koks tai taškas yra.\"\n    untagged_line_tooltip: \"Pasirinkite objekto tipą, kuris apibūdina, kokia tai linija yra.\"\n    untagged_area_tooltip: \"Pasirinkite objekto tipą, kuris apibūdina, koks tai plotas yra.\"\n    deprecated_tags: \"Pasenusios žymos: {tags}\"\n  zoom:\n    in: Sumažinti\n    out: Padidinti\n  cannot_zoom: \"Negalima atitolinti šiame režime.\"\n  gpx:\n    local_layer: \"Vietinis GPX failas\"\n    drag_drop: \"Atitempkite ir numeskite .gpx failą ant puslapio arba spauskite naršymo mygtuką dešinėje\"\n    zoom: \"Rodyti GPX pėdsako plotą\"\n    browse: \"Naršyti .gpx failo\"\n  mapillary:\n    tooltip: \"Gatvių-lygio nuotraukos iš Mapillary\"\n    title: \"Nuotraukų perdanga (Mapillary)\"\n    view_on_mapillary: \"Žiūrėti šią nuotrauką per Mapillary\"\n  help:\n    title: \"Pagalba\"\n    help: |\n      # Pagalba\n\n      Tai yra [OpenStreetMap](http://www.openstreetmap.org/) redaktorius.\n      OpenStreetMap - atviras, redaguojamas pasaulio žemėlapis. Galite jį naudoti\n      bei keisti duomenis, taip tobulindami atviro kodo ir atvirų duomenų pasaulio\n      žemėlapį ir padėdami visiems.\n\n      Jūsų pakeitimai bus matomi visiems, kas naudoja OpenStreetMap. Norėdami\n      daryti pakeitimus, turėsite susikurti [nemokamą OpenStreetMap paskyrą](https://www.openstreetmap.org/user/new).\n\n      [iD redaktorius](http://ideditor.com/) - tai bendruomenės projektas. Programos\n      kodas yra atviras, jį galite rasti [GitHub](https://github.com/openstreetmap/iD).\n    editing_saving: |\n      # Keitimas ir įrašymas\n\n      Šis redaktorius sukurtas visų pirma darbui prisijungus, todėl jūs jį paleidžiate per svetainę.\n\n      ### Objektų žymėjimas\n\n      Norėdami pažymėti objektą, tokį kaip kelią ar lankytiną vietą, pažymėkite jį žemėlapyje. Taip pažymėtas objektus bus paryškintas ir bus atidaryta panelė su objekto informacija bei meniu veiksmų, kuriuos galite atlikti su pažymėtu objektu.\n\n      Norėdami pažymėti kelis objektus, laikykite paspaudę klavišą „Shift“. Tada arba spauskite ant kitų objektų, kuriuos norite pažymėti, arba tempkite pele per žemėlapį, kad nupaišytumėte stačiakampį.\n      Taip bus pažymėti visi taškai, esantys stačiakampio viduje.\n\n      ### Pakeitimų įrašymas\n\n      Kai padarote tarkim kelių, pastatų ar vietovių pakeitimų, jie saugomi vietoje tol, kol jūs neįrašote jų į serverį. Nesijaudinkite jei padarote klaidą, visada galite atstatyti pakeitimus su atstatymo mygtuku ir pakartotinai juos padaryti paspaudę pakartojimo mygtuką.\n\n      Spauskite mygtuką „Įrašyti“, jei norite įrašyti grupę pakeitimų, pavyzdžiui jei baigėte vienos vietos pakeitimus ir dabar norėtumėte pradėti keisti kitoje vietoje. Galėsite peržiūrėti, ką padarėte, o redaktorius pateiks naudingus patarimus ar įspėjimus, jei kažkas atrodo ne visai teisingai.\n\n      Jei viskas gerai, galite įvesti trumpą komentarą, paaiškinantį jūsų pakeitimus ir tada vėl spausti „Įrašyti“, kad įkeltumėte pakeitimus į\n      [OpenStreetMap.org](http://www.openstreetmap.org/), kur visi kiti naudotojai juos matys ir galės toliau tobulinti.\n\n      Jei negalite baigti savo pakeitimų vienu prisėdimu, galite palikti redaktoriaus langą ir grįžti vėliau (toje pačioje naršyklėje ir tame pačiame kompiuteryje), redaktorius jums pasiūlys tęsti jūsų darbą.\n    roads: |\n      # Keliai\n\n      Jūs galite kurti, taisyti ir naikinti kelius redaktoriaus pagalba. Keliai gali būti įvairių\n      tipų: takai, vieškeliai, maršrutai, dviračių takai ir daug kitų, dažnai susikertančių,\n      juos visus galima pažymėti.\n\n      ### Parinkimas\n\n      Norėdami parinkti kelią - spauskite ant jo. Kelio kontūras bus paryškintas, taipogi\n      bus rodomas mažas įrankių meniu ir šonine skiltimi, rodančia daugiau informacijos\n      apie kelią.\n\n      ### Keitimas\n\n      Dažnai pastebėsite kelius, kurių pozicija neatitinka fone esančios ortofotonuotraukos arba\n      jūsų GPS pėdsako. Galie pataisyti kelio poziciją, kad kelias būtų teisingoje vietoje.\n\n      Visų pirma spauskite ant kelio, kurį norite keisti. Kelias bus paryškintas ir bus matomi\n      kontroliniai taškai, kuriuos jūs galite pertempti į teisingesnes pozicijas. Jei norite pridėti\n      papildomų kontrolinių taškų - du kartus spauskite ant kelio segmento, kuriame\n      dar nėra taško - bus pridėtas naujas taškas.\n\n      Jei kelias jungiasi su kitu keliu, bet nėra teisingai sujungtas žemėlapyje, jūs galite\n      tempti vieną iš kelio kontrolinių taškų ant kito kelio, kad juos sujungtumėte. Labai\n      svarbu teisingai sujungti kelius, nes tai naudojama maršrutizavimui.\n\n      Taipogi galite naudoti įrankį „Perkelti“ arba spausti mygtuką „M“, jei norite perkelti\n      visą kelią iš karto, tada vėl spauskite „M“, kad patvirtintumėte perkėlimą.\n\n      ### Naikinimas\n\n      Jei kelias yra visiškai neteisingas - jūs matote, kad tokio kelio apskritai nėra ortofoto\n      ir jūs žinote, kad jo ir realybėje nėra - galite kelią ištrinti, kad jo nebeliktų žemėlapyje.\n      Naikindami objektus būkite atidūs, kaip ir bet kuris kitas keitimas, naikinimas matomas\n      visiems naudotojams, o ortofotografijos dažnai būna pasenusios, tagi naujai\n      nutiestas kelias gali būti tiesiog nematomas.\n\n      Kelią galite panaikinti pažymėję jį ir paspaudę šiukšlių dėžės piktogramą arba\n      paspaudę mygtuką „Trinti“.\n\n      ### Kūrimas\n\n      Radote vietą, kur turėtų būti kelias, bet jo nėra? Spauskite mygtuką „Linija“\n      arba klavišą „2“, kad pradėtumėte linijos piešimą.\n\n      Spauskite žemėlapyje ant vietos, kur turi prasidėti jūsų kelias. Jeigu kelias atsišakoja\n      nuo jau esamo kelio - pradėkite naujo kelio piešimą paspaudę ant atsišakojimo vietos.\n\n      Tada dėliokite kelio taškus taip, kad jo kontūras maksimaliai atitiktų realų kelią pagal\n      palydovinę nuotrauką ar GPS pėdsakus. Jei jūsų piešiamas kelias kerta kitą kelią,\n      sujunkite juos spaudžiant ties susikirtimo tašku. Kai baigsite braižyti, du kartus\n      spauskite pele arba spauskite klaviatūros mygtuką „Enter“.\n    gps: |\n      # GPS\n\n      GPS duomenys - patikimiausias duomenų šaltinis atvirame žemėlapyje. Šis redaktorius palaiko vietinius pėdsakus - „.gpx“ failus jūsų kompiuteryje. Jūs galite surinkti tokius GPS pėdsakus eile išmaniųjų telefonų aplikacijų arba asmenine GPS įranga.\n\n      Daugiau informacijos apie tai, kaip daryti GPS apžiūrą rasite [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\n      Norint panaudoti GPX pėdsaką žymėjimui, atitempkite GPX failą ant žemėlapio. Jei jis bus atpažintas - pamatysite jį žemėlapyje kaip ryškią purpurinę liniją. Spauskite dešinėje esantį meniu „Žemėlapio duomenys“, norėdami įjungti, išjungti ar priartinti šį naują GPX valdomą sluoksnį.\n\n      GPX pėdsakas nekeliamas tiesiogiai į OpenStreetMap - geriausias naudojimo būdas - naudoti pėdsaką kaip orientyrą braižant naujus žemėlapio objektus. Vėliau pėdsaką patartina įkelti, kad jį galėtų naudoti kiti braižytojai [upload it to OpenStreetMap](http://www.openstreetmap.org/trace/create).\n    imagery: |\n      # Nuotraukos\n\n      Iš oro ar palydovo darytos nuotraukos - svarbus žemėlapio paišymo pagalbininkas.\n      Dešinėje esančiame meniu rasite įvairių nuotraukų, darytų iš lėktuvų, palydovų ar\n      kombinuotų šaltinių.\n\n      Tik įjungus redaktorių bus automatiškai įjungtas [Bing Maps](http://www.bing.com/maps/)\n      palydovinis sluoksnis, bet priklausomai nuo to, kurioje geografinėje vietoje\n      redaguojate - bus rodomi ir kiti nuotraukų šaltiniai. Kai kurios šalys, tokios kaip\n      JAV, Prancūzija, Danija ir Lietuva turi labai aukštos kokybės ir tikslumo\n      ortofotonuotraukas. Pavyzdžiui Lietuvoje reikėtų naudoti NŽT ORT10LT.\n\n      Nuotraukos kartais būna pasislinkusios nuo realios pozicijos dėl nuotraukų\n      tiekėjo klaidų. Jei matote, kad daug kelių ar kitų objektų yra pasislinkę nuo\n      nuotraukos, nepulkite jų tempti į „teisingas“ vietas. Vietoje to geriau pataisykite\n      nuotraukos poziciją pagal esamus duomenis, paspaudę fono parinkčių apačioje\n      „Taisyti lygiavimą“. NŽT ORT10LT lygiavimas yra teisingas visoje Lietuvos\n      teritorijoje, taigi jo taisyti nereikia.\n    addresses: |\n      # Adresai\n\n      Adresų informacija - viena naudingiausių žemėlapyje.\n\n      OpenStreetMap adresai dažniausiai įrašomi kaip pastatų arba lankytinų vietų\n      atributai.\n\n      Jūs galite pridėti adreso informaciją vietoms, pažymėtoms kaip pastatų\n      kontūrai bei pavieniams taškams. Geriausias adreso informacijos šaltinis\n      yra vietinė apžiūra arba asmeninės žinios - kaip ir su bet kuriais kitais\n      objektais, naudoti šaltinius, tokius kaip Google Maps, maps.lt, Registrų Centras\n      ir pan. yra griežtai draudžiama.\n    inspector: |\n      # Inspektoriaus naudojimas\n\n      Inspekatorius - tai puslapio kairėje esanti dalis, kurioje jūs galite keisti pažymėto objekto detales.\n\n      ### Objekto tipo parinkimas\n\n      Po to, kai jūs pridedate tašką, liniją ar plotą, jūs galite pasirinkti kokio tipo tai objektas, pavyzdžiui ar tai yra greitkelis ar kelias, prekybos centras ar kavinė. Inspektorius rodys mygtukus populiariausiems objektų tipams, o kitus galite rasti įrašydami raktažodžius į paieškos lauką.\n\n      Spauskite „i“ objekto tipo mygtuko dešinėje apatinėje pusėje, jei norite sužinoti daugiau. Spauskite mygtuką, jei norite parinkti tipą.\n\n      ### Formų naudojimas ir žymų keitimas\n\n      Po to, kai jūs parenkate objekto tipą, arba kai parinkote objektą, kurio tipas jau buvo nurodytas, inspektorius rodys laukus su objekto informacija, tokia kaip pavadinimas ir adresas.\n\n      Po šiais laukais jūs galite spausti piktogramas, kad pridėtumėte kitas detales, tokias kaip [Wikipedijos](http://www.wikipedia.org/) informaciją, prieinamumą vėžymėlyje ir pan.\n\n      Inspektoriaus apačioje spauskite „Papildomo žymos“, kad pridėtumėte prie objekto bet kokias kitas žymas. [Taginfo](http://taginfo.openstreetmap.org/) - puikus resursas, kurio pagalba galite sužinoti daugiau apie kitas populiarias žymų kombinacijas.\n\n      Pakeitimai, kuriuos darote inspektoriuje automatiškai pritaikomi žemėlapiui. Bet kuriuo metu galite atstatyti pakeitimus spausdami mygtuką „atstatyti“.\n    buildings: |\n      # Pastatai\n\n      OpenStreetMap - tai didžiausia pasaulyje pastatų duomenų bazė. Jūs galite\n      kurti ir tobulinti šią duomenų bazę.\n\n      ### Parinkimas\n\n      Pastatą parinkti galit paspaudę ant jo kontūro. Tai paryškins pastatą ir atvers\n      mažą įrankių meniu bei šoninę skiltį su papildoma informacija apie pastatą.\n\n      ### Keitimas\n\n      Kartais pastatai būna nupiešti neteisingoje vietoje arba turi neteisingas žymas.\n\n      Norėdami perkelti visą pastatą, pažymėkite jį, parinkite įrankį „Perkelti“.\n      Perkelkite pastatą pelės pagalba ir spauskite, kai vieta yra teisinga.\n\n      Norėdami patvarkyti pastato formą, spauskite ir tempkite pastato kontūro\n      taškus į teisingas vietas.\n\n      ### Kūrimas\n\n      Vienas pagrindinių klausimų apie pastatų registravimą žemėlapyje yra tai,\n      kad OpenStreetMap pastatai registruojami ir kaip plotai, ir kaip taškai.\n      Bendra taisyklė yra žymėti pastatus plotais, jei tik tai įmanoma. Įmones ar\n      lankytinas vietas, kurios veikia pastatuose, žymėti kaip taškus, esančius\n      pastato ploto viduje.\n\n      Pradėkite pastato braižyma parinkdami mygtuką „Plotas“ viršutinėje\n      sąsajos dalyje. Pastato braižymą baikite spausdami „Enter“ arba paspaudę\n      ant pirmo pastato formos taško.\n\n      ### Naikinimas\n\n      Jei pastatas yra visiškai neteisingas - jūs aiškiai matote, kad pastato nėra\n      palydovinėje nuotraukoje ar gal net patikrinote jo nebuvimą realiu apsilankymu\n      vietoje - galite panaikinti pastatą iš žemėlapio. Naikindami objektus būkite\n      atidūs, kaip ir bet kuris kitas pakeitimas, šis bus matomas visiems naudotojams,\n      o palydovinės nuotraukos dažnai būna pasenusios, taigi gali būti, kad pastatas\n      tiesiog yra naujai pastatytas, todėl ir nesimato nuotraukoje.\n\n      Pastatą panaikinti galite jį pažymėję ir paspaudę šiukšlinės piktogramą arba\n      mygtuką „Trinti/Delete“.\n    relations: |\n      # Ryšiai\n\n      Ryšys - tai specialus OpenStreetMap objekto tipas, kuris grupuoja kelis objektus. Pavyzdžiui du populiarūs ryšių tipai yra *maršruto ryšys*, kuris grupuoja kelis skirtingus to paties greitkelio gabalus, ir *multipoligonai*, kurie grupuoja kelias linijas, apibrėžiančias sudėtingą plotą (tokį, kuris turi kelis gabalus arba skyles kaip riestainyje).\n\n      Objektai ryšyje vadinami „nariais“. Šoninėje juostoje galite matyti, kuriems ryšiams priklauso objektas. Ten pat galite pažymėti ryšį. Pažymėjus ryšį galėsite matyti visus jo narius šoninėje juostoje bei paryškintus žemėlapyje.\n\n      Dažniausiai iD pasirūpins ir sutvarkys ryšius automatiškai, tol kol jūs keisite kitus objektus. Pagrindinis dalykas, kurį turėtumėte atsiminti yra tai, kad jei panaikinate kelio dalį, kad nupaišytumėte ją tiksliau iš naujo, būtinai turite naujai nupieštą dalį įtraukti į tą patį ryšį, į kurį buvo įtraukta ir pradinė dalis.\n\n      ## Ryšių keitimas\n\n      Jei norite keisti ryšius, štai pagrindiniai dalykai, kuriuos turite žinoti.\n\n      Norėdami pridėti objektą prie ryšio, pažymėkite objektą, spauskite mygtuką „+“ šoninės juostos dalyje „Visi ryšiai“ ir tada parinkite arba įrašykite ryšio pavadinimą.\n\n      Norėdami sukurti naują ryšį, pažymėkite pirmą objektą, kuris turėtų būti narys, spauskite mygtuką „+“ sekcijoje „Visi ryšiai“ ir tada parinkite „Naujas ryšys...“.\n\n      Norėdami išimti objektą iš ryšio, parinkite objektą ir spauskite šiukšlių dėžės mygtuką šalia ryšio, iš kurio norite objektą išmesti.\n\n      Galite sukurti multipoligonus su skylėmis naudodami mygtuką „Sulieti“. Nubrėžkite du plotus (vidinį ir išorinį), laikykite Shift mygtuką ir spauskite ant abiejų plotų, tada spauskite mygtuką „Sulieti“ (+).\n  intro:\n    navigation:\n      title: \"Navigacija\"\n      drag: \"Pagrindinė žemėlapio sritis rodo OpenStreetMap duomenis virš fono. Galite keisti poziciją tempiant pele arba naudojant pelės ratuką - kaip ir bet kuriame kitame tinklo žemėlapyje. **Pastumkite žemėlapį!**\"\n      select: \"Žemėlapio geoobjektai būna trijų tipų: taškai, linijos ir plotai. Visi geoobjektai gali būti pažymėti juos paspaudus. **Spauskite tašką, kad jį pažymėtumėte.**\"\n      header: \"Antraštė rodo geoobjekto tipą.\"\n      pane: \"Parinkus geoobjektą rodomas redaktorius. Antraštėje rodomas geoobjekto tipas, o pagrindinėje skiltyje matomi geoobjekto atributai, tokie kaip pavadinimas ir adresas. **Uždarykite geoobjekto redaktorių mygtuku „uždaryti“, esančiu viršutiniame dešiniame kampe.**\"\n    points:\n      title: \"Taškai\"\n      add: \"Taškai gali būti naudojami vaizduoti tokius objektus kaip parduotuvės, restoranai ar paminklai. Jie žymi konkrečią vietą ir aprašo, kas ten yra. **Spauskite mygtuką „Taškas“, kad pridėtumėte tašką.**\"\n      place: \"Taškas gali būti pažymėtas paspaudus ant žemėlapio. **Padėkite tašką ant pastato.**\"\n      search: \"Yra daug skirtingų objektų, kurie gali būti vaizduojami taškais. Jūsų ką tik pridėtas taškas yra kavinė. **Ieškokite '{name}'**\"\n      choose: \"**Sąraše parinkite Kavinę.**\"\n      describe: \"Taškas dabar pažymėtas kaip kavinė. Naudodami geoobjektų redaktorių mes galima pridėti daugiau informacijos. **Pridėkite pavadinimą**\"\n      close: \"Objektų redaktorių galima uždaryti mygtuku „X“. **Uždarykite objektų redaktorių**\"\n      reselect: \"Dažnai taškai jau bus nupiešti, bet informacija bus nepilna arba joje bus klaidų. Mes galima keisti ir jau esamus taškus. **Pažymėkite jūsų ką tik sukurtą tašką.**\"\n      fixname: \"**Pakeiskite pavadinimą ir uždarykite objektų redaktorių.**\"\n      reselect_delete: \"Visi žemėlapio objektai gali būti panaikinti. **Spauskite ant jūsų sukurto taško.**\"\n      delete: \"Meniu aplink tašką rasite veiksmus, kuriuos galite atlikti su pažymėtu objektu, įskaitant ir panaikinimą. **Panaikinkite tašką.**\"\n    areas:\n      title: \"Plotai\"\n      add: \"Poligonai gali būti naudojami atvaizduoti ribas tokių objektų kaip ežerai, pastatai ir gyvenamosios teritorijos. Taip pat jie gali būti naudojami norint detalizuoti daugelį objektų, kuriuos paprastai žymime taškais. **Spauskite mygtuką \\\"Poligonas\\\", kad pridėtumėte naują plotą.**\"\n      corner: \"Plotai paišomi dėliojant taškus, nurodančius ploto kontūrą. **Sukurkite pradinį tašką viename iš žaidimų aikštelės kampų.**\"\n      place: \"Nupieškite plotą pridėdami daugiau taškų. Baikite ploto braižymą pažymėję pradinį tašką. **Nubraižykite žaidimų aikštelės plotą.**\"\n      search: \"**Ieškoti '{name}'.**\"\n      choose: \"**Sąraše parinkite žaidimų aikštelę.**\"\n      describe: \"**Pridėkite pavadinimą ir uždarykite objektų redaktorių**\"\n    lines:\n      title: \"Linijos\"\n      add: \"Linijos gali būti naudojamos atvaizduoti tokius objektus kaip keliai, geležinkeliai ir upės. **Spauskite mygtuką \\\"Linija\\\", kad pridėtumėte liniją.**\"\n      start: \"**Pradėkite linijos braižymą spausdami ant kelio pabaigos.**\"\n      intersect: \"Spauskite, kad pridėtumėte prie linijos daugiau taškų. Braižymo metu, jei reikia, galite pastumti žemėlapi. Keliai bei daug kitų linijų tipų paprastai yra dalis didelio tinklo. Labai svarbu, kad šios linijos būtų teisingai sujungtos, kad veiktų maršrutizavimas. **Spauskite ant Flower Street, kad sukurtumėte susikirtimą tarp dviejų linijų.**\"\n      finish: \"Linijos braižymas gali būti baigiamas antrą kartą paspaudus ant paskutiniojo taško. **Baikite kelio braižymą.**\"\n      road: \"**Sąraše parinkite kelią**\"\n      residential: \"Yra įvairių kelių tipų, dažniausiai pasitaikantis - „Residential“. **Parinkite kelio tipą „Residential“**\"\n      describe: \"**Įveskite kelio pavadinimą ir užverkite objektų redaktorių.**\"\n      restart: \"Kelias turi susikirsti su Flower Street.\"\n      wrong_preset: \"Neparinkote gyvenamosios gatvės tipo. **Spauskite čia ir parinkite iš naujo**\"\n    startediting:\n      title: \"Pradėti redagavimą\"\n      help: \"Išsamesnę dokumentaciją ir šią pažingsninę demonstraciją rasite čia.\"\n      save: \"Nepamirškite periodiškai įrašyti savo pakeitimų!\"\n      start: \"Pradėkite žymėjimą!\"\n",
-	"mimetype": "text/plain"
+
+"lt": {
+
+
+"modes": {
+
+
+
+"add_area": {
+
+
+
+
+"title": "Plotas",
+
+
+
+
+"description": "Pridėkite parkus, pastatus, ežerus ar kitas vietas į žemėlapį.",
+
+
+
+
+"tail": "Spauskite ant žemėlapio, kad pradėtumėte braižyti plotą: parką, ežerą, pastatą ar pan."
+
+
+
+},
+
+
+
+"add_line": {
+
+
+
+
+"title": "Linija",
+
+
+
+
+"description": "Pridėti greitkelius, gatves, pėsčiųjų takus, kanalus ar kitas linijas į žemėlapį.",
+
+
+
+
+"tail": "Spauskite ant žemėlapio, kad pradėtumėte braižyti kelią, taką ar maršrutą."
+
+
+
+},
+
+
+
+"add_point": {
+
+
+
+
+"title": "Taškas",
+
+
+
+
+"description": "Pridėti restoranus, paminklus, pašto dėžutes ar kitus taškus į žemėlapį.",
+
+
+
+
+"tail": "Spustelėkite žemėlapį, norėdami pridėti tašką."
+
+
+
+},
+
+
+
+"browse": {
+
+
+
+
+"title": "Naršyti",
+
+
+
+
+"description": "Perkelti ir padidinti žemėlapį."
+
+
+
+},
+
+
+
+"draw_area": {
+
+
+
+
+"tail": "Spauskite, kad pridėtumėte taškus jūsų plote. Spauskite ant pirmo taško, kad baigtumėte plotą."
+
+
+
+},
+
+
+
+"draw_line": {
+
+
+
+
+"tail": "Spauskite, kad pridėtumėte daugiau taškų linijoje. Spauskite ant kitų linijų, kad jas sujungtumėte. Spauskite du kartus, kad baigtumėte linijos piešimą."
+
+
+
+}
+
+
+},
+
+
+"operations": {
+
+
+
+"add": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Taškas pridėtas.",
+
+
+
+
+
+"vertex": "Viršūnė pridėta prie kelio.",
+
+
+
+
+
+"relation": "Ryšys pridėtas."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"start": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Pradėta linija.",
+
+
+
+
+
+"area": "Pradėtas plotas."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"continue": {
+
+
+
+
+"key": "A",
+
+
+
+
+"title": "Tęsti",
+
+
+
+
+"description": "Tęsti šią liniją.",
+
+
+
+
+"not_eligible": "Čia negalima tęsti jokios linijos.",
+
+
+
+
+"multiple": "Čia galima tęsti daugiau nei vieną liniją. Norėdami parinkti liniją, spauskite Shift ir parinkite liniją.",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Pratęsta linija.",
+
+
+
+
+
+"area": "Pratęstas plotas."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"cancel_draw": {
+
+
+
+
+"annotation": "Nutrauktas braižymas."
+
+
+
+},
+
+
+
+"change_role": {
+
+
+
+
+"annotation": "Pakeista ryšio nario rolė."
+
+
+
+},
+
+
+
+"change_tags": {
+
+
+
+
+"annotation": "Pakeistos žymos."
+
+
+
+},
+
+
+
+"circularize": {
+
+
+
+
+"title": "Apvalinti",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Suapvalinti šią liniją.",
+
+
+
+
+
+"area": "Suapvalinti šį plotą."
+
+
+
+
+},
+
+
+
+
+"key": "O",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Suapvalinta linija.",
+
+
+
+
+
+"area": "Suapvalintas plotas."
+
+
+
+
+},
+
+
+
+
+"not_closed": "Negalima suapvalinti, nes linija nėra uždara.",
+
+
+
+
+"too_large": "Negalima suapvalinti, nes nepilnai matoma",
+
+
+
+
+"connected_to_hidden": "Negalima suapvalinti, nes yra prijungtas prie paslėpto objekto."
+
+
+
+},
+
+
+
+"orthogonalize": {
+
+
+
+
+"title": "Statūs kampai",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Keisti šios linijos kampus stačiais.",
+
+
+
+
+
+"area": "Keisti šio ploto kampus stačiais."
+
+
+
+
+},
+
+
+
+
+"key": "S",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Keisti linijos kampus stačiais.",
+
+
+
+
+
+"area": "Keisti ploto kampus stačiais."
+
+
+
+
+},
+
+
+
+
+"not_squarish": "Negalima pakeisti kampų stačiais, nes jie labai nestatūs.",
+
+
+
+
+"too_large": "Negalima kvadratizuoti, nes nepilnai matoma",
+
+
+
+
+"connected_to_hidden": "Negalima kampų paversti stačiais, nes yra prijungtas prie paslėpto objekto."
+
+
+
+},
+
+
+
+"straighten": {
+
+
+
+
+"title": "Tiesinti",
+
+
+
+
+"description": "Tiesinti šią liniją.",
+
+
+
+
+"key": "S",
+
+
+
+
+"annotation": "Linija ištiesinta.",
+
+
+
+
+"too_bendy": "Ši negali būti ištiesinta, nes ji per daug išlenkta.",
+
+
+
+
+"connected_to_hidden": "Ši linija negali būti ištiesinta, nes ji prijungta prie paslėpto objekto."
+
+
+
+},
+
+
+
+"delete": {
+
+
+
+
+"title": "Ištrinti",
+
+
+
+
+"description": "Ištrinti objektą visam.",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Taškas ištrintas.",
+
+
+
+
+
+"vertex": "Viršūnė pašalinta iš kelio.",
+
+
+
+
+
+"line": "Linija ištrinta.",
+
+
+
+
+
+"area": "Teritorija ištrinta.",
+
+
+
+
+
+"relation": "Pašalintas ryšys.",
+
+
+
+
+
+"multiple": "Pašalinta {n} objektų."
+
+
+
+
+},
+
+
+
+
+"incomplete_relation": "Šio objekto negalima panaikinti, nes jis nebuvo pilnai atsiųstas.",
+
+
+
+
+"part_of_relation": "Šis objektas negali būti ištrintas, nes jis yra didesnio ryšio dalis. Visų pirma turite jį pašalinti iš ryšio.",
+
+
+
+
+"connected_to_hidden": "Tai negali būti panaikinta, nes yra prijungta prie paslėpto objekto."
+
+
+
+},
+
+
+
+"add_member": {
+
+
+
+
+"annotation": "Narys pridėtas prie ryšio."
+
+
+
+},
+
+
+
+"delete_member": {
+
+
+
+
+"annotation": "Narys pašalintas iš ryšio."
+
+
+
+},
+
+
+
+"connect": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Kelias prijungtas prie taško.",
+
+
+
+
+
+"vertex": "Kelias prijungtas prie kito.",
+
+
+
+
+
+"line": "Kelias prijungtas prie linijos.",
+
+
+
+
+
+"area": "Kelias prijungtas prie ploto."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"disconnect": {
+
+
+
+
+"title": "Atskirti",
+
+
+
+
+"description": "Atjungti šias linijas/plotus vieną nuo kito.",
+
+
+
+
+"key": "D",
+
+
+
+
+"annotation": "Atjungtos linijos/plotai.",
+
+
+
+
+"not_connected": "Nepakankamai linijų/plotų, kad būtų galima atjungti.",
+
+
+
+
+"connected_to_hidden": "Tai negali būti atjungta, nes yra prijungta prie paslėpto objekto."
+
+
+
+},
+
+
+
+"merge": {
+
+
+
+
+"title": "Sujungti",
+
+
+
+
+"description": "Sujungti šias linijas.",
+
+
+
+
+"key": "C",
+
+
+
+
+"annotation": "Sujungtos {n} linijos.",
+
+
+
+
+"not_eligible": "Šie geoobjektai negali būti sulieti.",
+
+
+
+
+"not_adjacent": "Šios linijos negali būti sulietos, nes jos nesusijungia.",
+
+
+
+
+"restriction": "Šių linijų negalima sulieti, nes bent viena iš jų yra ryšio „{relation}“ narė.",
+
+
+
+
+"incomplete_relation": "Šie objektai negali būti sujungti, nes ne visi pilnai atsiųsti."
+
+
+
+},
+
+
+
+"move": {
+
+
+
+
+"title": "Perkelti",
+
+
+
+
+"description": "Perkelti tai į kitą vietą.",
+
+
+
+
+"key": "M",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Taškas perkeltas.",
+
+
+
+
+
+"vertex": "Perkeltas taškas kelyje.",
+
+
+
+
+
+"line": "Linija perkelta.",
+
+
+
+
+
+"area": "Perkeltas plotas.",
+
+
+
+
+
+"multiple": "Perkelti keli objektai."
+
+
+
+
+},
+
+
+
+
+"incomplete_relation": "Šio geoobjekto negalima perkelti, nes jis nėra pilnai atsiųstas.",
+
+
+
+
+"too_large": "Negalima perkelti, nes nepilnai matomas.",
+
+
+
+
+"connected_to_hidden": "Tai negali būti perkelta, nes yra prijungta prie paslėpto objekto."
+
+
+
+},
+
+
+
+"rotate": {
+
+
+
+
+"title": "Pasukti",
+
+
+
+
+"description": "Pasukti šį objektą ties centro tašku.",
+
+
+
+
+"key": "R",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Linija pasukta.",
+
+
+
+
+
+"area": "Pasuktas plotas."
+
+
+
+
+},
+
+
+
+
+"too_large": "Negalima sukti, nes nepilnai matomas.",
+
+
+
+
+"connected_to_hidden": "Tai negali būti pasukta, nes yra prijungta prie paslėpto objekto."
+
+
+
+},
+
+
+
+"reverse": {
+
+
+
+
+"title": "Atstatyti",
+
+
+
+
+"description": "Pakeisti linijos kryptį.",
+
+
+
+
+"key": "V",
+
+
+
+
+"annotation": "Pakeista linijos kryptis."
+
+
+
+},
+
+
+
+"split": {
+
+
+
+
+"title": "Padalinti",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Dalinti šią liniją į dvi ties šiuo tašku.",
+
+
+
+
+
+"area": "Dalinti šio ploto kontūrą į du.",
+
+
+
+
+
+"multiple": "Dalinti linijų/plotų kontūrus į du ties šiuo tašku."
+
+
+
+
+},
+
+
+
+
+"key": "X",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Dalinti liniją.",
+
+
+
+
+
+"area": "Dalinti ploto kontūrą.",
+
+
+
+
+
+"multiple": "Dalinti {n} linijų/plotų kontūrus."
+
+
+
+
+},
+
+
+
+
+"not_eligible": "Linijos negali būti dalinamos ties jų pradžia ar pabaiga.",
+
+
+
+
+"multiple_ways": "Čia yra per daug linijų, kurias galima dalinti.",
+
+
+
+
+"connected_to_hidden": "Tai negali būti padalinta, nes yra prijungta prie paslėpto objekto."
+
+
+
+},
+
+
+
+"restriction": {
+
+
+
+
+"help": {
+
+
+
+
+
+"select": "Spustelėkite, kad pasiringtumėte kelio atkarpą.",
+
+
+
+
+
+"toggle": "Spustelėkite, kad nustatytumėte posūkio apribojimus.",
+
+
+
+
+
+"toggle_on": "Spustelėkite, kad pridėtumėte \"{restriction}\" apribojimą.",
+
+
+
+
+
+"toggle_off": "Spustelėkite, kad panaikintumėte \"{restriction}\" apribojimą."
+
+
+
+
+},
+
+
+
+
+"annotation": {
+
+
+
+
+
+"create": "Posūkio apribojimas pridėtas",
+
+
+
+
+
+"delete": "Posūkio apribojimas panaikintas"
+
+
+
+
+}
+
+
+
+}
+
+
+},
+
+
+"undo": {
+
+
+
+"tooltip": "Atstatyti: {action}",
+
+
+
+"nothing": "Nėra ką atstatyti."
+
+
+},
+
+
+"redo": {
+
+
+
+"tooltip": "Pakartoti: {action}",
+
+
+
+"nothing": "Nėra ką pakartoti."
+
+
+},
+
+
+"tooltip_keyhint": "Kombinacija:",
+
+
+"browser_notice": "Šis redaktorius palaikomas Firefox, Chrome, Safari, Opera ir Internet Explorer 9 ir naujesnėse naršyklėse. Prašome atnaujinti jūsų naršyklę arba žemėlapio redagavimui naudoti Potlatch 2.",
+
+
+"translate": {
+
+
+
+"translate": "Versti",
+
+
+
+"localized_translation_label": "Daugiakalbis pavadinimas",
+
+
+
+"localized_translation_language": "Pasirinkti kalbą",
+
+
+
+"localized_translation_name": "Pavadinimas"
+
+
+},
+
+
+"zoom_in_edit": "Padidinkite prieš redaguodami",
+
+
+"logout": "atsijungti",
+
+
+"loading_auth": "Jungiamasi prie OpenStreetMap...",
+
+
+"report_a_bug": "pranešti apie klaidą",
+
+
+"feature_info": {
+
+
+
+"hidden_warning": "{count} paslėptų objektų",
+
+
+
+"hidden_details": "Šie objektai šiuo metu paslėpti: {details}"
+
+
+},
+
+
+"status": {
+
+
+
+"error": "Nepavyksta prisijungti prie API.",
+
+
+
+"offline": "API išjungtas. Bandykite redaguoti vėliau.",
+
+
+
+"readonly": "API yra tik skaitymo režime. Prieš įrašydami savo pakeitimus turėsite palaukti."
+
+
+},
+
+
+"commit": {
+
+
+
+"title": "Išsaugoti pakeitimus",
+
+
+
+"description_placeholder": "Trumpas jūsų indėlio aprašymas",
+
+
+
+"message_label": "Pakeitimo aprašymas",
+
+
+
+"upload_explanation": "Jūsų įkeliami pakeitimai bus matomi visuose žemėlapiuose, naudojančiuose OpenStreetMap duomenis.",
+
+
+
+"upload_explanation_with_user": "Pakeitimai, kuriuos jūs įkeliate kaip naudotojas {user} bus matomi visuose žemėlapiuose, naudojančiuose OpenStreetMap duomenis.",
+
+
+
+"save": "Išsaugoti",
+
+
+
+"cancel": "Atšaukti",
+
+
+
+"changes": "{count} Pakeitimai",
+
+
+
+"warnings": "Įspėjimai",
+
+
+
+"modified": "Pakeista",
+
+
+
+"deleted": "Ištrinta",
+
+
+
+"created": "Sukurta"
+
+
+},
+
+
+"contributors": {
+
+
+
+"list": "Keitėjai {users}",
+
+
+
+"truncated_list": "Keitėjai {users} ir {count} kitų"
+
+
+},
+
+
+"geocoder": {
+
+
+
+"search": "Ieškoti visam pasaulyje...",
+
+
+
+"no_results_visible": "Nėra rezultatų matomame žemėlapio plote",
+
+
+
+"no_results_worldwide": "Nėra rezultatų"
+
+
+},
+
+
+"geolocate": {
+
+
+
+"title": "Rodyti mano vietą"
+
+
+},
+
+
+"inspector": {
+
+
+
+"no_documentation_combination": "Nėra šios žymos ar žymų kombinacijos aprašymo",
+
+
+
+"no_documentation_key": "Šis raktas neturi dokumentacijos",
+
+
+
+"show_more": "Rodyti daugiau",
+
+
+
+"view_on_osm": "Žiūrėti svetainėje openstreetmap.org",
+
+
+
+"all_tags": "Visos žymos",
+
+
+
+"all_members": "Visi nariai",
+
+
+
+"all_relations": "Visi ryšiai",
+
+
+
+"new_relation": "Naujas ryšys...",
+
+
+
+"role": "Rolė",
+
+
+
+"choose": "Parinkite geoobjekto tipą",
+
+
+
+"results": "{n} paieškos {search} rezultatai",
+
+
+
+"reference": "Žiūrėti OpenStreetMap Wikyje",
+
+
+
+"back_tooltip": "Keisti objektą",
+
+
+
+"remove": "Pašalinti",
+
+
+
+"search": "Ieškoti",
+
+
+
+"multiselect": "Pažymėti elementai",
+
+
+
+"unknown": "Nežinoma",
+
+
+
+"incomplete": "<neatsiųsta>",
+
+
+
+"feature_list": "Ieškoti objektų",
+
+
+
+"edit": "Keisti objektą",
+
+
+
+"check": {
+
+
+
+
+"yes": "Taip",
+
+
+
+
+"no": "Ne"
+
+
+
+},
+
+
+
+"none": "Jokio",
+
+
+
+"node": "Taškas",
+
+
+
+"way": "Kelias",
+
+
+
+"relation": "Ryšys",
+
+
+
+"location": "Vieta",
+
+
+
+"add_fields": "Pridėti lauką:"
+
+
+},
+
+
+"background": {
+
+
+
+"title": "Fonas",
+
+
+
+"description": "Fono nustatymai",
+
+
+
+"percent_brightness": "{opacity}% ryškumas",
+
+
+
+"none": "Jokio",
+
+
+
+"custom": "Savas",
+
+
+
+"custom_button": "Redaguoti pasirinktiną foną",
+
+
+
+"custom_prompt": "Įveskite kaladėlių URL šabloną. Galimi ženklai yra {z}, {x}, {y} Z/X/Y schemai ir {u} quadtile schemai.",
+
+
+
+"fix_misalignment": "Taisyti poziciją",
+
+
+
+"reset": "iš naujo"
+
+
+},
+
+
+"map_data": {
+
+
+
+"title": "Žemėlapio duomenys",
+
+
+
+"description": "Žemėlapio duomenys",
+
+
+
+"data_layers": "Duomenų sluoksniai",
+
+
+
+"fill_area": "Pildyti plotus",
+
+
+
+"map_features": "Žemėlapio savybės",
+
+
+
+"autohidden": "Šie objektai buvo automatiškai paslėpti, nes ekrane tektų rodyti per daug. Galite didinti, jei norite juos keisti."
+
+
+},
+
+
+"feature": {
+
+
+
+"points": {
+
+
+
+
+"description": "Taškai",
+
+
+
+
+"tooltip": "Lankytinos vietos"
+
+
+
+},
+
+
+
+"major_roads": {
+
+
+
+
+"description": "Pagrindiniai keliai",
+
+
+
+
+"tooltip": "Plentai, gatvės ir pan."
+
+
+
+},
+
+
+
+"minor_roads": {
+
+
+
+
+"description": "Nedideli keliai",
+
+
+
+
+"tooltip": "Privažiavimai, parkavimo keliai, miško/laukų keliai ir pan."
+
+
+
+},
+
+
+
+"paths": {
+
+
+
+
+"description": "Takai",
+
+
+
+
+"tooltip": "Šaligatviai, pėsčiųjų takai, dviračių takai ir pan."
+
+
+
+},
+
+
+
+"buildings": {
+
+
+
+
+"description": "Pastatai",
+
+
+
+
+"tooltip": "Pastatai, pastogės, garažai ir pan."
+
+
+
+},
+
+
+
+"landuse": {
+
+
+
+
+"description": "Žemėnaudos objektai",
+
+
+
+
+"tooltip": "Miškai, dirbama žemė, parkai, gyvenamosios, komercinės zonos ir pan."
+
+
+
+},
+
+
+
+"boundaries": {
+
+
+
+
+"description": "Ribos",
+
+
+
+
+"tooltip": "Administracinės ribos"
+
+
+
+},
+
+
+
+"water": {
+
+
+
+
+"description": "Vandens objektai",
+
+
+
+
+"tooltip": "Upės, ežerai, prūdai, tvenkiniai ir pan."
+
+
+
+},
+
+
+
+"rail": {
+
+
+
+
+"description": "Gelžkelio objektai",
+
+
+
+
+"tooltip": "Geležinkeliai"
+
+
+
+},
+
+
+
+"power": {
+
+
+
+
+"description": "Energetikos objektai",
+
+
+
+
+"tooltip": "Elektros linijos, jėgainės, pastotės ir pan."
+
+
+
+},
+
+
+
+"past_future": {
+
+
+
+
+"description": "Praeitis/Ateitis",
+
+
+
+
+"tooltip": "Siūloma, statoma, apleista, nugriauta ir pan."
+
+
+
+},
+
+
+
+"others": {
+
+
+
+
+"description": "Kita",
+
+
+
+
+"tooltip": "Visa kita"
+
+
+
+}
+
+
+},
+
+
+"area_fill": {
+
+
+
+"wireframe": {
+
+
+
+
+"description": "Be užpildymo (tik rėmai)",
+
+
+
+
+"tooltip": "Įjungus rėmo režimą galima fone geriau matyti nuotraukas."
+
+
+
+},
+
+
+
+"partial": {
+
+
+
+
+"description": "Dalinis užpildymas",
+
+
+
+
+"tooltip": "Plotai paišomi užpildant tik vietas ties vidiniais kampais. (Rekomenduojama pradedantiems žymėtojams)"
+
+
+
+},
+
+
+
+"full": {
+
+
+
+
+"description": "Pilnas užpildymas",
+
+
+
+
+"tooltip": "Plotai paišomi pilnai užpildant"
+
+
+
+}
+
+
+},
+
+
+"restore": {
+
+
+
+"heading": "Turite neįrašytų pakeitimų",
+
+
+
+"description": "Ar norite atstatyti neįrašytus ankstesnės redagavimo sesijos pakeitimus?",
+
+
+
+"restore": "Atstatyti",
+
+
+
+"reset": "Iš naujo"
+
+
+},
+
+
+"save": {
+
+
+
+"title": "Išsaugoti",
+
+
+
+"help": "Įrašyti pakeitimus į OpenStreetMap, kad jie būtų matomi kitiems naudotojams.",
+
+
+
+"no_changes": "Nėra pakeitimų.",
+
+
+
+"error": "Bandant įrašyti įvyko klaida.",
+
+
+
+"unknown_error_details": "Prašome įsitikinti, kad esate prisijungęs prie interneto.",
+
+
+
+"uploading": "Pakeitimai įkeliami į OpenStreetMap.",
+
+
+
+"unsaved_changes": "Turite neįrašytų pakeitimų"
+
+
+},
+
+
+"success": {
+
+
+
+"edited_osm": "Pakeitėte OSM!",
+
+
+
+"just_edited": "Jūs ką tik pakeitėte OpenStreetMap!",
+
+
+
+"view_on_osm": "Žiūrėti OSM žemėlapyje",
+
+
+
+"facebook": "Pasidalinti Facebook'e",
+
+
+
+"twitter": "Pasidalinti Twitter'yje",
+
+
+
+"google": "Pasidalinti Google+",
+
+
+
+"help_html": "Jūsų pakeitimai turėtų pasirodyti „Standartiniame“ sluoksnyje po kelių minučių. Kiti sluoksniai ar konkretūs objektai gali pasirodyti vėliau\n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>daugiau informacijos</a>).\n"
+
+
+},
+
+
+"confirm": {
+
+
+
+"okay": "Gerai"
+
+
+},
+
+
+"splash": {
+
+
+
+"welcome": "Jus sveikina iD OpenStreetMap redaktorius",
+
+
+
+"text": "iD yra draugiškas, bet galingas įrankis pildant didžiausią, atviriausią ir nemokamą/laisvą pasaulio žemėlapį. Šiuo metu naudojate versiją {version}. Daugiau informacijos rasite svetainėje {website}, o apie klaidas galite pranešti {github}.",
+
+
+
+"walkthrough": "Pradėti pažingsninę demonstraciją",
+
+
+
+"start": "Keisti dabar"
+
+
+},
+
+
+"source_switch": {
+
+
+
+"live": "gyva",
+
+
+
+"lose_changes": "Turite neįrašytų pakeitimų. Perjungiant žemėlapio stotį jie bus panaikinti. Ar tikrai norite pakeisti žemėlapių stotį?",
+
+
+
+"dev": "dev"
+
+
+},
+
+
+"tag_reference": {
+
+
+
+"description": "Aprašymas",
+
+
+
+"on_wiki": "{tag} svetainėje wiki.osm.org",
+
+
+
+"used_with": "naudojama su {type}"
+
+
+},
+
+
+"validations": {
+
+
+
+"untagged_point": "Taškas be žymų",
+
+
+
+"untagged_line": "Linija be žymų",
+
+
+
+"untagged_area": "Plotas be žymų",
+
+
+
+"many_deletions": "Jūs naikinate {n} objektų. Ar tikrai norite tai padaryti? Tai panaikins objektus iš žemėlapio, kurį visi mato svetainėje openstreetmap.org.",
+
+
+
+"tag_suggests_area": "Žyma {tag} rodo, kad linija turėtų būti plotas, bet ji nėra plotas",
+
+
+
+"untagged_point_tooltip": "Pasirinkite objekto tipą, kuris apibūdina, koks tai taškas yra.",
+
+
+
+"untagged_line_tooltip": "Pasirinkite objekto tipą, kuris apibūdina, kokia tai linija yra.",
+
+
+
+"untagged_area_tooltip": "Pasirinkite objekto tipą, kuris apibūdina, koks tai plotas yra.",
+
+
+
+"deprecated_tags": "Pasenusios žymos: {tags}"
+
+
+},
+
+
+"zoom": {
+
+
+
+"in": "Sumažinti",
+
+
+
+"out": "Padidinti"
+
+
+},
+
+
+"cannot_zoom": "Negalima atitolinti šiame režime.",
+
+
+"gpx": {
+
+
+
+"local_layer": "Vietinis GPX failas",
+
+
+
+"drag_drop": "Atitempkite ir numeskite .gpx failą ant puslapio arba spauskite naršymo mygtuką dešinėje",
+
+
+
+"zoom": "Rodyti GPX pėdsako plotą",
+
+
+
+"browse": "Naršyti .gpx failo"
+
+
+},
+
+
+"mapillary": {
+
+
+
+"tooltip": "Gatvių-lygio nuotraukos iš Mapillary",
+
+
+
+"title": "Nuotraukų perdanga (Mapillary)",
+
+
+
+"view_on_mapillary": "Žiūrėti šią nuotrauką per Mapillary"
+
+
+},
+
+
+"help": {
+
+
+
+"title": "Pagalba",
+
+
+
+"help": "# Pagalba\n\nTai yra [OpenStreetMap](http://www.openstreetmap.org/) redaktorius.\nOpenStreetMap - atviras, redaguojamas pasaulio žemėlapis. Galite jį naudoti\nbei keisti duomenis, taip tobulindami atviro kodo ir atvirų duomenų pasaulio\nžemėlapį ir padėdami visiems.\n\nJūsų pakeitimai bus matomi visiems, kas naudoja OpenStreetMap. Norėdami\ndaryti pakeitimus, turėsite susikurti [nemokamą OpenStreetMap paskyrą](https://www.openstreetmap.org/user/new).\n\n[iD redaktorius](http://ideditor.com/) - tai bendruomenės projektas. Programos\nkodas yra atviras, jį galite rasti [GitHub](https://github.com/openstreetmap/iD).\n",
+
+
+
+"editing_saving": "# Keitimas ir įrašymas\n\nŠis redaktorius sukurtas visų pirma darbui prisijungus, todėl jūs jį paleidžiate per svetainę.\n\n### Objektų žymėjimas\n\nNorėdami pažymėti objektą, tokį kaip kelią ar lankytiną vietą, pažymėkite jį žemėlapyje. Taip pažymėtas objektus bus paryškintas ir bus atidaryta panelė su objekto informacija bei meniu veiksmų, kuriuos galite atlikti su pažymėtu objektu.\n\nNorėdami pažymėti kelis objektus, laikykite paspaudę klavišą „Shift“. Tada arba spauskite ant kitų objektų, kuriuos norite pažymėti, arba tempkite pele per žemėlapį, kad nupaišytumėte stačiakampį.\nTaip bus pažymėti visi taškai, esantys stačiakampio viduje.\n\n### Pakeitimų įrašymas\n\nKai padarote tarkim kelių, pastatų ar vietovių pakeitimų, jie saugomi vietoje tol, kol jūs neįrašote jų į serverį. Nesijaudinkite jei padarote klaidą, visada galite atstatyti pakeitimus su atstatymo mygtuku ir pakartotinai juos padaryti paspaudę pakartojimo mygtuką.\n\nSpauskite mygtuką „Įrašyti“, jei norite įrašyti grupę pakeitimų, pavyzdžiui jei baigėte vienos vietos pakeitimus ir dabar norėtumėte pradėti keisti kitoje vietoje. Galėsite peržiūrėti, ką padarėte, o redaktorius pateiks naudingus patarimus ar įspėjimus, jei kažkas atrodo ne visai teisingai.\n\nJei viskas gerai, galite įvesti trumpą komentarą, paaiškinantį jūsų pakeitimus ir tada vėl spausti „Įrašyti“, kad įkeltumėte pakeitimus į\n[OpenStreetMap.org](http://www.openstreetmap.org/), kur visi kiti naudotojai juos matys ir galės toliau tobulinti.\n\nJei negalite baigti savo pakeitimų vienu prisėdimu, galite palikti redaktoriaus langą ir grįžti vėliau (toje pačioje naršyklėje ir tame pačiame kompiuteryje), redaktorius jums pasiūlys tęsti jūsų darbą.\n",
+
+
+
+"roads": "# Keliai\n\nJūs galite kurti, taisyti ir naikinti kelius redaktoriaus pagalba. Keliai gali būti įvairių\ntipų: takai, vieškeliai, maršrutai, dviračių takai ir daug kitų, dažnai susikertančių,\njuos visus galima pažymėti.\n\n### Parinkimas\n\nNorėdami parinkti kelią - spauskite ant jo. Kelio kontūras bus paryškintas, taipogi\nbus rodomas mažas įrankių meniu ir šonine skiltimi, rodančia daugiau informacijos\napie kelią.\n\n### Keitimas\n\nDažnai pastebėsite kelius, kurių pozicija neatitinka fone esančios ortofotonuotraukos arba\njūsų GPS pėdsako. Galie pataisyti kelio poziciją, kad kelias būtų teisingoje vietoje.\n\nVisų pirma spauskite ant kelio, kurį norite keisti. Kelias bus paryškintas ir bus matomi\nkontroliniai taškai, kuriuos jūs galite pertempti į teisingesnes pozicijas. Jei norite pridėti\npapildomų kontrolinių taškų - du kartus spauskite ant kelio segmento, kuriame\ndar nėra taško - bus pridėtas naujas taškas.\n\nJei kelias jungiasi su kitu keliu, bet nėra teisingai sujungtas žemėlapyje, jūs galite\ntempti vieną iš kelio kontrolinių taškų ant kito kelio, kad juos sujungtumėte. Labai\nsvarbu teisingai sujungti kelius, nes tai naudojama maršrutizavimui.\n\nTaipogi galite naudoti įrankį „Perkelti“ arba spausti mygtuką „M“, jei norite perkelti\nvisą kelią iš karto, tada vėl spauskite „M“, kad patvirtintumėte perkėlimą.\n\n### Naikinimas\n\nJei kelias yra visiškai neteisingas - jūs matote, kad tokio kelio apskritai nėra ortofoto\nir jūs žinote, kad jo ir realybėje nėra - galite kelią ištrinti, kad jo nebeliktų žemėlapyje.\nNaikindami objektus būkite atidūs, kaip ir bet kuris kitas keitimas, naikinimas matomas\nvisiems naudotojams, o ortofotografijos dažnai būna pasenusios, tagi naujai\nnutiestas kelias gali būti tiesiog nematomas.\n\nKelią galite panaikinti pažymėję jį ir paspaudę šiukšlių dėžės piktogramą arba\npaspaudę mygtuką „Trinti“.\n\n### Kūrimas\n\nRadote vietą, kur turėtų būti kelias, bet jo nėra? Spauskite mygtuką „Linija“\narba klavišą „2“, kad pradėtumėte linijos piešimą.\n\nSpauskite žemėlapyje ant vietos, kur turi prasidėti jūsų kelias. Jeigu kelias atsišakoja\nnuo jau esamo kelio - pradėkite naujo kelio piešimą paspaudę ant atsišakojimo vietos.\n\nTada dėliokite kelio taškus taip, kad jo kontūras maksimaliai atitiktų realų kelią pagal\npalydovinę nuotrauką ar GPS pėdsakus. Jei jūsų piešiamas kelias kerta kitą kelią,\nsujunkite juos spaudžiant ties susikirtimo tašku. Kai baigsite braižyti, du kartus\nspauskite pele arba spauskite klaviatūros mygtuką „Enter“.\n",
+
+
+
+"gps": "# GPS\n\nGPS duomenys - patikimiausias duomenų šaltinis atvirame žemėlapyje. Šis redaktorius palaiko vietinius pėdsakus - „.gpx“ failus jūsų kompiuteryje. Jūs galite surinkti tokius GPS pėdsakus eile išmaniųjų telefonų aplikacijų arba asmenine GPS įranga.\n\nDaugiau informacijos apie tai, kaip daryti GPS apžiūrą rasite [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nNorint panaudoti GPX pėdsaką žymėjimui, atitempkite GPX failą ant žemėlapio. Jei jis bus atpažintas - pamatysite jį žemėlapyje kaip ryškią purpurinę liniją. Spauskite dešinėje esantį meniu „Žemėlapio duomenys“, norėdami įjungti, išjungti ar priartinti šį naują GPX valdomą sluoksnį.\n\nGPX pėdsakas nekeliamas tiesiogiai į OpenStreetMap - geriausias naudojimo būdas - naudoti pėdsaką kaip orientyrą braižant naujus žemėlapio objektus. Vėliau pėdsaką patartina įkelti, kad jį galėtų naudoti kiti braižytojai [upload it to OpenStreetMap](http://www.openstreetmap.org/trace/create).\n",
+
+
+
+"imagery": "# Nuotraukos\n\nIš oro ar palydovo darytos nuotraukos - svarbus žemėlapio paišymo pagalbininkas.\nDešinėje esančiame meniu rasite įvairių nuotraukų, darytų iš lėktuvų, palydovų ar\nkombinuotų šaltinių.\n\nTik įjungus redaktorių bus automatiškai įjungtas [Bing Maps](http://www.bing.com/maps/)\npalydovinis sluoksnis, bet priklausomai nuo to, kurioje geografinėje vietoje\nredaguojate - bus rodomi ir kiti nuotraukų šaltiniai. Kai kurios šalys, tokios kaip\nJAV, Prancūzija, Danija ir Lietuva turi labai aukštos kokybės ir tikslumo\nortofotonuotraukas. Pavyzdžiui Lietuvoje reikėtų naudoti NŽT ORT10LT.\n\nNuotraukos kartais būna pasislinkusios nuo realios pozicijos dėl nuotraukų\ntiekėjo klaidų. Jei matote, kad daug kelių ar kitų objektų yra pasislinkę nuo\nnuotraukos, nepulkite jų tempti į „teisingas“ vietas. Vietoje to geriau pataisykite\nnuotraukos poziciją pagal esamus duomenis, paspaudę fono parinkčių apačioje\n„Taisyti lygiavimą“. NŽT ORT10LT lygiavimas yra teisingas visoje Lietuvos\nteritorijoje, taigi jo taisyti nereikia.\n",
+
+
+
+"addresses": "# Adresai\n\nAdresų informacija - viena naudingiausių žemėlapyje.\n\nOpenStreetMap adresai dažniausiai įrašomi kaip pastatų arba lankytinų vietų\natributai.\n\nJūs galite pridėti adreso informaciją vietoms, pažymėtoms kaip pastatų\nkontūrai bei pavieniams taškams. Geriausias adreso informacijos šaltinis\nyra vietinė apžiūra arba asmeninės žinios - kaip ir su bet kuriais kitais\nobjektais, naudoti šaltinius, tokius kaip Google Maps, maps.lt, Registrų Centras\nir pan. yra griežtai draudžiama.\n",
+
+
+
+"inspector": "# Inspektoriaus naudojimas\n\nInspekatorius - tai puslapio kairėje esanti dalis, kurioje jūs galite keisti pažymėto objekto detales.\n\n### Objekto tipo parinkimas\n\nPo to, kai jūs pridedate tašką, liniją ar plotą, jūs galite pasirinkti kokio tipo tai objektas, pavyzdžiui ar tai yra greitkelis ar kelias, prekybos centras ar kavinė. Inspektorius rodys mygtukus populiariausiems objektų tipams, o kitus galite rasti įrašydami raktažodžius į paieškos lauką.\n\nSpauskite „i“ objekto tipo mygtuko dešinėje apatinėje pusėje, jei norite sužinoti daugiau. Spauskite mygtuką, jei norite parinkti tipą.\n\n### Formų naudojimas ir žymų keitimas\n\nPo to, kai jūs parenkate objekto tipą, arba kai parinkote objektą, kurio tipas jau buvo nurodytas, inspektorius rodys laukus su objekto informacija, tokia kaip pavadinimas ir adresas.\n\nPo šiais laukais jūs galite spausti piktogramas, kad pridėtumėte kitas detales, tokias kaip [Wikipedijos](http://www.wikipedia.org/) informaciją, prieinamumą vėžymėlyje ir pan.\n\nInspektoriaus apačioje spauskite „Papildomo žymos“, kad pridėtumėte prie objekto bet kokias kitas žymas. [Taginfo](http://taginfo.openstreetmap.org/) - puikus resursas, kurio pagalba galite sužinoti daugiau apie kitas populiarias žymų kombinacijas.\n\nPakeitimai, kuriuos darote inspektoriuje automatiškai pritaikomi žemėlapiui. Bet kuriuo metu galite atstatyti pakeitimus spausdami mygtuką „atstatyti“.\n",
+
+
+
+"buildings": "# Pastatai\n\nOpenStreetMap - tai didžiausia pasaulyje pastatų duomenų bazė. Jūs galite\nkurti ir tobulinti šią duomenų bazę.\n\n### Parinkimas\n\nPastatą parinkti galit paspaudę ant jo kontūro. Tai paryškins pastatą ir atvers\nmažą įrankių meniu bei šoninę skiltį su papildoma informacija apie pastatą.\n\n### Keitimas\n\nKartais pastatai būna nupiešti neteisingoje vietoje arba turi neteisingas žymas.\n\nNorėdami perkelti visą pastatą, pažymėkite jį, parinkite įrankį „Perkelti“.\nPerkelkite pastatą pelės pagalba ir spauskite, kai vieta yra teisinga.\n\nNorėdami patvarkyti pastato formą, spauskite ir tempkite pastato kontūro\ntaškus į teisingas vietas.\n\n### Kūrimas\n\nVienas pagrindinių klausimų apie pastatų registravimą žemėlapyje yra tai,\nkad OpenStreetMap pastatai registruojami ir kaip plotai, ir kaip taškai.\nBendra taisyklė yra žymėti pastatus plotais, jei tik tai įmanoma. Įmones ar\nlankytinas vietas, kurios veikia pastatuose, žymėti kaip taškus, esančius\npastato ploto viduje.\n\nPradėkite pastato braižyma parinkdami mygtuką „Plotas“ viršutinėje\nsąsajos dalyje. Pastato braižymą baikite spausdami „Enter“ arba paspaudę\nant pirmo pastato formos taško.\n\n### Naikinimas\n\nJei pastatas yra visiškai neteisingas - jūs aiškiai matote, kad pastato nėra\npalydovinėje nuotraukoje ar gal net patikrinote jo nebuvimą realiu apsilankymu\nvietoje - galite panaikinti pastatą iš žemėlapio. Naikindami objektus būkite\natidūs, kaip ir bet kuris kitas pakeitimas, šis bus matomas visiems naudotojams,\no palydovinės nuotraukos dažnai būna pasenusios, taigi gali būti, kad pastatas\ntiesiog yra naujai pastatytas, todėl ir nesimato nuotraukoje.\n\nPastatą panaikinti galite jį pažymėję ir paspaudę šiukšlinės piktogramą arba\nmygtuką „Trinti/Delete“.\n",
+
+
+
+"relations": "# Ryšiai\n\nRyšys - tai specialus OpenStreetMap objekto tipas, kuris grupuoja kelis objektus. Pavyzdžiui du populiarūs ryšių tipai yra *maršruto ryšys*, kuris grupuoja kelis skirtingus to paties greitkelio gabalus, ir *multipoligonai*, kurie grupuoja kelias linijas, apibrėžiančias sudėtingą plotą (tokį, kuris turi kelis gabalus arba skyles kaip riestainyje).\n\nObjektai ryšyje vadinami „nariais“. Šoninėje juostoje galite matyti, kuriems ryšiams priklauso objektas. Ten pat galite pažymėti ryšį. Pažymėjus ryšį galėsite matyti visus jo narius šoninėje juostoje bei paryškintus žemėlapyje.\n\nDažniausiai iD pasirūpins ir sutvarkys ryšius automatiškai, tol kol jūs keisite kitus objektus. Pagrindinis dalykas, kurį turėtumėte atsiminti yra tai, kad jei panaikinate kelio dalį, kad nupaišytumėte ją tiksliau iš naujo, būtinai turite naujai nupieštą dalį įtraukti į tą patį ryšį, į kurį buvo įtraukta ir pradinė dalis.\n\n## Ryšių keitimas\n\nJei norite keisti ryšius, štai pagrindiniai dalykai, kuriuos turite žinoti.\n\nNorėdami pridėti objektą prie ryšio, pažymėkite objektą, spauskite mygtuką „+“ šoninės juostos dalyje „Visi ryšiai“ ir tada parinkite arba įrašykite ryšio pavadinimą.\n\nNorėdami sukurti naują ryšį, pažymėkite pirmą objektą, kuris turėtų būti narys, spauskite mygtuką „+“ sekcijoje „Visi ryšiai“ ir tada parinkite „Naujas ryšys...“.\n\nNorėdami išimti objektą iš ryšio, parinkite objektą ir spauskite šiukšlių dėžės mygtuką šalia ryšio, iš kurio norite objektą išmesti.\n\nGalite sukurti multipoligonus su skylėmis naudodami mygtuką „Sulieti“. Nubrėžkite du plotus (vidinį ir išorinį), laikykite Shift mygtuką ir spauskite ant abiejų plotų, tada spauskite mygtuką „Sulieti“ (+).\n"
+
+
+},
+
+
+"intro": {
+
+
+
+"navigation": {
+
+
+
+
+"title": "Navigacija",
+
+
+
+
+"drag": "Pagrindinė žemėlapio sritis rodo OpenStreetMap duomenis virš fono. Galite keisti poziciją tempiant pele arba naudojant pelės ratuką - kaip ir bet kuriame kitame tinklo žemėlapyje. **Pastumkite žemėlapį!**",
+
+
+
+
+"select": "Žemėlapio geoobjektai būna trijų tipų: taškai, linijos ir plotai. Visi geoobjektai gali būti pažymėti juos paspaudus. **Spauskite tašką, kad jį pažymėtumėte.**",
+
+
+
+
+"header": "Antraštė rodo geoobjekto tipą.",
+
+
+
+
+"pane": "Parinkus geoobjektą rodomas redaktorius. Antraštėje rodomas geoobjekto tipas, o pagrindinėje skiltyje matomi geoobjekto atributai, tokie kaip pavadinimas ir adresas. **Uždarykite geoobjekto redaktorių mygtuku „uždaryti“, esančiu viršutiniame dešiniame kampe.**"
+
+
+
+},
+
+
+
+"points": {
+
+
+
+
+"title": "Taškai",
+
+
+
+
+"add": "Taškai gali būti naudojami vaizduoti tokius objektus kaip parduotuvės, restoranai ar paminklai. Jie žymi konkrečią vietą ir aprašo, kas ten yra. **Spauskite mygtuką „Taškas“, kad pridėtumėte tašką.**",
+
+
+
+
+"place": "Taškas gali būti pažymėtas paspaudus ant žemėlapio. **Padėkite tašką ant pastato.**",
+
+
+
+
+"search": "Yra daug skirtingų objektų, kurie gali būti vaizduojami taškais. Jūsų ką tik pridėtas taškas yra kavinė. **Ieškokite '{name}'**",
+
+
+
+
+"choose": "**Sąraše parinkite Kavinę.**",
+
+
+
+
+"describe": "Taškas dabar pažymėtas kaip kavinė. Naudodami geoobjektų redaktorių mes galima pridėti daugiau informacijos. **Pridėkite pavadinimą**",
+
+
+
+
+"close": "Objektų redaktorių galima uždaryti mygtuku „X“. **Uždarykite objektų redaktorių**",
+
+
+
+
+"reselect": "Dažnai taškai jau bus nupiešti, bet informacija bus nepilna arba joje bus klaidų. Mes galima keisti ir jau esamus taškus. **Pažymėkite jūsų ką tik sukurtą tašką.**",
+
+
+
+
+"fixname": "**Pakeiskite pavadinimą ir uždarykite objektų redaktorių.**",
+
+
+
+
+"reselect_delete": "Visi žemėlapio objektai gali būti panaikinti. **Spauskite ant jūsų sukurto taško.**",
+
+
+
+
+"delete": "Meniu aplink tašką rasite veiksmus, kuriuos galite atlikti su pažymėtu objektu, įskaitant ir panaikinimą. **Panaikinkite tašką.**"
+
+
+
+},
+
+
+
+"areas": {
+
+
+
+
+"title": "Plotai",
+
+
+
+
+"add": "Poligonai gali būti naudojami atvaizduoti ribas tokių objektų kaip ežerai, pastatai ir gyvenamosios teritorijos. Taip pat jie gali būti naudojami norint detalizuoti daugelį objektų, kuriuos paprastai žymime taškais. **Spauskite mygtuką \"Poligonas\", kad pridėtumėte naują plotą.**",
+
+
+
+
+"corner": "Plotai paišomi dėliojant taškus, nurodančius ploto kontūrą. **Sukurkite pradinį tašką viename iš žaidimų aikštelės kampų.**",
+
+
+
+
+"place": "Nupieškite plotą pridėdami daugiau taškų. Baikite ploto braižymą pažymėję pradinį tašką. **Nubraižykite žaidimų aikštelės plotą.**",
+
+
+
+
+"search": "**Ieškoti '{name}'.**",
+
+
+
+
+"choose": "**Sąraše parinkite žaidimų aikštelę.**",
+
+
+
+
+"describe": "**Pridėkite pavadinimą ir uždarykite objektų redaktorių**"
+
+
+
+},
+
+
+
+"lines": {
+
+
+
+
+"title": "Linijos",
+
+
+
+
+"add": "Linijos gali būti naudojamos atvaizduoti tokius objektus kaip keliai, geležinkeliai ir upės. **Spauskite mygtuką \"Linija\", kad pridėtumėte liniją.**",
+
+
+
+
+"start": "**Pradėkite linijos braižymą spausdami ant kelio pabaigos.**",
+
+
+
+
+"intersect": "Spauskite, kad pridėtumėte prie linijos daugiau taškų. Braižymo metu, jei reikia, galite pastumti žemėlapi. Keliai bei daug kitų linijų tipų paprastai yra dalis didelio tinklo. Labai svarbu, kad šios linijos būtų teisingai sujungtos, kad veiktų maršrutizavimas. **Spauskite ant Flower Street, kad sukurtumėte susikirtimą tarp dviejų linijų.**",
+
+
+
+
+"finish": "Linijos braižymas gali būti baigiamas antrą kartą paspaudus ant paskutiniojo taško. **Baikite kelio braižymą.**",
+
+
+
+
+"road": "**Sąraše parinkite kelią**",
+
+
+
+
+"residential": "Yra įvairių kelių tipų, dažniausiai pasitaikantis - „Residential“. **Parinkite kelio tipą „Residential“**",
+
+
+
+
+"describe": "**Įveskite kelio pavadinimą ir užverkite objektų redaktorių.**",
+
+
+
+
+"restart": "Kelias turi susikirsti su Flower Street.",
+
+
+
+
+"wrong_preset": "Neparinkote gyvenamosios gatvės tipo. **Spauskite čia ir parinkite iš naujo**"
+
+
+
+},
+
+
+
+"startediting": {
+
+
+
+
+"title": "Pradėti redagavimą",
+
+
+
+
+"help": "Išsamesnę dokumentaciją ir šią pažingsninę demonstraciją rasite čia.",
+
+
+
+
+"save": "Nepamirškite periodiškai įrašyti savo pakeitimų!",
+
+
+
+
+"start": "Pradėkite žymėjimą!"
+
+
+
+}
+
+
+}
+
+}
 }

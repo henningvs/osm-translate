@@ -1,4 +1,3332 @@
 {
-	"content": "kn:\n  presets:\n    categories:\n      category-building:\n        name: ಕಟ್ಟಡ\n      category-golf:\n        name: ಗಾಲ್ಫ್\n      category-landuse:\n        name: ಭೂಬಳಕೆ\n      category-path:\n        name: ದಾರಿ\n      category-rail:\n        name: ರೈಲು\n      category-restriction:\n        name: ನಿರ್ಬಂಧ\n      category-road:\n        name: ರಸ್ತೆ\n      category-route:\n        name: ಮಾರ್ಗ\n      category-water-area:\n        name: ನೀರು\n      category-water-line:\n        name: ನೀರು\n    fields:\n      access:\n        label: ಪ್ರವೇಶ\n        placeholder: ತಿಳಿಯದ\n        types:\n          access: ಸಾಧಾರಣ\n          foot: ಕಾಲು\n          motor_vehicle: ಮೋಟಾರ್ ವಾಹನ\n          bicycle: ಸೈಕಲ್\n          horse: ಕುದುರೆ\n        options:\n          'yes':\n            title: ಅನುಮತಿಸು\n          'no':\n            title: ನಿಷೇಧಿಸಲಾಗಿದೆ\n            description: ಸಾರ್ವಜನಿಕ ಪ್ರವೇಶಕ್ಕೆ ಅನುಮತಿ ಇಲ್ಲ\n          permissive:\n            title: ಅನುಮತಿದಾಯಕ\n          private:\n            title: ಖಾಸಗಿ\n          designated:\n            title: ನಿಯೋಜಿತ\n          destination:\n            title: ತಲಪುದಾಣ\n      access_simple:\n        label: ಪ್ರವೇಶ\n        placeholder: \"ಹೌದು\"\n      access_toilets:\n        label: ಪ್ರವೇಶ\n      address:\n        label: ವಿಳಾಸ\n        placeholders:\n          housename: ಮನೆ ಹೆಸರು\n          housenumber: \"123\"\n          street: ಬೀದಿ\n          city: ನಗರ\n          postcode: ಅಂಚೆ ಸಂಖ್ಯೆ\n          place: ಸ್ಥಳ\n          hamlet: ಕೊಪ್ಪಲು\n          suburb: ಉಪನಗರ\n          subdistrict: ಉಪಜಿಲ್ಲೆ\n          district: ಜಿಲ್ಲೆ\n          province: ಪ್ರಾಂತ್ಯ\n          state: ರಾಜ್ಯ\n          country: ದೇಶ\n      admin_level:\n        label: ನಿರ್ವಾಹಕ ಮಟ್ಟ\n      aerialway:\n        label: ವಿಧ\n      aerialway/access:\n        label: ಪ್ರವೇಶ\n        options:\n          entry: ಒಳಗೆ\n          exit: ಹೊರಗೆ\n          both: ಎರಡೂ\n      aerialway/bubble:\n        label: ಗುಳ್ಳೆ\n      aerialway/capacity:\n        label: ಸಾಮರ್ಥ್ಯ (ಗಂಟೆಗೆ)\n        placeholder: \"500, 2500, 5000...\"\n      aerialway/duration:\n        label: ಅವಧಿ (ನಿಮಿಷಗಳು)\n        placeholder: \"1, 2, 3...\"\n      aerialway/heating:\n        label: ಬಿಸಿ\n      aerialway/occupancy:\n        label: ನೆಲೆಸುವಿಕೆ\n        placeholder: \"2, 4, 8...\"\n      aerialway/summer/access:\n        label: ಪ್ರವೇಶ(ಬೇಸಿಗೆ)\n        options:\n          entry: ಒಳಗೆ\n          exit: ಹೊರಗೆ\n          both: ಎರಡೂ\n      aeroway:\n        label: ವಿಧ\n      amenity:\n        label: ವಿಧ\n      artist:\n        label: ಕಲಾವಿದ\n      artwork_type:\n        label: ವಿಧ\n      atm:\n        label: ATM\n      backrest:\n        label: ಬೆನ್ನಾಸರೆ\n      barrier:\n        label: ವಿಧ\n      bench:\n        label: ಬೆಂಚು\n      bicycle_parking:\n        label: ವಿಧ\n      boundary:\n        label: ವಿಧ\n      building:\n        label: ಕಟ್ಟಡ\n      building_area:\n        label: ಕಟ್ಟಡ\n      capacity:\n        label: ಸಾಮರ್ಥ್ಯ\n        placeholder: \"50, 100, 200...\"\n      cardinal_direction:\n        label: ದಿಕ್ಕು\n        options:\n          N: ಉತ್ತರ\n          E: ಪೂರ್ವ\n          S: ದಕ್ಷಿಣ\n          W: ಪಶ್ಚಿಮ\n          NE: ಈಶಾನ್ಯ\n          SE: ಆಗ್ನೇಯ\n          SW: ನೈಋತ್ಯ\n          NW: ವಾಯವ್ಯ\n          NNE: ಉತ್ತರ - ಈಶಾನ್ಯ\n          ENE: ಪೂರ್ವ - ಈಶಾನ್ಯ\n          ESE: ಪೂರ್ವ - ಆಗ್ನೇಯ\n          SSE: ದಕ್ಷಿಣ - ಆಗ್ನೇಯ\n          SSW: ದಕ್ಷಿಣ - ನೈಋತ್ಯ\n          WSW: ಪಶ್ಚಿಮ - ನೈಋತ್ಯ\n          WNW: ಪಶ್ಚಿಮ - ವಾಯುವ್ಯ\n          NNW: ಉತ್ತರ - ವಾಯುವ್ಯ\n      clock_direction:\n        label: ದಿಕ್ಕು\n        options:\n          clockwise: ಪ್ರದಕ್ಷಿಣವಾಗಿ\n          anticlockwise: ಅಪ್ರದಕ್ಷಿಣವಾಗಿ\n      construction:\n        label: ವಿಧ\n      country:\n        label: ದೇಶ\n      covered:\n        label: ಮುಚ್ಚಿದ\n      craft:\n        label: ವಿಧ\n      crossing:\n        label: ವಿಧ\n      cuisine:\n        label: ಪಾಕಪದ್ಧತಿ\n      delivery:\n        label: ವಿತರಣೆ\n      denomination:\n        label: ವರ್ಗನಾಮ\n      description:\n        label: ವಿವರಣೆ\n      electrified:\n        label: ವಿದ್ಯುದೀಕರಣ\n        placeholder: \"ಸಂಪರ್ಕ ರೇಖೆ, ವಿದ್ಯುದೀಕರಿಸಿದ ರೈಲು \"\n        options:\n          contact_line: ಸಂಪರ್ಕ ರೇಖೆ\n          rail: ವಿದ್ಯುದೀಕರಿಸಿದ ರೈಲು\n          'yes': ಹೌದು (ಅನಿರ್ದಿಷ್ಟ)\n          'no': \"ಇಲ್ಲ\"\n      elevation:\n        label: ಎತ್ತರ\n      emergency:\n        label: ತುರ್ತು\n      entrance:\n        label: ವಿಧ\n      except:\n        label: ವಿನಾಯಿತಿಗಳು\n      fax:\n        label: ಫ್ಯಾಕ್ಸ್\n        placeholder: +31 42 123 4567\n      fee:\n        label: ಶುಲ್ಕ\n      fire_hydrant/type:\n        label: ವಿಧ\n        options:\n          wall: ಗೋಡೆ\n          pond: ಕೊಳ\n      fixme:\n        label: ನನ್ನನ್ನು ಸರಿಪಡಿಸು\n      fuel:\n        label: ಇಂಧನ\n      gauge:\n        label: ಗೇಜ್\n      generator/method:\n        label: ವಿಧಾನ\n      generator/source:\n        label: ಮೂಲ\n      generator/type:\n        label: ವಿಧ\n      golf_hole:\n        label: ಉಲ್ಲೇಖ\n      handicap:\n        label: ಅಂಗವಿಕಲ\n        placeholder: 1-18\n      highway:\n        label: ವಿಧ\n      historic:\n        label: ವಿಧ\n      hoops:\n        placeholder: \"1, 2, 4...\"\n      iata:\n        label: IATA\n      icao:\n        label: ICAO\n      incline:\n        label: ಬಾಗಿಸು\n      information:\n        label: ವಿಧ\n      internet_access:\n        label: ಅಂತರ್ಜಾಲ ಸಂಪರ್ಕ\n        options:\n          'yes': \"ಹೌದು\"\n          'no': \"ಇಲ್ಲ\"\n          wlan: ವೈಫೈ\n          wired: ತಂತಿಯುಕ್ತ\n      lamp_type:\n        label: ವಿಧ\n      landuse:\n        label: ವಿಧ\n      lanes:\n        label: ಲೇನ್\n        placeholder: \"1, 2, 3...\"\n      layer:\n        label: ಪದರ\n      leisure:\n        label: ವಿಧ\n      length:\n        label: ಉದ್ದ (ಮೀಟರ್)\n      levels:\n        label: ಮಟ್ಟ\n        placeholder: \"2, 4, 6...\"\n      location:\n        label: ಸ್ಥಾನ\n      man_made:\n        label: ವಿಧ\n      maxspeed:\n        label: ವೇಗ ಮಿತಿ\n        placeholder: \"40, 50, 60...\"\n      mtb/scale:\n        placeholder: \"0, 1, 2, 3...\"\n      mtb/scale/imba:\n        placeholder: \"ಸುಲಭ, ಸಾಧಾರಣ, ಕಷ್ಟ ... \"\n        options:\n          '0': ಅತಿ ಸುಲಭ (ಬಿಳಿಯ ವರ್ತುಲ)\n          '1': ಸುಲ್ಕಭ(ಹಸಿರು ವರ್ತುಲ)\n          '2': ಸಾಧಾರಣ (ನೀಲಿ ವರ್ತುಲ)\n          '3': ಕಷ್ಟ (ಕರಿಯ ವರ್ತುಲ)\n          '4': ಅತೀ ಕಷ್ಟ (ಎರಡು ಕಪ್ಪು ವಜ್ರಾಕಾರ)\n      mtb/scale/uphill:\n        placeholder: \"0, 1, 2, 3...\"\n      name:\n        label: ಹೆಸರು\n        placeholder: ಸಾಮಾನ್ಯ ಹೆಸರು (ಇದ್ದರೆ)\n      natural:\n        label: ನೈಸರ್ಗಿಕ\n      network:\n        label: ಜಾಲಬಂಧ\n      note:\n        label: ಟಿಪ್ಪಣಿ\n      office:\n        label: ವಿಧ\n      oneway:\n        label: ಒಮ್ಮುಖ ಸಂಚಾರ\n        options:\n          undefined: ಇಲ್ಲವೆಂದು ಭಾವಿಸಲಾಗಿದೆ\n          'yes': \"ಹೌದು\"\n          'no': \"ಇಲ್ಲ\"\n      oneway_yes:\n        label: ಒಮ್ಮುಖ ಸಂಚಾರ\n        options:\n          undefined: ಇದೆ ಎಂದು ಭಾವಿದಲಾಗಿದೆ\n          'yes': \"ಹೌದು\"\n          'no': \"ಇಲ್ಲ\"\n      opening_hours:\n        label: ಗಂಟೆಗಳು\n      operator:\n        label: ಆಯೋಜಕರು\n      par:\n        label: Par\n        placeholder: \"3, 4, 5...\"\n      park_ride:\n        label: ನಿಲ್ಲಿಸು ಮತ್ತು ಸವಾರಿ ಮಾಡು\n      parking:\n        label: ವಿಧ\n        options:\n          surface: ಮೇಲ್ಮೈ\n          multi-storey: ಬಹುಮಟ್ಟದ\n          sheds: ತಂಗುದಾಣ\n      phone:\n        label: ದೂರವಾಣಿ\n        placeholder: +31 42 123 4567\n      piste/difficulty:\n        label: ಕಷ್ಟ\n        placeholder: \"ಸುಲಭ, ಮಧ್ಯಂತರ, ಮುಂದುವರೆದ .....\"\n        options:\n          novice: ಅನನುಭವಿ (ಸೂಚನಾ)\n          easy: ಸುಲಭ (ಹಸಿರು ವರ್ತುಲ)\n          intermediate: ಮಧ್ಯಂತರ (ನೀಲಿ ವರ್ತುಲ)\n          advanced: ಮುಂದುವರೆದ (ಕಪ್ಪು ವಜ್ರ)\n      piste/grooming:\n        options:\n          classic: ಶ್ರೇಷ್ಠ\n      piste/type:\n        label: ವಿಧ\n        options:\n          snow_park: ಮಂಜಿನ ಉದ್ಯಾನವನ\n          playground: ಆಟದ ಮೈದಾನ\n      place:\n        label: ವಿಧ\n      population:\n        label: ಜನಸಂಖ್ಯೆ\n      power:\n        label: ವಿಧ\n      railway:\n        label: ವಿಧ\n      ref:\n        label: ಉಲ್ಲೇಖ\n      relation:\n        label: ವಿಧ\n      religion:\n        label: ಧರ್ಮ\n      restriction:\n        label: ವಿಧ\n      route:\n        label: ವಿಧ\n      route_master:\n        label: ವಿಧ\n      seasonal:\n        label: ಋತುಮಾನ\n      service:\n        label: ವಿಧ\n      shelter:\n        label: ಆಶ್ರಯ\n      shelter_type:\n        label: ವಿಧ\n      shop:\n        label: ವಿಧ\n      smoking:\n        label: ಧೂಮಪಾನ\n      source:\n        label: ಮೂಲ\n      sport:\n        label: ಕ್ರೀಡೆ\n      sport_ice:\n        label: ಕ್ರೀಡೆ\n      sport_racing:\n        label: ಕ್ರೀಡೆ\n      structure:\n        options:\n          bridge: ಸೇತುವೆ\n          tunnel: ಸುರಂಗ\n          embankment: ಏರಿ\n      studio_type:\n        label: ವಿಧ\n      substation:\n        label: ವಿಧ\n      surface:\n        label: ಮೇಲ್ಮೈ\n      takeaway:\n        options:\n          'yes': \"ಹೌದು\"\n          'no': \"ಇಲ್ಲ\"\n    presets:\n      amenity/bank:\n        name: ಬ್ಯಾಂಕ್\n      amenity/cinema:\n        name: ಸಿನಿಮಾ\n      amenity/library:\n        name: ಗ್ರಂಥಾಲಯ\n      building/school:\n        name: ಶಾಲಾ ಕಟ್ಟಡ\n      highway/bus_stop:\n        name: ಬಸ್ ನಿಲ್ದಾಣ\n      highway/steps:\n        name: ಮೆಟ್ಟಿಲು\n      leisure/garden:\n        name: ಕೈತೋಟ\n      leisure/park:\n        name: ಉದ್ಯಾನವನ\n      leisure/stadium:\n        name: ಕ್ರೀಡಾಂಗಣ\n      natural/beach:\n        name: ಕಡಲ ತೀರ\n      office/research:\n        name: ಸಂಶೋಧನಾ ಕಛೇರಿ\n      place/town:\n        name: ಪಟ್ಟಣ\n      place/village:\n        name: ಹಳ್ಳಿ\n      shop/computer:\n        name: ಗಣಕಯಂತ್ರದ ಅಂಗಡಿ\n      shop/department_store:\n        name: ಕಿರಾಣಿ ಅಂಗಡಿ\n      shop/florist:\n        name: ಹೂವಿನ ವ್ಯಾಪಾರಿ\n      shop/funeral_directors:\n        name: ಶವಸಂಸ್ಕಾರದ ನೆಲೆ\n      shop/furniture:\n        name: ಪಿಟೋಪಕರಣಗಳ ಅಂಗಡಿ\n      shop/gift:\n        name: ಉಡುಗೊರೆಯ ಅಂಗಡಿ\n",
-	"mimetype": "text/plain"
+
+"kn": {
+
+
+"presets": {
+
+
+
+"categories": {
+
+
+
+
+"category-building": {
+
+
+
+
+
+"name": "ಕಟ್ಟಡ"
+
+
+
+
+},
+
+
+
+
+"category-golf": {
+
+
+
+
+
+"name": "ಗಾಲ್ಫ್"
+
+
+
+
+},
+
+
+
+
+"category-landuse": {
+
+
+
+
+
+"name": "ಭೂಬಳಕೆ"
+
+
+
+
+},
+
+
+
+
+"category-path": {
+
+
+
+
+
+"name": "ದಾರಿ"
+
+
+
+
+},
+
+
+
+
+"category-rail": {
+
+
+
+
+
+"name": "ರೈಲು"
+
+
+
+
+},
+
+
+
+
+"category-restriction": {
+
+
+
+
+
+"name": "ನಿರ್ಬಂಧ"
+
+
+
+
+},
+
+
+
+
+"category-road": {
+
+
+
+
+
+"name": "ರಸ್ತೆ"
+
+
+
+
+},
+
+
+
+
+"category-route": {
+
+
+
+
+
+"name": "ಮಾರ್ಗ"
+
+
+
+
+},
+
+
+
+
+"category-water-area": {
+
+
+
+
+
+"name": "ನೀರು"
+
+
+
+
+},
+
+
+
+
+"category-water-line": {
+
+
+
+
+
+"name": "ನೀರು"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"fields": {
+
+
+
+
+"access": {
+
+
+
+
+
+"label": "ಪ್ರವೇಶ",
+
+
+
+
+
+"placeholder": "ತಿಳಿಯದ",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "ಸಾಧಾರಣ",
+
+
+
+
+
+
+"foot": "ಕಾಲು",
+
+
+
+
+
+
+"motor_vehicle": "ಮೋಟಾರ್ ವಾಹನ",
+
+
+
+
+
+
+"bicycle": "ಸೈಕಲ್",
+
+
+
+
+
+
+"horse": "ಕುದುರೆ"
+
+
+
+
+
+},
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"title": "ಅನುಮತಿಸು"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"title": "ನಿಷೇಧಿಸಲಾಗಿದೆ",
+
+
+
+
+
+
+
+"description": "ಸಾರ್ವಜನಿಕ ಪ್ರವೇಶಕ್ಕೆ ಅನುಮತಿ ಇಲ್ಲ"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"title": "ಅನುಮತಿದಾಯಕ"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"title": "ಖಾಸಗಿ"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"designated": {
+
+
+
+
+
+
+
+"title": "ನಿಯೋಜಿತ"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"destination": {
+
+
+
+
+
+
+
+"title": "ತಲಪುದಾಣ"
+
+
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"access_simple": {
+
+
+
+
+
+"label": "ಪ್ರವೇಶ",
+
+
+
+
+
+"placeholder": "ಹೌದು"
+
+
+
+
+},
+
+
+
+
+"access_toilets": {
+
+
+
+
+
+"label": "ಪ್ರವೇಶ"
+
+
+
+
+},
+
+
+
+
+"address": {
+
+
+
+
+
+"label": "ವಿಳಾಸ",
+
+
+
+
+
+"placeholders": {
+
+
+
+
+
+
+"housename": "ಮನೆ ಹೆಸರು",
+
+
+
+
+
+
+"housenumber": "123",
+
+
+
+
+
+
+"street": "ಬೀದಿ",
+
+
+
+
+
+
+"city": "ನಗರ",
+
+
+
+
+
+
+"postcode": "ಅಂಚೆ ಸಂಖ್ಯೆ",
+
+
+
+
+
+
+"place": "ಸ್ಥಳ",
+
+
+
+
+
+
+"hamlet": "ಕೊಪ್ಪಲು",
+
+
+
+
+
+
+"suburb": "ಉಪನಗರ",
+
+
+
+
+
+
+"subdistrict": "ಉಪಜಿಲ್ಲೆ",
+
+
+
+
+
+
+"district": "ಜಿಲ್ಲೆ",
+
+
+
+
+
+
+"province": "ಪ್ರಾಂತ್ಯ",
+
+
+
+
+
+
+"state": "ರಾಜ್ಯ",
+
+
+
+
+
+
+"country": "ದೇಶ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"admin_level": {
+
+
+
+
+
+"label": "ನಿರ್ವಾಹಕ ಮಟ್ಟ"
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"aerialway/access": {
+
+
+
+
+
+"label": "ಪ್ರವೇಶ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"entry": "ಒಳಗೆ",
+
+
+
+
+
+
+"exit": "ಹೊರಗೆ",
+
+
+
+
+
+
+"both": "ಎರಡೂ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"aerialway/bubble": {
+
+
+
+
+
+"label": "ಗುಳ್ಳೆ"
+
+
+
+
+},
+
+
+
+
+"aerialway/capacity": {
+
+
+
+
+
+"label": "ಸಾಮರ್ಥ್ಯ (ಗಂಟೆಗೆ)",
+
+
+
+
+
+"placeholder": "500, 2500, 5000..."
+
+
+
+
+},
+
+
+
+
+"aerialway/duration": {
+
+
+
+
+
+"label": "ಅವಧಿ (ನಿಮಿಷಗಳು)",
+
+
+
+
+
+"placeholder": "1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"aerialway/heating": {
+
+
+
+
+
+"label": "ಬಿಸಿ"
+
+
+
+
+},
+
+
+
+
+"aerialway/occupancy": {
+
+
+
+
+
+"label": "ನೆಲೆಸುವಿಕೆ",
+
+
+
+
+
+"placeholder": "2, 4, 8..."
+
+
+
+
+},
+
+
+
+
+"aerialway/summer/access": {
+
+
+
+
+
+"label": "ಪ್ರವೇಶ(ಬೇಸಿಗೆ)",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"entry": "ಒಳಗೆ",
+
+
+
+
+
+
+"exit": "ಹೊರಗೆ",
+
+
+
+
+
+
+"both": "ಎರಡೂ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"amenity": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"artist": {
+
+
+
+
+
+"label": "ಕಲಾವಿದ"
+
+
+
+
+},
+
+
+
+
+"artwork_type": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"atm": {
+
+
+
+
+
+"label": "ATM"
+
+
+
+
+},
+
+
+
+
+"backrest": {
+
+
+
+
+
+"label": "ಬೆನ್ನಾಸರೆ"
+
+
+
+
+},
+
+
+
+
+"barrier": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"bench": {
+
+
+
+
+
+"label": "ಬೆಂಚು"
+
+
+
+
+},
+
+
+
+
+"bicycle_parking": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"boundary": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"label": "ಕಟ್ಟಡ"
+
+
+
+
+},
+
+
+
+
+"building_area": {
+
+
+
+
+
+"label": "ಕಟ್ಟಡ"
+
+
+
+
+},
+
+
+
+
+"capacity": {
+
+
+
+
+
+"label": "ಸಾಮರ್ಥ್ಯ",
+
+
+
+
+
+"placeholder": "50, 100, 200..."
+
+
+
+
+},
+
+
+
+
+"cardinal_direction": {
+
+
+
+
+
+"label": "ದಿಕ್ಕು",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"N": "ಉತ್ತರ",
+
+
+
+
+
+
+"E": "ಪೂರ್ವ",
+
+
+
+
+
+
+"S": "ದಕ್ಷಿಣ",
+
+
+
+
+
+
+"W": "ಪಶ್ಚಿಮ",
+
+
+
+
+
+
+"NE": "ಈಶಾನ್ಯ",
+
+
+
+
+
+
+"SE": "ಆಗ್ನೇಯ",
+
+
+
+
+
+
+"SW": "ನೈಋತ್ಯ",
+
+
+
+
+
+
+"NW": "ವಾಯವ್ಯ",
+
+
+
+
+
+
+"NNE": "ಉತ್ತರ - ಈಶಾನ್ಯ",
+
+
+
+
+
+
+"ENE": "ಪೂರ್ವ - ಈಶಾನ್ಯ",
+
+
+
+
+
+
+"ESE": "ಪೂರ್ವ - ಆಗ್ನೇಯ",
+
+
+
+
+
+
+"SSE": "ದಕ್ಷಿಣ - ಆಗ್ನೇಯ",
+
+
+
+
+
+
+"SSW": "ದಕ್ಷಿಣ - ನೈಋತ್ಯ",
+
+
+
+
+
+
+"WSW": "ಪಶ್ಚಿಮ - ನೈಋತ್ಯ",
+
+
+
+
+
+
+"WNW": "ಪಶ್ಚಿಮ - ವಾಯುವ್ಯ",
+
+
+
+
+
+
+"NNW": "ಉತ್ತರ - ವಾಯುವ್ಯ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"clock_direction": {
+
+
+
+
+
+"label": "ದಿಕ್ಕು",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"clockwise": "ಪ್ರದಕ್ಷಿಣವಾಗಿ",
+
+
+
+
+
+
+"anticlockwise": "ಅಪ್ರದಕ್ಷಿಣವಾಗಿ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"construction": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"country": {
+
+
+
+
+
+"label": "ದೇಶ"
+
+
+
+
+},
+
+
+
+
+"covered": {
+
+
+
+
+
+"label": "ಮುಚ್ಚಿದ"
+
+
+
+
+},
+
+
+
+
+"craft": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"crossing": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"cuisine": {
+
+
+
+
+
+"label": "ಪಾಕಪದ್ಧತಿ"
+
+
+
+
+},
+
+
+
+
+"delivery": {
+
+
+
+
+
+"label": "ವಿತರಣೆ"
+
+
+
+
+},
+
+
+
+
+"denomination": {
+
+
+
+
+
+"label": "ವರ್ಗನಾಮ"
+
+
+
+
+},
+
+
+
+
+"description": {
+
+
+
+
+
+"label": "ವಿವರಣೆ"
+
+
+
+
+},
+
+
+
+
+"electrified": {
+
+
+
+
+
+"label": "ವಿದ್ಯುದೀಕರಣ",
+
+
+
+
+
+"placeholder": "ಸಂಪರ್ಕ ರೇಖೆ, ವಿದ್ಯುದೀಕರಿಸಿದ ರೈಲು ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"contact_line": "ಸಂಪರ್ಕ ರೇಖೆ",
+
+
+
+
+
+
+"rail": "ವಿದ್ಯುದೀಕರಿಸಿದ ರೈಲು",
+
+
+
+
+
+
+"yes": "ಹೌದು (ಅನಿರ್ದಿಷ್ಟ)",
+
+
+
+
+
+
+"no": "ಇಲ್ಲ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"elevation": {
+
+
+
+
+
+"label": "ಎತ್ತರ"
+
+
+
+
+},
+
+
+
+
+"emergency": {
+
+
+
+
+
+"label": "ತುರ್ತು"
+
+
+
+
+},
+
+
+
+
+"entrance": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"except": {
+
+
+
+
+
+"label": "ವಿನಾಯಿತಿಗಳು"
+
+
+
+
+},
+
+
+
+
+"fax": {
+
+
+
+
+
+"label": "ಫ್ಯಾಕ್ಸ್",
+
+
+
+
+
+"placeholder": "+31 42 123 4567"
+
+
+
+
+},
+
+
+
+
+"fee": {
+
+
+
+
+
+"label": "ಶುಲ್ಕ"
+
+
+
+
+},
+
+
+
+
+"fire_hydrant/type": {
+
+
+
+
+
+"label": "ವಿಧ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"wall": "ಗೋಡೆ",
+
+
+
+
+
+
+"pond": "ಕೊಳ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"fixme": {
+
+
+
+
+
+"label": "ನನ್ನನ್ನು ಸರಿಪಡಿಸು"
+
+
+
+
+},
+
+
+
+
+"fuel": {
+
+
+
+
+
+"label": "ಇಂಧನ"
+
+
+
+
+},
+
+
+
+
+"gauge": {
+
+
+
+
+
+"label": "ಗೇಜ್"
+
+
+
+
+},
+
+
+
+
+"generator/method": {
+
+
+
+
+
+"label": "ವಿಧಾನ"
+
+
+
+
+},
+
+
+
+
+"generator/source": {
+
+
+
+
+
+"label": "ಮೂಲ"
+
+
+
+
+},
+
+
+
+
+"generator/type": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"golf_hole": {
+
+
+
+
+
+"label": "ಉಲ್ಲೇಖ"
+
+
+
+
+},
+
+
+
+
+"handicap": {
+
+
+
+
+
+"label": "ಅಂಗವಿಕಲ",
+
+
+
+
+
+"placeholder": "1-18"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"historic": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"hoops": {
+
+
+
+
+
+"placeholder": "1, 2, 4..."
+
+
+
+
+},
+
+
+
+
+"iata": {
+
+
+
+
+
+"label": "IATA"
+
+
+
+
+},
+
+
+
+
+"icao": {
+
+
+
+
+
+"label": "ICAO"
+
+
+
+
+},
+
+
+
+
+"incline": {
+
+
+
+
+
+"label": "ಬಾಗಿಸು"
+
+
+
+
+},
+
+
+
+
+"information": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"internet_access": {
+
+
+
+
+
+"label": "ಅಂತರ್ಜಾಲ ಸಂಪರ್ಕ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yes": "ಹೌದು",
+
+
+
+
+
+
+"no": "ಇಲ್ಲ",
+
+
+
+
+
+
+"wlan": "ವೈಫೈ",
+
+
+
+
+
+
+"wired": "ತಂತಿಯುಕ್ತ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"lamp_type": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"lanes": {
+
+
+
+
+
+"label": "ಲೇನ್",
+
+
+
+
+
+"placeholder": "1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"layer": {
+
+
+
+
+
+"label": "ಪದರ"
+
+
+
+
+},
+
+
+
+
+"leisure": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"length": {
+
+
+
+
+
+"label": "ಉದ್ದ (ಮೀಟರ್)"
+
+
+
+
+},
+
+
+
+
+"levels": {
+
+
+
+
+
+"label": "ಮಟ್ಟ",
+
+
+
+
+
+"placeholder": "2, 4, 6..."
+
+
+
+
+},
+
+
+
+
+"location": {
+
+
+
+
+
+"label": "ಸ್ಥಾನ"
+
+
+
+
+},
+
+
+
+
+"man_made": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"maxspeed": {
+
+
+
+
+
+"label": "ವೇಗ ಮಿತಿ",
+
+
+
+
+
+"placeholder": "40, 50, 60..."
+
+
+
+
+},
+
+
+
+
+"mtb/scale": {
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"mtb/scale/imba": {
+
+
+
+
+
+"placeholder": "ಸುಲಭ, ಸಾಧಾರಣ, ಕಷ್ಟ ... ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"0": "ಅತಿ ಸುಲಭ (ಬಿಳಿಯ ವರ್ತುಲ)",
+
+
+
+
+
+
+"1": "ಸುಲ್ಕಭ(ಹಸಿರು ವರ್ತುಲ)",
+
+
+
+
+
+
+"2": "ಸಾಧಾರಣ (ನೀಲಿ ವರ್ತುಲ)",
+
+
+
+
+
+
+"3": "ಕಷ್ಟ (ಕರಿಯ ವರ್ತುಲ)",
+
+
+
+
+
+
+"4": "ಅತೀ ಕಷ್ಟ (ಎರಡು ಕಪ್ಪು ವಜ್ರಾಕಾರ)"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"mtb/scale/uphill": {
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"name": {
+
+
+
+
+
+"label": "ಹೆಸರು",
+
+
+
+
+
+"placeholder": "ಸಾಮಾನ್ಯ ಹೆಸರು (ಇದ್ದರೆ)"
+
+
+
+
+},
+
+
+
+
+"natural": {
+
+
+
+
+
+"label": "ನೈಸರ್ಗಿಕ"
+
+
+
+
+},
+
+
+
+
+"network": {
+
+
+
+
+
+"label": "ಜಾಲಬಂಧ"
+
+
+
+
+},
+
+
+
+
+"note": {
+
+
+
+
+
+"label": "ಟಿಪ್ಪಣಿ"
+
+
+
+
+},
+
+
+
+
+"office": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"oneway": {
+
+
+
+
+
+"label": "ಒಮ್ಮುಖ ಸಂಚಾರ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "ಇಲ್ಲವೆಂದು ಭಾವಿಸಲಾಗಿದೆ",
+
+
+
+
+
+
+"yes": "ಹೌದು",
+
+
+
+
+
+
+"no": "ಇಲ್ಲ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"oneway_yes": {
+
+
+
+
+
+"label": "ಒಮ್ಮುಖ ಸಂಚಾರ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "ಇದೆ ಎಂದು ಭಾವಿದಲಾಗಿದೆ",
+
+
+
+
+
+
+"yes": "ಹೌದು",
+
+
+
+
+
+
+"no": "ಇಲ್ಲ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"opening_hours": {
+
+
+
+
+
+"label": "ಗಂಟೆಗಳು"
+
+
+
+
+},
+
+
+
+
+"operator": {
+
+
+
+
+
+"label": "ಆಯೋಜಕರು"
+
+
+
+
+},
+
+
+
+
+"par": {
+
+
+
+
+
+"label": "Par",
+
+
+
+
+
+"placeholder": "3, 4, 5..."
+
+
+
+
+},
+
+
+
+
+"park_ride": {
+
+
+
+
+
+"label": "ನಿಲ್ಲಿಸು ಮತ್ತು ಸವಾರಿ ಮಾಡು"
+
+
+
+
+},
+
+
+
+
+"parking": {
+
+
+
+
+
+"label": "ವಿಧ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"surface": "ಮೇಲ್ಮೈ",
+
+
+
+
+
+
+"multi-storey": "ಬಹುಮಟ್ಟದ",
+
+
+
+
+
+
+"sheds": "ತಂಗುದಾಣ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"phone": {
+
+
+
+
+
+"label": "ದೂರವಾಣಿ",
+
+
+
+
+
+"placeholder": "+31 42 123 4567"
+
+
+
+
+},
+
+
+
+
+"piste/difficulty": {
+
+
+
+
+
+"label": "ಕಷ್ಟ",
+
+
+
+
+
+"placeholder": "ಸುಲಭ, ಮಧ್ಯಂತರ, ಮುಂದುವರೆದ .....",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"novice": "ಅನನುಭವಿ (ಸೂಚನಾ)",
+
+
+
+
+
+
+"easy": "ಸುಲಭ (ಹಸಿರು ವರ್ತುಲ)",
+
+
+
+
+
+
+"intermediate": "ಮಧ್ಯಂತರ (ನೀಲಿ ವರ್ತುಲ)",
+
+
+
+
+
+
+"advanced": "ಮುಂದುವರೆದ (ಕಪ್ಪು ವಜ್ರ)"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"piste/grooming": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"classic": "ಶ್ರೇಷ್ಠ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"piste/type": {
+
+
+
+
+
+"label": "ವಿಧ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"snow_park": "ಮಂಜಿನ ಉದ್ಯಾನವನ",
+
+
+
+
+
+
+"playground": "ಆಟದ ಮೈದಾನ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"place": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"population": {
+
+
+
+
+
+"label": "ಜನಸಂಖ್ಯೆ"
+
+
+
+
+},
+
+
+
+
+"power": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"railway": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"ref": {
+
+
+
+
+
+"label": "ಉಲ್ಲೇಖ"
+
+
+
+
+},
+
+
+
+
+"relation": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"religion": {
+
+
+
+
+
+"label": "ಧರ್ಮ"
+
+
+
+
+},
+
+
+
+
+"restriction": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"route": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"route_master": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"seasonal": {
+
+
+
+
+
+"label": "ಋತುಮಾನ"
+
+
+
+
+},
+
+
+
+
+"service": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"shelter": {
+
+
+
+
+
+"label": "ಆಶ್ರಯ"
+
+
+
+
+},
+
+
+
+
+"shelter_type": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"shop": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"smoking": {
+
+
+
+
+
+"label": "ಧೂಮಪಾನ"
+
+
+
+
+},
+
+
+
+
+"source": {
+
+
+
+
+
+"label": "ಮೂಲ"
+
+
+
+
+},
+
+
+
+
+"sport": {
+
+
+
+
+
+"label": "ಕ್ರೀಡೆ"
+
+
+
+
+},
+
+
+
+
+"sport_ice": {
+
+
+
+
+
+"label": "ಕ್ರೀಡೆ"
+
+
+
+
+},
+
+
+
+
+"sport_racing": {
+
+
+
+
+
+"label": "ಕ್ರೀಡೆ"
+
+
+
+
+},
+
+
+
+
+"structure": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"bridge": "ಸೇತುವೆ",
+
+
+
+
+
+
+"tunnel": "ಸುರಂಗ",
+
+
+
+
+
+
+"embankment": "ಏರಿ"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"studio_type": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"substation": {
+
+
+
+
+
+"label": "ವಿಧ"
+
+
+
+
+},
+
+
+
+
+"surface": {
+
+
+
+
+
+"label": "ಮೇಲ್ಮೈ"
+
+
+
+
+},
+
+
+
+
+"takeaway": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yes": "ಹೌದು",
+
+
+
+
+
+
+"no": "ಇಲ್ಲ"
+
+
+
+
+
+}
+
+
+
+
+}
+
+
+
+},
+
+
+
+"presets": {
+
+
+
+
+"amenity/bank": {
+
+
+
+
+
+"name": "ಬ್ಯಾಂಕ್"
+
+
+
+
+},
+
+
+
+
+"amenity/cinema": {
+
+
+
+
+
+"name": "ಸಿನಿಮಾ"
+
+
+
+
+},
+
+
+
+
+"amenity/library": {
+
+
+
+
+
+"name": "ಗ್ರಂಥಾಲಯ"
+
+
+
+
+},
+
+
+
+
+"building/school": {
+
+
+
+
+
+"name": "ಶಾಲಾ ಕಟ್ಟಡ"
+
+
+
+
+},
+
+
+
+
+"highway/bus_stop": {
+
+
+
+
+
+"name": "ಬಸ್ ನಿಲ್ದಾಣ"
+
+
+
+
+},
+
+
+
+
+"highway/steps": {
+
+
+
+
+
+"name": "ಮೆಟ್ಟಿಲು"
+
+
+
+
+},
+
+
+
+
+"leisure/garden": {
+
+
+
+
+
+"name": "ಕೈತೋಟ"
+
+
+
+
+},
+
+
+
+
+"leisure/park": {
+
+
+
+
+
+"name": "ಉದ್ಯಾನವನ"
+
+
+
+
+},
+
+
+
+
+"leisure/stadium": {
+
+
+
+
+
+"name": "ಕ್ರೀಡಾಂಗಣ"
+
+
+
+
+},
+
+
+
+
+"natural/beach": {
+
+
+
+
+
+"name": "ಕಡಲ ತೀರ"
+
+
+
+
+},
+
+
+
+
+"office/research": {
+
+
+
+
+
+"name": "ಸಂಶೋಧನಾ ಕಛೇರಿ"
+
+
+
+
+},
+
+
+
+
+"place/town": {
+
+
+
+
+
+"name": "ಪಟ್ಟಣ"
+
+
+
+
+},
+
+
+
+
+"place/village": {
+
+
+
+
+
+"name": "ಹಳ್ಳಿ"
+
+
+
+
+},
+
+
+
+
+"shop/computer": {
+
+
+
+
+
+"name": "ಗಣಕಯಂತ್ರದ ಅಂಗಡಿ"
+
+
+
+
+},
+
+
+
+
+"shop/department_store": {
+
+
+
+
+
+"name": "ಕಿರಾಣಿ ಅಂಗಡಿ"
+
+
+
+
+},
+
+
+
+
+"shop/florist": {
+
+
+
+
+
+"name": "ಹೂವಿನ ವ್ಯಾಪಾರಿ"
+
+
+
+
+},
+
+
+
+
+"shop/funeral_directors": {
+
+
+
+
+
+"name": "ಶವಸಂಸ್ಕಾರದ ನೆಲೆ"
+
+
+
+
+},
+
+
+
+
+"shop/furniture": {
+
+
+
+
+
+"name": "ಪಿಟೋಪಕರಣಗಳ ಅಂಗಡಿ"
+
+
+
+
+},
+
+
+
+
+"shop/gift": {
+
+
+
+
+
+"name": "ಉಡುಗೊರೆಯ ಅಂಗಡಿ"
+
+
+
+
+}
+
+
+
+}
+
+
+}
+
+}
 }

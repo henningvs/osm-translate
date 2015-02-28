@@ -1,4 +1,17405 @@
 {
-	"content": "pt:\n  presets:\n    categories:\n      category-building:\n        name: Edifício\n      category-golf:\n        name: Golfe\n      category-landuse:\n        name: Uso do Solo\n      category-path:\n        name: Caminho\n      category-rail:\n        name: Ferrovia\n      category-restriction:\n        name: Restrição\n      category-road:\n        name: Rodovia\n      category-route:\n        name: Rota\n      category-water-area:\n        name: Água\n      category-water-line:\n        name: Água\n    fields:\n      access:\n        label: Acesso\n        placeholder: Desconhecido\n        types:\n          access: Geral\n          foot: Peões\n          motor_vehicle: Veículos Motorizados\n          bicycle: Bicicletas\n          horse: Animais\n        options:\n          'yes':\n            title: Permitido\n            description: Acesso permitido por lei\n          'no':\n            title: Proibido\n            description: Acesso não permitido ao público em geral\n          permissive:\n            title: Permissivo\n            description: Acesso permitido até o proprietário revogar a permissão\n          private:\n            title: Privado\n            description: Acesso permitido apenas com permissão do proprietário de forma individual\n          designated:\n            title: Designado\n            description: Acesso permitido de acordo com a sinalética e/ou com leis locais específicas; como p. ex. o Código da Estrada\n          destination:\n            title: Destino\n            description: Acesso permitido apenas para chegar a determinado destino; como p. ex. parques de estacionamento ou centros comerciais\n      access_simple:\n        label: Acesso\n        placeholder: \"sim\"\n      access_toilets:\n        label: Acesso\n      address:\n        label: Morada\n        placeholders:\n          housename: Nome da Habitação\n          housenumber: \"123\"\n          street: Rua\n          city: Localidade\n          postcode: Código Postal\n          place: Sítio\n          hamlet: Aldeia\n          suburb: 'Subúrbio '\n          subdistrict: Subdistrito\n          district: Distrito\n          province: Província\n          state: Estado\n          country: País\n      admin_level:\n        label: Nível Administrativo\n      aerialway:\n        label: Tipo\n      aerialway/access:\n        label: Acesso\n        options:\n          entry: Entrada\n          exit: Saída\n          both: Ambas\n      aerialway/bubble:\n        label: Bolha\n      aerialway/capacity:\n        label: Capacidade (por hora)\n        placeholder: \"500, 2500, 5000...\"\n      aerialway/duration:\n        label: Duração (minutos)\n        placeholder: \"1, 2, 3...\"\n      aerialway/heating:\n        label: Aquecido\n      aerialway/occupancy:\n        label: Ocupação Máxima\n        placeholder: \"2, 4, 8....\"\n      aerialway/summer/access:\n        label: Acesso (verão)\n        options:\n          entry: Entrada\n          exit: Saída\n          both: Ambas\n      aeroway:\n        label: Tipo\n      amenity:\n        label: Tipo\n      artist:\n        label: Artista\n      artwork_type:\n        label: Tipo\n      atm:\n        label: Multibanco\n      backrest:\n        label: Encosto\n      barrier:\n        label: Tipo\n      bench:\n        label: Banco de Sentar\n      bicycle_parking:\n        label: Tipo\n      boundary:\n        label: Tipo\n      brand:\n        label: Variedade\n      building:\n        label: Edifício\n      building_area:\n        label: Edifício\n      capacity:\n        label: Capacidade\n        placeholder: \"50, 100, 200...\"\n      cardinal_direction:\n        label: Direção\n        options:\n          N: Norte\n          E: Este\n          S: Sul\n          W: Oeste\n          NE: Nordeste\n          SE: Sudeste\n          SW: Sudoeste\n          NW: Noroeste\n          NNE: Nor-nordeste\n          ENE: ' Lés-nordeste'\n          ESE: Lés-sudeste\n          SSE: Su-sudeste\n          SSW: Su-sudoeste\n          WSW: Oés-sudoeste\n          WNW: Oés-noroeste\n          NNW: Nor-noroeste\n      clock_direction:\n        label: Direção\n        options:\n          clockwise: Sentido dos Ponteiros do Relógio\n          anticlockwise: Sentido Contrário aos Ponteiros do Relógio.\n      collection_times:\n        label: Horário de Recolha\n      construction:\n        label: Tipo\n      country:\n        label: País\n      covered:\n        label: Coberto\n      craft:\n        label: Tipo\n      crop:\n        label: Produção\n      crossing:\n        label: Tipo\n      cuisine:\n        label: Culinária\n      delivery:\n        label: Entrega\n      denomination:\n        label: Denominação\n      denotation:\n        label: Denotação\n      description:\n        label: Descrição\n      electrified:\n        label: Eletrificação\n        placeholder: \"Catenária, Linha Eletrificada...\"\n        options:\n          contact_line: Catenária (Linha de contacto)\n          rail: Linha Eletrificada\n          'yes': Sim (não especificada)\n          'no': \"Não\"\n      elevation:\n        label: Elevação\n      emergency:\n        label: Emergência\n      entrance:\n        label: Tipo\n      except:\n        label: Exceções\n      fax:\n        label: Fax\n        placeholder: +351 252 471441\n      fee:\n        label: Taxa\n      fire_hydrant/type:\n        label: Tipo\n        options:\n          pillar: 'Superfície '\n          underground: 'Subterrâneo '\n          wall: Muro\n          pond: Poça\n      fixme:\n        label: Corrigir\n      fuel:\n        label: Combustível\n      fuel/biodiesel:\n        label: Vende Biodiesel\n      fuel/diesel:\n        label: Vende Gasóleo\n      fuel/e10:\n        label: Vende \"Etanol 10\"\n      fuel/e85:\n        label: Vende \"Etanol 85\"\n      fuel/lpg:\n        label: Vende GPL\n      fuel/octane_100:\n        label: Vende \"Gasolina 100\"\n      fuel/octane_91:\n        label: Vende \"Gasolina 91\"\n      fuel/octane_95:\n        label: Vende \"Gasolina 95\"\n      fuel/octane_98:\n        label: Vende \"Gasolina 98\"\n      gauge:\n        label: Bitola\n      gender:\n        label: Género\n        placeholder: Desconhecido\n        options:\n          male: Masculino\n          female: Feminino\n          unisex: Unisexo\n      generator/method:\n        label: Método\n      generator/source:\n        label: Fonte\n      generator/type:\n        label: Tipo\n      golf_hole:\n        label: Referência\n        placeholder: Número do Buraco (1-18)\n      handicap:\n        label: Handicap\n        placeholder: 1-18\n      highway:\n        label: Tipo\n      historic:\n        label: Tipo\n      hoops:\n        label: Cestos\n        placeholder: \"1, 2, 4...\"\n      iata:\n        label: IATA\n      icao:\n        label: ICAO\n      incline:\n        label: Inclinação\n      information:\n        label: Tipo\n      internet_access:\n        label: Acesso à Internet\n        options:\n          'yes': \"Sim\"\n          'no': \"Não\"\n          wlan: Wi-Fi\n          wired: Com fio\n          terminal: Terminal de acesso\n      lamp_type:\n        label: Tipo\n      landuse:\n        label: Tipo\n      lanes:\n        label: Vias de Trânsito\n        placeholder: \"1, 2, 3...\"\n      layer:\n        label: Camada\n      leaf_cycle:\n        label: Ciclo das Folhas\n        options:\n          evergreen: Persistente\n          deciduous: Caduca\n          semi_evergreen: Semi-Presistente\n          semi_deciduous: Semi-Caduca\n          mixed: Mistura\n      leaf_type:\n        label: Tipo de Folha\n        options:\n          broadleaved: Largas\n          needleleaved: Agulhas\n          mixed: Mistura\n          leafless: Sem folha\n      leisure:\n        label: Tipo\n      length:\n        label: Comprimento (metros)\n      levels:\n        label: Nº de Andares\n        placeholder: \"2, 4, 6...\"\n      lit:\n        label: Iluminação\n      location:\n        label: Localização\n      man_made:\n        label: Tipo\n      maxspeed:\n        label: Limite de Velocidade\n        placeholder: \"50, 90, 100, 120...\"\n      mtb/scale:\n        label: Dificuldade para Bicicletas de Montanha\n        placeholder: \"0, 1, 2, 3...\"\n        options:\n          '0': \"0: Terreno sólido com cascalho ou terra compactada, com nenhum obstáculo, curvas largas, etc.\"\n          '1': \"1: Algum terreno solto, com pequenos obstáculos, curvas fáceis, etc.\"\n          '2': \"2: Terreno solto, com obstáculos, curvas um pouco difíceis, etc.\"\n          '3': \"3: Terreno escorregadio, com vários obstáculos, curvas apertadas, etc.\"\n          '4': \"4: Terreno muito solto, com pedregulhos grandes, curvas muito pequenas e perigosas, etc.\"\n          '5': \"5: Deslizamentos de terra, depressões grandes e profundas, etc.\"\n          '6': \"6: Não transitável exceto aos melhores ciclistas de montanha\"\n      mtb/scale/imba:\n        label: Dificuldade de Caminhar definido pela IMBA\n        placeholder: \"Fácil, Médio, Difícil...\"\n        options:\n          '0': Muito fácil (circulo branco)\n          '1': Fácil (circulo verde)\n          '2': Médio (quadrado azul)\n          '3': Difícil (diamante negro)\n          '4': Muito Difícil (duplo diamante negro)\n      mtb/scale/uphill:\n        label: Dificuldade da Subida para Bicicletas de Montanha\n        placeholder: \"0, 1, 2, 3...\"\n        options:\n          '0': \"0: Inclinação média de <10%, superfície de cascalho ou de terra compactada, com nenhum obstáculos, etc.\"\n          '1': \"1. Inclinação média de <15%, superfície de cascalho ou terra de compactada, com alguns obstáculos, etc.\"\n          '2': \"2. Inclinação média de <20%, superfície estável, com pequenas pedras/raízes, etc.\"\n          '3': \"3. Inclinação média de <25%, superfície por vezes solta, com pedras/raízes, etc.\"\n          '4': \"4. Inclinação média de <30%, superfície em más condições, com grandes pedras/raízes, etc.\"\n          '5': \"5. Muito inclinado, é geralmente necessário empurrar ou levar a bicicleta à mão.\"\n      name:\n        label: Nome\n        placeholder: Nome Comum (caso se aplique)\n      natural:\n        label: Natural\n      network:\n        label: Rede\n      note:\n        label: Notas\n      office:\n        label: Tipo\n      oneway:\n        label: Sentido Único?\n        options:\n          undefined: Assumido que seja Não\n          'yes': \"Sim\"\n          'no': \"Não\"\n      oneway_yes:\n        label: Sentido Único\n        options:\n          undefined: Assumido que seja Sim\n          'yes': \"Sim\"\n          'no': \"Não\"\n      opening_hours:\n        label: Horário de Funcionamento\n      operator:\n        label: Operador\n      par:\n        label: Par\n        placeholder: \"3, 4, 5...\"\n      park_ride:\n        label: Estacionamento de Intercâmbio\n      parking:\n        label: Tipo\n        options:\n          surface: Superfície\n          multi-storey: Edifício-garagem\n          underground: Subterrâneo\n          sheds: Barracões\n          carports: Telheiros\n          garage_boxes: Garagens\n          lane: Estacionamento Paralelo à Estrada\n      phone:\n        label: Telefone / Telemóvel\n        placeholder: +351 245 125961\n      piste/difficulty:\n        label: 'Dificuldade de Esquiar '\n        placeholder: \"Fácil, Intermédio, Avançado...\"\n        options:\n          novice: 'Muito Fácil (instrucional) '\n          easy: Fácil (Círculo verde)\n          intermediate: Médio (quadrado azul)\n          advanced: Difícil (losango negro)\n          expert: Muito Difícil (duplo losango negro)\n          freeride: Freeride (não supervisionada)\n          extreme: Extremo (material de escalagem é necessário)\n      piste/grooming:\n        label: Niveladora de Neve\n        options:\n          classic: Clássico\n          mogul: Estilo Livre\n          backcountry: Freeride\n          classic+skating: 'Clássico e Patinagem '\n          scooter: Scooter / Mota de Neve\n          skating: 'Patinagem '\n      piste/type:\n        label: Tipo\n        options:\n          downhill: Downhill\n          nordic: Esqui nórdico\n          skitour: Esqui Turístico\n          sled: 'Trenó '\n          hike: Passeio\n          sleigh: Trenó\n          ice_skate: 'Patins no Gelo '\n          snow_park: Snowpark\n          playground: Parque Infantil\n      place:\n        label: Tipo\n      population:\n        label: População\n      power:\n        label: Tipo\n      railway:\n        label: Tipo\n      recycling/cans:\n        label: Aceita Latas\n      recycling/clothes:\n        label: Aceita Roupa\n      recycling/glass:\n        label: Aceita Vidros\n      recycling/paper:\n        label: Aceita Papel\n      ref:\n        label: Referência\n      relation:\n        label: Tipo\n      religion:\n        label: Religião\n      restriction:\n        label: Tipo\n      restrictions:\n        label: Restrição de Viragens\n      route:\n        label: Tipo\n      route_master:\n        label: Tipo\n      sac_scale:\n        label: Dificuldade de Caminhar\n        placeholder: \"Caminhada de Montanha, Caminhada Alpina...\"\n        options:\n          hiking: \"T1: Caminhada Normal\"\n          mountain_hiking: \"T2: Caminhada de Montanha\"\n          demanding_mountain_hiking: \"T3: Caminhada de Montanha Exigente\"\n          alpine_hiking: \"T4: Caminhada Alpina\"\n          demanding_alpine_hiking: \"T5: Caminhada Alpina Exigente\"\n          difficult_alpine_hiking: \"T6: Caminhada Muito Difícil\"\n      seasonal:\n        label: Sazonal\n      service:\n        label: Tipo\n      service/bicycle/chain_tool:\n        label: Ferramenta para Correia\n        options:\n          undefined: Assumido que seja Não\n          'yes': \"Sim\"\n          'no': \"Não\"\n      service/bicycle/pump:\n        label: Bomba de Ar\n        options:\n          undefined: Assumido que seja Não\n          'yes': \"Sim\"\n          'no': \"Não\"\n      shelter:\n        label: Abrigo\n      shelter_type:\n        label: Tipo\n      shop:\n        label: Tipo\n      sloped_curb:\n        label: Lancil Inclinado\n      smoking:\n        label: Fumar\n        placeholder: \"Não, Separado, Sim\"\n        options:\n          'no': Fumar não é permitido\n          separated: \"Em zona de fumadores, não isolada do estabelecimento\"\n          isolated: \"Em zona de fumadores, isolada do estabelecimento \"\n          outside: Permitido no exterior\n          'yes': 'Fumar é permitido em todo o estabelecimento '\n          dedicated: \"Dedicado a fumadores (por exemplo, clube de fumadores)\"\n      smoothness:\n        label: Qualidade da Estrada\n        placeholder: \"Excelente, Boa, Má...\"\n        options:\n          excellent: \"Excelente: skates, patins em linha, etc.\"\n          good: \"Muito boa: bicicletas de corrida, carros desportivos etc.\"\n          intermediate: \"Boa: bicicletas de cidade, cadeira de rodas, scooters, etc.\"\n          bad: \"Intermédia: carros de cidade, camiões, etc.\"\n          very_bad: \"Má: carroças, SUVs, etc.\"\n          horrible: \"Muito má: bicicletas de montanha, carros todo-o-terreno, etc.\"\n          very_horrible: \"Péssima: tratores, moto-quatros, etc.\"\n          impassable: Intransitável / Veículos sem rodas\n      social_facility_for:\n        label: Pessoas Servidas\n        placeholder: \"Sem-abrigo, Deficientes, Crianças, etc.\"\n      source:\n        label: Fonte das informações\n      sport:\n        label: Desporto\n      sport_ice:\n        label: Desporto\n      sport_racing:\n        label: Desporto\n      structure:\n        label: Estrutura\n        placeholder: Desconhecido\n        options:\n          bridge: Ponte\n          tunnel: Túnel\n          embankment: Elevação no terreno\n          cutting: Corte no terreno\n          ford: Vau\n      studio_type:\n        label: Tipo\n      substation:\n        label: Tipo\n      supervised:\n        label: Vigiado\n      surface:\n        label: 'Tipo de Superfície '\n      tactile_paving:\n        label: Pavimentação Táctil\n      takeaway:\n        label: Take Away\n        placeholder: \"Sim, Não, Apenas Take Away\"\n        options:\n          'yes': \"Sim\"\n          'no': \"Não\"\n          only: Apenas Take Away\n      toilets/disposal:\n        label: Método de Eliminação de Resíduos\n        options:\n          flush: Descarregamento\n          pitlatrine: Fosso / Latrina\n          chemical: 'Químico '\n          bucket: Balde\n      tourism:\n        label: Tipo\n      towertype:\n        label: Tipo de torre\n      tracktype:\n        label: 'Qualidade da Superfície '\n        placeholder: \"Sólido, Intermédio, Macio...\"\n        options:\n          grade1: \"1 - Sólida: pavimentada ou com material fortemente compactado\"\n          grade2: \"2 - Sobretudo sólida: cascalho ou pedras misturadas com algum material macio\"\n          grade3: 3 - Intermédia, mistura de materiais sólidos e macios\n          grade4: \"4 - Sobretudo macia: terra, erva ou areia misturadas com algum material sólido\"\n          grade5: \"5 - Macia: Terra, erva ou areia\"\n      trail_visibility:\n        label: Visibilidade\n        placeholder: \"Excelente, Boa, Má...\"\n        options:\n          excellent: \"Excelente: caminho claramente marcado ou com vários marcos de informações\"\n          good: \"Boa: caminho muito visível\"\n          intermediate: \"Intermédia: caminho visível ou com poucos marcos de informações\"\n          bad: \"Má: caminho pouco visível\"\n          horrible: \"Péssima: por vezes sem caminho ou com nenhum marco de informação\"\n          'no': \"Nenhuma: caminho não é visível, boa habilidade de orientação é necessária\"\n      trees:\n        label: Árvores\n      tunnel:\n        label: Túnel\n      vending:\n        label: Tipo de Produtos\n      water:\n        label: Tipo\n      waterway:\n        label: Tipo\n      website:\n        label: Sítio Eletrónico\n        placeholder: \"http://www.exemplo.org/\"\n      wetland:\n        label: Tipo\n      wheelchair:\n        label: Acesso com cadeira de rodas\n      width:\n        label: Largura (metros)\n      wikipedia:\n        label: Wikipédia\n    presets:\n      address:\n        name: Morada\n        terms: \"Endereço, Morada\"\n      aerialway:\n        name: Telesqui\n        terms: \"Aerialway, Teleférico de Superfície\"\n      aerialway/cable_car:\n        name: Teleférico\n        terms: \"Cable Car\"\n      aerialway/chair_lift:\n        name: Telecadeira\n        terms: \"Chair Lift, Teleférico de cadeira\"\n      aerialway/gondola:\n        name: Gôndola\n        terms: \"Gondola\"\n      aerialway/magic_carpet:\n        name: Corredor de Subida para Esquis\n        terms: \"Magic Carpet Lift\"\n      aerialway/platter:\n        name: Telesqui\n        terms: \"Platter Lift, Prato de Elevação\"\n      aerialway/pylon:\n        name: Pilar de Suporte de Teleféricos\n        terms: \"Aerialway Pylon\"\n      aerialway/rope_tow:\n        name: 'Ascenção com Corda de Reboque '\n        terms: \"Rope Tow Lift\"\n      aerialway/station:\n        name: Estação de Teleféricos\n        terms: \"Aerialway Station, Entrada de Teleféricos, Paragem de Teleféricos\"\n      aerialway/t-bar:\n        name: Teleférico de Neve\n        terms: \"T-bar Lift, Subida Mecânica\"\n      aeroway:\n        name: Via área\n        terms: \"Aerodromo, Aviões, Avião, Helicóptero\"\n      aeroway/aerodrome:\n        name: Aeroporto / Aeródromo\n        terms: \"Avião, aeródromo\"\n      aeroway/apron:\n        name: Plataforma de Estacionamento\n        terms: \"Rampa\"\n      aeroway/gate:\n        name: Porta de Embarque / Desembarque\n        terms: \"Porão, Porta de Embarque, Porta de Desembarque, Manga\"\n      aeroway/hangar:\n        name: Hangar\n        terms: \"Hangar, Abrigo de Aviões\"\n      aeroway/helipad:\n        name: Heliporto / Heliponto\n        terms: \"Helicóptero\"\n      aeroway/runway:\n        name: Pista de Aterragem e Descolagem\n        terms: \"Faixa de Aterragem\"\n      aeroway/taxiway:\n        name: Faixa de Rolagem / Táxi\n        terms: \"Rolar, Faixa de Rolagem\"\n      aeroway/terminal:\n        name: Terminal de Aeroporto / Aeródromo\n        terms: \"Aeroporto, Aeródromo\"\n      amenity:\n        name: Infraestrutura\n        terms: \"característica, qualidade, aspecto\"\n      amenity/arts_centre:\n        name: Centro Artístico\n        terms: \"Arts Center, Centro de Artes\"\n      amenity/atm:\n        name: Multibanco\n        terms: \"Caixa Multibanco, Caixa de Multibanco, MB, Caixa de MB\"\n      amenity/bank:\n        name: Banco\n        terms: \"Agência bancária, Agência financeira, Agência de Investimentos, Cofre, Depósito, Levantamentos, Firma de Investimentos\"\n      amenity/bar:\n        name: Bar\n        terms: \"Bar, Bares, Bebidas, Alcool\"\n      amenity/bbq:\n        name: Churrasco\n        terms: \"Barbacue/Grill, Barbacue, Carne Assada\"\n      amenity/bench:\n        name: Banco de Sentar\n        terms: \"Bench, Banco, Assento, Sentar\"\n      amenity/bicycle_parking:\n        name: Parque de Bicicletas\n        terms: \"Parque de Bicicletas, Área de Bicicletas, Zona de Bicicletas\"\n      amenity/bicycle_rental:\n        name: Aluguer de Bicicletas\n        terms: \"Aluguer de Bicicletas, Área de Aluguer de Bicicletas, Zona de Aluguer de Bicicletas\"\n      amenity/bicycle_repair_station:\n        name: Estação de Reparação de Bicicletas\n        terms: \"Bicycle Repair Station\"\n      amenity/boat_rental:\n        name: Aluguer de Barcos\n        terms: \"Boat Rental\"\n      amenity/bureau_de_change:\n        name: Posto de Câmbio\n        terms: \"Currency Exchange, Troca de Dinheiro\"\n      amenity/bus_station:\n        name: Estação de Autocarros\n        terms: \"Bus Station, Autocarros \"\n      amenity/cafe:\n        name: Café\n        terms: \"Chá, Loja de Café, Cafetaria\"\n      amenity/car_rental:\n        name: Aluguer de Automóveis\n        terms: \"Aluguer de Automóveis, Área de Aluguer de Automóveis, Zona de Aluguer de Automoveis\"\n      amenity/car_sharing:\n        name: Partilha de Automóveis\n        terms: \"Partilha de Carros, Partilha de Veículos \"\n      amenity/car_wash:\n        name: Lavagem de Veículos\n        terms: \"Lavagem, Lavagem Automática, Mangueira, Limpeza\"\n      amenity/charging_station:\n        name: Posto de Carregamento para Veículos Elétricos\n        terms: \"Charging Station, Estação de recarga, Energia, Bateria\"\n      amenity/childcare:\n        name: Berçário / Creche\n        terms: \"Nursery/Childcare, cuidados Infantis\"\n      amenity/cinema:\n        name: Cinema\n        terms: \"Filme, filmes\"\n      amenity/clinic:\n        name: Clínica\n        terms: \"Clinic, Centro de Saúde\"\n      amenity/clock:\n        name: Relógio\n        terms: \"Clock\"\n      amenity/college:\n        name: Colégio\n        terms: \"College Grounds, Colégio, Colégio Interno, Escola Privada, Privada, Externatos, Semiprivado\"\n      amenity/community_centre:\n        name: Centro Comunitário\n        terms: \"Community Center, Espaço Social\"\n      amenity/compressed_air:\n        name: Máquina de Ar Comprimido\n        terms: \"Compressed Air, Pneumática, Pneus, Encher\"\n      amenity/courthouse:\n        name: Tribunal\n        terms: \"Casa da Justiça\"\n      amenity/dentist:\n        name: Dentista\n        terms: \"Dentist, Dentes, Ortodontia\"\n      amenity/doctor:\n        name: Médico\n        terms: \"Doctor, Doutor\"\n      amenity/dojo:\n        name: Centro de Artes Marciais\n        terms: \"Dojo, Karaté, Taekwondo, Judo, Jiu-jitsu, Jiu-jitsu Brasileiro, Kung Fu, Capoeira, Eskrima, Escrima, Escryma, Muay Thai, Krav Magá, Jeet Kune Do\"\n      amenity/drinking_water:\n        name: Água Potável\n        terms: \"Fonte de Água, Água Potável, Bebedouro\"\n      amenity/embassy:\n        name: Embaixada\n        terms: \"Consulado\"\n      amenity/fast_food:\n        name: Comida Rápida\n        terms: \"Comida Instantânea, Comida de plástico, Fast Food\"\n      amenity/fire_station:\n        name: Quartel de Bombeiros\n        terms: \"Bombeiros, Quartel, Quartel dos Bombeiros, Quartel de Bombeiros\"\n      amenity/fountain:\n        name: Fonte Decorativa\n        terms: \"Fonte, Fonte de Água, Jacto de Água\"\n      amenity/fuel:\n        name: Gasolineira / Posto de Combustível\n        terms: \"Bombas de Abastecimento, Bombas de Gasolina\"\n      amenity/grave_yard:\n        name: Sepultura\n        terms: \"Cemitério, Mortos, Funerário, Solene\"\n      amenity/grit_bin:\n        name: Caixa de Sal\n        terms: \"Grit Bin, Sal de Estrada\"\n      amenity/hospital:\n        name: Hospital\n        terms: \"Sala de emergência, Operação, Serviço de Saúde, Hospício, Enfermaria, Sanatório, Cirurgia, Médico, Ambulância\"\n      amenity/kindergarten:\n        name: Jardim Infantil / Infantário\n        terms: \"Preschool/Kindergarten Grounds, Pré-Escola, Pré Escola\"\n      amenity/library:\n        name: Biblioteca\n        terms: \"Biblioteca, Livros, Consulta, Publica\"\n      amenity/marketplace:\n        name: Mercado / Feira\n        terms: \"Bazar, Minimercado\"\n      amenity/nightclub:\n        name: Clube Nocturno\n        terms: \"Nightclub, Discoteca\"\n      amenity/parking:\n        name: Parque de Estacionamento\n        terms: \"Estacionamento, Lugar de Estacionamento\"\n      amenity/parking_entrance:\n        name: Entrada / Saída de Estacionamento\n        terms: \"Parking Garage Entrance/Exit\"\n      amenity/pharmacy:\n        name: Farmácia\n        terms: \"Farmácia, Parafarmácia\"\n      amenity/place_of_worship:\n        name: Local de Oração\n        terms: \"Abadia, Basílica, Casa de Adoração, Casa de Deus, Catedral, Capela, Capelinha, Centro Espiritual, Santuário, Templo\"\n      amenity/place_of_worship/buddhist:\n        name: Templo Budista\n        terms: \"Estupa, Vihara, Mosteiro, Templo, Pagode, Zendo, Dojo\"\n      amenity/place_of_worship/christian:\n        name: Igreja\n        terms: \"Cristão, Abadia, Alminha, Alminhas, Basílica, Betel, Casa de Adoração, Casa de Deus, Carmelo, Catedral, Capela, Capelinha, Colegiada, Congregação, Convento, Cruzeiro, Ermida, Mosteiro, Oratório, Paróquia, Salão do Reino  Sé\"\n      amenity/place_of_worship/jewish:\n        name: Sinagoga\n        terms: \"Judaico, Sinagoga\"\n      amenity/place_of_worship/muslim:\n        name: Mesquita\n        terms: \"Muçulmano, Mesquita\"\n      amenity/police:\n        name: Posto de Polícia\n        terms: \"Polícia, GNR, G.N.R., PSP, P.S.P., Polícia de Segurança Pública, Guarda Nacional Republicana\"\n      amenity/post_box:\n        name: Caixa de Correio\n        terms: \"Marco de Correio, Caixa Postal, Posto de Correio\"\n      amenity/post_office:\n        name: Estação de Correios\n        terms: \"Central de Correio, CTT, C.T.T., CTTs, Correio de Portugal\"\n      amenity/pub:\n        name: Taberna\n        terms: \"Pub\"\n      amenity/public_bookcase:\n        name: Biblioteca Livre\n        terms: \"Public Bookcase, Estante Pública, Livros para o Público\"\n      amenity/ranger_station:\n        name: Posto de Guarda Florestal\n        terms: \"Ranger Station, Guarda Florestal\"\n      amenity/recycling:\n        name: Reciclagem\n        terms: \"Recycling, Reutilizar, Reciclar\"\n      amenity/register_office:\n        name: Escritório de Registros\n        terms: \"Register Office\"\n      amenity/restaurant:\n        name: Restaurante\n        terms: \"Bar, Cafetaria, Café, Cantina, Almoço, Jantar, Cozinha, Restaurante, Pizzaria, Culinária, Gastronomia, Restauração\"\n      amenity/school:\n        name: Escola\n        terms: \"Academia, Creche, Colégio, Departamento, Externato, Liceu, Seminário\"\n      amenity/shelter:\n        name: Abrigo\n        terms: \"Shelter\"\n      amenity/social_facility:\n        name: Centro Social\n        terms: \"Social Facility\"\n      amenity/social_facility/food_bank:\n        name: Banco Alimentar\n        terms: \"Food Bank, Alimento, Comida\"\n      amenity/social_facility/group_home:\n        name: Lar de Idosos\n        terms: \"Elderly Group Home\"\n      amenity/social_facility/homeless_shelter:\n        name: Abrigo para os Sem-Abrigo\n        terms: \"Homeless Shelter, Casa para os Sem-Abrigo, Casa Pública, Sem-Abrigo\"\n      amenity/studio:\n        name: Estúdio\n        terms: \"Studio\"\n      amenity/swimming_pool:\n        name: Piscina\n        terms: \"Piscina, Parque Aquático \"\n      amenity/taxi:\n        name: Praça de Táxis\n        terms: \"Paragem de Táxis\"\n      amenity/telephone:\n        name: Telefone\n        terms: \"Telefone, Telemóvel\"\n      amenity/theatre:\n        name: Teatro\n        terms: \"Teatro, Performance, Peça, Peça de Teatro, Musical\"\n      amenity/toilets:\n        name: Casas de Banho\n        terms: \"Casas de Banho, Instalações Sanitárias, Sanitário, Gabinete Sanitário, Toilette, lavabo, WC\"\n      amenity/townhall:\n        name: Câmara Municipal / Junta de Freguesia\n        terms: \"Junta, Câmara, Paços, Centro Administrativo, Capital de Concelho, Capital de Freguesia, Capital de Distrito, Capital de Região\"\n      amenity/university:\n        name: Universidade\n        terms: \"University Grounds, Universidade, Faculdade, Instituto, Politécnico\"\n      amenity/vending_machine:\n        name: Máquina de Vendas Automática\n        terms: \"Vending Machine, Máquina Automática de Vendas\"\n      amenity/veterinary:\n        name: Veterinário\n        terms: \"Veterinary, Veterinária, Animais\"\n      amenity/waste_basket:\n        name: Caixote do Lixo\n        terms: \"Papeleira, Lixo, Reciclagem\"\n      area:\n        name: Área\n        terms: \"Espaço, Extensão, Zona\"\n      barrier:\n        name: Barreira\n        terms: \"Barreira, Muro\"\n      barrier/block:\n        name: Bloco de Cimento / Pedra\n        terms: \"Bloqueio, Obstáculo\"\n      barrier/bollard:\n        name: Pilar\n        terms: \"Bolardo, Poste de Amarração\"\n      barrier/cattle_grid:\n        name: Grelha Anti-Gado\n        terms: \"Gado, Vaca, Porco, Boi, Cabra, Ovelha, Cavalo\"\n      barrier/city_wall:\n        name: Muralha de Cidade\n        terms: \"Muro defensivo, Parede Defensiva, Muro Histórico, Fortificações\"\n      barrier/cycle_barrier:\n        name: Barreira de Bicicletas\n        terms: \"Bicicleta\"\n      barrier/ditch:\n        name: Fosso sem Água\n        terms: \"Sem Água, Seca, Vala sem Água, Vala Seca, Trincheira sem Água, Trincheira  Seca\"\n      barrier/entrance:\n        name: Entrada\n        terms: \"Entrada, Acesso, Abertura, Porta, Pórtico, Portão\"\n      barrier/fence:\n        name: Vedação\n        terms: \"Cerca, Proteção\"\n      barrier/gate:\n        name: Cancela / Portão\n        terms: \"Grade\"\n      barrier/hedge:\n        name: Sebe\n        terms: \"Arbusto, Muro de Flores, Muro de Plantas\"\n      barrier/kissing_gate:\n        name: Cancela de Encosto Anti-Gado\n        terms: \"Grade de Gado\"\n      barrier/lift_gate:\n        name: Barreira Automática\n        terms: \"Cancela Elevatória, Barreira de Estacionamento\"\n      barrier/retaining_wall:\n        name: Muro de Contenção\n        terms: \"Arrimo, Amparo\"\n      barrier/stile:\n        name: Passagem Anti-Gado\n        terms: \"Escada\"\n      barrier/toll_booth:\n        name: Portagem\n        terms: \"Pedágio, Tarifa, Pórtico\"\n      barrier/wall:\n        name: Muro\n        terms: \"Parede, Muro\"\n      boundary/administrative:\n        name: Fronteira Administrativa\n        terms: \"Fronteira Administrativa, Concelho, Freguesia, Distrito, Região, Limite Adminsitrativo\"\n      building:\n        name: Edifício\n        terms: \"Edifício, Prédio\"\n      building/apartments:\n        name: Apartamento\n        terms: \"Apartamentos, Habitáculos\"\n      building/barn:\n        name: Celeiro\n        terms: \"Barn, Estábulo\"\n      building/bunker:\n        name: Bunker\n        terms: \"Bunker, Carvoeira\"\n      building/cabin:\n        name: Cabine\n        terms: \"Cabin, Praia, Campo, Cabana \"\n      building/cathedral:\n        name: Catedral\n        terms: \"Cathedral\"\n      building/chapel:\n        name: Capela\n        terms: \"Chapel\"\n      building/church:\n        name: Igreja\n        terms: \"Church\"\n      building/college:\n        name: 'Edifíco Colegial '\n        terms: \"College Building\"\n      building/commercial:\n        name: Escritório\n        terms: \"Prédio Comercial, Edifício Comercial\"\n      building/construction:\n        name: Edifício em Construção\n        terms: \"Building Under Construction, Edifício sob Construção\"\n      building/detached:\n        name: Casa Isolada\n        terms: \"Detached Home, Cabana, Bangaló, Villa, Mansão\"\n      building/dormitory:\n        name: Dormitório\n        terms: \"Dormitory, Repousada, Albergue\"\n      building/entrance:\n        name: Entrada / Saída\n        terms: \"Entrance/Exit, Entrada, Acesso, Abertura, Porta, Pórtico, Portão\"\n      building/garage:\n        name: Garagem\n        terms: \"Garagem, Abrigo de Automoveis\"\n      building/garages:\n        name: Garagens\n        terms: \"Garages\"\n      building/greenhouse:\n        name: Estufa\n        terms: \"Greenhouse, Estufas\"\n      building/hospital:\n        name: Edifício Hospitalar\n        terms: \"Hospital Building\"\n      building/hotel:\n        name: Edifício Hoteleiro\n        terms: \"Hotel Building\"\n      building/house:\n        name: Casa\n        terms: \"Casa, Domicílio, Moradia, Mansão, Solar, Vivenda\"\n      building/hut:\n        name: Cabana\n        terms: \"Barraca\"\n      building/industrial:\n        name: Industria\n        terms: \"Edifício Industrial, Manufactura, Fábrica\"\n      building/kindergarten:\n        name: Edifício de Jardim Infantil / Infantário\n        terms: \"Preschool/Kindergarten Building\"\n      building/public:\n        name: Edifício Público\n        terms: \"Public Building\"\n      building/residential:\n        name: Edifício Residencial\n        terms: \"Prédio Residencial, Habitação\"\n      building/retail:\n        name: Edifício de Retalho\n        terms: \"Retail Building, Retalho, Varejo\"\n      building/roof:\n        name: Telhado\n        terms: \"Roof, Cobertura\"\n      building/school:\n        name: Edifício Escolar\n        terms: \"School Building, Pavilhão Escolar\"\n      building/shed:\n        name: Barracão\n        terms: \"Shed, Barraca, Edícula\"\n      building/stable:\n        name: Estábulo\n        terms: \"Stable, Cavalos\"\n      building/static_caravan:\n        name: Casa Pré-Fabricada\n        terms: \"Static Mobile Home, Trailer, Caravana, \"\n      building/terrace:\n        name: Casas Geminadas\n        terms: \"Row Houses, Terraced house, Terraços\"\n      building/train_station:\n        name: Estação de Comboio\n        terms: \"Train Station, Estação Ferroviária\"\n      building/university:\n        name: Edifício Universitário\n        terms: \"University Building, Edifício Universitário\"\n      building/warehouse:\n        name: Armazém\n        terms: \"Warehouse, Arrecadação\"\n      craft:\n        name: Ofício\n        terms: \"Craft, Arofissão, Artesanato\"\n      craft/basket_maker:\n        name: Criador de Cestas\n        terms: \"Basket Maker, Fabricante de Cestas, Fabricante de Cestos\"\n      craft/beekeeper:\n        name: Apicultor\n        terms: \"Beekeeper, Mel, Cuidador de Abelhas\"\n      craft/blacksmith:\n        name: Ferreiro\n        terms: \"Blacksmith, Forjador\"\n      craft/boatbuilder:\n        name: Fabricante de Barcos\n        terms: \"Boat Builder, Construtor de Barcos, Construtor de Iates\"\n      craft/bookbinder:\n        name: Encadernador\n        terms: \"Bookbinder, Plastificador\"\n      craft/brewery:\n        name: Cervejaria\n        terms: \"Brewery, Mestre Cervejeiro\"\n      craft/carpenter:\n        name: Carpinteiro\n        terms: \"Carpenter, Carpintaria, Madeiras\"\n      craft/carpet_layer:\n        name: Colocador de Tapetes\n        terms: \"Carpet Layer, Instalador de Carpetes\"\n      craft/caterer:\n        name: Fornecedor\n        terms: \"Caterer, Catering\"\n      craft/clockmaker:\n        name: Relojoeiro\n        terms: \"Clockmaker, Relógios\"\n      craft/confectionery:\n        name: Confeitaria\n        terms: \"Confectionery, Bolos, Pastelaria\"\n      craft/dressmaker:\n        name: Costureira\n        terms: \"Dressmaker, Costureiro, Estilista, Alfaiate, Modista\"\n      craft/electrician:\n        name: Eletricista\n        terms: \"Electrician, Homem da Luz\"\n      craft/gardener:\n        name: Jardineiro\n        terms: \"Gardener, Flores, Jardim, Erva\"\n      craft/glaziery:\n        name: Vidreiro\n        terms: \"Glaziery, Vidro\"\n      craft/handicraft:\n        name: Artesão\n        terms: \"Handicraft, Artesã\"\n      craft/hvac:\n        name: AVAC\n        terms: \"HVAC, Aquecimento, Ventilação, Ar Condicionado\"\n      craft/insulator:\n        name: Isolador\n        terms: \"Insulator\"\n      craft/jeweler:\n        name: Joalheiro\n        terms: \"Jeweler\"\n      craft/key_cutter:\n        name: Chaveiro\n        terms: \"Key Cutter\"\n      craft/locksmith:\n        name: Serralheiro\n        terms: \"Locksmith\"\n      craft/metal_construction:\n        name: Construção Metálica\n        terms: \"Metal Construction\"\n      craft/optician:\n        name: Oculista\n        terms: \"Optician\"\n      craft/painter:\n        name: Pintor\n        terms: \"Painter\"\n      craft/photographer:\n        name: Fotógrafo\n        terms: \"Photographer, Agência Fotográfica\"\n      craft/photographic_laboratory:\n        name: Laboratório Fotográfico\n        terms: \"Photographic Laboratory, Loja Fotográfica, Fotógrafo\"\n      craft/plasterer:\n        name: Gesseiro\n        terms: \"Plasterer\"\n      craft/plumber:\n        name: Canalizador\n        terms: \"Plumber, Picheleiro\"\n      craft/pottery:\n        name: Oleiro\n        terms: \"Pottery, Ceramista\"\n      craft/rigger:\n        name: Armador\n        terms: \"Rigger\"\n      craft/roofer:\n        name: Telhador\n        terms: \"Roofer\"\n      craft/saddler:\n        name: Seleiro\n        terms: \"Saddler, Selas, Selins, Arreios\"\n      craft/sailmaker:\n        name: Veleiro\n        terms: \"Sailmaker, Mastros, Vergas, Velas, Cordas, Barcos a Vela.\"\n      craft/sawmill:\n        name: Lenhador\n        terms: \"Sawmill, Serraria\"\n      craft/scaffolder:\n        name: Montador de Andaimes\n        terms: \"Scaffolder, Colocador de Andaimes, Andaimes\"\n      craft/sculpter:\n        name: Escultor\n        terms: \"Sculpter\"\n      craft/shoemaker:\n        name: Sapateiro\n        terms: \"Shoemaker\"\n      craft/stonemason:\n        name: Canteiro\n        terms: \"Stonemason, Rocha\"\n      craft/sweep:\n        name: Limpador de Chaminés\n        terms: \"Chimney Sweep, Limpa Chaminés\"\n      craft/tailor:\n        name: Alfaiate\n        terms: \"Tailor\"\n      craft/tiler:\n        name: Colocador de Azulejos / Pedras\n        terms: \"Tiler\"\n      craft/tinsmith:\n        name: Latoeiro\n        terms: \"Tinsmith, Chapa, Zinco\"\n      craft/upholsterer:\n        name: Tapeceiro\n        terms: \"Upholsterer, Tapeceiro, Tapeçaria, Tecidos\"\n      craft/watchmaker:\n        name: Relojoeiro\n        terms: \"Watchmaker\"\n      craft/window_construction:\n        name: Fabrico de Vidro\n        terms: \"Window Construction\"\n      craft/winery:\n        name: Adega\n        terms: \"Winery, Bodega, Vinhos\"\n      embankment:\n        name: Aterro Elevado\n        terms: \"Embankment, Elevação do Terreno\"\n      emergency/ambulance_station:\n        name: Central de Ambulâncias\n        terms: \"Ambulance Station, Ambulância \"\n      emergency/fire_hydrant:\n        name: Boca de Incêndio\n        terms: \"Fire Hydrant, Hidrante, Marco de Água, Marco de Incêndio\"\n      emergency/phone:\n        name: Telefone de Emergência\n        terms: \"Telefone de Emergência, 112\"\n      entrance:\n        name: Entrada / Saída\n        terms: \"Entrance/Exit, Entrada, Acesso, Abertura, Porta, Pórtico, Portão\"\n      footway/crossing:\n        name: Passadeira\n        terms: \"Crossing\"\n      footway/crosswalk:\n        name: Passadeira\n        terms: \"Crosswalk, Passagem de Peões\"\n      footway/sidewalk:\n        name: Passeio\n        terms: \"Sidewalk, Calçada\"\n      ford:\n        name: Vau\n        terms: \"Baixio, Banco, Parel\"\n      golf/bunker:\n        name: Banco de Areia\n        terms: \"Sand Trap\"\n      golf/fairway:\n        name: Fairway\n        terms: \"Fairway\"\n      golf/green:\n        name: Green\n        terms: \"Putting Green\"\n      golf/hole:\n        name: Buraco de Golfe\n        terms: \"Golf Hole\"\n      golf/lateral_water_hazard:\n        name: Obstáculo de Água Lateral\n        terms: \"Lateral Water Hazard\"\n      golf/rough:\n        name: Rough\n        terms: \"Rough\"\n      golf/tee:\n        name: Tee\n        terms: \"Tee Box\"\n      golf/water_hazard:\n        name: Obstáculo de Água\n        terms: \"Water Hazard\"\n      highway:\n        name: Rodovia\n        terms: \"Estrada, Via, Trânsito, Carro, Veiculo\"\n      highway/bridleway:\n        name: Caminhos Exclusivo para Cavalos\n        terms: \"Trilho para Cavalos, Trilho para Cavaleiros, Trilho Equestre, Caminho Equestre, Caminho para Cavalos, Caminho para Cavaleiros\"\n      highway/bus_stop:\n        name: Paragem de Autocarro\n        terms: \"Paragem de Autocarro, Terminal de Autocarros\"\n      highway/crossing:\n        name: Passadeira\n        terms: \"Zebra, Faixa de segurança, Passagem, Passagem de Peões, Riscas\"\n      highway/crosswalk:\n        name: Passadeira\n        terms: \"Crosswalk, Passagem de Peões\"\n      highway/cycleway:\n        name: Ciclovia\n        terms: \"Bicicleta\"\n      highway/footway:\n        name: Caminho Pedonal\n        terms: \"Andar, Caminho, Estrada, Pé, Pedestre, Percurso, Rua, Ruela, Trajectória, Trilha, Trilho, Via, Viela, Caminho Pedonal\"\n      highway/living_street:\n        name: Zona de Coexistência\n        terms: \"Living Street, Zona de Peões\"\n      highway/mini_roundabout:\n        name: Mini-Rotunda\n        terms: \"Mini-Rotunda, Minirotunda, Rotunda Pintada\"\n      highway/motorway:\n        name: Autoestrada\n        terms: \"Auto-Estrada, Auto Estrada\"\n      highway/motorway_junction:\n        name: Interseção / Saída de Autoestradas\n        terms: \"Motorway Junction / Exit, Junção de Autoestradas, Saída de Autoestradas\"\n      highway/motorway_link:\n        name: Ligação a uma Autoestrada\n        terms: \"Ligação Autoestrada, Entrada Autoestrada, Saída Autoestrada\"\n      highway/path:\n        name: Trilho\n        terms: \"Trilha, Caminho\"\n      highway/pedestrian:\n        name: Praça / Rua Pedonal\n        terms: \"Pedestrian, Rua Pedonal, Rua Pedestre\"\n      highway/primary:\n        name: Estrada Primária\n        terms: \"Primary Road, Estrada Nacional, Rodovia Principal, Estrada Primária, Rodovia Primária, Primário\"\n      highway/primary_link:\n        name: Ligação a uma Estrada Primária\n        terms: \"Primary Link, Ligação Estrada Nacional, Ligação Rodovia Nacional, Ligação Nacional,  Ligação Estrada Principal, Entrada Estrada Nacional, Entrada Rodovia Nacional, Entrada Nacional, Entrada Estrada Nacional, Saída Nacional, Saída Rodovia Nacional, Saída Nacional, Saída Estrada Nacional,\"\n      highway/raceway:\n        name: Circuito de Corrida Automóvel\n        terms: \"Motor Raceway\"\n      highway/residential:\n        name: Rua Residencial\n        terms: \"Estrada Residencial, Rodovia Residencial, Estrada Urbana, Rodovia Urbana, Estrada Suburbana, Rodovia Suburbana, Estrada dentro de localidades, Rodovia dentro de localidades\"\n      highway/rest_area:\n        name: Área de Descanso\n        terms: \"Rest Area, Posto de Descanço\"\n      highway/road:\n        name: Estrada de Tipo Indeterminado\n        terms: \"Estrada Genérica, Rodovia Genérica, Estrada Desconhecida, Rodovia Desconhecida\"\n      highway/secondary:\n        name: Estrada Secundária\n        terms: \"Secondary Road, Estrada Regional, Rodovia Secundária, Secundário\"\n      highway/secondary_link:\n        name: Ligação a uma Estrada Secundária\n        terms: \"Secondary Link, Ligação Estrada Regional, Ligação Rodovia Regional, Ligação Regional,  Ligação Estrada Secundária, Entrada Estrada Regional, Entrada Rodovia Regional, Entrada Regional, Entrada Estrada Secundária, Saída Regional, Saída Rodovia Regional, Saída Regional, Saída Estrada Secundária\"\n      highway/service:\n        name: Estrada de Serviço\n        terms: \"Rodovia de Serviço\"\n      highway/service/alley:\n        name: Traseiras\n        terms: \"Beco\"\n      highway/service/drive-through:\n        name: Drive-Through\n        terms: \"Drive-in, Serviço ao Volante\"\n      highway/service/driveway:\n        name: Acesso a residência / garagem\n        terms: \"Rampa de Acesso, Corredor\"\n      highway/service/emergency_access:\n        name: Acesso de Emergência\n        terms: \"Acesso de Emergência, Entrada de Emergência, Corredor de Emergência\"\n      highway/service/parking_aisle:\n        name: Corredor de Estacionamento\n        terms: \"Pista de Estacionamento, Estacionar\"\n      highway/services:\n        name: Área de Serviço\n        terms: \"Service Area, Posto de Serviço\"\n      highway/steps:\n        name: Escadas\n        terms: \"Escadaria, degraus\"\n      highway/stop:\n        name: Sinal de Stop\n        terms: \"Stop Sign, Sinal de Paragem, Paragem Obrigatória, Sinal de paragem obrigatória no cruzamento ou entroncamento\"\n      highway/street_lamp:\n        name: Poste de Iluminação\n        terms: \"Street Lamp, Poste de Luz, Lâmpada, Luz, Iluminação\"\n      highway/tertiary:\n        name: Estrada Terciária\n        terms: \"Tertiary Road, Estrada Municipal, Caminho Municipal, Rodovia Terciária, Terciário, Caminho Municipal\"\n      highway/tertiary_link:\n        name: Ligação a uma Estrada Terciária\n        terms: \"Tertiary Link, Ligação Estrada Municipal, Ligação Rodovia Municipal, Ligação Municipal,  Ligação Estrada Terciária, Entrada Estrada Municipal, Entrada Rodovia Municipal, Entrada Municipal, Entrada Estrada Terciária, Saída Municipal, Saída Rodovia Municipal, Saída Municipal, Saída Estrada Municipal\"\n      highway/track:\n        name: Estrada Florestal / Agrícola\n        terms: \"Track, Estrada Rural, Carreiro, Carreiro Florestal\"\n      highway/traffic_signals:\n        name: Semáforos\n        terms: \"Semáforo, Vermelho, Verde, Amarelo, Sinal, Sinal de Trânsito\"\n      highway/trunk:\n        name: Via Rápida\n        terms: \"Via Reservada a Automóveis e Motociclos, Estrada Reservada a Automóveis e Motociclos, Via Expressa, Via Reservada\"\n      highway/trunk_link:\n        name: Ligação a uma Via Rápida\n        terms: \"Ligação Via Rápida, Entrada Via Rápida, Saída Via Rápida, Ligação Via Reservada a Automóveis e Motociclos, Entrada Via Reservada a Automóveis e Motociclos, Saída Via Reservada a Automóveis e Motociclos, Ligação Via Expressa, Entrada Expressa, Saída Via Expressa, Ligação Via Reservada, Entrada Via Reservada, Saída Via Reservada\"\n      highway/turning_circle:\n        name: Circulo de Viragem\n        terms: \"Inversão de Marcha\"\n      highway/unclassified:\n        name: Estrada sem Classificação\n        terms: \"Unclassified, Estrada Não-Classificada\"\n      historic:\n        name: Local Histórico\n        terms: \"Local Histórico\"\n      historic/archaeological_site:\n        name: Sítio Arqueológico\n        terms: \"Local Arqueológico\"\n      historic/boundary_stone:\n        name: Marco de Fronteira\n        terms: \"Pilar de Fronteira\"\n      historic/castle:\n        name: Castelo\n        terms: \"Castelo, Fortaleza, Edificação, Medieval\"\n      historic/memorial:\n        name: Memorial\n        terms: \"Memorial, Homenagem\"\n      historic/monument:\n        name: Monumento\n        terms: \"Monumento, Marco\"\n      historic/ruins:\n        name: Ruínas\n        terms: \"Ruínas, Abandonado\"\n      historic/wayside_cross:\n        name: Cruzeiro\n        terms: \" Cruz ao Ar Livre\"\n      historic/wayside_shrine:\n        name: Alminhas / Nicho / Capelinha\n        terms: \"Alminhas / Nicho / Capelinha\"\n      junction:\n        name: Junção\n        terms: \"Junction\"\n      landuse:\n        name: Uso do Solo\n        terms: \"Uso de Terra, Uso de Solo\"\n      landuse/allotments:\n        name: Hortas\n        terms: \"Horta Comunitária, Horta Urbana\"\n      landuse/basin:\n        name: Bacia Hidrográfica\n        terms: \"Bacia de Drenagem\"\n      landuse/cemetery:\n        name: Cemitério\n        terms: \"Cemitério, Vala\"\n      landuse/churchyard:\n        name: Adro da Igreja\n        terms: \"Churchyard, Área da Igreja, Zona da Igreja, Praça da Igreja\"\n      landuse/commercial:\n        name: 'Zona de Escritórios '\n        terms: \"Área comercial, Baixa Comercial\"\n      landuse/construction:\n        name: Construção\n        terms: \"Construção, Obras, Em Curso\"\n      landuse/farm:\n        name: Quinta\n        terms: \"Campo Agrícola, Agricultura\"\n      landuse/farmland:\n        name: Quinta\n        terms: \"Farm, Pasto\"\n      landuse/farmyard:\n        name: Edifícios Agrícolas\n        terms: \"Fazenda, Casa de Campo, Celeiro\"\n      landuse/forest:\n        name: Floresta\n        terms: \"Floresta, Área Verde\"\n      landuse/garages:\n        name: Garagens\n        terms: \"Garages\"\n      landuse/grass:\n        name: Relva\n        terms: \"Relva, Grama\"\n      landuse/industrial:\n        name: Zona Industrial\n        terms: \"Industrial\"\n      landuse/landfill:\n        name: Aterro Sanitário\n        terms: \"Landfill, Lixeira, Sucata\"\n      landuse/meadow:\n        name: Prado\n        terms: \"Meadow\"\n      landuse/military:\n        name: Zona Militar\n        terms: \"Military, Exército, Marinha, Forças Especiais, Força Aérea\"\n      landuse/orchard:\n        name: Pomar\n        terms: \"Plantação, Orchard\"\n      landuse/quarry:\n        name: Pedreira\n        terms: \"Canteira, Quarry\"\n      landuse/residential:\n        name: Zona Residencial\n        terms: \"Residencial, Urbano, Antrópico, Residential\"\n      landuse/retail:\n        name: Zona de Retalhos\n        terms: \"Retalho, Varejo, Compras, Vendas, Retail\"\n      landuse/vineyard:\n        name: Vinha\n        terms: \"Vinhas, Vinhedo, Vinhão, Vineyard\"\n      leisure:\n        name: Lazer\n        terms: \"Lazer, Diversão, Leisure\"\n      leisure/common:\n        name: Baldio\n        terms: \"Common\"\n      leisure/dog_park:\n        name: Parque de Cães\n        terms: \"Parque para Cães, Dog Park\"\n      leisure/firepit:\n        name: Fogueira\n        terms: \"Firepit, Fogo controlado, Chama, Brasa\"\n      leisure/garden:\n        name: Jardim\n        terms: \"Jardim, Garden\"\n      leisure/golf_course:\n        name: Campo de Golfe\n        terms: \"Campo de Golf, Golf, Golf Course\"\n      leisure/ice_rink:\n        name: Ringue de Patinagem\n        terms: \"Ice Rink, Ringue de Gelo, Gelo, Pista de Gelo, Pista de Patinagem\"\n      leisure/marina:\n        name: Marina\n        terms: \"Marina\"\n      leisure/nature_reserve:\n        name: Reserva Natural\n        terms: \"Nature Reserve, Natureza\"\n      leisure/park:\n        name: Parque\n        terms: \"Bosque, Floresta, Jardim, Relva, Relvado\"\n      leisure/picnic_table:\n        name: Mesa de Picnic\n        terms: \"Picnic Table, Mesa de Merenda\"\n      leisure/pitch:\n        name: Campo de Desporto\n        terms: \"Campo de Desportos, Quadra Desportiva, Sport Pitch\"\n      leisure/pitch/american_football:\n        name: Campo de Futebol Americano\n        terms: \"Campo de Futebol Americano, Rugby, Râguebi, American Football\"\n      leisure/pitch/baseball:\n        name: Campo de Basebol\n        terms: \"Campo de Baisebol, Baseball Diamond\"\n      leisure/pitch/basketball:\n        name: Campo de Basquetebol\n        terms: \"Campo de Basquetebol, Quadra de Basquetebol, Basketball Court\"\n      leisure/pitch/skateboard:\n        name: Parque de Skate\n        terms: \"Skate Park, Skate\"\n      leisure/pitch/soccer:\n        name: Campo de Futebol\n        terms: \"Campo de Futebol, Soccer Field\"\n      leisure/pitch/tennis:\n        name: Campo de Ténis\n        terms: \"Campo de Ténis, Quadra de Ténis, Tennis Court\"\n      leisure/pitch/volleyball:\n        name: Campo de Voleibol\n        terms: \"Campo de Voleibol, Quadra de Voleibol, Volleyball Court\"\n      leisure/playground:\n        name: Parque Infantil\n        terms: \"Parque Infantil, Escorrega, Baloiço, Escorregas, Baloiços\"\n      leisure/running_track:\n        name: Pista de Corrida\n        terms: \"Racing Track, Pista de Atletismo\"\n      leisure/slipway:\n        name: Rampa para Barcos\n        terms: \"Slipway\"\n      leisure/sports_center:\n        name: Centro Desportivo / Ginásio\n        terms: \"Sports Center / Gym, Exercício Físico\"\n      leisure/stadium:\n        name: Estádio\n        terms: \"Estádio, Stadium\"\n      leisure/swimming_pool:\n        name: Piscina\n        terms: \"Piscina, Swimming Pool\"\n      leisure/track:\n        name: Circuito de Corrida (não Motorizada)\n        terms: \"Racetrack (non-Motorsport), Circuito de Bicicletas\"\n      line:\n        name: Linha\n        terms: \"Linha, Line\"\n      man_made:\n        name: Estrutura Artificial\n        terms: \"Construção Humana, Obra Humana, Man Made\"\n      man_made/breakwater:\n        name: Quebra-mar / Molhe\n        terms: \"Breakwater\"\n      man_made/cutline:\n        name: Linha corta-fogo\n        terms: \"Cut line\"\n      man_made/embankment:\n        name: Aterro Elevado\n        terms: \"Embankment, Elevação do Terreno\"\n      man_made/flagpole:\n        name: Estandarte\n        terms: \"Estandarte\"\n      man_made/lighthouse:\n        name: Farol\n        terms: \"Faról, Lighthouse\"\n      man_made/observation:\n        name: Torre de Observação\n        terms: \"Observatório Tower, Miradouro\"\n      man_made/pier:\n        name: Pontão / Atracadouro\n        terms: \"Pier, Porto, Doca\"\n      man_made/pipeline:\n        name: Gasoduto / Oleoduto\n        terms: \"Tubo, Pipeline\"\n      man_made/survey_point:\n        name: Vértice Geodésico / Talefe\n        terms: \"Survey Point\"\n      man_made/tower:\n        name: Torre\n        terms: \"Torre, Alto, Tower\"\n      man_made/wastewater_plant:\n        name: Estação de Tratamento de Águas Residuais\n        terms: \"Wastewater Plant, E.T.A.R., Estação de Tratamento de Resíduos\"\n      man_made/water_tower:\n        name: Reservatório Elevado\n        terms: \"Depósito de Água, Torre de Água, Water Tower\"\n      man_made/water_well:\n        name: Poço de Água\n        terms: \"Water Well\"\n      man_made/water_works:\n        name: Estação de Captação e Tratamento de Água\n        terms: \"Water Works\"\n      military/airfield:\n        name: Base Aérea\n        terms: \"Airfield, Aeródromo Militar\"\n      military/barracks:\n        name: Quartel\n        terms: \"Barracks\"\n      military/bunker:\n        name: Bunker\n        terms: \"Bunker\"\n      military/range:\n        name: Pista de Tiro\n        terms: \"Military Range\"\n      natural:\n        name: Natural\n        terms: \"Natural\"\n      natural/bay:\n        name: Baía\n        terms: \"Baía\"\n      natural/beach:\n        name: Praia\n        terms: \"praia\"\n      natural/cave_entrance:\n        name: Entrada de Gruta\n        terms: \"Cave Entrance\"\n      natural/cliff:\n        name: Precipício\n        terms: \"Escarpa\"\n      natural/coastline:\n        name: Linha Costeira\n        terms: \"Costa, Orla\"\n      natural/fell:\n        name: Encosta\n        terms: \"Fell\"\n      natural/glacier:\n        name: Glaciar\n        terms: \"Glaciar\"\n      natural/grassland:\n        name: Pradaria\n        terms: \"Grassland, Verdes, Terra Verde\"\n      natural/heath:\n        name: Charneca\n        terms: \"Heath\"\n      natural/peak:\n        name: Pico / Cume\n        terms: \"Peak, Montanha, Pináculo\"\n      natural/scree:\n        name: Encosta de Rochas Soltas\n        terms: \"Sree, Cascalho, Pedras\"\n      natural/scrub:\n        name: Matagal\n        terms: \"Scrub\"\n      natural/spring:\n        name: Nascente\n        terms: \"Nascente, Nascente de Água\"\n      natural/tree:\n        name: Árvore\n        terms: \"Árvore\"\n      natural/water:\n        name: Água\n        terms: \"Água\"\n      natural/water/lake:\n        name: Lago\n        terms: \"Jardim de Água, Jardim d'Água, Lagoa, Lagoinha, Pateira\"\n      natural/water/pond:\n        name: Lagoa\n        terms: \"Jardim de Água, Jardim d'Água, Lagoinha, Pateira\"\n      natural/water/reservoir:\n        name: Reservatório Artificial\n        terms: \"Reservatório, Reservatório de Água\"\n      natural/wetland:\n        name: ' Zona húmida'\n        terms: \"Pântano\"\n      natural/wood:\n        name: Bosque\n        terms: \"Wood\"\n      office:\n        name: Escritório\n        terms: \"Office\"\n      office/accountant:\n        name: Contabilista\n        terms: \"Accountant, Contas\"\n      office/administrative:\n        name: Escritório Administrativo\n        terms: \"Administrative Office, Administrativo\"\n      office/architect:\n        name: Arquiteto\n        terms: \"Architect, Arquitetura\"\n      office/company:\n        name: Escritório de Empresa\n        terms: \"Company Office, Sede\"\n      office/educational_institution:\n        name: Instituição de Ensino\n        terms: \"Educacional Institution, Escola\"\n      office/employment_agency:\n        name: Agência de Emprego\n        terms: \"Employment Agency, Agência de Emprego\"\n      office/estate_agent:\n        name: Agência Imobiliária\n        terms: \"Real Estate Office, Imóveis, Mudanças, Compra de Casas\"\n      office/financial:\n        name: Finanças\n        terms: \"Financial Office, Posto de Finanças, Balcão de Finanças\"\n      office/government:\n        name: Escritório Governamental\n        terms: \"Government Office, Governo, Estado\"\n      office/insurance:\n        name: Agência de Seguros\n        terms: \"Insurance Office, Seguros\"\n      office/it:\n        name: Escritório de Informática\n        terms: \"IT Office\"\n      office/lawyer:\n        name: Escritório de Advogados\n        terms: \"Law Office, Agencia de Advocacia\"\n      office/newspaper:\n        name: Jornal\n        terms: \"Newspaper\"\n      office/ngo:\n        name: Escritório de ONG\n        terms: \"NGO Office\"\n      office/physician:\n        name: Médico\n        terms: \"Physician, Doutor\"\n      office/political_party:\n        name: Partido Político\n        terms: \"Political Party\"\n      office/research:\n        name: Centro de Investigação\n        terms: \"Research Office, Escritório de Investigação, Centro de Pesquisa\"\n      office/telecommunication:\n        name: Escritório de Telecomunicações\n        terms: \"Telecom Office, Telecomunicações, Internet, Televisão\"\n      office/therapist:\n        name: Terapeuta\n        terms: \"Therapist\"\n      office/travel_agent:\n        name: Agência de Viagens\n        terms: \"Travel Agency\"\n      piste:\n        name: Pista de Ski\n        terms: \"Piste/Ski Trail\"\n      place:\n        name: Local\n        terms: \"Lugar\"\n      place/city:\n        name: Capital de Distrito\n        terms: \"City, Cidade, Capital, Distrito\"\n      place/hamlet:\n        name: Aldeia\n        terms: \"Hamlet, Aldeamento\"\n      place/island:\n        name: Ilha\n        terms: \"Arquipélago, Atol, Ilha, Ilhéu, Recife, Restinga\"\n      place/isolated_dwelling:\n        name: Habitação Isolada\n        terms: \"Isolated Dwelling\"\n      place/locality:\n        name: Localidade\n        terms: \"Localidade\"\n      place/neighbourhood:\n        name: Lugar\n        terms: \"Neigborhood, Vizinhança\"\n      place/suburb:\n        name: Borough\n        terms: \"Borough\"\n      place/town:\n        name: Cidade\n        terms: \"Town\"\n      place/village:\n        name: Vila\n        terms: \"Vila\"\n      point:\n        name: Nó\n        terms: \"Ponto\"\n      power:\n        name: Energia\n        terms: \"Energia\"\n      power/generator:\n        name: Central de Geração de Energia\n        terms: \"Power Generator, Gerador Elétrico, Energia Eólica, Energia Solar, Energia Termoeléctrica, Energia Nuclear, Central de Energia\"\n      power/line:\n        name: Linha de Alta Tensão\n        terms: \"Linha de Eletricidade, Linha de Transmissão\"\n      power/minor_line:\n        name: Linha de Média e Baixa Tensão\n        terms: \"Minor Power Line, Linha de Transmissão Menor, Linha de Energia Menor\"\n      power/pole:\n        name: Torre de Média e Baixa Tensão\n        terms: \"Power Pole, Poste de Eletricidade\"\n      power/sub_station:\n        name: Subestação\n        terms: \"Substation\"\n      power/substation:\n        name: Subestação\n        terms: \"Substation, energia\"\n      power/tower:\n        name: Torre de Alta Tensão\n        terms: \"High-Voltage Tower, Torre de Alta-Tensão, Poste de Alta-Tensão\"\n      power/transformer:\n        name: Transformador de Distribuição\n        terms: \"Transformador\"\n      public_transport/platform:\n        name: Plataforma de Transporte Público\n        terms: \"Platform\"\n      public_transport/stop_position:\n        name: Paragem de Transporte Público\n        terms: \"Stop Position\"\n      railway:\n        name: Ferrovia\n        terms: \"Carris, Linha de Carris\"\n      railway/abandoned:\n        name: Ferrovia Abandonada\n        terms: \"Carris Abandonados, Linha de Carris Abandonados\"\n      railway/disused:\n        name: Ferrovia Não Usada\n        terms: \"Carris Fora de Serviço\"\n      railway/funicular:\n        name: Funicular\n        terms: \"Funicular, Plano Inclinado\"\n      railway/halt:\n        name: Apeadeiro\n        terms: \"Railway Halt\"\n      railway/level_crossing:\n        name: Passagem de Nível\n        terms: \"Passagem em Nível, Passagem de Comboios\"\n      railway/monorail:\n        name: Monocarril\n        terms: \"Monorail\"\n      railway/narrow_gauge:\n        name: Via Estreita\n        terms: \"Narrow Gauge Rail, Bitola Estreita, Via Métrica, Bitola Métrica\"\n      railway/platform:\n        name: Plataforma Ferroviária\n        terms: \"Railway Platform\"\n      railway/rail:\n        name: Carris\n        terms: \"Rail, Linha Férrea\"\n      railway/station:\n        name: Estação Ferroviária\n        terms: \"Railway Station, Estação de Comboios\"\n      railway/subway:\n        name: Metro\n        terms: \"Metro\"\n      railway/subway_entrance:\n        name: Entrada de Metro\n        terms: \"Entrada do Metro, Metro, Metropolitano, Subterrâneo \"\n      railway/tram:\n        name: Elétrico\n        terms: \"Elétrico\"\n      relation:\n        name: Relação\n        terms: \"Relação\"\n      roundabout:\n        name: Rotunda\n        terms: \"Roundabout, Rotatória\"\n      route/ferry:\n        name: Rota de Barca / Ferry\n        terms: \"Rota do Ferry\"\n      shop:\n        name: Loja\n        terms: \"Loja\"\n      shop/alcohol:\n        name: Loja de Bebidas Alcoólicas\n        terms: \"Alcool\"\n      shop/anime:\n        name: Loja de Anime\n        terms: \"Anime Shop, Loja de material Asiático, Manga, Anime\"\n      shop/antiques:\n        name: Loja de Antiguidades\n        terms: \"Antiques Shop\"\n      shop/art:\n        name: Galeria de Arte\n        terms: \"Art Gallery, Art Shop, Exposição\"\n      shop/baby_goods:\n        name: Loja de Acessórios para Bebés\n        terms: \"Baby Goods Store, Loja de Roupa, Carrinho, Brinquedos\"\n      shop/bag:\n        name: Loja de Malas / Bagagem\n        terms: \"Bag/Luggage Store\"\n      shop/bakery:\n        name: Padaria\n        terms: \"Padaria\"\n      shop/bathroom_furnishing:\n        name: Loja de Assessórios para Casas de Banho\n        terms: \"Bathroom Furnishing Store\"\n      shop/beauty:\n        name: Loja de Beleza\n        terms: \"Loja de Beleza\"\n      shop/bed:\n        name: Loja de Camas / Colchões\n        terms: \"Bedding/Mattress Store\"\n      shop/beverages:\n        name: Loja de Bebidas\n        terms: \"Beverage Store\"\n      shop/bicycle:\n        name: Loja de Bicicletas\n        terms: \"Loja de Bicicletas\"\n      shop/bookmaker:\n        name: Casa de Apostas\n        terms: \"Bookmaker, Bolsa de apostas\"\n      shop/books:\n        name: Livraria\n        terms: \"Book Store, Loja de Livros\"\n      shop/boutique:\n        name: Boutique\n        terms: \"Boutique\"\n      shop/butcher:\n        name: Talho\n        terms: \"Talho\"\n      shop/candles:\n        name: Loja de Velas\n        terms: \"Candle Shop\"\n      shop/car:\n        name: Loja de Automóveis\n        terms: \"Concessonária de Automomóveis\"\n      shop/car_parts:\n        name: Loja de Acessórios para Automóvel\n        terms: \"Loja de Peças Automóveis\"\n      shop/car_repair:\n        name: Oficina de Automóveis\n        terms: \"Ofinina de Automóveis\"\n      shop/carpet:\n        name: Loja de Carpetes / Tapetes\n        terms: \"Carpet Store\"\n      shop/cheese:\n        name: Loja de Queijos\n        terms: \"Cheese Store\"\n      shop/chemist:\n        name: Drogaria\n        terms: \"Chemist\"\n      shop/chocolate:\n        name: Loja de Chocolate\n        terms: \"Chocolate Store\"\n      shop/clothes:\n        name: Loja de Roupas\n        terms: \"Loja de Roupa\"\n      shop/computer:\n        name: Loja de Informática\n        terms: \"Loja de Informática\"\n      shop/confectionery:\n        name: Confeitaria\n        terms: \"Candy Store, Loja de Gomas\"\n      shop/convenience:\n        name: Loja de Conveniência\n        terms: \"Loja de Conviniência\"\n      shop/copyshop:\n        name: Loja de Fotocópias\n        terms: \"Copy Store\"\n      shop/cosmetics:\n        name: Loja de Cosmetica\n        terms: \"Cosmetics\"\n      shop/craft:\n        name: Loja de Artes e Ofícios\n        terms: \"Arts and Crafts Store\"\n      shop/curtain:\n        name: Loja de Curtinas\n        terms: \"Curtain Store\"\n      shop/dairy:\n        name: Loja de Lacticínios\n        terms: \"Dairy Store, Produtos Lácteos\"\n      shop/deli:\n        name: Loja de Gourmet / Delicacias\n        terms: \"Deli\"\n      shop/department_store:\n        name: Grande Armazém\n        terms: \"Department Store\"\n      shop/doityourself:\n        name: Loja de Bricolagem\n        terms: \"DIY Store, Obras, Bricolage\"\n      shop/dry_cleaning:\n        name: Limpeza a Seco\n        terms: \"Dry Cleaner\"\n      shop/electronics:\n        name: Loja de Eletrónica de Consumo\n        terms: \"Loja de Eletrodomésticos\"\n      shop/erotic:\n        name: Sex Shop\n        terms: \"Erotic Store\"\n      shop/fabric:\n        name: Loja de Tecidos\n        terms: \"Fabric Store\"\n      shop/farm:\n        name: Barraca de Produtos do Campo\n        terms: \"Barraca de Fruta, Barraca de Legumes, Barraca de Hortaliças, Barraca de Batatas\"\n      shop/fashion:\n        name: Loja de Moda\n        terms: \"Fashion Store\"\n      shop/fishmonger:\n        name: Peixaria\n        terms: \"Fishmonger, Pesqueiro\"\n      shop/florist:\n        name: Florista\n        terms: \"Florista\"\n      shop/frame:\n        name: Loja de Molduras\n        terms: \"Framing Shop\"\n      shop/funeral_directors:\n        name: Agência Funerária\n        terms: \"Funeral Home, Casa Funerária, Agência Mortuária, Casa Mortuária\"\n      shop/furnace:\n        name: Fábrica de Fornos\n        terms: \"Furnace Store, Loja de Fornos\"\n      shop/furniture:\n        name: Loja de Mobiliário\n        terms: \"Loja de Móveis\"\n      shop/garden_centre:\n        name: Loja de Jardinagem\n        terms: \"Garden Center, Flores\"\n      shop/gift:\n        name: Loja de Lembranças\n        terms: \"Loja de Recordações\"\n      shop/greengrocer:\n        name: Loja de Frutas e Verduras\n        terms: \"Greengrocer\"\n      shop/hairdresser:\n        name: Cabeleireiro\n        terms: \"Cabeleireiro\"\n      shop/hardware:\n        name: Loja de Ferragens\n        terms: \"Hardware Store\"\n      shop/hearing_aids:\n        name: Loja de Aparelhos Auditivos\n        terms: \"Hearing Aids Store\"\n      shop/herbalist:\n        name: Herbalista\n        terms: \"Herbalist\"\n      shop/hifi:\n        name: Loja de Alta Fidelidade\n        terms: \"Hifi Store, Som\"\n      shop/houseware:\n        name: Loja de Decoração e Bricolage\n        terms: \"Houseware Store\"\n      shop/interior_decoration:\n        name: Loja de Decoração de Interiores\n        terms: \"Interior Decoration Store\"\n      shop/jewelry:\n        name: Joalharia\n        terms: \"Jeweler\"\n      shop/kiosk:\n        name: Quiosque\n        terms: \"News Kiosk\"\n      shop/kitchen:\n        name: Loja de Materiais de Culinária\n        terms: \"Kitchen Design Store\"\n      shop/laundry:\n        name: Lavandaria\n        terms: \"Laundry, Roupa, Secagem\"\n      shop/leather:\n        name: Loja de Peles\n        terms: \"Leather Store, Loja de Cabedais\"\n      shop/locksmith:\n        name: Serralheiro\n        terms: \"Locksmith, Fechaduras\"\n      shop/lottery:\n        name: Lotaria\n        terms: \"Lottery Shop, Jogos Santa Casa, Euromilhões, Totoloto, Totobola, Joker, Raspadinha, Pé-de-Meia, Loja da Sorte\"\n      shop/mall:\n        name: Centro Comercial\n        terms: \"Mall, Shopping\"\n      shop/massage:\n        name: Loja de Massagens\n        terms: \"Massage Shop, Massagista\"\n      shop/medical_supply:\n        name: 'Loja de Materiais Médicos '\n        terms: \"Medical Supply Store\"\n      shop/mobile_phone:\n        name: Loja de Telemóveis\n        terms: \"Loja de Telemóveis\"\n      shop/money_lender:\n        name: Emprestador de Dinheiro\n        terms: \"Money Lender\"\n      shop/motorcycle:\n        name: Loja de Motas\n        terms: \"Loja de Motos\"\n      shop/music:\n        name: Loja de Música\n        terms: \"Loja de Música\"\n      shop/musical_instrument:\n        name: Loja de Instrumentos Musicais\n        terms: \"Musical Instrument Store, Guitarra, Piano, Violino, Bateria, Som\"\n      shop/newsagent:\n        name: Loja de Jornais / Revistas\n        terms: \"Newspaper/Magazine Shop\"\n      shop/optician:\n        name: Loja de Ótica / Oculos\n        terms: \"Optician\"\n      shop/organic:\n        name: Loja de Material Orgânico\n        terms: \"Organic Good Store\"\n      shop/outdoor:\n        name: Loja de Equipamento Outdoor\n        terms: \"Outdoors Store, Caminada, Escalada, Passeio\"\n      shop/paint:\n        name: Loja de Tintas\n        terms: \"Paint Store, Tintas\"\n      shop/pawnbroker:\n        name: Loja de Penhoras\n        terms: \"Pawn Shop\"\n      shop/pet:\n        name: Loja de Animais\n        terms: \"Loja de Animais\"\n      shop/photo:\n        name: Loja de Fotografia\n        terms: \"Photography Store, Fotográfo\"\n      shop/pyrotechnics:\n        name: Loja de Pirotécnia\n        terms: \"Fireworks Store, Fogo de Artifício\"\n      shop/radiotechnics:\n        name: Loja de Componentes de Eletrónicos / Rádio\n        terms: \"Radio/Electronic Component Store\"\n      shop/religion:\n        name: Loja de Artigos Religiosos\n        terms: \"Religious Store, Religião\"\n      shop/scuba_diving:\n        name: Loja de Equipamento para Mergulho\n        terms: \"Scuba Diving Shop\"\n      shop/seafood:\n        name: Loja de Frutos do Mar\n        terms: \"Seafood Shop, Camarão, Lagosta, Caranguejo, Ameijoas, Mexilhões\"\n      shop/second_hand:\n        name: Loja de Produtos em Segunda Mão\n        terms: \"Consignment/Thrift Store, Loja de Consignação\"\n      shop/shoes:\n        name: Sapataria\n        terms: \"Loja de Sapatos, Sapataria\"\n      shop/sports:\n        name: Loja de Artigos de Desporto\n        terms: \"Loja de Desporto\"\n      shop/stationery:\n        name: Papelaria\n        terms: \"Stationery Store\"\n      shop/supermarket:\n        name: Supermercado\n        terms: \"Bazar, Centro Comercial, Compras, Feira, Hipermercado, Minimercado, Stand, Outlet\"\n      shop/tailor:\n        name: Alfaiate\n        terms: \"Tailor, Vestido, Fato, Roupa\"\n      shop/tattoo:\n        name: 'Estúdio de Tatuagens '\n        terms: \"Tattoo Parlor, Tatuagens \"\n      shop/tea:\n        name: Loja de Chá\n        terms: \"Tea Store\"\n      shop/ticket:\n        name: Bilheteira\n        terms: \"Ticket Seller, Bilheteria, Bilhete, Ingresso\"\n      shop/tobacco:\n        name: Tabacaria\n        terms: \"Tobacco Shop, Loja de Tabaco\"\n      shop/toys:\n        name: Loja de Brinquedos\n        terms: \"Loja de Brinquedos\"\n      shop/travel_agency:\n        name: Agência de Viagens\n        terms: \"Agência de Viagens\"\n      shop/tyres:\n        name: Loja de Pneus\n        terms: \"Loja de Pneus, Casa dos Pneus\"\n      shop/vacant:\n        name: Loja Vazia\n        terms: \"Vacant Shop\"\n      shop/vacuum_cleaner:\n        name: Loja de Aspiradores\n        terms: \"Vacuum Cleaner Store\"\n      shop/variety_store:\n        name: Loja dos Chineses\n        terms: \"Variety Store, Loja dos 300, Loja dos Trezentos javascript:;\"\n      shop/video:\n        name: Videoclube\n        terms: \"Video Store\"\n      shop/video_games:\n        name: Loja de Videojogos\n        terms: \"Video Game Store, Jogos de Computador, Consola\"\n      shop/water_sports:\n        name: Loja de Material de Natação\n        terms: \"Watersport/Swim Shop, Material de Banho\"\n      shop/weapons:\n        name: Armaria\n        terms: \"Weapon Shop, Loja de Armas\"\n      shop/window_blind:\n        name: Loja de Estores\n        terms: \"Window Blind Store\"\n      shop/wine:\n        name: Loja de Vinhos\n        terms: \"Wine Shop, Loja de Licor, Bebidas Alcoolicas\"\n      tourism:\n        name: Turismo\n        terms: \"Turismo\"\n      tourism/alpine_hut:\n        name: Albergue de Montanha\n        terms: \"Alpine Hut\"\n      tourism/artwork:\n        name: Obra de Arte\n        terms: \"Arte, Mural\"\n      tourism/attraction:\n        name: Atração Turística\n        terms: \"Atração Turística\"\n      tourism/camp_site:\n        name: Parque de Campismo\n        terms: \"Acampamento\"\n      tourism/caravan_site:\n        name: Parque de Caravanas\n        terms: \"RV Park\"\n      tourism/chalet:\n        name: Chalé / Casa de Férias\n        terms: \"Chalet\"\n      tourism/guest_house:\n        name: Casa de Hóspedes\n        terms: \"Cama e Pequeno Almoço, Cama e Peq. Almoço, Cama e Almoço\"\n      tourism/hostel:\n        name: Pousada / Hostel\n        terms: \"Hostel\"\n      tourism/hotel:\n        name: Hotel\n        terms: \"Hotel\"\n      tourism/information:\n        name: Informação Turística\n        terms: \"Informação\"\n      tourism/motel:\n        name: Motel\n        terms: \"Motel\"\n      tourism/museum:\n        name: Museu\n        terms: \"Exposição, Fundação, Galeria, Galeria de Arte, Instituição, Livraria, Salão\"\n      tourism/picnic_site:\n        name: Parque de Merendas / Piqueniques\n        terms: \"Lugar de Merendas\"\n      tourism/theme_park:\n        name: Parque de Diversões\n        terms: \"Theme Park\"\n      tourism/viewpoint:\n        name: Miradouro\n        terms: \"Viewpoint\"\n      tourism/zoo:\n        name: Jardim Zoológico\n        terms: \"Zoológico, Zoo\"\n      traffic_calming/bump:\n        name: Lomba Pequena\n        terms: \"Speed Bump, Lombada, Policia Deitado\"\n      traffic_calming/hump:\n        name: Lomba Grande\n        terms: \"Speed Hump\"\n      traffic_calming/rumble_strip:\n        name: Bandas Cromáticas\n        terms: \"Rumble Strip\"\n      traffic_calming/table:\n        name: Passadeira Lombada\n        terms: \"Raised Pedestrian Crossing\"\n      type/boundary:\n        name: Fronteira\n        terms: \"Fronteira\"\n      type/boundary/administrative:\n        name: Fronteira Administrativa\n        terms: \"Fronteira Admistrativa\"\n      type/multipolygon:\n        name: Multipolígono\n        terms: \"Multipolígono\"\n      type/restriction:\n        name: Restrição\n        terms: \"Restrição, Proibição\"\n      type/restriction/no_left_turn:\n        name: Proibição de Virar à Esquerda\n        terms: \"No Left Turn, Não Virar à Esquerda\"\n      type/restriction/no_right_turn:\n        name: Proibição de Virar à Direita\n        terms: \"No Right Turn, Não Virar à Direita\"\n      type/restriction/no_straight_on:\n        name: Sentido Proibido\n        terms: \"No Straight On, Proibido Seguir em Frente, Proibição de Seguir em Frente\"\n      type/restriction/no_u_turn:\n        name: \"Proibição de Inversão do Sentido de \\nMarcha\"\n        terms: \"No U-turn, Não Inverter o Sentido\"\n      type/restriction/only_left_turn:\n        name: Sentido Obrigatório para a Esquerda\n        terms: \"Left Turn Only, Proibido Virar para a Direita\"\n      type/restriction/only_right_turn:\n        name: Sentido Obrigatório para a Direita\n        terms: \"Right Turn Only, Proibido Virar para a Esquerda\"\n      type/restriction/only_straight_on:\n        name: Sentido Obrigatório para a Frente\n        terms: \"No Turns, Proibido Virar\"\n      type/route:\n        name: Rota\n        terms: \"Rota, Linha\"\n      type/route/bicycle:\n        name: Rota de Bicicleta\n        terms: \"Rota de Bicicletas\"\n      type/route/bus:\n        name: Rota de Autocarro\n        terms: \"Rota de Autocarros, Linha de Autocarro\"\n      type/route/detour:\n        name: Rota de Desvio\n        terms: \"Detour Route\"\n      type/route/ferry:\n        name: Rota de Barca / Ferry\n        terms: \"Rota do Ferry\"\n      type/route/foot:\n        name: Rota Pedestre\n        terms: \"Foot Route\"\n      type/route/hiking:\n        name: Rota de Caminhada\n        terms: \"Hiking Route, Rota de Escalagem\"\n      type/route/pipeline:\n        name: Rota de Gasoduto / Oleoduto\n        terms: \"Pipeline Route\"\n      type/route/power:\n        name: Rota de Transmissão de Energia\n        terms: \"Linha de Eletricidade, Linha de Energia\"\n      type/route/road:\n        name: Rota Rodoviária\n        terms: \"Percurso Rodoviário, Trajecto Rodoviário\"\n      type/route/train:\n        name: Rota Ferroviária\n        terms: \"Train Route, Rota de Comboio, Rota de Metro, Rota de Elétrico, Rota de Caminhos de Ferro\"\n      type/route/tram:\n        name: Rota de Elétrico\n        terms: \"Tram Route\"\n      type/route_master:\n        name: Rede de Rotas\n        terms: \"Route Master, Rota Mestre\"\n      vertex:\n        name: Outro\n        terms: \"Outro\"\n      waterway:\n        name: Curso de Água\n        terms: \"Waterway\"\n      waterway/canal:\n        name: Canal\n        terms: \"Canal\"\n      waterway/dam:\n        name: Barragem\n        terms: \"Barragem\"\n      waterway/ditch:\n        name: Fosso\n        terms: \"Vala, Trincheira, Represa\"\n      waterway/drain:\n        name: Vala de Drenagem\n        terms: \"Drain\"\n      waterway/river:\n        name: Rio\n        terms: \"Afluente, Barra, Barroca, Canal, Corga, Curso de Água, Delta, Estuário, Grota, Ria\"\n      waterway/riverbank:\n        name: Margem de Rio\n        terms: \"Riverbank\"\n      waterway/stream:\n        name: Ribeiro\n        terms: \"Afluente, Barra, Barroca, Canal, Corga, Curso de Água, Delta, Estuário, Fio de Água, Grota, Regato, Rego, Riacho, Ribeira, Ribeiro, Ria, Vala, Valeiro\"\n      waterway/weir:\n        name: Represa\n        terms: \"Weir\"\n",
-	"mimetype": "text/plain"
+
+"pt": {
+
+
+"presets": {
+
+
+
+"categories": {
+
+
+
+
+"category-building": {
+
+
+
+
+
+"name": "Edifício"
+
+
+
+
+},
+
+
+
+
+"category-golf": {
+
+
+
+
+
+"name": "Golfe"
+
+
+
+
+},
+
+
+
+
+"category-landuse": {
+
+
+
+
+
+"name": "Uso do Solo"
+
+
+
+
+},
+
+
+
+
+"category-path": {
+
+
+
+
+
+"name": "Caminho"
+
+
+
+
+},
+
+
+
+
+"category-rail": {
+
+
+
+
+
+"name": "Ferrovia"
+
+
+
+
+},
+
+
+
+
+"category-restriction": {
+
+
+
+
+
+"name": "Restrição"
+
+
+
+
+},
+
+
+
+
+"category-road": {
+
+
+
+
+
+"name": "Rodovia"
+
+
+
+
+},
+
+
+
+
+"category-route": {
+
+
+
+
+
+"name": "Rota"
+
+
+
+
+},
+
+
+
+
+"category-water-area": {
+
+
+
+
+
+"name": "Água"
+
+
+
+
+},
+
+
+
+
+"category-water-line": {
+
+
+
+
+
+"name": "Água"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"fields": {
+
+
+
+
+"access": {
+
+
+
+
+
+"label": "Acesso",
+
+
+
+
+
+"placeholder": "Desconhecido",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Geral",
+
+
+
+
+
+
+"foot": "Peões",
+
+
+
+
+
+
+"motor_vehicle": "Veículos Motorizados",
+
+
+
+
+
+
+"bicycle": "Bicicletas",
+
+
+
+
+
+
+"horse": "Animais"
+
+
+
+
+
+},
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"title": "Permitido",
+
+
+
+
+
+
+
+"description": "Acesso permitido por lei"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"title": "Proibido",
+
+
+
+
+
+
+
+"description": "Acesso não permitido ao público em geral"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"title": "Permissivo",
+
+
+
+
+
+
+
+"description": "Acesso permitido até o proprietário revogar a permissão"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"title": "Privado",
+
+
+
+
+
+
+
+"description": "Acesso permitido apenas com permissão do proprietário de forma individual"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"designated": {
+
+
+
+
+
+
+
+"title": "Designado",
+
+
+
+
+
+
+
+"description": "Acesso permitido de acordo com a sinalética e/ou com leis locais específicas; como p. ex. o Código da Estrada"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"destination": {
+
+
+
+
+
+
+
+"title": "Destino",
+
+
+
+
+
+
+
+"description": "Acesso permitido apenas para chegar a determinado destino; como p. ex. parques de estacionamento ou centros comerciais"
+
+
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"access_simple": {
+
+
+
+
+
+"label": "Acesso",
+
+
+
+
+
+"placeholder": "sim"
+
+
+
+
+},
+
+
+
+
+"access_toilets": {
+
+
+
+
+
+"label": "Acesso"
+
+
+
+
+},
+
+
+
+
+"address": {
+
+
+
+
+
+"label": "Morada",
+
+
+
+
+
+"placeholders": {
+
+
+
+
+
+
+"housename": "Nome da Habitação",
+
+
+
+
+
+
+"housenumber": "123",
+
+
+
+
+
+
+"street": "Rua",
+
+
+
+
+
+
+"city": "Localidade",
+
+
+
+
+
+
+"postcode": "Código Postal",
+
+
+
+
+
+
+"place": "Sítio",
+
+
+
+
+
+
+"hamlet": "Aldeia",
+
+
+
+
+
+
+"suburb": "Subúrbio ",
+
+
+
+
+
+
+"subdistrict": "Subdistrito",
+
+
+
+
+
+
+"district": "Distrito",
+
+
+
+
+
+
+"province": "Província",
+
+
+
+
+
+
+"state": "Estado",
+
+
+
+
+
+
+"country": "País"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"admin_level": {
+
+
+
+
+
+"label": "Nível Administrativo"
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"aerialway/access": {
+
+
+
+
+
+"label": "Acesso",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"entry": "Entrada",
+
+
+
+
+
+
+"exit": "Saída",
+
+
+
+
+
+
+"both": "Ambas"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"aerialway/bubble": {
+
+
+
+
+
+"label": "Bolha"
+
+
+
+
+},
+
+
+
+
+"aerialway/capacity": {
+
+
+
+
+
+"label": "Capacidade (por hora)",
+
+
+
+
+
+"placeholder": "500, 2500, 5000..."
+
+
+
+
+},
+
+
+
+
+"aerialway/duration": {
+
+
+
+
+
+"label": "Duração (minutos)",
+
+
+
+
+
+"placeholder": "1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"aerialway/heating": {
+
+
+
+
+
+"label": "Aquecido"
+
+
+
+
+},
+
+
+
+
+"aerialway/occupancy": {
+
+
+
+
+
+"label": "Ocupação Máxima",
+
+
+
+
+
+"placeholder": "2, 4, 8...."
+
+
+
+
+},
+
+
+
+
+"aerialway/summer/access": {
+
+
+
+
+
+"label": "Acesso (verão)",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"entry": "Entrada",
+
+
+
+
+
+
+"exit": "Saída",
+
+
+
+
+
+
+"both": "Ambas"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"amenity": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"artist": {
+
+
+
+
+
+"label": "Artista"
+
+
+
+
+},
+
+
+
+
+"artwork_type": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"atm": {
+
+
+
+
+
+"label": "Multibanco"
+
+
+
+
+},
+
+
+
+
+"backrest": {
+
+
+
+
+
+"label": "Encosto"
+
+
+
+
+},
+
+
+
+
+"barrier": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"bench": {
+
+
+
+
+
+"label": "Banco de Sentar"
+
+
+
+
+},
+
+
+
+
+"bicycle_parking": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"boundary": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"brand": {
+
+
+
+
+
+"label": "Variedade"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"label": "Edifício"
+
+
+
+
+},
+
+
+
+
+"building_area": {
+
+
+
+
+
+"label": "Edifício"
+
+
+
+
+},
+
+
+
+
+"capacity": {
+
+
+
+
+
+"label": "Capacidade",
+
+
+
+
+
+"placeholder": "50, 100, 200..."
+
+
+
+
+},
+
+
+
+
+"cardinal_direction": {
+
+
+
+
+
+"label": "Direção",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"N": "Norte",
+
+
+
+
+
+
+"E": "Este",
+
+
+
+
+
+
+"S": "Sul",
+
+
+
+
+
+
+"W": "Oeste",
+
+
+
+
+
+
+"NE": "Nordeste",
+
+
+
+
+
+
+"SE": "Sudeste",
+
+
+
+
+
+
+"SW": "Sudoeste",
+
+
+
+
+
+
+"NW": "Noroeste",
+
+
+
+
+
+
+"NNE": "Nor-nordeste",
+
+
+
+
+
+
+"ENE": " Lés-nordeste",
+
+
+
+
+
+
+"ESE": "Lés-sudeste",
+
+
+
+
+
+
+"SSE": "Su-sudeste",
+
+
+
+
+
+
+"SSW": "Su-sudoeste",
+
+
+
+
+
+
+"WSW": "Oés-sudoeste",
+
+
+
+
+
+
+"WNW": "Oés-noroeste",
+
+
+
+
+
+
+"NNW": "Nor-noroeste"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"clock_direction": {
+
+
+
+
+
+"label": "Direção",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"clockwise": "Sentido dos Ponteiros do Relógio",
+
+
+
+
+
+
+"anticlockwise": "Sentido Contrário aos Ponteiros do Relógio."
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"collection_times": {
+
+
+
+
+
+"label": "Horário de Recolha"
+
+
+
+
+},
+
+
+
+
+"construction": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"country": {
+
+
+
+
+
+"label": "País"
+
+
+
+
+},
+
+
+
+
+"covered": {
+
+
+
+
+
+"label": "Coberto"
+
+
+
+
+},
+
+
+
+
+"craft": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"crop": {
+
+
+
+
+
+"label": "Produção"
+
+
+
+
+},
+
+
+
+
+"crossing": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"cuisine": {
+
+
+
+
+
+"label": "Culinária"
+
+
+
+
+},
+
+
+
+
+"delivery": {
+
+
+
+
+
+"label": "Entrega"
+
+
+
+
+},
+
+
+
+
+"denomination": {
+
+
+
+
+
+"label": "Denominação"
+
+
+
+
+},
+
+
+
+
+"denotation": {
+
+
+
+
+
+"label": "Denotação"
+
+
+
+
+},
+
+
+
+
+"description": {
+
+
+
+
+
+"label": "Descrição"
+
+
+
+
+},
+
+
+
+
+"electrified": {
+
+
+
+
+
+"label": "Eletrificação",
+
+
+
+
+
+"placeholder": "Catenária, Linha Eletrificada...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"contact_line": "Catenária (Linha de contacto)",
+
+
+
+
+
+
+"rail": "Linha Eletrificada",
+
+
+
+
+
+
+"yes": "Sim (não especificada)",
+
+
+
+
+
+
+"no": "Não"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"elevation": {
+
+
+
+
+
+"label": "Elevação"
+
+
+
+
+},
+
+
+
+
+"emergency": {
+
+
+
+
+
+"label": "Emergência"
+
+
+
+
+},
+
+
+
+
+"entrance": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"except": {
+
+
+
+
+
+"label": "Exceções"
+
+
+
+
+},
+
+
+
+
+"fax": {
+
+
+
+
+
+"label": "Fax",
+
+
+
+
+
+"placeholder": "+351 252 471441"
+
+
+
+
+},
+
+
+
+
+"fee": {
+
+
+
+
+
+"label": "Taxa"
+
+
+
+
+},
+
+
+
+
+"fire_hydrant/type": {
+
+
+
+
+
+"label": "Tipo",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"pillar": "Superfície ",
+
+
+
+
+
+
+"underground": "Subterrâneo ",
+
+
+
+
+
+
+"wall": "Muro",
+
+
+
+
+
+
+"pond": "Poça"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"fixme": {
+
+
+
+
+
+"label": "Corrigir"
+
+
+
+
+},
+
+
+
+
+"fuel": {
+
+
+
+
+
+"label": "Combustível"
+
+
+
+
+},
+
+
+
+
+"fuel/biodiesel": {
+
+
+
+
+
+"label": "Vende Biodiesel"
+
+
+
+
+},
+
+
+
+
+"fuel/diesel": {
+
+
+
+
+
+"label": "Vende Gasóleo"
+
+
+
+
+},
+
+
+
+
+"fuel/e10": {
+
+
+
+
+
+"label": "Vende \"Etanol 10\""
+
+
+
+
+},
+
+
+
+
+"fuel/e85": {
+
+
+
+
+
+"label": "Vende \"Etanol 85\""
+
+
+
+
+},
+
+
+
+
+"fuel/lpg": {
+
+
+
+
+
+"label": "Vende GPL"
+
+
+
+
+},
+
+
+
+
+"fuel/octane_100": {
+
+
+
+
+
+"label": "Vende \"Gasolina 100\""
+
+
+
+
+},
+
+
+
+
+"fuel/octane_91": {
+
+
+
+
+
+"label": "Vende \"Gasolina 91\""
+
+
+
+
+},
+
+
+
+
+"fuel/octane_95": {
+
+
+
+
+
+"label": "Vende \"Gasolina 95\""
+
+
+
+
+},
+
+
+
+
+"fuel/octane_98": {
+
+
+
+
+
+"label": "Vende \"Gasolina 98\""
+
+
+
+
+},
+
+
+
+
+"gauge": {
+
+
+
+
+
+"label": "Bitola"
+
+
+
+
+},
+
+
+
+
+"gender": {
+
+
+
+
+
+"label": "Género",
+
+
+
+
+
+"placeholder": "Desconhecido",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"male": "Masculino",
+
+
+
+
+
+
+"female": "Feminino",
+
+
+
+
+
+
+"unisex": "Unisexo"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"generator/method": {
+
+
+
+
+
+"label": "Método"
+
+
+
+
+},
+
+
+
+
+"generator/source": {
+
+
+
+
+
+"label": "Fonte"
+
+
+
+
+},
+
+
+
+
+"generator/type": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"golf_hole": {
+
+
+
+
+
+"label": "Referência",
+
+
+
+
+
+"placeholder": "Número do Buraco (1-18)"
+
+
+
+
+},
+
+
+
+
+"handicap": {
+
+
+
+
+
+"label": "Handicap",
+
+
+
+
+
+"placeholder": "1-18"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"historic": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"hoops": {
+
+
+
+
+
+"label": "Cestos",
+
+
+
+
+
+"placeholder": "1, 2, 4..."
+
+
+
+
+},
+
+
+
+
+"iata": {
+
+
+
+
+
+"label": "IATA"
+
+
+
+
+},
+
+
+
+
+"icao": {
+
+
+
+
+
+"label": "ICAO"
+
+
+
+
+},
+
+
+
+
+"incline": {
+
+
+
+
+
+"label": "Inclinação"
+
+
+
+
+},
+
+
+
+
+"information": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"internet_access": {
+
+
+
+
+
+"label": "Acesso à Internet",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yes": "Sim",
+
+
+
+
+
+
+"no": "Não",
+
+
+
+
+
+
+"wlan": "Wi-Fi",
+
+
+
+
+
+
+"wired": "Com fio",
+
+
+
+
+
+
+"terminal": "Terminal de acesso"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"lamp_type": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"lanes": {
+
+
+
+
+
+"label": "Vias de Trânsito",
+
+
+
+
+
+"placeholder": "1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"layer": {
+
+
+
+
+
+"label": "Camada"
+
+
+
+
+},
+
+
+
+
+"leaf_cycle": {
+
+
+
+
+
+"label": "Ciclo das Folhas",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"evergreen": "Persistente",
+
+
+
+
+
+
+"deciduous": "Caduca",
+
+
+
+
+
+
+"semi_evergreen": "Semi-Presistente",
+
+
+
+
+
+
+"semi_deciduous": "Semi-Caduca",
+
+
+
+
+
+
+"mixed": "Mistura"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type": {
+
+
+
+
+
+"label": "Tipo de Folha",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Largas",
+
+
+
+
+
+
+"needleleaved": "Agulhas",
+
+
+
+
+
+
+"mixed": "Mistura",
+
+
+
+
+
+
+"leafless": "Sem folha"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leisure": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"length": {
+
+
+
+
+
+"label": "Comprimento (metros)"
+
+
+
+
+},
+
+
+
+
+"levels": {
+
+
+
+
+
+"label": "Nº de Andares",
+
+
+
+
+
+"placeholder": "2, 4, 6..."
+
+
+
+
+},
+
+
+
+
+"lit": {
+
+
+
+
+
+"label": "Iluminação"
+
+
+
+
+},
+
+
+
+
+"location": {
+
+
+
+
+
+"label": "Localização"
+
+
+
+
+},
+
+
+
+
+"man_made": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"maxspeed": {
+
+
+
+
+
+"label": "Limite de Velocidade",
+
+
+
+
+
+"placeholder": "50, 90, 100, 120..."
+
+
+
+
+},
+
+
+
+
+"mtb/scale": {
+
+
+
+
+
+"label": "Dificuldade para Bicicletas de Montanha",
+
+
+
+
+
+"placeholder": "0, 1, 2, 3...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"0": "0: Terreno sólido com cascalho ou terra compactada, com nenhum obstáculo, curvas largas, etc.",
+
+
+
+
+
+
+"1": "1: Algum terreno solto, com pequenos obstáculos, curvas fáceis, etc.",
+
+
+
+
+
+
+"2": "2: Terreno solto, com obstáculos, curvas um pouco difíceis, etc.",
+
+
+
+
+
+
+"3": "3: Terreno escorregadio, com vários obstáculos, curvas apertadas, etc.",
+
+
+
+
+
+
+"4": "4: Terreno muito solto, com pedregulhos grandes, curvas muito pequenas e perigosas, etc.",
+
+
+
+
+
+
+"5": "5: Deslizamentos de terra, depressões grandes e profundas, etc.",
+
+
+
+
+
+
+"6": "6: Não transitável exceto aos melhores ciclistas de montanha"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"mtb/scale/imba": {
+
+
+
+
+
+"label": "Dificuldade de Caminhar definido pela IMBA",
+
+
+
+
+
+"placeholder": "Fácil, Médio, Difícil...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"0": "Muito fácil (circulo branco)",
+
+
+
+
+
+
+"1": "Fácil (circulo verde)",
+
+
+
+
+
+
+"2": "Médio (quadrado azul)",
+
+
+
+
+
+
+"3": "Difícil (diamante negro)",
+
+
+
+
+
+
+"4": "Muito Difícil (duplo diamante negro)"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"mtb/scale/uphill": {
+
+
+
+
+
+"label": "Dificuldade da Subida para Bicicletas de Montanha",
+
+
+
+
+
+"placeholder": "0, 1, 2, 3...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"0": "0: Inclinação média de <10%, superfície de cascalho ou de terra compactada, com nenhum obstáculos, etc.",
+
+
+
+
+
+
+"1": "1. Inclinação média de <15%, superfície de cascalho ou terra de compactada, com alguns obstáculos, etc.",
+
+
+
+
+
+
+"2": "2. Inclinação média de <20%, superfície estável, com pequenas pedras/raízes, etc.",
+
+
+
+
+
+
+"3": "3. Inclinação média de <25%, superfície por vezes solta, com pedras/raízes, etc.",
+
+
+
+
+
+
+"4": "4. Inclinação média de <30%, superfície em más condições, com grandes pedras/raízes, etc.",
+
+
+
+
+
+
+"5": "5. Muito inclinado, é geralmente necessário empurrar ou levar a bicicleta à mão."
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"name": {
+
+
+
+
+
+"label": "Nome",
+
+
+
+
+
+"placeholder": "Nome Comum (caso se aplique)"
+
+
+
+
+},
+
+
+
+
+"natural": {
+
+
+
+
+
+"label": "Natural"
+
+
+
+
+},
+
+
+
+
+"network": {
+
+
+
+
+
+"label": "Rede"
+
+
+
+
+},
+
+
+
+
+"note": {
+
+
+
+
+
+"label": "Notas"
+
+
+
+
+},
+
+
+
+
+"office": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"oneway": {
+
+
+
+
+
+"label": "Sentido Único?",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Assumido que seja Não",
+
+
+
+
+
+
+"yes": "Sim",
+
+
+
+
+
+
+"no": "Não"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"oneway_yes": {
+
+
+
+
+
+"label": "Sentido Único",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Assumido que seja Sim",
+
+
+
+
+
+
+"yes": "Sim",
+
+
+
+
+
+
+"no": "Não"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"opening_hours": {
+
+
+
+
+
+"label": "Horário de Funcionamento"
+
+
+
+
+},
+
+
+
+
+"operator": {
+
+
+
+
+
+"label": "Operador"
+
+
+
+
+},
+
+
+
+
+"par": {
+
+
+
+
+
+"label": "Par",
+
+
+
+
+
+"placeholder": "3, 4, 5..."
+
+
+
+
+},
+
+
+
+
+"park_ride": {
+
+
+
+
+
+"label": "Estacionamento de Intercâmbio"
+
+
+
+
+},
+
+
+
+
+"parking": {
+
+
+
+
+
+"label": "Tipo",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"surface": "Superfície",
+
+
+
+
+
+
+"multi-storey": "Edifício-garagem",
+
+
+
+
+
+
+"underground": "Subterrâneo",
+
+
+
+
+
+
+"sheds": "Barracões",
+
+
+
+
+
+
+"carports": "Telheiros",
+
+
+
+
+
+
+"garage_boxes": "Garagens",
+
+
+
+
+
+
+"lane": "Estacionamento Paralelo à Estrada"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"phone": {
+
+
+
+
+
+"label": "Telefone / Telemóvel",
+
+
+
+
+
+"placeholder": "+351 245 125961"
+
+
+
+
+},
+
+
+
+
+"piste/difficulty": {
+
+
+
+
+
+"label": "Dificuldade de Esquiar ",
+
+
+
+
+
+"placeholder": "Fácil, Intermédio, Avançado...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"novice": "Muito Fácil (instrucional) ",
+
+
+
+
+
+
+"easy": "Fácil (Círculo verde)",
+
+
+
+
+
+
+"intermediate": "Médio (quadrado azul)",
+
+
+
+
+
+
+"advanced": "Difícil (losango negro)",
+
+
+
+
+
+
+"expert": "Muito Difícil (duplo losango negro)",
+
+
+
+
+
+
+"freeride": "Freeride (não supervisionada)",
+
+
+
+
+
+
+"extreme": "Extremo (material de escalagem é necessário)"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"piste/grooming": {
+
+
+
+
+
+"label": "Niveladora de Neve",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"classic": "Clássico",
+
+
+
+
+
+
+"mogul": "Estilo Livre",
+
+
+
+
+
+
+"backcountry": "Freeride",
+
+
+
+
+
+
+"classic+skating": "Clássico e Patinagem ",
+
+
+
+
+
+
+"scooter": "Scooter / Mota de Neve",
+
+
+
+
+
+
+"skating": "Patinagem "
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"piste/type": {
+
+
+
+
+
+"label": "Tipo",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"downhill": "Downhill",
+
+
+
+
+
+
+"nordic": "Esqui nórdico",
+
+
+
+
+
+
+"skitour": "Esqui Turístico",
+
+
+
+
+
+
+"sled": "Trenó ",
+
+
+
+
+
+
+"hike": "Passeio",
+
+
+
+
+
+
+"sleigh": "Trenó",
+
+
+
+
+
+
+"ice_skate": "Patins no Gelo ",
+
+
+
+
+
+
+"snow_park": "Snowpark",
+
+
+
+
+
+
+"playground": "Parque Infantil"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"place": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"population": {
+
+
+
+
+
+"label": "População"
+
+
+
+
+},
+
+
+
+
+"power": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"railway": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"recycling/cans": {
+
+
+
+
+
+"label": "Aceita Latas"
+
+
+
+
+},
+
+
+
+
+"recycling/clothes": {
+
+
+
+
+
+"label": "Aceita Roupa"
+
+
+
+
+},
+
+
+
+
+"recycling/glass": {
+
+
+
+
+
+"label": "Aceita Vidros"
+
+
+
+
+},
+
+
+
+
+"recycling/paper": {
+
+
+
+
+
+"label": "Aceita Papel"
+
+
+
+
+},
+
+
+
+
+"ref": {
+
+
+
+
+
+"label": "Referência"
+
+
+
+
+},
+
+
+
+
+"relation": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"religion": {
+
+
+
+
+
+"label": "Religião"
+
+
+
+
+},
+
+
+
+
+"restriction": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"restrictions": {
+
+
+
+
+
+"label": "Restrição de Viragens"
+
+
+
+
+},
+
+
+
+
+"route": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"route_master": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"sac_scale": {
+
+
+
+
+
+"label": "Dificuldade de Caminhar",
+
+
+
+
+
+"placeholder": "Caminhada de Montanha, Caminhada Alpina...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"hiking": "T1: Caminhada Normal",
+
+
+
+
+
+
+"mountain_hiking": "T2: Caminhada de Montanha",
+
+
+
+
+
+
+"demanding_mountain_hiking": "T3: Caminhada de Montanha Exigente",
+
+
+
+
+
+
+"alpine_hiking": "T4: Caminhada Alpina",
+
+
+
+
+
+
+"demanding_alpine_hiking": "T5: Caminhada Alpina Exigente",
+
+
+
+
+
+
+"difficult_alpine_hiking": "T6: Caminhada Muito Difícil"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"seasonal": {
+
+
+
+
+
+"label": "Sazonal"
+
+
+
+
+},
+
+
+
+
+"service": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"service/bicycle/chain_tool": {
+
+
+
+
+
+"label": "Ferramenta para Correia",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Assumido que seja Não",
+
+
+
+
+
+
+"yes": "Sim",
+
+
+
+
+
+
+"no": "Não"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service/bicycle/pump": {
+
+
+
+
+
+"label": "Bomba de Ar",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Assumido que seja Não",
+
+
+
+
+
+
+"yes": "Sim",
+
+
+
+
+
+
+"no": "Não"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"shelter": {
+
+
+
+
+
+"label": "Abrigo"
+
+
+
+
+},
+
+
+
+
+"shelter_type": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"shop": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"sloped_curb": {
+
+
+
+
+
+"label": "Lancil Inclinado"
+
+
+
+
+},
+
+
+
+
+"smoking": {
+
+
+
+
+
+"label": "Fumar",
+
+
+
+
+
+"placeholder": "Não, Separado, Sim",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Fumar não é permitido",
+
+
+
+
+
+
+"separated": "Em zona de fumadores, não isolada do estabelecimento",
+
+
+
+
+
+
+"isolated": "Em zona de fumadores, isolada do estabelecimento ",
+
+
+
+
+
+
+"outside": "Permitido no exterior",
+
+
+
+
+
+
+"yes": "Fumar é permitido em todo o estabelecimento ",
+
+
+
+
+
+
+"dedicated": "Dedicado a fumadores (por exemplo, clube de fumadores)"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"smoothness": {
+
+
+
+
+
+"label": "Qualidade da Estrada",
+
+
+
+
+
+"placeholder": "Excelente, Boa, Má...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"excellent": "Excelente: skates, patins em linha, etc.",
+
+
+
+
+
+
+"good": "Muito boa: bicicletas de corrida, carros desportivos etc.",
+
+
+
+
+
+
+"intermediate": "Boa: bicicletas de cidade, cadeira de rodas, scooters, etc.",
+
+
+
+
+
+
+"bad": "Intermédia: carros de cidade, camiões, etc.",
+
+
+
+
+
+
+"very_bad": "Má: carroças, SUVs, etc.",
+
+
+
+
+
+
+"horrible": "Muito má: bicicletas de montanha, carros todo-o-terreno, etc.",
+
+
+
+
+
+
+"very_horrible": "Péssima: tratores, moto-quatros, etc.",
+
+
+
+
+
+
+"impassable": "Intransitável / Veículos sem rodas"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"social_facility_for": {
+
+
+
+
+
+"label": "Pessoas Servidas",
+
+
+
+
+
+"placeholder": "Sem-abrigo, Deficientes, Crianças, etc."
+
+
+
+
+},
+
+
+
+
+"source": {
+
+
+
+
+
+"label": "Fonte das informações"
+
+
+
+
+},
+
+
+
+
+"sport": {
+
+
+
+
+
+"label": "Desporto"
+
+
+
+
+},
+
+
+
+
+"sport_ice": {
+
+
+
+
+
+"label": "Desporto"
+
+
+
+
+},
+
+
+
+
+"sport_racing": {
+
+
+
+
+
+"label": "Desporto"
+
+
+
+
+},
+
+
+
+
+"structure": {
+
+
+
+
+
+"label": "Estrutura",
+
+
+
+
+
+"placeholder": "Desconhecido",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"bridge": "Ponte",
+
+
+
+
+
+
+"tunnel": "Túnel",
+
+
+
+
+
+
+"embankment": "Elevação no terreno",
+
+
+
+
+
+
+"cutting": "Corte no terreno",
+
+
+
+
+
+
+"ford": "Vau"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"studio_type": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"substation": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"supervised": {
+
+
+
+
+
+"label": "Vigiado"
+
+
+
+
+},
+
+
+
+
+"surface": {
+
+
+
+
+
+"label": "Tipo de Superfície "
+
+
+
+
+},
+
+
+
+
+"tactile_paving": {
+
+
+
+
+
+"label": "Pavimentação Táctil"
+
+
+
+
+},
+
+
+
+
+"takeaway": {
+
+
+
+
+
+"label": "Take Away",
+
+
+
+
+
+"placeholder": "Sim, Não, Apenas Take Away",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yes": "Sim",
+
+
+
+
+
+
+"no": "Não",
+
+
+
+
+
+
+"only": "Apenas Take Away"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"toilets/disposal": {
+
+
+
+
+
+"label": "Método de Eliminação de Resíduos",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"flush": "Descarregamento",
+
+
+
+
+
+
+"pitlatrine": "Fosso / Latrina",
+
+
+
+
+
+
+"chemical": "Químico ",
+
+
+
+
+
+
+"bucket": "Balde"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"tourism": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"towertype": {
+
+
+
+
+
+"label": "Tipo de torre"
+
+
+
+
+},
+
+
+
+
+"tracktype": {
+
+
+
+
+
+"label": "Qualidade da Superfície ",
+
+
+
+
+
+"placeholder": "Sólido, Intermédio, Macio...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"grade1": "1 - Sólida: pavimentada ou com material fortemente compactado",
+
+
+
+
+
+
+"grade2": "2 - Sobretudo sólida: cascalho ou pedras misturadas com algum material macio",
+
+
+
+
+
+
+"grade3": "3 - Intermédia, mistura de materiais sólidos e macios",
+
+
+
+
+
+
+"grade4": "4 - Sobretudo macia: terra, erva ou areia misturadas com algum material sólido",
+
+
+
+
+
+
+"grade5": "5 - Macia: Terra, erva ou areia"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"trail_visibility": {
+
+
+
+
+
+"label": "Visibilidade",
+
+
+
+
+
+"placeholder": "Excelente, Boa, Má...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"excellent": "Excelente: caminho claramente marcado ou com vários marcos de informações",
+
+
+
+
+
+
+"good": "Boa: caminho muito visível",
+
+
+
+
+
+
+"intermediate": "Intermédia: caminho visível ou com poucos marcos de informações",
+
+
+
+
+
+
+"bad": "Má: caminho pouco visível",
+
+
+
+
+
+
+"horrible": "Péssima: por vezes sem caminho ou com nenhum marco de informação",
+
+
+
+
+
+
+"no": "Nenhuma: caminho não é visível, boa habilidade de orientação é necessária"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"trees": {
+
+
+
+
+
+"label": "Árvores"
+
+
+
+
+},
+
+
+
+
+"tunnel": {
+
+
+
+
+
+"label": "Túnel"
+
+
+
+
+},
+
+
+
+
+"vending": {
+
+
+
+
+
+"label": "Tipo de Produtos"
+
+
+
+
+},
+
+
+
+
+"water": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"waterway": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"website": {
+
+
+
+
+
+"label": "Sítio Eletrónico",
+
+
+
+
+
+"placeholder": "http://www.exemplo.org/"
+
+
+
+
+},
+
+
+
+
+"wetland": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"wheelchair": {
+
+
+
+
+
+"label": "Acesso com cadeira de rodas"
+
+
+
+
+},
+
+
+
+
+"width": {
+
+
+
+
+
+"label": "Largura (metros)"
+
+
+
+
+},
+
+
+
+
+"wikipedia": {
+
+
+
+
+
+"label": "Wikipédia"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"presets": {
+
+
+
+
+"address": {
+
+
+
+
+
+"name": "Morada",
+
+
+
+
+
+"terms": "Endereço, Morada"
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"name": "Telesqui",
+
+
+
+
+
+"terms": "Aerialway, Teleférico de Superfície"
+
+
+
+
+},
+
+
+
+
+"aerialway/cable_car": {
+
+
+
+
+
+"name": "Teleférico",
+
+
+
+
+
+"terms": "Cable Car"
+
+
+
+
+},
+
+
+
+
+"aerialway/chair_lift": {
+
+
+
+
+
+"name": "Telecadeira",
+
+
+
+
+
+"terms": "Chair Lift, Teleférico de cadeira"
+
+
+
+
+},
+
+
+
+
+"aerialway/gondola": {
+
+
+
+
+
+"name": "Gôndola",
+
+
+
+
+
+"terms": "Gondola"
+
+
+
+
+},
+
+
+
+
+"aerialway/magic_carpet": {
+
+
+
+
+
+"name": "Corredor de Subida para Esquis",
+
+
+
+
+
+"terms": "Magic Carpet Lift"
+
+
+
+
+},
+
+
+
+
+"aerialway/platter": {
+
+
+
+
+
+"name": "Telesqui",
+
+
+
+
+
+"terms": "Platter Lift, Prato de Elevação"
+
+
+
+
+},
+
+
+
+
+"aerialway/pylon": {
+
+
+
+
+
+"name": "Pilar de Suporte de Teleféricos",
+
+
+
+
+
+"terms": "Aerialway Pylon"
+
+
+
+
+},
+
+
+
+
+"aerialway/rope_tow": {
+
+
+
+
+
+"name": "Ascenção com Corda de Reboque ",
+
+
+
+
+
+"terms": "Rope Tow Lift"
+
+
+
+
+},
+
+
+
+
+"aerialway/station": {
+
+
+
+
+
+"name": "Estação de Teleféricos",
+
+
+
+
+
+"terms": "Aerialway Station, Entrada de Teleféricos, Paragem de Teleféricos"
+
+
+
+
+},
+
+
+
+
+"aerialway/t-bar": {
+
+
+
+
+
+"name": "Teleférico de Neve",
+
+
+
+
+
+"terms": "T-bar Lift, Subida Mecânica"
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"name": "Via área",
+
+
+
+
+
+"terms": "Aerodromo, Aviões, Avião, Helicóptero"
+
+
+
+
+},
+
+
+
+
+"aeroway/aerodrome": {
+
+
+
+
+
+"name": "Aeroporto / Aeródromo",
+
+
+
+
+
+"terms": "Avião, aeródromo"
+
+
+
+
+},
+
+
+
+
+"aeroway/apron": {
+
+
+
+
+
+"name": "Plataforma de Estacionamento",
+
+
+
+
+
+"terms": "Rampa"
+
+
+
+
+},
+
+
+
+
+"aeroway/gate": {
+
+
+
+
+
+"name": "Porta de Embarque / Desembarque",
+
+
+
+
+
+"terms": "Porão, Porta de Embarque, Porta de Desembarque, Manga"
+
+
+
+
+},
+
+
+
+
+"aeroway/hangar": {
+
+
+
+
+
+"name": "Hangar",
+
+
+
+
+
+"terms": "Hangar, Abrigo de Aviões"
+
+
+
+
+},
+
+
+
+
+"aeroway/helipad": {
+
+
+
+
+
+"name": "Heliporto / Heliponto",
+
+
+
+
+
+"terms": "Helicóptero"
+
+
+
+
+},
+
+
+
+
+"aeroway/runway": {
+
+
+
+
+
+"name": "Pista de Aterragem e Descolagem",
+
+
+
+
+
+"terms": "Faixa de Aterragem"
+
+
+
+
+},
+
+
+
+
+"aeroway/taxiway": {
+
+
+
+
+
+"name": "Faixa de Rolagem / Táxi",
+
+
+
+
+
+"terms": "Rolar, Faixa de Rolagem"
+
+
+
+
+},
+
+
+
+
+"aeroway/terminal": {
+
+
+
+
+
+"name": "Terminal de Aeroporto / Aeródromo",
+
+
+
+
+
+"terms": "Aeroporto, Aeródromo"
+
+
+
+
+},
+
+
+
+
+"amenity": {
+
+
+
+
+
+"name": "Infraestrutura",
+
+
+
+
+
+"terms": "característica, qualidade, aspecto"
+
+
+
+
+},
+
+
+
+
+"amenity/arts_centre": {
+
+
+
+
+
+"name": "Centro Artístico",
+
+
+
+
+
+"terms": "Arts Center, Centro de Artes"
+
+
+
+
+},
+
+
+
+
+"amenity/atm": {
+
+
+
+
+
+"name": "Multibanco",
+
+
+
+
+
+"terms": "Caixa Multibanco, Caixa de Multibanco, MB, Caixa de MB"
+
+
+
+
+},
+
+
+
+
+"amenity/bank": {
+
+
+
+
+
+"name": "Banco",
+
+
+
+
+
+"terms": "Agência bancária, Agência financeira, Agência de Investimentos, Cofre, Depósito, Levantamentos, Firma de Investimentos"
+
+
+
+
+},
+
+
+
+
+"amenity/bar": {
+
+
+
+
+
+"name": "Bar",
+
+
+
+
+
+"terms": "Bar, Bares, Bebidas, Alcool"
+
+
+
+
+},
+
+
+
+
+"amenity/bbq": {
+
+
+
+
+
+"name": "Churrasco",
+
+
+
+
+
+"terms": "Barbacue/Grill, Barbacue, Carne Assada"
+
+
+
+
+},
+
+
+
+
+"amenity/bench": {
+
+
+
+
+
+"name": "Banco de Sentar",
+
+
+
+
+
+"terms": "Bench, Banco, Assento, Sentar"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_parking": {
+
+
+
+
+
+"name": "Parque de Bicicletas",
+
+
+
+
+
+"terms": "Parque de Bicicletas, Área de Bicicletas, Zona de Bicicletas"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_rental": {
+
+
+
+
+
+"name": "Aluguer de Bicicletas",
+
+
+
+
+
+"terms": "Aluguer de Bicicletas, Área de Aluguer de Bicicletas, Zona de Aluguer de Bicicletas"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_repair_station": {
+
+
+
+
+
+"name": "Estação de Reparação de Bicicletas",
+
+
+
+
+
+"terms": "Bicycle Repair Station"
+
+
+
+
+},
+
+
+
+
+"amenity/boat_rental": {
+
+
+
+
+
+"name": "Aluguer de Barcos",
+
+
+
+
+
+"terms": "Boat Rental"
+
+
+
+
+},
+
+
+
+
+"amenity/bureau_de_change": {
+
+
+
+
+
+"name": "Posto de Câmbio",
+
+
+
+
+
+"terms": "Currency Exchange, Troca de Dinheiro"
+
+
+
+
+},
+
+
+
+
+"amenity/bus_station": {
+
+
+
+
+
+"name": "Estação de Autocarros",
+
+
+
+
+
+"terms": "Bus Station, Autocarros "
+
+
+
+
+},
+
+
+
+
+"amenity/cafe": {
+
+
+
+
+
+"name": "Café",
+
+
+
+
+
+"terms": "Chá, Loja de Café, Cafetaria"
+
+
+
+
+},
+
+
+
+
+"amenity/car_rental": {
+
+
+
+
+
+"name": "Aluguer de Automóveis",
+
+
+
+
+
+"terms": "Aluguer de Automóveis, Área de Aluguer de Automóveis, Zona de Aluguer de Automoveis"
+
+
+
+
+},
+
+
+
+
+"amenity/car_sharing": {
+
+
+
+
+
+"name": "Partilha de Automóveis",
+
+
+
+
+
+"terms": "Partilha de Carros, Partilha de Veículos "
+
+
+
+
+},
+
+
+
+
+"amenity/car_wash": {
+
+
+
+
+
+"name": "Lavagem de Veículos",
+
+
+
+
+
+"terms": "Lavagem, Lavagem Automática, Mangueira, Limpeza"
+
+
+
+
+},
+
+
+
+
+"amenity/charging_station": {
+
+
+
+
+
+"name": "Posto de Carregamento para Veículos Elétricos",
+
+
+
+
+
+"terms": "Charging Station, Estação de recarga, Energia, Bateria"
+
+
+
+
+},
+
+
+
+
+"amenity/childcare": {
+
+
+
+
+
+"name": "Berçário / Creche",
+
+
+
+
+
+"terms": "Nursery/Childcare, cuidados Infantis"
+
+
+
+
+},
+
+
+
+
+"amenity/cinema": {
+
+
+
+
+
+"name": "Cinema",
+
+
+
+
+
+"terms": "Filme, filmes"
+
+
+
+
+},
+
+
+
+
+"amenity/clinic": {
+
+
+
+
+
+"name": "Clínica",
+
+
+
+
+
+"terms": "Clinic, Centro de Saúde"
+
+
+
+
+},
+
+
+
+
+"amenity/clock": {
+
+
+
+
+
+"name": "Relógio",
+
+
+
+
+
+"terms": "Clock"
+
+
+
+
+},
+
+
+
+
+"amenity/college": {
+
+
+
+
+
+"name": "Colégio",
+
+
+
+
+
+"terms": "College Grounds, Colégio, Colégio Interno, Escola Privada, Privada, Externatos, Semiprivado"
+
+
+
+
+},
+
+
+
+
+"amenity/community_centre": {
+
+
+
+
+
+"name": "Centro Comunitário",
+
+
+
+
+
+"terms": "Community Center, Espaço Social"
+
+
+
+
+},
+
+
+
+
+"amenity/compressed_air": {
+
+
+
+
+
+"name": "Máquina de Ar Comprimido",
+
+
+
+
+
+"terms": "Compressed Air, Pneumática, Pneus, Encher"
+
+
+
+
+},
+
+
+
+
+"amenity/courthouse": {
+
+
+
+
+
+"name": "Tribunal",
+
+
+
+
+
+"terms": "Casa da Justiça"
+
+
+
+
+},
+
+
+
+
+"amenity/dentist": {
+
+
+
+
+
+"name": "Dentista",
+
+
+
+
+
+"terms": "Dentist, Dentes, Ortodontia"
+
+
+
+
+},
+
+
+
+
+"amenity/doctor": {
+
+
+
+
+
+"name": "Médico",
+
+
+
+
+
+"terms": "Doctor, Doutor"
+
+
+
+
+},
+
+
+
+
+"amenity/dojo": {
+
+
+
+
+
+"name": "Centro de Artes Marciais",
+
+
+
+
+
+"terms": "Dojo, Karaté, Taekwondo, Judo, Jiu-jitsu, Jiu-jitsu Brasileiro, Kung Fu, Capoeira, Eskrima, Escrima, Escryma, Muay Thai, Krav Magá, Jeet Kune Do"
+
+
+
+
+},
+
+
+
+
+"amenity/drinking_water": {
+
+
+
+
+
+"name": "Água Potável",
+
+
+
+
+
+"terms": "Fonte de Água, Água Potável, Bebedouro"
+
+
+
+
+},
+
+
+
+
+"amenity/embassy": {
+
+
+
+
+
+"name": "Embaixada",
+
+
+
+
+
+"terms": "Consulado"
+
+
+
+
+},
+
+
+
+
+"amenity/fast_food": {
+
+
+
+
+
+"name": "Comida Rápida",
+
+
+
+
+
+"terms": "Comida Instantânea, Comida de plástico, Fast Food"
+
+
+
+
+},
+
+
+
+
+"amenity/fire_station": {
+
+
+
+
+
+"name": "Quartel de Bombeiros",
+
+
+
+
+
+"terms": "Bombeiros, Quartel, Quartel dos Bombeiros, Quartel de Bombeiros"
+
+
+
+
+},
+
+
+
+
+"amenity/fountain": {
+
+
+
+
+
+"name": "Fonte Decorativa",
+
+
+
+
+
+"terms": "Fonte, Fonte de Água, Jacto de Água"
+
+
+
+
+},
+
+
+
+
+"amenity/fuel": {
+
+
+
+
+
+"name": "Gasolineira / Posto de Combustível",
+
+
+
+
+
+"terms": "Bombas de Abastecimento, Bombas de Gasolina"
+
+
+
+
+},
+
+
+
+
+"amenity/grave_yard": {
+
+
+
+
+
+"name": "Sepultura",
+
+
+
+
+
+"terms": "Cemitério, Mortos, Funerário, Solene"
+
+
+
+
+},
+
+
+
+
+"amenity/grit_bin": {
+
+
+
+
+
+"name": "Caixa de Sal",
+
+
+
+
+
+"terms": "Grit Bin, Sal de Estrada"
+
+
+
+
+},
+
+
+
+
+"amenity/hospital": {
+
+
+
+
+
+"name": "Hospital",
+
+
+
+
+
+"terms": "Sala de emergência, Operação, Serviço de Saúde, Hospício, Enfermaria, Sanatório, Cirurgia, Médico, Ambulância"
+
+
+
+
+},
+
+
+
+
+"amenity/kindergarten": {
+
+
+
+
+
+"name": "Jardim Infantil / Infantário",
+
+
+
+
+
+"terms": "Preschool/Kindergarten Grounds, Pré-Escola, Pré Escola"
+
+
+
+
+},
+
+
+
+
+"amenity/library": {
+
+
+
+
+
+"name": "Biblioteca",
+
+
+
+
+
+"terms": "Biblioteca, Livros, Consulta, Publica"
+
+
+
+
+},
+
+
+
+
+"amenity/marketplace": {
+
+
+
+
+
+"name": "Mercado / Feira",
+
+
+
+
+
+"terms": "Bazar, Minimercado"
+
+
+
+
+},
+
+
+
+
+"amenity/nightclub": {
+
+
+
+
+
+"name": "Clube Nocturno",
+
+
+
+
+
+"terms": "Nightclub, Discoteca"
+
+
+
+
+},
+
+
+
+
+"amenity/parking": {
+
+
+
+
+
+"name": "Parque de Estacionamento",
+
+
+
+
+
+"terms": "Estacionamento, Lugar de Estacionamento"
+
+
+
+
+},
+
+
+
+
+"amenity/parking_entrance": {
+
+
+
+
+
+"name": "Entrada / Saída de Estacionamento",
+
+
+
+
+
+"terms": "Parking Garage Entrance/Exit"
+
+
+
+
+},
+
+
+
+
+"amenity/pharmacy": {
+
+
+
+
+
+"name": "Farmácia",
+
+
+
+
+
+"terms": "Farmácia, Parafarmácia"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship": {
+
+
+
+
+
+"name": "Local de Oração",
+
+
+
+
+
+"terms": "Abadia, Basílica, Casa de Adoração, Casa de Deus, Catedral, Capela, Capelinha, Centro Espiritual, Santuário, Templo"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/buddhist": {
+
+
+
+
+
+"name": "Templo Budista",
+
+
+
+
+
+"terms": "Estupa, Vihara, Mosteiro, Templo, Pagode, Zendo, Dojo"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/christian": {
+
+
+
+
+
+"name": "Igreja",
+
+
+
+
+
+"terms": "Cristão, Abadia, Alminha, Alminhas, Basílica, Betel, Casa de Adoração, Casa de Deus, Carmelo, Catedral, Capela, Capelinha, Colegiada, Congregação, Convento, Cruzeiro, Ermida, Mosteiro, Oratório, Paróquia, Salão do Reino  Sé"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/jewish": {
+
+
+
+
+
+"name": "Sinagoga",
+
+
+
+
+
+"terms": "Judaico, Sinagoga"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/muslim": {
+
+
+
+
+
+"name": "Mesquita",
+
+
+
+
+
+"terms": "Muçulmano, Mesquita"
+
+
+
+
+},
+
+
+
+
+"amenity/police": {
+
+
+
+
+
+"name": "Posto de Polícia",
+
+
+
+
+
+"terms": "Polícia, GNR, G.N.R., PSP, P.S.P., Polícia de Segurança Pública, Guarda Nacional Republicana"
+
+
+
+
+},
+
+
+
+
+"amenity/post_box": {
+
+
+
+
+
+"name": "Caixa de Correio",
+
+
+
+
+
+"terms": "Marco de Correio, Caixa Postal, Posto de Correio"
+
+
+
+
+},
+
+
+
+
+"amenity/post_office": {
+
+
+
+
+
+"name": "Estação de Correios",
+
+
+
+
+
+"terms": "Central de Correio, CTT, C.T.T., CTTs, Correio de Portugal"
+
+
+
+
+},
+
+
+
+
+"amenity/pub": {
+
+
+
+
+
+"name": "Taberna",
+
+
+
+
+
+"terms": "Pub"
+
+
+
+
+},
+
+
+
+
+"amenity/public_bookcase": {
+
+
+
+
+
+"name": "Biblioteca Livre",
+
+
+
+
+
+"terms": "Public Bookcase, Estante Pública, Livros para o Público"
+
+
+
+
+},
+
+
+
+
+"amenity/ranger_station": {
+
+
+
+
+
+"name": "Posto de Guarda Florestal",
+
+
+
+
+
+"terms": "Ranger Station, Guarda Florestal"
+
+
+
+
+},
+
+
+
+
+"amenity/recycling": {
+
+
+
+
+
+"name": "Reciclagem",
+
+
+
+
+
+"terms": "Recycling, Reutilizar, Reciclar"
+
+
+
+
+},
+
+
+
+
+"amenity/register_office": {
+
+
+
+
+
+"name": "Escritório de Registros",
+
+
+
+
+
+"terms": "Register Office"
+
+
+
+
+},
+
+
+
+
+"amenity/restaurant": {
+
+
+
+
+
+"name": "Restaurante",
+
+
+
+
+
+"terms": "Bar, Cafetaria, Café, Cantina, Almoço, Jantar, Cozinha, Restaurante, Pizzaria, Culinária, Gastronomia, Restauração"
+
+
+
+
+},
+
+
+
+
+"amenity/school": {
+
+
+
+
+
+"name": "Escola",
+
+
+
+
+
+"terms": "Academia, Creche, Colégio, Departamento, Externato, Liceu, Seminário"
+
+
+
+
+},
+
+
+
+
+"amenity/shelter": {
+
+
+
+
+
+"name": "Abrigo",
+
+
+
+
+
+"terms": "Shelter"
+
+
+
+
+},
+
+
+
+
+"amenity/social_facility": {
+
+
+
+
+
+"name": "Centro Social",
+
+
+
+
+
+"terms": "Social Facility"
+
+
+
+
+},
+
+
+
+
+"amenity/social_facility/food_bank": {
+
+
+
+
+
+"name": "Banco Alimentar",
+
+
+
+
+
+"terms": "Food Bank, Alimento, Comida"
+
+
+
+
+},
+
+
+
+
+"amenity/social_facility/group_home": {
+
+
+
+
+
+"name": "Lar de Idosos",
+
+
+
+
+
+"terms": "Elderly Group Home"
+
+
+
+
+},
+
+
+
+
+"amenity/social_facility/homeless_shelter": {
+
+
+
+
+
+"name": "Abrigo para os Sem-Abrigo",
+
+
+
+
+
+"terms": "Homeless Shelter, Casa para os Sem-Abrigo, Casa Pública, Sem-Abrigo"
+
+
+
+
+},
+
+
+
+
+"amenity/studio": {
+
+
+
+
+
+"name": "Estúdio",
+
+
+
+
+
+"terms": "Studio"
+
+
+
+
+},
+
+
+
+
+"amenity/swimming_pool": {
+
+
+
+
+
+"name": "Piscina",
+
+
+
+
+
+"terms": "Piscina, Parque Aquático "
+
+
+
+
+},
+
+
+
+
+"amenity/taxi": {
+
+
+
+
+
+"name": "Praça de Táxis",
+
+
+
+
+
+"terms": "Paragem de Táxis"
+
+
+
+
+},
+
+
+
+
+"amenity/telephone": {
+
+
+
+
+
+"name": "Telefone",
+
+
+
+
+
+"terms": "Telefone, Telemóvel"
+
+
+
+
+},
+
+
+
+
+"amenity/theatre": {
+
+
+
+
+
+"name": "Teatro",
+
+
+
+
+
+"terms": "Teatro, Performance, Peça, Peça de Teatro, Musical"
+
+
+
+
+},
+
+
+
+
+"amenity/toilets": {
+
+
+
+
+
+"name": "Casas de Banho",
+
+
+
+
+
+"terms": "Casas de Banho, Instalações Sanitárias, Sanitário, Gabinete Sanitário, Toilette, lavabo, WC"
+
+
+
+
+},
+
+
+
+
+"amenity/townhall": {
+
+
+
+
+
+"name": "Câmara Municipal / Junta de Freguesia",
+
+
+
+
+
+"terms": "Junta, Câmara, Paços, Centro Administrativo, Capital de Concelho, Capital de Freguesia, Capital de Distrito, Capital de Região"
+
+
+
+
+},
+
+
+
+
+"amenity/university": {
+
+
+
+
+
+"name": "Universidade",
+
+
+
+
+
+"terms": "University Grounds, Universidade, Faculdade, Instituto, Politécnico"
+
+
+
+
+},
+
+
+
+
+"amenity/vending_machine": {
+
+
+
+
+
+"name": "Máquina de Vendas Automática",
+
+
+
+
+
+"terms": "Vending Machine, Máquina Automática de Vendas"
+
+
+
+
+},
+
+
+
+
+"amenity/veterinary": {
+
+
+
+
+
+"name": "Veterinário",
+
+
+
+
+
+"terms": "Veterinary, Veterinária, Animais"
+
+
+
+
+},
+
+
+
+
+"amenity/waste_basket": {
+
+
+
+
+
+"name": "Caixote do Lixo",
+
+
+
+
+
+"terms": "Papeleira, Lixo, Reciclagem"
+
+
+
+
+},
+
+
+
+
+"area": {
+
+
+
+
+
+"name": "Área",
+
+
+
+
+
+"terms": "Espaço, Extensão, Zona"
+
+
+
+
+},
+
+
+
+
+"barrier": {
+
+
+
+
+
+"name": "Barreira",
+
+
+
+
+
+"terms": "Barreira, Muro"
+
+
+
+
+},
+
+
+
+
+"barrier/block": {
+
+
+
+
+
+"name": "Bloco de Cimento / Pedra",
+
+
+
+
+
+"terms": "Bloqueio, Obstáculo"
+
+
+
+
+},
+
+
+
+
+"barrier/bollard": {
+
+
+
+
+
+"name": "Pilar",
+
+
+
+
+
+"terms": "Bolardo, Poste de Amarração"
+
+
+
+
+},
+
+
+
+
+"barrier/cattle_grid": {
+
+
+
+
+
+"name": "Grelha Anti-Gado",
+
+
+
+
+
+"terms": "Gado, Vaca, Porco, Boi, Cabra, Ovelha, Cavalo"
+
+
+
+
+},
+
+
+
+
+"barrier/city_wall": {
+
+
+
+
+
+"name": "Muralha de Cidade",
+
+
+
+
+
+"terms": "Muro defensivo, Parede Defensiva, Muro Histórico, Fortificações"
+
+
+
+
+},
+
+
+
+
+"barrier/cycle_barrier": {
+
+
+
+
+
+"name": "Barreira de Bicicletas",
+
+
+
+
+
+"terms": "Bicicleta"
+
+
+
+
+},
+
+
+
+
+"barrier/ditch": {
+
+
+
+
+
+"name": "Fosso sem Água",
+
+
+
+
+
+"terms": "Sem Água, Seca, Vala sem Água, Vala Seca, Trincheira sem Água, Trincheira  Seca"
+
+
+
+
+},
+
+
+
+
+"barrier/entrance": {
+
+
+
+
+
+"name": "Entrada",
+
+
+
+
+
+"terms": "Entrada, Acesso, Abertura, Porta, Pórtico, Portão"
+
+
+
+
+},
+
+
+
+
+"barrier/fence": {
+
+
+
+
+
+"name": "Vedação",
+
+
+
+
+
+"terms": "Cerca, Proteção"
+
+
+
+
+},
+
+
+
+
+"barrier/gate": {
+
+
+
+
+
+"name": "Cancela / Portão",
+
+
+
+
+
+"terms": "Grade"
+
+
+
+
+},
+
+
+
+
+"barrier/hedge": {
+
+
+
+
+
+"name": "Sebe",
+
+
+
+
+
+"terms": "Arbusto, Muro de Flores, Muro de Plantas"
+
+
+
+
+},
+
+
+
+
+"barrier/kissing_gate": {
+
+
+
+
+
+"name": "Cancela de Encosto Anti-Gado",
+
+
+
+
+
+"terms": "Grade de Gado"
+
+
+
+
+},
+
+
+
+
+"barrier/lift_gate": {
+
+
+
+
+
+"name": "Barreira Automática",
+
+
+
+
+
+"terms": "Cancela Elevatória, Barreira de Estacionamento"
+
+
+
+
+},
+
+
+
+
+"barrier/retaining_wall": {
+
+
+
+
+
+"name": "Muro de Contenção",
+
+
+
+
+
+"terms": "Arrimo, Amparo"
+
+
+
+
+},
+
+
+
+
+"barrier/stile": {
+
+
+
+
+
+"name": "Passagem Anti-Gado",
+
+
+
+
+
+"terms": "Escada"
+
+
+
+
+},
+
+
+
+
+"barrier/toll_booth": {
+
+
+
+
+
+"name": "Portagem",
+
+
+
+
+
+"terms": "Pedágio, Tarifa, Pórtico"
+
+
+
+
+},
+
+
+
+
+"barrier/wall": {
+
+
+
+
+
+"name": "Muro",
+
+
+
+
+
+"terms": "Parede, Muro"
+
+
+
+
+},
+
+
+
+
+"boundary/administrative": {
+
+
+
+
+
+"name": "Fronteira Administrativa",
+
+
+
+
+
+"terms": "Fronteira Administrativa, Concelho, Freguesia, Distrito, Região, Limite Adminsitrativo"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"name": "Edifício",
+
+
+
+
+
+"terms": "Edifício, Prédio"
+
+
+
+
+},
+
+
+
+
+"building/apartments": {
+
+
+
+
+
+"name": "Apartamento",
+
+
+
+
+
+"terms": "Apartamentos, Habitáculos"
+
+
+
+
+},
+
+
+
+
+"building/barn": {
+
+
+
+
+
+"name": "Celeiro",
+
+
+
+
+
+"terms": "Barn, Estábulo"
+
+
+
+
+},
+
+
+
+
+"building/bunker": {
+
+
+
+
+
+"name": "Bunker",
+
+
+
+
+
+"terms": "Bunker, Carvoeira"
+
+
+
+
+},
+
+
+
+
+"building/cabin": {
+
+
+
+
+
+"name": "Cabine",
+
+
+
+
+
+"terms": "Cabin, Praia, Campo, Cabana "
+
+
+
+
+},
+
+
+
+
+"building/cathedral": {
+
+
+
+
+
+"name": "Catedral",
+
+
+
+
+
+"terms": "Cathedral"
+
+
+
+
+},
+
+
+
+
+"building/chapel": {
+
+
+
+
+
+"name": "Capela",
+
+
+
+
+
+"terms": "Chapel"
+
+
+
+
+},
+
+
+
+
+"building/church": {
+
+
+
+
+
+"name": "Igreja",
+
+
+
+
+
+"terms": "Church"
+
+
+
+
+},
+
+
+
+
+"building/college": {
+
+
+
+
+
+"name": "Edifíco Colegial ",
+
+
+
+
+
+"terms": "College Building"
+
+
+
+
+},
+
+
+
+
+"building/commercial": {
+
+
+
+
+
+"name": "Escritório",
+
+
+
+
+
+"terms": "Prédio Comercial, Edifício Comercial"
+
+
+
+
+},
+
+
+
+
+"building/construction": {
+
+
+
+
+
+"name": "Edifício em Construção",
+
+
+
+
+
+"terms": "Building Under Construction, Edifício sob Construção"
+
+
+
+
+},
+
+
+
+
+"building/detached": {
+
+
+
+
+
+"name": "Casa Isolada",
+
+
+
+
+
+"terms": "Detached Home, Cabana, Bangaló, Villa, Mansão"
+
+
+
+
+},
+
+
+
+
+"building/dormitory": {
+
+
+
+
+
+"name": "Dormitório",
+
+
+
+
+
+"terms": "Dormitory, Repousada, Albergue"
+
+
+
+
+},
+
+
+
+
+"building/entrance": {
+
+
+
+
+
+"name": "Entrada / Saída",
+
+
+
+
+
+"terms": "Entrance/Exit, Entrada, Acesso, Abertura, Porta, Pórtico, Portão"
+
+
+
+
+},
+
+
+
+
+"building/garage": {
+
+
+
+
+
+"name": "Garagem",
+
+
+
+
+
+"terms": "Garagem, Abrigo de Automoveis"
+
+
+
+
+},
+
+
+
+
+"building/garages": {
+
+
+
+
+
+"name": "Garagens",
+
+
+
+
+
+"terms": "Garages"
+
+
+
+
+},
+
+
+
+
+"building/greenhouse": {
+
+
+
+
+
+"name": "Estufa",
+
+
+
+
+
+"terms": "Greenhouse, Estufas"
+
+
+
+
+},
+
+
+
+
+"building/hospital": {
+
+
+
+
+
+"name": "Edifício Hospitalar",
+
+
+
+
+
+"terms": "Hospital Building"
+
+
+
+
+},
+
+
+
+
+"building/hotel": {
+
+
+
+
+
+"name": "Edifício Hoteleiro",
+
+
+
+
+
+"terms": "Hotel Building"
+
+
+
+
+},
+
+
+
+
+"building/house": {
+
+
+
+
+
+"name": "Casa",
+
+
+
+
+
+"terms": "Casa, Domicílio, Moradia, Mansão, Solar, Vivenda"
+
+
+
+
+},
+
+
+
+
+"building/hut": {
+
+
+
+
+
+"name": "Cabana",
+
+
+
+
+
+"terms": "Barraca"
+
+
+
+
+},
+
+
+
+
+"building/industrial": {
+
+
+
+
+
+"name": "Industria",
+
+
+
+
+
+"terms": "Edifício Industrial, Manufactura, Fábrica"
+
+
+
+
+},
+
+
+
+
+"building/kindergarten": {
+
+
+
+
+
+"name": "Edifício de Jardim Infantil / Infantário",
+
+
+
+
+
+"terms": "Preschool/Kindergarten Building"
+
+
+
+
+},
+
+
+
+
+"building/public": {
+
+
+
+
+
+"name": "Edifício Público",
+
+
+
+
+
+"terms": "Public Building"
+
+
+
+
+},
+
+
+
+
+"building/residential": {
+
+
+
+
+
+"name": "Edifício Residencial",
+
+
+
+
+
+"terms": "Prédio Residencial, Habitação"
+
+
+
+
+},
+
+
+
+
+"building/retail": {
+
+
+
+
+
+"name": "Edifício de Retalho",
+
+
+
+
+
+"terms": "Retail Building, Retalho, Varejo"
+
+
+
+
+},
+
+
+
+
+"building/roof": {
+
+
+
+
+
+"name": "Telhado",
+
+
+
+
+
+"terms": "Roof, Cobertura"
+
+
+
+
+},
+
+
+
+
+"building/school": {
+
+
+
+
+
+"name": "Edifício Escolar",
+
+
+
+
+
+"terms": "School Building, Pavilhão Escolar"
+
+
+
+
+},
+
+
+
+
+"building/shed": {
+
+
+
+
+
+"name": "Barracão",
+
+
+
+
+
+"terms": "Shed, Barraca, Edícula"
+
+
+
+
+},
+
+
+
+
+"building/stable": {
+
+
+
+
+
+"name": "Estábulo",
+
+
+
+
+
+"terms": "Stable, Cavalos"
+
+
+
+
+},
+
+
+
+
+"building/static_caravan": {
+
+
+
+
+
+"name": "Casa Pré-Fabricada",
+
+
+
+
+
+"terms": "Static Mobile Home, Trailer, Caravana, "
+
+
+
+
+},
+
+
+
+
+"building/terrace": {
+
+
+
+
+
+"name": "Casas Geminadas",
+
+
+
+
+
+"terms": "Row Houses, Terraced house, Terraços"
+
+
+
+
+},
+
+
+
+
+"building/train_station": {
+
+
+
+
+
+"name": "Estação de Comboio",
+
+
+
+
+
+"terms": "Train Station, Estação Ferroviária"
+
+
+
+
+},
+
+
+
+
+"building/university": {
+
+
+
+
+
+"name": "Edifício Universitário",
+
+
+
+
+
+"terms": "University Building, Edifício Universitário"
+
+
+
+
+},
+
+
+
+
+"building/warehouse": {
+
+
+
+
+
+"name": "Armazém",
+
+
+
+
+
+"terms": "Warehouse, Arrecadação"
+
+
+
+
+},
+
+
+
+
+"craft": {
+
+
+
+
+
+"name": "Ofício",
+
+
+
+
+
+"terms": "Craft, Arofissão, Artesanato"
+
+
+
+
+},
+
+
+
+
+"craft/basket_maker": {
+
+
+
+
+
+"name": "Criador de Cestas",
+
+
+
+
+
+"terms": "Basket Maker, Fabricante de Cestas, Fabricante de Cestos"
+
+
+
+
+},
+
+
+
+
+"craft/beekeeper": {
+
+
+
+
+
+"name": "Apicultor",
+
+
+
+
+
+"terms": "Beekeeper, Mel, Cuidador de Abelhas"
+
+
+
+
+},
+
+
+
+
+"craft/blacksmith": {
+
+
+
+
+
+"name": "Ferreiro",
+
+
+
+
+
+"terms": "Blacksmith, Forjador"
+
+
+
+
+},
+
+
+
+
+"craft/boatbuilder": {
+
+
+
+
+
+"name": "Fabricante de Barcos",
+
+
+
+
+
+"terms": "Boat Builder, Construtor de Barcos, Construtor de Iates"
+
+
+
+
+},
+
+
+
+
+"craft/bookbinder": {
+
+
+
+
+
+"name": "Encadernador",
+
+
+
+
+
+"terms": "Bookbinder, Plastificador"
+
+
+
+
+},
+
+
+
+
+"craft/brewery": {
+
+
+
+
+
+"name": "Cervejaria",
+
+
+
+
+
+"terms": "Brewery, Mestre Cervejeiro"
+
+
+
+
+},
+
+
+
+
+"craft/carpenter": {
+
+
+
+
+
+"name": "Carpinteiro",
+
+
+
+
+
+"terms": "Carpenter, Carpintaria, Madeiras"
+
+
+
+
+},
+
+
+
+
+"craft/carpet_layer": {
+
+
+
+
+
+"name": "Colocador de Tapetes",
+
+
+
+
+
+"terms": "Carpet Layer, Instalador de Carpetes"
+
+
+
+
+},
+
+
+
+
+"craft/caterer": {
+
+
+
+
+
+"name": "Fornecedor",
+
+
+
+
+
+"terms": "Caterer, Catering"
+
+
+
+
+},
+
+
+
+
+"craft/clockmaker": {
+
+
+
+
+
+"name": "Relojoeiro",
+
+
+
+
+
+"terms": "Clockmaker, Relógios"
+
+
+
+
+},
+
+
+
+
+"craft/confectionery": {
+
+
+
+
+
+"name": "Confeitaria",
+
+
+
+
+
+"terms": "Confectionery, Bolos, Pastelaria"
+
+
+
+
+},
+
+
+
+
+"craft/dressmaker": {
+
+
+
+
+
+"name": "Costureira",
+
+
+
+
+
+"terms": "Dressmaker, Costureiro, Estilista, Alfaiate, Modista"
+
+
+
+
+},
+
+
+
+
+"craft/electrician": {
+
+
+
+
+
+"name": "Eletricista",
+
+
+
+
+
+"terms": "Electrician, Homem da Luz"
+
+
+
+
+},
+
+
+
+
+"craft/gardener": {
+
+
+
+
+
+"name": "Jardineiro",
+
+
+
+
+
+"terms": "Gardener, Flores, Jardim, Erva"
+
+
+
+
+},
+
+
+
+
+"craft/glaziery": {
+
+
+
+
+
+"name": "Vidreiro",
+
+
+
+
+
+"terms": "Glaziery, Vidro"
+
+
+
+
+},
+
+
+
+
+"craft/handicraft": {
+
+
+
+
+
+"name": "Artesão",
+
+
+
+
+
+"terms": "Handicraft, Artesã"
+
+
+
+
+},
+
+
+
+
+"craft/hvac": {
+
+
+
+
+
+"name": "AVAC",
+
+
+
+
+
+"terms": "HVAC, Aquecimento, Ventilação, Ar Condicionado"
+
+
+
+
+},
+
+
+
+
+"craft/insulator": {
+
+
+
+
+
+"name": "Isolador",
+
+
+
+
+
+"terms": "Insulator"
+
+
+
+
+},
+
+
+
+
+"craft/jeweler": {
+
+
+
+
+
+"name": "Joalheiro",
+
+
+
+
+
+"terms": "Jeweler"
+
+
+
+
+},
+
+
+
+
+"craft/key_cutter": {
+
+
+
+
+
+"name": "Chaveiro",
+
+
+
+
+
+"terms": "Key Cutter"
+
+
+
+
+},
+
+
+
+
+"craft/locksmith": {
+
+
+
+
+
+"name": "Serralheiro",
+
+
+
+
+
+"terms": "Locksmith"
+
+
+
+
+},
+
+
+
+
+"craft/metal_construction": {
+
+
+
+
+
+"name": "Construção Metálica",
+
+
+
+
+
+"terms": "Metal Construction"
+
+
+
+
+},
+
+
+
+
+"craft/optician": {
+
+
+
+
+
+"name": "Oculista",
+
+
+
+
+
+"terms": "Optician"
+
+
+
+
+},
+
+
+
+
+"craft/painter": {
+
+
+
+
+
+"name": "Pintor",
+
+
+
+
+
+"terms": "Painter"
+
+
+
+
+},
+
+
+
+
+"craft/photographer": {
+
+
+
+
+
+"name": "Fotógrafo",
+
+
+
+
+
+"terms": "Photographer, Agência Fotográfica"
+
+
+
+
+},
+
+
+
+
+"craft/photographic_laboratory": {
+
+
+
+
+
+"name": "Laboratório Fotográfico",
+
+
+
+
+
+"terms": "Photographic Laboratory, Loja Fotográfica, Fotógrafo"
+
+
+
+
+},
+
+
+
+
+"craft/plasterer": {
+
+
+
+
+
+"name": "Gesseiro",
+
+
+
+
+
+"terms": "Plasterer"
+
+
+
+
+},
+
+
+
+
+"craft/plumber": {
+
+
+
+
+
+"name": "Canalizador",
+
+
+
+
+
+"terms": "Plumber, Picheleiro"
+
+
+
+
+},
+
+
+
+
+"craft/pottery": {
+
+
+
+
+
+"name": "Oleiro",
+
+
+
+
+
+"terms": "Pottery, Ceramista"
+
+
+
+
+},
+
+
+
+
+"craft/rigger": {
+
+
+
+
+
+"name": "Armador",
+
+
+
+
+
+"terms": "Rigger"
+
+
+
+
+},
+
+
+
+
+"craft/roofer": {
+
+
+
+
+
+"name": "Telhador",
+
+
+
+
+
+"terms": "Roofer"
+
+
+
+
+},
+
+
+
+
+"craft/saddler": {
+
+
+
+
+
+"name": "Seleiro",
+
+
+
+
+
+"terms": "Saddler, Selas, Selins, Arreios"
+
+
+
+
+},
+
+
+
+
+"craft/sailmaker": {
+
+
+
+
+
+"name": "Veleiro",
+
+
+
+
+
+"terms": "Sailmaker, Mastros, Vergas, Velas, Cordas, Barcos a Vela."
+
+
+
+
+},
+
+
+
+
+"craft/sawmill": {
+
+
+
+
+
+"name": "Lenhador",
+
+
+
+
+
+"terms": "Sawmill, Serraria"
+
+
+
+
+},
+
+
+
+
+"craft/scaffolder": {
+
+
+
+
+
+"name": "Montador de Andaimes",
+
+
+
+
+
+"terms": "Scaffolder, Colocador de Andaimes, Andaimes"
+
+
+
+
+},
+
+
+
+
+"craft/sculpter": {
+
+
+
+
+
+"name": "Escultor",
+
+
+
+
+
+"terms": "Sculpter"
+
+
+
+
+},
+
+
+
+
+"craft/shoemaker": {
+
+
+
+
+
+"name": "Sapateiro",
+
+
+
+
+
+"terms": "Shoemaker"
+
+
+
+
+},
+
+
+
+
+"craft/stonemason": {
+
+
+
+
+
+"name": "Canteiro",
+
+
+
+
+
+"terms": "Stonemason, Rocha"
+
+
+
+
+},
+
+
+
+
+"craft/sweep": {
+
+
+
+
+
+"name": "Limpador de Chaminés",
+
+
+
+
+
+"terms": "Chimney Sweep, Limpa Chaminés"
+
+
+
+
+},
+
+
+
+
+"craft/tailor": {
+
+
+
+
+
+"name": "Alfaiate",
+
+
+
+
+
+"terms": "Tailor"
+
+
+
+
+},
+
+
+
+
+"craft/tiler": {
+
+
+
+
+
+"name": "Colocador de Azulejos / Pedras",
+
+
+
+
+
+"terms": "Tiler"
+
+
+
+
+},
+
+
+
+
+"craft/tinsmith": {
+
+
+
+
+
+"name": "Latoeiro",
+
+
+
+
+
+"terms": "Tinsmith, Chapa, Zinco"
+
+
+
+
+},
+
+
+
+
+"craft/upholsterer": {
+
+
+
+
+
+"name": "Tapeceiro",
+
+
+
+
+
+"terms": "Upholsterer, Tapeceiro, Tapeçaria, Tecidos"
+
+
+
+
+},
+
+
+
+
+"craft/watchmaker": {
+
+
+
+
+
+"name": "Relojoeiro",
+
+
+
+
+
+"terms": "Watchmaker"
+
+
+
+
+},
+
+
+
+
+"craft/window_construction": {
+
+
+
+
+
+"name": "Fabrico de Vidro",
+
+
+
+
+
+"terms": "Window Construction"
+
+
+
+
+},
+
+
+
+
+"craft/winery": {
+
+
+
+
+
+"name": "Adega",
+
+
+
+
+
+"terms": "Winery, Bodega, Vinhos"
+
+
+
+
+},
+
+
+
+
+"embankment": {
+
+
+
+
+
+"name": "Aterro Elevado",
+
+
+
+
+
+"terms": "Embankment, Elevação do Terreno"
+
+
+
+
+},
+
+
+
+
+"emergency/ambulance_station": {
+
+
+
+
+
+"name": "Central de Ambulâncias",
+
+
+
+
+
+"terms": "Ambulance Station, Ambulância "
+
+
+
+
+},
+
+
+
+
+"emergency/fire_hydrant": {
+
+
+
+
+
+"name": "Boca de Incêndio",
+
+
+
+
+
+"terms": "Fire Hydrant, Hidrante, Marco de Água, Marco de Incêndio"
+
+
+
+
+},
+
+
+
+
+"emergency/phone": {
+
+
+
+
+
+"name": "Telefone de Emergência",
+
+
+
+
+
+"terms": "Telefone de Emergência, 112"
+
+
+
+
+},
+
+
+
+
+"entrance": {
+
+
+
+
+
+"name": "Entrada / Saída",
+
+
+
+
+
+"terms": "Entrance/Exit, Entrada, Acesso, Abertura, Porta, Pórtico, Portão"
+
+
+
+
+},
+
+
+
+
+"footway/crossing": {
+
+
+
+
+
+"name": "Passadeira",
+
+
+
+
+
+"terms": "Crossing"
+
+
+
+
+},
+
+
+
+
+"footway/crosswalk": {
+
+
+
+
+
+"name": "Passadeira",
+
+
+
+
+
+"terms": "Crosswalk, Passagem de Peões"
+
+
+
+
+},
+
+
+
+
+"footway/sidewalk": {
+
+
+
+
+
+"name": "Passeio",
+
+
+
+
+
+"terms": "Sidewalk, Calçada"
+
+
+
+
+},
+
+
+
+
+"ford": {
+
+
+
+
+
+"name": "Vau",
+
+
+
+
+
+"terms": "Baixio, Banco, Parel"
+
+
+
+
+},
+
+
+
+
+"golf/bunker": {
+
+
+
+
+
+"name": "Banco de Areia",
+
+
+
+
+
+"terms": "Sand Trap"
+
+
+
+
+},
+
+
+
+
+"golf/fairway": {
+
+
+
+
+
+"name": "Fairway",
+
+
+
+
+
+"terms": "Fairway"
+
+
+
+
+},
+
+
+
+
+"golf/green": {
+
+
+
+
+
+"name": "Green",
+
+
+
+
+
+"terms": "Putting Green"
+
+
+
+
+},
+
+
+
+
+"golf/hole": {
+
+
+
+
+
+"name": "Buraco de Golfe",
+
+
+
+
+
+"terms": "Golf Hole"
+
+
+
+
+},
+
+
+
+
+"golf/lateral_water_hazard": {
+
+
+
+
+
+"name": "Obstáculo de Água Lateral",
+
+
+
+
+
+"terms": "Lateral Water Hazard"
+
+
+
+
+},
+
+
+
+
+"golf/rough": {
+
+
+
+
+
+"name": "Rough",
+
+
+
+
+
+"terms": "Rough"
+
+
+
+
+},
+
+
+
+
+"golf/tee": {
+
+
+
+
+
+"name": "Tee",
+
+
+
+
+
+"terms": "Tee Box"
+
+
+
+
+},
+
+
+
+
+"golf/water_hazard": {
+
+
+
+
+
+"name": "Obstáculo de Água",
+
+
+
+
+
+"terms": "Water Hazard"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"name": "Rodovia",
+
+
+
+
+
+"terms": "Estrada, Via, Trânsito, Carro, Veiculo"
+
+
+
+
+},
+
+
+
+
+"highway/bridleway": {
+
+
+
+
+
+"name": "Caminhos Exclusivo para Cavalos",
+
+
+
+
+
+"terms": "Trilho para Cavalos, Trilho para Cavaleiros, Trilho Equestre, Caminho Equestre, Caminho para Cavalos, Caminho para Cavaleiros"
+
+
+
+
+},
+
+
+
+
+"highway/bus_stop": {
+
+
+
+
+
+"name": "Paragem de Autocarro",
+
+
+
+
+
+"terms": "Paragem de Autocarro, Terminal de Autocarros"
+
+
+
+
+},
+
+
+
+
+"highway/crossing": {
+
+
+
+
+
+"name": "Passadeira",
+
+
+
+
+
+"terms": "Zebra, Faixa de segurança, Passagem, Passagem de Peões, Riscas"
+
+
+
+
+},
+
+
+
+
+"highway/crosswalk": {
+
+
+
+
+
+"name": "Passadeira",
+
+
+
+
+
+"terms": "Crosswalk, Passagem de Peões"
+
+
+
+
+},
+
+
+
+
+"highway/cycleway": {
+
+
+
+
+
+"name": "Ciclovia",
+
+
+
+
+
+"terms": "Bicicleta"
+
+
+
+
+},
+
+
+
+
+"highway/footway": {
+
+
+
+
+
+"name": "Caminho Pedonal",
+
+
+
+
+
+"terms": "Andar, Caminho, Estrada, Pé, Pedestre, Percurso, Rua, Ruela, Trajectória, Trilha, Trilho, Via, Viela, Caminho Pedonal"
+
+
+
+
+},
+
+
+
+
+"highway/living_street": {
+
+
+
+
+
+"name": "Zona de Coexistência",
+
+
+
+
+
+"terms": "Living Street, Zona de Peões"
+
+
+
+
+},
+
+
+
+
+"highway/mini_roundabout": {
+
+
+
+
+
+"name": "Mini-Rotunda",
+
+
+
+
+
+"terms": "Mini-Rotunda, Minirotunda, Rotunda Pintada"
+
+
+
+
+},
+
+
+
+
+"highway/motorway": {
+
+
+
+
+
+"name": "Autoestrada",
+
+
+
+
+
+"terms": "Auto-Estrada, Auto Estrada"
+
+
+
+
+},
+
+
+
+
+"highway/motorway_junction": {
+
+
+
+
+
+"name": "Interseção / Saída de Autoestradas",
+
+
+
+
+
+"terms": "Motorway Junction / Exit, Junção de Autoestradas, Saída de Autoestradas"
+
+
+
+
+},
+
+
+
+
+"highway/motorway_link": {
+
+
+
+
+
+"name": "Ligação a uma Autoestrada",
+
+
+
+
+
+"terms": "Ligação Autoestrada, Entrada Autoestrada, Saída Autoestrada"
+
+
+
+
+},
+
+
+
+
+"highway/path": {
+
+
+
+
+
+"name": "Trilho",
+
+
+
+
+
+"terms": "Trilha, Caminho"
+
+
+
+
+},
+
+
+
+
+"highway/pedestrian": {
+
+
+
+
+
+"name": "Praça / Rua Pedonal",
+
+
+
+
+
+"terms": "Pedestrian, Rua Pedonal, Rua Pedestre"
+
+
+
+
+},
+
+
+
+
+"highway/primary": {
+
+
+
+
+
+"name": "Estrada Primária",
+
+
+
+
+
+"terms": "Primary Road, Estrada Nacional, Rodovia Principal, Estrada Primária, Rodovia Primária, Primário"
+
+
+
+
+},
+
+
+
+
+"highway/primary_link": {
+
+
+
+
+
+"name": "Ligação a uma Estrada Primária",
+
+
+
+
+
+"terms": "Primary Link, Ligação Estrada Nacional, Ligação Rodovia Nacional, Ligação Nacional,  Ligação Estrada Principal, Entrada Estrada Nacional, Entrada Rodovia Nacional, Entrada Nacional, Entrada Estrada Nacional, Saída Nacional, Saída Rodovia Nacional, Saída Nacional, Saída Estrada Nacional,"
+
+
+
+
+},
+
+
+
+
+"highway/raceway": {
+
+
+
+
+
+"name": "Circuito de Corrida Automóvel",
+
+
+
+
+
+"terms": "Motor Raceway"
+
+
+
+
+},
+
+
+
+
+"highway/residential": {
+
+
+
+
+
+"name": "Rua Residencial",
+
+
+
+
+
+"terms": "Estrada Residencial, Rodovia Residencial, Estrada Urbana, Rodovia Urbana, Estrada Suburbana, Rodovia Suburbana, Estrada dentro de localidades, Rodovia dentro de localidades"
+
+
+
+
+},
+
+
+
+
+"highway/rest_area": {
+
+
+
+
+
+"name": "Área de Descanso",
+
+
+
+
+
+"terms": "Rest Area, Posto de Descanço"
+
+
+
+
+},
+
+
+
+
+"highway/road": {
+
+
+
+
+
+"name": "Estrada de Tipo Indeterminado",
+
+
+
+
+
+"terms": "Estrada Genérica, Rodovia Genérica, Estrada Desconhecida, Rodovia Desconhecida"
+
+
+
+
+},
+
+
+
+
+"highway/secondary": {
+
+
+
+
+
+"name": "Estrada Secundária",
+
+
+
+
+
+"terms": "Secondary Road, Estrada Regional, Rodovia Secundária, Secundário"
+
+
+
+
+},
+
+
+
+
+"highway/secondary_link": {
+
+
+
+
+
+"name": "Ligação a uma Estrada Secundária",
+
+
+
+
+
+"terms": "Secondary Link, Ligação Estrada Regional, Ligação Rodovia Regional, Ligação Regional,  Ligação Estrada Secundária, Entrada Estrada Regional, Entrada Rodovia Regional, Entrada Regional, Entrada Estrada Secundária, Saída Regional, Saída Rodovia Regional, Saída Regional, Saída Estrada Secundária"
+
+
+
+
+},
+
+
+
+
+"highway/service": {
+
+
+
+
+
+"name": "Estrada de Serviço",
+
+
+
+
+
+"terms": "Rodovia de Serviço"
+
+
+
+
+},
+
+
+
+
+"highway/service/alley": {
+
+
+
+
+
+"name": "Traseiras",
+
+
+
+
+
+"terms": "Beco"
+
+
+
+
+},
+
+
+
+
+"highway/service/drive-through": {
+
+
+
+
+
+"name": "Drive-Through",
+
+
+
+
+
+"terms": "Drive-in, Serviço ao Volante"
+
+
+
+
+},
+
+
+
+
+"highway/service/driveway": {
+
+
+
+
+
+"name": "Acesso a residência / garagem",
+
+
+
+
+
+"terms": "Rampa de Acesso, Corredor"
+
+
+
+
+},
+
+
+
+
+"highway/service/emergency_access": {
+
+
+
+
+
+"name": "Acesso de Emergência",
+
+
+
+
+
+"terms": "Acesso de Emergência, Entrada de Emergência, Corredor de Emergência"
+
+
+
+
+},
+
+
+
+
+"highway/service/parking_aisle": {
+
+
+
+
+
+"name": "Corredor de Estacionamento",
+
+
+
+
+
+"terms": "Pista de Estacionamento, Estacionar"
+
+
+
+
+},
+
+
+
+
+"highway/services": {
+
+
+
+
+
+"name": "Área de Serviço",
+
+
+
+
+
+"terms": "Service Area, Posto de Serviço"
+
+
+
+
+},
+
+
+
+
+"highway/steps": {
+
+
+
+
+
+"name": "Escadas",
+
+
+
+
+
+"terms": "Escadaria, degraus"
+
+
+
+
+},
+
+
+
+
+"highway/stop": {
+
+
+
+
+
+"name": "Sinal de Stop",
+
+
+
+
+
+"terms": "Stop Sign, Sinal de Paragem, Paragem Obrigatória, Sinal de paragem obrigatória no cruzamento ou entroncamento"
+
+
+
+
+},
+
+
+
+
+"highway/street_lamp": {
+
+
+
+
+
+"name": "Poste de Iluminação",
+
+
+
+
+
+"terms": "Street Lamp, Poste de Luz, Lâmpada, Luz, Iluminação"
+
+
+
+
+},
+
+
+
+
+"highway/tertiary": {
+
+
+
+
+
+"name": "Estrada Terciária",
+
+
+
+
+
+"terms": "Tertiary Road, Estrada Municipal, Caminho Municipal, Rodovia Terciária, Terciário, Caminho Municipal"
+
+
+
+
+},
+
+
+
+
+"highway/tertiary_link": {
+
+
+
+
+
+"name": "Ligação a uma Estrada Terciária",
+
+
+
+
+
+"terms": "Tertiary Link, Ligação Estrada Municipal, Ligação Rodovia Municipal, Ligação Municipal,  Ligação Estrada Terciária, Entrada Estrada Municipal, Entrada Rodovia Municipal, Entrada Municipal, Entrada Estrada Terciária, Saída Municipal, Saída Rodovia Municipal, Saída Municipal, Saída Estrada Municipal"
+
+
+
+
+},
+
+
+
+
+"highway/track": {
+
+
+
+
+
+"name": "Estrada Florestal / Agrícola",
+
+
+
+
+
+"terms": "Track, Estrada Rural, Carreiro, Carreiro Florestal"
+
+
+
+
+},
+
+
+
+
+"highway/traffic_signals": {
+
+
+
+
+
+"name": "Semáforos",
+
+
+
+
+
+"terms": "Semáforo, Vermelho, Verde, Amarelo, Sinal, Sinal de Trânsito"
+
+
+
+
+},
+
+
+
+
+"highway/trunk": {
+
+
+
+
+
+"name": "Via Rápida",
+
+
+
+
+
+"terms": "Via Reservada a Automóveis e Motociclos, Estrada Reservada a Automóveis e Motociclos, Via Expressa, Via Reservada"
+
+
+
+
+},
+
+
+
+
+"highway/trunk_link": {
+
+
+
+
+
+"name": "Ligação a uma Via Rápida",
+
+
+
+
+
+"terms": "Ligação Via Rápida, Entrada Via Rápida, Saída Via Rápida, Ligação Via Reservada a Automóveis e Motociclos, Entrada Via Reservada a Automóveis e Motociclos, Saída Via Reservada a Automóveis e Motociclos, Ligação Via Expressa, Entrada Expressa, Saída Via Expressa, Ligação Via Reservada, Entrada Via Reservada, Saída Via Reservada"
+
+
+
+
+},
+
+
+
+
+"highway/turning_circle": {
+
+
+
+
+
+"name": "Circulo de Viragem",
+
+
+
+
+
+"terms": "Inversão de Marcha"
+
+
+
+
+},
+
+
+
+
+"highway/unclassified": {
+
+
+
+
+
+"name": "Estrada sem Classificação",
+
+
+
+
+
+"terms": "Unclassified, Estrada Não-Classificada"
+
+
+
+
+},
+
+
+
+
+"historic": {
+
+
+
+
+
+"name": "Local Histórico",
+
+
+
+
+
+"terms": "Local Histórico"
+
+
+
+
+},
+
+
+
+
+"historic/archaeological_site": {
+
+
+
+
+
+"name": "Sítio Arqueológico",
+
+
+
+
+
+"terms": "Local Arqueológico"
+
+
+
+
+},
+
+
+
+
+"historic/boundary_stone": {
+
+
+
+
+
+"name": "Marco de Fronteira",
+
+
+
+
+
+"terms": "Pilar de Fronteira"
+
+
+
+
+},
+
+
+
+
+"historic/castle": {
+
+
+
+
+
+"name": "Castelo",
+
+
+
+
+
+"terms": "Castelo, Fortaleza, Edificação, Medieval"
+
+
+
+
+},
+
+
+
+
+"historic/memorial": {
+
+
+
+
+
+"name": "Memorial",
+
+
+
+
+
+"terms": "Memorial, Homenagem"
+
+
+
+
+},
+
+
+
+
+"historic/monument": {
+
+
+
+
+
+"name": "Monumento",
+
+
+
+
+
+"terms": "Monumento, Marco"
+
+
+
+
+},
+
+
+
+
+"historic/ruins": {
+
+
+
+
+
+"name": "Ruínas",
+
+
+
+
+
+"terms": "Ruínas, Abandonado"
+
+
+
+
+},
+
+
+
+
+"historic/wayside_cross": {
+
+
+
+
+
+"name": "Cruzeiro",
+
+
+
+
+
+"terms": " Cruz ao Ar Livre"
+
+
+
+
+},
+
+
+
+
+"historic/wayside_shrine": {
+
+
+
+
+
+"name": "Alminhas / Nicho / Capelinha",
+
+
+
+
+
+"terms": "Alminhas / Nicho / Capelinha"
+
+
+
+
+},
+
+
+
+
+"junction": {
+
+
+
+
+
+"name": "Junção",
+
+
+
+
+
+"terms": "Junction"
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"name": "Uso do Solo",
+
+
+
+
+
+"terms": "Uso de Terra, Uso de Solo"
+
+
+
+
+},
+
+
+
+
+"landuse/allotments": {
+
+
+
+
+
+"name": "Hortas",
+
+
+
+
+
+"terms": "Horta Comunitária, Horta Urbana"
+
+
+
+
+},
+
+
+
+
+"landuse/basin": {
+
+
+
+
+
+"name": "Bacia Hidrográfica",
+
+
+
+
+
+"terms": "Bacia de Drenagem"
+
+
+
+
+},
+
+
+
+
+"landuse/cemetery": {
+
+
+
+
+
+"name": "Cemitério",
+
+
+
+
+
+"terms": "Cemitério, Vala"
+
+
+
+
+},
+
+
+
+
+"landuse/churchyard": {
+
+
+
+
+
+"name": "Adro da Igreja",
+
+
+
+
+
+"terms": "Churchyard, Área da Igreja, Zona da Igreja, Praça da Igreja"
+
+
+
+
+},
+
+
+
+
+"landuse/commercial": {
+
+
+
+
+
+"name": "Zona de Escritórios ",
+
+
+
+
+
+"terms": "Área comercial, Baixa Comercial"
+
+
+
+
+},
+
+
+
+
+"landuse/construction": {
+
+
+
+
+
+"name": "Construção",
+
+
+
+
+
+"terms": "Construção, Obras, Em Curso"
+
+
+
+
+},
+
+
+
+
+"landuse/farm": {
+
+
+
+
+
+"name": "Quinta",
+
+
+
+
+
+"terms": "Campo Agrícola, Agricultura"
+
+
+
+
+},
+
+
+
+
+"landuse/farmland": {
+
+
+
+
+
+"name": "Quinta",
+
+
+
+
+
+"terms": "Farm, Pasto"
+
+
+
+
+},
+
+
+
+
+"landuse/farmyard": {
+
+
+
+
+
+"name": "Edifícios Agrícolas",
+
+
+
+
+
+"terms": "Fazenda, Casa de Campo, Celeiro"
+
+
+
+
+},
+
+
+
+
+"landuse/forest": {
+
+
+
+
+
+"name": "Floresta",
+
+
+
+
+
+"terms": "Floresta, Área Verde"
+
+
+
+
+},
+
+
+
+
+"landuse/garages": {
+
+
+
+
+
+"name": "Garagens",
+
+
+
+
+
+"terms": "Garages"
+
+
+
+
+},
+
+
+
+
+"landuse/grass": {
+
+
+
+
+
+"name": "Relva",
+
+
+
+
+
+"terms": "Relva, Grama"
+
+
+
+
+},
+
+
+
+
+"landuse/industrial": {
+
+
+
+
+
+"name": "Zona Industrial",
+
+
+
+
+
+"terms": "Industrial"
+
+
+
+
+},
+
+
+
+
+"landuse/landfill": {
+
+
+
+
+
+"name": "Aterro Sanitário",
+
+
+
+
+
+"terms": "Landfill, Lixeira, Sucata"
+
+
+
+
+},
+
+
+
+
+"landuse/meadow": {
+
+
+
+
+
+"name": "Prado",
+
+
+
+
+
+"terms": "Meadow"
+
+
+
+
+},
+
+
+
+
+"landuse/military": {
+
+
+
+
+
+"name": "Zona Militar",
+
+
+
+
+
+"terms": "Military, Exército, Marinha, Forças Especiais, Força Aérea"
+
+
+
+
+},
+
+
+
+
+"landuse/orchard": {
+
+
+
+
+
+"name": "Pomar",
+
+
+
+
+
+"terms": "Plantação, Orchard"
+
+
+
+
+},
+
+
+
+
+"landuse/quarry": {
+
+
+
+
+
+"name": "Pedreira",
+
+
+
+
+
+"terms": "Canteira, Quarry"
+
+
+
+
+},
+
+
+
+
+"landuse/residential": {
+
+
+
+
+
+"name": "Zona Residencial",
+
+
+
+
+
+"terms": "Residencial, Urbano, Antrópico, Residential"
+
+
+
+
+},
+
+
+
+
+"landuse/retail": {
+
+
+
+
+
+"name": "Zona de Retalhos",
+
+
+
+
+
+"terms": "Retalho, Varejo, Compras, Vendas, Retail"
+
+
+
+
+},
+
+
+
+
+"landuse/vineyard": {
+
+
+
+
+
+"name": "Vinha",
+
+
+
+
+
+"terms": "Vinhas, Vinhedo, Vinhão, Vineyard"
+
+
+
+
+},
+
+
+
+
+"leisure": {
+
+
+
+
+
+"name": "Lazer",
+
+
+
+
+
+"terms": "Lazer, Diversão, Leisure"
+
+
+
+
+},
+
+
+
+
+"leisure/common": {
+
+
+
+
+
+"name": "Baldio",
+
+
+
+
+
+"terms": "Common"
+
+
+
+
+},
+
+
+
+
+"leisure/dog_park": {
+
+
+
+
+
+"name": "Parque de Cães",
+
+
+
+
+
+"terms": "Parque para Cães, Dog Park"
+
+
+
+
+},
+
+
+
+
+"leisure/firepit": {
+
+
+
+
+
+"name": "Fogueira",
+
+
+
+
+
+"terms": "Firepit, Fogo controlado, Chama, Brasa"
+
+
+
+
+},
+
+
+
+
+"leisure/garden": {
+
+
+
+
+
+"name": "Jardim",
+
+
+
+
+
+"terms": "Jardim, Garden"
+
+
+
+
+},
+
+
+
+
+"leisure/golf_course": {
+
+
+
+
+
+"name": "Campo de Golfe",
+
+
+
+
+
+"terms": "Campo de Golf, Golf, Golf Course"
+
+
+
+
+},
+
+
+
+
+"leisure/ice_rink": {
+
+
+
+
+
+"name": "Ringue de Patinagem",
+
+
+
+
+
+"terms": "Ice Rink, Ringue de Gelo, Gelo, Pista de Gelo, Pista de Patinagem"
+
+
+
+
+},
+
+
+
+
+"leisure/marina": {
+
+
+
+
+
+"name": "Marina",
+
+
+
+
+
+"terms": "Marina"
+
+
+
+
+},
+
+
+
+
+"leisure/nature_reserve": {
+
+
+
+
+
+"name": "Reserva Natural",
+
+
+
+
+
+"terms": "Nature Reserve, Natureza"
+
+
+
+
+},
+
+
+
+
+"leisure/park": {
+
+
+
+
+
+"name": "Parque",
+
+
+
+
+
+"terms": "Bosque, Floresta, Jardim, Relva, Relvado"
+
+
+
+
+},
+
+
+
+
+"leisure/picnic_table": {
+
+
+
+
+
+"name": "Mesa de Picnic",
+
+
+
+
+
+"terms": "Picnic Table, Mesa de Merenda"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch": {
+
+
+
+
+
+"name": "Campo de Desporto",
+
+
+
+
+
+"terms": "Campo de Desportos, Quadra Desportiva, Sport Pitch"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/american_football": {
+
+
+
+
+
+"name": "Campo de Futebol Americano",
+
+
+
+
+
+"terms": "Campo de Futebol Americano, Rugby, Râguebi, American Football"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/baseball": {
+
+
+
+
+
+"name": "Campo de Basebol",
+
+
+
+
+
+"terms": "Campo de Baisebol, Baseball Diamond"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/basketball": {
+
+
+
+
+
+"name": "Campo de Basquetebol",
+
+
+
+
+
+"terms": "Campo de Basquetebol, Quadra de Basquetebol, Basketball Court"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/skateboard": {
+
+
+
+
+
+"name": "Parque de Skate",
+
+
+
+
+
+"terms": "Skate Park, Skate"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/soccer": {
+
+
+
+
+
+"name": "Campo de Futebol",
+
+
+
+
+
+"terms": "Campo de Futebol, Soccer Field"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/tennis": {
+
+
+
+
+
+"name": "Campo de Ténis",
+
+
+
+
+
+"terms": "Campo de Ténis, Quadra de Ténis, Tennis Court"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/volleyball": {
+
+
+
+
+
+"name": "Campo de Voleibol",
+
+
+
+
+
+"terms": "Campo de Voleibol, Quadra de Voleibol, Volleyball Court"
+
+
+
+
+},
+
+
+
+
+"leisure/playground": {
+
+
+
+
+
+"name": "Parque Infantil",
+
+
+
+
+
+"terms": "Parque Infantil, Escorrega, Baloiço, Escorregas, Baloiços"
+
+
+
+
+},
+
+
+
+
+"leisure/running_track": {
+
+
+
+
+
+"name": "Pista de Corrida",
+
+
+
+
+
+"terms": "Racing Track, Pista de Atletismo"
+
+
+
+
+},
+
+
+
+
+"leisure/slipway": {
+
+
+
+
+
+"name": "Rampa para Barcos",
+
+
+
+
+
+"terms": "Slipway"
+
+
+
+
+},
+
+
+
+
+"leisure/sports_center": {
+
+
+
+
+
+"name": "Centro Desportivo / Ginásio",
+
+
+
+
+
+"terms": "Sports Center / Gym, Exercício Físico"
+
+
+
+
+},
+
+
+
+
+"leisure/stadium": {
+
+
+
+
+
+"name": "Estádio",
+
+
+
+
+
+"terms": "Estádio, Stadium"
+
+
+
+
+},
+
+
+
+
+"leisure/swimming_pool": {
+
+
+
+
+
+"name": "Piscina",
+
+
+
+
+
+"terms": "Piscina, Swimming Pool"
+
+
+
+
+},
+
+
+
+
+"leisure/track": {
+
+
+
+
+
+"name": "Circuito de Corrida (não Motorizada)",
+
+
+
+
+
+"terms": "Racetrack (non-Motorsport), Circuito de Bicicletas"
+
+
+
+
+},
+
+
+
+
+"line": {
+
+
+
+
+
+"name": "Linha",
+
+
+
+
+
+"terms": "Linha, Line"
+
+
+
+
+},
+
+
+
+
+"man_made": {
+
+
+
+
+
+"name": "Estrutura Artificial",
+
+
+
+
+
+"terms": "Construção Humana, Obra Humana, Man Made"
+
+
+
+
+},
+
+
+
+
+"man_made/breakwater": {
+
+
+
+
+
+"name": "Quebra-mar / Molhe",
+
+
+
+
+
+"terms": "Breakwater"
+
+
+
+
+},
+
+
+
+
+"man_made/cutline": {
+
+
+
+
+
+"name": "Linha corta-fogo",
+
+
+
+
+
+"terms": "Cut line"
+
+
+
+
+},
+
+
+
+
+"man_made/embankment": {
+
+
+
+
+
+"name": "Aterro Elevado",
+
+
+
+
+
+"terms": "Embankment, Elevação do Terreno"
+
+
+
+
+},
+
+
+
+
+"man_made/flagpole": {
+
+
+
+
+
+"name": "Estandarte",
+
+
+
+
+
+"terms": "Estandarte"
+
+
+
+
+},
+
+
+
+
+"man_made/lighthouse": {
+
+
+
+
+
+"name": "Farol",
+
+
+
+
+
+"terms": "Faról, Lighthouse"
+
+
+
+
+},
+
+
+
+
+"man_made/observation": {
+
+
+
+
+
+"name": "Torre de Observação",
+
+
+
+
+
+"terms": "Observatório Tower, Miradouro"
+
+
+
+
+},
+
+
+
+
+"man_made/pier": {
+
+
+
+
+
+"name": "Pontão / Atracadouro",
+
+
+
+
+
+"terms": "Pier, Porto, Doca"
+
+
+
+
+},
+
+
+
+
+"man_made/pipeline": {
+
+
+
+
+
+"name": "Gasoduto / Oleoduto",
+
+
+
+
+
+"terms": "Tubo, Pipeline"
+
+
+
+
+},
+
+
+
+
+"man_made/survey_point": {
+
+
+
+
+
+"name": "Vértice Geodésico / Talefe",
+
+
+
+
+
+"terms": "Survey Point"
+
+
+
+
+},
+
+
+
+
+"man_made/tower": {
+
+
+
+
+
+"name": "Torre",
+
+
+
+
+
+"terms": "Torre, Alto, Tower"
+
+
+
+
+},
+
+
+
+
+"man_made/wastewater_plant": {
+
+
+
+
+
+"name": "Estação de Tratamento de Águas Residuais",
+
+
+
+
+
+"terms": "Wastewater Plant, E.T.A.R., Estação de Tratamento de Resíduos"
+
+
+
+
+},
+
+
+
+
+"man_made/water_tower": {
+
+
+
+
+
+"name": "Reservatório Elevado",
+
+
+
+
+
+"terms": "Depósito de Água, Torre de Água, Water Tower"
+
+
+
+
+},
+
+
+
+
+"man_made/water_well": {
+
+
+
+
+
+"name": "Poço de Água",
+
+
+
+
+
+"terms": "Water Well"
+
+
+
+
+},
+
+
+
+
+"man_made/water_works": {
+
+
+
+
+
+"name": "Estação de Captação e Tratamento de Água",
+
+
+
+
+
+"terms": "Water Works"
+
+
+
+
+},
+
+
+
+
+"military/airfield": {
+
+
+
+
+
+"name": "Base Aérea",
+
+
+
+
+
+"terms": "Airfield, Aeródromo Militar"
+
+
+
+
+},
+
+
+
+
+"military/barracks": {
+
+
+
+
+
+"name": "Quartel",
+
+
+
+
+
+"terms": "Barracks"
+
+
+
+
+},
+
+
+
+
+"military/bunker": {
+
+
+
+
+
+"name": "Bunker",
+
+
+
+
+
+"terms": "Bunker"
+
+
+
+
+},
+
+
+
+
+"military/range": {
+
+
+
+
+
+"name": "Pista de Tiro",
+
+
+
+
+
+"terms": "Military Range"
+
+
+
+
+},
+
+
+
+
+"natural": {
+
+
+
+
+
+"name": "Natural",
+
+
+
+
+
+"terms": "Natural"
+
+
+
+
+},
+
+
+
+
+"natural/bay": {
+
+
+
+
+
+"name": "Baía",
+
+
+
+
+
+"terms": "Baía"
+
+
+
+
+},
+
+
+
+
+"natural/beach": {
+
+
+
+
+
+"name": "Praia",
+
+
+
+
+
+"terms": "praia"
+
+
+
+
+},
+
+
+
+
+"natural/cave_entrance": {
+
+
+
+
+
+"name": "Entrada de Gruta",
+
+
+
+
+
+"terms": "Cave Entrance"
+
+
+
+
+},
+
+
+
+
+"natural/cliff": {
+
+
+
+
+
+"name": "Precipício",
+
+
+
+
+
+"terms": "Escarpa"
+
+
+
+
+},
+
+
+
+
+"natural/coastline": {
+
+
+
+
+
+"name": "Linha Costeira",
+
+
+
+
+
+"terms": "Costa, Orla"
+
+
+
+
+},
+
+
+
+
+"natural/fell": {
+
+
+
+
+
+"name": "Encosta",
+
+
+
+
+
+"terms": "Fell"
+
+
+
+
+},
+
+
+
+
+"natural/glacier": {
+
+
+
+
+
+"name": "Glaciar",
+
+
+
+
+
+"terms": "Glaciar"
+
+
+
+
+},
+
+
+
+
+"natural/grassland": {
+
+
+
+
+
+"name": "Pradaria",
+
+
+
+
+
+"terms": "Grassland, Verdes, Terra Verde"
+
+
+
+
+},
+
+
+
+
+"natural/heath": {
+
+
+
+
+
+"name": "Charneca",
+
+
+
+
+
+"terms": "Heath"
+
+
+
+
+},
+
+
+
+
+"natural/peak": {
+
+
+
+
+
+"name": "Pico / Cume",
+
+
+
+
+
+"terms": "Peak, Montanha, Pináculo"
+
+
+
+
+},
+
+
+
+
+"natural/scree": {
+
+
+
+
+
+"name": "Encosta de Rochas Soltas",
+
+
+
+
+
+"terms": "Sree, Cascalho, Pedras"
+
+
+
+
+},
+
+
+
+
+"natural/scrub": {
+
+
+
+
+
+"name": "Matagal",
+
+
+
+
+
+"terms": "Scrub"
+
+
+
+
+},
+
+
+
+
+"natural/spring": {
+
+
+
+
+
+"name": "Nascente",
+
+
+
+
+
+"terms": "Nascente, Nascente de Água"
+
+
+
+
+},
+
+
+
+
+"natural/tree": {
+
+
+
+
+
+"name": "Árvore",
+
+
+
+
+
+"terms": "Árvore"
+
+
+
+
+},
+
+
+
+
+"natural/water": {
+
+
+
+
+
+"name": "Água",
+
+
+
+
+
+"terms": "Água"
+
+
+
+
+},
+
+
+
+
+"natural/water/lake": {
+
+
+
+
+
+"name": "Lago",
+
+
+
+
+
+"terms": "Jardim de Água, Jardim d'Água, Lagoa, Lagoinha, Pateira"
+
+
+
+
+},
+
+
+
+
+"natural/water/pond": {
+
+
+
+
+
+"name": "Lagoa",
+
+
+
+
+
+"terms": "Jardim de Água, Jardim d'Água, Lagoinha, Pateira"
+
+
+
+
+},
+
+
+
+
+"natural/water/reservoir": {
+
+
+
+
+
+"name": "Reservatório Artificial",
+
+
+
+
+
+"terms": "Reservatório, Reservatório de Água"
+
+
+
+
+},
+
+
+
+
+"natural/wetland": {
+
+
+
+
+
+"name": " Zona húmida",
+
+
+
+
+
+"terms": "Pântano"
+
+
+
+
+},
+
+
+
+
+"natural/wood": {
+
+
+
+
+
+"name": "Bosque",
+
+
+
+
+
+"terms": "Wood"
+
+
+
+
+},
+
+
+
+
+"office": {
+
+
+
+
+
+"name": "Escritório",
+
+
+
+
+
+"terms": "Office"
+
+
+
+
+},
+
+
+
+
+"office/accountant": {
+
+
+
+
+
+"name": "Contabilista",
+
+
+
+
+
+"terms": "Accountant, Contas"
+
+
+
+
+},
+
+
+
+
+"office/administrative": {
+
+
+
+
+
+"name": "Escritório Administrativo",
+
+
+
+
+
+"terms": "Administrative Office, Administrativo"
+
+
+
+
+},
+
+
+
+
+"office/architect": {
+
+
+
+
+
+"name": "Arquiteto",
+
+
+
+
+
+"terms": "Architect, Arquitetura"
+
+
+
+
+},
+
+
+
+
+"office/company": {
+
+
+
+
+
+"name": "Escritório de Empresa",
+
+
+
+
+
+"terms": "Company Office, Sede"
+
+
+
+
+},
+
+
+
+
+"office/educational_institution": {
+
+
+
+
+
+"name": "Instituição de Ensino",
+
+
+
+
+
+"terms": "Educacional Institution, Escola"
+
+
+
+
+},
+
+
+
+
+"office/employment_agency": {
+
+
+
+
+
+"name": "Agência de Emprego",
+
+
+
+
+
+"terms": "Employment Agency, Agência de Emprego"
+
+
+
+
+},
+
+
+
+
+"office/estate_agent": {
+
+
+
+
+
+"name": "Agência Imobiliária",
+
+
+
+
+
+"terms": "Real Estate Office, Imóveis, Mudanças, Compra de Casas"
+
+
+
+
+},
+
+
+
+
+"office/financial": {
+
+
+
+
+
+"name": "Finanças",
+
+
+
+
+
+"terms": "Financial Office, Posto de Finanças, Balcão de Finanças"
+
+
+
+
+},
+
+
+
+
+"office/government": {
+
+
+
+
+
+"name": "Escritório Governamental",
+
+
+
+
+
+"terms": "Government Office, Governo, Estado"
+
+
+
+
+},
+
+
+
+
+"office/insurance": {
+
+
+
+
+
+"name": "Agência de Seguros",
+
+
+
+
+
+"terms": "Insurance Office, Seguros"
+
+
+
+
+},
+
+
+
+
+"office/it": {
+
+
+
+
+
+"name": "Escritório de Informática",
+
+
+
+
+
+"terms": "IT Office"
+
+
+
+
+},
+
+
+
+
+"office/lawyer": {
+
+
+
+
+
+"name": "Escritório de Advogados",
+
+
+
+
+
+"terms": "Law Office, Agencia de Advocacia"
+
+
+
+
+},
+
+
+
+
+"office/newspaper": {
+
+
+
+
+
+"name": "Jornal",
+
+
+
+
+
+"terms": "Newspaper"
+
+
+
+
+},
+
+
+
+
+"office/ngo": {
+
+
+
+
+
+"name": "Escritório de ONG",
+
+
+
+
+
+"terms": "NGO Office"
+
+
+
+
+},
+
+
+
+
+"office/physician": {
+
+
+
+
+
+"name": "Médico",
+
+
+
+
+
+"terms": "Physician, Doutor"
+
+
+
+
+},
+
+
+
+
+"office/political_party": {
+
+
+
+
+
+"name": "Partido Político",
+
+
+
+
+
+"terms": "Political Party"
+
+
+
+
+},
+
+
+
+
+"office/research": {
+
+
+
+
+
+"name": "Centro de Investigação",
+
+
+
+
+
+"terms": "Research Office, Escritório de Investigação, Centro de Pesquisa"
+
+
+
+
+},
+
+
+
+
+"office/telecommunication": {
+
+
+
+
+
+"name": "Escritório de Telecomunicações",
+
+
+
+
+
+"terms": "Telecom Office, Telecomunicações, Internet, Televisão"
+
+
+
+
+},
+
+
+
+
+"office/therapist": {
+
+
+
+
+
+"name": "Terapeuta",
+
+
+
+
+
+"terms": "Therapist"
+
+
+
+
+},
+
+
+
+
+"office/travel_agent": {
+
+
+
+
+
+"name": "Agência de Viagens",
+
+
+
+
+
+"terms": "Travel Agency"
+
+
+
+
+},
+
+
+
+
+"piste": {
+
+
+
+
+
+"name": "Pista de Ski",
+
+
+
+
+
+"terms": "Piste/Ski Trail"
+
+
+
+
+},
+
+
+
+
+"place": {
+
+
+
+
+
+"name": "Local",
+
+
+
+
+
+"terms": "Lugar"
+
+
+
+
+},
+
+
+
+
+"place/city": {
+
+
+
+
+
+"name": "Capital de Distrito",
+
+
+
+
+
+"terms": "City, Cidade, Capital, Distrito"
+
+
+
+
+},
+
+
+
+
+"place/hamlet": {
+
+
+
+
+
+"name": "Aldeia",
+
+
+
+
+
+"terms": "Hamlet, Aldeamento"
+
+
+
+
+},
+
+
+
+
+"place/island": {
+
+
+
+
+
+"name": "Ilha",
+
+
+
+
+
+"terms": "Arquipélago, Atol, Ilha, Ilhéu, Recife, Restinga"
+
+
+
+
+},
+
+
+
+
+"place/isolated_dwelling": {
+
+
+
+
+
+"name": "Habitação Isolada",
+
+
+
+
+
+"terms": "Isolated Dwelling"
+
+
+
+
+},
+
+
+
+
+"place/locality": {
+
+
+
+
+
+"name": "Localidade",
+
+
+
+
+
+"terms": "Localidade"
+
+
+
+
+},
+
+
+
+
+"place/neighbourhood": {
+
+
+
+
+
+"name": "Lugar",
+
+
+
+
+
+"terms": "Neigborhood, Vizinhança"
+
+
+
+
+},
+
+
+
+
+"place/suburb": {
+
+
+
+
+
+"name": "Borough",
+
+
+
+
+
+"terms": "Borough"
+
+
+
+
+},
+
+
+
+
+"place/town": {
+
+
+
+
+
+"name": "Cidade",
+
+
+
+
+
+"terms": "Town"
+
+
+
+
+},
+
+
+
+
+"place/village": {
+
+
+
+
+
+"name": "Vila",
+
+
+
+
+
+"terms": "Vila"
+
+
+
+
+},
+
+
+
+
+"point": {
+
+
+
+
+
+"name": "Nó",
+
+
+
+
+
+"terms": "Ponto"
+
+
+
+
+},
+
+
+
+
+"power": {
+
+
+
+
+
+"name": "Energia",
+
+
+
+
+
+"terms": "Energia"
+
+
+
+
+},
+
+
+
+
+"power/generator": {
+
+
+
+
+
+"name": "Central de Geração de Energia",
+
+
+
+
+
+"terms": "Power Generator, Gerador Elétrico, Energia Eólica, Energia Solar, Energia Termoeléctrica, Energia Nuclear, Central de Energia"
+
+
+
+
+},
+
+
+
+
+"power/line": {
+
+
+
+
+
+"name": "Linha de Alta Tensão",
+
+
+
+
+
+"terms": "Linha de Eletricidade, Linha de Transmissão"
+
+
+
+
+},
+
+
+
+
+"power/minor_line": {
+
+
+
+
+
+"name": "Linha de Média e Baixa Tensão",
+
+
+
+
+
+"terms": "Minor Power Line, Linha de Transmissão Menor, Linha de Energia Menor"
+
+
+
+
+},
+
+
+
+
+"power/pole": {
+
+
+
+
+
+"name": "Torre de Média e Baixa Tensão",
+
+
+
+
+
+"terms": "Power Pole, Poste de Eletricidade"
+
+
+
+
+},
+
+
+
+
+"power/sub_station": {
+
+
+
+
+
+"name": "Subestação",
+
+
+
+
+
+"terms": "Substation"
+
+
+
+
+},
+
+
+
+
+"power/substation": {
+
+
+
+
+
+"name": "Subestação",
+
+
+
+
+
+"terms": "Substation, energia"
+
+
+
+
+},
+
+
+
+
+"power/tower": {
+
+
+
+
+
+"name": "Torre de Alta Tensão",
+
+
+
+
+
+"terms": "High-Voltage Tower, Torre de Alta-Tensão, Poste de Alta-Tensão"
+
+
+
+
+},
+
+
+
+
+"power/transformer": {
+
+
+
+
+
+"name": "Transformador de Distribuição",
+
+
+
+
+
+"terms": "Transformador"
+
+
+
+
+},
+
+
+
+
+"public_transport/platform": {
+
+
+
+
+
+"name": "Plataforma de Transporte Público",
+
+
+
+
+
+"terms": "Platform"
+
+
+
+
+},
+
+
+
+
+"public_transport/stop_position": {
+
+
+
+
+
+"name": "Paragem de Transporte Público",
+
+
+
+
+
+"terms": "Stop Position"
+
+
+
+
+},
+
+
+
+
+"railway": {
+
+
+
+
+
+"name": "Ferrovia",
+
+
+
+
+
+"terms": "Carris, Linha de Carris"
+
+
+
+
+},
+
+
+
+
+"railway/abandoned": {
+
+
+
+
+
+"name": "Ferrovia Abandonada",
+
+
+
+
+
+"terms": "Carris Abandonados, Linha de Carris Abandonados"
+
+
+
+
+},
+
+
+
+
+"railway/disused": {
+
+
+
+
+
+"name": "Ferrovia Não Usada",
+
+
+
+
+
+"terms": "Carris Fora de Serviço"
+
+
+
+
+},
+
+
+
+
+"railway/funicular": {
+
+
+
+
+
+"name": "Funicular",
+
+
+
+
+
+"terms": "Funicular, Plano Inclinado"
+
+
+
+
+},
+
+
+
+
+"railway/halt": {
+
+
+
+
+
+"name": "Apeadeiro",
+
+
+
+
+
+"terms": "Railway Halt"
+
+
+
+
+},
+
+
+
+
+"railway/level_crossing": {
+
+
+
+
+
+"name": "Passagem de Nível",
+
+
+
+
+
+"terms": "Passagem em Nível, Passagem de Comboios"
+
+
+
+
+},
+
+
+
+
+"railway/monorail": {
+
+
+
+
+
+"name": "Monocarril",
+
+
+
+
+
+"terms": "Monorail"
+
+
+
+
+},
+
+
+
+
+"railway/narrow_gauge": {
+
+
+
+
+
+"name": "Via Estreita",
+
+
+
+
+
+"terms": "Narrow Gauge Rail, Bitola Estreita, Via Métrica, Bitola Métrica"
+
+
+
+
+},
+
+
+
+
+"railway/platform": {
+
+
+
+
+
+"name": "Plataforma Ferroviária",
+
+
+
+
+
+"terms": "Railway Platform"
+
+
+
+
+},
+
+
+
+
+"railway/rail": {
+
+
+
+
+
+"name": "Carris",
+
+
+
+
+
+"terms": "Rail, Linha Férrea"
+
+
+
+
+},
+
+
+
+
+"railway/station": {
+
+
+
+
+
+"name": "Estação Ferroviária",
+
+
+
+
+
+"terms": "Railway Station, Estação de Comboios"
+
+
+
+
+},
+
+
+
+
+"railway/subway": {
+
+
+
+
+
+"name": "Metro",
+
+
+
+
+
+"terms": "Metro"
+
+
+
+
+},
+
+
+
+
+"railway/subway_entrance": {
+
+
+
+
+
+"name": "Entrada de Metro",
+
+
+
+
+
+"terms": "Entrada do Metro, Metro, Metropolitano, Subterrâneo "
+
+
+
+
+},
+
+
+
+
+"railway/tram": {
+
+
+
+
+
+"name": "Elétrico",
+
+
+
+
+
+"terms": "Elétrico"
+
+
+
+
+},
+
+
+
+
+"relation": {
+
+
+
+
+
+"name": "Relação",
+
+
+
+
+
+"terms": "Relação"
+
+
+
+
+},
+
+
+
+
+"roundabout": {
+
+
+
+
+
+"name": "Rotunda",
+
+
+
+
+
+"terms": "Roundabout, Rotatória"
+
+
+
+
+},
+
+
+
+
+"route/ferry": {
+
+
+
+
+
+"name": "Rota de Barca / Ferry",
+
+
+
+
+
+"terms": "Rota do Ferry"
+
+
+
+
+},
+
+
+
+
+"shop": {
+
+
+
+
+
+"name": "Loja",
+
+
+
+
+
+"terms": "Loja"
+
+
+
+
+},
+
+
+
+
+"shop/alcohol": {
+
+
+
+
+
+"name": "Loja de Bebidas Alcoólicas",
+
+
+
+
+
+"terms": "Alcool"
+
+
+
+
+},
+
+
+
+
+"shop/anime": {
+
+
+
+
+
+"name": "Loja de Anime",
+
+
+
+
+
+"terms": "Anime Shop, Loja de material Asiático, Manga, Anime"
+
+
+
+
+},
+
+
+
+
+"shop/antiques": {
+
+
+
+
+
+"name": "Loja de Antiguidades",
+
+
+
+
+
+"terms": "Antiques Shop"
+
+
+
+
+},
+
+
+
+
+"shop/art": {
+
+
+
+
+
+"name": "Galeria de Arte",
+
+
+
+
+
+"terms": "Art Gallery, Art Shop, Exposição"
+
+
+
+
+},
+
+
+
+
+"shop/baby_goods": {
+
+
+
+
+
+"name": "Loja de Acessórios para Bebés",
+
+
+
+
+
+"terms": "Baby Goods Store, Loja de Roupa, Carrinho, Brinquedos"
+
+
+
+
+},
+
+
+
+
+"shop/bag": {
+
+
+
+
+
+"name": "Loja de Malas / Bagagem",
+
+
+
+
+
+"terms": "Bag/Luggage Store"
+
+
+
+
+},
+
+
+
+
+"shop/bakery": {
+
+
+
+
+
+"name": "Padaria",
+
+
+
+
+
+"terms": "Padaria"
+
+
+
+
+},
+
+
+
+
+"shop/bathroom_furnishing": {
+
+
+
+
+
+"name": "Loja de Assessórios para Casas de Banho",
+
+
+
+
+
+"terms": "Bathroom Furnishing Store"
+
+
+
+
+},
+
+
+
+
+"shop/beauty": {
+
+
+
+
+
+"name": "Loja de Beleza",
+
+
+
+
+
+"terms": "Loja de Beleza"
+
+
+
+
+},
+
+
+
+
+"shop/bed": {
+
+
+
+
+
+"name": "Loja de Camas / Colchões",
+
+
+
+
+
+"terms": "Bedding/Mattress Store"
+
+
+
+
+},
+
+
+
+
+"shop/beverages": {
+
+
+
+
+
+"name": "Loja de Bebidas",
+
+
+
+
+
+"terms": "Beverage Store"
+
+
+
+
+},
+
+
+
+
+"shop/bicycle": {
+
+
+
+
+
+"name": "Loja de Bicicletas",
+
+
+
+
+
+"terms": "Loja de Bicicletas"
+
+
+
+
+},
+
+
+
+
+"shop/bookmaker": {
+
+
+
+
+
+"name": "Casa de Apostas",
+
+
+
+
+
+"terms": "Bookmaker, Bolsa de apostas"
+
+
+
+
+},
+
+
+
+
+"shop/books": {
+
+
+
+
+
+"name": "Livraria",
+
+
+
+
+
+"terms": "Book Store, Loja de Livros"
+
+
+
+
+},
+
+
+
+
+"shop/boutique": {
+
+
+
+
+
+"name": "Boutique",
+
+
+
+
+
+"terms": "Boutique"
+
+
+
+
+},
+
+
+
+
+"shop/butcher": {
+
+
+
+
+
+"name": "Talho",
+
+
+
+
+
+"terms": "Talho"
+
+
+
+
+},
+
+
+
+
+"shop/candles": {
+
+
+
+
+
+"name": "Loja de Velas",
+
+
+
+
+
+"terms": "Candle Shop"
+
+
+
+
+},
+
+
+
+
+"shop/car": {
+
+
+
+
+
+"name": "Loja de Automóveis",
+
+
+
+
+
+"terms": "Concessonária de Automomóveis"
+
+
+
+
+},
+
+
+
+
+"shop/car_parts": {
+
+
+
+
+
+"name": "Loja de Acessórios para Automóvel",
+
+
+
+
+
+"terms": "Loja de Peças Automóveis"
+
+
+
+
+},
+
+
+
+
+"shop/car_repair": {
+
+
+
+
+
+"name": "Oficina de Automóveis",
+
+
+
+
+
+"terms": "Ofinina de Automóveis"
+
+
+
+
+},
+
+
+
+
+"shop/carpet": {
+
+
+
+
+
+"name": "Loja de Carpetes / Tapetes",
+
+
+
+
+
+"terms": "Carpet Store"
+
+
+
+
+},
+
+
+
+
+"shop/cheese": {
+
+
+
+
+
+"name": "Loja de Queijos",
+
+
+
+
+
+"terms": "Cheese Store"
+
+
+
+
+},
+
+
+
+
+"shop/chemist": {
+
+
+
+
+
+"name": "Drogaria",
+
+
+
+
+
+"terms": "Chemist"
+
+
+
+
+},
+
+
+
+
+"shop/chocolate": {
+
+
+
+
+
+"name": "Loja de Chocolate",
+
+
+
+
+
+"terms": "Chocolate Store"
+
+
+
+
+},
+
+
+
+
+"shop/clothes": {
+
+
+
+
+
+"name": "Loja de Roupas",
+
+
+
+
+
+"terms": "Loja de Roupa"
+
+
+
+
+},
+
+
+
+
+"shop/computer": {
+
+
+
+
+
+"name": "Loja de Informática",
+
+
+
+
+
+"terms": "Loja de Informática"
+
+
+
+
+},
+
+
+
+
+"shop/confectionery": {
+
+
+
+
+
+"name": "Confeitaria",
+
+
+
+
+
+"terms": "Candy Store, Loja de Gomas"
+
+
+
+
+},
+
+
+
+
+"shop/convenience": {
+
+
+
+
+
+"name": "Loja de Conveniência",
+
+
+
+
+
+"terms": "Loja de Conviniência"
+
+
+
+
+},
+
+
+
+
+"shop/copyshop": {
+
+
+
+
+
+"name": "Loja de Fotocópias",
+
+
+
+
+
+"terms": "Copy Store"
+
+
+
+
+},
+
+
+
+
+"shop/cosmetics": {
+
+
+
+
+
+"name": "Loja de Cosmetica",
+
+
+
+
+
+"terms": "Cosmetics"
+
+
+
+
+},
+
+
+
+
+"shop/craft": {
+
+
+
+
+
+"name": "Loja de Artes e Ofícios",
+
+
+
+
+
+"terms": "Arts and Crafts Store"
+
+
+
+
+},
+
+
+
+
+"shop/curtain": {
+
+
+
+
+
+"name": "Loja de Curtinas",
+
+
+
+
+
+"terms": "Curtain Store"
+
+
+
+
+},
+
+
+
+
+"shop/dairy": {
+
+
+
+
+
+"name": "Loja de Lacticínios",
+
+
+
+
+
+"terms": "Dairy Store, Produtos Lácteos"
+
+
+
+
+},
+
+
+
+
+"shop/deli": {
+
+
+
+
+
+"name": "Loja de Gourmet / Delicacias",
+
+
+
+
+
+"terms": "Deli"
+
+
+
+
+},
+
+
+
+
+"shop/department_store": {
+
+
+
+
+
+"name": "Grande Armazém",
+
+
+
+
+
+"terms": "Department Store"
+
+
+
+
+},
+
+
+
+
+"shop/doityourself": {
+
+
+
+
+
+"name": "Loja de Bricolagem",
+
+
+
+
+
+"terms": "DIY Store, Obras, Bricolage"
+
+
+
+
+},
+
+
+
+
+"shop/dry_cleaning": {
+
+
+
+
+
+"name": "Limpeza a Seco",
+
+
+
+
+
+"terms": "Dry Cleaner"
+
+
+
+
+},
+
+
+
+
+"shop/electronics": {
+
+
+
+
+
+"name": "Loja de Eletrónica de Consumo",
+
+
+
+
+
+"terms": "Loja de Eletrodomésticos"
+
+
+
+
+},
+
+
+
+
+"shop/erotic": {
+
+
+
+
+
+"name": "Sex Shop",
+
+
+
+
+
+"terms": "Erotic Store"
+
+
+
+
+},
+
+
+
+
+"shop/fabric": {
+
+
+
+
+
+"name": "Loja de Tecidos",
+
+
+
+
+
+"terms": "Fabric Store"
+
+
+
+
+},
+
+
+
+
+"shop/farm": {
+
+
+
+
+
+"name": "Barraca de Produtos do Campo",
+
+
+
+
+
+"terms": "Barraca de Fruta, Barraca de Legumes, Barraca de Hortaliças, Barraca de Batatas"
+
+
+
+
+},
+
+
+
+
+"shop/fashion": {
+
+
+
+
+
+"name": "Loja de Moda",
+
+
+
+
+
+"terms": "Fashion Store"
+
+
+
+
+},
+
+
+
+
+"shop/fishmonger": {
+
+
+
+
+
+"name": "Peixaria",
+
+
+
+
+
+"terms": "Fishmonger, Pesqueiro"
+
+
+
+
+},
+
+
+
+
+"shop/florist": {
+
+
+
+
+
+"name": "Florista",
+
+
+
+
+
+"terms": "Florista"
+
+
+
+
+},
+
+
+
+
+"shop/frame": {
+
+
+
+
+
+"name": "Loja de Molduras",
+
+
+
+
+
+"terms": "Framing Shop"
+
+
+
+
+},
+
+
+
+
+"shop/funeral_directors": {
+
+
+
+
+
+"name": "Agência Funerária",
+
+
+
+
+
+"terms": "Funeral Home, Casa Funerária, Agência Mortuária, Casa Mortuária"
+
+
+
+
+},
+
+
+
+
+"shop/furnace": {
+
+
+
+
+
+"name": "Fábrica de Fornos",
+
+
+
+
+
+"terms": "Furnace Store, Loja de Fornos"
+
+
+
+
+},
+
+
+
+
+"shop/furniture": {
+
+
+
+
+
+"name": "Loja de Mobiliário",
+
+
+
+
+
+"terms": "Loja de Móveis"
+
+
+
+
+},
+
+
+
+
+"shop/garden_centre": {
+
+
+
+
+
+"name": "Loja de Jardinagem",
+
+
+
+
+
+"terms": "Garden Center, Flores"
+
+
+
+
+},
+
+
+
+
+"shop/gift": {
+
+
+
+
+
+"name": "Loja de Lembranças",
+
+
+
+
+
+"terms": "Loja de Recordações"
+
+
+
+
+},
+
+
+
+
+"shop/greengrocer": {
+
+
+
+
+
+"name": "Loja de Frutas e Verduras",
+
+
+
+
+
+"terms": "Greengrocer"
+
+
+
+
+},
+
+
+
+
+"shop/hairdresser": {
+
+
+
+
+
+"name": "Cabeleireiro",
+
+
+
+
+
+"terms": "Cabeleireiro"
+
+
+
+
+},
+
+
+
+
+"shop/hardware": {
+
+
+
+
+
+"name": "Loja de Ferragens",
+
+
+
+
+
+"terms": "Hardware Store"
+
+
+
+
+},
+
+
+
+
+"shop/hearing_aids": {
+
+
+
+
+
+"name": "Loja de Aparelhos Auditivos",
+
+
+
+
+
+"terms": "Hearing Aids Store"
+
+
+
+
+},
+
+
+
+
+"shop/herbalist": {
+
+
+
+
+
+"name": "Herbalista",
+
+
+
+
+
+"terms": "Herbalist"
+
+
+
+
+},
+
+
+
+
+"shop/hifi": {
+
+
+
+
+
+"name": "Loja de Alta Fidelidade",
+
+
+
+
+
+"terms": "Hifi Store, Som"
+
+
+
+
+},
+
+
+
+
+"shop/houseware": {
+
+
+
+
+
+"name": "Loja de Decoração e Bricolage",
+
+
+
+
+
+"terms": "Houseware Store"
+
+
+
+
+},
+
+
+
+
+"shop/interior_decoration": {
+
+
+
+
+
+"name": "Loja de Decoração de Interiores",
+
+
+
+
+
+"terms": "Interior Decoration Store"
+
+
+
+
+},
+
+
+
+
+"shop/jewelry": {
+
+
+
+
+
+"name": "Joalharia",
+
+
+
+
+
+"terms": "Jeweler"
+
+
+
+
+},
+
+
+
+
+"shop/kiosk": {
+
+
+
+
+
+"name": "Quiosque",
+
+
+
+
+
+"terms": "News Kiosk"
+
+
+
+
+},
+
+
+
+
+"shop/kitchen": {
+
+
+
+
+
+"name": "Loja de Materiais de Culinária",
+
+
+
+
+
+"terms": "Kitchen Design Store"
+
+
+
+
+},
+
+
+
+
+"shop/laundry": {
+
+
+
+
+
+"name": "Lavandaria",
+
+
+
+
+
+"terms": "Laundry, Roupa, Secagem"
+
+
+
+
+},
+
+
+
+
+"shop/leather": {
+
+
+
+
+
+"name": "Loja de Peles",
+
+
+
+
+
+"terms": "Leather Store, Loja de Cabedais"
+
+
+
+
+},
+
+
+
+
+"shop/locksmith": {
+
+
+
+
+
+"name": "Serralheiro",
+
+
+
+
+
+"terms": "Locksmith, Fechaduras"
+
+
+
+
+},
+
+
+
+
+"shop/lottery": {
+
+
+
+
+
+"name": "Lotaria",
+
+
+
+
+
+"terms": "Lottery Shop, Jogos Santa Casa, Euromilhões, Totoloto, Totobola, Joker, Raspadinha, Pé-de-Meia, Loja da Sorte"
+
+
+
+
+},
+
+
+
+
+"shop/mall": {
+
+
+
+
+
+"name": "Centro Comercial",
+
+
+
+
+
+"terms": "Mall, Shopping"
+
+
+
+
+},
+
+
+
+
+"shop/massage": {
+
+
+
+
+
+"name": "Loja de Massagens",
+
+
+
+
+
+"terms": "Massage Shop, Massagista"
+
+
+
+
+},
+
+
+
+
+"shop/medical_supply": {
+
+
+
+
+
+"name": "Loja de Materiais Médicos ",
+
+
+
+
+
+"terms": "Medical Supply Store"
+
+
+
+
+},
+
+
+
+
+"shop/mobile_phone": {
+
+
+
+
+
+"name": "Loja de Telemóveis",
+
+
+
+
+
+"terms": "Loja de Telemóveis"
+
+
+
+
+},
+
+
+
+
+"shop/money_lender": {
+
+
+
+
+
+"name": "Emprestador de Dinheiro",
+
+
+
+
+
+"terms": "Money Lender"
+
+
+
+
+},
+
+
+
+
+"shop/motorcycle": {
+
+
+
+
+
+"name": "Loja de Motas",
+
+
+
+
+
+"terms": "Loja de Motos"
+
+
+
+
+},
+
+
+
+
+"shop/music": {
+
+
+
+
+
+"name": "Loja de Música",
+
+
+
+
+
+"terms": "Loja de Música"
+
+
+
+
+},
+
+
+
+
+"shop/musical_instrument": {
+
+
+
+
+
+"name": "Loja de Instrumentos Musicais",
+
+
+
+
+
+"terms": "Musical Instrument Store, Guitarra, Piano, Violino, Bateria, Som"
+
+
+
+
+},
+
+
+
+
+"shop/newsagent": {
+
+
+
+
+
+"name": "Loja de Jornais / Revistas",
+
+
+
+
+
+"terms": "Newspaper/Magazine Shop"
+
+
+
+
+},
+
+
+
+
+"shop/optician": {
+
+
+
+
+
+"name": "Loja de Ótica / Oculos",
+
+
+
+
+
+"terms": "Optician"
+
+
+
+
+},
+
+
+
+
+"shop/organic": {
+
+
+
+
+
+"name": "Loja de Material Orgânico",
+
+
+
+
+
+"terms": "Organic Good Store"
+
+
+
+
+},
+
+
+
+
+"shop/outdoor": {
+
+
+
+
+
+"name": "Loja de Equipamento Outdoor",
+
+
+
+
+
+"terms": "Outdoors Store, Caminada, Escalada, Passeio"
+
+
+
+
+},
+
+
+
+
+"shop/paint": {
+
+
+
+
+
+"name": "Loja de Tintas",
+
+
+
+
+
+"terms": "Paint Store, Tintas"
+
+
+
+
+},
+
+
+
+
+"shop/pawnbroker": {
+
+
+
+
+
+"name": "Loja de Penhoras",
+
+
+
+
+
+"terms": "Pawn Shop"
+
+
+
+
+},
+
+
+
+
+"shop/pet": {
+
+
+
+
+
+"name": "Loja de Animais",
+
+
+
+
+
+"terms": "Loja de Animais"
+
+
+
+
+},
+
+
+
+
+"shop/photo": {
+
+
+
+
+
+"name": "Loja de Fotografia",
+
+
+
+
+
+"terms": "Photography Store, Fotográfo"
+
+
+
+
+},
+
+
+
+
+"shop/pyrotechnics": {
+
+
+
+
+
+"name": "Loja de Pirotécnia",
+
+
+
+
+
+"terms": "Fireworks Store, Fogo de Artifício"
+
+
+
+
+},
+
+
+
+
+"shop/radiotechnics": {
+
+
+
+
+
+"name": "Loja de Componentes de Eletrónicos / Rádio",
+
+
+
+
+
+"terms": "Radio/Electronic Component Store"
+
+
+
+
+},
+
+
+
+
+"shop/religion": {
+
+
+
+
+
+"name": "Loja de Artigos Religiosos",
+
+
+
+
+
+"terms": "Religious Store, Religião"
+
+
+
+
+},
+
+
+
+
+"shop/scuba_diving": {
+
+
+
+
+
+"name": "Loja de Equipamento para Mergulho",
+
+
+
+
+
+"terms": "Scuba Diving Shop"
+
+
+
+
+},
+
+
+
+
+"shop/seafood": {
+
+
+
+
+
+"name": "Loja de Frutos do Mar",
+
+
+
+
+
+"terms": "Seafood Shop, Camarão, Lagosta, Caranguejo, Ameijoas, Mexilhões"
+
+
+
+
+},
+
+
+
+
+"shop/second_hand": {
+
+
+
+
+
+"name": "Loja de Produtos em Segunda Mão",
+
+
+
+
+
+"terms": "Consignment/Thrift Store, Loja de Consignação"
+
+
+
+
+},
+
+
+
+
+"shop/shoes": {
+
+
+
+
+
+"name": "Sapataria",
+
+
+
+
+
+"terms": "Loja de Sapatos, Sapataria"
+
+
+
+
+},
+
+
+
+
+"shop/sports": {
+
+
+
+
+
+"name": "Loja de Artigos de Desporto",
+
+
+
+
+
+"terms": "Loja de Desporto"
+
+
+
+
+},
+
+
+
+
+"shop/stationery": {
+
+
+
+
+
+"name": "Papelaria",
+
+
+
+
+
+"terms": "Stationery Store"
+
+
+
+
+},
+
+
+
+
+"shop/supermarket": {
+
+
+
+
+
+"name": "Supermercado",
+
+
+
+
+
+"terms": "Bazar, Centro Comercial, Compras, Feira, Hipermercado, Minimercado, Stand, Outlet"
+
+
+
+
+},
+
+
+
+
+"shop/tailor": {
+
+
+
+
+
+"name": "Alfaiate",
+
+
+
+
+
+"terms": "Tailor, Vestido, Fato, Roupa"
+
+
+
+
+},
+
+
+
+
+"shop/tattoo": {
+
+
+
+
+
+"name": "Estúdio de Tatuagens ",
+
+
+
+
+
+"terms": "Tattoo Parlor, Tatuagens "
+
+
+
+
+},
+
+
+
+
+"shop/tea": {
+
+
+
+
+
+"name": "Loja de Chá",
+
+
+
+
+
+"terms": "Tea Store"
+
+
+
+
+},
+
+
+
+
+"shop/ticket": {
+
+
+
+
+
+"name": "Bilheteira",
+
+
+
+
+
+"terms": "Ticket Seller, Bilheteria, Bilhete, Ingresso"
+
+
+
+
+},
+
+
+
+
+"shop/tobacco": {
+
+
+
+
+
+"name": "Tabacaria",
+
+
+
+
+
+"terms": "Tobacco Shop, Loja de Tabaco"
+
+
+
+
+},
+
+
+
+
+"shop/toys": {
+
+
+
+
+
+"name": "Loja de Brinquedos",
+
+
+
+
+
+"terms": "Loja de Brinquedos"
+
+
+
+
+},
+
+
+
+
+"shop/travel_agency": {
+
+
+
+
+
+"name": "Agência de Viagens",
+
+
+
+
+
+"terms": "Agência de Viagens"
+
+
+
+
+},
+
+
+
+
+"shop/tyres": {
+
+
+
+
+
+"name": "Loja de Pneus",
+
+
+
+
+
+"terms": "Loja de Pneus, Casa dos Pneus"
+
+
+
+
+},
+
+
+
+
+"shop/vacant": {
+
+
+
+
+
+"name": "Loja Vazia",
+
+
+
+
+
+"terms": "Vacant Shop"
+
+
+
+
+},
+
+
+
+
+"shop/vacuum_cleaner": {
+
+
+
+
+
+"name": "Loja de Aspiradores",
+
+
+
+
+
+"terms": "Vacuum Cleaner Store"
+
+
+
+
+},
+
+
+
+
+"shop/variety_store": {
+
+
+
+
+
+"name": "Loja dos Chineses",
+
+
+
+
+
+"terms": "Variety Store, Loja dos 300, Loja dos Trezentos javascript:;"
+
+
+
+
+},
+
+
+
+
+"shop/video": {
+
+
+
+
+
+"name": "Videoclube",
+
+
+
+
+
+"terms": "Video Store"
+
+
+
+
+},
+
+
+
+
+"shop/video_games": {
+
+
+
+
+
+"name": "Loja de Videojogos",
+
+
+
+
+
+"terms": "Video Game Store, Jogos de Computador, Consola"
+
+
+
+
+},
+
+
+
+
+"shop/water_sports": {
+
+
+
+
+
+"name": "Loja de Material de Natação",
+
+
+
+
+
+"terms": "Watersport/Swim Shop, Material de Banho"
+
+
+
+
+},
+
+
+
+
+"shop/weapons": {
+
+
+
+
+
+"name": "Armaria",
+
+
+
+
+
+"terms": "Weapon Shop, Loja de Armas"
+
+
+
+
+},
+
+
+
+
+"shop/window_blind": {
+
+
+
+
+
+"name": "Loja de Estores",
+
+
+
+
+
+"terms": "Window Blind Store"
+
+
+
+
+},
+
+
+
+
+"shop/wine": {
+
+
+
+
+
+"name": "Loja de Vinhos",
+
+
+
+
+
+"terms": "Wine Shop, Loja de Licor, Bebidas Alcoolicas"
+
+
+
+
+},
+
+
+
+
+"tourism": {
+
+
+
+
+
+"name": "Turismo",
+
+
+
+
+
+"terms": "Turismo"
+
+
+
+
+},
+
+
+
+
+"tourism/alpine_hut": {
+
+
+
+
+
+"name": "Albergue de Montanha",
+
+
+
+
+
+"terms": "Alpine Hut"
+
+
+
+
+},
+
+
+
+
+"tourism/artwork": {
+
+
+
+
+
+"name": "Obra de Arte",
+
+
+
+
+
+"terms": "Arte, Mural"
+
+
+
+
+},
+
+
+
+
+"tourism/attraction": {
+
+
+
+
+
+"name": "Atração Turística",
+
+
+
+
+
+"terms": "Atração Turística"
+
+
+
+
+},
+
+
+
+
+"tourism/camp_site": {
+
+
+
+
+
+"name": "Parque de Campismo",
+
+
+
+
+
+"terms": "Acampamento"
+
+
+
+
+},
+
+
+
+
+"tourism/caravan_site": {
+
+
+
+
+
+"name": "Parque de Caravanas",
+
+
+
+
+
+"terms": "RV Park"
+
+
+
+
+},
+
+
+
+
+"tourism/chalet": {
+
+
+
+
+
+"name": "Chalé / Casa de Férias",
+
+
+
+
+
+"terms": "Chalet"
+
+
+
+
+},
+
+
+
+
+"tourism/guest_house": {
+
+
+
+
+
+"name": "Casa de Hóspedes",
+
+
+
+
+
+"terms": "Cama e Pequeno Almoço, Cama e Peq. Almoço, Cama e Almoço"
+
+
+
+
+},
+
+
+
+
+"tourism/hostel": {
+
+
+
+
+
+"name": "Pousada / Hostel",
+
+
+
+
+
+"terms": "Hostel"
+
+
+
+
+},
+
+
+
+
+"tourism/hotel": {
+
+
+
+
+
+"name": "Hotel",
+
+
+
+
+
+"terms": "Hotel"
+
+
+
+
+},
+
+
+
+
+"tourism/information": {
+
+
+
+
+
+"name": "Informação Turística",
+
+
+
+
+
+"terms": "Informação"
+
+
+
+
+},
+
+
+
+
+"tourism/motel": {
+
+
+
+
+
+"name": "Motel",
+
+
+
+
+
+"terms": "Motel"
+
+
+
+
+},
+
+
+
+
+"tourism/museum": {
+
+
+
+
+
+"name": "Museu",
+
+
+
+
+
+"terms": "Exposição, Fundação, Galeria, Galeria de Arte, Instituição, Livraria, Salão"
+
+
+
+
+},
+
+
+
+
+"tourism/picnic_site": {
+
+
+
+
+
+"name": "Parque de Merendas / Piqueniques",
+
+
+
+
+
+"terms": "Lugar de Merendas"
+
+
+
+
+},
+
+
+
+
+"tourism/theme_park": {
+
+
+
+
+
+"name": "Parque de Diversões",
+
+
+
+
+
+"terms": "Theme Park"
+
+
+
+
+},
+
+
+
+
+"tourism/viewpoint": {
+
+
+
+
+
+"name": "Miradouro",
+
+
+
+
+
+"terms": "Viewpoint"
+
+
+
+
+},
+
+
+
+
+"tourism/zoo": {
+
+
+
+
+
+"name": "Jardim Zoológico",
+
+
+
+
+
+"terms": "Zoológico, Zoo"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/bump": {
+
+
+
+
+
+"name": "Lomba Pequena",
+
+
+
+
+
+"terms": "Speed Bump, Lombada, Policia Deitado"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/hump": {
+
+
+
+
+
+"name": "Lomba Grande",
+
+
+
+
+
+"terms": "Speed Hump"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/rumble_strip": {
+
+
+
+
+
+"name": "Bandas Cromáticas",
+
+
+
+
+
+"terms": "Rumble Strip"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/table": {
+
+
+
+
+
+"name": "Passadeira Lombada",
+
+
+
+
+
+"terms": "Raised Pedestrian Crossing"
+
+
+
+
+},
+
+
+
+
+"type/boundary": {
+
+
+
+
+
+"name": "Fronteira",
+
+
+
+
+
+"terms": "Fronteira"
+
+
+
+
+},
+
+
+
+
+"type/boundary/administrative": {
+
+
+
+
+
+"name": "Fronteira Administrativa",
+
+
+
+
+
+"terms": "Fronteira Admistrativa"
+
+
+
+
+},
+
+
+
+
+"type/multipolygon": {
+
+
+
+
+
+"name": "Multipolígono",
+
+
+
+
+
+"terms": "Multipolígono"
+
+
+
+
+},
+
+
+
+
+"type/restriction": {
+
+
+
+
+
+"name": "Restrição",
+
+
+
+
+
+"terms": "Restrição, Proibição"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_left_turn": {
+
+
+
+
+
+"name": "Proibição de Virar à Esquerda",
+
+
+
+
+
+"terms": "No Left Turn, Não Virar à Esquerda"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_right_turn": {
+
+
+
+
+
+"name": "Proibição de Virar à Direita",
+
+
+
+
+
+"terms": "No Right Turn, Não Virar à Direita"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_straight_on": {
+
+
+
+
+
+"name": "Sentido Proibido",
+
+
+
+
+
+"terms": "No Straight On, Proibido Seguir em Frente, Proibição de Seguir em Frente"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_u_turn": {
+
+
+
+
+
+"name": "Proibição de Inversão do Sentido de \nMarcha",
+
+
+
+
+
+"terms": "No U-turn, Não Inverter o Sentido"
+
+
+
+
+},
+
+
+
+
+"type/restriction/only_left_turn": {
+
+
+
+
+
+"name": "Sentido Obrigatório para a Esquerda",
+
+
+
+
+
+"terms": "Left Turn Only, Proibido Virar para a Direita"
+
+
+
+
+},
+
+
+
+
+"type/restriction/only_right_turn": {
+
+
+
+
+
+"name": "Sentido Obrigatório para a Direita",
+
+
+
+
+
+"terms": "Right Turn Only, Proibido Virar para a Esquerda"
+
+
+
+
+},
+
+
+
+
+"type/restriction/only_straight_on": {
+
+
+
+
+
+"name": "Sentido Obrigatório para a Frente",
+
+
+
+
+
+"terms": "No Turns, Proibido Virar"
+
+
+
+
+},
+
+
+
+
+"type/route": {
+
+
+
+
+
+"name": "Rota",
+
+
+
+
+
+"terms": "Rota, Linha"
+
+
+
+
+},
+
+
+
+
+"type/route/bicycle": {
+
+
+
+
+
+"name": "Rota de Bicicleta",
+
+
+
+
+
+"terms": "Rota de Bicicletas"
+
+
+
+
+},
+
+
+
+
+"type/route/bus": {
+
+
+
+
+
+"name": "Rota de Autocarro",
+
+
+
+
+
+"terms": "Rota de Autocarros, Linha de Autocarro"
+
+
+
+
+},
+
+
+
+
+"type/route/detour": {
+
+
+
+
+
+"name": "Rota de Desvio",
+
+
+
+
+
+"terms": "Detour Route"
+
+
+
+
+},
+
+
+
+
+"type/route/ferry": {
+
+
+
+
+
+"name": "Rota de Barca / Ferry",
+
+
+
+
+
+"terms": "Rota do Ferry"
+
+
+
+
+},
+
+
+
+
+"type/route/foot": {
+
+
+
+
+
+"name": "Rota Pedestre",
+
+
+
+
+
+"terms": "Foot Route"
+
+
+
+
+},
+
+
+
+
+"type/route/hiking": {
+
+
+
+
+
+"name": "Rota de Caminhada",
+
+
+
+
+
+"terms": "Hiking Route, Rota de Escalagem"
+
+
+
+
+},
+
+
+
+
+"type/route/pipeline": {
+
+
+
+
+
+"name": "Rota de Gasoduto / Oleoduto",
+
+
+
+
+
+"terms": "Pipeline Route"
+
+
+
+
+},
+
+
+
+
+"type/route/power": {
+
+
+
+
+
+"name": "Rota de Transmissão de Energia",
+
+
+
+
+
+"terms": "Linha de Eletricidade, Linha de Energia"
+
+
+
+
+},
+
+
+
+
+"type/route/road": {
+
+
+
+
+
+"name": "Rota Rodoviária",
+
+
+
+
+
+"terms": "Percurso Rodoviário, Trajecto Rodoviário"
+
+
+
+
+},
+
+
+
+
+"type/route/train": {
+
+
+
+
+
+"name": "Rota Ferroviária",
+
+
+
+
+
+"terms": "Train Route, Rota de Comboio, Rota de Metro, Rota de Elétrico, Rota de Caminhos de Ferro"
+
+
+
+
+},
+
+
+
+
+"type/route/tram": {
+
+
+
+
+
+"name": "Rota de Elétrico",
+
+
+
+
+
+"terms": "Tram Route"
+
+
+
+
+},
+
+
+
+
+"type/route_master": {
+
+
+
+
+
+"name": "Rede de Rotas",
+
+
+
+
+
+"terms": "Route Master, Rota Mestre"
+
+
+
+
+},
+
+
+
+
+"vertex": {
+
+
+
+
+
+"name": "Outro",
+
+
+
+
+
+"terms": "Outro"
+
+
+
+
+},
+
+
+
+
+"waterway": {
+
+
+
+
+
+"name": "Curso de Água",
+
+
+
+
+
+"terms": "Waterway"
+
+
+
+
+},
+
+
+
+
+"waterway/canal": {
+
+
+
+
+
+"name": "Canal",
+
+
+
+
+
+"terms": "Canal"
+
+
+
+
+},
+
+
+
+
+"waterway/dam": {
+
+
+
+
+
+"name": "Barragem",
+
+
+
+
+
+"terms": "Barragem"
+
+
+
+
+},
+
+
+
+
+"waterway/ditch": {
+
+
+
+
+
+"name": "Fosso",
+
+
+
+
+
+"terms": "Vala, Trincheira, Represa"
+
+
+
+
+},
+
+
+
+
+"waterway/drain": {
+
+
+
+
+
+"name": "Vala de Drenagem",
+
+
+
+
+
+"terms": "Drain"
+
+
+
+
+},
+
+
+
+
+"waterway/river": {
+
+
+
+
+
+"name": "Rio",
+
+
+
+
+
+"terms": "Afluente, Barra, Barroca, Canal, Corga, Curso de Água, Delta, Estuário, Grota, Ria"
+
+
+
+
+},
+
+
+
+
+"waterway/riverbank": {
+
+
+
+
+
+"name": "Margem de Rio",
+
+
+
+
+
+"terms": "Riverbank"
+
+
+
+
+},
+
+
+
+
+"waterway/stream": {
+
+
+
+
+
+"name": "Ribeiro",
+
+
+
+
+
+"terms": "Afluente, Barra, Barroca, Canal, Corga, Curso de Água, Delta, Estuário, Fio de Água, Grota, Regato, Rego, Riacho, Ribeira, Ribeiro, Ria, Vala, Valeiro"
+
+
+
+
+},
+
+
+
+
+"waterway/weir": {
+
+
+
+
+
+"name": "Represa",
+
+
+
+
+
+"terms": "Weir"
+
+
+
+
+}
+
+
+
+}
+
+
+}
+
+}
 }

@@ -1,4 +1,1885 @@
 {
-	"content": "id:\n  modes:\n    add_area:\n      title: Area\n      description: \"Tambahkan taman, bangunan, danau atau area lain pada peta.\"\n      tail: \"Klik pada peta untuk mulai menggambar sebuah area, misalnya taman, danau, atau bangunan.\"\n    add_line:\n      title: Garis\n      description: \"Menambahkan jalan raya, jalan, jalur pejalan kaki, saluran air atau garis lain pada peta.\"\n      tail: \"Klik pada peta untuk mulai menggambar sebuah jalan, jalur, atau rute.\"\n    add_point:\n      title: Titik\n      description: \"Menambahkan restoran, monumen, kotak surat atau titik lain pada peta.\"\n      tail: Klik pada peta untuk menambah sebuah titik.\n    browse:\n      title: Arahkan\n      description: Geser dan perbesar tampilan peta.\n    draw_area:\n      tail: Klik untuk menambah simpul di area anda. Klik simpul awal untuk menyelesaikan area.\n    draw_line:\n      tail: \"Klik untuk menambahkan simpul di garis. Klik pada garis lain untuk menghubungkan dengan mereka, dan klik ganda untuk mengakhiri suatu garis.\"\n  operations:\n    add:\n      annotation:\n        point: Telah ditambahkan sebuah titik.\n        vertex: Ditambahkan simpul pada jalan.\n        relation: Tambahkan relasi\n    start:\n      annotation:\n        line: Dimulai sebuah garis.\n        area: Dimulai sebuah area.\n    continue:\n      key: A\n      title: Lanjutkan\n      description: Lanjutkan garis ini.\n      not_eligible: Tidak ada garis yang dapat dilanjutkan disini.\n      multiple: 'Beberapa garis bisa di lanjutkan dari sini. Untuk memilih garis, tekan tombol Shift dan klik pada garis tersebut untuk memilihnya. '\n      annotation:\n        line: Dilanjutkan sebuah garis.\n        area: Dilanjutkan sebuah area.\n    cancel_draw:\n      annotation: Batal menggambar.\n    change_role:\n      annotation: Ubah aturan dari relasi anggota.\n    change_tags:\n      annotation: 'Tags '\n    circularize:\n      title: Melingkar\n      description:\n        line: Buat garis ini melingkar.\n        area: Buat area ini melingkar.\n      key: O\n      annotation:\n        line: Buat garis melingkar.\n        area: Buat sebuah area melingkar.\n      not_closed: Ini tidak bisa dibuat berputar karena bukan sebuah garis tertutup.\n      too_large: Tidak bisa dibuat bentuk lingkaran karena belum cukup terlihat.\n    orthogonalize:\n      title: Persegi\n      description:\n        line: Kotakkan sudut garis ini.\n        area: Mengotakkan sudut area ini.\n      key: S\n      annotation:\n        line: Mengotakkan sudut dari garis\n        area: Mengotakkan sudut sebuah area.\n      not_squarish: Tidak bisa dibuat mengkotak karena bukan segi empat.\n      too_large: Tidak bisa dibuat bentuk kotak karena belum cukup terlihat.\n    straighten:\n      title: Luruskan\n      description: Luruskan garis ini.\n      key: S\n      annotation: Luruskan kembali sebuah garis.\n      too_bendy: Garis ini tidak dapat diluruskan karena terlalu banyak lekukan.\n    delete:\n      title: Hapus\n      description: Hapus objek secara permanen.\n      annotation:\n        point: Menghapus sebuah titik.\n        vertex: Menghapus sebuah simpul dari jalan.\n        line: Mengapus sebuah jalan.\n        area: Menghapus sebuah area.\n        relation: Menghapus sebuah relasi.\n        multiple: \"Menghapus {n} obyek.\"\n      incomplete_relation: Fitur ini tidak bisa dihapus karena belum sepenuhnya terunduh.\n    add_member:\n      annotation: Tambahkan anggota ke sebuah relasi\n    delete_member:\n      annotation: Buang anggota dari sebuah relasi.\n    connect:\n      annotation:\n        point: Menyambungkan sebuah jalan ke sebuah titik.\n        vertex: Menyambungkan sebuah jalan ke lainnya.\n        line: Menyambungkan sebuah jalan ke sebuah garis.\n        area: Menyambungkan sebuah jalan ke sebuah area.\n    disconnect:\n      title: Memutuskan\n      description: Putuskan garis/area masing-masing.\n      key: D\n      annotation: Putuskan garis/area.\n      not_connected: Kurang garis/area di sini untuk diputuskan.\n    merge:\n      title: Gabung\n      description: Gabungkan garis-garis ini.\n      key: C\n      annotation: \"Menggabungkan {n} garis.\"\n      not_eligible: Fitur-fitur ini tidak bisa digabung.\n      not_adjacent: Garis-garis ini tidak bisa digabung karena mereka tidak terhubung.\n      restriction: Garis ini tidak bisa digabung karena salah satu dari garis ini merupakan anggota dari sebuah \"{relation\"} relasi.\n      incomplete_relation: Fitur ini tidak bisa digabungkan karena belum sepenuhnya terunduh.\n    move:\n      title: Geser\n      description: Geser ini ke lokasi lain.\n      key: M\n      annotation:\n        point: Menggeser sebuah titik.\n        vertex: Menggeser simpul dari sebuah jalan.\n        line: Menggeser sebuah garis.\n        area: Menggeser sebuah area.\n        multiple: Menggeser beberapa obyek.\n      incomplete_relation: Fitur ini tidak bisa dipindahkan karena belum sepenuhnya terunduh.\n      too_large: Objek ini tidak dapat dipindahkan karena baru separuhnya yang tampak di layar.\n    rotate:\n      title: Putar\n      description: Putar obyek ini berdasar titik pusatnya.\n      key: R\n      annotation:\n        line: Memutar sebuah garis.\n        area: Memutar sebuah area.\n      too_large: Objek ini tidak dapat diputar karena baru separuhnya yang tampak di layar.\n    reverse:\n      title: Balik\n      description: Buat garis ini menjadi berlawanan arah.\n      key: V\n      annotation: Sebuah garis dibalik.\n    split:\n      title: Pisah\n      description:\n        line: Pisahkan garis ini menjadi dua di simpul ini.\n        area: Pisahkan batas area ini menjadi dua.\n        multiple: Pisahkan batas garis/area di simpul ini menjadi dua.\n      key: X\n      annotation:\n        line: Pisahkan sebuah garis.\n        area: Pisahkan sebuah batas area.\n        multiple: \"Pisahkan {n} batas garis/area.\"\n      not_eligible: Garis tidak bisa dipisahkan di awal atau akhir bagian mereka.\n      multiple_ways: Terlalu banyak garis untuk dipisahkan\n    restriction:\n      help:\n        select: Klik untuk memilih segmen jalan.\n        toggle: Klik untuk menentukan larangan belok kiri/kanan.\n        toggle_on: 'Klik untuk menambahkan larangan \"{restriction}\".'\n        toggle_off: 'Klik untuk menghapus larangan \"{restriction}\".'\n      annotation:\n        create: Menambahkan larangan belok\n        delete: Menghapus larangan belok\n  undo:\n    tooltip: \"Batalkan: {action}\"\n    nothing: Tak ada yang bisa di ulang.\n  redo:\n    tooltip: \"Redo: {action}\"\n    nothing: Tak ada yang bisa di redo.\n  tooltip_keyhint: \"Pintasan:\"\n  browser_notice: \"Penyunting ini bisa digunakan di Firefox, Chrome, Safari, Opera, dan Internet Explorer 9 dan versi yang lebih tinggi. Silahkan perbarui peramban Anda atau gunakan Potlatc 2 untuk menyuting peta.\"\n  translate:\n    translate: Terjemahkan\n    localized_translation_label: Nama banyak-bahasa\n    localized_translation_language: Pilih Bahasa\n    localized_translation_name: Nama\n  zoom_in_edit: Perbesar untuk bisa menyunting\n  logout: keluar\n  loading_auth: \"Menghubungkan dengan OpenStreetMap...\"\n  report_a_bug: laporkan sebuah kerusakan\n  status:\n    error: Tak bisa terhubung dengan API.\n    offline: API-nya offline. Coba menyunting lagi nanti.\n    readonly: API dalam kondisi hanya-baca. Anda perlu menunggu untuk menyimpan perubahan.\n  commit:\n    title: Simpan Perubahan\n    description_placeholder: Deskripsi singkat kontribusi Anda\n    message_label: Sampaikan pesan\n    upload_explanation: \"Perubahan yang anda unggah akan tampil di seluruh peta yang menggunakan data OpenStreetMap.\"\n    upload_explanation_with_user: \"Perubahan yang anda unggah sebagai {user} akan tampil di seluruh peta yang menggunakan data OpenStreetMap.\"\n    save: Simpan\n    cancel: Batal\n    warnings: Peringatan\n    modified: Diubah\n    deleted: Terhapus\n    created: Dibuat\n  contributors:\n    list: \"Disunting oleh {users}\"\n    truncated_list: \"Disunting oleh {users} dan {count} lainnya\"\n  geocoder:\n    search: Cari di seluruh dunia...\n    no_results_visible: Hasil pencarian tidak ditemukan pada peta yang ditampilkan\n    no_results_worldwide: Hasil pencarian tidak ditemukan\n  geolocate:\n    title: Tunjukan Lokasi Saya\n  inspector:\n    no_documentation_combination: Tidak ada dokumentasi yang tersedia untuk kombinasi tanda ini\n    no_documentation_key: Tidak ada dokumentasi tersedia untuk kunci ini\n    show_more: Tampilkan Lainnya\n    view_on_osm: Lihat di openstreetmap.org\n    all_tags: Semua Tags\n    all_members: Semua anggota\n    all_relations: Seluruh relasi\n    new_relation: Buat relasi baru\n    role: Aturan\n    choose: Pilih Tipe Fitur\n    results: \"{n}hasil untuk {search}\"\n    reference: Lihat di OpenStreetMap Wiki\n    back_tooltip: Ubah Fitur\n    remove: Buang\n    search: Cari\n    multiselect: Item terpilih\n    unknown: Tidak diketahui\n    incomplete: <tak terunduh>\n    feature_list: Cari fitur\n    edit: Ubah Fitur\n    none: Tidak ada\n    node: Titik\n    way: Garis\n    relation: Relasi\n    location: Lokasi\n  background:\n    title: Latar\n    description: Pengaturan Latar\n    percent_brightness: \"{opacity}% kecerahan\"\n    none: Tidak ada\n    custom: Custom\n    custom_button: Ubah tampilan latar kustom\n    custom_prompt: \"Masukkan template URL. Token yang diperbolehkan adalah  {z}, {x}, {y} untuk Z/X/Y skema dan {u} untuk quadtile skema.\"\n    fix_misalignment: Perbaiki perataan\n    reset: ulang\n  feature:\n    paths:\n      description: Jalan Kecil\n    buildings:\n      description: Bangunan\n    boundaries:\n      description: Batas\n      tooltip: \"Batas Administrasi\"\n    past_future:\n      description: Masa Lalu/Akan Datang\n    others:\n      description: Lainnya\n  restore:\n    heading: Anda memiliki perubahan yang belum disimpan\n    description: \"Apakah anda ingin mengembalikan perubahan yang belum tersimpan dari sesi penyuntingan sebelumnya?\"\n    restore: Kembalikan\n    reset: Ulang\n  save:\n    title: Simpan\n    help: \"Simpan perubahan ke OpenStreetMap, jadikan mereka terlihat oleh pengguna lain.\"\n    no_changes: Tak ada perubahan yang bisa disimpan.\n    error: Sebuah kesalahan terjadi ketika penyimpanan.\n    uploading: Mengunggah perubahan ke OpenStreetMap.\n    unsaved_changes: Anda mememiliki perubahan yang belum tersimpan\n  success:\n    edited_osm: \"OSM tersunting!\"\n    just_edited: \"Anda baru saja menyunting OpenStreetMap!\"\n    view_on_osm: \"Lihat di OSM\"\n    facebook: \"Bagikan di Facebook\"\n    twitter: \"Berbagi di Twitter\"\n    google: \"Berbagi di Google+\"\n    help_html: |\n      Perubahan yang anda buat seharusnya akan muncul di layer \"Standar\" dalam beberapa menit. Layer lain dan fitur tertentu, mungkin akan membutuhkan waktu lama\n      (<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>Penjelasan lebih lanjut</a>).\n  confirm:\n    okay: \"Baiklah\"\n  splash:\n    welcome: Selamat datang di penyuting iD OpenStreetMap\n    text: \"iD begitu bersahabat namun juga alat yang kuat untuk berperan dalam peta dunia gratis terbaik. Ini adalah versi {version}. Untuk informasi lebih lihat {website} dan laporkan kesalahan di {github}.\"\n    walkthrough: \"Memulai Perjalanan\"\n    start: \"Sunting Sekarang\"\n  source_switch:\n    live: terhubung\n    lose_changes: \"Perubahan anda belum disimpan. Mengganti server peta akan membatalkan perubahan. Anda yakin akan mengganti server?\"\n    dev: dev\n  tag_reference:\n    description: Deskripsi\n    on_wiki: \"{tag} di wiki.osm.org\"\n    used_with: \"digunakan dengan {type}\"\n  validations:\n    untagged_point: Titik Tak-bertanda\n    untagged_line: Garis tak bertanda\n    untagged_area: Area tak bertanda\n    many_deletions: \"Anda menghapus {n} obyek. Apakah anda yakin? Ini akan menghapus dari peta yang semua orang lihat pada openstreetmap.org.\"\n    tag_suggests_area: \"Penanda {tag} menyarankan garis sebaiknya dalam bentuk area, tapi ini bukan sebuah area\"\n    untagged_point_tooltip: \"Pilih tipe fitur yang menjelaskan apa identitas poin ini.\"\n    untagged_line_tooltip: \"Pilih tipe fitur yang menjelaskan apa identitas garis ini.\"\n    untagged_area_tooltip: \"Pilih tipe fitur yang menjelaskan apa identitas area ini.\"\n    deprecated_tags: \"Tag sudah tidak dipergunakan: {tags}\"\n  zoom:\n    in: Perbesar tampilan\n    out: Perkecil tampilan\n  cannot_zoom: \"Tidak bisa memperbesar tampilan lebih jauh dengan mode ini.\"\n  gpx:\n    local_layer: \"File GPX lokal\"\n    drag_drop: \"Geser dan letakan sebuah berkas .gpx di halaman, atau klik tombol ke kanan untuk menjelajah\"\n    zoom: \"Perbesar ke jejak GPX\"\n    browse: \"Telusuri untuk file .gpx\"\n  mapillary:\n    tooltip: \"Pemandangan jalan dari Mapillary\"\n    title: \"Lapisan Foto (Mapillary)\"\n    view_on_mapillary: \"Lihat gambar ini di Mapillary\"\n  help:\n    title: \"Bantuan\"\n    help: \"#Bantuan\\n\\nIni adalah editor untuk [OpenStreetMap] (http://www.openstreetmap.org/), \\npeta dunia gratis dan bisa disunting. Anda dapat menggunakannya dengan menambahkan dan memperbarui\\n data di area anda, membangun sebuah peta sumber-terbuka dan data-terbuka di seluruh dunia\\n yang lebih baik untuk semua orang.\\n\\nPerubahan yang anda buat akan terlihat ke semua orang yang menggunakan \\nOpenStreetMap.\\\n      \\ Untuk melakukan penyutingan, anda membutuhkan \\n[free OpenStreetMap account] (https://www.openstreetmap.org/user/new).\\n\\n[iD editor](http://ideditor.com/) adalah proyek kolaborasi dengan [kode sumber tersedia di GitHub](https://github.com/openstreetmap/iD).\\n\"\n  intro:\n    navigation:\n      title: \"Navigasi\"\n      drag: \"Area peta utama menampilkan data OpenStreetMap pada bagian atas dari latar. Anda dapat bernavigasi dengan menggeser dan mengskrol, seperti peta web lainnya. **Geser petanya!**\"\n      select: \"Fitur peta dapat diwakili dengan tiga cara: dengan titik, garis, atau area. Semua fitur dapat dipilih dengan mengklik mereka. **Klik sebuah titik untuk memilihnya.**\"\n      header: \"Header menunjukan tipe fitur.\"\n      pane: \"Ketika sebuah fitur terpilih, fitur penyunting akan tampil. Header menunjukan tipe fitur dan panel utama yang menunjukan atribut fitur, seperti nama dan alamat. **Tutup fitur penyunting dengan mengklik tombol tutup di bagian kanan atas.**\"\n    points:\n      title: \"Titik\"\n      add: \"Titik dapat digunakan untuk mewakili fitur seperti toko, restoran, dan monumen. Mereka menadakan lokasi pasti, dan menggambarkan ada apa di sana. **Klik tombol Titik untuk menambahkan titik baru.**\"\n      place: \"Titik bisa diletakkan dengan mengklik pada peta. **Letakan titik di atap gedungnya.**\"\n      search: \"Terdapat banyak fitur berbeda yang dapat diwakili oleh titik. Titik yang baru anda tambahkan adalah Cafe. **Pencarian untuk '{name}'**\"\n      choose: \"**Pilih Cafe dari daftar.**\"\n      describe: \"Kini titik bisa ditandai sebagai cafe. Gunakan penyunting fitur, kita dapat tambahkan informasi lebih tentang fitur. **Tambahkan sebuah nama**\"\n      close: \"Penyunting fitur dapat ditutup dengan mengklik tombol tutup. **Tutup penyunting fitur**\"\n      reselect: \"Terkadang titik sudah ada, tapi ada kesalahan atau kurang lengkap. Kita dapat memperbaiki titik yang sudah ada. **Pilih titik yang baru saja anda buat.**\"\n      fixname: \"**Ubah nama dan tutup fitur penyunting.**\"\n      reselect_delete: \"Seluruh fitur pada peta dapat dihapus. **Klik pada titik yang anda buat**\"\n      delete: \"Menu di sekitar titik berisi operasi yang bisa dilakukannya, termasuk menghapus. **Hapus titik**\"\n    areas:\n      title: \"Area\"\n      add: \"Area digunakan untuk menampilkan batas fitur-fitur seperti danau, bangunan, dan kawasan permukiman. Area juga dapat digunakan untuk memetakan fitur-fitur yang biasanya dipetakan menggunakan titik secara lebih rinci lagi. **Klik tombol Area untuk menambahkan area baru.**\"\n      corner: \"Area tergambar dengan meletakkan simpul yang menandakan batas suatu area. **Letakan simpul pemula di satu sudut dari tempat-bermain.**\"\n      place: \"Gambar area dengan meletakan lebih banyak simpul. Selesaikan area dengan mengklik pada simpul awal. **Gambar sebuah area untuk tempat bermain.**\"\n      search: \"**Pencarian untuk '{name}'.**\"\n      choose: \"**Pilih Tempat-bermain dari daftar.**\"\n      describe: \"**Tambahkan nama, dan tutup fitur penyunting**\"\n    lines:\n      title: \"Garis\"\n      add: \"Garis biasa digunakan untuk mewakili fitur seperti jalan, rel dan sungai. **Klik tombol Garis untuk menambahkan sebuah garis baru.**\"\n      start: \"**Mulai garis dengan mengklik pada ujung sebuah jalan.**\"\n      intersect: \"Klik untuk menambahkan lagi simpul pada garis. Anda dapat menggeser peta ketika menggambar jika diperlukan. Jalan, dan banyak tipe lain dari garis, adalah bagian dari jaringan yang lebih besar. Ini penting untuk garis-garis ini untuk terhubung dengan baik agar alat penelusuran rute bisa berjalan. **Klik di Jalan Flower, untuk membuat percabangan yang menghubungkan dua garis.**\"\n      finish: \"Garis bisa diselesaikan dengan mengklik ulang pada simpul terakhir. **Selesaikan menggambar jalan.**\"\n      road: \"**Pilih Jalan dari daftar**\"\n      residential: \"Ada beberapa tipe jalan berbeda, yang paling umum adalah Jalan Perumahan. **Pilih tipe jalan Perumahan**\"\n      describe: \"**Namakan jalan dan tutup fitur penyunting.**\"\n      restart: \"Jalan perlu memotong Jalan Flower.\"\n      wrong_preset: \"Anda belum memilih tipe Jalan Perumahan. **Klik di sini untuk memilih lagi**\"\n    startediting:\n      title: \"Mulai Menyunting\"\n      help: \"Dokumentasi lebih dan ujicoba tersedia di sini.\"\n      save: \"Jangan lupa menyimpan perubahan secara berkala!\"\n      start: \"Mulai memetakan!\"\n",
-	"mimetype": "text/plain"
+
+"id": {
+
+
+"modes": {
+
+
+
+"add_area": {
+
+
+
+
+"title": "Area",
+
+
+
+
+"description": "Tambahkan taman, bangunan, danau atau area lain pada peta.",
+
+
+
+
+"tail": "Klik pada peta untuk mulai menggambar sebuah area, misalnya taman, danau, atau bangunan."
+
+
+
+},
+
+
+
+"add_line": {
+
+
+
+
+"title": "Garis",
+
+
+
+
+"description": "Menambahkan jalan raya, jalan, jalur pejalan kaki, saluran air atau garis lain pada peta.",
+
+
+
+
+"tail": "Klik pada peta untuk mulai menggambar sebuah jalan, jalur, atau rute."
+
+
+
+},
+
+
+
+"add_point": {
+
+
+
+
+"title": "Titik",
+
+
+
+
+"description": "Menambahkan restoran, monumen, kotak surat atau titik lain pada peta.",
+
+
+
+
+"tail": "Klik pada peta untuk menambah sebuah titik."
+
+
+
+},
+
+
+
+"browse": {
+
+
+
+
+"title": "Arahkan",
+
+
+
+
+"description": "Geser dan perbesar tampilan peta."
+
+
+
+},
+
+
+
+"draw_area": {
+
+
+
+
+"tail": "Klik untuk menambah simpul di area anda. Klik simpul awal untuk menyelesaikan area."
+
+
+
+},
+
+
+
+"draw_line": {
+
+
+
+
+"tail": "Klik untuk menambahkan simpul di garis. Klik pada garis lain untuk menghubungkan dengan mereka, dan klik ganda untuk mengakhiri suatu garis."
+
+
+
+}
+
+
+},
+
+
+"operations": {
+
+
+
+"add": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Telah ditambahkan sebuah titik.",
+
+
+
+
+
+"vertex": "Ditambahkan simpul pada jalan.",
+
+
+
+
+
+"relation": "Tambahkan relasi"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"start": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Dimulai sebuah garis.",
+
+
+
+
+
+"area": "Dimulai sebuah area."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"continue": {
+
+
+
+
+"key": "A",
+
+
+
+
+"title": "Lanjutkan",
+
+
+
+
+"description": "Lanjutkan garis ini.",
+
+
+
+
+"not_eligible": "Tidak ada garis yang dapat dilanjutkan disini.",
+
+
+
+
+"multiple": "Beberapa garis bisa di lanjutkan dari sini. Untuk memilih garis, tekan tombol Shift dan klik pada garis tersebut untuk memilihnya. ",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Dilanjutkan sebuah garis.",
+
+
+
+
+
+"area": "Dilanjutkan sebuah area."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"cancel_draw": {
+
+
+
+
+"annotation": "Batal menggambar."
+
+
+
+},
+
+
+
+"change_role": {
+
+
+
+
+"annotation": "Ubah aturan dari relasi anggota."
+
+
+
+},
+
+
+
+"change_tags": {
+
+
+
+
+"annotation": "Tags "
+
+
+
+},
+
+
+
+"circularize": {
+
+
+
+
+"title": "Melingkar",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Buat garis ini melingkar.",
+
+
+
+
+
+"area": "Buat area ini melingkar."
+
+
+
+
+},
+
+
+
+
+"key": "O",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Buat garis melingkar.",
+
+
+
+
+
+"area": "Buat sebuah area melingkar."
+
+
+
+
+},
+
+
+
+
+"not_closed": "Ini tidak bisa dibuat berputar karena bukan sebuah garis tertutup.",
+
+
+
+
+"too_large": "Tidak bisa dibuat bentuk lingkaran karena belum cukup terlihat."
+
+
+
+},
+
+
+
+"orthogonalize": {
+
+
+
+
+"title": "Persegi",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Kotakkan sudut garis ini.",
+
+
+
+
+
+"area": "Mengotakkan sudut area ini."
+
+
+
+
+},
+
+
+
+
+"key": "S",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Mengotakkan sudut dari garis",
+
+
+
+
+
+"area": "Mengotakkan sudut sebuah area."
+
+
+
+
+},
+
+
+
+
+"not_squarish": "Tidak bisa dibuat mengkotak karena bukan segi empat.",
+
+
+
+
+"too_large": "Tidak bisa dibuat bentuk kotak karena belum cukup terlihat."
+
+
+
+},
+
+
+
+"straighten": {
+
+
+
+
+"title": "Luruskan",
+
+
+
+
+"description": "Luruskan garis ini.",
+
+
+
+
+"key": "S",
+
+
+
+
+"annotation": "Luruskan kembali sebuah garis.",
+
+
+
+
+"too_bendy": "Garis ini tidak dapat diluruskan karena terlalu banyak lekukan."
+
+
+
+},
+
+
+
+"delete": {
+
+
+
+
+"title": "Hapus",
+
+
+
+
+"description": "Hapus objek secara permanen.",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Menghapus sebuah titik.",
+
+
+
+
+
+"vertex": "Menghapus sebuah simpul dari jalan.",
+
+
+
+
+
+"line": "Mengapus sebuah jalan.",
+
+
+
+
+
+"area": "Menghapus sebuah area.",
+
+
+
+
+
+"relation": "Menghapus sebuah relasi.",
+
+
+
+
+
+"multiple": "Menghapus {n} obyek."
+
+
+
+
+},
+
+
+
+
+"incomplete_relation": "Fitur ini tidak bisa dihapus karena belum sepenuhnya terunduh."
+
+
+
+},
+
+
+
+"add_member": {
+
+
+
+
+"annotation": "Tambahkan anggota ke sebuah relasi"
+
+
+
+},
+
+
+
+"delete_member": {
+
+
+
+
+"annotation": "Buang anggota dari sebuah relasi."
+
+
+
+},
+
+
+
+"connect": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Menyambungkan sebuah jalan ke sebuah titik.",
+
+
+
+
+
+"vertex": "Menyambungkan sebuah jalan ke lainnya.",
+
+
+
+
+
+"line": "Menyambungkan sebuah jalan ke sebuah garis.",
+
+
+
+
+
+"area": "Menyambungkan sebuah jalan ke sebuah area."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"disconnect": {
+
+
+
+
+"title": "Memutuskan",
+
+
+
+
+"description": "Putuskan garis/area masing-masing.",
+
+
+
+
+"key": "D",
+
+
+
+
+"annotation": "Putuskan garis/area.",
+
+
+
+
+"not_connected": "Kurang garis/area di sini untuk diputuskan."
+
+
+
+},
+
+
+
+"merge": {
+
+
+
+
+"title": "Gabung",
+
+
+
+
+"description": "Gabungkan garis-garis ini.",
+
+
+
+
+"key": "C",
+
+
+
+
+"annotation": "Menggabungkan {n} garis.",
+
+
+
+
+"not_eligible": "Fitur-fitur ini tidak bisa digabung.",
+
+
+
+
+"not_adjacent": "Garis-garis ini tidak bisa digabung karena mereka tidak terhubung.",
+
+
+
+
+"restriction": "Garis ini tidak bisa digabung karena salah satu dari garis ini merupakan anggota dari sebuah \"{relation\"} relasi.",
+
+
+
+
+"incomplete_relation": "Fitur ini tidak bisa digabungkan karena belum sepenuhnya terunduh."
+
+
+
+},
+
+
+
+"move": {
+
+
+
+
+"title": "Geser",
+
+
+
+
+"description": "Geser ini ke lokasi lain.",
+
+
+
+
+"key": "M",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "Menggeser sebuah titik.",
+
+
+
+
+
+"vertex": "Menggeser simpul dari sebuah jalan.",
+
+
+
+
+
+"line": "Menggeser sebuah garis.",
+
+
+
+
+
+"area": "Menggeser sebuah area.",
+
+
+
+
+
+"multiple": "Menggeser beberapa obyek."
+
+
+
+
+},
+
+
+
+
+"incomplete_relation": "Fitur ini tidak bisa dipindahkan karena belum sepenuhnya terunduh.",
+
+
+
+
+"too_large": "Objek ini tidak dapat dipindahkan karena baru separuhnya yang tampak di layar."
+
+
+
+},
+
+
+
+"rotate": {
+
+
+
+
+"title": "Putar",
+
+
+
+
+"description": "Putar obyek ini berdasar titik pusatnya.",
+
+
+
+
+"key": "R",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Memutar sebuah garis.",
+
+
+
+
+
+"area": "Memutar sebuah area."
+
+
+
+
+},
+
+
+
+
+"too_large": "Objek ini tidak dapat diputar karena baru separuhnya yang tampak di layar."
+
+
+
+},
+
+
+
+"reverse": {
+
+
+
+
+"title": "Balik",
+
+
+
+
+"description": "Buat garis ini menjadi berlawanan arah.",
+
+
+
+
+"key": "V",
+
+
+
+
+"annotation": "Sebuah garis dibalik."
+
+
+
+},
+
+
+
+"split": {
+
+
+
+
+"title": "Pisah",
+
+
+
+
+"description": {
+
+
+
+
+
+"line": "Pisahkan garis ini menjadi dua di simpul ini.",
+
+
+
+
+
+"area": "Pisahkan batas area ini menjadi dua.",
+
+
+
+
+
+"multiple": "Pisahkan batas garis/area di simpul ini menjadi dua."
+
+
+
+
+},
+
+
+
+
+"key": "X",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Pisahkan sebuah garis.",
+
+
+
+
+
+"area": "Pisahkan sebuah batas area.",
+
+
+
+
+
+"multiple": "Pisahkan {n} batas garis/area."
+
+
+
+
+},
+
+
+
+
+"not_eligible": "Garis tidak bisa dipisahkan di awal atau akhir bagian mereka.",
+
+
+
+
+"multiple_ways": "Terlalu banyak garis untuk dipisahkan"
+
+
+
+},
+
+
+
+"restriction": {
+
+
+
+
+"help": {
+
+
+
+
+
+"select": "Klik untuk memilih segmen jalan.",
+
+
+
+
+
+"toggle": "Klik untuk menentukan larangan belok kiri/kanan.",
+
+
+
+
+
+"toggle_on": "Klik untuk menambahkan larangan \"{restriction}\".",
+
+
+
+
+
+"toggle_off": "Klik untuk menghapus larangan \"{restriction}\"."
+
+
+
+
+},
+
+
+
+
+"annotation": {
+
+
+
+
+
+"create": "Menambahkan larangan belok",
+
+
+
+
+
+"delete": "Menghapus larangan belok"
+
+
+
+
+}
+
+
+
+}
+
+
+},
+
+
+"undo": {
+
+
+
+"tooltip": "Batalkan: {action}",
+
+
+
+"nothing": "Tak ada yang bisa di ulang."
+
+
+},
+
+
+"redo": {
+
+
+
+"tooltip": "Redo: {action}",
+
+
+
+"nothing": "Tak ada yang bisa di redo."
+
+
+},
+
+
+"tooltip_keyhint": "Pintasan:",
+
+
+"browser_notice": "Penyunting ini bisa digunakan di Firefox, Chrome, Safari, Opera, dan Internet Explorer 9 dan versi yang lebih tinggi. Silahkan perbarui peramban Anda atau gunakan Potlatc 2 untuk menyuting peta.",
+
+
+"translate": {
+
+
+
+"translate": "Terjemahkan",
+
+
+
+"localized_translation_label": "Nama banyak-bahasa",
+
+
+
+"localized_translation_language": "Pilih Bahasa",
+
+
+
+"localized_translation_name": "Nama"
+
+
+},
+
+
+"zoom_in_edit": "Perbesar untuk bisa menyunting",
+
+
+"logout": "keluar",
+
+
+"loading_auth": "Menghubungkan dengan OpenStreetMap...",
+
+
+"report_a_bug": "laporkan sebuah kerusakan",
+
+
+"status": {
+
+
+
+"error": "Tak bisa terhubung dengan API.",
+
+
+
+"offline": "API-nya offline. Coba menyunting lagi nanti.",
+
+
+
+"readonly": "API dalam kondisi hanya-baca. Anda perlu menunggu untuk menyimpan perubahan."
+
+
+},
+
+
+"commit": {
+
+
+
+"title": "Simpan Perubahan",
+
+
+
+"description_placeholder": "Deskripsi singkat kontribusi Anda",
+
+
+
+"message_label": "Sampaikan pesan",
+
+
+
+"upload_explanation": "Perubahan yang anda unggah akan tampil di seluruh peta yang menggunakan data OpenStreetMap.",
+
+
+
+"upload_explanation_with_user": "Perubahan yang anda unggah sebagai {user} akan tampil di seluruh peta yang menggunakan data OpenStreetMap.",
+
+
+
+"save": "Simpan",
+
+
+
+"cancel": "Batal",
+
+
+
+"warnings": "Peringatan",
+
+
+
+"modified": "Diubah",
+
+
+
+"deleted": "Terhapus",
+
+
+
+"created": "Dibuat"
+
+
+},
+
+
+"contributors": {
+
+
+
+"list": "Disunting oleh {users}",
+
+
+
+"truncated_list": "Disunting oleh {users} dan {count} lainnya"
+
+
+},
+
+
+"geocoder": {
+
+
+
+"search": "Cari di seluruh dunia...",
+
+
+
+"no_results_visible": "Hasil pencarian tidak ditemukan pada peta yang ditampilkan",
+
+
+
+"no_results_worldwide": "Hasil pencarian tidak ditemukan"
+
+
+},
+
+
+"geolocate": {
+
+
+
+"title": "Tunjukan Lokasi Saya"
+
+
+},
+
+
+"inspector": {
+
+
+
+"no_documentation_combination": "Tidak ada dokumentasi yang tersedia untuk kombinasi tanda ini",
+
+
+
+"no_documentation_key": "Tidak ada dokumentasi tersedia untuk kunci ini",
+
+
+
+"show_more": "Tampilkan Lainnya",
+
+
+
+"view_on_osm": "Lihat di openstreetmap.org",
+
+
+
+"all_tags": "Semua Tags",
+
+
+
+"all_members": "Semua anggota",
+
+
+
+"all_relations": "Seluruh relasi",
+
+
+
+"new_relation": "Buat relasi baru",
+
+
+
+"role": "Aturan",
+
+
+
+"choose": "Pilih Tipe Fitur",
+
+
+
+"results": "{n}hasil untuk {search}",
+
+
+
+"reference": "Lihat di OpenStreetMap Wiki",
+
+
+
+"back_tooltip": "Ubah Fitur",
+
+
+
+"remove": "Buang",
+
+
+
+"search": "Cari",
+
+
+
+"multiselect": "Item terpilih",
+
+
+
+"unknown": "Tidak diketahui",
+
+
+
+"incomplete": "<tak terunduh>",
+
+
+
+"feature_list": "Cari fitur",
+
+
+
+"edit": "Ubah Fitur",
+
+
+
+"none": "Tidak ada",
+
+
+
+"node": "Titik",
+
+
+
+"way": "Garis",
+
+
+
+"relation": "Relasi",
+
+
+
+"location": "Lokasi"
+
+
+},
+
+
+"background": {
+
+
+
+"title": "Latar",
+
+
+
+"description": "Pengaturan Latar",
+
+
+
+"percent_brightness": "{opacity}% kecerahan",
+
+
+
+"none": "Tidak ada",
+
+
+
+"custom": "Custom",
+
+
+
+"custom_button": "Ubah tampilan latar kustom",
+
+
+
+"custom_prompt": "Masukkan template URL. Token yang diperbolehkan adalah  {z}, {x}, {y} untuk Z/X/Y skema dan {u} untuk quadtile skema.",
+
+
+
+"fix_misalignment": "Perbaiki perataan",
+
+
+
+"reset": "ulang"
+
+
+},
+
+
+"feature": {
+
+
+
+"paths": {
+
+
+
+
+"description": "Jalan Kecil"
+
+
+
+},
+
+
+
+"buildings": {
+
+
+
+
+"description": "Bangunan"
+
+
+
+},
+
+
+
+"boundaries": {
+
+
+
+
+"description": "Batas",
+
+
+
+
+"tooltip": "Batas Administrasi"
+
+
+
+},
+
+
+
+"past_future": {
+
+
+
+
+"description": "Masa Lalu/Akan Datang"
+
+
+
+},
+
+
+
+"others": {
+
+
+
+
+"description": "Lainnya"
+
+
+
+}
+
+
+},
+
+
+"restore": {
+
+
+
+"heading": "Anda memiliki perubahan yang belum disimpan",
+
+
+
+"description": "Apakah anda ingin mengembalikan perubahan yang belum tersimpan dari sesi penyuntingan sebelumnya?",
+
+
+
+"restore": "Kembalikan",
+
+
+
+"reset": "Ulang"
+
+
+},
+
+
+"save": {
+
+
+
+"title": "Simpan",
+
+
+
+"help": "Simpan perubahan ke OpenStreetMap, jadikan mereka terlihat oleh pengguna lain.",
+
+
+
+"no_changes": "Tak ada perubahan yang bisa disimpan.",
+
+
+
+"error": "Sebuah kesalahan terjadi ketika penyimpanan.",
+
+
+
+"uploading": "Mengunggah perubahan ke OpenStreetMap.",
+
+
+
+"unsaved_changes": "Anda mememiliki perubahan yang belum tersimpan"
+
+
+},
+
+
+"success": {
+
+
+
+"edited_osm": "OSM tersunting!",
+
+
+
+"just_edited": "Anda baru saja menyunting OpenStreetMap!",
+
+
+
+"view_on_osm": "Lihat di OSM",
+
+
+
+"facebook": "Bagikan di Facebook",
+
+
+
+"twitter": "Berbagi di Twitter",
+
+
+
+"google": "Berbagi di Google+",
+
+
+
+"help_html": "Perubahan yang anda buat seharusnya akan muncul di layer \"Standar\" dalam beberapa menit. Layer lain dan fitur tertentu, mungkin akan membutuhkan waktu lama\n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>Penjelasan lebih lanjut</a>).\n"
+
+
+},
+
+
+"confirm": {
+
+
+
+"okay": "Baiklah"
+
+
+},
+
+
+"splash": {
+
+
+
+"welcome": "Selamat datang di penyuting iD OpenStreetMap",
+
+
+
+"text": "iD begitu bersahabat namun juga alat yang kuat untuk berperan dalam peta dunia gratis terbaik. Ini adalah versi {version}. Untuk informasi lebih lihat {website} dan laporkan kesalahan di {github}.",
+
+
+
+"walkthrough": "Memulai Perjalanan",
+
+
+
+"start": "Sunting Sekarang"
+
+
+},
+
+
+"source_switch": {
+
+
+
+"live": "terhubung",
+
+
+
+"lose_changes": "Perubahan anda belum disimpan. Mengganti server peta akan membatalkan perubahan. Anda yakin akan mengganti server?",
+
+
+
+"dev": "dev"
+
+
+},
+
+
+"tag_reference": {
+
+
+
+"description": "Deskripsi",
+
+
+
+"on_wiki": "{tag} di wiki.osm.org",
+
+
+
+"used_with": "digunakan dengan {type}"
+
+
+},
+
+
+"validations": {
+
+
+
+"untagged_point": "Titik Tak-bertanda",
+
+
+
+"untagged_line": "Garis tak bertanda",
+
+
+
+"untagged_area": "Area tak bertanda",
+
+
+
+"many_deletions": "Anda menghapus {n} obyek. Apakah anda yakin? Ini akan menghapus dari peta yang semua orang lihat pada openstreetmap.org.",
+
+
+
+"tag_suggests_area": "Penanda {tag} menyarankan garis sebaiknya dalam bentuk area, tapi ini bukan sebuah area",
+
+
+
+"untagged_point_tooltip": "Pilih tipe fitur yang menjelaskan apa identitas poin ini.",
+
+
+
+"untagged_line_tooltip": "Pilih tipe fitur yang menjelaskan apa identitas garis ini.",
+
+
+
+"untagged_area_tooltip": "Pilih tipe fitur yang menjelaskan apa identitas area ini.",
+
+
+
+"deprecated_tags": "Tag sudah tidak dipergunakan: {tags}"
+
+
+},
+
+
+"zoom": {
+
+
+
+"in": "Perbesar tampilan",
+
+
+
+"out": "Perkecil tampilan"
+
+
+},
+
+
+"cannot_zoom": "Tidak bisa memperbesar tampilan lebih jauh dengan mode ini.",
+
+
+"gpx": {
+
+
+
+"local_layer": "File GPX lokal",
+
+
+
+"drag_drop": "Geser dan letakan sebuah berkas .gpx di halaman, atau klik tombol ke kanan untuk menjelajah",
+
+
+
+"zoom": "Perbesar ke jejak GPX",
+
+
+
+"browse": "Telusuri untuk file .gpx"
+
+
+},
+
+
+"mapillary": {
+
+
+
+"tooltip": "Pemandangan jalan dari Mapillary",
+
+
+
+"title": "Lapisan Foto (Mapillary)",
+
+
+
+"view_on_mapillary": "Lihat gambar ini di Mapillary"
+
+
+},
+
+
+"help": {
+
+
+
+"title": "Bantuan",
+
+
+
+"help": "#Bantuan\n\nIni adalah editor untuk [OpenStreetMap] (http://www.openstreetmap.org/), \npeta dunia gratis dan bisa disunting. Anda dapat menggunakannya dengan menambahkan dan memperbarui\n data di area anda, membangun sebuah peta sumber-terbuka dan data-terbuka di seluruh dunia\n yang lebih baik untuk semua orang.\n\nPerubahan yang anda buat akan terlihat ke semua orang yang menggunakan \nOpenStreetMap. Untuk melakukan penyutingan, anda membutuhkan \n[free OpenStreetMap account] (https://www.openstreetmap.org/user/new).\n\n[iD editor](http://ideditor.com/) adalah proyek kolaborasi dengan [kode sumber tersedia di GitHub](https://github.com/openstreetmap/iD).\n"
+
+
+},
+
+
+"intro": {
+
+
+
+"navigation": {
+
+
+
+
+"title": "Navigasi",
+
+
+
+
+"drag": "Area peta utama menampilkan data OpenStreetMap pada bagian atas dari latar. Anda dapat bernavigasi dengan menggeser dan mengskrol, seperti peta web lainnya. **Geser petanya!**",
+
+
+
+
+"select": "Fitur peta dapat diwakili dengan tiga cara: dengan titik, garis, atau area. Semua fitur dapat dipilih dengan mengklik mereka. **Klik sebuah titik untuk memilihnya.**",
+
+
+
+
+"header": "Header menunjukan tipe fitur.",
+
+
+
+
+"pane": "Ketika sebuah fitur terpilih, fitur penyunting akan tampil. Header menunjukan tipe fitur dan panel utama yang menunjukan atribut fitur, seperti nama dan alamat. **Tutup fitur penyunting dengan mengklik tombol tutup di bagian kanan atas.**"
+
+
+
+},
+
+
+
+"points": {
+
+
+
+
+"title": "Titik",
+
+
+
+
+"add": "Titik dapat digunakan untuk mewakili fitur seperti toko, restoran, dan monumen. Mereka menadakan lokasi pasti, dan menggambarkan ada apa di sana. **Klik tombol Titik untuk menambahkan titik baru.**",
+
+
+
+
+"place": "Titik bisa diletakkan dengan mengklik pada peta. **Letakan titik di atap gedungnya.**",
+
+
+
+
+"search": "Terdapat banyak fitur berbeda yang dapat diwakili oleh titik. Titik yang baru anda tambahkan adalah Cafe. **Pencarian untuk '{name}'**",
+
+
+
+
+"choose": "**Pilih Cafe dari daftar.**",
+
+
+
+
+"describe": "Kini titik bisa ditandai sebagai cafe. Gunakan penyunting fitur, kita dapat tambahkan informasi lebih tentang fitur. **Tambahkan sebuah nama**",
+
+
+
+
+"close": "Penyunting fitur dapat ditutup dengan mengklik tombol tutup. **Tutup penyunting fitur**",
+
+
+
+
+"reselect": "Terkadang titik sudah ada, tapi ada kesalahan atau kurang lengkap. Kita dapat memperbaiki titik yang sudah ada. **Pilih titik yang baru saja anda buat.**",
+
+
+
+
+"fixname": "**Ubah nama dan tutup fitur penyunting.**",
+
+
+
+
+"reselect_delete": "Seluruh fitur pada peta dapat dihapus. **Klik pada titik yang anda buat**",
+
+
+
+
+"delete": "Menu di sekitar titik berisi operasi yang bisa dilakukannya, termasuk menghapus. **Hapus titik**"
+
+
+
+},
+
+
+
+"areas": {
+
+
+
+
+"title": "Area",
+
+
+
+
+"add": "Area digunakan untuk menampilkan batas fitur-fitur seperti danau, bangunan, dan kawasan permukiman. Area juga dapat digunakan untuk memetakan fitur-fitur yang biasanya dipetakan menggunakan titik secara lebih rinci lagi. **Klik tombol Area untuk menambahkan area baru.**",
+
+
+
+
+"corner": "Area tergambar dengan meletakkan simpul yang menandakan batas suatu area. **Letakan simpul pemula di satu sudut dari tempat-bermain.**",
+
+
+
+
+"place": "Gambar area dengan meletakan lebih banyak simpul. Selesaikan area dengan mengklik pada simpul awal. **Gambar sebuah area untuk tempat bermain.**",
+
+
+
+
+"search": "**Pencarian untuk '{name}'.**",
+
+
+
+
+"choose": "**Pilih Tempat-bermain dari daftar.**",
+
+
+
+
+"describe": "**Tambahkan nama, dan tutup fitur penyunting**"
+
+
+
+},
+
+
+
+"lines": {
+
+
+
+
+"title": "Garis",
+
+
+
+
+"add": "Garis biasa digunakan untuk mewakili fitur seperti jalan, rel dan sungai. **Klik tombol Garis untuk menambahkan sebuah garis baru.**",
+
+
+
+
+"start": "**Mulai garis dengan mengklik pada ujung sebuah jalan.**",
+
+
+
+
+"intersect": "Klik untuk menambahkan lagi simpul pada garis. Anda dapat menggeser peta ketika menggambar jika diperlukan. Jalan, dan banyak tipe lain dari garis, adalah bagian dari jaringan yang lebih besar. Ini penting untuk garis-garis ini untuk terhubung dengan baik agar alat penelusuran rute bisa berjalan. **Klik di Jalan Flower, untuk membuat percabangan yang menghubungkan dua garis.**",
+
+
+
+
+"finish": "Garis bisa diselesaikan dengan mengklik ulang pada simpul terakhir. **Selesaikan menggambar jalan.**",
+
+
+
+
+"road": "**Pilih Jalan dari daftar**",
+
+
+
+
+"residential": "Ada beberapa tipe jalan berbeda, yang paling umum adalah Jalan Perumahan. **Pilih tipe jalan Perumahan**",
+
+
+
+
+"describe": "**Namakan jalan dan tutup fitur penyunting.**",
+
+
+
+
+"restart": "Jalan perlu memotong Jalan Flower.",
+
+
+
+
+"wrong_preset": "Anda belum memilih tipe Jalan Perumahan. **Klik di sini untuk memilih lagi**"
+
+
+
+},
+
+
+
+"startediting": {
+
+
+
+
+"title": "Mulai Menyunting",
+
+
+
+
+"help": "Dokumentasi lebih dan ujicoba tersedia di sini.",
+
+
+
+
+"save": "Jangan lupa menyimpan perubahan secara berkala!",
+
+
+
+
+"start": "Mulai memetakan!"
+
+
+
+}
+
+
+}
+
+}
 }

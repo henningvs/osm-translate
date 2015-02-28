@@ -1,4 +1,10430 @@
 {
-	"content": "yue:\n  presets:\n    categories:\n      category-building:\n        name: 屋宇\n      category-golf:\n        name: 哥夫球\n      category-landuse:\n        name: 用地\n      category-path:\n        name: 徑\n      category-rail:\n        name: 軌道\n      category-road:\n        name: 路\n      category-route:\n        name: 路綫\n      category-water-area:\n        name: 水\n      category-water-line:\n        name: 水\n    fields:\n      access:\n        label: 通\n        placeholder: 未知\n        types:\n          access: 總體\n          foot: 行\n          motor_vehicle: 車\n          bicycle: 單車\n          horse: 馬\n        options:\n          'yes':\n            title: 准許\n            description: 按法例可通，通路之權。\n          'no':\n            title: 禁入\n            description: 公眾不通\n          permissive:\n            title: 放任\n            description: 可通，直至地主唔畀。\n          private:\n            title: 私家\n            description: 要地主批准\n          designated:\n            title: 指名\n            description: 通行與否，按法例或路牌指定\n          destination:\n            title: 目的地\n            description: 限往目的地\n      access_simple:\n        label: 通\n      address:\n        label: 地埗\n        placeholders:\n          street: 街\n          city: 城\n      admin_level:\n        label: 行政層次\n      aerialway:\n        label: 類\n      aerialway/access:\n        label: 通\n      aerialway/bubble:\n        label: 泡\n      aerialway/capacity:\n        label: 載量（一小時計）\n        placeholder: \"500, 2500, 5000...\"\n      aerialway/duration:\n        label: 行程（分鐘）\n        placeholder: \"1, 2, 3...\"\n      aerialway/heating:\n        label: 有暖氣\n      aerialway/occupancy:\n        label: 一車人數\n        placeholder: \"2, 4, 8...\"\n      aerialway/summer/access:\n        label: 通（夏天）\n      aeroway:\n        label: 類\n      amenity:\n        label: 類\n      artist:\n        label: 藝人\n      artwork_type:\n        label: 類\n      atm:\n        label: 提款機\n      backrest:\n        label: 長椅\n      barrier:\n        label: 類\n      bicycle_parking:\n        label: 類\n      boundary:\n        label: 類\n      building:\n        label: 屋宇\n      building_area:\n        label: 屋宇\n      capacity:\n        label: 容納\n        placeholder: \"50, 100, 200...\"\n      cardinal_direction:\n        label: 方向\n      clock_direction:\n        label: 方向\n        options:\n          clockwise: 順時針\n          anticlockwise: 逆時針\n      collection_times:\n        label: 收集時間\n      construction:\n        label: 類\n      country:\n        label: 國\n      covered:\n        label: 有蓋\n      crossing:\n        label: 類\n      cuisine:\n        label: 菜系\n      denomination:\n        label: 派\n      denotation:\n        label: 表示\n      description:\n        label: 描述\n      electrified:\n        label: 用電\n      elevation:\n        label: 海拔\n      emergency:\n        label: 急症室\n      entrance:\n        label: 類\n      fax:\n        label: 傳真\n        placeholder: +852 12345678\n      fee:\n        label: 費用\n      fire_hydrant/type:\n        label: 類\n      fixme:\n        label: 整好我\n      generator/method:\n        label: 方法\n      generator/source:\n        label: 來源\n      generator/type:\n        label: 類\n      golf_hole:\n        label: 參攷\n        placeholder: 洞數（一到十八）\n      handicap:\n        label: 差點\n        placeholder: 1-18\n      highway:\n        label: 類\n      historic:\n        label: 類\n      iata:\n        label: 萬國航空運輸協會（IATA）\n      icao:\n        label: 萬國民航組織（ICAO）\n      incline:\n        label: 斜\n      information:\n        label: 類\n      internet_access:\n        label: 用到互聯網\n        options:\n          wlan: 無綫上網\n          wired: 揷綫上網\n          terminal: 終端機\n      landuse:\n        label: 類\n      lanes:\n        label: 綫道數\n        placeholder: \"1, 2, 3...\"\n      layer:\n        label: 層\n      leisure:\n        label: 類\n      levels:\n        label: 樓\n        placeholder: \"2, 4, 6...\"\n      lit:\n        label: 有燈\n      location:\n        label: 地點\n      man_made:\n        label: 類\n      maxspeed:\n        label: 限速\n        placeholder: \"40, 50, 60...\"\n      name:\n        label: 名\n        placeholder: 常用名（若有）\n      natural:\n        label: 自然\n      network:\n        label: 網絡\n      note:\n        label: 註\n      office:\n        label: 類\n      oneway:\n        label: 單程\n      oneway_yes:\n        label: 單程\n      opening_hours:\n        label: 時間\n      operator:\n        label: 承辦商\n      par:\n        label: 標準桿\n        placeholder: \"3, 4, 5...\"\n      park_ride:\n        label: 泊車轉乖\n      parking:\n        label: 類\n      phone:\n        label: 電話\n        placeholder: +852 12345678\n      piste/difficulty:\n        label: 難度\n      piste/grooming:\n        label: 雪道類\n      piste/type:\n        label: 類\n      place:\n        label: 類\n      power:\n        label: 類\n      railway:\n        label: 類\n      ref:\n        label: 參攷\n      relation:\n        label: 類\n      religion:\n        label: 宗敎\n      restriction:\n        label: 類\n      route:\n        label: 類\n      route_master:\n        label: 類\n      service:\n        label: 類\n      shelter:\n        label: 有天遮\n      shelter_type:\n        label: 類\n      shop:\n        label: 類\n      source:\n        label: 來源\n      sport:\n        label: 運動\n      structure:\n        label: 結構\n        placeholder: 未知\n        options:\n          bridge: 橋\n          tunnel: 隧道\n          embankment: 基堤\n          cutting: 開山\n      supervised:\n        label: 有人睇\n      surface:\n        label: 表面\n      toilets/disposal:\n        label: 棄置\n      tourism:\n        label: 類\n      towertype:\n        label: 塔類\n      trail_visibility:\n        label: 徑明顯度\n      tunnel:\n        label: 隧道\n      vending:\n        label: 貨類\n      water:\n        label: 類\n      waterway:\n        label: 類\n      website:\n        label: 網站\n        placeholder: \"http://example.com/\"\n      wetland:\n        label: 類\n      wheelchair:\n        label: 可通輪椅\n      wikipedia:\n        label: 維基百科全書\n    presets:\n      address:\n        name: 地埗\n        terms: \"Address,地址,地埗,址\"\n      aerialway:\n        name: 吊道\n        terms: \"Aerialway,吊道\"\n      aerialway/cable_car:\n        name: 吊車\n        terms: \"Cable Car,吊車,䌫車\"\n      aerialway/chair_lift:\n        name: 吊櫈\n        terms: \"Chair Lift,吊櫈\"\n      aerialway/gondola:\n        name: 吊船\n        terms: \"Gondola,吊船\"\n      aeroway:\n        name: 航空設施\n        terms: \"Aeroway,機場,機場相關設施,機場相關道路,航空,航空設施\"\n      aeroway/aerodrome:\n        name: 飛機場\n        terms: \"Airport,機場,飛機,飛機場\"\n      aeroway/apron:\n        name: 停機坪\n        terms: \"Apron,停機坪\"\n      aeroway/gate:\n        name: 機場閘口\n        terms: \"Airport gate,機場閘口,登機閘口,落機閘口,閘口\"\n      aeroway/hangar:\n        name: 飛機庫\n        terms: \"Hangar,機庫,飛機庫\"\n      aeroway/helipad:\n        name: 直升機坪\n        terms: \"Helipad,直升機坪,直升機場,直昇機坪,直昇機場\"\n      aeroway/runway:\n        name: 跑道\n        terms: \"Runway,跑道\"\n      aeroway/taxiway:\n        name: 滑行道\n        terms: \"Taxiway,滑行道\"\n      aeroway/terminal:\n        name: 飛機場大樓\n        terms: \"Airport terminal,機場大堂,機場大樓,機場客運大樓,機場航站樓,飛機場大樓\"\n      amenity:\n        name: 便利設施\n        terms: \"Amenity,便利設施\"\n      amenity/arts_centre:\n        name: 美術館\n        terms: \"Arts Center,美術中心,美術館,藝術中心,藝術館\"\n      amenity/atm:\n        name: 提款機\n        terms: \"ATM,提款機,櫃員機,自動提款機,自動櫃員機\"\n      amenity/bank:\n        name: 銀行\n        terms: \"Bank,銀號,銀行\"\n      amenity/bar:\n        name: 酒吧\n        terms: \"Bar,吧,酒吧\"\n      amenity/bench:\n        name: 長椅\n        terms: \"Bench,長凳,長椅,長櫈\"\n      amenity/bicycle_parking:\n        name: 泊單車處\n        terms: \"Bicycle Parking,單車停放車,單車停泊處,泊單車,泊單車處,自行車停放處\"\n      amenity/bicycle_rental:\n        name: 租單車舖\n        terms: \"Bicycle Rental,單車租賃,租單車,租單車舖,租單車處,自行車租賃處\"\n      amenity/boat_rental:\n        name: 租艇\n        terms: \"Boat Rental,租艇,船舶租賃處\"\n      amenity/cafe:\n        name: 茶座\n        terms: \"Cafe,㗎啡室,㗎啡廳,咖啡,咖啡室,咖啡廳,茶座,荼座\"\n      amenity/car_rental:\n        name: 租車舖\n        terms: \"Car Rental,汽車租賃,汽車租賃處,租車,租車店,租車舖\"\n      amenity/car_sharing:\n        name: 共用車處\n        terms: \"Car Sharing,公用車處,共用車,共用車處,汽車共享站\"\n      amenity/car_wash:\n        name: 洗車舖\n        terms: \"Car Wash,洗車,洗車店,洗車舖\"\n      amenity/cinema:\n        name: 電影戲院\n        terms: \"Cinema,戲院,電影,電影戲院,電影院\"\n      amenity/courthouse:\n        name: 法庭\n        terms: \"Courthouse,法庭,法院,臬署,裁判署\"\n      amenity/drinking_water:\n        name: 飲水處\n        terms: \"Drinking Water,水源,活水,飲水,飲水處,飲用水\"\n      amenity/embassy:\n        name: 大使館\n        terms: \"Embassy,使館,大使館,領事館\"\n      amenity/fast_food:\n        name: 快餐店\n        terms: \"Fast Food,快餐店\"\n      amenity/fire_station:\n        name: 滅火局\n        terms: \"Fire Station,滅火局,水車館,消防局,消防站,救火局\"\n      amenity/fountain:\n        name: 噴水池\n        terms: \"Fountain,噴水池,噴泉,水景\"\n      amenity/fuel:\n        name: 油站\n        terms: \"Gas Station,加氣站,加汽站,加油站,油站\"\n      amenity/grave_yard:\n        name: 墳地\n        terms: \"Graveyard,墓地,墳地,墳場\"\n      amenity/library:\n        name: 圖書館\n        terms: \"Library,圖書館,拉記\"\n      amenity/marketplace:\n        name: 街市\n        terms: \"Marketplace,市場,菜市場,街市\"\n      amenity/parking:\n        name: 停車場\n        terms: \"Car Parking,停車場\"\n      amenity/pharmacy:\n        name: 藥房\n        terms: \"Pharmacy,葯局,葯店,葯房,葯舖,藥局,藥店,藥房,藥舖\"\n      amenity/place_of_worship:\n        name: 拜神之所\n        terms: \"Place of Worship,Worship,宗教祟拜場所,宗教禮拜處,崇拜處,拜神之所,禮拜場所\"\n      amenity/place_of_worship/buddhist:\n        name: 佛寺\n        terms: \"Buddhist Temple,佛堂,佛寺,佛廟,和尚寺,寶殿,寺,寺廟,尼姑庵,尼庵,庵堂,廟,精舍,閣,靜院\"\n      amenity/place_of_worship/christian:\n        name: 敎堂\n        terms: \"Christian,Church,基督敎堂,基督教堂,天主堂,天主敎堂,天主教堂,敎堂,教堂,聖堂\"\n      amenity/place_of_worship/jewish:\n        name: 猶太廟\n        terms: \"Synagogue,jewish,猶太寺,猶太廟,猶太教堂\"\n      amenity/place_of_worship/muslim:\n        name: 囘敎寺\n        terms: \"Mosque,Muslim,囘敎寺,囘教寺,回敎寺,回教寺,清真寺\"\n      amenity/police:\n        name: 差館\n        terms: \"Police,差館,派出所,警察局,警局,警署\"\n      amenity/post_box:\n        name: 郵筒\n        terms: \"Mailbox,Post,Post Box,郵筒,郵箱\"\n      amenity/post_office:\n        name: 郵政局\n        terms: \"Post Office,書信館,郵局,郵政局\"\n      amenity/pub:\n        name: 酒館\n        terms: \"Pub,酒館\"\n      amenity/ranger_station:\n        name: 郊野訪客處\n        terms: \"Ranger Station,郊野訪客處,野郊訪客處\"\n      amenity/recycling:\n        name: 囘收桶\n        terms: \"Recycling,囘收桶,囘收箱,回收桶,回收箱\"\n      amenity/restaurant:\n        name: 餐廳\n        terms: \"Restaurant,茶樓,酒家,酒樓,飯店,飯館,餐廳,餐館\"\n      amenity/shelter:\n        name: 天遮或亭\n        terms: \"Shelter,亭,天遮,蓋,避難,避難所\"\n      amenity/swimming_pool:\n        name: 游水池\n        terms: \"Swimming Pool,泳池,游水池,游泳池,遊泳池\"\n      amenity/taxi:\n        name: 的士站\n        terms: \"Taxi Stand,出租車站,的士站,計程車站\"\n      amenity/telephone:\n        name: 電話\n        terms: \"Telephone,電話\"\n      amenity/theatre:\n        name: 舞臺戲院\n        terms: \"Theater,劇場,劇院,戲院,舞臺戲院,電影院\"\n      amenity/toilets:\n        name: 廁所\n        terms: \"Toilets,便所,公厠,公廁,厠所,廁所,方便,洗手間,盥洗室\"\n      amenity/townhall:\n        name: 大會堂\n        terms: \"Town Hall,大會堂,市政府,市政廳\"\n      amenity/vending_machine:\n        name: 售賣機\n        terms: \"Vending Machine,售賣機,自勳動賣機\"\n      amenity/waste_basket:\n        name: 垃圾桶\n        terms: \"Waste Basket,垃圾桶,垃圾箱,廢物箱\"\n      area:\n        name: 範圍\n        terms: \"Area,區域,範圍\"\n      barrier:\n        name: 阻擋\n        terms: \"Barrier,屏障,阻擋,障礙,障礙物\"\n      barrier/block:\n        name: 路障\n        terms: \"Block,路障,障礙物\"\n      barrier/bollard:\n        name: 護柱\n        terms: \"Bollard,護柱\"\n      barrier/cattle_grid:\n        name: 攔畜溝柵\n        terms: \"Cattle Grid,家畜柵欄,攔畜溝柵\"\n      barrier/city_wall:\n        name: 城牆\n        terms: \"City Wall,城墻,城牆\"\n      barrier/cycle_barrier:\n        name: 單車減速欄\n        terms: \"Cycle Barrier,單車減速欄,單車矮欄\"\n      barrier/ditch:\n        name: 溝\n        terms: \"Ditch,溝\"\n      barrier/entrance:\n        name: 入口\n        terms: \"Entrance,入口\"\n      barrier/fence:\n        name: 欄\n        terms: \"Fence,欄,欄柵,籬,籬笆\"\n      barrier/gate:\n        name: 閘\n        terms: \"Gate,口,門,閘\"\n      barrier/hedge:\n        name: 樹籬\n        terms: \"Hedge,樹籬\"\n      barrier/kissing_gate:\n        name: '單人轉門 '\n        terms: \"Kissing Gate,單人轉門\"\n      barrier/lift_gate:\n        name: 道閘\n        terms: \"Lift Gate,擋車器,道閘\"\n      barrier/retaining_wall:\n        name: 護土牆\n        terms: \"Retaining Wall,擋土墻,護土牆\"\n      barrier/stile:\n        name: 梯梃\n        terms: \"Stile,梯梃,梯磴\"\n      barrier/toll_booth:\n        name: 收費亭\n        terms: \"Toll Booth,收費亭,收費站\"\n      barrier/wall:\n        name: 牆\n        terms: \"Wall,墻,牆\"\n      boundary/administrative:\n        name: 行政界\n        terms: \"Administrative Boundary,行政區域界線,行政區界,行政界,行政界線,行政邊界\"\n      building:\n        name: 屋宇\n        terms: \"Building,屋宇,建築物\"\n      building/apartments:\n        name: 公寓\n        terms: \"Apartments,公寓,分層屋宇\"\n      building/commercial:\n        name: 商業樓宇\n        terms: \"Commercial Building,商業建築物,商業樓宇\"\n      building/garage:\n        name: 車庫\n        terms: \"Garage,車庫\"\n      building/house:\n        name: 屋\n        terms: \"House,屋,房屋,洋房\"\n      building/hut:\n        name: 屋仔\n        terms: \"Hut,屋仔,棚屋\"\n      building/industrial:\n        name: 工業樓宇\n        terms: \"Industrial Building,工業建築物,工業樓宇\"\n      building/residential:\n        name: 住宅樓宇\n        terms: \"Residential Building,住宅建築物,住宅樓宇\"\n      craft/watchmaker:\n        name: 鐘錶匠\n        terms: \"Watchmaker,鐘錶匠\"\n      craft/window_construction:\n        name: 造窗\n        terms: \"Window Construction,造窗\"\n      embankment:\n        name: 基堤\n        terms: \"Embankment,基堤,堤,堤壩,堤岸\"\n      emergency/ambulance_station:\n        name: 救護站\n        terms: \"Ambulance Station,十字車,救傷車,救護站,救護車\"\n      emergency/fire_hydrant:\n        name: 消防水龍頭\n        terms: \"Fire Hydrant,消防栓,消防水龍頭\"\n      emergency/phone:\n        name: 求助電話\n        terms: \"Emergency Phone,求助電話,緊急電話\"\n      footway/crossing:\n        name: 路口\n        terms: \"Crossing,路口\"\n      footway/sidewalk:\n        name: 行人路\n        terms: \"Sidewalk,行人路\"\n      golf/bunker:\n        name: 沙坑\n        terms: \"Sand Trap,沙坑\"\n      golf/fairway:\n        name: 球道\n        terms: \"Fairway,球道\"\n      golf/green:\n        name: 菓嶺\n        terms: \"Putting Green,果嶺,菓嶺\"\n      golf/hole:\n        name: 歌夫球洞\n        terms: \"Golf Hole,歌夫球洞\"\n      golf/lateral_water_hazard:\n        name: 側面水障區\n        terms: \"Lateral Water Hazard,側面水障區\"\n      golf/rough:\n        name: 深草區\n        terms: \"Rough,深草區\"\n      golf/tee:\n        name: 發球區\n        terms: \"Tee Box,發球區,開球區\"\n      golf/water_hazard:\n        name: 水障區\n        terms: \"Water Hazard,水障區\"\n      highway:\n        name: 公路\n        terms: \"Highway,公路\"\n      highway/bridleway:\n        name: 馬徑\n        terms: \"Bridle Path,馬徑,馬道\"\n      highway/bus_stop:\n        name: 巴士站\n        terms: \"Bus Stop,公交車站,公共汽車站,巴士站\"\n      highway/crossing:\n        name: 路口\n        terms: \"Crossing,路口,過路處\"\n      highway/cycleway:\n        name: 單車徑\n        terms: \"Cycle Path,單車徑,自行車道\"\n      highway/footway:\n        name: 行人徑\n        terms: \"Foot Path,步行徑,行人徑\"\n      highway/living_street:\n        name: 居住街道\n        terms: \"Living Street,居住街道,生活街道\"\n      highway/mini_roundabout:\n        name: 細迴旋處\n        terms: \"Mini-Roundabout,小型環島,小型迴旋處,細迴旋處\"\n      highway/motorway:\n        name: 高速公路\n        terms: \"Motorway,高速公路\"\n      highway/motorway_link:\n        name: 高速公路駁路\n        terms: \"Motorway Link,高速公路匝道,高速公路引道,高速公路駁路\"\n      highway/path:\n        name: 徑\n        terms: \"Path,徑,路徑\"\n      highway/pedestrian:\n        name: 行人大街\n        terms: \"Pedestrian,行人大街,行人專用路\"\n      highway/primary:\n        name: 大路\n        terms: \"Primary Road,主要道路,大路\"\n      highway/primary_link:\n        name: 大路駁路\n        terms: \"Primary Link,主要道路匝道,主要道路連接路,大路駁路\"\n      highway/residential:\n        name: 住宅路\n        terms: \"Residential Road,住宅區道路,住宅路\"\n      highway/road:\n        name: 未明路\n        terms: \"Unknown Road,不明路,不知路,未明路,未知嘅路,未知種類的道路,未知種類道路\"\n      highway/secondary:\n        name: 中路\n        terms: \"Secondary Road,中路,次要道路\"\n      highway/secondary_link:\n        name: 中路駁路\n        terms: \"Secondary Link,中路駁路,次級道路連接路,次要道路匝道\"\n      highway/service:\n        name: 支路\n        terms: \"Service Road,支路,輔助道路\"\n      highway/service/alley:\n        name: 巷\n        terms: \"Alley,巷,後巷,橫巷,窄巷,胡同\"\n      highway/service/drive-through:\n        name: 車上取餐\n        terms: \"Drive-Through,免下車,免下車銀行,免下車餐館,車上取餐,車上用餐,駕駛通過以獲取服務\"\n      highway/service/driveway:\n        name: 宅外車道\n        terms: \"Driveway,宅外車道,車線,車道\"\n      highway/service/emergency_access:\n        name: 緊急通道\n        terms: \"Emergency Access,緊急通道\"\n      highway/service/parking_aisle:\n        name: 泊車通道\n        terms: \"Parking Aisle,停車場通道,泊車通道\"\n      highway/steps:\n        name: 梯\n        terms: \"Steps,梯,樓梯,石階,階梯\"\n      highway/stop:\n        name: 停車標誌\n        terms: \"Stop Sign,停字標誌,停車標誌,停車路牌\"\n      highway/tertiary:\n        name: 細路\n        terms: \"Tertiary Road,三級道路,細路\"\n      highway/tertiary_link:\n        name: 細路駁路\n        terms: \"Tertiary Link,三級道路匝道,三級道路連接路,細路駁路\"\n      highway/track:\n        name: 分徑\n        terms: \"Track,分徑,未舖設路面的車徑,未鋪設路面的車徑\"\n      highway/traffic_signals:\n        name: 紅綠燈\n        terms: \"Traffic Signals,交通燈,紅綠燈\"\n      highway/trunk:\n        name: 幹路\n        terms: \"Trunk Road,幹線道路,幹路,幹道\"\n      highway/trunk_link:\n        name: 幹道駁路\n        terms: \"Trunk Link,幹線道路匝道,幹道連接路,幹道駁路\"\n      highway/turning_circle:\n        name: 迴旋處\n        terms: \"Turning Circle,回轉圈,廻旋處,環島,迴旋處\"\n      highway/unclassified:\n        name: 未歸類之路\n        terms: \"Unclassified Road,未分級的道路,未分類的道路,未歸類之路\"\n      historic:\n        name: 史蹟\n        terms: \"Historic Site,史跡,史蹟,歷史遺址,歷史遺跡\"\n      historic/archaeological_site:\n        name: 考古地\n        terms: \"Archaeological Site,考古地,考古地點,考古遺址\"\n      historic/boundary_stone:\n        name: 界石\n        terms: \"Boundary Stone,界樁,界石\"\n      historic/castle:\n        name: 寨\n        terms: \"Castle,城堡,寨\"\n      historic/memorial:\n        name: 細紀念碑\n        terms: \"Memorial,碑,紀念碑,紀念館,細紀念碑\"\n      historic/monument:\n        name: 大紀念碑\n        terms: \"Monument,古跡,古蹟,大紀念碑,碑,紀念碑\"\n      historic/ruins:\n        name: 廢墟\n        terms: \"Ruins,廢墟\"\n      historic/wayside_cross:\n        name: 路邊十字架\n        terms: \"Wayside Cross,路邊十字架\"\n      historic/wayside_shrine:\n        name: 路邊神祠\n        terms: \"Wayside Shrine,路邊神社,路邊神祠\"\n      landuse:\n        name: 用地\n        terms: \"Landuse,土地用途,用地\"\n      landuse/allotments:\n        name: 菜地\n        terms: \"Allotments,社區花園,菜地\"\n      landuse/basin:\n        name: 盆地\n        terms: \"Basin,水池,盆地\"\n      landuse/cemetery:\n        name: 墳場\n        terms: \"Cemetery,墓地,墳場\"\n      landuse/construction:\n        name: 地盤\n        terms: \"Construction,地盤,建築工程,建築物\"\n      landuse/farmyard:\n        name: 地堂\n        terms: \"Farmyard,地堂,農莊\"\n      landuse/forest:\n        name: 森\n        terms: \"Forest,森,森林\"\n      landuse/grass:\n        name: 草地\n        terms: \"Grass,草地\"\n      landuse/meadow:\n        name: 牧地\n        terms: \"Meadow,牧地,牧場\"\n      landuse/orchard:\n        name: 菓園\n        terms: \"Orchard,果園,菓園\"\n      landuse/quarry:\n        name: 石塘\n        terms: \"Quarry,石塘,石礦場,礦場\"\n      landuse/vineyard:\n        name: 葡萄園\n        terms: \"Vineyard,葡萄園,酒莊\"\n      leisure:\n        name: 消閒\n        terms: \"Leisure,休閑場所,休閒設施,消閒\"\n      leisure/common:\n        name: 公地\n        terms: \"Common,公共用地,公地\"\n      leisure/dog_park:\n        name: 狗公園\n        terms: \"Dog Park,狗公園\"\n      leisure/garden:\n        name: 花園\n        terms: \"Garden,公園,果園,植物園,花園,菜園\"\n      leisure/golf_course:\n        name: 哥夫球場\n        terms: \"Golf Course,哥夫球場,高爾夫球場\"\n      leisure/marina:\n        name: 遊艇碼頭\n        terms: \"Marina,碼頭,遊艇碼頭\"\n      leisure/park:\n        name: 園\n        terms: \"Park,公園,園\"\n      leisure/pitch:\n        name: 運動場\n        terms: \"Sport Pitch,運動場,運動場地,運動場所\"\n      leisure/pitch/american_football:\n        name: 美式足球場\n        terms: \"American Football Field,美式足球場\"\n      leisure/pitch/baseball:\n        name: 棒球場\n        terms: \"Baseball Diamond,棒球場\"\n      leisure/pitch/basketball:\n        name: 籃球場\n        terms: \"Basketball Court,球場,籃球場\"\n      leisure/pitch/skateboard:\n        name: 滑板場\n        terms: \"Skate Park,滑板場\"\n      leisure/pitch/soccer:\n        name: 足球場\n        terms: \"Soccer Field,足球場\"\n      leisure/pitch/tennis:\n        name: 網球場\n        terms: \"Tennis Court,網球場\"\n      leisure/pitch/volleyball:\n        name: 排球場\n        terms: \"Volleyball Court,排球場\"\n      leisure/playground:\n        name: 遊樂場\n        terms: \"Playground,遊樂場\"\n      leisure/slipway:\n        name: 船排\n        terms: \"Slipway,船排,船架滑道,船臺\"\n      leisure/stadium:\n        name: 大體育館\n        terms: \"Stadium,大體育館,體育,體育場\"\n      leisure/swimming_pool:\n        name: 游水池\n        terms: \"Swimming Pool,游水池,游泳池,遊泳池\"\n      line:\n        name: 綫\n        terms: \"Line,綫,線\"\n      man_made:\n        name: 人造\n        terms: \"Man Made,人造,人造構築,人造物\"\n      man_made/breakwater:\n        name: 防波堤\n        terms: \"Breakwater,防波堤\"\n      man_made/cutline:\n        name: 分割綫\n        terms: \"Cut line,分割綫,分界線,山林分界線\"\n      man_made/embankment:\n        name: 基堤\n        terms: \"Embankment,基堤,堤,堤壩,堤岸\"\n      man_made/flagpole:\n        name: 旗杆\n        terms: \"Flagpole,旗杆,旗竿\"\n      man_made/lighthouse:\n        name: 燈塔\n        terms: \"Lighthouse,燈塔\"\n      man_made/observation:\n        name: 瞭望臺\n        terms: \"Observation Tower,瞭望塔,瞭望臺\"\n      man_made/pier:\n        name: 埗頭\n        terms: \"Pier,埗頭,碼頭\"\n      man_made/pipeline:\n        name: 水管\n        terms: \"Pipeline,水管,管道\"\n      man_made/survey_point:\n        name: 測量點\n        terms: \"Survey Point,測量點\"\n      man_made/tower:\n        name: 塔\n        terms: \"Tower,塔\"\n      man_made/wastewater_plant:\n        name: 廢水廠\n        terms: \"Wastewater Plant,廢水廠,汙水處理廠,污水處理廠\"\n      man_made/water_tower:\n        name: 水塔\n        terms: \"Water Tower,水塔\"\n      man_made/water_works:\n        name: 供水廠\n        terms: \"Water Works,供水廠,水務設施\"\n      military/airfield:\n        name: 飛機場\n        terms: \"Airfield,機場,飛機場\"\n      military/barracks:\n        name: 兵房\n        terms: \"Barracks,兵房,兵營,營房,軍營\"\n      military/bunker:\n        name: 地堡\n        terms: \"Bunker,地堡,暗堡\"\n      military/range:\n        name: 操炮區\n        terms: \"Military Range,操炮區,軍事範圍\"\n      natural:\n        name: 天然\n        terms: \"Natural,天然,自然,自然物件\"\n      natural/bay:\n        name: 灣\n        terms: \"Bay,海灣,灣\"\n      natural/beach:\n        name: 灘\n        terms: \"Beach,沙灘,海灘,灘\"\n      natural/cliff:\n        name: 崖\n        terms: \"Cliff,崖,懸崖\"\n      natural/coastline:\n        name: 海岸綫\n        terms: \"Coastline,海岸綫,海岸線\"\n      natural/fell:\n        name: 高原荒野\n        terms: \"Fell,高原荒原,高原荒野,高地荒原\"\n      natural/glacier:\n        name: 冰川\n        terms: \"Glacier,冰川,冰河\"\n      natural/grassland:\n        name: 草原\n        terms: \"Grassland,草原\"\n      natural/heath:\n        name: 荒野\n        terms: \"Heath,荒地,荒野\"\n      natural/peak:\n        name: 峯\n        terms: \"Peak,山峰,山頂,峯\"\n      natural/scree:\n        name: 碎石坡\n        terms: \"Scree,碎石坡\"\n      natural/scrub:\n        name: 灌木\n        terms: \"Scrub,灌木,灌木叢\"\n      natural/spring:\n        name: 泉\n        terms: \"Spring,噴泉,泉,泉水,湧泉,溫泉\"\n      natural/tree:\n        name: 樹\n        terms: \"Tree,木,樹\"\n      natural/water:\n        name: 水\n        terms: \"Water,水\"\n      natural/water/lake:\n        name: 湖\n        terms: \"Lake,湖,湖泊\"\n      natural/water/pond:\n        name: 塘\n        terms: \"Pond,塘,水池,池,池塘\"\n      natural/water/reservoir:\n        name: 水塘\n        terms: \"Reservoir,水塘,水庫\"\n      natural/wetland:\n        name: 澤\n        terms: \"Wetland,潮間帶,澤,濕地\"\n      natural/wood:\n        name: 林\n        terms: \"Wood,林,樹林\"\n      office:\n        name: 寫字樓\n        terms: \"Office,寫字樓,辦公室\"\n      office/accountant:\n        name: 會計師樓\n        terms: \"Accountant,會計師樓\"\n      office/administrative:\n        name: 行政樓\n        terms: \"Administrative Office,行政樓\"\n      office/architect:\n        name: 則樓\n        terms: \"Architect,則師樓,則樓,建築師樓\"\n      office/company:\n        name: 公司寫字樓\n        terms: \"Company Office,公司,公司寫字樓\"\n      office/educational_institution:\n        name: 敎育機構\n        terms: \"Educational Institution,敎育機構,教育機構\"\n      office/employment_agency:\n        name: 薦人館\n        terms: \"Employment Agency,就業機構,職業介紹所,薦人館\"\n      office/estate_agent:\n        name: 管業處\n        terms: \"Real Estate Office,地產代理,管業處\"\n      office/financial:\n        name: 財務部寫字樓\n        terms: \"Financial Office,財務部寫字樓\"\n      office/government:\n        name: 衙門\n        terms: \"Government Office,公署,政府合署,政府樓,署,衙門\"\n      office/insurance:\n        name: 保險公司寫字樓\n        terms: \"Insurance Office,保險公司,保險公司寫字樓\"\n      office/it:\n        name: 電腦資訊寫字樓\n        terms: \"IT Office,IT公司,資訊工藝寫字樓,資訊技藝寫字樓,資訊科技寫字樓,電腦公司寫字樓\"\n      office/lawyer:\n        name: 律師事務所\n        terms: \"Law Office,律師事務所\"\n      office/newspaper:\n        name: 報社\n        terms: \"Newspaper,報社,新聞社,通訊社\"\n      office/ngo:\n        name: 志顠機構寫字樓\n        terms: \"NGO Office,志顠機構寫字樓,非政府組織\"\n      office/physician:\n        name: 醫生\n        terms: \"Physician,醫生\"\n      office/political_party:\n        name: 政黨\n        terms: \"Political Party,政黨\"\n      office/research:\n        name: 研究所\n        terms: \"Research Office,研究所\"\n      office/telecommunication:\n        name: 電話公司寫字樓\n        terms: \"Telecom Office,電信公司,電話公司寫字樓\"\n      office/therapist:\n        name: 治療師\n        terms: \"Therapist,治療師,醫療師\"\n      office/travel_agent:\n        name: 旅行社\n        terms: \"Travel Agency,旅行社\"\n      place:\n        name: 地\n        terms: \"Place,地,地方,地點\"\n      place/city:\n        name: 城\n        terms: \"City,城,城市\"\n      place/hamlet:\n        name: 村仔\n        terms: \"Hamlet,村仔,村莊\"\n      place/island:\n        name: 島\n        terms: \"Island,島,島嶼\"\n      place/isolated_dwelling:\n        name: 孤離居所\n        terms: \"Isolated Dwelling,孤立居所,孤立民居,孤離居所\"\n      place/locality:\n        name: 地方\n        terms: \"Locality,地方,地點,地點（無人定居）\"\n      place/town:\n        name: 鎮\n        terms: \"Town,城鎮,市鎮,鎮\"\n      place/village:\n        name: 村\n        terms: \"Village,村,村莊,村鎮\"\n      point:\n        name: 點\n        terms: \"Point,點\"\n      power:\n        name: 發電廠\n        terms: \"Power,發電廠,電力設施\"\n      power/generator:\n        name: 發電機\n        terms: \"Power Generator,發電機\"\n      power/line:\n        name: 供電綫\n        terms: \"Power Line,供電綫,供電線,電線\"\n      power/minor_line:\n        name: 細供電綫\n        terms: \"Minor Power Line,小供電線,細供電綫\"\n      power/pole:\n        name: 電綫杆\n        terms: \"Power Pole,電綫杆,電線桿\"\n      power/sub_station:\n        name: 配電站\n        terms: \"Substation,變電站,配電站\"\n      power/tower:\n        name: 高壓電塔\n        terms: \"High-Voltage Tower,高壓輸電塔,高壓電塔\"\n      power/transformer:\n        name: 火牛房\n        terms: \"Transformer,火牛房,變電所\"\n      public_transport/platform:\n        name: 站頭\n        terms: \"Platform,平臺,站頭\"\n      public_transport/stop_position:\n        name: 街中站\n        terms: \"Stop Position,停止位置,街中站\"\n      railway:\n        name: 鐵路\n        terms: \"Railway,鐵路\"\n      railway/abandoned:\n        name: 廢鐵路\n        terms: \"Abandoned Railway,廢棄的鐵路,廢鐵路,鐵路路線跡\"\n      railway/disused:\n        name: 停用鐵路\n        terms: \"Disused Railway,停用鐵路,廢棄的鐵路\"\n      railway/halt:\n        name: 火車細站\n        terms: \"Railway Halt,小火車站,火車站仔,火車細站\"\n      railway/level_crossing:\n        name: 平交道口\n        terms: \"Level Crossing,平交道,平交道口\"\n      railway/monorail:\n        name: 單軌\n        terms: \"Monorail,單軌,單軌鐵路,單軌電車\"\n      railway/narrow_gauge:\n        name: 窄軌火車\n        terms: \"Narrow Gauge Rails,窄軌火車,窄軌,窄軌鐵路\"\n      railway/platform:\n        name: 月臺\n        terms: \"Railway Platform,月臺,站臺,鐵道月台\"\n      railway/rail:\n        name: 路軌\n        terms: \"Rail,火車軌,路軌,軌,鐵軌\"\n      railway/station:\n        name: 火車站\n        terms: \"Railway Station,火車站,鐵路站\"\n      railway/subway:\n        name: 地下鐵路\n        terms: \"MTR,Mass Transit Railway,Subway,地下鐵,地下鐵路,地鐵\"\n      railway/subway_entrance:\n        name: 地下鐵路入口\n        terms: \"Subway Entrance,地下鐵路入口,地鐵入口,地鐵口\"\n      railway/tram:\n        name: 電車\n        terms: \"Tram,電車\"\n      relation:\n        name: 關係\n        terms: \"Relation,關係,關系\"\n      route/ferry:\n        name: 航綫\n        terms: \"Ferry Route,渡輪航線,航綫,航線\"\n      shop:\n        name: 舖\n        terms: \"Shop,商店,舖\"\n      shop/alcohol:\n        name: 酒莊\n        terms: \"Liquor Store,酒店,酒莊,酒類商店\"\n      shop/bakery:\n        name: 麪飽舖同餅家\n        terms: \"Bakery,餅家,餅店,餅舖,麪包舖,麪飽店,麪飽舖,麵包店,麵包舖,麵飽店\"\n      shop/beauty:\n        name: 美容院\n        terms: \"Beauty Shop,指甲美容,理容院,美妝店,美容店,美容院,護膚中心\"\n      shop/beverages:\n        name: 飲品舖\n        terms: \"Beverage Store,飲品店,飲品舖\"\n      shop/bicycle:\n        name: 單車舖\n        terms: \"Bicycle Shop,單車店,單車舖,自行車店\"\n      shop/boutique:\n        name: 時裝店\n        terms: \"Boutique,時裝店,服飾店,精品店\"\n      shop/butcher:\n        name: 肉舖\n        terms: \"Butcher,肉舖,肉販,肉鋪\"\n      shop/car:\n        name: 車行\n        terms: \"Car Dealership,車行\"\n      shop/car_parts:\n        name: 汽車零件舖\n        terms: \"Car Parts Store,汽車配件店,汽車零件店,汽車零件舖\"\n      shop/car_repair:\n        name: 車房\n        terms: \"Car Repair Shop,汽車修理店,汽車維修店,車房\"\n      shop/chemist:\n        name: 註冊藥房\n        terms: \"Chemist,藥房,藥行,註冊藥房\"\n      shop/clothes:\n        name: 衫舖\n        terms: \"Clothing Store,服裝店,服飾店,衫舖\"\n      shop/computer:\n        name: 電腦舖\n        terms: \"Computer Store,電腦店,電腦舖\"\n      shop/convenience:\n        name: 便利店\n        terms: \"Convenience Store,便利店\"\n      shop/deli:\n        name: 食肆\n        terms: \"Deli,熟食店,美食店,食肆\"\n      shop/department_store:\n        name: 百貨公司\n        terms: \"Department Store,百貨公司,百貨店\"\n      shop/doityourself:\n        name: 自組舖\n        terms: \"DIY Store,DIY商店,自組舖\"\n      shop/electronics:\n        name: 電子舖\n        terms: \"Electronics Store,電器店,電子舖\"\n      shop/farm:\n        name: 檔\n        terms: \"Produce Stand,檔,水果攤,農場\"\n      shop/fishmonger:\n        name: 魚檔\n        terms: \"Fishmonger,海產店,賣魚佬,賣魚檔,魚檔\"\n      shop/florist:\n        name: 花舖\n        terms: \"Florist,花店,花舖\"\n      shop/furniture:\n        name: 傢俬舖\n        terms: \"Furniture Store,傢俬舖,傢具店,家具店\"\n      shop/garden_centre:\n        name: 園藝舖\n        terms: \"Garden Center,園藝中心,園藝舖,花店\"\n      shop/gift:\n        name: 禮品舖\n        terms: \"Gift Shop,禮品店,禮品舖,禮物店\"\n      shop/greengrocer:\n        name: 菜檔\n        terms: \"Greengrocer,果蔬店,菜檔,蔬果店\"\n      shop/hairdresser:\n        name: 飛髮舖\n        terms: \"Hairdresser,理髮店,飛髮舖\"\n      shop/hardware:\n        name: 五金舖\n        terms: \"Hardware Store,五金店,五金舖\"\n      shop/hifi:\n        name: 音響舖\n        terms: \"Hifi Store,音響店,音響舖\"\n      shop/jewelry:\n        name: 珠寶金行\n        terms: \"Jeweler,珠寶店,珠寶舖,珠寶金行,首飾店,首飾舖\"\n      shop/laundry:\n        name: 洗衣舖\n        terms: \"Laundry,洗衣店,洗衣舖\"\n      shop/locksmith:\n        name: 鎖匠\n        terms: \"Locksmith,鎖匠,鎖匠鋪,開鎖佬\"\n      shop/mall:\n        name: 大商場\n        terms: \"Mall,商場,大商場\"\n      shop/mobile_phone:\n        name: 電話舖\n        terms: \"Mobile Phone Store,手機店,行動電話店,電話舖\"\n      shop/motorcycle:\n        name: 電單車行\n        terms: \"Motorcycle Dealership,摩托車行,電單車行\"\n      shop/music:\n        name: 唱片舖\n        terms: \"Music Store,唱片舖,音樂店\"\n      shop/optician:\n        name: 眼鏡鋪\n        terms: \"Optician,眼鏡店,眼鏡行,眼鏡鋪\"\n      shop/pet:\n        name: 寵物舖\n        terms: \"Pet Store,寵物店,寵物舖\"\n      shop/photo:\n        name: 影相舖\n        terms: \"Photography Store,影相舖,照相館\"\n      shop/shoes:\n        name: 鞋舖\n        terms: \"Shoe Store,鞋店,鞋舖\"\n      shop/sports:\n        name: 運動舖\n        terms: \"Sporting Goods Store,運動用品店,運動舖,體育,體育用品店\"\n      shop/stationery:\n        name: 文具舖\n        terms: \"Stationery Store,文具店,文具舖\"\n      shop/supermarket:\n        name: 超級市場\n        terms: \"Supermarket,超級市場\"\n      shop/toys:\n        name: 玩具舖\n        terms: \"Toy Store,玩具店,玩具舖\"\n      shop/travel_agency:\n        name: 旅行社\n        terms: \"Travel Agency,旅行社\"\n      shop/tyres:\n        name: 軚舖\n        terms: \"Tire Store,軚舖,輪胎店\"\n      shop/vacant:\n        name: 吉舖\n        terms: \"Vacant Shop,吉舖,空置店舖,空置鋪位,空舖\"\n      shop/variety_store:\n        name: 雜貨舖\n        terms: \"Variety Store,雜貨店,雜貨舖\"\n      shop/video:\n        name: 影視店\n        terms: \"Video Store,影像店,影碟店,影視店\"\n      tourism:\n        name: 旅行\n        terms: \"Tourism,旅行,旅遊設施\"\n      tourism/alpine_hut:\n        name: 高山屋仔\n        terms: \"Alpine Hut,高山小屋,高山屋仔\"\n      tourism/artwork:\n        name: 藝術品\n        terms: \"Artwork,藝術品\"\n      tourism/attraction:\n        name: 旅行名勝\n        terms: \"Tourist Attraction,旅行名勝,旅遊名勝,觀光點\"\n      tourism/camp_site:\n        name: 營地\n        terms: \"Camp Site,營地,露營區\"\n      tourism/caravan_site:\n        name: 露營車營地\n        terms: \"RV Park,房車營地,露營車停車場,露營車營地\"\n      tourism/chalet:\n        name: 木屋\n        terms: \"Chalet,木屋\"\n      tourism/guest_house:\n        name: 賓館\n        terms: \"Guest House,賓館\"\n      tourism/hostel:\n        name: 旅舍\n        terms: \"Hostel,招待所,旅舍\"\n      tourism/hotel:\n        name: 酒店\n        terms: \"Hotel,酒店\"\n      tourism/information:\n        name: 資訊處\n        terms: \"Information,資訊,資訊處\"\n      tourism/motel:\n        name: 汽車酒店\n        terms: \"Motel,汽車旅館,汽車酒店\"\n      tourism/museum:\n        name: 博物館\n        terms: \"Museum,博物館\"\n      tourism/picnic_site:\n        name: 郊遊地點\n        terms: \"Picnic Site,郊遊地點,野餐地點\"\n      tourism/theme_park:\n        name: 主題公園\n        terms: \"Theme Park,主題公園\"\n      tourism/viewpoint:\n        name: 觀景臺\n        terms: \"Viewpoint,景點,眺望,瞭望台,瞭望臺,觀景台,觀景臺,觀景點\"\n      tourism/zoo:\n        name: 動物園\n        terms: \"Zoo,動物園\"\n      type/boundary:\n        name: 界\n        terms: \"Boundary,界,邊界\"\n      type/boundary/administrative:\n        name: 行政邊界\n        terms: \"Administrative Boundary,行政界線,行政邊界\"\n      type/multipolygon:\n        name: 幾多邊形\n        terms: \"Multipolygon,個多面,多個面,幾多邊形,複線段多邊形\"\n      type/restriction:\n        name: 限制\n        terms: \"Restriction,限制\"\n      type/route:\n        name: 路綫\n        terms: \"Route,路綫,路線\"\n      type/route/bicycle:\n        name: 單車路綫\n        terms: \"Cycle Route,單車路綫,單車路線\"\n      type/route/bus:\n        name: 巴士路綫\n        terms: \"Bus Route,公共汽車路線,巴士路綫\"\n      type/route/detour:\n        name: 繞道路綫\n        terms: \"Detour Route,巡遊路綫,巡遊路線,繞道,繞道路綫,繞道路線\"\n      type/route/ferry:\n        name: 航綫\n        terms: \"Ferry Route,渡輪航線,航綫\"\n      type/route/foot:\n        name: 行人路綫\n        terms: \"Foot Route,步行路線,行人路綫,行人路線\"\n      type/route/hiking:\n        name: 行山路綫\n        terms: \"Hiking Route,行山路綫,行山路線\"\n      type/route/pipeline:\n        name: 供水路綫\n        terms: \"Pipeline Route,供水路綫,供水路線,水管路綫,管道路線\"\n      type/route/power:\n        name: 供電路綫\n        terms: \"Power Route,供電路綫,供電路線\"\n      type/route/road:\n        name: 行車路綫\n        terms: \"Road Route,行車路綫,行車路線,道路路線\"\n      type/route/train:\n        name: 火車路綫\n        terms: \"Train Route,火車綫,火車線,火車路綫,鐵路綫,鐵路線,鐵路路綫,鐵路路線\"\n      type/route/tram:\n        name: 電車路綫\n        terms: \"Tram Route,電車路綫,電車路線\"\n      type/route_master:\n        name: 路綫總管\n        terms: \"Route Master,線路總管,路綫總管,路線總目\"\n      vertex:\n        name: 其他\n        terms: \"Other,其他,其它\"\n      waterway:\n        name: 水路\n        terms: \"Waterway,水路,水道,航道\"\n      waterway/canal:\n        name: 水道\n        terms: \"Canal,水道,運河\"\n      waterway/dam:\n        name: 壩\n        terms: \"Dam,堤壩,壩,水壩\"\n      waterway/ditch:\n        name: 溝\n        terms: \"Ditch,渠,溝,溝渠\"\n      waterway/drain:\n        name: 排水道\n        terms: \"Drain,下水道,排水道,渠,溝\"\n      waterway/river:\n        name: 江\n        terms: \"River,江,江河,河,河流\"\n      waterway/riverbank:\n        name: 江岸\n        terms: \"Riverbank,江岸,河堤,河床,河牀\"\n      waterway/stream:\n        name: 涌\n        terms: \"Stream,小河,小溪,涌,溪,溪流\"\n      waterway/weir:\n        name: 堰\n        terms: \"Weir,堤堰,堤壩,堰,壩\"\n",
-	"mimetype": "text/plain"
+
+"yue": {
+
+
+"presets": {
+
+
+
+"categories": {
+
+
+
+
+"category-building": {
+
+
+
+
+
+"name": "屋宇"
+
+
+
+
+},
+
+
+
+
+"category-golf": {
+
+
+
+
+
+"name": "哥夫球"
+
+
+
+
+},
+
+
+
+
+"category-landuse": {
+
+
+
+
+
+"name": "用地"
+
+
+
+
+},
+
+
+
+
+"category-path": {
+
+
+
+
+
+"name": "徑"
+
+
+
+
+},
+
+
+
+
+"category-rail": {
+
+
+
+
+
+"name": "軌道"
+
+
+
+
+},
+
+
+
+
+"category-road": {
+
+
+
+
+
+"name": "路"
+
+
+
+
+},
+
+
+
+
+"category-route": {
+
+
+
+
+
+"name": "路綫"
+
+
+
+
+},
+
+
+
+
+"category-water-area": {
+
+
+
+
+
+"name": "水"
+
+
+
+
+},
+
+
+
+
+"category-water-line": {
+
+
+
+
+
+"name": "水"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"fields": {
+
+
+
+
+"access": {
+
+
+
+
+
+"label": "通",
+
+
+
+
+
+"placeholder": "未知",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "總體",
+
+
+
+
+
+
+"foot": "行",
+
+
+
+
+
+
+"motor_vehicle": "車",
+
+
+
+
+
+
+"bicycle": "單車",
+
+
+
+
+
+
+"horse": "馬"
+
+
+
+
+
+},
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"title": "准許",
+
+
+
+
+
+
+
+"description": "按法例可通，通路之權。"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"title": "禁入",
+
+
+
+
+
+
+
+"description": "公眾不通"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"title": "放任",
+
+
+
+
+
+
+
+"description": "可通，直至地主唔畀。"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"title": "私家",
+
+
+
+
+
+
+
+"description": "要地主批准"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"designated": {
+
+
+
+
+
+
+
+"title": "指名",
+
+
+
+
+
+
+
+"description": "通行與否，按法例或路牌指定"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"destination": {
+
+
+
+
+
+
+
+"title": "目的地",
+
+
+
+
+
+
+
+"description": "限往目的地"
+
+
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"access_simple": {
+
+
+
+
+
+"label": "通"
+
+
+
+
+},
+
+
+
+
+"address": {
+
+
+
+
+
+"label": "地埗",
+
+
+
+
+
+"placeholders": {
+
+
+
+
+
+
+"street": "街",
+
+
+
+
+
+
+"city": "城"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"admin_level": {
+
+
+
+
+
+"label": "行政層次"
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"aerialway/access": {
+
+
+
+
+
+"label": "通"
+
+
+
+
+},
+
+
+
+
+"aerialway/bubble": {
+
+
+
+
+
+"label": "泡"
+
+
+
+
+},
+
+
+
+
+"aerialway/capacity": {
+
+
+
+
+
+"label": "載量（一小時計）",
+
+
+
+
+
+"placeholder": "500, 2500, 5000..."
+
+
+
+
+},
+
+
+
+
+"aerialway/duration": {
+
+
+
+
+
+"label": "行程（分鐘）",
+
+
+
+
+
+"placeholder": "1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"aerialway/heating": {
+
+
+
+
+
+"label": "有暖氣"
+
+
+
+
+},
+
+
+
+
+"aerialway/occupancy": {
+
+
+
+
+
+"label": "一車人數",
+
+
+
+
+
+"placeholder": "2, 4, 8..."
+
+
+
+
+},
+
+
+
+
+"aerialway/summer/access": {
+
+
+
+
+
+"label": "通（夏天）"
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"amenity": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"artist": {
+
+
+
+
+
+"label": "藝人"
+
+
+
+
+},
+
+
+
+
+"artwork_type": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"atm": {
+
+
+
+
+
+"label": "提款機"
+
+
+
+
+},
+
+
+
+
+"backrest": {
+
+
+
+
+
+"label": "長椅"
+
+
+
+
+},
+
+
+
+
+"barrier": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"bicycle_parking": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"boundary": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"label": "屋宇"
+
+
+
+
+},
+
+
+
+
+"building_area": {
+
+
+
+
+
+"label": "屋宇"
+
+
+
+
+},
+
+
+
+
+"capacity": {
+
+
+
+
+
+"label": "容納",
+
+
+
+
+
+"placeholder": "50, 100, 200..."
+
+
+
+
+},
+
+
+
+
+"cardinal_direction": {
+
+
+
+
+
+"label": "方向"
+
+
+
+
+},
+
+
+
+
+"clock_direction": {
+
+
+
+
+
+"label": "方向",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"clockwise": "順時針",
+
+
+
+
+
+
+"anticlockwise": "逆時針"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"collection_times": {
+
+
+
+
+
+"label": "收集時間"
+
+
+
+
+},
+
+
+
+
+"construction": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"country": {
+
+
+
+
+
+"label": "國"
+
+
+
+
+},
+
+
+
+
+"covered": {
+
+
+
+
+
+"label": "有蓋"
+
+
+
+
+},
+
+
+
+
+"crossing": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"cuisine": {
+
+
+
+
+
+"label": "菜系"
+
+
+
+
+},
+
+
+
+
+"denomination": {
+
+
+
+
+
+"label": "派"
+
+
+
+
+},
+
+
+
+
+"denotation": {
+
+
+
+
+
+"label": "表示"
+
+
+
+
+},
+
+
+
+
+"description": {
+
+
+
+
+
+"label": "描述"
+
+
+
+
+},
+
+
+
+
+"electrified": {
+
+
+
+
+
+"label": "用電"
+
+
+
+
+},
+
+
+
+
+"elevation": {
+
+
+
+
+
+"label": "海拔"
+
+
+
+
+},
+
+
+
+
+"emergency": {
+
+
+
+
+
+"label": "急症室"
+
+
+
+
+},
+
+
+
+
+"entrance": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"fax": {
+
+
+
+
+
+"label": "傳真",
+
+
+
+
+
+"placeholder": "+852 12345678"
+
+
+
+
+},
+
+
+
+
+"fee": {
+
+
+
+
+
+"label": "費用"
+
+
+
+
+},
+
+
+
+
+"fire_hydrant/type": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"fixme": {
+
+
+
+
+
+"label": "整好我"
+
+
+
+
+},
+
+
+
+
+"generator/method": {
+
+
+
+
+
+"label": "方法"
+
+
+
+
+},
+
+
+
+
+"generator/source": {
+
+
+
+
+
+"label": "來源"
+
+
+
+
+},
+
+
+
+
+"generator/type": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"golf_hole": {
+
+
+
+
+
+"label": "參攷",
+
+
+
+
+
+"placeholder": "洞數（一到十八）"
+
+
+
+
+},
+
+
+
+
+"handicap": {
+
+
+
+
+
+"label": "差點",
+
+
+
+
+
+"placeholder": "1-18"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"historic": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"iata": {
+
+
+
+
+
+"label": "萬國航空運輸協會（IATA）"
+
+
+
+
+},
+
+
+
+
+"icao": {
+
+
+
+
+
+"label": "萬國民航組織（ICAO）"
+
+
+
+
+},
+
+
+
+
+"incline": {
+
+
+
+
+
+"label": "斜"
+
+
+
+
+},
+
+
+
+
+"information": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"internet_access": {
+
+
+
+
+
+"label": "用到互聯網",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"wlan": "無綫上網",
+
+
+
+
+
+
+"wired": "揷綫上網",
+
+
+
+
+
+
+"terminal": "終端機"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"lanes": {
+
+
+
+
+
+"label": "綫道數",
+
+
+
+
+
+"placeholder": "1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"layer": {
+
+
+
+
+
+"label": "層"
+
+
+
+
+},
+
+
+
+
+"leisure": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"levels": {
+
+
+
+
+
+"label": "樓",
+
+
+
+
+
+"placeholder": "2, 4, 6..."
+
+
+
+
+},
+
+
+
+
+"lit": {
+
+
+
+
+
+"label": "有燈"
+
+
+
+
+},
+
+
+
+
+"location": {
+
+
+
+
+
+"label": "地點"
+
+
+
+
+},
+
+
+
+
+"man_made": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"maxspeed": {
+
+
+
+
+
+"label": "限速",
+
+
+
+
+
+"placeholder": "40, 50, 60..."
+
+
+
+
+},
+
+
+
+
+"name": {
+
+
+
+
+
+"label": "名",
+
+
+
+
+
+"placeholder": "常用名（若有）"
+
+
+
+
+},
+
+
+
+
+"natural": {
+
+
+
+
+
+"label": "自然"
+
+
+
+
+},
+
+
+
+
+"network": {
+
+
+
+
+
+"label": "網絡"
+
+
+
+
+},
+
+
+
+
+"note": {
+
+
+
+
+
+"label": "註"
+
+
+
+
+},
+
+
+
+
+"office": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"oneway": {
+
+
+
+
+
+"label": "單程"
+
+
+
+
+},
+
+
+
+
+"oneway_yes": {
+
+
+
+
+
+"label": "單程"
+
+
+
+
+},
+
+
+
+
+"opening_hours": {
+
+
+
+
+
+"label": "時間"
+
+
+
+
+},
+
+
+
+
+"operator": {
+
+
+
+
+
+"label": "承辦商"
+
+
+
+
+},
+
+
+
+
+"par": {
+
+
+
+
+
+"label": "標準桿",
+
+
+
+
+
+"placeholder": "3, 4, 5..."
+
+
+
+
+},
+
+
+
+
+"park_ride": {
+
+
+
+
+
+"label": "泊車轉乖"
+
+
+
+
+},
+
+
+
+
+"parking": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"phone": {
+
+
+
+
+
+"label": "電話",
+
+
+
+
+
+"placeholder": "+852 12345678"
+
+
+
+
+},
+
+
+
+
+"piste/difficulty": {
+
+
+
+
+
+"label": "難度"
+
+
+
+
+},
+
+
+
+
+"piste/grooming": {
+
+
+
+
+
+"label": "雪道類"
+
+
+
+
+},
+
+
+
+
+"piste/type": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"place": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"power": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"railway": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"ref": {
+
+
+
+
+
+"label": "參攷"
+
+
+
+
+},
+
+
+
+
+"relation": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"religion": {
+
+
+
+
+
+"label": "宗敎"
+
+
+
+
+},
+
+
+
+
+"restriction": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"route": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"route_master": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"service": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"shelter": {
+
+
+
+
+
+"label": "有天遮"
+
+
+
+
+},
+
+
+
+
+"shelter_type": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"shop": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"source": {
+
+
+
+
+
+"label": "來源"
+
+
+
+
+},
+
+
+
+
+"sport": {
+
+
+
+
+
+"label": "運動"
+
+
+
+
+},
+
+
+
+
+"structure": {
+
+
+
+
+
+"label": "結構",
+
+
+
+
+
+"placeholder": "未知",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"bridge": "橋",
+
+
+
+
+
+
+"tunnel": "隧道",
+
+
+
+
+
+
+"embankment": "基堤",
+
+
+
+
+
+
+"cutting": "開山"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"supervised": {
+
+
+
+
+
+"label": "有人睇"
+
+
+
+
+},
+
+
+
+
+"surface": {
+
+
+
+
+
+"label": "表面"
+
+
+
+
+},
+
+
+
+
+"toilets/disposal": {
+
+
+
+
+
+"label": "棄置"
+
+
+
+
+},
+
+
+
+
+"tourism": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"towertype": {
+
+
+
+
+
+"label": "塔類"
+
+
+
+
+},
+
+
+
+
+"trail_visibility": {
+
+
+
+
+
+"label": "徑明顯度"
+
+
+
+
+},
+
+
+
+
+"tunnel": {
+
+
+
+
+
+"label": "隧道"
+
+
+
+
+},
+
+
+
+
+"vending": {
+
+
+
+
+
+"label": "貨類"
+
+
+
+
+},
+
+
+
+
+"water": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"waterway": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"website": {
+
+
+
+
+
+"label": "網站",
+
+
+
+
+
+"placeholder": "http://example.com/"
+
+
+
+
+},
+
+
+
+
+"wetland": {
+
+
+
+
+
+"label": "類"
+
+
+
+
+},
+
+
+
+
+"wheelchair": {
+
+
+
+
+
+"label": "可通輪椅"
+
+
+
+
+},
+
+
+
+
+"wikipedia": {
+
+
+
+
+
+"label": "維基百科全書"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"presets": {
+
+
+
+
+"address": {
+
+
+
+
+
+"name": "地埗",
+
+
+
+
+
+"terms": "Address,地址,地埗,址"
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"name": "吊道",
+
+
+
+
+
+"terms": "Aerialway,吊道"
+
+
+
+
+},
+
+
+
+
+"aerialway/cable_car": {
+
+
+
+
+
+"name": "吊車",
+
+
+
+
+
+"terms": "Cable Car,吊車,䌫車"
+
+
+
+
+},
+
+
+
+
+"aerialway/chair_lift": {
+
+
+
+
+
+"name": "吊櫈",
+
+
+
+
+
+"terms": "Chair Lift,吊櫈"
+
+
+
+
+},
+
+
+
+
+"aerialway/gondola": {
+
+
+
+
+
+"name": "吊船",
+
+
+
+
+
+"terms": "Gondola,吊船"
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"name": "航空設施",
+
+
+
+
+
+"terms": "Aeroway,機場,機場相關設施,機場相關道路,航空,航空設施"
+
+
+
+
+},
+
+
+
+
+"aeroway/aerodrome": {
+
+
+
+
+
+"name": "飛機場",
+
+
+
+
+
+"terms": "Airport,機場,飛機,飛機場"
+
+
+
+
+},
+
+
+
+
+"aeroway/apron": {
+
+
+
+
+
+"name": "停機坪",
+
+
+
+
+
+"terms": "Apron,停機坪"
+
+
+
+
+},
+
+
+
+
+"aeroway/gate": {
+
+
+
+
+
+"name": "機場閘口",
+
+
+
+
+
+"terms": "Airport gate,機場閘口,登機閘口,落機閘口,閘口"
+
+
+
+
+},
+
+
+
+
+"aeroway/hangar": {
+
+
+
+
+
+"name": "飛機庫",
+
+
+
+
+
+"terms": "Hangar,機庫,飛機庫"
+
+
+
+
+},
+
+
+
+
+"aeroway/helipad": {
+
+
+
+
+
+"name": "直升機坪",
+
+
+
+
+
+"terms": "Helipad,直升機坪,直升機場,直昇機坪,直昇機場"
+
+
+
+
+},
+
+
+
+
+"aeroway/runway": {
+
+
+
+
+
+"name": "跑道",
+
+
+
+
+
+"terms": "Runway,跑道"
+
+
+
+
+},
+
+
+
+
+"aeroway/taxiway": {
+
+
+
+
+
+"name": "滑行道",
+
+
+
+
+
+"terms": "Taxiway,滑行道"
+
+
+
+
+},
+
+
+
+
+"aeroway/terminal": {
+
+
+
+
+
+"name": "飛機場大樓",
+
+
+
+
+
+"terms": "Airport terminal,機場大堂,機場大樓,機場客運大樓,機場航站樓,飛機場大樓"
+
+
+
+
+},
+
+
+
+
+"amenity": {
+
+
+
+
+
+"name": "便利設施",
+
+
+
+
+
+"terms": "Amenity,便利設施"
+
+
+
+
+},
+
+
+
+
+"amenity/arts_centre": {
+
+
+
+
+
+"name": "美術館",
+
+
+
+
+
+"terms": "Arts Center,美術中心,美術館,藝術中心,藝術館"
+
+
+
+
+},
+
+
+
+
+"amenity/atm": {
+
+
+
+
+
+"name": "提款機",
+
+
+
+
+
+"terms": "ATM,提款機,櫃員機,自動提款機,自動櫃員機"
+
+
+
+
+},
+
+
+
+
+"amenity/bank": {
+
+
+
+
+
+"name": "銀行",
+
+
+
+
+
+"terms": "Bank,銀號,銀行"
+
+
+
+
+},
+
+
+
+
+"amenity/bar": {
+
+
+
+
+
+"name": "酒吧",
+
+
+
+
+
+"terms": "Bar,吧,酒吧"
+
+
+
+
+},
+
+
+
+
+"amenity/bench": {
+
+
+
+
+
+"name": "長椅",
+
+
+
+
+
+"terms": "Bench,長凳,長椅,長櫈"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_parking": {
+
+
+
+
+
+"name": "泊單車處",
+
+
+
+
+
+"terms": "Bicycle Parking,單車停放車,單車停泊處,泊單車,泊單車處,自行車停放處"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_rental": {
+
+
+
+
+
+"name": "租單車舖",
+
+
+
+
+
+"terms": "Bicycle Rental,單車租賃,租單車,租單車舖,租單車處,自行車租賃處"
+
+
+
+
+},
+
+
+
+
+"amenity/boat_rental": {
+
+
+
+
+
+"name": "租艇",
+
+
+
+
+
+"terms": "Boat Rental,租艇,船舶租賃處"
+
+
+
+
+},
+
+
+
+
+"amenity/cafe": {
+
+
+
+
+
+"name": "茶座",
+
+
+
+
+
+"terms": "Cafe,㗎啡室,㗎啡廳,咖啡,咖啡室,咖啡廳,茶座,荼座"
+
+
+
+
+},
+
+
+
+
+"amenity/car_rental": {
+
+
+
+
+
+"name": "租車舖",
+
+
+
+
+
+"terms": "Car Rental,汽車租賃,汽車租賃處,租車,租車店,租車舖"
+
+
+
+
+},
+
+
+
+
+"amenity/car_sharing": {
+
+
+
+
+
+"name": "共用車處",
+
+
+
+
+
+"terms": "Car Sharing,公用車處,共用車,共用車處,汽車共享站"
+
+
+
+
+},
+
+
+
+
+"amenity/car_wash": {
+
+
+
+
+
+"name": "洗車舖",
+
+
+
+
+
+"terms": "Car Wash,洗車,洗車店,洗車舖"
+
+
+
+
+},
+
+
+
+
+"amenity/cinema": {
+
+
+
+
+
+"name": "電影戲院",
+
+
+
+
+
+"terms": "Cinema,戲院,電影,電影戲院,電影院"
+
+
+
+
+},
+
+
+
+
+"amenity/courthouse": {
+
+
+
+
+
+"name": "法庭",
+
+
+
+
+
+"terms": "Courthouse,法庭,法院,臬署,裁判署"
+
+
+
+
+},
+
+
+
+
+"amenity/drinking_water": {
+
+
+
+
+
+"name": "飲水處",
+
+
+
+
+
+"terms": "Drinking Water,水源,活水,飲水,飲水處,飲用水"
+
+
+
+
+},
+
+
+
+
+"amenity/embassy": {
+
+
+
+
+
+"name": "大使館",
+
+
+
+
+
+"terms": "Embassy,使館,大使館,領事館"
+
+
+
+
+},
+
+
+
+
+"amenity/fast_food": {
+
+
+
+
+
+"name": "快餐店",
+
+
+
+
+
+"terms": "Fast Food,快餐店"
+
+
+
+
+},
+
+
+
+
+"amenity/fire_station": {
+
+
+
+
+
+"name": "滅火局",
+
+
+
+
+
+"terms": "Fire Station,滅火局,水車館,消防局,消防站,救火局"
+
+
+
+
+},
+
+
+
+
+"amenity/fountain": {
+
+
+
+
+
+"name": "噴水池",
+
+
+
+
+
+"terms": "Fountain,噴水池,噴泉,水景"
+
+
+
+
+},
+
+
+
+
+"amenity/fuel": {
+
+
+
+
+
+"name": "油站",
+
+
+
+
+
+"terms": "Gas Station,加氣站,加汽站,加油站,油站"
+
+
+
+
+},
+
+
+
+
+"amenity/grave_yard": {
+
+
+
+
+
+"name": "墳地",
+
+
+
+
+
+"terms": "Graveyard,墓地,墳地,墳場"
+
+
+
+
+},
+
+
+
+
+"amenity/library": {
+
+
+
+
+
+"name": "圖書館",
+
+
+
+
+
+"terms": "Library,圖書館,拉記"
+
+
+
+
+},
+
+
+
+
+"amenity/marketplace": {
+
+
+
+
+
+"name": "街市",
+
+
+
+
+
+"terms": "Marketplace,市場,菜市場,街市"
+
+
+
+
+},
+
+
+
+
+"amenity/parking": {
+
+
+
+
+
+"name": "停車場",
+
+
+
+
+
+"terms": "Car Parking,停車場"
+
+
+
+
+},
+
+
+
+
+"amenity/pharmacy": {
+
+
+
+
+
+"name": "藥房",
+
+
+
+
+
+"terms": "Pharmacy,葯局,葯店,葯房,葯舖,藥局,藥店,藥房,藥舖"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship": {
+
+
+
+
+
+"name": "拜神之所",
+
+
+
+
+
+"terms": "Place of Worship,Worship,宗教祟拜場所,宗教禮拜處,崇拜處,拜神之所,禮拜場所"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/buddhist": {
+
+
+
+
+
+"name": "佛寺",
+
+
+
+
+
+"terms": "Buddhist Temple,佛堂,佛寺,佛廟,和尚寺,寶殿,寺,寺廟,尼姑庵,尼庵,庵堂,廟,精舍,閣,靜院"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/christian": {
+
+
+
+
+
+"name": "敎堂",
+
+
+
+
+
+"terms": "Christian,Church,基督敎堂,基督教堂,天主堂,天主敎堂,天主教堂,敎堂,教堂,聖堂"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/jewish": {
+
+
+
+
+
+"name": "猶太廟",
+
+
+
+
+
+"terms": "Synagogue,jewish,猶太寺,猶太廟,猶太教堂"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/muslim": {
+
+
+
+
+
+"name": "囘敎寺",
+
+
+
+
+
+"terms": "Mosque,Muslim,囘敎寺,囘教寺,回敎寺,回教寺,清真寺"
+
+
+
+
+},
+
+
+
+
+"amenity/police": {
+
+
+
+
+
+"name": "差館",
+
+
+
+
+
+"terms": "Police,差館,派出所,警察局,警局,警署"
+
+
+
+
+},
+
+
+
+
+"amenity/post_box": {
+
+
+
+
+
+"name": "郵筒",
+
+
+
+
+
+"terms": "Mailbox,Post,Post Box,郵筒,郵箱"
+
+
+
+
+},
+
+
+
+
+"amenity/post_office": {
+
+
+
+
+
+"name": "郵政局",
+
+
+
+
+
+"terms": "Post Office,書信館,郵局,郵政局"
+
+
+
+
+},
+
+
+
+
+"amenity/pub": {
+
+
+
+
+
+"name": "酒館",
+
+
+
+
+
+"terms": "Pub,酒館"
+
+
+
+
+},
+
+
+
+
+"amenity/ranger_station": {
+
+
+
+
+
+"name": "郊野訪客處",
+
+
+
+
+
+"terms": "Ranger Station,郊野訪客處,野郊訪客處"
+
+
+
+
+},
+
+
+
+
+"amenity/recycling": {
+
+
+
+
+
+"name": "囘收桶",
+
+
+
+
+
+"terms": "Recycling,囘收桶,囘收箱,回收桶,回收箱"
+
+
+
+
+},
+
+
+
+
+"amenity/restaurant": {
+
+
+
+
+
+"name": "餐廳",
+
+
+
+
+
+"terms": "Restaurant,茶樓,酒家,酒樓,飯店,飯館,餐廳,餐館"
+
+
+
+
+},
+
+
+
+
+"amenity/shelter": {
+
+
+
+
+
+"name": "天遮或亭",
+
+
+
+
+
+"terms": "Shelter,亭,天遮,蓋,避難,避難所"
+
+
+
+
+},
+
+
+
+
+"amenity/swimming_pool": {
+
+
+
+
+
+"name": "游水池",
+
+
+
+
+
+"terms": "Swimming Pool,泳池,游水池,游泳池,遊泳池"
+
+
+
+
+},
+
+
+
+
+"amenity/taxi": {
+
+
+
+
+
+"name": "的士站",
+
+
+
+
+
+"terms": "Taxi Stand,出租車站,的士站,計程車站"
+
+
+
+
+},
+
+
+
+
+"amenity/telephone": {
+
+
+
+
+
+"name": "電話",
+
+
+
+
+
+"terms": "Telephone,電話"
+
+
+
+
+},
+
+
+
+
+"amenity/theatre": {
+
+
+
+
+
+"name": "舞臺戲院",
+
+
+
+
+
+"terms": "Theater,劇場,劇院,戲院,舞臺戲院,電影院"
+
+
+
+
+},
+
+
+
+
+"amenity/toilets": {
+
+
+
+
+
+"name": "廁所",
+
+
+
+
+
+"terms": "Toilets,便所,公厠,公廁,厠所,廁所,方便,洗手間,盥洗室"
+
+
+
+
+},
+
+
+
+
+"amenity/townhall": {
+
+
+
+
+
+"name": "大會堂",
+
+
+
+
+
+"terms": "Town Hall,大會堂,市政府,市政廳"
+
+
+
+
+},
+
+
+
+
+"amenity/vending_machine": {
+
+
+
+
+
+"name": "售賣機",
+
+
+
+
+
+"terms": "Vending Machine,售賣機,自勳動賣機"
+
+
+
+
+},
+
+
+
+
+"amenity/waste_basket": {
+
+
+
+
+
+"name": "垃圾桶",
+
+
+
+
+
+"terms": "Waste Basket,垃圾桶,垃圾箱,廢物箱"
+
+
+
+
+},
+
+
+
+
+"area": {
+
+
+
+
+
+"name": "範圍",
+
+
+
+
+
+"terms": "Area,區域,範圍"
+
+
+
+
+},
+
+
+
+
+"barrier": {
+
+
+
+
+
+"name": "阻擋",
+
+
+
+
+
+"terms": "Barrier,屏障,阻擋,障礙,障礙物"
+
+
+
+
+},
+
+
+
+
+"barrier/block": {
+
+
+
+
+
+"name": "路障",
+
+
+
+
+
+"terms": "Block,路障,障礙物"
+
+
+
+
+},
+
+
+
+
+"barrier/bollard": {
+
+
+
+
+
+"name": "護柱",
+
+
+
+
+
+"terms": "Bollard,護柱"
+
+
+
+
+},
+
+
+
+
+"barrier/cattle_grid": {
+
+
+
+
+
+"name": "攔畜溝柵",
+
+
+
+
+
+"terms": "Cattle Grid,家畜柵欄,攔畜溝柵"
+
+
+
+
+},
+
+
+
+
+"barrier/city_wall": {
+
+
+
+
+
+"name": "城牆",
+
+
+
+
+
+"terms": "City Wall,城墻,城牆"
+
+
+
+
+},
+
+
+
+
+"barrier/cycle_barrier": {
+
+
+
+
+
+"name": "單車減速欄",
+
+
+
+
+
+"terms": "Cycle Barrier,單車減速欄,單車矮欄"
+
+
+
+
+},
+
+
+
+
+"barrier/ditch": {
+
+
+
+
+
+"name": "溝",
+
+
+
+
+
+"terms": "Ditch,溝"
+
+
+
+
+},
+
+
+
+
+"barrier/entrance": {
+
+
+
+
+
+"name": "入口",
+
+
+
+
+
+"terms": "Entrance,入口"
+
+
+
+
+},
+
+
+
+
+"barrier/fence": {
+
+
+
+
+
+"name": "欄",
+
+
+
+
+
+"terms": "Fence,欄,欄柵,籬,籬笆"
+
+
+
+
+},
+
+
+
+
+"barrier/gate": {
+
+
+
+
+
+"name": "閘",
+
+
+
+
+
+"terms": "Gate,口,門,閘"
+
+
+
+
+},
+
+
+
+
+"barrier/hedge": {
+
+
+
+
+
+"name": "樹籬",
+
+
+
+
+
+"terms": "Hedge,樹籬"
+
+
+
+
+},
+
+
+
+
+"barrier/kissing_gate": {
+
+
+
+
+
+"name": "單人轉門 ",
+
+
+
+
+
+"terms": "Kissing Gate,單人轉門"
+
+
+
+
+},
+
+
+
+
+"barrier/lift_gate": {
+
+
+
+
+
+"name": "道閘",
+
+
+
+
+
+"terms": "Lift Gate,擋車器,道閘"
+
+
+
+
+},
+
+
+
+
+"barrier/retaining_wall": {
+
+
+
+
+
+"name": "護土牆",
+
+
+
+
+
+"terms": "Retaining Wall,擋土墻,護土牆"
+
+
+
+
+},
+
+
+
+
+"barrier/stile": {
+
+
+
+
+
+"name": "梯梃",
+
+
+
+
+
+"terms": "Stile,梯梃,梯磴"
+
+
+
+
+},
+
+
+
+
+"barrier/toll_booth": {
+
+
+
+
+
+"name": "收費亭",
+
+
+
+
+
+"terms": "Toll Booth,收費亭,收費站"
+
+
+
+
+},
+
+
+
+
+"barrier/wall": {
+
+
+
+
+
+"name": "牆",
+
+
+
+
+
+"terms": "Wall,墻,牆"
+
+
+
+
+},
+
+
+
+
+"boundary/administrative": {
+
+
+
+
+
+"name": "行政界",
+
+
+
+
+
+"terms": "Administrative Boundary,行政區域界線,行政區界,行政界,行政界線,行政邊界"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"name": "屋宇",
+
+
+
+
+
+"terms": "Building,屋宇,建築物"
+
+
+
+
+},
+
+
+
+
+"building/apartments": {
+
+
+
+
+
+"name": "公寓",
+
+
+
+
+
+"terms": "Apartments,公寓,分層屋宇"
+
+
+
+
+},
+
+
+
+
+"building/commercial": {
+
+
+
+
+
+"name": "商業樓宇",
+
+
+
+
+
+"terms": "Commercial Building,商業建築物,商業樓宇"
+
+
+
+
+},
+
+
+
+
+"building/garage": {
+
+
+
+
+
+"name": "車庫",
+
+
+
+
+
+"terms": "Garage,車庫"
+
+
+
+
+},
+
+
+
+
+"building/house": {
+
+
+
+
+
+"name": "屋",
+
+
+
+
+
+"terms": "House,屋,房屋,洋房"
+
+
+
+
+},
+
+
+
+
+"building/hut": {
+
+
+
+
+
+"name": "屋仔",
+
+
+
+
+
+"terms": "Hut,屋仔,棚屋"
+
+
+
+
+},
+
+
+
+
+"building/industrial": {
+
+
+
+
+
+"name": "工業樓宇",
+
+
+
+
+
+"terms": "Industrial Building,工業建築物,工業樓宇"
+
+
+
+
+},
+
+
+
+
+"building/residential": {
+
+
+
+
+
+"name": "住宅樓宇",
+
+
+
+
+
+"terms": "Residential Building,住宅建築物,住宅樓宇"
+
+
+
+
+},
+
+
+
+
+"craft/watchmaker": {
+
+
+
+
+
+"name": "鐘錶匠",
+
+
+
+
+
+"terms": "Watchmaker,鐘錶匠"
+
+
+
+
+},
+
+
+
+
+"craft/window_construction": {
+
+
+
+
+
+"name": "造窗",
+
+
+
+
+
+"terms": "Window Construction,造窗"
+
+
+
+
+},
+
+
+
+
+"embankment": {
+
+
+
+
+
+"name": "基堤",
+
+
+
+
+
+"terms": "Embankment,基堤,堤,堤壩,堤岸"
+
+
+
+
+},
+
+
+
+
+"emergency/ambulance_station": {
+
+
+
+
+
+"name": "救護站",
+
+
+
+
+
+"terms": "Ambulance Station,十字車,救傷車,救護站,救護車"
+
+
+
+
+},
+
+
+
+
+"emergency/fire_hydrant": {
+
+
+
+
+
+"name": "消防水龍頭",
+
+
+
+
+
+"terms": "Fire Hydrant,消防栓,消防水龍頭"
+
+
+
+
+},
+
+
+
+
+"emergency/phone": {
+
+
+
+
+
+"name": "求助電話",
+
+
+
+
+
+"terms": "Emergency Phone,求助電話,緊急電話"
+
+
+
+
+},
+
+
+
+
+"footway/crossing": {
+
+
+
+
+
+"name": "路口",
+
+
+
+
+
+"terms": "Crossing,路口"
+
+
+
+
+},
+
+
+
+
+"footway/sidewalk": {
+
+
+
+
+
+"name": "行人路",
+
+
+
+
+
+"terms": "Sidewalk,行人路"
+
+
+
+
+},
+
+
+
+
+"golf/bunker": {
+
+
+
+
+
+"name": "沙坑",
+
+
+
+
+
+"terms": "Sand Trap,沙坑"
+
+
+
+
+},
+
+
+
+
+"golf/fairway": {
+
+
+
+
+
+"name": "球道",
+
+
+
+
+
+"terms": "Fairway,球道"
+
+
+
+
+},
+
+
+
+
+"golf/green": {
+
+
+
+
+
+"name": "菓嶺",
+
+
+
+
+
+"terms": "Putting Green,果嶺,菓嶺"
+
+
+
+
+},
+
+
+
+
+"golf/hole": {
+
+
+
+
+
+"name": "歌夫球洞",
+
+
+
+
+
+"terms": "Golf Hole,歌夫球洞"
+
+
+
+
+},
+
+
+
+
+"golf/lateral_water_hazard": {
+
+
+
+
+
+"name": "側面水障區",
+
+
+
+
+
+"terms": "Lateral Water Hazard,側面水障區"
+
+
+
+
+},
+
+
+
+
+"golf/rough": {
+
+
+
+
+
+"name": "深草區",
+
+
+
+
+
+"terms": "Rough,深草區"
+
+
+
+
+},
+
+
+
+
+"golf/tee": {
+
+
+
+
+
+"name": "發球區",
+
+
+
+
+
+"terms": "Tee Box,發球區,開球區"
+
+
+
+
+},
+
+
+
+
+"golf/water_hazard": {
+
+
+
+
+
+"name": "水障區",
+
+
+
+
+
+"terms": "Water Hazard,水障區"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"name": "公路",
+
+
+
+
+
+"terms": "Highway,公路"
+
+
+
+
+},
+
+
+
+
+"highway/bridleway": {
+
+
+
+
+
+"name": "馬徑",
+
+
+
+
+
+"terms": "Bridle Path,馬徑,馬道"
+
+
+
+
+},
+
+
+
+
+"highway/bus_stop": {
+
+
+
+
+
+"name": "巴士站",
+
+
+
+
+
+"terms": "Bus Stop,公交車站,公共汽車站,巴士站"
+
+
+
+
+},
+
+
+
+
+"highway/crossing": {
+
+
+
+
+
+"name": "路口",
+
+
+
+
+
+"terms": "Crossing,路口,過路處"
+
+
+
+
+},
+
+
+
+
+"highway/cycleway": {
+
+
+
+
+
+"name": "單車徑",
+
+
+
+
+
+"terms": "Cycle Path,單車徑,自行車道"
+
+
+
+
+},
+
+
+
+
+"highway/footway": {
+
+
+
+
+
+"name": "行人徑",
+
+
+
+
+
+"terms": "Foot Path,步行徑,行人徑"
+
+
+
+
+},
+
+
+
+
+"highway/living_street": {
+
+
+
+
+
+"name": "居住街道",
+
+
+
+
+
+"terms": "Living Street,居住街道,生活街道"
+
+
+
+
+},
+
+
+
+
+"highway/mini_roundabout": {
+
+
+
+
+
+"name": "細迴旋處",
+
+
+
+
+
+"terms": "Mini-Roundabout,小型環島,小型迴旋處,細迴旋處"
+
+
+
+
+},
+
+
+
+
+"highway/motorway": {
+
+
+
+
+
+"name": "高速公路",
+
+
+
+
+
+"terms": "Motorway,高速公路"
+
+
+
+
+},
+
+
+
+
+"highway/motorway_link": {
+
+
+
+
+
+"name": "高速公路駁路",
+
+
+
+
+
+"terms": "Motorway Link,高速公路匝道,高速公路引道,高速公路駁路"
+
+
+
+
+},
+
+
+
+
+"highway/path": {
+
+
+
+
+
+"name": "徑",
+
+
+
+
+
+"terms": "Path,徑,路徑"
+
+
+
+
+},
+
+
+
+
+"highway/pedestrian": {
+
+
+
+
+
+"name": "行人大街",
+
+
+
+
+
+"terms": "Pedestrian,行人大街,行人專用路"
+
+
+
+
+},
+
+
+
+
+"highway/primary": {
+
+
+
+
+
+"name": "大路",
+
+
+
+
+
+"terms": "Primary Road,主要道路,大路"
+
+
+
+
+},
+
+
+
+
+"highway/primary_link": {
+
+
+
+
+
+"name": "大路駁路",
+
+
+
+
+
+"terms": "Primary Link,主要道路匝道,主要道路連接路,大路駁路"
+
+
+
+
+},
+
+
+
+
+"highway/residential": {
+
+
+
+
+
+"name": "住宅路",
+
+
+
+
+
+"terms": "Residential Road,住宅區道路,住宅路"
+
+
+
+
+},
+
+
+
+
+"highway/road": {
+
+
+
+
+
+"name": "未明路",
+
+
+
+
+
+"terms": "Unknown Road,不明路,不知路,未明路,未知嘅路,未知種類的道路,未知種類道路"
+
+
+
+
+},
+
+
+
+
+"highway/secondary": {
+
+
+
+
+
+"name": "中路",
+
+
+
+
+
+"terms": "Secondary Road,中路,次要道路"
+
+
+
+
+},
+
+
+
+
+"highway/secondary_link": {
+
+
+
+
+
+"name": "中路駁路",
+
+
+
+
+
+"terms": "Secondary Link,中路駁路,次級道路連接路,次要道路匝道"
+
+
+
+
+},
+
+
+
+
+"highway/service": {
+
+
+
+
+
+"name": "支路",
+
+
+
+
+
+"terms": "Service Road,支路,輔助道路"
+
+
+
+
+},
+
+
+
+
+"highway/service/alley": {
+
+
+
+
+
+"name": "巷",
+
+
+
+
+
+"terms": "Alley,巷,後巷,橫巷,窄巷,胡同"
+
+
+
+
+},
+
+
+
+
+"highway/service/drive-through": {
+
+
+
+
+
+"name": "車上取餐",
+
+
+
+
+
+"terms": "Drive-Through,免下車,免下車銀行,免下車餐館,車上取餐,車上用餐,駕駛通過以獲取服務"
+
+
+
+
+},
+
+
+
+
+"highway/service/driveway": {
+
+
+
+
+
+"name": "宅外車道",
+
+
+
+
+
+"terms": "Driveway,宅外車道,車線,車道"
+
+
+
+
+},
+
+
+
+
+"highway/service/emergency_access": {
+
+
+
+
+
+"name": "緊急通道",
+
+
+
+
+
+"terms": "Emergency Access,緊急通道"
+
+
+
+
+},
+
+
+
+
+"highway/service/parking_aisle": {
+
+
+
+
+
+"name": "泊車通道",
+
+
+
+
+
+"terms": "Parking Aisle,停車場通道,泊車通道"
+
+
+
+
+},
+
+
+
+
+"highway/steps": {
+
+
+
+
+
+"name": "梯",
+
+
+
+
+
+"terms": "Steps,梯,樓梯,石階,階梯"
+
+
+
+
+},
+
+
+
+
+"highway/stop": {
+
+
+
+
+
+"name": "停車標誌",
+
+
+
+
+
+"terms": "Stop Sign,停字標誌,停車標誌,停車路牌"
+
+
+
+
+},
+
+
+
+
+"highway/tertiary": {
+
+
+
+
+
+"name": "細路",
+
+
+
+
+
+"terms": "Tertiary Road,三級道路,細路"
+
+
+
+
+},
+
+
+
+
+"highway/tertiary_link": {
+
+
+
+
+
+"name": "細路駁路",
+
+
+
+
+
+"terms": "Tertiary Link,三級道路匝道,三級道路連接路,細路駁路"
+
+
+
+
+},
+
+
+
+
+"highway/track": {
+
+
+
+
+
+"name": "分徑",
+
+
+
+
+
+"terms": "Track,分徑,未舖設路面的車徑,未鋪設路面的車徑"
+
+
+
+
+},
+
+
+
+
+"highway/traffic_signals": {
+
+
+
+
+
+"name": "紅綠燈",
+
+
+
+
+
+"terms": "Traffic Signals,交通燈,紅綠燈"
+
+
+
+
+},
+
+
+
+
+"highway/trunk": {
+
+
+
+
+
+"name": "幹路",
+
+
+
+
+
+"terms": "Trunk Road,幹線道路,幹路,幹道"
+
+
+
+
+},
+
+
+
+
+"highway/trunk_link": {
+
+
+
+
+
+"name": "幹道駁路",
+
+
+
+
+
+"terms": "Trunk Link,幹線道路匝道,幹道連接路,幹道駁路"
+
+
+
+
+},
+
+
+
+
+"highway/turning_circle": {
+
+
+
+
+
+"name": "迴旋處",
+
+
+
+
+
+"terms": "Turning Circle,回轉圈,廻旋處,環島,迴旋處"
+
+
+
+
+},
+
+
+
+
+"highway/unclassified": {
+
+
+
+
+
+"name": "未歸類之路",
+
+
+
+
+
+"terms": "Unclassified Road,未分級的道路,未分類的道路,未歸類之路"
+
+
+
+
+},
+
+
+
+
+"historic": {
+
+
+
+
+
+"name": "史蹟",
+
+
+
+
+
+"terms": "Historic Site,史跡,史蹟,歷史遺址,歷史遺跡"
+
+
+
+
+},
+
+
+
+
+"historic/archaeological_site": {
+
+
+
+
+
+"name": "考古地",
+
+
+
+
+
+"terms": "Archaeological Site,考古地,考古地點,考古遺址"
+
+
+
+
+},
+
+
+
+
+"historic/boundary_stone": {
+
+
+
+
+
+"name": "界石",
+
+
+
+
+
+"terms": "Boundary Stone,界樁,界石"
+
+
+
+
+},
+
+
+
+
+"historic/castle": {
+
+
+
+
+
+"name": "寨",
+
+
+
+
+
+"terms": "Castle,城堡,寨"
+
+
+
+
+},
+
+
+
+
+"historic/memorial": {
+
+
+
+
+
+"name": "細紀念碑",
+
+
+
+
+
+"terms": "Memorial,碑,紀念碑,紀念館,細紀念碑"
+
+
+
+
+},
+
+
+
+
+"historic/monument": {
+
+
+
+
+
+"name": "大紀念碑",
+
+
+
+
+
+"terms": "Monument,古跡,古蹟,大紀念碑,碑,紀念碑"
+
+
+
+
+},
+
+
+
+
+"historic/ruins": {
+
+
+
+
+
+"name": "廢墟",
+
+
+
+
+
+"terms": "Ruins,廢墟"
+
+
+
+
+},
+
+
+
+
+"historic/wayside_cross": {
+
+
+
+
+
+"name": "路邊十字架",
+
+
+
+
+
+"terms": "Wayside Cross,路邊十字架"
+
+
+
+
+},
+
+
+
+
+"historic/wayside_shrine": {
+
+
+
+
+
+"name": "路邊神祠",
+
+
+
+
+
+"terms": "Wayside Shrine,路邊神社,路邊神祠"
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"name": "用地",
+
+
+
+
+
+"terms": "Landuse,土地用途,用地"
+
+
+
+
+},
+
+
+
+
+"landuse/allotments": {
+
+
+
+
+
+"name": "菜地",
+
+
+
+
+
+"terms": "Allotments,社區花園,菜地"
+
+
+
+
+},
+
+
+
+
+"landuse/basin": {
+
+
+
+
+
+"name": "盆地",
+
+
+
+
+
+"terms": "Basin,水池,盆地"
+
+
+
+
+},
+
+
+
+
+"landuse/cemetery": {
+
+
+
+
+
+"name": "墳場",
+
+
+
+
+
+"terms": "Cemetery,墓地,墳場"
+
+
+
+
+},
+
+
+
+
+"landuse/construction": {
+
+
+
+
+
+"name": "地盤",
+
+
+
+
+
+"terms": "Construction,地盤,建築工程,建築物"
+
+
+
+
+},
+
+
+
+
+"landuse/farmyard": {
+
+
+
+
+
+"name": "地堂",
+
+
+
+
+
+"terms": "Farmyard,地堂,農莊"
+
+
+
+
+},
+
+
+
+
+"landuse/forest": {
+
+
+
+
+
+"name": "森",
+
+
+
+
+
+"terms": "Forest,森,森林"
+
+
+
+
+},
+
+
+
+
+"landuse/grass": {
+
+
+
+
+
+"name": "草地",
+
+
+
+
+
+"terms": "Grass,草地"
+
+
+
+
+},
+
+
+
+
+"landuse/meadow": {
+
+
+
+
+
+"name": "牧地",
+
+
+
+
+
+"terms": "Meadow,牧地,牧場"
+
+
+
+
+},
+
+
+
+
+"landuse/orchard": {
+
+
+
+
+
+"name": "菓園",
+
+
+
+
+
+"terms": "Orchard,果園,菓園"
+
+
+
+
+},
+
+
+
+
+"landuse/quarry": {
+
+
+
+
+
+"name": "石塘",
+
+
+
+
+
+"terms": "Quarry,石塘,石礦場,礦場"
+
+
+
+
+},
+
+
+
+
+"landuse/vineyard": {
+
+
+
+
+
+"name": "葡萄園",
+
+
+
+
+
+"terms": "Vineyard,葡萄園,酒莊"
+
+
+
+
+},
+
+
+
+
+"leisure": {
+
+
+
+
+
+"name": "消閒",
+
+
+
+
+
+"terms": "Leisure,休閑場所,休閒設施,消閒"
+
+
+
+
+},
+
+
+
+
+"leisure/common": {
+
+
+
+
+
+"name": "公地",
+
+
+
+
+
+"terms": "Common,公共用地,公地"
+
+
+
+
+},
+
+
+
+
+"leisure/dog_park": {
+
+
+
+
+
+"name": "狗公園",
+
+
+
+
+
+"terms": "Dog Park,狗公園"
+
+
+
+
+},
+
+
+
+
+"leisure/garden": {
+
+
+
+
+
+"name": "花園",
+
+
+
+
+
+"terms": "Garden,公園,果園,植物園,花園,菜園"
+
+
+
+
+},
+
+
+
+
+"leisure/golf_course": {
+
+
+
+
+
+"name": "哥夫球場",
+
+
+
+
+
+"terms": "Golf Course,哥夫球場,高爾夫球場"
+
+
+
+
+},
+
+
+
+
+"leisure/marina": {
+
+
+
+
+
+"name": "遊艇碼頭",
+
+
+
+
+
+"terms": "Marina,碼頭,遊艇碼頭"
+
+
+
+
+},
+
+
+
+
+"leisure/park": {
+
+
+
+
+
+"name": "園",
+
+
+
+
+
+"terms": "Park,公園,園"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch": {
+
+
+
+
+
+"name": "運動場",
+
+
+
+
+
+"terms": "Sport Pitch,運動場,運動場地,運動場所"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/american_football": {
+
+
+
+
+
+"name": "美式足球場",
+
+
+
+
+
+"terms": "American Football Field,美式足球場"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/baseball": {
+
+
+
+
+
+"name": "棒球場",
+
+
+
+
+
+"terms": "Baseball Diamond,棒球場"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/basketball": {
+
+
+
+
+
+"name": "籃球場",
+
+
+
+
+
+"terms": "Basketball Court,球場,籃球場"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/skateboard": {
+
+
+
+
+
+"name": "滑板場",
+
+
+
+
+
+"terms": "Skate Park,滑板場"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/soccer": {
+
+
+
+
+
+"name": "足球場",
+
+
+
+
+
+"terms": "Soccer Field,足球場"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/tennis": {
+
+
+
+
+
+"name": "網球場",
+
+
+
+
+
+"terms": "Tennis Court,網球場"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/volleyball": {
+
+
+
+
+
+"name": "排球場",
+
+
+
+
+
+"terms": "Volleyball Court,排球場"
+
+
+
+
+},
+
+
+
+
+"leisure/playground": {
+
+
+
+
+
+"name": "遊樂場",
+
+
+
+
+
+"terms": "Playground,遊樂場"
+
+
+
+
+},
+
+
+
+
+"leisure/slipway": {
+
+
+
+
+
+"name": "船排",
+
+
+
+
+
+"terms": "Slipway,船排,船架滑道,船臺"
+
+
+
+
+},
+
+
+
+
+"leisure/stadium": {
+
+
+
+
+
+"name": "大體育館",
+
+
+
+
+
+"terms": "Stadium,大體育館,體育,體育場"
+
+
+
+
+},
+
+
+
+
+"leisure/swimming_pool": {
+
+
+
+
+
+"name": "游水池",
+
+
+
+
+
+"terms": "Swimming Pool,游水池,游泳池,遊泳池"
+
+
+
+
+},
+
+
+
+
+"line": {
+
+
+
+
+
+"name": "綫",
+
+
+
+
+
+"terms": "Line,綫,線"
+
+
+
+
+},
+
+
+
+
+"man_made": {
+
+
+
+
+
+"name": "人造",
+
+
+
+
+
+"terms": "Man Made,人造,人造構築,人造物"
+
+
+
+
+},
+
+
+
+
+"man_made/breakwater": {
+
+
+
+
+
+"name": "防波堤",
+
+
+
+
+
+"terms": "Breakwater,防波堤"
+
+
+
+
+},
+
+
+
+
+"man_made/cutline": {
+
+
+
+
+
+"name": "分割綫",
+
+
+
+
+
+"terms": "Cut line,分割綫,分界線,山林分界線"
+
+
+
+
+},
+
+
+
+
+"man_made/embankment": {
+
+
+
+
+
+"name": "基堤",
+
+
+
+
+
+"terms": "Embankment,基堤,堤,堤壩,堤岸"
+
+
+
+
+},
+
+
+
+
+"man_made/flagpole": {
+
+
+
+
+
+"name": "旗杆",
+
+
+
+
+
+"terms": "Flagpole,旗杆,旗竿"
+
+
+
+
+},
+
+
+
+
+"man_made/lighthouse": {
+
+
+
+
+
+"name": "燈塔",
+
+
+
+
+
+"terms": "Lighthouse,燈塔"
+
+
+
+
+},
+
+
+
+
+"man_made/observation": {
+
+
+
+
+
+"name": "瞭望臺",
+
+
+
+
+
+"terms": "Observation Tower,瞭望塔,瞭望臺"
+
+
+
+
+},
+
+
+
+
+"man_made/pier": {
+
+
+
+
+
+"name": "埗頭",
+
+
+
+
+
+"terms": "Pier,埗頭,碼頭"
+
+
+
+
+},
+
+
+
+
+"man_made/pipeline": {
+
+
+
+
+
+"name": "水管",
+
+
+
+
+
+"terms": "Pipeline,水管,管道"
+
+
+
+
+},
+
+
+
+
+"man_made/survey_point": {
+
+
+
+
+
+"name": "測量點",
+
+
+
+
+
+"terms": "Survey Point,測量點"
+
+
+
+
+},
+
+
+
+
+"man_made/tower": {
+
+
+
+
+
+"name": "塔",
+
+
+
+
+
+"terms": "Tower,塔"
+
+
+
+
+},
+
+
+
+
+"man_made/wastewater_plant": {
+
+
+
+
+
+"name": "廢水廠",
+
+
+
+
+
+"terms": "Wastewater Plant,廢水廠,汙水處理廠,污水處理廠"
+
+
+
+
+},
+
+
+
+
+"man_made/water_tower": {
+
+
+
+
+
+"name": "水塔",
+
+
+
+
+
+"terms": "Water Tower,水塔"
+
+
+
+
+},
+
+
+
+
+"man_made/water_works": {
+
+
+
+
+
+"name": "供水廠",
+
+
+
+
+
+"terms": "Water Works,供水廠,水務設施"
+
+
+
+
+},
+
+
+
+
+"military/airfield": {
+
+
+
+
+
+"name": "飛機場",
+
+
+
+
+
+"terms": "Airfield,機場,飛機場"
+
+
+
+
+},
+
+
+
+
+"military/barracks": {
+
+
+
+
+
+"name": "兵房",
+
+
+
+
+
+"terms": "Barracks,兵房,兵營,營房,軍營"
+
+
+
+
+},
+
+
+
+
+"military/bunker": {
+
+
+
+
+
+"name": "地堡",
+
+
+
+
+
+"terms": "Bunker,地堡,暗堡"
+
+
+
+
+},
+
+
+
+
+"military/range": {
+
+
+
+
+
+"name": "操炮區",
+
+
+
+
+
+"terms": "Military Range,操炮區,軍事範圍"
+
+
+
+
+},
+
+
+
+
+"natural": {
+
+
+
+
+
+"name": "天然",
+
+
+
+
+
+"terms": "Natural,天然,自然,自然物件"
+
+
+
+
+},
+
+
+
+
+"natural/bay": {
+
+
+
+
+
+"name": "灣",
+
+
+
+
+
+"terms": "Bay,海灣,灣"
+
+
+
+
+},
+
+
+
+
+"natural/beach": {
+
+
+
+
+
+"name": "灘",
+
+
+
+
+
+"terms": "Beach,沙灘,海灘,灘"
+
+
+
+
+},
+
+
+
+
+"natural/cliff": {
+
+
+
+
+
+"name": "崖",
+
+
+
+
+
+"terms": "Cliff,崖,懸崖"
+
+
+
+
+},
+
+
+
+
+"natural/coastline": {
+
+
+
+
+
+"name": "海岸綫",
+
+
+
+
+
+"terms": "Coastline,海岸綫,海岸線"
+
+
+
+
+},
+
+
+
+
+"natural/fell": {
+
+
+
+
+
+"name": "高原荒野",
+
+
+
+
+
+"terms": "Fell,高原荒原,高原荒野,高地荒原"
+
+
+
+
+},
+
+
+
+
+"natural/glacier": {
+
+
+
+
+
+"name": "冰川",
+
+
+
+
+
+"terms": "Glacier,冰川,冰河"
+
+
+
+
+},
+
+
+
+
+"natural/grassland": {
+
+
+
+
+
+"name": "草原",
+
+
+
+
+
+"terms": "Grassland,草原"
+
+
+
+
+},
+
+
+
+
+"natural/heath": {
+
+
+
+
+
+"name": "荒野",
+
+
+
+
+
+"terms": "Heath,荒地,荒野"
+
+
+
+
+},
+
+
+
+
+"natural/peak": {
+
+
+
+
+
+"name": "峯",
+
+
+
+
+
+"terms": "Peak,山峰,山頂,峯"
+
+
+
+
+},
+
+
+
+
+"natural/scree": {
+
+
+
+
+
+"name": "碎石坡",
+
+
+
+
+
+"terms": "Scree,碎石坡"
+
+
+
+
+},
+
+
+
+
+"natural/scrub": {
+
+
+
+
+
+"name": "灌木",
+
+
+
+
+
+"terms": "Scrub,灌木,灌木叢"
+
+
+
+
+},
+
+
+
+
+"natural/spring": {
+
+
+
+
+
+"name": "泉",
+
+
+
+
+
+"terms": "Spring,噴泉,泉,泉水,湧泉,溫泉"
+
+
+
+
+},
+
+
+
+
+"natural/tree": {
+
+
+
+
+
+"name": "樹",
+
+
+
+
+
+"terms": "Tree,木,樹"
+
+
+
+
+},
+
+
+
+
+"natural/water": {
+
+
+
+
+
+"name": "水",
+
+
+
+
+
+"terms": "Water,水"
+
+
+
+
+},
+
+
+
+
+"natural/water/lake": {
+
+
+
+
+
+"name": "湖",
+
+
+
+
+
+"terms": "Lake,湖,湖泊"
+
+
+
+
+},
+
+
+
+
+"natural/water/pond": {
+
+
+
+
+
+"name": "塘",
+
+
+
+
+
+"terms": "Pond,塘,水池,池,池塘"
+
+
+
+
+},
+
+
+
+
+"natural/water/reservoir": {
+
+
+
+
+
+"name": "水塘",
+
+
+
+
+
+"terms": "Reservoir,水塘,水庫"
+
+
+
+
+},
+
+
+
+
+"natural/wetland": {
+
+
+
+
+
+"name": "澤",
+
+
+
+
+
+"terms": "Wetland,潮間帶,澤,濕地"
+
+
+
+
+},
+
+
+
+
+"natural/wood": {
+
+
+
+
+
+"name": "林",
+
+
+
+
+
+"terms": "Wood,林,樹林"
+
+
+
+
+},
+
+
+
+
+"office": {
+
+
+
+
+
+"name": "寫字樓",
+
+
+
+
+
+"terms": "Office,寫字樓,辦公室"
+
+
+
+
+},
+
+
+
+
+"office/accountant": {
+
+
+
+
+
+"name": "會計師樓",
+
+
+
+
+
+"terms": "Accountant,會計師樓"
+
+
+
+
+},
+
+
+
+
+"office/administrative": {
+
+
+
+
+
+"name": "行政樓",
+
+
+
+
+
+"terms": "Administrative Office,行政樓"
+
+
+
+
+},
+
+
+
+
+"office/architect": {
+
+
+
+
+
+"name": "則樓",
+
+
+
+
+
+"terms": "Architect,則師樓,則樓,建築師樓"
+
+
+
+
+},
+
+
+
+
+"office/company": {
+
+
+
+
+
+"name": "公司寫字樓",
+
+
+
+
+
+"terms": "Company Office,公司,公司寫字樓"
+
+
+
+
+},
+
+
+
+
+"office/educational_institution": {
+
+
+
+
+
+"name": "敎育機構",
+
+
+
+
+
+"terms": "Educational Institution,敎育機構,教育機構"
+
+
+
+
+},
+
+
+
+
+"office/employment_agency": {
+
+
+
+
+
+"name": "薦人館",
+
+
+
+
+
+"terms": "Employment Agency,就業機構,職業介紹所,薦人館"
+
+
+
+
+},
+
+
+
+
+"office/estate_agent": {
+
+
+
+
+
+"name": "管業處",
+
+
+
+
+
+"terms": "Real Estate Office,地產代理,管業處"
+
+
+
+
+},
+
+
+
+
+"office/financial": {
+
+
+
+
+
+"name": "財務部寫字樓",
+
+
+
+
+
+"terms": "Financial Office,財務部寫字樓"
+
+
+
+
+},
+
+
+
+
+"office/government": {
+
+
+
+
+
+"name": "衙門",
+
+
+
+
+
+"terms": "Government Office,公署,政府合署,政府樓,署,衙門"
+
+
+
+
+},
+
+
+
+
+"office/insurance": {
+
+
+
+
+
+"name": "保險公司寫字樓",
+
+
+
+
+
+"terms": "Insurance Office,保險公司,保險公司寫字樓"
+
+
+
+
+},
+
+
+
+
+"office/it": {
+
+
+
+
+
+"name": "電腦資訊寫字樓",
+
+
+
+
+
+"terms": "IT Office,IT公司,資訊工藝寫字樓,資訊技藝寫字樓,資訊科技寫字樓,電腦公司寫字樓"
+
+
+
+
+},
+
+
+
+
+"office/lawyer": {
+
+
+
+
+
+"name": "律師事務所",
+
+
+
+
+
+"terms": "Law Office,律師事務所"
+
+
+
+
+},
+
+
+
+
+"office/newspaper": {
+
+
+
+
+
+"name": "報社",
+
+
+
+
+
+"terms": "Newspaper,報社,新聞社,通訊社"
+
+
+
+
+},
+
+
+
+
+"office/ngo": {
+
+
+
+
+
+"name": "志顠機構寫字樓",
+
+
+
+
+
+"terms": "NGO Office,志顠機構寫字樓,非政府組織"
+
+
+
+
+},
+
+
+
+
+"office/physician": {
+
+
+
+
+
+"name": "醫生",
+
+
+
+
+
+"terms": "Physician,醫生"
+
+
+
+
+},
+
+
+
+
+"office/political_party": {
+
+
+
+
+
+"name": "政黨",
+
+
+
+
+
+"terms": "Political Party,政黨"
+
+
+
+
+},
+
+
+
+
+"office/research": {
+
+
+
+
+
+"name": "研究所",
+
+
+
+
+
+"terms": "Research Office,研究所"
+
+
+
+
+},
+
+
+
+
+"office/telecommunication": {
+
+
+
+
+
+"name": "電話公司寫字樓",
+
+
+
+
+
+"terms": "Telecom Office,電信公司,電話公司寫字樓"
+
+
+
+
+},
+
+
+
+
+"office/therapist": {
+
+
+
+
+
+"name": "治療師",
+
+
+
+
+
+"terms": "Therapist,治療師,醫療師"
+
+
+
+
+},
+
+
+
+
+"office/travel_agent": {
+
+
+
+
+
+"name": "旅行社",
+
+
+
+
+
+"terms": "Travel Agency,旅行社"
+
+
+
+
+},
+
+
+
+
+"place": {
+
+
+
+
+
+"name": "地",
+
+
+
+
+
+"terms": "Place,地,地方,地點"
+
+
+
+
+},
+
+
+
+
+"place/city": {
+
+
+
+
+
+"name": "城",
+
+
+
+
+
+"terms": "City,城,城市"
+
+
+
+
+},
+
+
+
+
+"place/hamlet": {
+
+
+
+
+
+"name": "村仔",
+
+
+
+
+
+"terms": "Hamlet,村仔,村莊"
+
+
+
+
+},
+
+
+
+
+"place/island": {
+
+
+
+
+
+"name": "島",
+
+
+
+
+
+"terms": "Island,島,島嶼"
+
+
+
+
+},
+
+
+
+
+"place/isolated_dwelling": {
+
+
+
+
+
+"name": "孤離居所",
+
+
+
+
+
+"terms": "Isolated Dwelling,孤立居所,孤立民居,孤離居所"
+
+
+
+
+},
+
+
+
+
+"place/locality": {
+
+
+
+
+
+"name": "地方",
+
+
+
+
+
+"terms": "Locality,地方,地點,地點（無人定居）"
+
+
+
+
+},
+
+
+
+
+"place/town": {
+
+
+
+
+
+"name": "鎮",
+
+
+
+
+
+"terms": "Town,城鎮,市鎮,鎮"
+
+
+
+
+},
+
+
+
+
+"place/village": {
+
+
+
+
+
+"name": "村",
+
+
+
+
+
+"terms": "Village,村,村莊,村鎮"
+
+
+
+
+},
+
+
+
+
+"point": {
+
+
+
+
+
+"name": "點",
+
+
+
+
+
+"terms": "Point,點"
+
+
+
+
+},
+
+
+
+
+"power": {
+
+
+
+
+
+"name": "發電廠",
+
+
+
+
+
+"terms": "Power,發電廠,電力設施"
+
+
+
+
+},
+
+
+
+
+"power/generator": {
+
+
+
+
+
+"name": "發電機",
+
+
+
+
+
+"terms": "Power Generator,發電機"
+
+
+
+
+},
+
+
+
+
+"power/line": {
+
+
+
+
+
+"name": "供電綫",
+
+
+
+
+
+"terms": "Power Line,供電綫,供電線,電線"
+
+
+
+
+},
+
+
+
+
+"power/minor_line": {
+
+
+
+
+
+"name": "細供電綫",
+
+
+
+
+
+"terms": "Minor Power Line,小供電線,細供電綫"
+
+
+
+
+},
+
+
+
+
+"power/pole": {
+
+
+
+
+
+"name": "電綫杆",
+
+
+
+
+
+"terms": "Power Pole,電綫杆,電線桿"
+
+
+
+
+},
+
+
+
+
+"power/sub_station": {
+
+
+
+
+
+"name": "配電站",
+
+
+
+
+
+"terms": "Substation,變電站,配電站"
+
+
+
+
+},
+
+
+
+
+"power/tower": {
+
+
+
+
+
+"name": "高壓電塔",
+
+
+
+
+
+"terms": "High-Voltage Tower,高壓輸電塔,高壓電塔"
+
+
+
+
+},
+
+
+
+
+"power/transformer": {
+
+
+
+
+
+"name": "火牛房",
+
+
+
+
+
+"terms": "Transformer,火牛房,變電所"
+
+
+
+
+},
+
+
+
+
+"public_transport/platform": {
+
+
+
+
+
+"name": "站頭",
+
+
+
+
+
+"terms": "Platform,平臺,站頭"
+
+
+
+
+},
+
+
+
+
+"public_transport/stop_position": {
+
+
+
+
+
+"name": "街中站",
+
+
+
+
+
+"terms": "Stop Position,停止位置,街中站"
+
+
+
+
+},
+
+
+
+
+"railway": {
+
+
+
+
+
+"name": "鐵路",
+
+
+
+
+
+"terms": "Railway,鐵路"
+
+
+
+
+},
+
+
+
+
+"railway/abandoned": {
+
+
+
+
+
+"name": "廢鐵路",
+
+
+
+
+
+"terms": "Abandoned Railway,廢棄的鐵路,廢鐵路,鐵路路線跡"
+
+
+
+
+},
+
+
+
+
+"railway/disused": {
+
+
+
+
+
+"name": "停用鐵路",
+
+
+
+
+
+"terms": "Disused Railway,停用鐵路,廢棄的鐵路"
+
+
+
+
+},
+
+
+
+
+"railway/halt": {
+
+
+
+
+
+"name": "火車細站",
+
+
+
+
+
+"terms": "Railway Halt,小火車站,火車站仔,火車細站"
+
+
+
+
+},
+
+
+
+
+"railway/level_crossing": {
+
+
+
+
+
+"name": "平交道口",
+
+
+
+
+
+"terms": "Level Crossing,平交道,平交道口"
+
+
+
+
+},
+
+
+
+
+"railway/monorail": {
+
+
+
+
+
+"name": "單軌",
+
+
+
+
+
+"terms": "Monorail,單軌,單軌鐵路,單軌電車"
+
+
+
+
+},
+
+
+
+
+"railway/narrow_gauge": {
+
+
+
+
+
+"name": "窄軌火車",
+
+
+
+
+
+"terms": "Narrow Gauge Rails,窄軌火車,窄軌,窄軌鐵路"
+
+
+
+
+},
+
+
+
+
+"railway/platform": {
+
+
+
+
+
+"name": "月臺",
+
+
+
+
+
+"terms": "Railway Platform,月臺,站臺,鐵道月台"
+
+
+
+
+},
+
+
+
+
+"railway/rail": {
+
+
+
+
+
+"name": "路軌",
+
+
+
+
+
+"terms": "Rail,火車軌,路軌,軌,鐵軌"
+
+
+
+
+},
+
+
+
+
+"railway/station": {
+
+
+
+
+
+"name": "火車站",
+
+
+
+
+
+"terms": "Railway Station,火車站,鐵路站"
+
+
+
+
+},
+
+
+
+
+"railway/subway": {
+
+
+
+
+
+"name": "地下鐵路",
+
+
+
+
+
+"terms": "MTR,Mass Transit Railway,Subway,地下鐵,地下鐵路,地鐵"
+
+
+
+
+},
+
+
+
+
+"railway/subway_entrance": {
+
+
+
+
+
+"name": "地下鐵路入口",
+
+
+
+
+
+"terms": "Subway Entrance,地下鐵路入口,地鐵入口,地鐵口"
+
+
+
+
+},
+
+
+
+
+"railway/tram": {
+
+
+
+
+
+"name": "電車",
+
+
+
+
+
+"terms": "Tram,電車"
+
+
+
+
+},
+
+
+
+
+"relation": {
+
+
+
+
+
+"name": "關係",
+
+
+
+
+
+"terms": "Relation,關係,關系"
+
+
+
+
+},
+
+
+
+
+"route/ferry": {
+
+
+
+
+
+"name": "航綫",
+
+
+
+
+
+"terms": "Ferry Route,渡輪航線,航綫,航線"
+
+
+
+
+},
+
+
+
+
+"shop": {
+
+
+
+
+
+"name": "舖",
+
+
+
+
+
+"terms": "Shop,商店,舖"
+
+
+
+
+},
+
+
+
+
+"shop/alcohol": {
+
+
+
+
+
+"name": "酒莊",
+
+
+
+
+
+"terms": "Liquor Store,酒店,酒莊,酒類商店"
+
+
+
+
+},
+
+
+
+
+"shop/bakery": {
+
+
+
+
+
+"name": "麪飽舖同餅家",
+
+
+
+
+
+"terms": "Bakery,餅家,餅店,餅舖,麪包舖,麪飽店,麪飽舖,麵包店,麵包舖,麵飽店"
+
+
+
+
+},
+
+
+
+
+"shop/beauty": {
+
+
+
+
+
+"name": "美容院",
+
+
+
+
+
+"terms": "Beauty Shop,指甲美容,理容院,美妝店,美容店,美容院,護膚中心"
+
+
+
+
+},
+
+
+
+
+"shop/beverages": {
+
+
+
+
+
+"name": "飲品舖",
+
+
+
+
+
+"terms": "Beverage Store,飲品店,飲品舖"
+
+
+
+
+},
+
+
+
+
+"shop/bicycle": {
+
+
+
+
+
+"name": "單車舖",
+
+
+
+
+
+"terms": "Bicycle Shop,單車店,單車舖,自行車店"
+
+
+
+
+},
+
+
+
+
+"shop/boutique": {
+
+
+
+
+
+"name": "時裝店",
+
+
+
+
+
+"terms": "Boutique,時裝店,服飾店,精品店"
+
+
+
+
+},
+
+
+
+
+"shop/butcher": {
+
+
+
+
+
+"name": "肉舖",
+
+
+
+
+
+"terms": "Butcher,肉舖,肉販,肉鋪"
+
+
+
+
+},
+
+
+
+
+"shop/car": {
+
+
+
+
+
+"name": "車行",
+
+
+
+
+
+"terms": "Car Dealership,車行"
+
+
+
+
+},
+
+
+
+
+"shop/car_parts": {
+
+
+
+
+
+"name": "汽車零件舖",
+
+
+
+
+
+"terms": "Car Parts Store,汽車配件店,汽車零件店,汽車零件舖"
+
+
+
+
+},
+
+
+
+
+"shop/car_repair": {
+
+
+
+
+
+"name": "車房",
+
+
+
+
+
+"terms": "Car Repair Shop,汽車修理店,汽車維修店,車房"
+
+
+
+
+},
+
+
+
+
+"shop/chemist": {
+
+
+
+
+
+"name": "註冊藥房",
+
+
+
+
+
+"terms": "Chemist,藥房,藥行,註冊藥房"
+
+
+
+
+},
+
+
+
+
+"shop/clothes": {
+
+
+
+
+
+"name": "衫舖",
+
+
+
+
+
+"terms": "Clothing Store,服裝店,服飾店,衫舖"
+
+
+
+
+},
+
+
+
+
+"shop/computer": {
+
+
+
+
+
+"name": "電腦舖",
+
+
+
+
+
+"terms": "Computer Store,電腦店,電腦舖"
+
+
+
+
+},
+
+
+
+
+"shop/convenience": {
+
+
+
+
+
+"name": "便利店",
+
+
+
+
+
+"terms": "Convenience Store,便利店"
+
+
+
+
+},
+
+
+
+
+"shop/deli": {
+
+
+
+
+
+"name": "食肆",
+
+
+
+
+
+"terms": "Deli,熟食店,美食店,食肆"
+
+
+
+
+},
+
+
+
+
+"shop/department_store": {
+
+
+
+
+
+"name": "百貨公司",
+
+
+
+
+
+"terms": "Department Store,百貨公司,百貨店"
+
+
+
+
+},
+
+
+
+
+"shop/doityourself": {
+
+
+
+
+
+"name": "自組舖",
+
+
+
+
+
+"terms": "DIY Store,DIY商店,自組舖"
+
+
+
+
+},
+
+
+
+
+"shop/electronics": {
+
+
+
+
+
+"name": "電子舖",
+
+
+
+
+
+"terms": "Electronics Store,電器店,電子舖"
+
+
+
+
+},
+
+
+
+
+"shop/farm": {
+
+
+
+
+
+"name": "檔",
+
+
+
+
+
+"terms": "Produce Stand,檔,水果攤,農場"
+
+
+
+
+},
+
+
+
+
+"shop/fishmonger": {
+
+
+
+
+
+"name": "魚檔",
+
+
+
+
+
+"terms": "Fishmonger,海產店,賣魚佬,賣魚檔,魚檔"
+
+
+
+
+},
+
+
+
+
+"shop/florist": {
+
+
+
+
+
+"name": "花舖",
+
+
+
+
+
+"terms": "Florist,花店,花舖"
+
+
+
+
+},
+
+
+
+
+"shop/furniture": {
+
+
+
+
+
+"name": "傢俬舖",
+
+
+
+
+
+"terms": "Furniture Store,傢俬舖,傢具店,家具店"
+
+
+
+
+},
+
+
+
+
+"shop/garden_centre": {
+
+
+
+
+
+"name": "園藝舖",
+
+
+
+
+
+"terms": "Garden Center,園藝中心,園藝舖,花店"
+
+
+
+
+},
+
+
+
+
+"shop/gift": {
+
+
+
+
+
+"name": "禮品舖",
+
+
+
+
+
+"terms": "Gift Shop,禮品店,禮品舖,禮物店"
+
+
+
+
+},
+
+
+
+
+"shop/greengrocer": {
+
+
+
+
+
+"name": "菜檔",
+
+
+
+
+
+"terms": "Greengrocer,果蔬店,菜檔,蔬果店"
+
+
+
+
+},
+
+
+
+
+"shop/hairdresser": {
+
+
+
+
+
+"name": "飛髮舖",
+
+
+
+
+
+"terms": "Hairdresser,理髮店,飛髮舖"
+
+
+
+
+},
+
+
+
+
+"shop/hardware": {
+
+
+
+
+
+"name": "五金舖",
+
+
+
+
+
+"terms": "Hardware Store,五金店,五金舖"
+
+
+
+
+},
+
+
+
+
+"shop/hifi": {
+
+
+
+
+
+"name": "音響舖",
+
+
+
+
+
+"terms": "Hifi Store,音響店,音響舖"
+
+
+
+
+},
+
+
+
+
+"shop/jewelry": {
+
+
+
+
+
+"name": "珠寶金行",
+
+
+
+
+
+"terms": "Jeweler,珠寶店,珠寶舖,珠寶金行,首飾店,首飾舖"
+
+
+
+
+},
+
+
+
+
+"shop/laundry": {
+
+
+
+
+
+"name": "洗衣舖",
+
+
+
+
+
+"terms": "Laundry,洗衣店,洗衣舖"
+
+
+
+
+},
+
+
+
+
+"shop/locksmith": {
+
+
+
+
+
+"name": "鎖匠",
+
+
+
+
+
+"terms": "Locksmith,鎖匠,鎖匠鋪,開鎖佬"
+
+
+
+
+},
+
+
+
+
+"shop/mall": {
+
+
+
+
+
+"name": "大商場",
+
+
+
+
+
+"terms": "Mall,商場,大商場"
+
+
+
+
+},
+
+
+
+
+"shop/mobile_phone": {
+
+
+
+
+
+"name": "電話舖",
+
+
+
+
+
+"terms": "Mobile Phone Store,手機店,行動電話店,電話舖"
+
+
+
+
+},
+
+
+
+
+"shop/motorcycle": {
+
+
+
+
+
+"name": "電單車行",
+
+
+
+
+
+"terms": "Motorcycle Dealership,摩托車行,電單車行"
+
+
+
+
+},
+
+
+
+
+"shop/music": {
+
+
+
+
+
+"name": "唱片舖",
+
+
+
+
+
+"terms": "Music Store,唱片舖,音樂店"
+
+
+
+
+},
+
+
+
+
+"shop/optician": {
+
+
+
+
+
+"name": "眼鏡鋪",
+
+
+
+
+
+"terms": "Optician,眼鏡店,眼鏡行,眼鏡鋪"
+
+
+
+
+},
+
+
+
+
+"shop/pet": {
+
+
+
+
+
+"name": "寵物舖",
+
+
+
+
+
+"terms": "Pet Store,寵物店,寵物舖"
+
+
+
+
+},
+
+
+
+
+"shop/photo": {
+
+
+
+
+
+"name": "影相舖",
+
+
+
+
+
+"terms": "Photography Store,影相舖,照相館"
+
+
+
+
+},
+
+
+
+
+"shop/shoes": {
+
+
+
+
+
+"name": "鞋舖",
+
+
+
+
+
+"terms": "Shoe Store,鞋店,鞋舖"
+
+
+
+
+},
+
+
+
+
+"shop/sports": {
+
+
+
+
+
+"name": "運動舖",
+
+
+
+
+
+"terms": "Sporting Goods Store,運動用品店,運動舖,體育,體育用品店"
+
+
+
+
+},
+
+
+
+
+"shop/stationery": {
+
+
+
+
+
+"name": "文具舖",
+
+
+
+
+
+"terms": "Stationery Store,文具店,文具舖"
+
+
+
+
+},
+
+
+
+
+"shop/supermarket": {
+
+
+
+
+
+"name": "超級市場",
+
+
+
+
+
+"terms": "Supermarket,超級市場"
+
+
+
+
+},
+
+
+
+
+"shop/toys": {
+
+
+
+
+
+"name": "玩具舖",
+
+
+
+
+
+"terms": "Toy Store,玩具店,玩具舖"
+
+
+
+
+},
+
+
+
+
+"shop/travel_agency": {
+
+
+
+
+
+"name": "旅行社",
+
+
+
+
+
+"terms": "Travel Agency,旅行社"
+
+
+
+
+},
+
+
+
+
+"shop/tyres": {
+
+
+
+
+
+"name": "軚舖",
+
+
+
+
+
+"terms": "Tire Store,軚舖,輪胎店"
+
+
+
+
+},
+
+
+
+
+"shop/vacant": {
+
+
+
+
+
+"name": "吉舖",
+
+
+
+
+
+"terms": "Vacant Shop,吉舖,空置店舖,空置鋪位,空舖"
+
+
+
+
+},
+
+
+
+
+"shop/variety_store": {
+
+
+
+
+
+"name": "雜貨舖",
+
+
+
+
+
+"terms": "Variety Store,雜貨店,雜貨舖"
+
+
+
+
+},
+
+
+
+
+"shop/video": {
+
+
+
+
+
+"name": "影視店",
+
+
+
+
+
+"terms": "Video Store,影像店,影碟店,影視店"
+
+
+
+
+},
+
+
+
+
+"tourism": {
+
+
+
+
+
+"name": "旅行",
+
+
+
+
+
+"terms": "Tourism,旅行,旅遊設施"
+
+
+
+
+},
+
+
+
+
+"tourism/alpine_hut": {
+
+
+
+
+
+"name": "高山屋仔",
+
+
+
+
+
+"terms": "Alpine Hut,高山小屋,高山屋仔"
+
+
+
+
+},
+
+
+
+
+"tourism/artwork": {
+
+
+
+
+
+"name": "藝術品",
+
+
+
+
+
+"terms": "Artwork,藝術品"
+
+
+
+
+},
+
+
+
+
+"tourism/attraction": {
+
+
+
+
+
+"name": "旅行名勝",
+
+
+
+
+
+"terms": "Tourist Attraction,旅行名勝,旅遊名勝,觀光點"
+
+
+
+
+},
+
+
+
+
+"tourism/camp_site": {
+
+
+
+
+
+"name": "營地",
+
+
+
+
+
+"terms": "Camp Site,營地,露營區"
+
+
+
+
+},
+
+
+
+
+"tourism/caravan_site": {
+
+
+
+
+
+"name": "露營車營地",
+
+
+
+
+
+"terms": "RV Park,房車營地,露營車停車場,露營車營地"
+
+
+
+
+},
+
+
+
+
+"tourism/chalet": {
+
+
+
+
+
+"name": "木屋",
+
+
+
+
+
+"terms": "Chalet,木屋"
+
+
+
+
+},
+
+
+
+
+"tourism/guest_house": {
+
+
+
+
+
+"name": "賓館",
+
+
+
+
+
+"terms": "Guest House,賓館"
+
+
+
+
+},
+
+
+
+
+"tourism/hostel": {
+
+
+
+
+
+"name": "旅舍",
+
+
+
+
+
+"terms": "Hostel,招待所,旅舍"
+
+
+
+
+},
+
+
+
+
+"tourism/hotel": {
+
+
+
+
+
+"name": "酒店",
+
+
+
+
+
+"terms": "Hotel,酒店"
+
+
+
+
+},
+
+
+
+
+"tourism/information": {
+
+
+
+
+
+"name": "資訊處",
+
+
+
+
+
+"terms": "Information,資訊,資訊處"
+
+
+
+
+},
+
+
+
+
+"tourism/motel": {
+
+
+
+
+
+"name": "汽車酒店",
+
+
+
+
+
+"terms": "Motel,汽車旅館,汽車酒店"
+
+
+
+
+},
+
+
+
+
+"tourism/museum": {
+
+
+
+
+
+"name": "博物館",
+
+
+
+
+
+"terms": "Museum,博物館"
+
+
+
+
+},
+
+
+
+
+"tourism/picnic_site": {
+
+
+
+
+
+"name": "郊遊地點",
+
+
+
+
+
+"terms": "Picnic Site,郊遊地點,野餐地點"
+
+
+
+
+},
+
+
+
+
+"tourism/theme_park": {
+
+
+
+
+
+"name": "主題公園",
+
+
+
+
+
+"terms": "Theme Park,主題公園"
+
+
+
+
+},
+
+
+
+
+"tourism/viewpoint": {
+
+
+
+
+
+"name": "觀景臺",
+
+
+
+
+
+"terms": "Viewpoint,景點,眺望,瞭望台,瞭望臺,觀景台,觀景臺,觀景點"
+
+
+
+
+},
+
+
+
+
+"tourism/zoo": {
+
+
+
+
+
+"name": "動物園",
+
+
+
+
+
+"terms": "Zoo,動物園"
+
+
+
+
+},
+
+
+
+
+"type/boundary": {
+
+
+
+
+
+"name": "界",
+
+
+
+
+
+"terms": "Boundary,界,邊界"
+
+
+
+
+},
+
+
+
+
+"type/boundary/administrative": {
+
+
+
+
+
+"name": "行政邊界",
+
+
+
+
+
+"terms": "Administrative Boundary,行政界線,行政邊界"
+
+
+
+
+},
+
+
+
+
+"type/multipolygon": {
+
+
+
+
+
+"name": "幾多邊形",
+
+
+
+
+
+"terms": "Multipolygon,個多面,多個面,幾多邊形,複線段多邊形"
+
+
+
+
+},
+
+
+
+
+"type/restriction": {
+
+
+
+
+
+"name": "限制",
+
+
+
+
+
+"terms": "Restriction,限制"
+
+
+
+
+},
+
+
+
+
+"type/route": {
+
+
+
+
+
+"name": "路綫",
+
+
+
+
+
+"terms": "Route,路綫,路線"
+
+
+
+
+},
+
+
+
+
+"type/route/bicycle": {
+
+
+
+
+
+"name": "單車路綫",
+
+
+
+
+
+"terms": "Cycle Route,單車路綫,單車路線"
+
+
+
+
+},
+
+
+
+
+"type/route/bus": {
+
+
+
+
+
+"name": "巴士路綫",
+
+
+
+
+
+"terms": "Bus Route,公共汽車路線,巴士路綫"
+
+
+
+
+},
+
+
+
+
+"type/route/detour": {
+
+
+
+
+
+"name": "繞道路綫",
+
+
+
+
+
+"terms": "Detour Route,巡遊路綫,巡遊路線,繞道,繞道路綫,繞道路線"
+
+
+
+
+},
+
+
+
+
+"type/route/ferry": {
+
+
+
+
+
+"name": "航綫",
+
+
+
+
+
+"terms": "Ferry Route,渡輪航線,航綫"
+
+
+
+
+},
+
+
+
+
+"type/route/foot": {
+
+
+
+
+
+"name": "行人路綫",
+
+
+
+
+
+"terms": "Foot Route,步行路線,行人路綫,行人路線"
+
+
+
+
+},
+
+
+
+
+"type/route/hiking": {
+
+
+
+
+
+"name": "行山路綫",
+
+
+
+
+
+"terms": "Hiking Route,行山路綫,行山路線"
+
+
+
+
+},
+
+
+
+
+"type/route/pipeline": {
+
+
+
+
+
+"name": "供水路綫",
+
+
+
+
+
+"terms": "Pipeline Route,供水路綫,供水路線,水管路綫,管道路線"
+
+
+
+
+},
+
+
+
+
+"type/route/power": {
+
+
+
+
+
+"name": "供電路綫",
+
+
+
+
+
+"terms": "Power Route,供電路綫,供電路線"
+
+
+
+
+},
+
+
+
+
+"type/route/road": {
+
+
+
+
+
+"name": "行車路綫",
+
+
+
+
+
+"terms": "Road Route,行車路綫,行車路線,道路路線"
+
+
+
+
+},
+
+
+
+
+"type/route/train": {
+
+
+
+
+
+"name": "火車路綫",
+
+
+
+
+
+"terms": "Train Route,火車綫,火車線,火車路綫,鐵路綫,鐵路線,鐵路路綫,鐵路路線"
+
+
+
+
+},
+
+
+
+
+"type/route/tram": {
+
+
+
+
+
+"name": "電車路綫",
+
+
+
+
+
+"terms": "Tram Route,電車路綫,電車路線"
+
+
+
+
+},
+
+
+
+
+"type/route_master": {
+
+
+
+
+
+"name": "路綫總管",
+
+
+
+
+
+"terms": "Route Master,線路總管,路綫總管,路線總目"
+
+
+
+
+},
+
+
+
+
+"vertex": {
+
+
+
+
+
+"name": "其他",
+
+
+
+
+
+"terms": "Other,其他,其它"
+
+
+
+
+},
+
+
+
+
+"waterway": {
+
+
+
+
+
+"name": "水路",
+
+
+
+
+
+"terms": "Waterway,水路,水道,航道"
+
+
+
+
+},
+
+
+
+
+"waterway/canal": {
+
+
+
+
+
+"name": "水道",
+
+
+
+
+
+"terms": "Canal,水道,運河"
+
+
+
+
+},
+
+
+
+
+"waterway/dam": {
+
+
+
+
+
+"name": "壩",
+
+
+
+
+
+"terms": "Dam,堤壩,壩,水壩"
+
+
+
+
+},
+
+
+
+
+"waterway/ditch": {
+
+
+
+
+
+"name": "溝",
+
+
+
+
+
+"terms": "Ditch,渠,溝,溝渠"
+
+
+
+
+},
+
+
+
+
+"waterway/drain": {
+
+
+
+
+
+"name": "排水道",
+
+
+
+
+
+"terms": "Drain,下水道,排水道,渠,溝"
+
+
+
+
+},
+
+
+
+
+"waterway/river": {
+
+
+
+
+
+"name": "江",
+
+
+
+
+
+"terms": "River,江,江河,河,河流"
+
+
+
+
+},
+
+
+
+
+"waterway/riverbank": {
+
+
+
+
+
+"name": "江岸",
+
+
+
+
+
+"terms": "Riverbank,江岸,河堤,河床,河牀"
+
+
+
+
+},
+
+
+
+
+"waterway/stream": {
+
+
+
+
+
+"name": "涌",
+
+
+
+
+
+"terms": "Stream,小河,小溪,涌,溪,溪流"
+
+
+
+
+},
+
+
+
+
+"waterway/weir": {
+
+
+
+
+
+"name": "堰",
+
+
+
+
+
+"terms": "Weir,堤堰,堤壩,堰,壩"
+
+
+
+
+}
+
+
+
+}
+
+
+}
+
+}
 }

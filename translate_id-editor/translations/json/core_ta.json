@@ -1,4 +1,495 @@
 {
-	"content": "ta:\n  modes:\n    add_area:\n      title: பரப்பளவு\n      description: \"வரைபடத்தை பூங்காக்கள், கட்டிடங்கள், ஏரிகள் அல்லது மற்ற பகுதிகளில் சேர்.\"\n      tail: \"பூங்கா, ஏரி, அல்லது கட்டிடம் வரைய வரைபடத்தை கிளிக் செய்க.\"\n    add_line:\n      title: கோடு\n      description: \"வரைபடத்தை நெடுஞ்சாலைகள், தெருக்களில், பாதசாரி பாதைகள், கால்வாய்கள் அல்லது மற்ற வரிகளை சேர்க்கவும்.\"\n      tail: \"சாலை, பாதை, அல்லது இந்த வரைபடத்தை கிளிக் செய்க.\"\n    add_point:\n      title: புள்ளி\n      description: \"வரைபடத்தை உணவகங்கள், நினைவு சின்னங்கள், தபால் பெட்டிகள் அல்லது மற்ற சேர்க்கவும்.\"\n      tail: ஒரு புள்ளி சேர்க்க வரைபடத்தை கிளிக் செய்க.\n    browse:\n      title: உலவ\n  operations:\n    start:\n      annotation:\n        line: வரி தொடங்கியது\n        area: பகுதி தொடங்கியது\n    continue:\n      key: A\n      annotation:\n        line: வரி தொ ங்கியது\n    cancel_draw:\n      annotation: 'வரைவது தவிர்கபட்டது '\n    circularize:\n      key: O\n    orthogonalize:\n      title: சதுரம்\n      key: S\n    straighten:\n      key: S\n    delete:\n      title: நீக்கு\n      annotation:\n        line: கோடு நீக்கப்பட்டது.\n        area: பரப்பளவு நீக்கப்பட்டது.\n    disconnect:\n      title: தொடர்பை -துண்டி\n      key: D\n    merge:\n      title: இணை\n      description: இந்த கோடுகளை இணை\n      key: C\n    move:\n      title: நகர்த்து\n      key: M\n      annotation:\n        point: புள்ளி நகர்த்தப்பட்டது\n        area: 'பரப்பை நகர்த்தபட்டது '\n    rotate:\n      title: திருப்பு\n      key: R\n    reverse:\n      title: தலைகீழாக்கு\n      key: V\n    split:\n      key: X\n  translate:\n    translate: மொழிமாற்றம் செய்\n  logout: விடுபதிகை\n  commit:\n    title: மாற்றங்களைச் சேமி\n    save: சேமி\n    deleted: நீக்கப்பட்டது\n    created: உருவாக்கப்பட்டது\n  inspector:\n    remove: நீக்கு\n    search: தேடு\n    incomplete: <பதிவிறக்கம் செய்யப்படவில்லை>\n    way: வழி\n    relation: தொடர்பு\n    location: இடம்\n  save:\n    title: சேமி\n  confirm:\n    okay: \"சரி\"\n  help:\n    title: \"உதவி\"\n  intro:\n    lines:\n      title: \"கோடுகள்\"\n",
-	"mimetype": "text/plain"
+
+"ta": {
+
+
+"modes": {
+
+
+
+"add_area": {
+
+
+
+
+"title": "பரப்பளவு",
+
+
+
+
+"description": "வரைபடத்தை பூங்காக்கள், கட்டிடங்கள், ஏரிகள் அல்லது மற்ற பகுதிகளில் சேர்.",
+
+
+
+
+"tail": "பூங்கா, ஏரி, அல்லது கட்டிடம் வரைய வரைபடத்தை கிளிக் செய்க."
+
+
+
+},
+
+
+
+"add_line": {
+
+
+
+
+"title": "கோடு",
+
+
+
+
+"description": "வரைபடத்தை நெடுஞ்சாலைகள், தெருக்களில், பாதசாரி பாதைகள், கால்வாய்கள் அல்லது மற்ற வரிகளை சேர்க்கவும்.",
+
+
+
+
+"tail": "சாலை, பாதை, அல்லது இந்த வரைபடத்தை கிளிக் செய்க."
+
+
+
+},
+
+
+
+"add_point": {
+
+
+
+
+"title": "புள்ளி",
+
+
+
+
+"description": "வரைபடத்தை உணவகங்கள், நினைவு சின்னங்கள், தபால் பெட்டிகள் அல்லது மற்ற சேர்க்கவும்.",
+
+
+
+
+"tail": "ஒரு புள்ளி சேர்க்க வரைபடத்தை கிளிக் செய்க."
+
+
+
+},
+
+
+
+"browse": {
+
+
+
+
+"title": "உலவ"
+
+
+
+}
+
+
+},
+
+
+"operations": {
+
+
+
+"start": {
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "வரி தொடங்கியது",
+
+
+
+
+
+"area": "பகுதி தொடங்கியது"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"continue": {
+
+
+
+
+"key": "A",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "வரி தொ ங்கியது"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"cancel_draw": {
+
+
+
+
+"annotation": "வரைவது தவிர்கபட்டது "
+
+
+
+},
+
+
+
+"circularize": {
+
+
+
+
+"key": "O"
+
+
+
+},
+
+
+
+"orthogonalize": {
+
+
+
+
+"title": "சதுரம்",
+
+
+
+
+"key": "S"
+
+
+
+},
+
+
+
+"straighten": {
+
+
+
+
+"key": "S"
+
+
+
+},
+
+
+
+"delete": {
+
+
+
+
+"title": "நீக்கு",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "கோடு நீக்கப்பட்டது.",
+
+
+
+
+
+"area": "பரப்பளவு நீக்கப்பட்டது."
+
+
+
+
+}
+
+
+
+},
+
+
+
+"disconnect": {
+
+
+
+
+"title": "தொடர்பை -துண்டி",
+
+
+
+
+"key": "D"
+
+
+
+},
+
+
+
+"merge": {
+
+
+
+
+"title": "இணை",
+
+
+
+
+"description": "இந்த கோடுகளை இணை",
+
+
+
+
+"key": "C"
+
+
+
+},
+
+
+
+"move": {
+
+
+
+
+"title": "நகர்த்து",
+
+
+
+
+"key": "M",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"point": "புள்ளி நகர்த்தப்பட்டது",
+
+
+
+
+
+"area": "பரப்பை நகர்த்தபட்டது "
+
+
+
+
+}
+
+
+
+},
+
+
+
+"rotate": {
+
+
+
+
+"title": "திருப்பு",
+
+
+
+
+"key": "R"
+
+
+
+},
+
+
+
+"reverse": {
+
+
+
+
+"title": "தலைகீழாக்கு",
+
+
+
+
+"key": "V"
+
+
+
+},
+
+
+
+"split": {
+
+
+
+
+"key": "X"
+
+
+
+}
+
+
+},
+
+
+"translate": {
+
+
+
+"translate": "மொழிமாற்றம் செய்"
+
+
+},
+
+
+"logout": "விடுபதிகை",
+
+
+"commit": {
+
+
+
+"title": "மாற்றங்களைச் சேமி",
+
+
+
+"save": "சேமி",
+
+
+
+"deleted": "நீக்கப்பட்டது",
+
+
+
+"created": "உருவாக்கப்பட்டது"
+
+
+},
+
+
+"inspector": {
+
+
+
+"remove": "நீக்கு",
+
+
+
+"search": "தேடு",
+
+
+
+"incomplete": "<பதிவிறக்கம் செய்யப்படவில்லை>",
+
+
+
+"way": "வழி",
+
+
+
+"relation": "தொடர்பு",
+
+
+
+"location": "இடம்"
+
+
+},
+
+
+"save": {
+
+
+
+"title": "சேமி"
+
+
+},
+
+
+"confirm": {
+
+
+
+"okay": "சரி"
+
+
+},
+
+
+"help": {
+
+
+
+"title": "உதவி"
+
+
+},
+
+
+"intro": {
+
+
+
+"lines": {
+
+
+
+
+"title": "கோடுகள்"
+
+
+
+}
+
+
+}
+
+}
 }

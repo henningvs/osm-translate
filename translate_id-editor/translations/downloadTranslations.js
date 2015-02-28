@@ -36,7 +36,7 @@ function downloadFile(reslang, callback){
 	resource = reslang['resource'];
 	language = reslang['language'];
 
-	var currFile = outdir + resource + "_"+language+".yaml";
+	var currFile = outdir + resource + "_"+language+".json";
 	console.log('Download id-editor File: ' + currFile);
 	var currentLanguageContent = fs.createWriteStream(currFile);
 	

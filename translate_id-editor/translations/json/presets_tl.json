@@ -1,4 +1,771 @@
 {
-	"content": "tl:\n  presets:\n    fields:\n      address:\n        label: Address\n        placeholders:\n          street: Kalsada\n          city: Siyudad\n      aerialway:\n        label: Uri\n      aeroway:\n        label: Uri\n      amenity:\n        label: Uri\n      artwork_type:\n        label: Uri\n      atm:\n        label: ATM\n      barrier:\n        label: Uri\n      bicycle_parking:\n        label: Uri\n      boundary:\n        label: Uri\n      building:\n        label: Gusali\n      building_area:\n        label: Gusali\n      capacity:\n        label: Kapasidad\n      construction:\n        label: Uri\n      crossing:\n        label: Uri\n      entrance:\n        label: Uri\n      fire_hydrant/type:\n        label: Uri\n      generator/type:\n        label: Uri\n      highway:\n        label: Uri\n      historic:\n        label: Uri\n      information:\n        label: Uri\n      internet_access:\n        options:\n          wlan: Wifi\n      landuse:\n        label: Uri\n      leisure:\n        label: Uri\n      man_made:\n        label: Uri\n      name:\n        label: Pangalan\n      office:\n        label: Uri\n      parking:\n        label: Uri\n      piste/type:\n        label: Uri\n      place:\n        label: Uri\n      power:\n        label: Uri\n      railway:\n        label: Uri\n      relation:\n        label: Uri\n      restriction:\n        label: Uri\n      route:\n        label: Uri\n      route_master:\n        label: Uri\n      service:\n        label: Uri\n      shelter_type:\n        label: Uri\n      shop:\n        label: Uri\n      studio_type:\n        label: Uri\n      tourism:\n        label: Uri\n      water:\n        label: Uri\n      waterway:\n        label: Uri\n      wetland:\n        label: Uri\n    presets:\n      building:\n        name: Gusali\n",
-	"mimetype": "text/plain"
+
+"tl": {
+
+
+"presets": {
+
+
+
+"fields": {
+
+
+
+
+"address": {
+
+
+
+
+
+"label": "Address",
+
+
+
+
+
+"placeholders": {
+
+
+
+
+
+
+"street": "Kalsada",
+
+
+
+
+
+
+"city": "Siyudad"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"amenity": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"artwork_type": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"atm": {
+
+
+
+
+
+"label": "ATM"
+
+
+
+
+},
+
+
+
+
+"barrier": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"bicycle_parking": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"boundary": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"label": "Gusali"
+
+
+
+
+},
+
+
+
+
+"building_area": {
+
+
+
+
+
+"label": "Gusali"
+
+
+
+
+},
+
+
+
+
+"capacity": {
+
+
+
+
+
+"label": "Kapasidad"
+
+
+
+
+},
+
+
+
+
+"construction": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"crossing": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"entrance": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"fire_hydrant/type": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"generator/type": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"historic": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"information": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"internet_access": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"wlan": "Wifi"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"leisure": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"man_made": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"name": {
+
+
+
+
+
+"label": "Pangalan"
+
+
+
+
+},
+
+
+
+
+"office": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"parking": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"piste/type": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"place": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"power": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"railway": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"relation": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"restriction": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"route": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"route_master": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"service": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"shelter_type": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"shop": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"studio_type": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"tourism": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"water": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"waterway": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+},
+
+
+
+
+"wetland": {
+
+
+
+
+
+"label": "Uri"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"presets": {
+
+
+
+
+"building": {
+
+
+
+
+
+"name": "Gusali"
+
+
+
+
+}
+
+
+
+}
+
+
+}
+
+}
 }

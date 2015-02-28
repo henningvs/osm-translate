@@ -1,4 +1,10454 @@
 {
-	"content": "fa:\n  presets:\n    categories:\n      category-building:\n        name: ساختمان\n      category-golf:\n        name: گلف\n      category-landuse:\n        name: کاربرد زمین\n      category-path:\n        name: مسیر\n      category-rail:\n        name: راه آهن\n      category-road:\n        name: جاده\n      category-route:\n        name: مسیر\n      category-water-area:\n        name: آب\n      category-water-line:\n        name: آب\n    fields:\n      access:\n        label: دسترسي\n        placeholder: ناشناخته\n        types:\n          access: عمومی\n          foot: پیاده\n          motor_vehicle: وسایل نقلیه موتوری\n          bicycle: دوچرخه ها\n          horse: اسب ها\n        options:\n          'yes':\n            title: مجاز\n            description: 'دسترسی مجاز طبق قانون: حق از راه'\n          'no':\n            title: ممنوع\n            description: دسترسی برای عموم مردم مجاز نیست\n          permissive:\n            title: مجاز\n            description: دسترسی تا وقتی صاحبش مجوز را لغو نکند مجاز است\n          private:\n            title: خصوصی\n            description: دسترسی فقط با اجازه از صاحب بصورت انفرادی مجاز است\n          designated:\n            title: تعیین شده\n            description: دسترسی با توجه به علائم و قوانین محلی مجاز است\n          destination:\n            title: مقصد\n            description: دسترسی فقط برای رسیدن به مقصدی مجاز است\n      access_simple:\n        label: دسترسی\n      address:\n        label: ادرس\n        placeholders:\n          street: خيابان\n          city: شهر\n      admin_level:\n        label: سطح مدیریت\n      aerialway:\n        label: نوع\n      aerialway/access:\n        label: دسترسی\n      aerialway/bubble:\n        label: قل قل کردن\n      aerialway/capacity:\n        label: ظرفیت (بر ساعت)\n        placeholder: \"500, 2500, 5000...\"\n      aerialway/duration:\n        label: مدت زمان (دقیقه)\n        placeholder: \"1, 2, 3...\"\n      aerialway/heating:\n        label: گرم شده\n      aerialway/occupancy:\n        label: تصرف\n        placeholder: \"2, 4, 8...\"\n      aerialway/summer/access:\n        label: دسترسی (تابستان)\n      aeroway:\n        label: نوع\n      amenity:\n        label: نوع\n      artist:\n        label: هنرمند\n      artwork_type:\n        label: نوع\n      atm:\n        label: خودپرداز\n      backrest:\n        label: تکیه گاه\n      barrier:\n        label: نوع\n      bicycle_parking:\n        label: نوع\n      boundary:\n        label: نوع\n      building:\n        label: ساختمان\n      building_area:\n        label: ساختمان\n      capacity:\n        label: ظرفيت\n        placeholder: \"50, 100, 200...\"\n      cardinal_direction:\n        label: جهت\n      clock_direction:\n        label: جهت\n        options:\n          clockwise: ساعتگرد\n          anticlockwise: پاد ساعتگرد\n      collection_times:\n        label: مجموع دفعات\n      construction:\n        label: نوع\n      country:\n        label: کشور\n      covered:\n        label: سرپوشیده\n      crossing:\n        label: نوع\n      cuisine:\n        label: غذا\n      denomination:\n        label: پول\n      denotation:\n        label: مفهوم\n      description:\n        label: توضیحات\n      electrified:\n        label: برق رسانی\n      elevation:\n        label: ارتفاع\n      emergency:\n        label: اورژانس\n      entrance:\n        label: نوع\n      except:\n        label: استثناها\n      fax:\n        label: نمابر\n        placeholder: +31 42 123 4567\n      fee:\n        label: دستمزد\n      fire_hydrant/type:\n        label: نوع\n      fixme:\n        label: تصحیح من\n      fuel:\n        label: سوخت\n      gauge:\n        label: مقیاس\n      generator/method:\n        label: شیوه\n      generator/source:\n        label: منبع\n      generator/type:\n        label: نوع\n      golf_hole:\n        label: مراجعه\n        placeholder: تعداد سوراخ (1-18)\n      handicap:\n        label: مانع\n        placeholder: 1-18\n      highway:\n        label: نوع\n      historic:\n        label: نوع\n      hoops:\n        placeholder: \"1, 2, 4...\"\n      iata:\n        label: یاتا\n      icao:\n        label: ایکائو\n      incline:\n        label: شیب\n      information:\n        label: نوع\n      internet_access:\n        label: دسترسی اینترنت\n        options:\n          wlan: واي فاي\n          wired: سيمي\n          terminal: پايانه\n      landuse:\n        label: نوع\n      lanes:\n        label: خطوط\n        placeholder: \"1, 2, 3...\"\n      layer:\n        label: لايه\n      leisure:\n        label: نوع\n      length:\n        label: طول (متر)\n      levels:\n        label: سطح\n        placeholder: \"2, 4, 6...\"\n      lit:\n        label: لیتر\n      location:\n        label: مکان\n      man_made:\n        label: نوع\n      maxspeed:\n        label: محدودیت سرعت\n        placeholder: \"40, 50, 60...\"\n      name:\n        label: اسم\n        placeholder: نام مشترک (در صورت وجود)\n      natural:\n        label: طبیعی\n      network:\n        label: شبکه\n      note:\n        label: يادداشت\n      office:\n        label: نوع\n      oneway:\n        label: يک طرفه\n      oneway_yes:\n        label: یک طرفه\n      opening_hours:\n        label: ساعت\n      operator:\n        label: اپراتور\n      par:\n        label: برابری\n        placeholder: \"3, 4, 5...\"\n      park_ride:\n        label: پارک و سوار شدن\n      parking:\n        label: نوع\n      phone:\n        label: تلفن\n        placeholder: +31 42 123 4567\n      piste/difficulty:\n        label: سختی\n      piste/grooming:\n        label: تیمار کردن\n      piste/type:\n        label: نوع\n      place:\n        label: نوع\n      power:\n        label: نوع\n      railway:\n        label: نوع\n      ref:\n        label: مراجعتی\n      relation:\n        label: نوع\n      religion:\n        label: دین\n      restriction:\n        label: نوع\n      route:\n        label: نوع\n      route_master:\n        label: نوع\n      seasonal:\n        label: فصلی\n      service:\n        label: نوع\n      shelter:\n        label: پناه گاه\n      shelter_type:\n        label: نوع\n      shop:\n        label: نوع\n      social_facility_for:\n        placeholder: \"بی خانمان، معلول، کودک، و غیره\"\n      source:\n        label: منبع\n      sport:\n        label: ورزشي\n      sport_ice:\n        label: ورزشی\n      structure:\n        label: ساختاری\n        placeholder: ناشناخته\n        options:\n          bridge: پل\n          tunnel: تونل\n          embankment: خاکریز\n          cutting: برش\n      studio_type:\n        label: نوع\n      supervised:\n        label: نظارت\n      surface:\n        label: سطح\n      toilets/disposal:\n        label: در اختیار\n      tourism:\n        label: نوع\n      towertype:\n        label: نوع برج\n      trail_visibility:\n        label: مسیر پیاده روی\n      trees:\n        label: درخت‌ها\n      tunnel:\n        label: تونل\n      vending:\n        label: نوع محموله\n      water:\n        label: نوع\n      waterway:\n        label: نوع\n      website:\n        label: وب سايت\n        placeholder: \"http://example.com/\"\n      wetland:\n        label: نوع\n      wheelchair:\n        label: دسترسی ویلچر\n      wikipedia:\n        label: ويکي پديا\n    presets:\n      address:\n        name: آدرس\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'آدرس'، با کاما جدا میشوند>\"\n      aerialway:\n        name: بالابر\n      aerialway/cable_car:\n        name: ماشین کابلی\n      aerialway/chair_lift:\n        name: صندلی بالابر\n      aerialway/gondola:\n        name: تله کابین\n      aerialway/magic_carpet:\n        name: آسانسور اسکی\n      aerialway/platter:\n        name: بالابر بشقابی\n      aerialway/pylon:\n        name: برج بالابر\n      aerialway/rope_tow:\n        name: بالابر دو طنابه\n      aerialway/station:\n        name: ایستگاه بالابر\n      aerialway/t-bar:\n        name: بالابر نوار T\n      aeroway:\n        name: کاربری راه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای ' راه فرود'، با کاما جدا میشوند>\"\n      aeroway/aerodrome:\n        name: فرودگاه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'فرودگاه'، با کاما جدا میشوند>\"\n      aeroway/apron:\n        name: صحن\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'صحن'، با کاما جدا میشوند>\"\n      aeroway/gate:\n        name: دروازه فرودگاه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'ورودی فرودگاه'، با کاما جدا میشوند>\"\n      aeroway/hangar:\n        name: آشیانه هواپیما\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'آشیانه هواپیما'، با کاما جدا میشوند>\"\n      aeroway/helipad:\n        name: محل فرود هلی کوپتر\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'محل فرود هلی کوپتر'، با کاما جدا میشوند>\"\n      aeroway/runway:\n        name: باند فرودگاه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسیر فرود'، با کاما جدا میشوند>\"\n      aeroway/taxiway:\n        name: راه فرود به پارکینگ\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'فرود به پارک'، با کاما جدا میشوند>\"\n      aeroway/terminal:\n        name: پایانه فرودگاه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پایانه فرودگاه'، با کاما جدا میشوند>\"\n      amenity:\n        name: کاربری\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'کاربری اراضی'، با کاما جدا میشوند>\"\n      amenity/arts_centre:\n        name: مرکز هنری\n      amenity/atm:\n        name: خودپرداز\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'خودپرداز'، با کاما جدا میشوند>\"\n      amenity/bank:\n        name: بانک\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'بانک'، با کاما جدا میشوند>\"\n      amenity/bar:\n        name: بار\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'بار'، با کاما جدا میشوند>\"\n      amenity/bench:\n        name: نیمکت\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'نیمکت'، با کاما جدا میشوند>\"\n      amenity/bicycle_parking:\n        name: پارکینگ دوچرخه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پارکینگ دوچرخه'، با کاما جدا میشوند>\"\n      amenity/bicycle_rental:\n        name: اجاره دوچرخه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'اجاره دوچرخه'، با کاما جدا میشوند>\"\n      amenity/boat_rental:\n        name: کرایه قایق\n      amenity/cafe:\n        name: کافه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'کافه'، با کاما جدا میشوند>\"\n      amenity/car_rental:\n        name: کرایه ماشین\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'کرایه خودرو'، با کاما جدا میشوند>\"\n      amenity/car_sharing:\n        name: به اشتراک گذاری خودرو\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'اشتراک گذاری خودرو'، با کاما جدا میشوند>\"\n      amenity/car_wash:\n        name: کارواش\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'کارواش'، با کاما جدا میشوند>\"\n      amenity/charging_station:\n        name: ایستگاه شارژ\n      amenity/cinema:\n        name: سینما\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'سینما'، با کاما جدا میشوند>\"\n      amenity/clinic:\n        name: کلینیک\n      amenity/clock:\n        name: ساعت\n      amenity/courthouse:\n        name: دادگاه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'دادگاه'، با کاما جدا میشوند>\"\n      amenity/dentist:\n        name: دندانپزشک\n      amenity/doctor:\n        name: دکتر\n      amenity/drinking_water:\n        name: آب آشامیدنی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'آب آشامیدنی'، با کاما جدا میشوند>\"\n      amenity/embassy:\n        name: سفارت خانه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'سفارت'، با کاما جدا میشوند>\"\n      amenity/fast_food:\n        name: غذای آماده\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'غذای آماده'، با کاما جدا میشوند>\"\n      amenity/fire_station:\n        name: ایستگاه آتش نشانی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'ایستگاه آتش نشانی'، با کاما جدا میشوند>\"\n      amenity/fountain:\n        name: فواره\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'فواره'، با کاما جدا میشوند>\"\n      amenity/fuel:\n        name: پمپ گاز\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پمپ گاز'، با کاما جدا میشوند>\"\n      amenity/grave_yard:\n        name: مقبره\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مقبره'، با کاما جدا میشوند>\"\n      amenity/hospital:\n        name: محیط بیمارستان\n      amenity/library:\n        name: کتابخانه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'کتابخانه'، با کاما جدا میشوند>\"\n      amenity/marketplace:\n        name: بازار\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'بازار'، با کاما جدا میشوند>\"\n      amenity/parking:\n        name: پارکینگ خودرو\n      amenity/parking_entrance:\n        name: ورودی/خروجی پارکینگ\n      amenity/pharmacy:\n        name: داروخانه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'داروخانه'، با کاما جدا میشوند>\"\n      amenity/place_of_worship:\n        name: مکانی از عبادتگاه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مکان مذهبی'، با کاما جدا میشوند>\"\n      amenity/place_of_worship/buddhist:\n        name: معبد بودایی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'معبد بودایی'، با کاما جدا میشوند>\"\n      amenity/place_of_worship/christian:\n        name: کلیسا\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'کلیسا'، با کاما جدا میشوند>\"\n      amenity/place_of_worship/jewish:\n        name: کنیسه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'کنیسه'، با کاما جدا میشوند>\"\n      amenity/place_of_worship/muslim:\n        name: مسجد\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسجد'، با کاما جدا میشوند>\"\n      amenity/police:\n        name: پليس\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پلیس'، با کاما جدا میشوند>\"\n      amenity/post_box:\n        name: صندوق پستی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'صندوق پستی'، با کاما جدا میشوند>\"\n      amenity/post_office:\n        name: اداره پست\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'اداره پست'، با کاما جدا میشوند>\"\n      amenity/pub:\n        name: میخانه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'میخانه'، با کاما جدا میشوند>\"\n      amenity/ranger_station:\n        name: ایستگاه جنگل بانی\n      amenity/recycling:\n        name: بازیافت مواد\n      amenity/restaurant:\n        name: رستوران\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'رستوران'، با کاما جدا میشوند>\"\n      amenity/school:\n        name: محیط مدرسه\n      amenity/shelter:\n        name: پناه گاه\n      amenity/social_facility/food_bank:\n        name: فروشگاه مواد غذایی\n      amenity/social_facility/homeless_shelter:\n        name: پناهگاه بی خانمان‌ها\n      amenity/studio:\n        name: استدیو\n      amenity/swimming_pool:\n        name: استخر شنا\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'استخر شنا'، با کاما جدا میشوند>\"\n      amenity/taxi:\n        name: ایستگاه تاکسی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'ایستگاه تاکسی'، با کاما جدا میشوند>\"\n      amenity/telephone:\n        name: تلفن عمومی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'تلفن عمومی'، با کاما جدا میشوند>\"\n      amenity/theatre:\n        name: تئاتر\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'تئاتر'، با کاما جدا میشوند>\"\n      amenity/toilets:\n        name: سرویس بهداشتی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'سرویس بهداشتی'، با کاما جدا میشوند>\"\n      amenity/townhall:\n        name: تالار شهر\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'تالار شهر'، با کاما جدا میشوند>\"\n      amenity/vending_machine:\n        name: دستگاه فروش\n      amenity/veterinary:\n        name: دامپزشکی\n      amenity/waste_basket:\n        name: سطل زباله\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'سطل زباله'، با کاما جدا میشوند>\"\n      area:\n        name: فضا\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'فضا'، با کاما جدا میشوند>\"\n      barrier:\n        name: مانع\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مانع'، با کاما جدا میشوند>\"\n      barrier/block:\n        name: بلوک\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'بلوک'، با کاما جدا میشوند>\"\n      barrier/bollard:\n        name: بولارد\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'بولارد'، با کاما جدا میشوند>\"\n      barrier/cattle_grid:\n        name: شبکه آهنی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای'Cattle Grid'  ، با کاما جدا میشوند>\"\n      barrier/city_wall:\n        name: دیوار شهر\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'دیوار شهر'، با کاما جدا میشوند>\"\n      barrier/cycle_barrier:\n        name: مانع مستطیلی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مانع مستطیلی'، با کاما جدا میشوند>\"\n      barrier/ditch:\n        name: جوی آب\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای   'Ditch'، با کاما جدا میشوند>\"\n      barrier/entrance:\n        name: ورودی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای  'Entrance'، با کاما جدا میشوند>\"\n      barrier/fence:\n        name: حصار\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای  'Fence'، با کاما جدا میشوند>\"\n      barrier/gate:\n        name: دروازه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'دروازه'، با کاما جدا میشوند>\"\n      barrier/hedge:\n        name: پرچین\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای  'Hedge'، با کاما جدا میشوند>\"\n      barrier/kissing_gate:\n        name: دروازه مخصوص انسان\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'Kissing Gate'، با کاما جدا میشوند>\"\n      barrier/lift_gate:\n        name: دروازه بالا رونده\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای   'Lift Gate'، با کاما جدا میشوند>\"\n      barrier/retaining_wall:\n        name: دیوار نگه دارنده\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'Retaining Wall' ، با کاما جدا میشوند>\"\n      barrier/stile:\n        name: حصار نردبانی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'Stile' ، با کاما جدا میشوند>\"\n      barrier/toll_booth:\n        name: عوارضی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای  'Toll Booth'، با کاما جدا میشوند>\"\n      barrier/wall:\n        name: دیوار\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'دیوار'، با کاما جدا میشوند>\"\n      boundary/administrative:\n        name: مرز اداری\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مرز اداری'، با کاما جدا میشوند>\"\n      building:\n        name: ساختمان\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'ساختمان'، با کاما جدا میشوند>\"\n      building/apartments:\n        name: آپارتمان ها\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'آپارتمان'، با کاما جدا میشوند>\"\n      building/cabin:\n        name: کابین\n      building/cathedral:\n        name: کلیسای بزرگ\n      building/chapel:\n        name: کلیسای کوچک\n      building/church:\n        name: کلیسا\n      building/commercial:\n        name: ساختمان ارتباطی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'ساختمان ارتباطی'، با کاما جدا میشوند>\"\n      building/construction:\n        name: ساختمان در دست ساخت\n      building/dormitory:\n        name: خوابگاه\n      building/entrance:\n        name: ورود/خروج\n      building/garage:\n        name: گاراژ\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'گاراژ'، با کاما جدا میشوند>\"\n      building/garages:\n        name: گاراژ\n      building/greenhouse:\n        name: گلخانه\n      building/hospital:\n        name: ساختمان بیمارستان\n      building/hotel:\n        name: ساختمان هتل\n      building/house:\n        name: خانه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'خانه'، با کاما جدا میشوند>\"\n      building/hut:\n        name: کلبه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'کلبه'، با کاما جدا میشوند>\"\n      building/industrial:\n        name: ساختمان صنعتی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'ساختمان صنعتی'، با کاما جدا میشوند>\"\n      building/public:\n        name: ساختمان عمومی\n      building/residential:\n        name: ساختمان مسکونی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'ساختمان مسکونی'، با کاما جدا میشوند>\"\n      building/retail:\n        name: ساختمان خرده فروشی\n      building/roof:\n        name: سقف\n      building/school:\n        name: ساختمان مدرسه\n      building/stable:\n        name: اصطبل\n      building/train_station:\n        name: ایستگاه قطار\n      building/university:\n        name: ساختمان دانشگاه\n      craft/basket_maker:\n        name: سبد ساز\n      craft/beekeeper:\n        name: پرورش دهنده زنبور عسل\n      craft/blacksmith:\n        name: آهنگر\n      craft/boatbuilder:\n        name: قایق ساز\n      craft/bookbinder:\n        name: صحافی\n      craft/brewery:\n        name: آبجو سازی\n      craft/carpenter:\n        name: نجاری\n      craft/carpet_layer:\n        name: قالیبافی\n      craft/caterer:\n        name: آذوقه رسان\n      craft/clockmaker:\n        name: ساعت سازی\n      craft/dressmaker:\n        name: خیاطی زنانه\n      craft/electrician:\n        name: متخصص برق\n      craft/gardener:\n        name: باغبان\n      craft/glaziery:\n        name: شیشه بری\n      craft/handicraft:\n        name: صنایع دستی\n      craft/hvac:\n        name: گرمایش و تهویه مطبوع\n      craft/insulator:\n        name: عایق سازی\n      craft/jeweler:\n        name: جواهر سازی\n      craft/key_cutter:\n        name: برش های کلیدی\n      craft/locksmith:\n        name: قفل ساز\n      craft/metal_construction:\n        name: ساخت و ساز فلزی\n      craft/optician:\n        name: عینک ساز\n      craft/photographer:\n        name: عکاس\n      craft/plasterer:\n        name: گچ کار\n      craft/plumber:\n        name: لوله کش\n      craft/pottery:\n        name: سفالگری\n      craft/rigger:\n        name: لولزم سازی\n      craft/roofer:\n        name: سقف ساز\n      craft/saddler:\n        name: زین ساز\n      craft/sailmaker:\n        name: بادبان ساز\n      craft/sawmill:\n        name: چوب بری\n      craft/scaffolder:\n        name: داربستی\n      craft/sculpter:\n        name: حجاری\n      craft/shoemaker:\n        name: کفاش\n      craft/stonemason:\n        name: سنگ تراش\n      craft/sweep:\n        name: جاروکش شومینه\n      craft/tailor:\n        name: خیاط\n      craft/tiler:\n        name: آجر پز\n      craft/tinsmith:\n        name: حلبساز\n      craft/upholsterer:\n        name: خیاط پرده و رومبلی\n      craft/watchmaker:\n        name: ساعت ساز\n      craft/window_construction:\n        name: ساخت و ساز پنجره\n      embankment:\n        name: خاک ریز\n      emergency/ambulance_station:\n        name: ایستگاه آمبولانس\n      emergency/fire_hydrant:\n        name: آتش نشانی\n      emergency/phone:\n        name: تلفن اورژانسی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'تلفن اورژانسی'، با کاما جدا میشوند>\"\n      entrance:\n        name: ورود/خروج\n      footway/crossing:\n        name: خط عابر پیاده\n      footway/sidewalk:\n        name: پیاده رو\n      golf/bunker:\n        name: تله شن و ماسه\n      golf/fairway:\n        name: چمن راه راه\n      golf/green:\n        name: چمن سبز نزدیک سوراخ\n      golf/hole:\n        name: سوراخ گلف\n      golf/lateral_water_hazard:\n        name: خطر آب های کناری\n      golf/rough:\n        name: منطقه زمخت\n      golf/tee:\n        name: Tee Box\n      golf/water_hazard:\n        name: تهدید آبی\n      highway:\n        name: بزرگراه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'بزرگراه'، با کاما جدا میشوند>\"\n      highway/bridleway:\n        name: مسیر حیوانات اهلی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای   'Bridle Path'، با کاما جدا میشوند>\"\n      highway/bus_stop:\n        name: ایستگاه اتوبوس\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'ایستگاه اتوبوس'، با کاما جدا میشوند>\"\n      highway/crossing:\n        name: محل عبور عابر\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'خط کشی عابر پیاده'، با کاما جدا میشوند>\"\n      highway/cycleway:\n        name: مسیر دوچرخه سواری\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسیر دوچرخه'، با کاما جدا میشوند>\"\n      highway/footway:\n        name: مسیر پیاده روی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسیر پیاده'، با کاما جدا میشوند>\"\n      highway/living_street:\n        name: خیابان  محدوده زندگی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'خیابان محل زندگی'، با کاما جدا میشوند>\"\n      highway/mini_roundabout:\n        name: میدان کوچک\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای   'Mini-Roundabout'، با کاما جدا میشوند>\"\n      highway/motorway:\n        name: بزرگراه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'بزرگراه'، با کاما جدا میشوند>\"\n      highway/motorway_junction:\n        name: تقاطع بزرگراه / خروج\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'تقاطع بزرگراه/خروج'، با کاما جدا میشوند>\"\n      highway/motorway_link:\n        name: اتصال بزرگراه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوستن بزرگراه'، با کاما جدا میشوند>\"\n      highway/path:\n        name: مسیر\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسیر'، با کاما جدا میشوند>\"\n      highway/pedestrian:\n        name: عبور پیاده\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای   'Pedestrian'، با کاما جدا میشوند>\"\n      highway/primary:\n        name: جاده اصلی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'راه اصلی'، با کاما جدا میشوند>\"\n      highway/primary_link:\n        name: اتصال اصلی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوستن راه اصلی'، با کاما جدا میشوند>\"\n      highway/residential:\n        name: جاده ی مسکونی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده مسکونی'، با کاما جدا میشوند>\"\n      highway/rest_area:\n        name: فضای استراحت\n      highway/road:\n        name: جاده ناشناخته\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده ناشناخته'، با کاما جدا میشوند>\"\n      highway/secondary:\n        name: جاده دوم\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده دوم'، با کاما جدا میشوند>\"\n      highway/secondary_link:\n        name: اتصال دومی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوستن دومی'، با کاما جدا میشوند>\"\n      highway/service:\n        name: جاده خدماتی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده خدماتی'، با کاما جدا میشوند>\"\n      highway/service/alley:\n        name: کوچه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'کوچه'، با کاما جدا میشوند>\"\n      highway/service/drive-through:\n        name: پرداخت سواره\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پرداخت سواره'، با کاما جدا میشوند>\"\n      highway/service/driveway:\n        name: جاده به خانه\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای   'Driveway'، با کاما جدا میشوند>\"\n      highway/service/emergency_access:\n        name: دسترسی اورژانسی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'دسترسی اورژانسی'، با کاما جدا میشوند>\"\n      highway/service/parking_aisle:\n        name: راهرو پارکینگ\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'راهرو پارکینگ'، با کاما جدا میشوند>\"\n      highway/services:\n        name: فضای خدماتی\n      highway/steps:\n        name: پله\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پله'، با کاما جدا میشوند>\"\n      highway/stop:\n        name: علامت توقف\n      highway/tertiary:\n        name: جاده سوم\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده سوم'، با کاما جدا میشوند>\"\n      highway/tertiary_link:\n        name: اتصال سومی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوند سوم'، با کاما جدا میشوند>\"\n      highway/track:\n        name: مسیر خاکی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'راه خاکی'، با کاما جدا میشوند>\"\n      highway/traffic_signals:\n        name: چراغ راهنمایی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'چراغ راهنمایی'، با کاما جدا میشوند>\"\n      highway/trunk:\n        name: جاده ی ملی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده ملی'، با کاما جدا میشوند>\"\n      highway/trunk_link:\n        name: اتصال جاده ملی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوند جاده ملی'، با کاما جدا میشوند>\"\n      highway/turning_circle:\n        name: بنبست قابل دور زدن\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'بنبست قابل دور زدن'، با کاما جدا میشوند>\"\n      highway/unclassified:\n        name: جاده طبقه بندی نشده\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده طبقه بندی نشده'، با کاما جدا میشوند>\"\n      historic:\n        name: مکان تاریخی\n        terms: \"<ترجمه با مترادف یا اصطلاحات مشابه برای 'مکان تاریخی'، با کاما جدا میشوند>\"\n      historic/archaeological_site:\n        name: مکان باستان شناسی\n      historic/boundary_stone:\n        name: سنگ مرزی\n      historic/castle:\n        name: قلعه\n      historic/memorial:\n        name: یادبود\n      historic/monument:\n        name: مقبره\n      historic/ruins:\n        name: ویرانه\n      historic/wayside_cross:\n        name: صلیب کنار جاده\n      historic/wayside_shrine:\n        name: آرامگاه کنار جاده\n      landuse:\n        name: کاربری زمین ها\n      landuse/allotments:\n        name: بخش پرورش گل و سبزیجات\n      landuse/basin:\n        name: حوزه رودخانه\n      landuse/cemetery:\n        name: قبرستان\n      landuse/construction:\n        name: ساخت و ساز\n      landuse/farmyard:\n        name: محوطه مزرعه\n      landuse/forest:\n        name: جنگل\n      landuse/grass:\n        name: علف زار\n      landuse/landfill:\n        name: محل دفن مواد (زباله)\n      landuse/meadow:\n        name: مرغزار\n      landuse/orchard:\n        name: باغ میوه\n      landuse/quarry:\n        name: معدن سنگ\n      landuse/vineyard:\n        name: باغ انگور\n      leisure:\n        name: اوقات فراغت\n      leisure/common:\n        name: عمومی\n      leisure/dog_park:\n        name: پارک سگ\n      leisure/garden:\n        name: باغ\n      leisure/golf_course:\n        name: زمین گلف\n      leisure/marina:\n        name: تفرجگاه ساحلی\n      leisure/park:\n        name: پارک\n      leisure/pitch:\n        name: زمین ورزشی\n      leisure/pitch/american_football:\n        name: میدان فوتبال آمریکایی\n      leisure/pitch/baseball:\n        name: الماسی شکل بیسبال\n      leisure/pitch/basketball:\n        name: محوطه بسکتبال\n      leisure/pitch/skateboard:\n        name: پارک اسکیت\n      leisure/pitch/soccer:\n        name: میدان فوتبال\n      leisure/pitch/tennis:\n        name: محوطه تنیس\n      leisure/pitch/volleyball:\n        name: سالن والیبال\n      leisure/playground:\n        name: زمین بازی\n      leisure/slipway:\n        name: قایق ساکن\n      leisure/sports_center:\n        name: مرکز ورزشی/ بدنسازی\n      leisure/stadium:\n        name: ورزشگاه\n      leisure/swimming_pool:\n        name: استخر شنا\n      line:\n        name: خط\n      man_made:\n        name: سازه ی انسانی\n      man_made/breakwater:\n        name: موج شکن\n      man_made/cutline:\n        name: خط برش\n      man_made/embankment:\n        name: خاک ریز\n      man_made/flagpole:\n        name: میله پرچم\n      man_made/lighthouse:\n        name: فانوس دریایی\n      man_made/observation:\n        name: برج رصد\n      man_made/pier:\n        name: اسکله\n      man_made/pipeline:\n        name: خط لوله\n      man_made/survey_point:\n        name: نقطه مطالعاتی\n      man_made/tower:\n        name: دکل، برج\n      man_made/wastewater_plant:\n        name: تصفیه خانه ی فاضلاب\n      man_made/water_tower:\n        name: برج مخزن آب\n      man_made/water_works:\n        name: امور آب\n      military/airfield:\n        name: پایگاه هوایی\n      military/barracks:\n        name: پادگان\n      military/bunker:\n        name: سنگر زیرزمینی\n      military/range:\n        name: محدوده نظامی\n      natural:\n        name: طبیعی\n      natural/bay:\n        name: خلیج کوچک\n      natural/beach:\n        name: ساحل\n      natural/cliff:\n        name: صخره\n      natural/coastline:\n        name: خط ساحلی\n      natural/fell:\n        name: تپه سنگی\n      natural/glacier:\n        name: یخچال طبیعی\n      natural/grassland:\n        name: مرتع\n      natural/heath:\n        name: بوته زار\n      natural/peak:\n        name: قله\n      natural/scree:\n        name: سنگ ریزه\n      natural/scrub:\n        name: خارزار\n      natural/spring:\n        name: چشمه\n      natural/tree:\n        name: درخت\n      natural/water:\n        name: آب\n      natural/water/lake:\n        name: برکه ، استخر\n      natural/water/pond:\n        name: دریاچه\n      natural/water/reservoir:\n        name: آب انبار\n      natural/wetland:\n        name: تالاب\n      natural/wood:\n        name: چوب\n      office:\n        name: اداره\n      office/accountant:\n        name: حسابدار\n      office/administrative:\n        name: دفتر اداری\n      office/architect:\n        name: معمار\n      office/company:\n        name: دفتر شرکت\n      office/educational_institution:\n        name: مؤسسه آموزشی\n      office/employment_agency:\n        name: آژانس کاریابی\n      office/estate_agent:\n        name: دفتر املاک\n      office/financial:\n        name: اداره مالی\n      office/government:\n        name: اداره دولتی\n      office/insurance:\n        name: دفتر بیمه\n      office/it:\n        name: سازمان آی تی\n      office/lawyer:\n        name: دفتر حقوقی\n      office/newspaper:\n        name: روزنامه\n      office/ngo:\n        name: سازمان غیر دولتی\n      office/physician:\n        name: پزشک\n      office/political_party:\n        name: حزب سیاسی\n      office/research:\n        name: سازمان تحقیقاتی و پژوهشی\n      office/telecommunication:\n        name: اداره مخابرات\n      office/therapist:\n        name: درمان شناس\n      office/travel_agent:\n        name: آژانس مسافرتی\n      piste:\n        name: پیست/ مسیر اسکی\n      place:\n        name: محل\n      place/city:\n        name: شهر\n      place/hamlet:\n        name: دهکده\n      place/island:\n        name: جزیره\n      place/isolated_dwelling:\n        name: مسکن ایزوله\n      place/locality:\n        name: محلی\n      place/town:\n        name: شهر کوچک\n      place/village:\n        name: روستا\n      point:\n        name: نقطه\n      power:\n        name: نیرو\n      power/generator:\n        name: مولد برق\n      power/line:\n        name: خط نیرو\n      power/minor_line:\n        name: خط برق ضعیف\n      power/pole:\n        name: مسیر برق متوسط\n      power/sub_station:\n        name: ایستگاه فرعی\n      power/tower:\n        name: دکل ولتاژ قوی\n      power/transformer:\n        name: مبدل برق\n      public_transport/platform:\n        name: پلتفورم\n      public_transport/stop_position:\n        name: موقعیت توقف\n      railway:\n        name: راه آهن\n      railway/abandoned:\n        name: راه آهن متروکه\n      railway/disused:\n        name: راه آهن بلا استفاده\n      railway/funicular:\n        name: کابلی\n      railway/halt:\n        name: توقف گاه راه آهن\n      railway/level_crossing:\n        name: تقاطع راه آهن\n      railway/monorail:\n        name: ترن هوایی\n      railway/narrow_gauge:\n        name: راه آهن باریک کابلی\n      railway/platform:\n        name: بستر راه آهن\n      railway/rail:\n        name: ریل قطار\n      railway/station:\n        name: ایستگاه راه آهن\n      railway/subway:\n        name: مترو\n      railway/subway_entrance:\n        name: ورودی مترو\n      railway/tram:\n        name: واگن برقی\n      relation:\n        name: رابطه\n      route/ferry:\n        name: مسیر کشتی\n      shop:\n        name: فروشگاه\n      shop/alcohol:\n        name: مغازه مشروب فروشی\n      shop/bakery:\n        name: نانوایی\n      shop/beauty:\n        name: فروشگاه زیبایی\n      shop/beverages:\n        name: فروشگاه آشامیدنی\n      shop/bicycle:\n        name: فروشگاه دوچرخه\n      shop/bookmaker:\n        name: صحافی\n      shop/boutique:\n        name: بوتیک\n      shop/butcher:\n        name: قصابی\n      shop/car:\n        name: نمایندگی خودرو\n      shop/car_parts:\n        name: فروشگاه قطعات خودرو\n      shop/car_repair:\n        name: تعمیرگاه خودرو\n      shop/chemist:\n        name: داروسازی\n      shop/clothes:\n        name: فروشگاه لباس\n      shop/computer:\n        name: فروشگاه کامپیوتر\n      shop/convenience:\n        name: فروشگاه زنجیره ای\n      shop/deli:\n        name: اغذیه فروشی\n      shop/department_store:\n        name: کل فروشی\n      shop/doityourself:\n        name: فروشگاه DIY\n      shop/electronics:\n        name: فروشگاه الکترونیک\n      shop/farm:\n        name: تولید پایه\n      shop/fishmonger:\n        name: ماهی فروشی\n      shop/florist:\n        name: گل فروشی\n      shop/furniture:\n        name: فروشگاه مبلمان\n      shop/garden_centre:\n        name: مرکز خرید باغچه\n      shop/gift:\n        name: هدیه فروشی\n      shop/greengrocer:\n        name: سبزی فروشی\n      shop/hairdresser:\n        name: آرایش و پیرایش\n      shop/hardware:\n        name: فروشگاه سخت افزار\n      shop/hifi:\n        name: فروشگاه Hifi\n      shop/jewelry:\n        name: جواهر فروشی\n      shop/laundry:\n        name: خشک شویی\n      shop/locksmith:\n        name: قفل سازی\n      shop/lottery:\n        name: فروشگاه قرعه کشی\n      shop/mall:\n        name: مرکز خرید\n      shop/mobile_phone:\n        name: فروشگاه تلفن همراه\n      shop/motorcycle:\n        name: نمایندگی موتور سیکلت\n      shop/music:\n        name: فروشگاه موسیقی\n      shop/optician:\n        name: عینک سازی\n      shop/pet:\n        name: فروشگاه حیوانات خانگی\n      shop/photo:\n        name: فروشگاه عکاسی\n      shop/shoes:\n        name: کفش فروشی\n      shop/sports:\n        name: فروشگاه لوازم ورزشی\n      shop/stationery:\n        name: فروشگاه لوازم التحریر\n      shop/supermarket:\n        name: سوپرمارکت\n      shop/toys:\n        name: اسباب بازی فروشی\n      shop/travel_agency:\n        name: آژانس مسافرتی\n      shop/tyres:\n        name: تایر فروشی\n      shop/vacant:\n        name: فروشگاه بدون متصدی\n      shop/variety_store:\n        name: فروشگاه متنوع\n      shop/video:\n        name: فیلم فروشی\n      tourism:\n        name: توریستی\n      tourism/alpine_hut:\n        name: کلبه ارائه خدمات\n      tourism/artwork:\n        name: اثر هنری\n      tourism/attraction:\n        name: جاذبه های توریستی\n      tourism/camp_site:\n        name: اردوگاه\n      tourism/caravan_site:\n        name: پارکینگ ماشین کاروان\n      tourism/chalet:\n        name: کلبه ییلاقی\n      tourism/guest_house:\n        name: مهمان خانه\n      tourism/hostel:\n        name: مسافرخانه\n      tourism/hotel:\n        name: هتل\n      tourism/information:\n        name: اطلاعات\n      tourism/motel:\n        name: متل\n      tourism/museum:\n        name: موزه\n      tourism/picnic_site:\n        name: مکان پیک نیک\n      tourism/theme_park:\n        name: پارک تفریحی\n      tourism/viewpoint:\n        name: منظره\n      tourism/zoo:\n        name: باغ وحش\n      type/boundary:\n        name: مرز\n      type/boundary/administrative:\n        name: مرز اداری\n      type/multipolygon:\n        name: چند ضلعی\n      type/restriction:\n        name: محدوده\n      type/route:\n        name: مسیر\n      type/route/bicycle:\n        name: مسیر دوچرخه\n      type/route/bus:\n        name: مسیر اتوبوس\n      type/route/detour:\n        name: مسیر جایگزین\n      type/route/ferry:\n        name: مسیر کشتی\n      type/route/foot:\n        name: مسیر پیاده\n      type/route/hiking:\n        name: مسیر کوهنوردی\n      type/route/pipeline:\n        name: مسیر خط لوله\n      type/route/power:\n        name: مسیر برق\n      type/route/road:\n        name: مسیر جاده\n      type/route/train:\n        name: مسیر راه آهن\n      type/route/tram:\n        name: مسیر قطار برقی\n      type/route_master:\n        name: مسیر اصلی\n      vertex:\n        name: سایر\n      waterway:\n        name: راه آبی\n      waterway/canal:\n        name: کانال\n      waterway/dam:\n        name: سد\n      waterway/ditch:\n        name: جوی آب\n      waterway/drain:\n        name: فاضلاب\n      waterway/river:\n        name: رودخانه\n      waterway/riverbank:\n        name: حاشیه رودخانه\n      waterway/stream:\n        name: نهر\n      waterway/weir:\n        name: بند\n",
-	"mimetype": "text/plain"
+
+"fa": {
+
+
+"presets": {
+
+
+
+"categories": {
+
+
+
+
+"category-building": {
+
+
+
+
+
+"name": "ساختمان"
+
+
+
+
+},
+
+
+
+
+"category-golf": {
+
+
+
+
+
+"name": "گلف"
+
+
+
+
+},
+
+
+
+
+"category-landuse": {
+
+
+
+
+
+"name": "کاربرد زمین"
+
+
+
+
+},
+
+
+
+
+"category-path": {
+
+
+
+
+
+"name": "مسیر"
+
+
+
+
+},
+
+
+
+
+"category-rail": {
+
+
+
+
+
+"name": "راه آهن"
+
+
+
+
+},
+
+
+
+
+"category-road": {
+
+
+
+
+
+"name": "جاده"
+
+
+
+
+},
+
+
+
+
+"category-route": {
+
+
+
+
+
+"name": "مسیر"
+
+
+
+
+},
+
+
+
+
+"category-water-area": {
+
+
+
+
+
+"name": "آب"
+
+
+
+
+},
+
+
+
+
+"category-water-line": {
+
+
+
+
+
+"name": "آب"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"fields": {
+
+
+
+
+"access": {
+
+
+
+
+
+"label": "دسترسي",
+
+
+
+
+
+"placeholder": "ناشناخته",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "عمومی",
+
+
+
+
+
+
+"foot": "پیاده",
+
+
+
+
+
+
+"motor_vehicle": "وسایل نقلیه موتوری",
+
+
+
+
+
+
+"bicycle": "دوچرخه ها",
+
+
+
+
+
+
+"horse": "اسب ها"
+
+
+
+
+
+},
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"title": "مجاز",
+
+
+
+
+
+
+
+"description": "دسترسی مجاز طبق قانون: حق از راه"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"title": "ممنوع",
+
+
+
+
+
+
+
+"description": "دسترسی برای عموم مردم مجاز نیست"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"title": "مجاز",
+
+
+
+
+
+
+
+"description": "دسترسی تا وقتی صاحبش مجوز را لغو نکند مجاز است"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"title": "خصوصی",
+
+
+
+
+
+
+
+"description": "دسترسی فقط با اجازه از صاحب بصورت انفرادی مجاز است"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"designated": {
+
+
+
+
+
+
+
+"title": "تعیین شده",
+
+
+
+
+
+
+
+"description": "دسترسی با توجه به علائم و قوانین محلی مجاز است"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"destination": {
+
+
+
+
+
+
+
+"title": "مقصد",
+
+
+
+
+
+
+
+"description": "دسترسی فقط برای رسیدن به مقصدی مجاز است"
+
+
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"access_simple": {
+
+
+
+
+
+"label": "دسترسی"
+
+
+
+
+},
+
+
+
+
+"address": {
+
+
+
+
+
+"label": "ادرس",
+
+
+
+
+
+"placeholders": {
+
+
+
+
+
+
+"street": "خيابان",
+
+
+
+
+
+
+"city": "شهر"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"admin_level": {
+
+
+
+
+
+"label": "سطح مدیریت"
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"aerialway/access": {
+
+
+
+
+
+"label": "دسترسی"
+
+
+
+
+},
+
+
+
+
+"aerialway/bubble": {
+
+
+
+
+
+"label": "قل قل کردن"
+
+
+
+
+},
+
+
+
+
+"aerialway/capacity": {
+
+
+
+
+
+"label": "ظرفیت (بر ساعت)",
+
+
+
+
+
+"placeholder": "500, 2500, 5000..."
+
+
+
+
+},
+
+
+
+
+"aerialway/duration": {
+
+
+
+
+
+"label": "مدت زمان (دقیقه)",
+
+
+
+
+
+"placeholder": "1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"aerialway/heating": {
+
+
+
+
+
+"label": "گرم شده"
+
+
+
+
+},
+
+
+
+
+"aerialway/occupancy": {
+
+
+
+
+
+"label": "تصرف",
+
+
+
+
+
+"placeholder": "2, 4, 8..."
+
+
+
+
+},
+
+
+
+
+"aerialway/summer/access": {
+
+
+
+
+
+"label": "دسترسی (تابستان)"
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"amenity": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"artist": {
+
+
+
+
+
+"label": "هنرمند"
+
+
+
+
+},
+
+
+
+
+"artwork_type": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"atm": {
+
+
+
+
+
+"label": "خودپرداز"
+
+
+
+
+},
+
+
+
+
+"backrest": {
+
+
+
+
+
+"label": "تکیه گاه"
+
+
+
+
+},
+
+
+
+
+"barrier": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"bicycle_parking": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"boundary": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"label": "ساختمان"
+
+
+
+
+},
+
+
+
+
+"building_area": {
+
+
+
+
+
+"label": "ساختمان"
+
+
+
+
+},
+
+
+
+
+"capacity": {
+
+
+
+
+
+"label": "ظرفيت",
+
+
+
+
+
+"placeholder": "50, 100, 200..."
+
+
+
+
+},
+
+
+
+
+"cardinal_direction": {
+
+
+
+
+
+"label": "جهت"
+
+
+
+
+},
+
+
+
+
+"clock_direction": {
+
+
+
+
+
+"label": "جهت",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"clockwise": "ساعتگرد",
+
+
+
+
+
+
+"anticlockwise": "پاد ساعتگرد"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"collection_times": {
+
+
+
+
+
+"label": "مجموع دفعات"
+
+
+
+
+},
+
+
+
+
+"construction": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"country": {
+
+
+
+
+
+"label": "کشور"
+
+
+
+
+},
+
+
+
+
+"covered": {
+
+
+
+
+
+"label": "سرپوشیده"
+
+
+
+
+},
+
+
+
+
+"crossing": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"cuisine": {
+
+
+
+
+
+"label": "غذا"
+
+
+
+
+},
+
+
+
+
+"denomination": {
+
+
+
+
+
+"label": "پول"
+
+
+
+
+},
+
+
+
+
+"denotation": {
+
+
+
+
+
+"label": "مفهوم"
+
+
+
+
+},
+
+
+
+
+"description": {
+
+
+
+
+
+"label": "توضیحات"
+
+
+
+
+},
+
+
+
+
+"electrified": {
+
+
+
+
+
+"label": "برق رسانی"
+
+
+
+
+},
+
+
+
+
+"elevation": {
+
+
+
+
+
+"label": "ارتفاع"
+
+
+
+
+},
+
+
+
+
+"emergency": {
+
+
+
+
+
+"label": "اورژانس"
+
+
+
+
+},
+
+
+
+
+"entrance": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"except": {
+
+
+
+
+
+"label": "استثناها"
+
+
+
+
+},
+
+
+
+
+"fax": {
+
+
+
+
+
+"label": "نمابر",
+
+
+
+
+
+"placeholder": "+31 42 123 4567"
+
+
+
+
+},
+
+
+
+
+"fee": {
+
+
+
+
+
+"label": "دستمزد"
+
+
+
+
+},
+
+
+
+
+"fire_hydrant/type": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"fixme": {
+
+
+
+
+
+"label": "تصحیح من"
+
+
+
+
+},
+
+
+
+
+"fuel": {
+
+
+
+
+
+"label": "سوخت"
+
+
+
+
+},
+
+
+
+
+"gauge": {
+
+
+
+
+
+"label": "مقیاس"
+
+
+
+
+},
+
+
+
+
+"generator/method": {
+
+
+
+
+
+"label": "شیوه"
+
+
+
+
+},
+
+
+
+
+"generator/source": {
+
+
+
+
+
+"label": "منبع"
+
+
+
+
+},
+
+
+
+
+"generator/type": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"golf_hole": {
+
+
+
+
+
+"label": "مراجعه",
+
+
+
+
+
+"placeholder": "تعداد سوراخ (1-18)"
+
+
+
+
+},
+
+
+
+
+"handicap": {
+
+
+
+
+
+"label": "مانع",
+
+
+
+
+
+"placeholder": "1-18"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"historic": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"hoops": {
+
+
+
+
+
+"placeholder": "1, 2, 4..."
+
+
+
+
+},
+
+
+
+
+"iata": {
+
+
+
+
+
+"label": "یاتا"
+
+
+
+
+},
+
+
+
+
+"icao": {
+
+
+
+
+
+"label": "ایکائو"
+
+
+
+
+},
+
+
+
+
+"incline": {
+
+
+
+
+
+"label": "شیب"
+
+
+
+
+},
+
+
+
+
+"information": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"internet_access": {
+
+
+
+
+
+"label": "دسترسی اینترنت",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"wlan": "واي فاي",
+
+
+
+
+
+
+"wired": "سيمي",
+
+
+
+
+
+
+"terminal": "پايانه"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"lanes": {
+
+
+
+
+
+"label": "خطوط",
+
+
+
+
+
+"placeholder": "1, 2, 3..."
+
+
+
+
+},
+
+
+
+
+"layer": {
+
+
+
+
+
+"label": "لايه"
+
+
+
+
+},
+
+
+
+
+"leisure": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"length": {
+
+
+
+
+
+"label": "طول (متر)"
+
+
+
+
+},
+
+
+
+
+"levels": {
+
+
+
+
+
+"label": "سطح",
+
+
+
+
+
+"placeholder": "2, 4, 6..."
+
+
+
+
+},
+
+
+
+
+"lit": {
+
+
+
+
+
+"label": "لیتر"
+
+
+
+
+},
+
+
+
+
+"location": {
+
+
+
+
+
+"label": "مکان"
+
+
+
+
+},
+
+
+
+
+"man_made": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"maxspeed": {
+
+
+
+
+
+"label": "محدودیت سرعت",
+
+
+
+
+
+"placeholder": "40, 50, 60..."
+
+
+
+
+},
+
+
+
+
+"name": {
+
+
+
+
+
+"label": "اسم",
+
+
+
+
+
+"placeholder": "نام مشترک (در صورت وجود)"
+
+
+
+
+},
+
+
+
+
+"natural": {
+
+
+
+
+
+"label": "طبیعی"
+
+
+
+
+},
+
+
+
+
+"network": {
+
+
+
+
+
+"label": "شبکه"
+
+
+
+
+},
+
+
+
+
+"note": {
+
+
+
+
+
+"label": "يادداشت"
+
+
+
+
+},
+
+
+
+
+"office": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"oneway": {
+
+
+
+
+
+"label": "يک طرفه"
+
+
+
+
+},
+
+
+
+
+"oneway_yes": {
+
+
+
+
+
+"label": "یک طرفه"
+
+
+
+
+},
+
+
+
+
+"opening_hours": {
+
+
+
+
+
+"label": "ساعت"
+
+
+
+
+},
+
+
+
+
+"operator": {
+
+
+
+
+
+"label": "اپراتور"
+
+
+
+
+},
+
+
+
+
+"par": {
+
+
+
+
+
+"label": "برابری",
+
+
+
+
+
+"placeholder": "3, 4, 5..."
+
+
+
+
+},
+
+
+
+
+"park_ride": {
+
+
+
+
+
+"label": "پارک و سوار شدن"
+
+
+
+
+},
+
+
+
+
+"parking": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"phone": {
+
+
+
+
+
+"label": "تلفن",
+
+
+
+
+
+"placeholder": "+31 42 123 4567"
+
+
+
+
+},
+
+
+
+
+"piste/difficulty": {
+
+
+
+
+
+"label": "سختی"
+
+
+
+
+},
+
+
+
+
+"piste/grooming": {
+
+
+
+
+
+"label": "تیمار کردن"
+
+
+
+
+},
+
+
+
+
+"piste/type": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"place": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"power": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"railway": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"ref": {
+
+
+
+
+
+"label": "مراجعتی"
+
+
+
+
+},
+
+
+
+
+"relation": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"religion": {
+
+
+
+
+
+"label": "دین"
+
+
+
+
+},
+
+
+
+
+"restriction": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"route": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"route_master": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"seasonal": {
+
+
+
+
+
+"label": "فصلی"
+
+
+
+
+},
+
+
+
+
+"service": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"shelter": {
+
+
+
+
+
+"label": "پناه گاه"
+
+
+
+
+},
+
+
+
+
+"shelter_type": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"shop": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"social_facility_for": {
+
+
+
+
+
+"placeholder": "بی خانمان، معلول، کودک، و غیره"
+
+
+
+
+},
+
+
+
+
+"source": {
+
+
+
+
+
+"label": "منبع"
+
+
+
+
+},
+
+
+
+
+"sport": {
+
+
+
+
+
+"label": "ورزشي"
+
+
+
+
+},
+
+
+
+
+"sport_ice": {
+
+
+
+
+
+"label": "ورزشی"
+
+
+
+
+},
+
+
+
+
+"structure": {
+
+
+
+
+
+"label": "ساختاری",
+
+
+
+
+
+"placeholder": "ناشناخته",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"bridge": "پل",
+
+
+
+
+
+
+"tunnel": "تونل",
+
+
+
+
+
+
+"embankment": "خاکریز",
+
+
+
+
+
+
+"cutting": "برش"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"studio_type": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"supervised": {
+
+
+
+
+
+"label": "نظارت"
+
+
+
+
+},
+
+
+
+
+"surface": {
+
+
+
+
+
+"label": "سطح"
+
+
+
+
+},
+
+
+
+
+"toilets/disposal": {
+
+
+
+
+
+"label": "در اختیار"
+
+
+
+
+},
+
+
+
+
+"tourism": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"towertype": {
+
+
+
+
+
+"label": "نوع برج"
+
+
+
+
+},
+
+
+
+
+"trail_visibility": {
+
+
+
+
+
+"label": "مسیر پیاده روی"
+
+
+
+
+},
+
+
+
+
+"trees": {
+
+
+
+
+
+"label": "درخت‌ها"
+
+
+
+
+},
+
+
+
+
+"tunnel": {
+
+
+
+
+
+"label": "تونل"
+
+
+
+
+},
+
+
+
+
+"vending": {
+
+
+
+
+
+"label": "نوع محموله"
+
+
+
+
+},
+
+
+
+
+"water": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"waterway": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"website": {
+
+
+
+
+
+"label": "وب سايت",
+
+
+
+
+
+"placeholder": "http://example.com/"
+
+
+
+
+},
+
+
+
+
+"wetland": {
+
+
+
+
+
+"label": "نوع"
+
+
+
+
+},
+
+
+
+
+"wheelchair": {
+
+
+
+
+
+"label": "دسترسی ویلچر"
+
+
+
+
+},
+
+
+
+
+"wikipedia": {
+
+
+
+
+
+"label": "ويکي پديا"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"presets": {
+
+
+
+
+"address": {
+
+
+
+
+
+"name": "آدرس",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'آدرس'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"name": "بالابر"
+
+
+
+
+},
+
+
+
+
+"aerialway/cable_car": {
+
+
+
+
+
+"name": "ماشین کابلی"
+
+
+
+
+},
+
+
+
+
+"aerialway/chair_lift": {
+
+
+
+
+
+"name": "صندلی بالابر"
+
+
+
+
+},
+
+
+
+
+"aerialway/gondola": {
+
+
+
+
+
+"name": "تله کابین"
+
+
+
+
+},
+
+
+
+
+"aerialway/magic_carpet": {
+
+
+
+
+
+"name": "آسانسور اسکی"
+
+
+
+
+},
+
+
+
+
+"aerialway/platter": {
+
+
+
+
+
+"name": "بالابر بشقابی"
+
+
+
+
+},
+
+
+
+
+"aerialway/pylon": {
+
+
+
+
+
+"name": "برج بالابر"
+
+
+
+
+},
+
+
+
+
+"aerialway/rope_tow": {
+
+
+
+
+
+"name": "بالابر دو طنابه"
+
+
+
+
+},
+
+
+
+
+"aerialway/station": {
+
+
+
+
+
+"name": "ایستگاه بالابر"
+
+
+
+
+},
+
+
+
+
+"aerialway/t-bar": {
+
+
+
+
+
+"name": "بالابر نوار T"
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"name": "کاربری راه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای ' راه فرود'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"aeroway/aerodrome": {
+
+
+
+
+
+"name": "فرودگاه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'فرودگاه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"aeroway/apron": {
+
+
+
+
+
+"name": "صحن",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'صحن'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"aeroway/gate": {
+
+
+
+
+
+"name": "دروازه فرودگاه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'ورودی فرودگاه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"aeroway/hangar": {
+
+
+
+
+
+"name": "آشیانه هواپیما",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'آشیانه هواپیما'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"aeroway/helipad": {
+
+
+
+
+
+"name": "محل فرود هلی کوپتر",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'محل فرود هلی کوپتر'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"aeroway/runway": {
+
+
+
+
+
+"name": "باند فرودگاه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسیر فرود'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"aeroway/taxiway": {
+
+
+
+
+
+"name": "راه فرود به پارکینگ",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'فرود به پارک'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"aeroway/terminal": {
+
+
+
+
+
+"name": "پایانه فرودگاه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پایانه فرودگاه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity": {
+
+
+
+
+
+"name": "کاربری",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'کاربری اراضی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/arts_centre": {
+
+
+
+
+
+"name": "مرکز هنری"
+
+
+
+
+},
+
+
+
+
+"amenity/atm": {
+
+
+
+
+
+"name": "خودپرداز",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'خودپرداز'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/bank": {
+
+
+
+
+
+"name": "بانک",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'بانک'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/bar": {
+
+
+
+
+
+"name": "بار",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'بار'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/bench": {
+
+
+
+
+
+"name": "نیمکت",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'نیمکت'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_parking": {
+
+
+
+
+
+"name": "پارکینگ دوچرخه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پارکینگ دوچرخه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_rental": {
+
+
+
+
+
+"name": "اجاره دوچرخه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'اجاره دوچرخه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/boat_rental": {
+
+
+
+
+
+"name": "کرایه قایق"
+
+
+
+
+},
+
+
+
+
+"amenity/cafe": {
+
+
+
+
+
+"name": "کافه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'کافه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/car_rental": {
+
+
+
+
+
+"name": "کرایه ماشین",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'کرایه خودرو'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/car_sharing": {
+
+
+
+
+
+"name": "به اشتراک گذاری خودرو",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'اشتراک گذاری خودرو'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/car_wash": {
+
+
+
+
+
+"name": "کارواش",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'کارواش'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/charging_station": {
+
+
+
+
+
+"name": "ایستگاه شارژ"
+
+
+
+
+},
+
+
+
+
+"amenity/cinema": {
+
+
+
+
+
+"name": "سینما",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'سینما'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/clinic": {
+
+
+
+
+
+"name": "کلینیک"
+
+
+
+
+},
+
+
+
+
+"amenity/clock": {
+
+
+
+
+
+"name": "ساعت"
+
+
+
+
+},
+
+
+
+
+"amenity/courthouse": {
+
+
+
+
+
+"name": "دادگاه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'دادگاه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/dentist": {
+
+
+
+
+
+"name": "دندانپزشک"
+
+
+
+
+},
+
+
+
+
+"amenity/doctor": {
+
+
+
+
+
+"name": "دکتر"
+
+
+
+
+},
+
+
+
+
+"amenity/drinking_water": {
+
+
+
+
+
+"name": "آب آشامیدنی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'آب آشامیدنی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/embassy": {
+
+
+
+
+
+"name": "سفارت خانه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'سفارت'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/fast_food": {
+
+
+
+
+
+"name": "غذای آماده",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'غذای آماده'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/fire_station": {
+
+
+
+
+
+"name": "ایستگاه آتش نشانی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'ایستگاه آتش نشانی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/fountain": {
+
+
+
+
+
+"name": "فواره",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'فواره'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/fuel": {
+
+
+
+
+
+"name": "پمپ گاز",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پمپ گاز'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/grave_yard": {
+
+
+
+
+
+"name": "مقبره",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مقبره'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/hospital": {
+
+
+
+
+
+"name": "محیط بیمارستان"
+
+
+
+
+},
+
+
+
+
+"amenity/library": {
+
+
+
+
+
+"name": "کتابخانه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'کتابخانه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/marketplace": {
+
+
+
+
+
+"name": "بازار",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'بازار'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/parking": {
+
+
+
+
+
+"name": "پارکینگ خودرو"
+
+
+
+
+},
+
+
+
+
+"amenity/parking_entrance": {
+
+
+
+
+
+"name": "ورودی/خروجی پارکینگ"
+
+
+
+
+},
+
+
+
+
+"amenity/pharmacy": {
+
+
+
+
+
+"name": "داروخانه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'داروخانه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship": {
+
+
+
+
+
+"name": "مکانی از عبادتگاه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مکان مذهبی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/buddhist": {
+
+
+
+
+
+"name": "معبد بودایی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'معبد بودایی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/christian": {
+
+
+
+
+
+"name": "کلیسا",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'کلیسا'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/jewish": {
+
+
+
+
+
+"name": "کنیسه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'کنیسه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/muslim": {
+
+
+
+
+
+"name": "مسجد",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسجد'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/police": {
+
+
+
+
+
+"name": "پليس",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پلیس'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/post_box": {
+
+
+
+
+
+"name": "صندوق پستی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'صندوق پستی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/post_office": {
+
+
+
+
+
+"name": "اداره پست",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'اداره پست'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/pub": {
+
+
+
+
+
+"name": "میخانه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'میخانه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/ranger_station": {
+
+
+
+
+
+"name": "ایستگاه جنگل بانی"
+
+
+
+
+},
+
+
+
+
+"amenity/recycling": {
+
+
+
+
+
+"name": "بازیافت مواد"
+
+
+
+
+},
+
+
+
+
+"amenity/restaurant": {
+
+
+
+
+
+"name": "رستوران",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'رستوران'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/school": {
+
+
+
+
+
+"name": "محیط مدرسه"
+
+
+
+
+},
+
+
+
+
+"amenity/shelter": {
+
+
+
+
+
+"name": "پناه گاه"
+
+
+
+
+},
+
+
+
+
+"amenity/social_facility/food_bank": {
+
+
+
+
+
+"name": "فروشگاه مواد غذایی"
+
+
+
+
+},
+
+
+
+
+"amenity/social_facility/homeless_shelter": {
+
+
+
+
+
+"name": "پناهگاه بی خانمان‌ها"
+
+
+
+
+},
+
+
+
+
+"amenity/studio": {
+
+
+
+
+
+"name": "استدیو"
+
+
+
+
+},
+
+
+
+
+"amenity/swimming_pool": {
+
+
+
+
+
+"name": "استخر شنا",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'استخر شنا'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/taxi": {
+
+
+
+
+
+"name": "ایستگاه تاکسی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'ایستگاه تاکسی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/telephone": {
+
+
+
+
+
+"name": "تلفن عمومی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'تلفن عمومی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/theatre": {
+
+
+
+
+
+"name": "تئاتر",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'تئاتر'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/toilets": {
+
+
+
+
+
+"name": "سرویس بهداشتی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'سرویس بهداشتی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/townhall": {
+
+
+
+
+
+"name": "تالار شهر",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'تالار شهر'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"amenity/vending_machine": {
+
+
+
+
+
+"name": "دستگاه فروش"
+
+
+
+
+},
+
+
+
+
+"amenity/veterinary": {
+
+
+
+
+
+"name": "دامپزشکی"
+
+
+
+
+},
+
+
+
+
+"amenity/waste_basket": {
+
+
+
+
+
+"name": "سطل زباله",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'سطل زباله'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"area": {
+
+
+
+
+
+"name": "فضا",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'فضا'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier": {
+
+
+
+
+
+"name": "مانع",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مانع'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/block": {
+
+
+
+
+
+"name": "بلوک",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'بلوک'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/bollard": {
+
+
+
+
+
+"name": "بولارد",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'بولارد'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/cattle_grid": {
+
+
+
+
+
+"name": "شبکه آهنی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای'Cattle Grid'  ، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/city_wall": {
+
+
+
+
+
+"name": "دیوار شهر",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'دیوار شهر'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/cycle_barrier": {
+
+
+
+
+
+"name": "مانع مستطیلی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مانع مستطیلی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/ditch": {
+
+
+
+
+
+"name": "جوی آب",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای   'Ditch'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/entrance": {
+
+
+
+
+
+"name": "ورودی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای  'Entrance'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/fence": {
+
+
+
+
+
+"name": "حصار",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای  'Fence'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/gate": {
+
+
+
+
+
+"name": "دروازه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'دروازه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/hedge": {
+
+
+
+
+
+"name": "پرچین",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای  'Hedge'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/kissing_gate": {
+
+
+
+
+
+"name": "دروازه مخصوص انسان",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'Kissing Gate'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/lift_gate": {
+
+
+
+
+
+"name": "دروازه بالا رونده",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای   'Lift Gate'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/retaining_wall": {
+
+
+
+
+
+"name": "دیوار نگه دارنده",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'Retaining Wall' ، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/stile": {
+
+
+
+
+
+"name": "حصار نردبانی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'Stile' ، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/toll_booth": {
+
+
+
+
+
+"name": "عوارضی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای  'Toll Booth'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"barrier/wall": {
+
+
+
+
+
+"name": "دیوار",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'دیوار'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"boundary/administrative": {
+
+
+
+
+
+"name": "مرز اداری",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مرز اداری'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"name": "ساختمان",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'ساختمان'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"building/apartments": {
+
+
+
+
+
+"name": "آپارتمان ها",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'آپارتمان'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"building/cabin": {
+
+
+
+
+
+"name": "کابین"
+
+
+
+
+},
+
+
+
+
+"building/cathedral": {
+
+
+
+
+
+"name": "کلیسای بزرگ"
+
+
+
+
+},
+
+
+
+
+"building/chapel": {
+
+
+
+
+
+"name": "کلیسای کوچک"
+
+
+
+
+},
+
+
+
+
+"building/church": {
+
+
+
+
+
+"name": "کلیسا"
+
+
+
+
+},
+
+
+
+
+"building/commercial": {
+
+
+
+
+
+"name": "ساختمان ارتباطی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'ساختمان ارتباطی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"building/construction": {
+
+
+
+
+
+"name": "ساختمان در دست ساخت"
+
+
+
+
+},
+
+
+
+
+"building/dormitory": {
+
+
+
+
+
+"name": "خوابگاه"
+
+
+
+
+},
+
+
+
+
+"building/entrance": {
+
+
+
+
+
+"name": "ورود/خروج"
+
+
+
+
+},
+
+
+
+
+"building/garage": {
+
+
+
+
+
+"name": "گاراژ",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'گاراژ'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"building/garages": {
+
+
+
+
+
+"name": "گاراژ"
+
+
+
+
+},
+
+
+
+
+"building/greenhouse": {
+
+
+
+
+
+"name": "گلخانه"
+
+
+
+
+},
+
+
+
+
+"building/hospital": {
+
+
+
+
+
+"name": "ساختمان بیمارستان"
+
+
+
+
+},
+
+
+
+
+"building/hotel": {
+
+
+
+
+
+"name": "ساختمان هتل"
+
+
+
+
+},
+
+
+
+
+"building/house": {
+
+
+
+
+
+"name": "خانه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'خانه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"building/hut": {
+
+
+
+
+
+"name": "کلبه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'کلبه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"building/industrial": {
+
+
+
+
+
+"name": "ساختمان صنعتی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'ساختمان صنعتی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"building/public": {
+
+
+
+
+
+"name": "ساختمان عمومی"
+
+
+
+
+},
+
+
+
+
+"building/residential": {
+
+
+
+
+
+"name": "ساختمان مسکونی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'ساختمان مسکونی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"building/retail": {
+
+
+
+
+
+"name": "ساختمان خرده فروشی"
+
+
+
+
+},
+
+
+
+
+"building/roof": {
+
+
+
+
+
+"name": "سقف"
+
+
+
+
+},
+
+
+
+
+"building/school": {
+
+
+
+
+
+"name": "ساختمان مدرسه"
+
+
+
+
+},
+
+
+
+
+"building/stable": {
+
+
+
+
+
+"name": "اصطبل"
+
+
+
+
+},
+
+
+
+
+"building/train_station": {
+
+
+
+
+
+"name": "ایستگاه قطار"
+
+
+
+
+},
+
+
+
+
+"building/university": {
+
+
+
+
+
+"name": "ساختمان دانشگاه"
+
+
+
+
+},
+
+
+
+
+"craft/basket_maker": {
+
+
+
+
+
+"name": "سبد ساز"
+
+
+
+
+},
+
+
+
+
+"craft/beekeeper": {
+
+
+
+
+
+"name": "پرورش دهنده زنبور عسل"
+
+
+
+
+},
+
+
+
+
+"craft/blacksmith": {
+
+
+
+
+
+"name": "آهنگر"
+
+
+
+
+},
+
+
+
+
+"craft/boatbuilder": {
+
+
+
+
+
+"name": "قایق ساز"
+
+
+
+
+},
+
+
+
+
+"craft/bookbinder": {
+
+
+
+
+
+"name": "صحافی"
+
+
+
+
+},
+
+
+
+
+"craft/brewery": {
+
+
+
+
+
+"name": "آبجو سازی"
+
+
+
+
+},
+
+
+
+
+"craft/carpenter": {
+
+
+
+
+
+"name": "نجاری"
+
+
+
+
+},
+
+
+
+
+"craft/carpet_layer": {
+
+
+
+
+
+"name": "قالیبافی"
+
+
+
+
+},
+
+
+
+
+"craft/caterer": {
+
+
+
+
+
+"name": "آذوقه رسان"
+
+
+
+
+},
+
+
+
+
+"craft/clockmaker": {
+
+
+
+
+
+"name": "ساعت سازی"
+
+
+
+
+},
+
+
+
+
+"craft/dressmaker": {
+
+
+
+
+
+"name": "خیاطی زنانه"
+
+
+
+
+},
+
+
+
+
+"craft/electrician": {
+
+
+
+
+
+"name": "متخصص برق"
+
+
+
+
+},
+
+
+
+
+"craft/gardener": {
+
+
+
+
+
+"name": "باغبان"
+
+
+
+
+},
+
+
+
+
+"craft/glaziery": {
+
+
+
+
+
+"name": "شیشه بری"
+
+
+
+
+},
+
+
+
+
+"craft/handicraft": {
+
+
+
+
+
+"name": "صنایع دستی"
+
+
+
+
+},
+
+
+
+
+"craft/hvac": {
+
+
+
+
+
+"name": "گرمایش و تهویه مطبوع"
+
+
+
+
+},
+
+
+
+
+"craft/insulator": {
+
+
+
+
+
+"name": "عایق سازی"
+
+
+
+
+},
+
+
+
+
+"craft/jeweler": {
+
+
+
+
+
+"name": "جواهر سازی"
+
+
+
+
+},
+
+
+
+
+"craft/key_cutter": {
+
+
+
+
+
+"name": "برش های کلیدی"
+
+
+
+
+},
+
+
+
+
+"craft/locksmith": {
+
+
+
+
+
+"name": "قفل ساز"
+
+
+
+
+},
+
+
+
+
+"craft/metal_construction": {
+
+
+
+
+
+"name": "ساخت و ساز فلزی"
+
+
+
+
+},
+
+
+
+
+"craft/optician": {
+
+
+
+
+
+"name": "عینک ساز"
+
+
+
+
+},
+
+
+
+
+"craft/photographer": {
+
+
+
+
+
+"name": "عکاس"
+
+
+
+
+},
+
+
+
+
+"craft/plasterer": {
+
+
+
+
+
+"name": "گچ کار"
+
+
+
+
+},
+
+
+
+
+"craft/plumber": {
+
+
+
+
+
+"name": "لوله کش"
+
+
+
+
+},
+
+
+
+
+"craft/pottery": {
+
+
+
+
+
+"name": "سفالگری"
+
+
+
+
+},
+
+
+
+
+"craft/rigger": {
+
+
+
+
+
+"name": "لولزم سازی"
+
+
+
+
+},
+
+
+
+
+"craft/roofer": {
+
+
+
+
+
+"name": "سقف ساز"
+
+
+
+
+},
+
+
+
+
+"craft/saddler": {
+
+
+
+
+
+"name": "زین ساز"
+
+
+
+
+},
+
+
+
+
+"craft/sailmaker": {
+
+
+
+
+
+"name": "بادبان ساز"
+
+
+
+
+},
+
+
+
+
+"craft/sawmill": {
+
+
+
+
+
+"name": "چوب بری"
+
+
+
+
+},
+
+
+
+
+"craft/scaffolder": {
+
+
+
+
+
+"name": "داربستی"
+
+
+
+
+},
+
+
+
+
+"craft/sculpter": {
+
+
+
+
+
+"name": "حجاری"
+
+
+
+
+},
+
+
+
+
+"craft/shoemaker": {
+
+
+
+
+
+"name": "کفاش"
+
+
+
+
+},
+
+
+
+
+"craft/stonemason": {
+
+
+
+
+
+"name": "سنگ تراش"
+
+
+
+
+},
+
+
+
+
+"craft/sweep": {
+
+
+
+
+
+"name": "جاروکش شومینه"
+
+
+
+
+},
+
+
+
+
+"craft/tailor": {
+
+
+
+
+
+"name": "خیاط"
+
+
+
+
+},
+
+
+
+
+"craft/tiler": {
+
+
+
+
+
+"name": "آجر پز"
+
+
+
+
+},
+
+
+
+
+"craft/tinsmith": {
+
+
+
+
+
+"name": "حلبساز"
+
+
+
+
+},
+
+
+
+
+"craft/upholsterer": {
+
+
+
+
+
+"name": "خیاط پرده و رومبلی"
+
+
+
+
+},
+
+
+
+
+"craft/watchmaker": {
+
+
+
+
+
+"name": "ساعت ساز"
+
+
+
+
+},
+
+
+
+
+"craft/window_construction": {
+
+
+
+
+
+"name": "ساخت و ساز پنجره"
+
+
+
+
+},
+
+
+
+
+"embankment": {
+
+
+
+
+
+"name": "خاک ریز"
+
+
+
+
+},
+
+
+
+
+"emergency/ambulance_station": {
+
+
+
+
+
+"name": "ایستگاه آمبولانس"
+
+
+
+
+},
+
+
+
+
+"emergency/fire_hydrant": {
+
+
+
+
+
+"name": "آتش نشانی"
+
+
+
+
+},
+
+
+
+
+"emergency/phone": {
+
+
+
+
+
+"name": "تلفن اورژانسی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'تلفن اورژانسی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"entrance": {
+
+
+
+
+
+"name": "ورود/خروج"
+
+
+
+
+},
+
+
+
+
+"footway/crossing": {
+
+
+
+
+
+"name": "خط عابر پیاده"
+
+
+
+
+},
+
+
+
+
+"footway/sidewalk": {
+
+
+
+
+
+"name": "پیاده رو"
+
+
+
+
+},
+
+
+
+
+"golf/bunker": {
+
+
+
+
+
+"name": "تله شن و ماسه"
+
+
+
+
+},
+
+
+
+
+"golf/fairway": {
+
+
+
+
+
+"name": "چمن راه راه"
+
+
+
+
+},
+
+
+
+
+"golf/green": {
+
+
+
+
+
+"name": "چمن سبز نزدیک سوراخ"
+
+
+
+
+},
+
+
+
+
+"golf/hole": {
+
+
+
+
+
+"name": "سوراخ گلف"
+
+
+
+
+},
+
+
+
+
+"golf/lateral_water_hazard": {
+
+
+
+
+
+"name": "خطر آب های کناری"
+
+
+
+
+},
+
+
+
+
+"golf/rough": {
+
+
+
+
+
+"name": "منطقه زمخت"
+
+
+
+
+},
+
+
+
+
+"golf/tee": {
+
+
+
+
+
+"name": "Tee Box"
+
+
+
+
+},
+
+
+
+
+"golf/water_hazard": {
+
+
+
+
+
+"name": "تهدید آبی"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"name": "بزرگراه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'بزرگراه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/bridleway": {
+
+
+
+
+
+"name": "مسیر حیوانات اهلی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای   'Bridle Path'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/bus_stop": {
+
+
+
+
+
+"name": "ایستگاه اتوبوس",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'ایستگاه اتوبوس'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/crossing": {
+
+
+
+
+
+"name": "محل عبور عابر",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'خط کشی عابر پیاده'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/cycleway": {
+
+
+
+
+
+"name": "مسیر دوچرخه سواری",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسیر دوچرخه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/footway": {
+
+
+
+
+
+"name": "مسیر پیاده روی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسیر پیاده'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/living_street": {
+
+
+
+
+
+"name": "خیابان  محدوده زندگی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'خیابان محل زندگی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/mini_roundabout": {
+
+
+
+
+
+"name": "میدان کوچک",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای   'Mini-Roundabout'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/motorway": {
+
+
+
+
+
+"name": "بزرگراه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'بزرگراه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/motorway_junction": {
+
+
+
+
+
+"name": "تقاطع بزرگراه / خروج",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'تقاطع بزرگراه/خروج'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/motorway_link": {
+
+
+
+
+
+"name": "اتصال بزرگراه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوستن بزرگراه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/path": {
+
+
+
+
+
+"name": "مسیر",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مسیر'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/pedestrian": {
+
+
+
+
+
+"name": "عبور پیاده",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای   'Pedestrian'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/primary": {
+
+
+
+
+
+"name": "جاده اصلی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'راه اصلی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/primary_link": {
+
+
+
+
+
+"name": "اتصال اصلی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوستن راه اصلی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/residential": {
+
+
+
+
+
+"name": "جاده ی مسکونی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده مسکونی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/rest_area": {
+
+
+
+
+
+"name": "فضای استراحت"
+
+
+
+
+},
+
+
+
+
+"highway/road": {
+
+
+
+
+
+"name": "جاده ناشناخته",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده ناشناخته'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/secondary": {
+
+
+
+
+
+"name": "جاده دوم",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده دوم'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/secondary_link": {
+
+
+
+
+
+"name": "اتصال دومی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوستن دومی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/service": {
+
+
+
+
+
+"name": "جاده خدماتی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده خدماتی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/service/alley": {
+
+
+
+
+
+"name": "کوچه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'کوچه'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/service/drive-through": {
+
+
+
+
+
+"name": "پرداخت سواره",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پرداخت سواره'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/service/driveway": {
+
+
+
+
+
+"name": "جاده به خانه",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای   'Driveway'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/service/emergency_access": {
+
+
+
+
+
+"name": "دسترسی اورژانسی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'دسترسی اورژانسی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/service/parking_aisle": {
+
+
+
+
+
+"name": "راهرو پارکینگ",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'راهرو پارکینگ'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/services": {
+
+
+
+
+
+"name": "فضای خدماتی"
+
+
+
+
+},
+
+
+
+
+"highway/steps": {
+
+
+
+
+
+"name": "پله",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پله'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/stop": {
+
+
+
+
+
+"name": "علامت توقف"
+
+
+
+
+},
+
+
+
+
+"highway/tertiary": {
+
+
+
+
+
+"name": "جاده سوم",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده سوم'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/tertiary_link": {
+
+
+
+
+
+"name": "اتصال سومی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوند سوم'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/track": {
+
+
+
+
+
+"name": "مسیر خاکی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'راه خاکی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/traffic_signals": {
+
+
+
+
+
+"name": "چراغ راهنمایی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'چراغ راهنمایی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/trunk": {
+
+
+
+
+
+"name": "جاده ی ملی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده ملی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/trunk_link": {
+
+
+
+
+
+"name": "اتصال جاده ملی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'پیوند جاده ملی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/turning_circle": {
+
+
+
+
+
+"name": "بنبست قابل دور زدن",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'بنبست قابل دور زدن'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"highway/unclassified": {
+
+
+
+
+
+"name": "جاده طبقه بندی نشده",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'جاده طبقه بندی نشده'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"historic": {
+
+
+
+
+
+"name": "مکان تاریخی",
+
+
+
+
+
+"terms": "<ترجمه با مترادف یا اصطلاحات مشابه برای 'مکان تاریخی'، با کاما جدا میشوند>"
+
+
+
+
+},
+
+
+
+
+"historic/archaeological_site": {
+
+
+
+
+
+"name": "مکان باستان شناسی"
+
+
+
+
+},
+
+
+
+
+"historic/boundary_stone": {
+
+
+
+
+
+"name": "سنگ مرزی"
+
+
+
+
+},
+
+
+
+
+"historic/castle": {
+
+
+
+
+
+"name": "قلعه"
+
+
+
+
+},
+
+
+
+
+"historic/memorial": {
+
+
+
+
+
+"name": "یادبود"
+
+
+
+
+},
+
+
+
+
+"historic/monument": {
+
+
+
+
+
+"name": "مقبره"
+
+
+
+
+},
+
+
+
+
+"historic/ruins": {
+
+
+
+
+
+"name": "ویرانه"
+
+
+
+
+},
+
+
+
+
+"historic/wayside_cross": {
+
+
+
+
+
+"name": "صلیب کنار جاده"
+
+
+
+
+},
+
+
+
+
+"historic/wayside_shrine": {
+
+
+
+
+
+"name": "آرامگاه کنار جاده"
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"name": "کاربری زمین ها"
+
+
+
+
+},
+
+
+
+
+"landuse/allotments": {
+
+
+
+
+
+"name": "بخش پرورش گل و سبزیجات"
+
+
+
+
+},
+
+
+
+
+"landuse/basin": {
+
+
+
+
+
+"name": "حوزه رودخانه"
+
+
+
+
+},
+
+
+
+
+"landuse/cemetery": {
+
+
+
+
+
+"name": "قبرستان"
+
+
+
+
+},
+
+
+
+
+"landuse/construction": {
+
+
+
+
+
+"name": "ساخت و ساز"
+
+
+
+
+},
+
+
+
+
+"landuse/farmyard": {
+
+
+
+
+
+"name": "محوطه مزرعه"
+
+
+
+
+},
+
+
+
+
+"landuse/forest": {
+
+
+
+
+
+"name": "جنگل"
+
+
+
+
+},
+
+
+
+
+"landuse/grass": {
+
+
+
+
+
+"name": "علف زار"
+
+
+
+
+},
+
+
+
+
+"landuse/landfill": {
+
+
+
+
+
+"name": "محل دفن مواد (زباله)"
+
+
+
+
+},
+
+
+
+
+"landuse/meadow": {
+
+
+
+
+
+"name": "مرغزار"
+
+
+
+
+},
+
+
+
+
+"landuse/orchard": {
+
+
+
+
+
+"name": "باغ میوه"
+
+
+
+
+},
+
+
+
+
+"landuse/quarry": {
+
+
+
+
+
+"name": "معدن سنگ"
+
+
+
+
+},
+
+
+
+
+"landuse/vineyard": {
+
+
+
+
+
+"name": "باغ انگور"
+
+
+
+
+},
+
+
+
+
+"leisure": {
+
+
+
+
+
+"name": "اوقات فراغت"
+
+
+
+
+},
+
+
+
+
+"leisure/common": {
+
+
+
+
+
+"name": "عمومی"
+
+
+
+
+},
+
+
+
+
+"leisure/dog_park": {
+
+
+
+
+
+"name": "پارک سگ"
+
+
+
+
+},
+
+
+
+
+"leisure/garden": {
+
+
+
+
+
+"name": "باغ"
+
+
+
+
+},
+
+
+
+
+"leisure/golf_course": {
+
+
+
+
+
+"name": "زمین گلف"
+
+
+
+
+},
+
+
+
+
+"leisure/marina": {
+
+
+
+
+
+"name": "تفرجگاه ساحلی"
+
+
+
+
+},
+
+
+
+
+"leisure/park": {
+
+
+
+
+
+"name": "پارک"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch": {
+
+
+
+
+
+"name": "زمین ورزشی"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/american_football": {
+
+
+
+
+
+"name": "میدان فوتبال آمریکایی"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/baseball": {
+
+
+
+
+
+"name": "الماسی شکل بیسبال"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/basketball": {
+
+
+
+
+
+"name": "محوطه بسکتبال"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/skateboard": {
+
+
+
+
+
+"name": "پارک اسکیت"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/soccer": {
+
+
+
+
+
+"name": "میدان فوتبال"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/tennis": {
+
+
+
+
+
+"name": "محوطه تنیس"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/volleyball": {
+
+
+
+
+
+"name": "سالن والیبال"
+
+
+
+
+},
+
+
+
+
+"leisure/playground": {
+
+
+
+
+
+"name": "زمین بازی"
+
+
+
+
+},
+
+
+
+
+"leisure/slipway": {
+
+
+
+
+
+"name": "قایق ساکن"
+
+
+
+
+},
+
+
+
+
+"leisure/sports_center": {
+
+
+
+
+
+"name": "مرکز ورزشی/ بدنسازی"
+
+
+
+
+},
+
+
+
+
+"leisure/stadium": {
+
+
+
+
+
+"name": "ورزشگاه"
+
+
+
+
+},
+
+
+
+
+"leisure/swimming_pool": {
+
+
+
+
+
+"name": "استخر شنا"
+
+
+
+
+},
+
+
+
+
+"line": {
+
+
+
+
+
+"name": "خط"
+
+
+
+
+},
+
+
+
+
+"man_made": {
+
+
+
+
+
+"name": "سازه ی انسانی"
+
+
+
+
+},
+
+
+
+
+"man_made/breakwater": {
+
+
+
+
+
+"name": "موج شکن"
+
+
+
+
+},
+
+
+
+
+"man_made/cutline": {
+
+
+
+
+
+"name": "خط برش"
+
+
+
+
+},
+
+
+
+
+"man_made/embankment": {
+
+
+
+
+
+"name": "خاک ریز"
+
+
+
+
+},
+
+
+
+
+"man_made/flagpole": {
+
+
+
+
+
+"name": "میله پرچم"
+
+
+
+
+},
+
+
+
+
+"man_made/lighthouse": {
+
+
+
+
+
+"name": "فانوس دریایی"
+
+
+
+
+},
+
+
+
+
+"man_made/observation": {
+
+
+
+
+
+"name": "برج رصد"
+
+
+
+
+},
+
+
+
+
+"man_made/pier": {
+
+
+
+
+
+"name": "اسکله"
+
+
+
+
+},
+
+
+
+
+"man_made/pipeline": {
+
+
+
+
+
+"name": "خط لوله"
+
+
+
+
+},
+
+
+
+
+"man_made/survey_point": {
+
+
+
+
+
+"name": "نقطه مطالعاتی"
+
+
+
+
+},
+
+
+
+
+"man_made/tower": {
+
+
+
+
+
+"name": "دکل، برج"
+
+
+
+
+},
+
+
+
+
+"man_made/wastewater_plant": {
+
+
+
+
+
+"name": "تصفیه خانه ی فاضلاب"
+
+
+
+
+},
+
+
+
+
+"man_made/water_tower": {
+
+
+
+
+
+"name": "برج مخزن آب"
+
+
+
+
+},
+
+
+
+
+"man_made/water_works": {
+
+
+
+
+
+"name": "امور آب"
+
+
+
+
+},
+
+
+
+
+"military/airfield": {
+
+
+
+
+
+"name": "پایگاه هوایی"
+
+
+
+
+},
+
+
+
+
+"military/barracks": {
+
+
+
+
+
+"name": "پادگان"
+
+
+
+
+},
+
+
+
+
+"military/bunker": {
+
+
+
+
+
+"name": "سنگر زیرزمینی"
+
+
+
+
+},
+
+
+
+
+"military/range": {
+
+
+
+
+
+"name": "محدوده نظامی"
+
+
+
+
+},
+
+
+
+
+"natural": {
+
+
+
+
+
+"name": "طبیعی"
+
+
+
+
+},
+
+
+
+
+"natural/bay": {
+
+
+
+
+
+"name": "خلیج کوچک"
+
+
+
+
+},
+
+
+
+
+"natural/beach": {
+
+
+
+
+
+"name": "ساحل"
+
+
+
+
+},
+
+
+
+
+"natural/cliff": {
+
+
+
+
+
+"name": "صخره"
+
+
+
+
+},
+
+
+
+
+"natural/coastline": {
+
+
+
+
+
+"name": "خط ساحلی"
+
+
+
+
+},
+
+
+
+
+"natural/fell": {
+
+
+
+
+
+"name": "تپه سنگی"
+
+
+
+
+},
+
+
+
+
+"natural/glacier": {
+
+
+
+
+
+"name": "یخچال طبیعی"
+
+
+
+
+},
+
+
+
+
+"natural/grassland": {
+
+
+
+
+
+"name": "مرتع"
+
+
+
+
+},
+
+
+
+
+"natural/heath": {
+
+
+
+
+
+"name": "بوته زار"
+
+
+
+
+},
+
+
+
+
+"natural/peak": {
+
+
+
+
+
+"name": "قله"
+
+
+
+
+},
+
+
+
+
+"natural/scree": {
+
+
+
+
+
+"name": "سنگ ریزه"
+
+
+
+
+},
+
+
+
+
+"natural/scrub": {
+
+
+
+
+
+"name": "خارزار"
+
+
+
+
+},
+
+
+
+
+"natural/spring": {
+
+
+
+
+
+"name": "چشمه"
+
+
+
+
+},
+
+
+
+
+"natural/tree": {
+
+
+
+
+
+"name": "درخت"
+
+
+
+
+},
+
+
+
+
+"natural/water": {
+
+
+
+
+
+"name": "آب"
+
+
+
+
+},
+
+
+
+
+"natural/water/lake": {
+
+
+
+
+
+"name": "برکه ، استخر"
+
+
+
+
+},
+
+
+
+
+"natural/water/pond": {
+
+
+
+
+
+"name": "دریاچه"
+
+
+
+
+},
+
+
+
+
+"natural/water/reservoir": {
+
+
+
+
+
+"name": "آب انبار"
+
+
+
+
+},
+
+
+
+
+"natural/wetland": {
+
+
+
+
+
+"name": "تالاب"
+
+
+
+
+},
+
+
+
+
+"natural/wood": {
+
+
+
+
+
+"name": "چوب"
+
+
+
+
+},
+
+
+
+
+"office": {
+
+
+
+
+
+"name": "اداره"
+
+
+
+
+},
+
+
+
+
+"office/accountant": {
+
+
+
+
+
+"name": "حسابدار"
+
+
+
+
+},
+
+
+
+
+"office/administrative": {
+
+
+
+
+
+"name": "دفتر اداری"
+
+
+
+
+},
+
+
+
+
+"office/architect": {
+
+
+
+
+
+"name": "معمار"
+
+
+
+
+},
+
+
+
+
+"office/company": {
+
+
+
+
+
+"name": "دفتر شرکت"
+
+
+
+
+},
+
+
+
+
+"office/educational_institution": {
+
+
+
+
+
+"name": "مؤسسه آموزشی"
+
+
+
+
+},
+
+
+
+
+"office/employment_agency": {
+
+
+
+
+
+"name": "آژانس کاریابی"
+
+
+
+
+},
+
+
+
+
+"office/estate_agent": {
+
+
+
+
+
+"name": "دفتر املاک"
+
+
+
+
+},
+
+
+
+
+"office/financial": {
+
+
+
+
+
+"name": "اداره مالی"
+
+
+
+
+},
+
+
+
+
+"office/government": {
+
+
+
+
+
+"name": "اداره دولتی"
+
+
+
+
+},
+
+
+
+
+"office/insurance": {
+
+
+
+
+
+"name": "دفتر بیمه"
+
+
+
+
+},
+
+
+
+
+"office/it": {
+
+
+
+
+
+"name": "سازمان آی تی"
+
+
+
+
+},
+
+
+
+
+"office/lawyer": {
+
+
+
+
+
+"name": "دفتر حقوقی"
+
+
+
+
+},
+
+
+
+
+"office/newspaper": {
+
+
+
+
+
+"name": "روزنامه"
+
+
+
+
+},
+
+
+
+
+"office/ngo": {
+
+
+
+
+
+"name": "سازمان غیر دولتی"
+
+
+
+
+},
+
+
+
+
+"office/physician": {
+
+
+
+
+
+"name": "پزشک"
+
+
+
+
+},
+
+
+
+
+"office/political_party": {
+
+
+
+
+
+"name": "حزب سیاسی"
+
+
+
+
+},
+
+
+
+
+"office/research": {
+
+
+
+
+
+"name": "سازمان تحقیقاتی و پژوهشی"
+
+
+
+
+},
+
+
+
+
+"office/telecommunication": {
+
+
+
+
+
+"name": "اداره مخابرات"
+
+
+
+
+},
+
+
+
+
+"office/therapist": {
+
+
+
+
+
+"name": "درمان شناس"
+
+
+
+
+},
+
+
+
+
+"office/travel_agent": {
+
+
+
+
+
+"name": "آژانس مسافرتی"
+
+
+
+
+},
+
+
+
+
+"piste": {
+
+
+
+
+
+"name": "پیست/ مسیر اسکی"
+
+
+
+
+},
+
+
+
+
+"place": {
+
+
+
+
+
+"name": "محل"
+
+
+
+
+},
+
+
+
+
+"place/city": {
+
+
+
+
+
+"name": "شهر"
+
+
+
+
+},
+
+
+
+
+"place/hamlet": {
+
+
+
+
+
+"name": "دهکده"
+
+
+
+
+},
+
+
+
+
+"place/island": {
+
+
+
+
+
+"name": "جزیره"
+
+
+
+
+},
+
+
+
+
+"place/isolated_dwelling": {
+
+
+
+
+
+"name": "مسکن ایزوله"
+
+
+
+
+},
+
+
+
+
+"place/locality": {
+
+
+
+
+
+"name": "محلی"
+
+
+
+
+},
+
+
+
+
+"place/town": {
+
+
+
+
+
+"name": "شهر کوچک"
+
+
+
+
+},
+
+
+
+
+"place/village": {
+
+
+
+
+
+"name": "روستا"
+
+
+
+
+},
+
+
+
+
+"point": {
+
+
+
+
+
+"name": "نقطه"
+
+
+
+
+},
+
+
+
+
+"power": {
+
+
+
+
+
+"name": "نیرو"
+
+
+
+
+},
+
+
+
+
+"power/generator": {
+
+
+
+
+
+"name": "مولد برق"
+
+
+
+
+},
+
+
+
+
+"power/line": {
+
+
+
+
+
+"name": "خط نیرو"
+
+
+
+
+},
+
+
+
+
+"power/minor_line": {
+
+
+
+
+
+"name": "خط برق ضعیف"
+
+
+
+
+},
+
+
+
+
+"power/pole": {
+
+
+
+
+
+"name": "مسیر برق متوسط"
+
+
+
+
+},
+
+
+
+
+"power/sub_station": {
+
+
+
+
+
+"name": "ایستگاه فرعی"
+
+
+
+
+},
+
+
+
+
+"power/tower": {
+
+
+
+
+
+"name": "دکل ولتاژ قوی"
+
+
+
+
+},
+
+
+
+
+"power/transformer": {
+
+
+
+
+
+"name": "مبدل برق"
+
+
+
+
+},
+
+
+
+
+"public_transport/platform": {
+
+
+
+
+
+"name": "پلتفورم"
+
+
+
+
+},
+
+
+
+
+"public_transport/stop_position": {
+
+
+
+
+
+"name": "موقعیت توقف"
+
+
+
+
+},
+
+
+
+
+"railway": {
+
+
+
+
+
+"name": "راه آهن"
+
+
+
+
+},
+
+
+
+
+"railway/abandoned": {
+
+
+
+
+
+"name": "راه آهن متروکه"
+
+
+
+
+},
+
+
+
+
+"railway/disused": {
+
+
+
+
+
+"name": "راه آهن بلا استفاده"
+
+
+
+
+},
+
+
+
+
+"railway/funicular": {
+
+
+
+
+
+"name": "کابلی"
+
+
+
+
+},
+
+
+
+
+"railway/halt": {
+
+
+
+
+
+"name": "توقف گاه راه آهن"
+
+
+
+
+},
+
+
+
+
+"railway/level_crossing": {
+
+
+
+
+
+"name": "تقاطع راه آهن"
+
+
+
+
+},
+
+
+
+
+"railway/monorail": {
+
+
+
+
+
+"name": "ترن هوایی"
+
+
+
+
+},
+
+
+
+
+"railway/narrow_gauge": {
+
+
+
+
+
+"name": "راه آهن باریک کابلی"
+
+
+
+
+},
+
+
+
+
+"railway/platform": {
+
+
+
+
+
+"name": "بستر راه آهن"
+
+
+
+
+},
+
+
+
+
+"railway/rail": {
+
+
+
+
+
+"name": "ریل قطار"
+
+
+
+
+},
+
+
+
+
+"railway/station": {
+
+
+
+
+
+"name": "ایستگاه راه آهن"
+
+
+
+
+},
+
+
+
+
+"railway/subway": {
+
+
+
+
+
+"name": "مترو"
+
+
+
+
+},
+
+
+
+
+"railway/subway_entrance": {
+
+
+
+
+
+"name": "ورودی مترو"
+
+
+
+
+},
+
+
+
+
+"railway/tram": {
+
+
+
+
+
+"name": "واگن برقی"
+
+
+
+
+},
+
+
+
+
+"relation": {
+
+
+
+
+
+"name": "رابطه"
+
+
+
+
+},
+
+
+
+
+"route/ferry": {
+
+
+
+
+
+"name": "مسیر کشتی"
+
+
+
+
+},
+
+
+
+
+"shop": {
+
+
+
+
+
+"name": "فروشگاه"
+
+
+
+
+},
+
+
+
+
+"shop/alcohol": {
+
+
+
+
+
+"name": "مغازه مشروب فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/bakery": {
+
+
+
+
+
+"name": "نانوایی"
+
+
+
+
+},
+
+
+
+
+"shop/beauty": {
+
+
+
+
+
+"name": "فروشگاه زیبایی"
+
+
+
+
+},
+
+
+
+
+"shop/beverages": {
+
+
+
+
+
+"name": "فروشگاه آشامیدنی"
+
+
+
+
+},
+
+
+
+
+"shop/bicycle": {
+
+
+
+
+
+"name": "فروشگاه دوچرخه"
+
+
+
+
+},
+
+
+
+
+"shop/bookmaker": {
+
+
+
+
+
+"name": "صحافی"
+
+
+
+
+},
+
+
+
+
+"shop/boutique": {
+
+
+
+
+
+"name": "بوتیک"
+
+
+
+
+},
+
+
+
+
+"shop/butcher": {
+
+
+
+
+
+"name": "قصابی"
+
+
+
+
+},
+
+
+
+
+"shop/car": {
+
+
+
+
+
+"name": "نمایندگی خودرو"
+
+
+
+
+},
+
+
+
+
+"shop/car_parts": {
+
+
+
+
+
+"name": "فروشگاه قطعات خودرو"
+
+
+
+
+},
+
+
+
+
+"shop/car_repair": {
+
+
+
+
+
+"name": "تعمیرگاه خودرو"
+
+
+
+
+},
+
+
+
+
+"shop/chemist": {
+
+
+
+
+
+"name": "داروسازی"
+
+
+
+
+},
+
+
+
+
+"shop/clothes": {
+
+
+
+
+
+"name": "فروشگاه لباس"
+
+
+
+
+},
+
+
+
+
+"shop/computer": {
+
+
+
+
+
+"name": "فروشگاه کامپیوتر"
+
+
+
+
+},
+
+
+
+
+"shop/convenience": {
+
+
+
+
+
+"name": "فروشگاه زنجیره ای"
+
+
+
+
+},
+
+
+
+
+"shop/deli": {
+
+
+
+
+
+"name": "اغذیه فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/department_store": {
+
+
+
+
+
+"name": "کل فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/doityourself": {
+
+
+
+
+
+"name": "فروشگاه DIY"
+
+
+
+
+},
+
+
+
+
+"shop/electronics": {
+
+
+
+
+
+"name": "فروشگاه الکترونیک"
+
+
+
+
+},
+
+
+
+
+"shop/farm": {
+
+
+
+
+
+"name": "تولید پایه"
+
+
+
+
+},
+
+
+
+
+"shop/fishmonger": {
+
+
+
+
+
+"name": "ماهی فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/florist": {
+
+
+
+
+
+"name": "گل فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/furniture": {
+
+
+
+
+
+"name": "فروشگاه مبلمان"
+
+
+
+
+},
+
+
+
+
+"shop/garden_centre": {
+
+
+
+
+
+"name": "مرکز خرید باغچه"
+
+
+
+
+},
+
+
+
+
+"shop/gift": {
+
+
+
+
+
+"name": "هدیه فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/greengrocer": {
+
+
+
+
+
+"name": "سبزی فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/hairdresser": {
+
+
+
+
+
+"name": "آرایش و پیرایش"
+
+
+
+
+},
+
+
+
+
+"shop/hardware": {
+
+
+
+
+
+"name": "فروشگاه سخت افزار"
+
+
+
+
+},
+
+
+
+
+"shop/hifi": {
+
+
+
+
+
+"name": "فروشگاه Hifi"
+
+
+
+
+},
+
+
+
+
+"shop/jewelry": {
+
+
+
+
+
+"name": "جواهر فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/laundry": {
+
+
+
+
+
+"name": "خشک شویی"
+
+
+
+
+},
+
+
+
+
+"shop/locksmith": {
+
+
+
+
+
+"name": "قفل سازی"
+
+
+
+
+},
+
+
+
+
+"shop/lottery": {
+
+
+
+
+
+"name": "فروشگاه قرعه کشی"
+
+
+
+
+},
+
+
+
+
+"shop/mall": {
+
+
+
+
+
+"name": "مرکز خرید"
+
+
+
+
+},
+
+
+
+
+"shop/mobile_phone": {
+
+
+
+
+
+"name": "فروشگاه تلفن همراه"
+
+
+
+
+},
+
+
+
+
+"shop/motorcycle": {
+
+
+
+
+
+"name": "نمایندگی موتور سیکلت"
+
+
+
+
+},
+
+
+
+
+"shop/music": {
+
+
+
+
+
+"name": "فروشگاه موسیقی"
+
+
+
+
+},
+
+
+
+
+"shop/optician": {
+
+
+
+
+
+"name": "عینک سازی"
+
+
+
+
+},
+
+
+
+
+"shop/pet": {
+
+
+
+
+
+"name": "فروشگاه حیوانات خانگی"
+
+
+
+
+},
+
+
+
+
+"shop/photo": {
+
+
+
+
+
+"name": "فروشگاه عکاسی"
+
+
+
+
+},
+
+
+
+
+"shop/shoes": {
+
+
+
+
+
+"name": "کفش فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/sports": {
+
+
+
+
+
+"name": "فروشگاه لوازم ورزشی"
+
+
+
+
+},
+
+
+
+
+"shop/stationery": {
+
+
+
+
+
+"name": "فروشگاه لوازم التحریر"
+
+
+
+
+},
+
+
+
+
+"shop/supermarket": {
+
+
+
+
+
+"name": "سوپرمارکت"
+
+
+
+
+},
+
+
+
+
+"shop/toys": {
+
+
+
+
+
+"name": "اسباب بازی فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/travel_agency": {
+
+
+
+
+
+"name": "آژانس مسافرتی"
+
+
+
+
+},
+
+
+
+
+"shop/tyres": {
+
+
+
+
+
+"name": "تایر فروشی"
+
+
+
+
+},
+
+
+
+
+"shop/vacant": {
+
+
+
+
+
+"name": "فروشگاه بدون متصدی"
+
+
+
+
+},
+
+
+
+
+"shop/variety_store": {
+
+
+
+
+
+"name": "فروشگاه متنوع"
+
+
+
+
+},
+
+
+
+
+"shop/video": {
+
+
+
+
+
+"name": "فیلم فروشی"
+
+
+
+
+},
+
+
+
+
+"tourism": {
+
+
+
+
+
+"name": "توریستی"
+
+
+
+
+},
+
+
+
+
+"tourism/alpine_hut": {
+
+
+
+
+
+"name": "کلبه ارائه خدمات"
+
+
+
+
+},
+
+
+
+
+"tourism/artwork": {
+
+
+
+
+
+"name": "اثر هنری"
+
+
+
+
+},
+
+
+
+
+"tourism/attraction": {
+
+
+
+
+
+"name": "جاذبه های توریستی"
+
+
+
+
+},
+
+
+
+
+"tourism/camp_site": {
+
+
+
+
+
+"name": "اردوگاه"
+
+
+
+
+},
+
+
+
+
+"tourism/caravan_site": {
+
+
+
+
+
+"name": "پارکینگ ماشین کاروان"
+
+
+
+
+},
+
+
+
+
+"tourism/chalet": {
+
+
+
+
+
+"name": "کلبه ییلاقی"
+
+
+
+
+},
+
+
+
+
+"tourism/guest_house": {
+
+
+
+
+
+"name": "مهمان خانه"
+
+
+
+
+},
+
+
+
+
+"tourism/hostel": {
+
+
+
+
+
+"name": "مسافرخانه"
+
+
+
+
+},
+
+
+
+
+"tourism/hotel": {
+
+
+
+
+
+"name": "هتل"
+
+
+
+
+},
+
+
+
+
+"tourism/information": {
+
+
+
+
+
+"name": "اطلاعات"
+
+
+
+
+},
+
+
+
+
+"tourism/motel": {
+
+
+
+
+
+"name": "متل"
+
+
+
+
+},
+
+
+
+
+"tourism/museum": {
+
+
+
+
+
+"name": "موزه"
+
+
+
+
+},
+
+
+
+
+"tourism/picnic_site": {
+
+
+
+
+
+"name": "مکان پیک نیک"
+
+
+
+
+},
+
+
+
+
+"tourism/theme_park": {
+
+
+
+
+
+"name": "پارک تفریحی"
+
+
+
+
+},
+
+
+
+
+"tourism/viewpoint": {
+
+
+
+
+
+"name": "منظره"
+
+
+
+
+},
+
+
+
+
+"tourism/zoo": {
+
+
+
+
+
+"name": "باغ وحش"
+
+
+
+
+},
+
+
+
+
+"type/boundary": {
+
+
+
+
+
+"name": "مرز"
+
+
+
+
+},
+
+
+
+
+"type/boundary/administrative": {
+
+
+
+
+
+"name": "مرز اداری"
+
+
+
+
+},
+
+
+
+
+"type/multipolygon": {
+
+
+
+
+
+"name": "چند ضلعی"
+
+
+
+
+},
+
+
+
+
+"type/restriction": {
+
+
+
+
+
+"name": "محدوده"
+
+
+
+
+},
+
+
+
+
+"type/route": {
+
+
+
+
+
+"name": "مسیر"
+
+
+
+
+},
+
+
+
+
+"type/route/bicycle": {
+
+
+
+
+
+"name": "مسیر دوچرخه"
+
+
+
+
+},
+
+
+
+
+"type/route/bus": {
+
+
+
+
+
+"name": "مسیر اتوبوس"
+
+
+
+
+},
+
+
+
+
+"type/route/detour": {
+
+
+
+
+
+"name": "مسیر جایگزین"
+
+
+
+
+},
+
+
+
+
+"type/route/ferry": {
+
+
+
+
+
+"name": "مسیر کشتی"
+
+
+
+
+},
+
+
+
+
+"type/route/foot": {
+
+
+
+
+
+"name": "مسیر پیاده"
+
+
+
+
+},
+
+
+
+
+"type/route/hiking": {
+
+
+
+
+
+"name": "مسیر کوهنوردی"
+
+
+
+
+},
+
+
+
+
+"type/route/pipeline": {
+
+
+
+
+
+"name": "مسیر خط لوله"
+
+
+
+
+},
+
+
+
+
+"type/route/power": {
+
+
+
+
+
+"name": "مسیر برق"
+
+
+
+
+},
+
+
+
+
+"type/route/road": {
+
+
+
+
+
+"name": "مسیر جاده"
+
+
+
+
+},
+
+
+
+
+"type/route/train": {
+
+
+
+
+
+"name": "مسیر راه آهن"
+
+
+
+
+},
+
+
+
+
+"type/route/tram": {
+
+
+
+
+
+"name": "مسیر قطار برقی"
+
+
+
+
+},
+
+
+
+
+"type/route_master": {
+
+
+
+
+
+"name": "مسیر اصلی"
+
+
+
+
+},
+
+
+
+
+"vertex": {
+
+
+
+
+
+"name": "سایر"
+
+
+
+
+},
+
+
+
+
+"waterway": {
+
+
+
+
+
+"name": "راه آبی"
+
+
+
+
+},
+
+
+
+
+"waterway/canal": {
+
+
+
+
+
+"name": "کانال"
+
+
+
+
+},
+
+
+
+
+"waterway/dam": {
+
+
+
+
+
+"name": "سد"
+
+
+
+
+},
+
+
+
+
+"waterway/ditch": {
+
+
+
+
+
+"name": "جوی آب"
+
+
+
+
+},
+
+
+
+
+"waterway/drain": {
+
+
+
+
+
+"name": "فاضلاب"
+
+
+
+
+},
+
+
+
+
+"waterway/river": {
+
+
+
+
+
+"name": "رودخانه"
+
+
+
+
+},
+
+
+
+
+"waterway/riverbank": {
+
+
+
+
+
+"name": "حاشیه رودخانه"
+
+
+
+
+},
+
+
+
+
+"waterway/stream": {
+
+
+
+
+
+"name": "نهر"
+
+
+
+
+},
+
+
+
+
+"waterway/weir": {
+
+
+
+
+
+"name": "بند"
+
+
+
+
+}
+
+
+
+}
+
+
+}
+
+}
 }

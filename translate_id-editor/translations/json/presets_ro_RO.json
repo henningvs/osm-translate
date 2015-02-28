@@ -1,4 +1,1383 @@
 {
-	"content": "ro_RO:\n  presets:\n    fields:\n      access:\n        label: Acces\n      address:\n        label: Adresă\n        placeholders:\n          street: Stradă\n          city: Oraș\n      aeroway:\n        label: Tip\n      amenity:\n        label: Tip\n      atm:\n        label: ATM\n      bicycle_parking:\n        label: Tip\n      building:\n        label: Clădire\n      building_area:\n        label: Clădire\n      capacity:\n        label: Capacitate\n      construction:\n        label: Tip\n      crossing:\n        label: Tip\n      denomination:\n        label: Denominare\n      emergency:\n        label: Urgență\n      entrance:\n        label: Tip\n      fax:\n        label: Fax\n      fee:\n        label: Taxă\n      highway:\n        label: Tip\n      historic:\n        label: Tip\n      internet_access:\n        label: Acces internet\n        options:\n          wlan: Wifi\n          wired: Conectat\n          terminal: Terminal\n      landuse:\n        label: Tip\n      layer:\n        label: Strat\n      leisure:\n        label: Tip\n      levels:\n        label: Nivele\n      man_made:\n        label: Tip\n      maxspeed:\n        label: Limită de viteză\n      natural:\n        label: Natural\n      network:\n        label: Rețea\n      note:\n        label: Notă\n      office:\n        label: Tip\n      oneway:\n        label: Sens unic\n      opening_hours:\n        label: Ore\n      operator:\n        label: Operator\n      phone:\n        label: Telefon\n      place:\n        label: Tip\n      railway:\n        label: Tip\n      religion:\n        label: Religie\n      service:\n        label: Tip\n      shelter:\n        label: Adăpost\n      shop:\n        label: Tip\n      source:\n        label: Sursă\n      sport:\n        label: Sport\n      surface:\n        label: Suprafață\n      tourism:\n        label: Tip\n      water:\n        label: Tip\n      waterway:\n        label: Tip\n      website:\n        label: Website\n      wetland:\n        label: Tip\n      wikipedia:\n        label: Wikipedia\n    presets:\n      aeroway:\n        name: Aeroway\n      aeroway/aerodrome:\n        name: Aeroport\n      amenity/bank:\n        name: Banca\n      amenity/bar:\n        name: Bar\n      amenity/bicycle_parking:\n        name: Parcare biciclete\n      amenity/bicycle_rental:\n        name: Închiriere biciclete\n      amenity/cafe:\n        name: Cafenea\n      amenity/cinema:\n        name: Cinema\n      amenity/fast_food:\n        name: Fast Food\n      amenity/fire_station:\n        name: Pompieri\n      amenity/grave_yard:\n        name: Cimitir\n      amenity/library:\n        name: Librărie\n      amenity/pharmacy:\n        name: Farmacie\n      amenity/place_of_worship/christian:\n        name: Biserică\n      amenity/place_of_worship/jewish:\n        name: Sinagogă\n      amenity/place_of_worship/muslim:\n        name: Moschee\n      amenity/police:\n        name: Poliție\n      amenity/post_box:\n        name: Cutie Poștală\n      amenity/post_office:\n        name: Oficiul Poștal\n      amenity/pub:\n        name: Pub\n      amenity/restaurant:\n        name: Restaurant\n      amenity/toilets:\n        name: Toaletă\n      amenity/townhall:\n        name: Primărie\n      building:\n        name: Clădire\n      highway:\n        name: Autostradă\n      highway/bus_stop:\n        name: Stație de autobuz\n      highway/crossing:\n        name: Trecere\n      highway/cycleway:\n        name: Pistă biciclete\n      highway/footway:\n        name: Potecă\n      highway/primary:\n        name: Drum principal\n      highway/residential:\n        name: Drum rezidențial\n      highway/secondary:\n        name: Drum secundar\n      highway/steps:\n        name: Scări\n",
-	"mimetype": "text/plain"
+
+"ro_RO": {
+
+
+"presets": {
+
+
+
+"fields": {
+
+
+
+
+"access": {
+
+
+
+
+
+"label": "Acces"
+
+
+
+
+},
+
+
+
+
+"address": {
+
+
+
+
+
+"label": "Adresă",
+
+
+
+
+
+"placeholders": {
+
+
+
+
+
+
+"street": "Stradă",
+
+
+
+
+
+
+"city": "Oraș"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"amenity": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"atm": {
+
+
+
+
+
+"label": "ATM"
+
+
+
+
+},
+
+
+
+
+"bicycle_parking": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"label": "Clădire"
+
+
+
+
+},
+
+
+
+
+"building_area": {
+
+
+
+
+
+"label": "Clădire"
+
+
+
+
+},
+
+
+
+
+"capacity": {
+
+
+
+
+
+"label": "Capacitate"
+
+
+
+
+},
+
+
+
+
+"construction": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"crossing": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"denomination": {
+
+
+
+
+
+"label": "Denominare"
+
+
+
+
+},
+
+
+
+
+"emergency": {
+
+
+
+
+
+"label": "Urgență"
+
+
+
+
+},
+
+
+
+
+"entrance": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"fax": {
+
+
+
+
+
+"label": "Fax"
+
+
+
+
+},
+
+
+
+
+"fee": {
+
+
+
+
+
+"label": "Taxă"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"historic": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"internet_access": {
+
+
+
+
+
+"label": "Acces internet",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"wlan": "Wifi",
+
+
+
+
+
+
+"wired": "Conectat",
+
+
+
+
+
+
+"terminal": "Terminal"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"layer": {
+
+
+
+
+
+"label": "Strat"
+
+
+
+
+},
+
+
+
+
+"leisure": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"levels": {
+
+
+
+
+
+"label": "Nivele"
+
+
+
+
+},
+
+
+
+
+"man_made": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"maxspeed": {
+
+
+
+
+
+"label": "Limită de viteză"
+
+
+
+
+},
+
+
+
+
+"natural": {
+
+
+
+
+
+"label": "Natural"
+
+
+
+
+},
+
+
+
+
+"network": {
+
+
+
+
+
+"label": "Rețea"
+
+
+
+
+},
+
+
+
+
+"note": {
+
+
+
+
+
+"label": "Notă"
+
+
+
+
+},
+
+
+
+
+"office": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"oneway": {
+
+
+
+
+
+"label": "Sens unic"
+
+
+
+
+},
+
+
+
+
+"opening_hours": {
+
+
+
+
+
+"label": "Ore"
+
+
+
+
+},
+
+
+
+
+"operator": {
+
+
+
+
+
+"label": "Operator"
+
+
+
+
+},
+
+
+
+
+"phone": {
+
+
+
+
+
+"label": "Telefon"
+
+
+
+
+},
+
+
+
+
+"place": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"railway": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"religion": {
+
+
+
+
+
+"label": "Religie"
+
+
+
+
+},
+
+
+
+
+"service": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"shelter": {
+
+
+
+
+
+"label": "Adăpost"
+
+
+
+
+},
+
+
+
+
+"shop": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"source": {
+
+
+
+
+
+"label": "Sursă"
+
+
+
+
+},
+
+
+
+
+"sport": {
+
+
+
+
+
+"label": "Sport"
+
+
+
+
+},
+
+
+
+
+"surface": {
+
+
+
+
+
+"label": "Suprafață"
+
+
+
+
+},
+
+
+
+
+"tourism": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"water": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"waterway": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"website": {
+
+
+
+
+
+"label": "Website"
+
+
+
+
+},
+
+
+
+
+"wetland": {
+
+
+
+
+
+"label": "Tip"
+
+
+
+
+},
+
+
+
+
+"wikipedia": {
+
+
+
+
+
+"label": "Wikipedia"
+
+
+
+
+}
+
+
+
+},
+
+
+
+"presets": {
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"name": "Aeroway"
+
+
+
+
+},
+
+
+
+
+"aeroway/aerodrome": {
+
+
+
+
+
+"name": "Aeroport"
+
+
+
+
+},
+
+
+
+
+"amenity/bank": {
+
+
+
+
+
+"name": "Banca"
+
+
+
+
+},
+
+
+
+
+"amenity/bar": {
+
+
+
+
+
+"name": "Bar"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_parking": {
+
+
+
+
+
+"name": "Parcare biciclete"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_rental": {
+
+
+
+
+
+"name": "Închiriere biciclete"
+
+
+
+
+},
+
+
+
+
+"amenity/cafe": {
+
+
+
+
+
+"name": "Cafenea"
+
+
+
+
+},
+
+
+
+
+"amenity/cinema": {
+
+
+
+
+
+"name": "Cinema"
+
+
+
+
+},
+
+
+
+
+"amenity/fast_food": {
+
+
+
+
+
+"name": "Fast Food"
+
+
+
+
+},
+
+
+
+
+"amenity/fire_station": {
+
+
+
+
+
+"name": "Pompieri"
+
+
+
+
+},
+
+
+
+
+"amenity/grave_yard": {
+
+
+
+
+
+"name": "Cimitir"
+
+
+
+
+},
+
+
+
+
+"amenity/library": {
+
+
+
+
+
+"name": "Librărie"
+
+
+
+
+},
+
+
+
+
+"amenity/pharmacy": {
+
+
+
+
+
+"name": "Farmacie"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/christian": {
+
+
+
+
+
+"name": "Biserică"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/jewish": {
+
+
+
+
+
+"name": "Sinagogă"
+
+
+
+
+},
+
+
+
+
+"amenity/place_of_worship/muslim": {
+
+
+
+
+
+"name": "Moschee"
+
+
+
+
+},
+
+
+
+
+"amenity/police": {
+
+
+
+
+
+"name": "Poliție"
+
+
+
+
+},
+
+
+
+
+"amenity/post_box": {
+
+
+
+
+
+"name": "Cutie Poștală"
+
+
+
+
+},
+
+
+
+
+"amenity/post_office": {
+
+
+
+
+
+"name": "Oficiul Poștal"
+
+
+
+
+},
+
+
+
+
+"amenity/pub": {
+
+
+
+
+
+"name": "Pub"
+
+
+
+
+},
+
+
+
+
+"amenity/restaurant": {
+
+
+
+
+
+"name": "Restaurant"
+
+
+
+
+},
+
+
+
+
+"amenity/toilets": {
+
+
+
+
+
+"name": "Toaletă"
+
+
+
+
+},
+
+
+
+
+"amenity/townhall": {
+
+
+
+
+
+"name": "Primărie"
+
+
+
+
+},
+
+
+
+
+"building": {
+
+
+
+
+
+"name": "Clădire"
+
+
+
+
+},
+
+
+
+
+"highway": {
+
+
+
+
+
+"name": "Autostradă"
+
+
+
+
+},
+
+
+
+
+"highway/bus_stop": {
+
+
+
+
+
+"name": "Stație de autobuz"
+
+
+
+
+},
+
+
+
+
+"highway/crossing": {
+
+
+
+
+
+"name": "Trecere"
+
+
+
+
+},
+
+
+
+
+"highway/cycleway": {
+
+
+
+
+
+"name": "Pistă biciclete"
+
+
+
+
+},
+
+
+
+
+"highway/footway": {
+
+
+
+
+
+"name": "Potecă"
+
+
+
+
+},
+
+
+
+
+"highway/primary": {
+
+
+
+
+
+"name": "Drum principal"
+
+
+
+
+},
+
+
+
+
+"highway/residential": {
+
+
+
+
+
+"name": "Drum rezidențial"
+
+
+
+
+},
+
+
+
+
+"highway/secondary": {
+
+
+
+
+
+"name": "Drum secundar"
+
+
+
+
+},
+
+
+
+
+"highway/steps": {
+
+
+
+
+
+"name": "Scări"
+
+
+
+
+}
+
+
+
+}
+
+
+}
+
+}
 }

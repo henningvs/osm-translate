@@ -9,15 +9,16 @@ console.log('No. of files found in '+outdir+': ' + lang_files.length);
 
 //Get all files in the localication dir
 for (var i in lang_files){
-	if(lang_files[i].match(".+?yaml")!=null){
+	if(lang_files[i].match(".+?json")!=null){
 		var current_file = outdir+lang_files[i];
 		console.log('Convert File: ' + current_file);
 	
+		var data = require('./yaml/'+lang_files[i]);
 		//Convert the current file
-		var lang_yaml = yaml.safeLoad(fs.readFileSync(current_file, 'utf8'));	
-		var lang_json = JSON.stringify(lang_yaml,null,'\t');
+		var lang_yaml = yaml.load(data['content']);	
+		var lang_json = JSON.stringify(lang_yaml,null,'\n');
 
 		//Write to file
-		fs.writeFile(outdirJson+lang_files[i].split("\.")[0]+'.json', lang_json, 'utf8');
+		fs.writeFile(outdirJson+lang_files[i], lang_json, 'utf8');
 	}
 }

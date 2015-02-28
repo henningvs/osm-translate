@@ -1,4 +1,36 @@
 {
-	"content": "hi_IN:\n  presets:\n    categories:\n      category-building:\n        name: इमारत\n",
-	"mimetype": "text/plain"
+
+"hi_IN": {
+
+
+"presets": {
+
+
+
+"categories": {
+
+
+
+
+"category-building": {
+
+
+
+
+
+"name": "इमारत"
+
+
+
+
+}
+
+
+
+}
+
+
+}
+
+}
 }
