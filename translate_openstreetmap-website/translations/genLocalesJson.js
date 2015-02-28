@@ -3,6 +3,7 @@
 //Include 'yamljs' module.
 var yaml = require("js-yaml");
 var fs = require("fs");
+var base_dir = 'translate_openstreetmap-website/';
 
 var lang_files = fs.readdirSync('./openstreetmap-website/config/locales/');
 console.log('No. of files found in ./openstreetmap-website/config/locales/: ' + lang_files.length);
@@ -18,7 +19,7 @@ for (var i in lang_files){
 		var lang_en_json = JSON.stringify(lang_en_yaml,null,'\t');
 
 		//Write to file
-		fs.writeFile('osm-website/translations/locales/'+lang_files[i].split("\.")[0]+'.json', lang_en_json, 'utf8');
+		fs.writeFile(base_dir+'translations/locales/'+lang_files[i].split("\.")[0]+'.json', lang_en_json, 'utf8');
 	}
 }
 

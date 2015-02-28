@@ -48,6 +48,7 @@ function downloadFile(reslang, callback){
 		'path': path,
 		'port': 443,
 		'method': 'GET',
+		
 		'auth': auth["username"] + ':' + auth["password"]
 		}, function(res) {
 			
@@ -58,6 +59,10 @@ function downloadFile(reslang, callback){
 	            console.log('Successfully downloaded: '+resource + "_"+language+' to '+outdir);
 	            callback(null);
 	        });
+	});
+	
+	currentRequest.setTimeout(60000, function( ) {
+		downloadFile(reslang, null);
 	});
 };
 
