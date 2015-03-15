@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Inclinar",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Amunt",
+
+
+
+
+
+
+"down": "Avall"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -12500,6 +12542,22 @@
 
 
 "terms": "Relació"
+
+
+
+
+},
+
+
+
+
+"roundabout": {
+
+
+
+
+
+"name": "Rotonda"
 
 
 

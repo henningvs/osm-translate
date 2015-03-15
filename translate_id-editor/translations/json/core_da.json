@@ -1743,7 +1743,11 @@
 
 
 
-"error": "Der skete en fejl under forsøget på at gemme",
+"error": "Der skete en fejl da du prøvede at gemme",
+
+
+
+"status_code": "Serveren returnerede følgende statuskode {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Du har ændringer, der endnu ikke er gemt"
+"unsaved_changes": "Du har ændringer, der endnu ikke er gemt",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Løs konfliktredigeringer",
+
+
+
+
+"count": "Konfliktantal {num} af i alt {total}",
+
+
+
+
+"previous": "< Forrige",
+
+
+
+
+"next": "Næste >",
+
+
+
+
+"keep_local": "Behold mine",
+
+
+
+
+"keep_remote": "Brug deres",
+
+
+
+
+"restore": "Gendan",
+
+
+
+
+"delete": "Behold slettet",
+
+
+
+
+"download_changes": "Eller download dine ændringer.",
+
+
+
+
+"done": "All konflikter løst!",
+
+
+
+
+"help": "En anden bruger ændrede nogle af de kortobjekter du ændrede.\nKlik på hver af dem for flere informationer om konflikten og vælg hvilken der skal beholdes\ndine ændringer eller den anden brugers ændringer\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Dette objekt blev slettet af {user}.",
+
+
+
+
+"location": "Dette objekt blev flyttet af både dig og {user}.",
+
+
+
+
+"nodelist": "Punkter var ændret af både dig og {user}.",
+
+
+
+
+"memberlist": "Relationsmedlemmer blev ændret af både dig og {user}.",
+
+
+
+
+"tags": "Du ændrede <b>{tag}</b> tag til \"{local}\" og {user}  ændrede det til \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "Okay"
+"okay": "Okay",
+
+
+
+"cancel": "Fortryd"
 
 
 },

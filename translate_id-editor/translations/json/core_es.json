@@ -1743,7 +1743,11 @@
 
 
 
-"error": "Ocurrió un error mientras se trataba de guardar",
+"error": "Se han producido errores al tratar de guardar",
+
+
+
+"status_code": "El servidor devolvió código de estado {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Tiene cambios sin guardar"
+"unsaved_changes": "Tiene cambios sin guardar",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Resolver las ediciones conflictivas",
+
+
+
+
+"count": "Conflicto {num} de {total}",
+
+
+
+
+"previous": "< Anterior",
+
+
+
+
+"next": "Siguiente >",
+
+
+
+
+"keep_local": "Mantener el mío",
+
+
+
+
+"keep_remote": "Usar el suyo",
+
+
+
+
+"restore": "Restaurar",
+
+
+
+
+"delete": "Dejar Borrado",
+
+
+
+
+"download_changes": "O descargar los cambios.",
+
+
+
+
+"done": "¡Todos los conflictos resueltos!",
+
+
+
+
+"help": "Otro usuario cambió algunas de las características del mapa que usted modificó.\nHaga clic en cada ítem para más detalles sobre el conflicto, y elija si desea mantener\nsus cambios o los cambios del otro usuario.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Este objeto ha sido borrado por {user}.",
+
+
+
+
+"location": "Este objeto fue movido por usted y por {user}.",
+
+
+
+
+"nodelist": "Los nodos fueron cambiados por usted y por {user}.",
+
+
+
+
+"memberlist": "Los miembros de la relación fueron cambiados por usted y por {user}.",
+
+
+
+
+"tags": "Ha cambiado la etiqueta <b>{tag}</b> a \"{local}\" y {user} la cambió a \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "De acuerdo"
+"okay": "De acuerdo",
+
+
+
+"cancel": "Cancelar"
 
 
 },

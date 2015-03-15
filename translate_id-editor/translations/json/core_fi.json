@@ -350,7 +350,12 @@
 
 
 
-"too_large": "Tätä ei voi pyöristää koska se ei ole tarpeeksi näkyvissä."
+"too_large": "Tätä kohdetta ei voi pyöristää, sillä se ei ole tarpeeksi näkyvissä.",
+
+
+
+
+"connected_to_hidden": "Tätä kohdetta ei voi pyöristää, sillä se on yhdistetty piilotettuun karttakohteeseen."
 
 
 
@@ -1262,6 +1267,24 @@
 
 
 
+"check": {
+
+
+
+
+"yes": "Kyllä",
+
+
+
+
+"no": "Ei"
+
+
+
+},
+
+
+
 "none": "Ei kohteita",
 
 
@@ -1653,7 +1676,15 @@
 
 
 
-"error": "Tallennettaessa tapahtui virhe",
+"error": "Tallenntamisen aikana ilmenneet virheet",
+
+
+
+"status_code": "Palvelimen virhekoodi {code}",
+
+
+
+"unknown_error_details": "Varmista, että Internet-yhteys on käytössä.",
 
 
 
@@ -1661,7 +1692,99 @@
 
 
 
-"unsaved_changes": "Kaikkia muutoksia ei ole tallennettu"
+"unsaved_changes": "Kaikkia muutoksia ei ole tallennettu",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Ratkaise muokkausristiriidat",
+
+
+
+
+"count": "Ristiriita {num}/{total}",
+
+
+
+
+"previous": "< Edellinen",
+
+
+
+
+"next": "Seuraava >",
+
+
+
+
+"keep_local": "Säilytä minun",
+
+
+
+
+"keep_remote": "Käytä muiden",
+
+
+
+
+"restore": "Palauta",
+
+
+
+
+"delete": "Poista pysyvästi",
+
+
+
+
+"download_changes": "Vaihtoehtoisesti voit ladata omat muutoksesi.",
+
+
+
+
+"done": "Kaikki ristiriidat on ratkaistu!",
+
+
+
+
+"help": "Joku muu käyttäjä on muuttanut samaa karttakohdetta kuin sinä.\nNapsauta jokaista alapuolella olevan listan kohdetta, ja valitse jokaisen ristiriidan kohdalla\nhaluatko säilyttää omat vai toisen käyttäjän muutokset.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "{user} on poistanut tämän karttakohteen.",
+
+
+
+
+"location": "Sekä sinä että {user} ovat siirtäneet tätä karttakohdetta.",
+
+
+
+
+"nodelist": "Sekä sinä että {user} ovat muuttaneet pisteitä."
+
+
+
+}
 
 
 },
@@ -1705,7 +1828,11 @@
 
 
 
-"okay": "OK"
+"okay": "OK",
+
+
+
+"cancel": "Peruuta"
 
 
 },
@@ -1858,7 +1985,11 @@
 
 
 
-"title": "Kuvakerros (Mapillary)"
+"title": "Kuvakerros (Mapillary)",
+
+
+
+"view_on_mapillary": "Näytä tämä kuva Mapillary-palvelussa"
 
 
 },

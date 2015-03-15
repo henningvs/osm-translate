@@ -1747,6 +1747,10 @@
 
 
 
+"status_code": "Server returnerade statuskoden {code}",
+
+
+
 "unknown_error_details": "Kontrollera att du är ansluten till Internet.",
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Du har icke-sparade ändringar."
+"unsaved_changes": "Du har icke-sparade ändringar.",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Lös motstridiga ändringar",
+
+
+
+
+"count": "Konflikt {num} av {total}",
+
+
+
+
+"previous": "< Föregående",
+
+
+
+
+"next": "Nästa >",
+
+
+
+
+"keep_local": "Behåll min",
+
+
+
+
+"keep_remote": "Använd deras",
+
+
+
+
+"restore": "Återställ",
+
+
+
+
+"delete": "Låt vara borttagen",
+
+
+
+
+"download_changes": "Eller ladda ner dina ändringar.",
+
+
+
+
+"done": "Alla konflikter lösta!",
+
+
+
+
+"help": "En annan användare har ändrat på samma objekt som du har ändrat.\nKlicka på vardera objekt nedan för ytterligare detaljer om respektive konflikt, och välj om dina eller\nden andra användarens ändringar ska behållas.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Detta objekt har tagits bort av {user}.",
+
+
+
+
+"location": "Detta objekt har flyttats av både dig och {user}.",
+
+
+
+
+"nodelist": "Nod har ändrats av både dig och {user}.",
+
+
+
+
+"memberlist": "Relationsmedlem har ändrats av både dig och {user}.",
+
+
+
+
+"tags": "Du ändrade taggen <b>{tag}</b> till \"{local}\" och {user} ändrade den till \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "Ok"
+"okay": "Ok",
+
+
+
+"cancel": "Avbryt"
 
 
 },

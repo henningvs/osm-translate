@@ -1375,7 +1375,7 @@
 
 
 
-"fill_area": "填土區",
+"fill_area": "填充選項",
 
 
 
@@ -1607,6 +1607,61 @@
 },
 
 
+"area_fill": {
+
+
+
+"wireframe": {
+
+
+
+
+"description": "不填充 (線條顯示)"
+
+
+
+},
+
+
+
+"partial": {
+
+
+
+
+"description": "部分填充",
+
+
+
+
+"tooltip": "區域只有外框部分有顏色填充。(新手畫圖者推薦選項)"
+
+
+
+},
+
+
+
+"full": {
+
+
+
+
+"description": "全部填充",
+
+
+
+
+"tooltip": "區域全部用顏色填充"
+
+
+
+}
+
+
+},
+
+
 "restore": {
 
 
@@ -1645,10 +1700,6 @@
 
 
 
-"error": "儲存編輯時發生錯誤",
-
-
-
 "unknown_error_details": "請確定你已經連上網路。",
 
 
@@ -1657,7 +1708,60 @@
 
 
 
-"unsaved_changes": "你有未儲存的編輯"
+"unsaved_changes": "你有未儲存的編輯",
+
+
+
+"conflict": {
+
+
+
+
+"header": "解決編輯衝突",
+
+
+
+
+"previous": "< 上一個",
+
+
+
+
+"next": "下一個 >",
+
+
+
+
+"keep_local": "保留我的",
+
+
+
+
+"keep_remote": "使用他們的",
+
+
+
+
+"restore": "復原",
+
+
+
+
+"delete": "放棄資料",
+
+
+
+
+"download_changes": "下載你做的變動",
+
+
+
+
+"done": "所有衝突解決！"
+
+
+
+}
 
 
 },

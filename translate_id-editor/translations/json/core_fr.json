@@ -1743,7 +1743,11 @@
 
 
 
-"error": "Une erreur est survenue lors de l'enregistrement des données",
+"error": "Des erreurs sont survenues en tentant de sauvegarder",
+
+
+
+"status_code": "Le serveur a renvoyé le code de statut {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Vous avez des modifications non enregistrées"
+"unsaved_changes": "Vous avez des modifications non enregistrées",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Résoudre les modifications conflictuelles",
+
+
+
+
+"count": "Conflit {num} de {total}",
+
+
+
+
+"previous": "Précédent",
+
+
+
+
+"next": "Suivant",
+
+
+
+
+"keep_local": "Garder la mienne",
+
+
+
+
+"keep_remote": "Utiliser la leur",
+
+
+
+
+"restore": "Restaurer",
+
+
+
+
+"delete": "Laisser la suppression",
+
+
+
+
+"download_changes": "Ou télécharger vos changements",
+
+
+
+
+"done": "Tous les conflits sont résolus !",
+
+
+
+
+"help": "Un autre utilisateur a modifié certains éléments de la carte que vous aviez modifiés changés.\nCliquez sur chaque élément ci-dessous pour plus de détails à propos du conflit, et choisissez si vous conservez vos modifications ou celles de l'autre utilisateur.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Cet objet a été supprimé par {user}",
+
+
+
+
+"location": "Cet objet a été déplacé à la fois par vous et {user}",
+
+
+
+
+"nodelist": "Les nœuds ont été changés à la fois par vous et {user}",
+
+
+
+
+"memberlist": "Les membres de la relation  ont été changés à la fois par vous et {user}",
+
+
+
+
+"tags": "Vous avez changé le tag <b>{tag}</b> en \"{local}\" et {user} l'a changé en \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "OK"
+"okay": "OK",
+
+
+
+"cancel": "Annuler"
 
 
 },

@@ -35,12 +35,12 @@
 
 
 
-"title": "Cesta",
+"title": "Čára",
 
 
 
 
-"description": "Přidat do mapy silnice, ulice, stezky, potoky či jiné cesty.",
+"description": "Přidat do mapy silnice, ulice, stezky, potoky či jiné čáry.",
 
 
 
@@ -112,7 +112,7 @@
 
 
 
-"tail": "Uzly k cestě přidáte kliknutím. Když kliknete na jinou cestu, připojíte cesty k sobě. Cestu ukončíte dvojklikem."
+"tail": "Uzly k čáře přidáte kliknutím. Když kliknete na jinou čáru, připojíte čáry k sobě. Editaci ukončíte dvojklikem."
 
 
 
@@ -143,7 +143,7 @@
 
 
 
-"vertex": "Přidán uzel k cestě.",
+"vertex": "Přidán uzel k čáře.",
 
 
 
@@ -173,7 +173,7 @@
 
 
 
-"line": "Vytvořen začátek cesty.",
+"line": "Vytvořen začátek čáry.",
 
 
 
@@ -207,17 +207,17 @@
 
 
 
-"description": "Navázat na cestu.",
+"description": "Navázat na čáru.",
 
 
 
 
-"not_eligible": "Nelze navázat na žádnou cestu.",
+"not_eligible": "Nelze navázat na žádnou čáru.",
 
 
 
 
-"multiple": "Zde je možné navázat na několik cest. Stiskněte klávesu Shift a kliknutím zvolte jednu z cest.",
+"multiple": "Zde je možné navázat na několik čar. Stiskněte klávesu Shift a kliknutím zvolte jednu z čar.",
 
 
 
@@ -228,7 +228,7 @@
 
 
 
-"line": "Cesta pokračuje.",
+"line": "Prodloužena čára.",
 
 
 
@@ -302,7 +302,7 @@
 
 
 
-"line": "Udělat z této cesty kruh.",
+"line": "Udělat z této čáry kruh.",
 
 
 
@@ -329,7 +329,7 @@
 
 
 
-"line": "Zakulacena cesta.",
+"line": "Zakulacena čára.",
 
 
 
@@ -379,7 +379,7 @@
 
 
 
-"line": "Udělat rohy této cesty do hranata.",
+"line": "Udělat rohy této čáry do hranata.",
 
 
 
@@ -406,7 +406,7 @@
 
 
 
-"line": "Úhly cesty do pravého úhle.",
+"line": "Úhly čáry do pravého úhle.",
 
 
 
@@ -450,7 +450,7 @@
 
 
 
-"description": "Narovnat tuto cestu.",
+"description": "Narovnat tuto čáru.",
 
 
 
@@ -460,7 +460,7 @@
 
 
 
-"annotation": "Narovnána cesta",
+"annotation": "Narovnána čára",
 
 
 
@@ -470,7 +470,7 @@
 
 
 
-"connected_to_hidden": "Cestu nelze narovnat, protože je napojená na skytý objekt."
+"connected_to_hidden": "Čáru nelze narovnat, protože je napojená na skytý objekt."
 
 
 
@@ -505,13 +505,13 @@
 
 
 
-"vertex": "Smazán uzel z cesty.",
+"vertex": "Smazán uzel z čáry.",
 
 
 
 
 
-"line": "Smazána cesta.",
+"line": "Smazána čára.",
 
 
 
@@ -594,25 +594,25 @@
 
 
 
-"point": "Cesta byla připojena k uzlu.",
+"point": "Čára byla připojena k uzlu.",
 
 
 
 
 
-"vertex": "Cesta byla připojena k jiné cestě.",
+"vertex": "Čára byla připojena k jiné čáře.",
 
 
 
 
 
-"line": "Cesta byla připojena k cestě.",
+"line": "Čára byla připojena k čáře.",
 
 
 
 
 
-"area": "Cesta byla připojena k ploše."
+"area": "Čára byla připojena k ploše."
 
 
 
@@ -635,7 +635,7 @@
 
 
 
-"description": "Rozpojit tyto cesty/plochy.",
+"description": "Rozpojit tyto čáry/plochy.",
 
 
 
@@ -645,12 +645,12 @@
 
 
 
-"annotation": "Cesty/plochy byly rozpojeny.",
+"annotation": "Čáry/plochy byly rozpojeny.",
 
 
 
 
-"not_connected": "Není tu žádná cesta/plocha, kterou by bylo možné rozpojit.",
+"not_connected": "Není tu žádná čára/plocha, kterou by bylo možné rozpojit.",
 
 
 
@@ -673,7 +673,7 @@
 
 
 
-"description": "Spojit tyto cesty.",
+"description": "Spojit tyto čáry.",
 
 
 
@@ -683,7 +683,7 @@
 
 
 
-"annotation": "Cesty spojeny (celkem {n}).",
+"annotation": "Čáry spojeny (celkem {n}).",
 
 
 
@@ -693,12 +693,12 @@
 
 
 
-"not_adjacent": "Tyto cesty nelze spojit v jednu, protože nekončí v jednom bodě.",
+"not_adjacent": "Tyto čáry nelze spojit v jednu, protože nekončí v jednom bodě.",
 
 
 
 
-"restriction": "Tyto cesty není možné spojit, protože aspoň jedna z nich je členem relace \"{relation}\".",
+"restriction": "Tyto čáry není možné spojit, protože aspoň jedna z nich je členem relace \"{relation}\".",
 
 
 
@@ -743,13 +743,13 @@
 
 
 
-"vertex": "Posunut uzel v cestě.",
+"vertex": "Posunut uzel v čáře.",
 
 
 
 
 
-"line": "Posunuta cesta.",
+"line": "Posunuta čára.",
 
 
 
@@ -815,7 +815,7 @@
 
 
 
-"line": "Cesta byla otočena.",
+"line": "Čára byla otočena.",
 
 
 
@@ -854,7 +854,7 @@
 
 
 
-"description": "Změnit směr cesty na opačný.",
+"description": "Změnit směr čáry na opačný.",
 
 
 
@@ -888,7 +888,7 @@
 
 
 
-"line": "Zvolenou cestu rozdělit v tomto uzlu na dvě.",
+"line": "Zvolenou čáru rozdělit v tomto uzlu na dvě.",
 
 
 
@@ -900,7 +900,7 @@
 
 
 
-"multiple": "Cestu/hranici plochy v tomto uzlu rozdělit na dvě."
+"multiple": "Čáru/hranici plochy v tomto uzlu rozdělit na dvě."
 
 
 
@@ -921,7 +921,7 @@
 
 
 
-"line": "Cesta rozdělena.",
+"line": "Čára rozdělena.",
 
 
 
@@ -933,7 +933,7 @@
 
 
 
-"multiple": "Rozdělit {n} cest/hranic plochy."
+"multiple": "Rozdělit {n} čar/hranic plochy."
 
 
 
@@ -943,12 +943,12 @@
 
 
 
-"not_eligible": "Cestu nelze rozdělit v jejím začátku ani konci.",
+"not_eligible": "Čáru nelze rozdělit v jejím začátku ani konci.",
 
 
 
 
-"multiple_ways": "Není jasné, kterou cestu rozdělit.",
+"multiple_ways": "Není jasné, kterou čáru rozdělit.",
 
 
 
@@ -1333,7 +1333,7 @@
 
 
 
-"way": "Cesta",
+"way": "Čára",
 
 
 
@@ -1409,7 +1409,7 @@
 
 
 
-"fill_area": "Vyplňující plochy",
+"fill_area": "Vyplnění ploch",
 
 
 
@@ -1743,7 +1743,11 @@
 
 
 
-"error": "Při ukládání došlo k chybě.",
+"error": "Při pokusu o uložení se vyskytly chyby",
+
+
+
+"status_code": "Server vrátil stavový kód {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Vaše úpravy nebyly uloženy"
+"unsaved_changes": "Vaše úpravy nebyly uloženy",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Vyřešit konflikty mezi editacemi",
+
+
+
+
+"count": "Konflikt č. {num} z {total}",
+
+
+
+
+"previous": "< Předchozí",
+
+
+
+
+"next": "Další >",
+
+
+
+
+"keep_local": "Nechat moji",
+
+
+
+
+"keep_remote": "Použít cizí",
+
+
+
+
+"restore": "Obnovit",
+
+
+
+
+"delete": "Nechat smazané",
+
+
+
+
+"download_changes": "Nebo stáhnout vaše úpravy.",
+
+
+
+
+"done": "Všechny konflikty vyřešeny!",
+
+
+
+
+"help": "Jiný uživatel upravil některé z objektů, které jste editoval/a i vy.\nProjděte prosím detailně níže uvedené položky a vyberte, jestli chcete nechat v platnosti vaše nebo cizí úpravy.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Tento objekt smazal uživatel {user}.",
+
+
+
+
+"location": "Tento objekt přesunul uživatel {user} i vy.",
+
+
+
+
+"nodelist": "Uzly upravil uživatel {user} i vy.",
+
+
+
+
+"memberlist": "Členy relace upravil uživatel {user} i vy.",
+
+
+
+
+"tags": "Nastavil/a jste vlastnost <b>{tag}</b> na \"{local}\", zatímco uživatel {user} ji změnil na \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "OK"
+"okay": "OK",
+
+
+
+"cancel": "Storno"
 
 
 },
@@ -1871,7 +1981,7 @@
 
 
 
-"untagged_line": "Neoznačená cesta",
+"untagged_line": "Neoznačená čára",
 
 
 
@@ -1948,11 +2058,11 @@
 
 
 
-"tooltip": "Fotografie na úrovni zobrazení ulice z Mapillary",
+"tooltip": "Fotografie z úrovně ulice z Mapillary",
 
 
 
-"title": "Překrytí fotografií (Mapillary)",
+"title": "Vrstva fotografií (Mapillary)",
 
 
 
@@ -1994,7 +2104,7 @@
 
 
 
-"inspector": "# Používání Inspektoru\n\nInspektor je prvek uživatelského rozhraní na levé straně, který umožňuje editovat vlastnosti zvoleného objektu.\n\n### Výběr typu objektu\n\nJakmile vytvoříte uzel, cestu nebo plochu, můžete zvolit typ vytvořeného objektu. Např. jestli jde o silnici nebo pěšinu, obchod nebo hospodu. Inspektor zobrazí tlačítka pro nejčastější typy objektů; další můžete najít prostřednictvím pole pro vyhledávání.\n\nKdyž u tlačítka typu objektu kliknete na 'i' vpravo dole, zobrazí se vám o něm více informací. Když kliknete na samotné tlačítko, vyberete příslušný typ.\n\n### Formuláře a editace vlastností\n\nPoté, co vyberete typ objektu nebo když vyberete objekt s už přiřazeným typem, v inspektoru se zobrazí pole s bližšími informacemi o objektu - jako třeba název nebo adresa.\n\nPod těmito poli jsou další ikony. Když na ně kliknete, tak můžete přidávat další detaily, jako vazbu na [Wikipedii](http://www.wikipedia.org/), přístup pro vozíčkáře atd.\n\nPokud chcete přidat k objektu ještě nějaké jiné vlastnosti, klikněte na 'Další vlastnosti' úplně dole. Jedním z informačních zdrojů pak může být [Taginfo](http://taginfo.openstreetmap.org/), kde se dozvíte o nejčastějších kombinacích tagů.\n\nZměny provedené v inspektoru jsou ihned vidět na mapě zobrazené ve vašem prohlížeči. Můžete je vrátit zpět kliknutím na tlačítko 'Undo'.\n",
+"inspector": "# Používání Inspektoru\n\nInspektor je prvek uživatelského rozhraní na levé straně, který umožňuje editovat vlastnosti zvoleného objektu.\n\n### Výběr typu objektu\n\nJakmile vytvoříte uzel, čáru nebo plochu, můžete zvolit typ vytvořeného objektu. Např. jestli jde o silnici nebo pěšinu, obchod nebo hospodu. Inspektor zobrazí tlačítka pro nejčastější typy objektů; další můžete najít prostřednictvím pole pro vyhledávání.\n\nKdyž u tlačítka typu objektu kliknete na 'i' vpravo dole, zobrazí se vám o něm více informací. Když kliknete na samotné tlačítko, vyberete příslušný typ.\n\n### Formuláře a editace vlastností\n\nPoté, co vyberete typ objektu nebo když vyberete objekt s už přiřazeným typem, v inspektoru se zobrazí pole s bližšími informacemi o objektu - jako třeba název nebo adresa.\n\nPod těmito poli jsou další ikony. Když na ně kliknete, tak můžete přidávat další detaily, jako vazbu na [Wikipedii](http://www.wikipedia.org/), přístup pro vozíčkáře atd.\n\nPokud chcete přidat k objektu ještě nějaké jiné vlastnosti, klikněte na 'Další vlastnosti' úplně dole. Jedním z informačních zdrojů pak může být [Taginfo](http://taginfo.openstreetmap.org/), kde se dozvíte o nejčastějších kombinacích tagů.\n\nZměny provedené v inspektoru jsou ihned vidět na mapě zobrazené ve vašem prohlížeči. Můžete je vrátit zpět kliknutím na tlačítko 'Undo'.\n",
 
 
 
@@ -2027,7 +2137,7 @@
 
 
 
-"select": "Mapa se skládá z objektů tří typů: uzlů, cest a ploch. Můžete zvolit libovolný objekt tak, že na něj kliknete. **Klikněte na uzel.**",
+"select": "Mapa se skládá z objektů tří typů: uzlů, čar a ploch. Můžete zvolit libovolný objekt tak, že na něj kliknete. **Klikněte na uzel.**",
 
 
 
@@ -2156,27 +2266,27 @@
 
 
 
-"title": "Cesty",
+"title": "Čáry",
 
 
 
 
-"add": "Silnice, železnice nebo řeky lze v mapě zachytit pomocí lomených čar neboli cest. **Klikněte na tlačítko Cesta.**",
+"add": "Silnice, železnice nebo řeky lze v mapě zachytit pomocí lomených čar. **Klikněte na tlačítko Čára.**",
 
 
 
 
-"start": "**Cestu začněte kliknutím na jeden konec silnice.**",
+"start": "**Čáru začněte kliknutím na jeden konec silnice.**",
 
 
 
 
-"intersect": "Klikáním přidáte další a další uzly k cestě. Mapu si můžete během kreslení posouvat. Silnice a další druhy cest jsou obvykle součástí širší sítě. V takovém případě je důležité, aby cesty byly vzájemně propojeny, aby správně fungovaly navigační aplikace. **Klikněte na Flower Street - vytvoříte tak křižovatku těchto dvou cest.**",
+"intersect": "Klikáním přidáte další a další uzly k čáře. Mapu si můžete během kreslení posouvat. Silnice a další druhy čar jsou obvykle součástí širší sítě. V takovém případě je důležité, aby čáry byly vzájemně propojeny, aby správně fungovaly navigační aplikace. **Klikněte na čáru na Flower Street - vytvoříte tak křižovatku obou cest.**",
 
 
 
 
-"finish": "Kreslení cesty ukončíte tak, že kliknete na znovu na poslední uzel. **Ukončete kreslení ulice.**",
+"finish": "Kreslení čáry ukončíte tak, že kliknete na znovu na poslední uzel. **Ukončete kreslení ulice.**",
 
 
 

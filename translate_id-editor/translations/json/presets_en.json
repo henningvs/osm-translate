@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Incline",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Up",
+
+
+
+
+
+
+"down": "Down"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -3739,6 +3781,62 @@
 
 
 "no": "No"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Service Type",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Spur",
+
+
+
+
+
+
+"yard": "Yard",
+
+
+
+
+
+
+"siding": "Siding",
+
+
+
+
+
+
+"crossover": "Crossover"
 
 
 

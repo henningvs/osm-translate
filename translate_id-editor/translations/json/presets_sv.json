@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Lutning",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Upp",
+
+
+
+
+
+
+"down": "Ner"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 

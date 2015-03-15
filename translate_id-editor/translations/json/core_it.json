@@ -1743,7 +1743,11 @@
 
 
 
-"error": "E' accaduto un errore mentre veniva tentato il salvataggio",
+"error": "Si sono verificati errori nel tentato di salvataggio",
+
+
+
+"status_code": "Il server ha risposto con codice {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Hai modifiche non salvate"
+"unsaved_changes": "Hai modifiche non salvate",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Risolvi conflitti di modifica",
+
+
+
+
+"count": "Conflitto {num} di {total}",
+
+
+
+
+"previous": "< Precedente",
+
+
+
+
+"next": "Successivo >",
+
+
+
+
+"keep_local": "Mantieni il mio",
+
+
+
+
+"keep_remote": "Usa il loro",
+
+
+
+
+"restore": "Ripristina",
+
+
+
+
+"delete": "Lascia Cancellato",
+
+
+
+
+"download_changes": "O scarica le tue modifiche.",
+
+
+
+
+"done": "Risolti tutti i conflitti!",
+
+
+
+
+"help": "Un altro utente ha modificato qualcuno degli elementi che hai modificato tu.\nClicca su ogni elemento sottostante per avere più dettagli sul conflitto e scegliere se mantenere la tua versione o quella dell'altro utente.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Questo oggetto è stato cancellato da {user}.",
+
+
+
+
+"location": "Questo oggetto è stato spostato sia da te che da {user}.",
+
+
+
+
+"nodelist": "Nodi modificati sia da te che da {user}.",
+
+
+
+
+"memberlist": "Membri di relazioni modificati sia da te che da {user}.",
+
+
+
+
+"tags": "Hai modificato il tag <b>{tag}</b> in \"{local}\" e {user} l'ha modificato in \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "Okay"
+"okay": "Okay",
+
+
+
+"cancel": "Cancella"
 
 
 },

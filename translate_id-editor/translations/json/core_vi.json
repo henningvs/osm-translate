@@ -1743,7 +1743,11 @@
 
 
 
-"error": "Xảy ra lỗi khi lưu",
+"error": "Đã xuất hiện lỗi khi lưu",
+
+
+
+"status_code": "Máy chủ phản hồi với mã lỗi {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Bạn có Thay đổi Chưa lưu"
+"unsaved_changes": "Bạn có Thay đổi Chưa lưu",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Giải quyết sửa đổi mâu thuẫn",
+
+
+
+
+"count": "Mâu thuẫn {num} trong {total}",
+
+
+
+
+"previous": "◄ Trước",
+
+
+
+
+"next": "Sau ►",
+
+
+
+
+"keep_local": "Giữ của tôi",
+
+
+
+
+"keep_remote": "Lấy của họ",
+
+
+
+
+"restore": "Khôi phục",
+
+
+
+
+"delete": "Không Khôi phục",
+
+
+
+
+"download_changes": "Hoặc tải về các thay đổi của bạn.",
+
+
+
+
+"done": "Đã hoàn tất giải quyết các mâu thuẫn!",
+
+
+
+
+"help": "Một người khác đã thay đổi cùng một số đối tượng với bạn trên bản đồ.\nNhấn chuột vào mỗi mục bên dưới để xem chi tiết về sự mâu thuẫn và quyết định giữ thay đổi của bạn hoặc của người kia.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "{user} đã xóa đối tượng này.",
+
+
+
+
+"location": "Bạn và {user} đều đã di chuyển đối tượng này.",
+
+
+
+
+"nodelist": "Bạn và {user} đều đã thay đổi các nốt của đối tượng này.",
+
+
+
+
+"memberlist": "Bạn và {user} đều đã thay đổi các thành viên của quan hệ này.",
+
+
+
+
+"tags": "Bạn đã đổi thẻ <b>{tag}</b> thành “{local}” trong khi {user} đã đổi nó thành “{remote}”."
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "OK"
+"okay": "OK",
+
+
+
+"cancel": "Hủy bỏ"
 
 
 },

@@ -1743,7 +1743,7 @@
 
 
 
-"error": "Ocorreu um erro ao tentar salvar",
+"error": "Ocorreram erros ao tentar salvar",
 
 
 
@@ -1755,7 +1755,69 @@
 
 
 
-"unsaved_changes": "Você tem alterações não salvas."
+"unsaved_changes": "Você tem alterações não salvas.",
+
+
+
+"conflict": {
+
+
+
+
+"previous": "< Anterior",
+
+
+
+
+"next": "Próximo >",
+
+
+
+
+"restore": "Restaurar",
+
+
+
+
+"delete": "Manter removido",
+
+
+
+
+"done": "Todos os conflitos foram resolvidos!"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Este objeto foi excluído por {user}.",
+
+
+
+
+"location": "Este objeto foi movido tanto por você quanto pelo(a) {user}",
+
+
+
+
+"nodelist": "Os pontos foram modificados tanto por você quanto pelo(a) {user}."
+
+
+
+}
 
 
 },
@@ -1799,7 +1861,11 @@
 
 
 
-"okay": "O.K."
+"okay": "O.K.",
+
+
+
+"cancel": "Cancelar"
 
 
 },

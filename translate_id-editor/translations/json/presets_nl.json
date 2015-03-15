@@ -146,7 +146,7 @@
 
 
 
-"name": "Water"
+"name": "Waterbekkens"
 
 
 
@@ -162,7 +162,7 @@
 
 
 
-"name": "Water"
+"name": "Waterlopen"
 
 
 
@@ -604,7 +604,7 @@
 
 
 
-"label": "Bestuurlijk niveau"
+"label": "Bestuurlijk Niveau"
 
 
 
@@ -707,7 +707,7 @@
 
 
 
-"placeholder": "500, 2500, 5000 ..."
+"placeholder": "500, 2500, 5000 …"
 
 
 
@@ -729,7 +729,7 @@
 
 
 
-"placeholder": "1, 2, 3 ..."
+"placeholder": "1, 2, 3 …"
 
 
 
@@ -767,7 +767,7 @@
 
 
 
-"placeholder": "2, 4, 8 ..."
+"placeholder": "2, 4, 8 …"
 
 
 
@@ -896,7 +896,7 @@
 
 
 
-"label": "Pinautomaat"
+"label": "Bankautomaat"
 
 
 
@@ -1046,7 +1046,7 @@
 
 
 
-"placeholder": "50, 100, 200, ..."
+"placeholder": "50, 100, 200 …"
 
 
 
@@ -1442,7 +1442,7 @@
 
 
 
-"placeholder": "Contactleiding, Elektrisch Spoor...",
+"placeholder": "Contactleiding, Elektrisch Spoor …",
 
 
 
@@ -1469,7 +1469,7 @@
 
 
 
-"yes": "Ja (ongespecificeerd)",
+"yes": "Ja (onbepaald)",
 
 
 
@@ -2033,7 +2033,7 @@
 
 
 
-"placeholder": "1, 2, 4, ..."
+"placeholder": "1, 2, 4 …"
 
 
 
@@ -2082,6 +2082,48 @@
 
 
 "label": "Helling"
+
+
+
+
+},
+
+
+
+
+"incline_steps": {
+
+
+
+
+
+"label": "Helling",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Naar boven",
+
+
+
+
+
+
+"down": "Naar beneden"
+
+
+
+
+
+}
 
 
 
@@ -2214,7 +2256,7 @@
 
 
 
-"placeholder": "1, 2, 3, ..."
+"placeholder": "1, 2, 3 …"
 
 
 
@@ -2403,7 +2445,7 @@
 
 
 
-"placeholder": "2, 4, 6, ..."
+"placeholder": "2, 4, 6 …"
 
 
 
@@ -2467,13 +2509,13 @@
 
 
 
-"label": "Maximum snelheid",
+"label": "Snelheidsbeperking",
 
 
 
 
 
-"placeholder": "40, 50, 60, ..."
+"placeholder": "40, 50, 60 …"
 
 
 
@@ -2495,7 +2537,7 @@
 
 
 
-"placeholder": "0, 1, 2, ...",
+"placeholder": "0, 1, 2, 3 …",
 
 
 
@@ -2543,14 +2585,14 @@
 
 
 
-"5": "5: Moeilijkst/gevaarlijkst, rotsblok gebieden, aardsverschuivingen",
+"5": "5: Moeilijkst/gevaarlijkst, gebieden met rotsblokken, aardverschuivingen",
 
 
 
 
 
 
-"6": "6: Niet berijdbaar, enkel voor hoogst ervaren mountain bikers"
+"6": "6: Niet berijdbaar, enkel voor de allerbeste mountainbikers"
 
 
 
@@ -2572,13 +2614,13 @@
 
 
 
-"label": "IMBA Route Moeilijkheidsgraad",
+"label": "IMBA Route-Moeilijkheidsgraad",
 
 
 
 
 
-"placeholder": "Makkelijk, Gemiddeld, Moeilijk...",
+"placeholder": "Makkelijk, Gemiddeld, Moeilijk …",
 
 
 
@@ -2647,7 +2689,7 @@
 
 
 
-"placeholder": "0, 1, 2, ...",
+"placeholder": "0, 1, 2, 3 …",
 
 
 
@@ -2674,28 +2716,28 @@
 
 
 
-"2": "2: Gem. stijging <20%, vaste ondergrond, vuistgrote stenen/rotsen/wortels",
+"2": "2: Gem. stijging <20%, stabiele ondergrond, vuistgrote stenen/wortels",
 
 
 
 
 
 
-"3": "3: Gem. stijging <25%, variabele ondergrond, vuistgrote rotsen/takken",
+"3": "3: Gem. stijging <25%, variabele ondergrond, vuistgrote stenen/takken",
 
 
 
 
 
 
-"4": "4: Gem. stijging <30%, slechte conditie, grote rotsen/takken",
+"4": "4: Gem. stijging <30%, slechte staat, grote rotsen/takken",
 
 
 
 
 
 
-"5": "5: Erg stijl, fiets wordt meestal geduwd of gedragen"
+"5": "5: Erg steil, fiets wordt meestal geduwd of gedragen"
 
 
 
@@ -2917,7 +2959,7 @@
 
 
 
-"label": "Keten"
+"label": "Uitgebaat door"
 
 
 
@@ -2939,7 +2981,7 @@
 
 
 
-"placeholder": "3, 4, 5..."
+"placeholder": "3, 4, 5 …"
 
 
 
@@ -3560,7 +3602,7 @@
 
 
 
-"placeholder": "Bergwandelen, Alpinewandelen...",
+"placeholder": "Bergwandelen, Alpinewandelen …",
 
 
 
@@ -3754,6 +3796,62 @@
 
 
 
+"service_rail": {
+
+
+
+
+
+"label": "Type Dienstspoor",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Aansluiting voor bedrijven",
+
+
+
+
+
+
+"yard": "Bundel",
+
+
+
+
+
+
+"siding": "Zijspoor",
+
+
+
+
+
+
+"crossover": "Wisselspoor"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "shelter": {
 
 
@@ -3830,7 +3928,7 @@
 
 
 
-"placeholder": "Nee, Gescheiden, Ja, ...",
+"placeholder": "Nee, Gescheiden, Ja …",
 
 
 
@@ -3906,7 +4004,7 @@
 
 
 
-"placeholder": "Dunne Wieltjes, Wielen, Offroad ...",
+"placeholder": "Dunne Wieltjes, Wielen, Offroad …",
 
 
 
@@ -3996,7 +4094,7 @@
 
 
 
-"placeholder": "Daklozen, Andersvaliden, Kinderen enz ..."
+"placeholder": "Daklozen, Andersvaliden, Kinderen …"
 
 
 
@@ -4076,7 +4174,7 @@
 
 
 
-"label": "Bouwwerk",
+"label": "Constructie",
 
 
 
@@ -4231,7 +4329,7 @@
 
 
 
-"placeholder": "Ja, Nee, Alleen Afhaal...",
+"placeholder": "Ja, Nee, Alleen Afhaal …",
 
 
 
@@ -4258,7 +4356,7 @@
 
 
 
-"only": "Alleen afhaal"
+"only": "Alleen Afhaal"
 
 
 
@@ -4374,7 +4472,7 @@
 
 
 
-"placeholder": "Vast, Voornamelijk Vast, Los...",
+"placeholder": "Vast, Voornamelijk Vast, Los …",
 
 
 
@@ -4443,7 +4541,7 @@
 
 
 
-"placeholder": "Uitmuntend, Goed, Slecht, ...",
+"placeholder": "Uitmuntend, Goed, Slecht …",
 
 
 
@@ -4599,7 +4697,7 @@
 
 
 
-"placeholder": "http://voorbeeld.com/"
+"placeholder": "http://example.com/"
 
 
 
@@ -4693,7 +4791,7 @@
 
 
 
-"terms": "Adres"
+"terms": "contact, plaats, adresgegevens, straat, huisnummer"
 
 
 
@@ -4709,13 +4807,13 @@
 
 
 
-"name": "Vliegroute",
+"name": "Kabelbaan",
 
 
 
 
 
-"terms": "Vliegroute, Vluchtroute, Luchtbaan"
+"terms": "skiën, skilift, stoeltjeslift, kabelbaan, gondellift, cabinebaan, staalkabel, teleferiek, teleferique"
 
 
 
@@ -4731,7 +4829,7 @@
 
 
 
-"name": "Kabelbaan"
+"name": "Kabelbaan met één of twee cabines"
 
 
 
@@ -4747,13 +4845,7 @@
 
 
 
-"name": "Stoeltjeslift",
-
-
-
-
-
-"terms": "stoeltjeslift"
+"name": "Stoeltjeslift"
 
 
 
@@ -4769,13 +4861,13 @@
 
 
 
-"name": "Gondel",
+"name": "Kabelbaan met gondeltjes",
 
 
 
 
 
-"terms": "Gondel, Gondola"
+"terms": "gondellift, gondola"
 
 
 
@@ -4801,6 +4893,86 @@
 
 
 
+"aerialway/platter": {
+
+
+
+
+
+"name": "Stoeltjeslift met zitschijven in plaats van stoeltjes"
+
+
+
+
+},
+
+
+
+
+"aerialway/pylon": {
+
+
+
+
+
+"name": "Kabelbaanpilaar"
+
+
+
+
+},
+
+
+
+
+"aerialway/rope_tow": {
+
+
+
+
+
+"name": "Sleeplift"
+
+
+
+
+},
+
+
+
+
+"aerialway/station": {
+
+
+
+
+
+"name": "Kabelbaanstation"
+
+
+
+
+},
+
+
+
+
+"aerialway/t-bar": {
+
+
+
+
+
+"name": "Skilift met handvaten"
+
+
+
+
+},
+
+
+
+
 "aeroway": {
 
 
@@ -4813,7 +4985,7 @@
 
 
 
-"terms": "Startbaan, landingsbaan"
+"terms": "startbaan, landingsbaan"
 
 
 
@@ -4835,7 +5007,7 @@
 
 
 
-"terms": "Luchthaven, vliegveld"
+"terms": "vliegveld"
 
 
 
@@ -4857,7 +5029,7 @@
 
 
 
-"terms": "Taxibaan"
+"terms": "taxibaan, apron, vliegveld"
 
 
 
@@ -4879,7 +5051,7 @@
 
 
 
-"terms": "Gate"
+"terms": "terminal, boarden, passagiers, instappen, uitstappen"
 
 
 
@@ -4901,7 +5073,7 @@
 
 
 
-"terms": "Hangar"
+"terms": "loods, hangaar, opslagplaats, shelter"
 
 
 
@@ -4917,13 +5089,13 @@
 
 
 
-"name": "Helikopterhaven",
+"name": "Helipad",
 
 
 
 
 
-"terms": "Helihaven, helikopterdek"
+"terms": "helihaven, helikopterhaven, helikopterdek, landingsplaats"
 
 
 
@@ -4945,7 +5117,7 @@
 
 
 
-"terms": "Startbaan, landingsbaan"
+"terms": "landingsbaan"
 
 
 
@@ -4967,7 +5139,7 @@
 
 
 
-"terms": "Taxibaan"
+"terms": "taxiën"
 
 
 
@@ -4989,7 +5161,7 @@
 
 
 
-"terms": "Luchthaventerminal, vertrekhal, aankomsthal"
+"terms": "luchthaventerminal, vertrekhal, aankomsthal"
 
 
 
@@ -5043,13 +5215,13 @@
 
 
 
-"name": "Pinautomaat",
+"name": "Bankautomaat",
 
 
 
 
 
-"terms": "Pinautomaat"
+"terms": "pinnen,pinautomaat,bancontact,ATM,geld afhalen,geldautomaat"
 
 
 
@@ -5071,7 +5243,7 @@
 
 
 
-"terms": "Bank"
+"terms": "geld,rekening"
 
 
 
@@ -5087,13 +5259,13 @@
 
 
 
-"name": "Café",
+"name": "Bar",
 
 
 
 
 
-"terms": "Bar, café"
+"terms": "cocktailbar, dancing, disco, café"
 
 
 
@@ -5115,7 +5287,7 @@
 
 
 
-"terms": "Barbecue, Grill, Steengrill, BBQ, spit"
+"terms": "barbecue, grill, steengrill, BBQ, spit"
 
 
 
@@ -5131,13 +5303,13 @@
 
 
 
-"name": "Bank",
+"name": "Zitbank",
 
 
 
 
 
-"terms": "Bankje"
+"terms": "bank, bankje"
 
 
 
@@ -5159,7 +5331,7 @@
 
 
 
-"terms": "Fietsenrek, fietsenstalling"
+"terms": "fietsenrek, fietsenparking"
 
 
 
@@ -5181,7 +5353,7 @@
 
 
 
-"terms": "Fietsverhuur"
+"terms": "huren, fietsen"
 
 
 
@@ -5219,7 +5391,13 @@
 
 
 
-"name": "Bootverhuur"
+"name": "Bootverhuur",
+
+
+
+
+
+"terms": "boten, huren"
 
 
 
@@ -5235,7 +5413,13 @@
 
 
 
-"name": "Wisselkantoor"
+"name": "Wisselkantoor",
+
+
+
+
+
+"terms": "wisselen, geld, bank, munteenheid"
 
 
 
@@ -5301,7 +5485,7 @@
 
 
 
-"terms": "Autoverhuur"
+"terms": "huurauto, huren"
 
 
 
@@ -5323,7 +5507,7 @@
 
 
 
-"terms": "Autodelen"
+"terms": "gedeelde auto"
 
 
 
@@ -5345,7 +5529,7 @@
 
 
 
-"terms": "Autowasstraat"
+"terms": "carwash, wasstraat"
 
 
 
@@ -5361,7 +5545,13 @@
 
 
 
-"name": "Oplaadstation"
+"name": "Oplaadstation",
+
+
+
+
+
+"terms": "elektrisch, elektriciteit, oplaadpaal, tankstation"
 
 
 
@@ -5405,7 +5595,7 @@
 
 
 
-"terms": "Bioscoop"
+"terms": "cinema, film, theater"
 
 
 
@@ -5421,7 +5611,13 @@
 
 
 
-"name": "Kliniek"
+"name": "Kliniek",
+
+
+
+
+
+"terms": "dagkliniek"
 
 
 
@@ -5503,7 +5699,13 @@
 
 
 
-"name": "Perslucht"
+"name": "Perslucht",
+
+
+
+
+
+"terms": "fietspomp, autobanden, pomp, opblazen, oppompen"
 
 
 
@@ -5519,13 +5721,13 @@
 
 
 
-"name": "Rechtbank",
+"name": "Gerechtsgebouw",
 
 
 
 
 
-"terms": "Rechtzaal"
+"terms": "rechtszaal, rechtbank, gerechtshof, paleis van justitie, justitiepaleis"
 
 
 
@@ -5547,7 +5749,7 @@
 
 
 
-"terms": "tandarts, tandheelkundige"
+"terms": "tandheelkundige, mond, tanden"
 
 
 
@@ -5569,7 +5771,7 @@
 
 
 
-"terms": "dokter, arts, geneesheer"
+"terms": "arts, geneesheer, huisarts"
 
 
 
@@ -5601,13 +5803,13 @@
 
 
 
-"name": "Drinkwater",
+"name": "Drinkwaterkraantje",
 
 
 
 
 
-"terms": "Drinkwater"
+"terms": "water, kraan, verfrissing"
 
 
 
@@ -5623,13 +5825,7 @@
 
 
 
-"name": "Ambassade",
-
-
-
-
-
-"terms": "Ambassade"
+"name": "Ambassade"
 
 
 
@@ -5651,7 +5847,7 @@
 
 
 
-"terms": "Fastfood"
+"terms": "hamburgers, frieten, pizza"
 
 
 
@@ -5667,13 +5863,7 @@
 
 
 
-"name": "Brandweerkazerne",
-
-
-
-
-
-"terms": "Brandweerkazerne"
+"name": "Brandweerkazerne"
 
 
 
@@ -5695,7 +5885,7 @@
 
 
 
-"terms": "Fontein"
+"terms": "water, sproeier"
 
 
 
@@ -5717,7 +5907,7 @@
 
 
 
-"terms": "Tankstation, benzinestation"
+"terms": "benzinestation, auto, diesel, nafte"
 
 
 
@@ -5739,7 +5929,29 @@
 
 
 
-"terms": "Begraafplaats, kerkhof"
+"terms": "kerkhof"
+
+
+
+
+},
+
+
+
+
+"amenity/grit_bin": {
+
+
+
+
+
+"name": "Bak met Mengeling van Strooizout en Grind",
+
+
+
+
+
+"terms": "winter, ijs, ijsvrij, ijsruimen, ontdooien, grip, antislip"
 
 
 
@@ -5799,7 +6011,7 @@
 
 
 
-"terms": "Bibliotheek"
+"terms": "boeken, lenen, lezen, literatuuur"
 
 
 
@@ -5815,13 +6027,13 @@
 
 
 
-"name": "Markt",
+"name": "Marktplaats",
 
 
 
 
 
-"terms": "Markt"
+"terms": "groenten, vis, groentemarkt"
 
 
 
@@ -5837,7 +6049,13 @@
 
 
 
-"name": "Nachtclub"
+"name": "Nachtclub",
+
+
+
+
+
+"terms": "dancing, bar, uitgaan, disco"
 
 
 
@@ -5853,13 +6071,13 @@
 
 
 
-"name": "Parkeerplaats",
+"name": "Parking",
 
 
 
 
 
-"terms": "parking, parkeerplaats"
+"terms": "parkeerplaats"
 
 
 
@@ -5875,7 +6093,13 @@
 
 
 
-"name": "Ingang/Uitgang van Parkingcomplex"
+"name": "Ingang/Uitgang van Parkingcomplex",
+
+
+
+
+
+"terms": "inrit, uitrit"
 
 
 
@@ -5897,7 +6121,7 @@
 
 
 
-"terms": "Apotheek"
+"terms": "geneesmiddelen, apoteek"
 
 
 
@@ -5919,7 +6143,7 @@
 
 
 
-"terms": "Godshuis"
+"terms": "godshuis, kerk, moskee"
 
 
 
@@ -5935,13 +6159,13 @@
 
 
 
-"name": "Boedistische tempel",
+"name": "Boeddhistische tempel",
 
 
 
 
 
-"terms": "Boedistische tempel"
+"terms": "boedistische tempel, boeddha, boeddhisme"
 
 
 
@@ -5963,7 +6187,7 @@
 
 
 
-"terms": "Kerk"
+"terms": "christendom, Jezus, Christus, godshuis"
 
 
 
@@ -5985,7 +6209,7 @@
 
 
 
-"terms": "Synagoge, sjoel"
+"terms": "jodendom, sjoel"
 
 
 
@@ -6007,7 +6231,7 @@
 
 
 
-"terms": "Moskee"
+"terms": "islam"
 
 
 
@@ -6023,13 +6247,13 @@
 
 
 
-"name": "Politie",
+"name": "Politiekantoor",
 
 
 
 
 
-"terms": "Politie"
+"terms": "politie, rijkswacht, gendarmerie"
 
 
 
@@ -6051,7 +6275,7 @@
 
 
 
-"terms": "postbus"
+"terms": "postbus, bpost"
 
 
 
@@ -6073,7 +6297,7 @@
 
 
 
-"terms": "Postkantoor"
+"terms": "brievenbus, bpost"
 
 
 
@@ -6095,7 +6319,7 @@
 
 
 
-"terms": "Café, bar, kroeg, bierhuis, bier"
+"terms": "bar, kroeg, bierhuis, bier"
 
 
 
@@ -6111,7 +6335,13 @@
 
 
 
-"name": "Openbare Boekenkast"
+"name": "Openbare Boekenkast",
+
+
+
+
+
+"terms": "boeken, literatuur, bibliotheek"
 
 
 
@@ -6193,7 +6423,7 @@
 
 
 
-"terms": "Restaurant"
+"terms": "kantine, snackbar, lunchroom, pizzeria"
 
 
 
@@ -6253,7 +6483,13 @@
 
 
 
-"name": "Sociale Faciliteit"
+"name": "Sociale Faciliteit",
+
+
+
+
+
+"terms": "OCMW, kansarmen, hulp, hulpcentrum"
 
 
 
@@ -6285,13 +6521,41 @@
 
 
 
+"amenity/social_facility/group_home": {
+
+
+
+
+
+"name": "Verzorgingstehuis (bv. bejaardentehuis)",
+
+
+
+
+
+"terms": "rusthuis, bejaardentehuis"
+
+
+
+
+},
+
+
+
+
 "amenity/social_facility/homeless_shelter": {
 
 
 
 
 
-"name": "Opvangcentrum voor Daklozen"
+"name": "Opvangcentrum voor Daklozen",
+
+
+
+
+
+"terms": "dakloos"
 
 
 
@@ -6307,7 +6571,13 @@
 
 
 
-"name": "Studio"
+"name": "Studio",
+
+
+
+
+
+"terms": "Studio (Opnamestudio/Radio)"
 
 
 
@@ -6329,7 +6599,7 @@
 
 
 
-"terms": "Zwembad"
+"terms": "zwemmen, bad, water"
 
 
 
@@ -6345,13 +6615,7 @@
 
 
 
-"name": "Taxistandplaats",
-
-
-
-
-
-"terms": "Taxistandplaats"
+"name": "Taxistandplaats"
 
 
 
@@ -6373,7 +6637,7 @@
 
 
 
-"terms": "Telefoon"
+"terms": "telefoonhokje"
 
 
 
@@ -6395,7 +6659,7 @@
 
 
 
-"terms": "Theater"
+"terms": "opera, concertgebouw"
 
 
 
@@ -6417,7 +6681,7 @@
 
 
 
-"terms": "Toiletten"
+"terms": "WC"
 
 
 
@@ -6439,7 +6703,7 @@
 
 
 
-"terms": "Gemeentehuis, stadhuis"
+"terms": "stadhuis, gemeentekantoor, stadsbestuur, burgemeester"
 
 
 
@@ -6455,7 +6719,7 @@
 
 
 
-"name": "Campus van universiteit of hogeschool",
+"name": "Campus van Universiteit of Hogeschool",
 
 
 
@@ -6483,7 +6747,7 @@
 
 
 
-"terms": "automaat"
+"terms": "verkoopautomaat"
 
 
 
@@ -6505,7 +6769,7 @@
 
 
 
-"terms": "veearts, dierenarts"
+"terms": "veearts, dierendokter"
 
 
 
@@ -6527,7 +6791,7 @@
 
 
 
-"terms": "Prullenbak, afvalbak"
+"terms": "afvalbak, vuilnisbak"
 
 
 
@@ -6549,7 +6813,7 @@
 
 
 
-"terms": "Gebied"
+"terms": "vlak"
 
 
 
@@ -6565,7 +6829,13 @@
 
 
 
-"name": "Barrière"
+"name": "Barrière",
+
+
+
+
+
+"terms": "grens, afscheiding, afsluiting, scheiding"
 
 
 
@@ -6581,7 +6851,7 @@
 
 
 
-"name": "Blokkade"
+"name": "Blok"
 
 
 
@@ -6597,7 +6867,13 @@
 
 
 
-"name": "Poller"
+"name": "Paaltjes",
+
+
+
+
+
+"terms": "poller"
 
 
 
@@ -6613,7 +6889,13 @@
 
 
 
-"name": "Wildrooster"
+"name": "Wildrooster",
+
+
+
+
+
+"terms": "koeienrooster"
 
 
 
@@ -6629,7 +6911,13 @@
 
 
 
-"name": "Stadsmuur"
+"name": "Stadsmuur",
+
+
+
+
+
+"terms": "omwalling, wallen, verdediging"
 
 
 
@@ -6689,7 +6977,13 @@
 
 
 
-"name": "Ingang"
+"name": "Doorgang",
+
+
+
+
+
+"terms": "ingang, toegang"
 
 
 
@@ -6727,7 +7021,13 @@
 
 
 
-"name": "Hek"
+"name": "Hek",
+
+
+
+
+
+"terms": "hekken, poort"
 
 
 
@@ -6743,7 +7043,7 @@
 
 
 
-"name": "Haag of heg",
+"name": "Haag",
 
 
 
@@ -6781,7 +7081,13 @@
 
 
 
-"name": "Slagboom"
+"name": "Slagboom",
+
+
+
+
+
+"terms": "bareel"
 
 
 
@@ -6835,7 +7141,7 @@
 
 
 
-"terms": "Tol, Tolhuisje"
+"terms": "tol, betalen, heffing, tolkantoor"
 
 
 
@@ -6857,7 +7163,7 @@
 
 
 
-"terms": "Muur, Wand"
+"terms": "wand"
 
 
 
@@ -6895,7 +7201,7 @@
 
 
 
-"terms": "Gebouw, Pand, Bouwwerk"
+"terms": "pand,bouwwerk,bouwsel,constructie"
 
 
 
@@ -6917,7 +7223,7 @@
 
 
 
-"terms": "Appartement, Flat"
+"terms": "flatgebouw, flats, appartementsgebouw, wolkenkrabber, woongebouw, residentie"
 
 
 
@@ -6939,7 +7245,7 @@
 
 
 
-"terms": "Schuur, Stal, Loods"
+"terms": "stal, loods"
 
 
 
@@ -6999,7 +7305,13 @@
 
 
 
-"name": "Kathedraal"
+"name": "Kathedraal",
+
+
+
+
+
+"terms": "kerk, christendom, bisschop"
 
 
 
@@ -7021,7 +7333,7 @@
 
 
 
-"terms": "Kapel"
+"terms": "kapelletje"
 
 
 
@@ -7037,7 +7349,13 @@
 
 
 
-"name": "Kerk"
+"name": "Kerk",
+
+
+
+
+
+"terms": "christendom, godshuis"
 
 
 
@@ -7091,7 +7409,13 @@
 
 
 
-"name": "Gebouw In Opbouw"
+"name": "Gebouw In Opbouw",
+
+
+
+
+
+"terms": "constructie, werken, onaf"
 
 
 
@@ -7107,7 +7431,13 @@
 
 
 
-"name": "Alleenstaand Huis"
+"name": "Alleenstaand Huis",
+
+
+
+
+
+"terms": "villa, woning"
 
 
 
@@ -7123,7 +7453,13 @@
 
 
 
-"name": "Slaapzaal"
+"name": "Studentenflats",
+
+
+
+
+
+"terms": "peda, kot, home, studentenkot"
 
 
 
@@ -7139,7 +7475,13 @@
 
 
 
-"name": "Ingang/Uitgang"
+"name": "Ingang/Uitgang",
+
+
+
+
+
+"terms": "toegang"
 
 
 
@@ -7161,7 +7503,7 @@
 
 
 
-"terms": "garage"
+"terms": "garages"
 
 
 
@@ -7177,7 +7519,13 @@
 
 
 
-"name": "Garages"
+"name": "Garages",
+
+
+
+
+
+"terms": "garage"
 
 
 
@@ -7193,7 +7541,13 @@
 
 
 
-"name": "Serre"
+"name": "Broeikas",
+
+
+
+
+
+"terms": "serre, kas"
 
 
 
@@ -7231,7 +7585,13 @@
 
 
 
-"name": "Hotelgebouw"
+"name": "Hotelgebouw",
+
+
+
+
+
+"terms": "hotel"
 
 
 
@@ -7253,7 +7613,7 @@
 
 
 
-"terms": "huis, woning"
+"terms": "woning, woonst"
 
 
 
@@ -7269,7 +7629,13 @@
 
 
 
-"name": "Hut"
+"name": "Hut",
+
+
+
+
+
+"terms": "hutje"
 
 
 
@@ -7317,7 +7683,13 @@
 
 
 
-"name": "Openbaar Gebouw"
+"name": "Openbaar Gebouw",
+
+
+
+
+
+"terms": "publiek"
 
 
 
@@ -7333,7 +7705,13 @@
 
 
 
-"name": "Woongebouw"
+"name": "Woongebouw",
+
+
+
+
+
+"terms": "residentieel, huis, appartementsgebouw, flats"
 
 
 
@@ -7371,7 +7749,13 @@
 
 
 
-"name": "Dak"
+"name": "Dak",
+
+
+
+
+
+"terms": "afdak"
 
 
 
@@ -7409,7 +7793,13 @@
 
 
 
-"name": "Schuurtje"
+"name": "Schuurtje",
+
+
+
+
+
+"terms": "hutje, tuinhuis"
 
 
 
@@ -7425,7 +7815,13 @@
 
 
 
-"name": "Stal"
+"name": "Stal",
+
+
+
+
+
+"terms": "dieren, paarden, vee, stalling"
 
 
 
@@ -7457,7 +7853,13 @@
 
 
 
-"name": "Rijhuizen"
+"name": "Rijhuizen",
+
+
+
+
+
+"terms": "rijtjeshuizen"
 
 
 
@@ -7523,7 +7925,7 @@
 
 
 
-"terms": "magazijn, opslagplaats"
+"terms": "magazijn"
 
 
 
@@ -7589,7 +7991,7 @@
 
 
 
-"terms": "imker, bijenhouder"
+"terms": "bijenhouder"
 
 
 
@@ -7611,7 +8013,7 @@
 
 
 
-"terms": "smid, hoefsmid"
+"terms": "hoefsmid"
 
 
 
@@ -7665,7 +8067,7 @@
 
 
 
-"terms": "brouwerij"
+"terms": "bier, wijn"
 
 
 
@@ -7687,7 +8089,7 @@
 
 
 
-"terms": "timmerman"
+"terms": "houtwerk, planken"
 
 
 
@@ -8803,7 +9205,7 @@
 
 
 
-"name": "Autosnelweg"
+"name": "Wegennet"
 
 
 
@@ -8955,7 +9357,13 @@
 
 
 
-"name": "Minirotonde"
+"name": "Rotonde waarvan door het midden kan worden gereden",
+
+
+
+
+
+"terms": "rond-punt, rondpunt"
 
 
 
@@ -8971,7 +9379,13 @@
 
 
 
-"name": "Snelweg"
+"name": "Autosnelweg",
+
+
+
+
+
+"terms": "autostrade,snelweg"
 
 
 
@@ -8987,7 +9401,13 @@
 
 
 
-"name": "Afslag / Afrit op Autosnelweg"
+"name": "Afslag / Afrit op Autosnelweg",
+
+
+
+
+
+"terms": "autostrade,snelweg,autosnelweg"
 
 
 
@@ -9003,7 +9423,13 @@
 
 
 
-"name": "Invoegstrook"
+"name": "Verbinding van autosnelweg",
+
+
+
+
+
+"terms": "autostrade,snelweg,autosnelweg,link,invoegstrook,afslag"
 
 
 
@@ -9067,7 +9493,7 @@
 
 
 
-"name": "Afrit provinciale weg"
+"name": "Verbinding van provinciale weg"
 
 
 
@@ -9169,7 +9595,7 @@
 
 
 
-"name": "Afslag secundaire weg"
+"name": "Verbinding van secundaire weg"
 
 
 
@@ -9375,13 +9801,7 @@
 
 
 
-"name": "Tertiare weg",
-
-
-
-
-
-"terms": "aire, wegrestaurant, autostrade, autosnelweg, rustplaats, parkeerplaats, parking"
+"name": "Tertiare weg"
 
 
 
@@ -9397,7 +9817,7 @@
 
 
 
-"name": "Afrit tertiaire weg"
+"name": "Verbinding van tertiaire weg"
 
 
 
@@ -9451,7 +9871,13 @@
 
 
 
-"name": "Autoweg"
+"name": "Autoweg",
+
+
+
+
+
+"terms": "expressweg, autostrade, autosnelweg"
 
 
 
@@ -9467,7 +9893,13 @@
 
 
 
-"name": "Afrit autoweg"
+"name": "Verbinding van autoweg",
+
+
+
+
+
+"terms": "expressweg, autostrade, autosnelweg"
 
 
 
@@ -10907,13 +11339,7 @@
 
 
 
-"name": "Kazerne",
-
-
-
-
-
-"terms": "kazerne"
+"name": "Kazerne"
 
 
 
@@ -11985,7 +12411,7 @@
 
 
 
-"name": "[verouderd] Klein onderstation"
+"name": "Klein onderstation"
 
 
 
@@ -12007,7 +12433,7 @@
 
 
 
-"terms": "stroom, elektriciteit, energievoorzieningen, transformator, distributie, transformatiecabine, laagspanning, hoogspanning, voltage, spanning"
+"terms": "stroom, elektriciteit, energievoorzieningen, transformator, distributie, transformatiecabine, laagspanning, hoogspanning, voltage, spanning, onderstation, klein onderstation, distributiecabine, ondercentrale"
 
 
 
@@ -12348,6 +12774,28 @@
 
 
 "name": "Relatie"
+
+
+
+
+},
+
+
+
+
+"roundabout": {
+
+
+
+
+
+"name": "Rotonde",
+
+
+
+
+
+"terms": "rond-punt, rondpunt"
 
 
 
@@ -13811,7 +14259,7 @@
 
 
 
-"name": "Winkel met Organische Goederen [verouderde tag, gebruik in de plaats het echte type winkel en de tag organic=yes]"
+"name": "Winkel met Organische Koopwaar"
 
 
 
@@ -13833,7 +14281,7 @@
 
 
 
-"terms": "trekking, fietsen, hike, gps, kamperen, tent"
+"terms": "trekking,fietsen,hike,gps,kamperen,tent"
 
 
 
@@ -13871,7 +14319,7 @@
 
 
 
-"terms": "pandhuis, lommerd, lombard, kredietinstelling, lenen, geld"
+"terms": "pandhuis,lommerd,lombard,kredietinstelling,lenen,geld"
 
 
 
@@ -13925,7 +14373,7 @@
 
 
 
-"terms": "vuurpijlen, buskruit, nieuwjaar"
+"terms": "vuurpijlen,buskruit,nieuwjaar"
 
 
 
@@ -13947,7 +14395,7 @@
 
 
 
-"terms": "radiotechniek, satelliet-TV"
+"terms": "radiotechniek,satelliet-TV"
 
 
 
@@ -13969,7 +14417,7 @@
 
 
 
-"terms": "liturgisch centrum, kerk, godsdienstwinkel, kruisbeelden, souvenirwinkel"
+"terms": "liturgisch centrum,kerk,godsdienstwinkel,kruisbeelden,souvenirwinkel"
 
 
 
@@ -13991,7 +14439,7 @@
 
 
 
-"terms": "diepzeeduiken, duiken, duiksport, scuba"
+"terms": "diepzeeduiken,duiken,duiksport,scuba"
 
 
 
@@ -14029,7 +14477,7 @@
 
 
 
-"terms": "hergebruik, doorverkoop"
+"terms": "hergebruik,doorverkoop"
 
 
 
@@ -14121,7 +14569,7 @@
 
 
 
-"terms": "maatwerk, kleren, kledij, kostuum"
+"terms": "maatwerk,kleren,kledij,kostuum"
 
 
 
@@ -14175,7 +14623,7 @@
 
 
 
-"terms": "toegangskaartjes, ticketjes"
+"terms": "toegangskaartjes,ticketjes"
 
 
 
@@ -14295,7 +14743,7 @@
 
 
 
-"terms": "huishouden, schoonmaken, poetsen, stofzuigen, electro, elektro"
+"terms": "huishouden,schoonmaken,poetsen,stofzuigen,electro,elektro"
 
 
 
@@ -14397,7 +14845,7 @@
 
 
 
-"terms": "zonwering, luiken, jaloezieën"
+"terms": "zonwering,luiken,jaloezieën"
 
 
 
@@ -14553,7 +15001,7 @@
 
 
 
-"terms": "bed and breakfast, bed & breakfast, hotel"
+"terms": "bed and breakfast,bed & breakfast,hotel"
 
 
 
@@ -14731,7 +15179,7 @@
 
 
 
-"terms": "snelheidsdrempel, plateau, verkeersplateau"
+"terms": "snelheidsdrempel,plateau,verkeersplateau"
 
 
 
@@ -14753,7 +15201,7 @@
 
 
 
-"terms": "snelheidsdrempel, plateau, verkeersplateau"
+"terms": "snelheidsdrempel,plateau,verkeersplateau"
 
 
 
@@ -14775,7 +15223,7 @@
 
 
 
-"terms": "rammelstrook, ribbeltjesstrook, ribbelstrook, ribbelstrook over volledig wegdek"
+"terms": "rammelstrook,ribbeltjesstrook,ribbelstrook,ribbelstrook over volledig wegdek"
 
 
 
@@ -14797,7 +15245,7 @@
 
 
 
-"terms": "verhoogd zebrapad, verkeersdrempel, drempel, plateau"
+"terms": "verhoogd zebrapad,verkeersdrempel,drempel,plateau"
 
 
 
@@ -14979,7 +15427,7 @@
 
 
 
-"terms": "rechtdoor, niet, draaien, afslaan"
+"terms": "rechtdoor,niet,draaien,afslaan"
 
 
 
@@ -15161,7 +15609,7 @@
 
 
 
-"terms": "spoor, NMBS, NS"
+"terms": "spoor,NMBS,NS"
 
 
 
@@ -15279,7 +15727,13 @@
 
 
 
-"name": "Sloot, greppel of gracht"
+"name": "Greppel",
+
+
+
+
+
+"terms": "sloot,gracht"
 
 
 
@@ -15295,7 +15749,13 @@
 
 
 
-"name": "Sloot, greppel of gracht"
+"name": "Sloot",
+
+
+
+
+
+"terms": "greppel,gracht"
 
 
 
@@ -15317,7 +15777,7 @@
 
 
 
-"terms": "rivier, stroom"
+"terms": "stroom,beek"
 
 
 
@@ -15333,7 +15793,13 @@
 
 
 
-"name": "Rivieroever"
+"name": "Rivieroever",
+
+
+
+
+
+"terms": "oever"
 
 
 
@@ -15355,7 +15821,7 @@
 
 
 
-"terms": "stroom, rivier"
+"terms": "stroom,rivier"
 
 
 

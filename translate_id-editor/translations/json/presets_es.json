@@ -114,7 +114,7 @@
 
 
 
-"name": "Carretera"
+"name": "Camino"
 
 
 
@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Pendiente",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Arriba",
+
+
+
+
+
+
+"down": "Abajo"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -2578,7 +2620,7 @@
 
 
 
-"placeholder": "Fácil, Medio, Difícil...",
+"placeholder": "Fácil, medio, difícil...",
 
 
 
@@ -2660,35 +2702,35 @@
 
 
 
-"0": "0: Promedio de inclinación <10%, grava/tierra apisonada, sin obstáculos",
+"0": "0: Promedio de pendiente <10%, grava/tierra apisonada, sin obstáculos",
 
 
 
 
 
 
-"1": "1: Promedio de inclinación <15%, grava/tierra compactada, pocos objetos pequeños",
+"1": "1: Promedio de pendiente <15%, grava/tierra compactada, pocos objetos pequeños",
 
 
 
 
 
 
-"2": "2: Promedio de inclinación <20%, superficie estable, rocas del tamaño del puño/raíces",
+"2": "2: Promedio de pendiente <20%, superficie estable, rocas del tamaño del puño/raíces",
 
 
 
 
 
 
-"3": "3: Promedio de inclinación <25%, superficie variable, rocas del tamaño del puño/ramas",
+"3": "3: Promedio de pendiente <25%, superficie variable, rocas del tamaño del puño/ramas",
 
 
 
 
 
 
-"4": "4: Promedio de inclinación <30%, mal estado, rocas grandes/ramas",
+"4": "4: Promedio de pendiente <30%, mal estado, rocas grandes/ramas",
 
 
 
@@ -3103,7 +3145,7 @@
 
 
 
-"intermediate": "Intermediate (blue square)",
+"intermediate": "Intermedio (cuadrado azul)",
 
 
 
@@ -3180,7 +3222,7 @@
 
 
 
-"backcountry": "Backcountry",
+"backcountry": "Campo abierto",
 
 
 
@@ -3560,7 +3602,7 @@
 
 
 
-"placeholder": "Caminata de montaña, Caminata Alpina...",
+"placeholder": "Caminata de montaña, caminata alpina...",
 
 
 
@@ -3580,35 +3622,35 @@
 
 
 
-"mountain_hiking": "T2: Senderismo de Montaña",
+"mountain_hiking": "T2: Senderismo de montaña",
 
 
 
 
 
 
-"demanding_mountain_hiking": "T3: Senderismo de Montaña Exigente",
+"demanding_mountain_hiking": "T3: Senderismo de montaña exigente",
 
 
 
 
 
 
-"alpine_hiking": "T4: Senderismo Alpino",
+"alpine_hiking": "T4: Senderismo alpino",
 
 
 
 
 
 
-"demanding_alpine_hiking": "T5: Senderismo Alpino Exigente",
+"demanding_alpine_hiking": "T5: Senderismo alpino exigente",
 
 
 
 
 
 
-"difficult_alpine_hiking": "T6: Senderismo Alpino Difícil"
+"difficult_alpine_hiking": "T6: Senderismo alpino difícil"
 
 
 
@@ -3739,6 +3781,62 @@
 
 
 "no": "No"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Tipo de servicio",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Ramal corto",
+
+
+
+
+
+
+"yard": "Patio de maniobra",
+
+
+
+
+
+
+"siding": "Ramal paralelo",
+
+
+
+
+
+
+"crossover": "Ramal de cruce"
 
 
 
@@ -3906,7 +4004,7 @@
 
 
 
-"placeholder": "Ruedas delgadas, todoterreno,...",
+"placeholder": "Ruedas delgadas, todo terreno...",
 
 
 
@@ -3947,21 +4045,21 @@
 
 
 
-"very_bad": "Gran Despeje: vehículo todoterreno de trabajo livianos",
+"very_bad": "Gran despeje: vehículo todo terreno de trabajo livianos",
 
 
 
 
 
 
-"horrible": "Todoterreno: vehículo todoterreno de trabajo pesado",
+"horrible": "Todo terreno: vehículo todo terreno de trabajo pesado",
 
 
 
 
 
 
-"very_horrible": "Todoterreno especializado: tractor, cuatriciclos",
+"very_horrible": "Todo terreno especializado: tractor, vehículo todo terreno",
 
 
 
@@ -4394,7 +4492,7 @@
 
 
 
-"grade2": "De áridos: ripio, zahorra, grava, etc.",
+"grade2": "Mayormente sólido: grava/roca con algún material suave mezclado",
 
 
 
@@ -4443,7 +4541,7 @@
 
 
 
-"placeholder": "Excelente, Bueno, Malo...",
+"placeholder": "Excelente, bueno, malo...",
 
 
 

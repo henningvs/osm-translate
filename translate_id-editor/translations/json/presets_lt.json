@@ -1613,6 +1613,13 @@
 
 
 
+"pillar": "Kolona/antžeminė",
+
+
+
+
+
+
 "underground": "Požeminis",
 
 
@@ -1867,7 +1874,14 @@
 
 
 
-"female": "Moteris"
+"female": "Moteris",
+
+
+
+
+
+
+"unisex": "Abiejų lyčių"
 
 
 
@@ -1954,6 +1968,12 @@
 
 
 "handicap": {
+
+
+
+
+
+"label": "Neįgaliesiems",
 
 
 
@@ -2062,6 +2082,48 @@
 
 
 "label": "Nuolydis"
+
+
+
+
+},
+
+
+
+
+"incline_steps": {
+
+
+
+
+
+"label": "Įkalnė",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Aukštyn",
+
+
+
+
+
+
+"down": "Žemyn"
+
+
+
+
+
+}
 
 
 
@@ -2627,7 +2689,61 @@
 
 
 
-"placeholder": "0, 1, 2, 3..."
+"placeholder": "0, 1, 2, 3...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"0": "0: Vid. kilimas <10%, gruntas, suspausta žemė, be kliūčių",
+
+
+
+
+
+
+"1": "1. Vid. kilimas <15%, gruntas, suspausta žemė, keli smulkūs objektai",
+
+
+
+
+
+
+"2": "2. Vid. kilimas <20%, stabilus paviršius, kumščio dydžio akmenys/šaknys",
+
+
+
+
+
+
+"3": "3: Vid. kilimas <25%, kintantis paviršius, kumščio dydžio akmenys/šaknys",
+
+
+
+
+
+
+"4": "4: Vid. įkalnė <30%, prastos būklės, dideli akmenys/šaknys",
+
+
+
+
+
+
+"5": "5: Labai status, dviratį pagrinde reikia stumti arba nešti"
+
+
+
+
+
+}
 
 
 
@@ -2925,7 +3041,14 @@
 
 
 
-"garage_boxes": "Garažai"
+"garage_boxes": "Garažai",
+
+
+
+
+
+
+"lane": "Kelkraštis"
 
 
 
@@ -3088,6 +3211,20 @@
 
 
 "options": {
+
+
+
+
+
+
+"sled": "Rogės",
+
+
+
+
+
+
+"ice_skate": "Ledo čiuožimas",
 
 
 

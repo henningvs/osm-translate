@@ -544,6 +544,11 @@
 
 
 
+"part_of_relation": "Tento objekt nemôže byť vymazaný, pretože je súčasťou väčšej relácie. Musíte ho najskôr z tejto relácie odobrať.",
+
+
+
+
 "connected_to_hidden": "Tento objekt nemožno vymazať, pretože je spojený so skrytým objektom."
 
 
@@ -1708,7 +1713,7 @@
 
 
 
-"description": "Želáte si obnoviť neuložené zmeny z predchádzajúcej relácie?",
+"description": "Želáte si obnoviť neuložené zmeny z predchádzajúcej návštevy?",
 
 
 
@@ -1738,7 +1743,11 @@
 
 
 
-"error": "Počas ukladania sa vyskytla chyba",
+"error": "Počas ukladania sa vyskyla chyba",
+
+
+
+"status_code": "Server vrátil chybový kód {code}",
 
 
 
@@ -1750,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Máte neuložené zmeny"
+"unsaved_changes": "Máte neuložené zmeny",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Vyrieš konfliktné úpravy",
+
+
+
+
+"count": "Konflikt {num} z {total}",
+
+
+
+
+"previous": "< Predošlý",
+
+
+
+
+"next": "Ďaľší >",
+
+
+
+
+"keep_local": "Zachovaj moje",
+
+
+
+
+"keep_remote": "Použi ich",
+
+
+
+
+"restore": "Obnov",
+
+
+
+
+"delete": "Ponechaj vymazané",
+
+
+
+
+"download_changes": "Alebo stiahni moje zmeny",
+
+
+
+
+"done": "Všetky konflikty sú vyriešené!",
+
+
+
+
+"help": "Iný užívateľ pozmenil niektoré z objektov, ktoré ste zmenili aj vy.\nPre viac detajlov o konflikte, kliknite na každú položku nižšie a vyberte, či chcete ponechať\nvaše zmeny alebo zmeny iných užívateľov.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Tento objekt bol vymazaný užívateľom {user}.",
+
+
+
+
+"location": "Tento objekt bol posunutý vami a tiež užívateľom {user}.",
+
+
+
+
+"nodelist": "Body boli zmenené vami a tiež užívateľom {user}.",
+
+
+
+
+"memberlist": "Členy relácie boli zmenené vami a tiež užívateľom {user}.",
+
+
+
+
+"tags": "Zmenili ste označenie <b>{tag}</b> na \"{local}\" a {user} ho zmenil na \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1794,7 +1905,11 @@
 
 
 
-"okay": "OK"
+"okay": "OK",
+
+
+
+"cancel": "Zrušiť"
 
 
 },
@@ -2022,7 +2137,7 @@
 
 
 
-"select": "Objekty na mape sú reprezentované tromi spôsobmi: pomocou bodov, čiar alebo plôch. Všetky objekty môžu byť vybraté tým, že na ne kliknete. **Kliknite na bod, aby ste ho vybrali.**",
+"select": "Objekty na mape sú reprezentované tromi spôsobmi: pomocou bodov, čiar alebo plôch. Každý objekt môžete vybrať tým, že naň kliknete. **Kliknite na bod, aby ste ho vybrali.**",
 
 
 
@@ -2032,7 +2147,7 @@
 
 
 
-"pane": "Keď je objekt vybraný, zobrazí sa editor objektu. Hlavička nám ukazuje typ objektu a hlavný panel zobrazuje atribúty objektu, ako sú jeho meno a adresa. **Zatvorte editor objektu pomocou tlačítka vpravo hore.**"
+"pane": "Keď je objekt vybraný, zobrazí sa editor objektu. Hlavička nám ukazuje typ objektu a hlavný panel zobrazuje vlastnosti objektu, ako sú jeho meno a adresa. **Zatvorte editor objektu pomocou tlačítka vpravo hore.**"
 
 
 
@@ -2050,7 +2165,7 @@
 
 
 
-"add": "Body môžu byť použité na znázorňovanie objektov ako sú obchody, reštaurácie a pamätihodnosťi. Označujú špecifickú polohu a popisujú čo sa tam nachádza. **Kliknite na tlačidlo Bod a pridajte nový bod.**",
+"add": "Body môžu byť použité na znázorňovanie objektov ako sú obchody, reštaurácie a pamätihodnosťi. Označujú špecifickú polohu a popisujú čo sa tam nachádza. **Kliknite na tlačítko Bod a pridajte nový bod.**",
 
 
 
@@ -2113,7 +2228,7 @@
 
 
 
-"add": "Plochy slúžia na zobrazenie hraníc jazier, budov a obytných oblastí. Môžu byť taktiež použité pre podrobnejšie zmapovanie mnohých funkcií, ktoré sú na mape ako normálne body. ** Kliknite na tlačidlo Plocha a pridajte novú oblasť. **",
+"add": "Plochy slúžia na zobrazenie hraníc jazier, budov a obytných oblastí. Môžu byť taktiež použité pre podrobnejšie zmapovanie mnohých objektov, ktoré by ste normálne mapovali ako bod. ** Kliknite na tlačítko Plocha a pridajte novú oblasť. **",
 
 
 

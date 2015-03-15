@@ -2081,7 +2081,49 @@
 
 
 
-"label": "Nghiêng"
+"label": "Độ dốc"
+
+
+
+
+},
+
+
+
+
+"incline_steps": {
+
+
+
+
+
+"label": "Độ dốc",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Lên",
+
+
+
+
+
+
+"down": "Xuống"
+
+
+
+
+
+}
 
 
 
@@ -3739,6 +3781,62 @@
 
 
 "no": "Không có"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Kiểu Dịch vụ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Đường Nhánh",
+
+
+
+
+
+
+"yard": "Đường Sân ga",
+
+
+
+
+
+
+"siding": "Đường Tránh",
+
+
+
+
+
+
+"crossover": "Đường Xuyên chéo"
 
 
 

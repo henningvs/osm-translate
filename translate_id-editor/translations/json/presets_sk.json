@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Sklon",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Nahor",
+
+
+
+
+
+
+"down": "Nadol"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -3656,6 +3698,55 @@
 
 
 
+"service/bicycle/chain_tool": {
+
+
+
+
+
+"label": "Oprava reťaze",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Pravdepodobne nie",
+
+
+
+
+
+
+"yes": "Áno",
+
+
+
+
+
+
+"no": "Nie"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "service/bicycle/pump": {
 
 
@@ -3912,7 +4003,14 @@
 
 
 
-"very_horrible": "Špecializovaný off-road: traktor, štvorkolka"
+"very_horrible": "Špecializovaný off-road: traktor, štvorkolka",
+
+
+
+
+
+
+"impassable": "Nepriechodné / Nie pre kolesové vozidlá"
 
 
 
@@ -13680,6 +13778,28 @@
 
 
 "terms": "relacia,linka,trasa"
+
+
+
+
+},
+
+
+
+
+"roundabout": {
+
+
+
+
+
+"name": "Kruhový objazd",
+
+
+
+
+
+"terms": "kruhovy objazd, kruhac, kruháč, kruhová križovatka, kruhova krizovatka"
 
 
 

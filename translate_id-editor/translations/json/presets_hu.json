@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Lejtő",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Fel",
+
+
+
+
+
+
+"down": "Le"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -13736,6 +13778,28 @@
 
 
 "terms": "Kapcsolat"
+
+
+
+
+},
+
+
+
+
+"roundabout": {
+
+
+
+
+
+"name": "Körforgalom",
+
+
+
+
+
+"terms": "körforgalom"
 
 
 

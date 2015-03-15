@@ -1743,10 +1743,6 @@
 
 
 
-"error": "Mentés közben hiba történt",
-
-
-
 "unknown_error_details": "Győződjön meg arról, hogy csatlakozik-e az internethez.",
 
 
@@ -1755,7 +1751,30 @@
 
 
 
-"unsaved_changes": "Elmentetlen változtatásaid vannak"
+"unsaved_changes": "Elmentetlen változtatásaid vannak",
+
+
+
+"conflict": {
+
+
+
+
+"previous": "< Előző",
+
+
+
+
+"next": "Következő >",
+
+
+
+
+"restore": "Visszaállítás"
+
+
+
+}
 
 
 },
@@ -1799,7 +1818,11 @@
 
 
 
-"okay": "Oké"
+"okay": "Oké",
+
+
+
+"cancel": "Mégsem"
 
 
 },

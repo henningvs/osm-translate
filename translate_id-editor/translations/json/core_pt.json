@@ -1743,7 +1743,11 @@
 
 
 
-"error": "Ocorreu um erro ao tentar gravar",
+"error": "Ocorreram erros ao tentar gravar",
+
+
+
+"status_code": "O servidor devolveu o seguinte código de status {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Tem alterações por gravar"
+"unsaved_changes": "Tem alterações por gravar",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Resolver edições conflituosas",
+
+
+
+
+"count": "Conflito {num} de um total de {total}",
+
+
+
+
+"previous": "< Anterior",
+
+
+
+
+"next": "Próximo >",
+
+
+
+
+"keep_local": "Manter a minha",
+
+
+
+
+"keep_remote": "Usar a deles",
+
+
+
+
+"restore": "Restaurar",
+
+
+
+
+"delete": "Deixar apagado",
+
+
+
+
+"download_changes": "Ou descarregue as suas alterações",
+
+
+
+
+"done": "Todos os conflitos foram resolvidos!",
+
+
+
+
+"help": "Outro utilizador alterou alguns elementos do mapa que você alterou\nClique abaixo em cada item para ver mais detalhes sobre o conflito e escolher se gostaria de manter\na sua alteração ou a do outro utilizador.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Este objeto foi apagado por {user}.",
+
+
+
+
+"location": "Este objeto foi movimentado por você e por {user}",
+
+
+
+
+"nodelist": "Nós foram alterados por você e por {user}",
+
+
+
+
+"memberlist": "Membros de uma relação foram alterados por você e por {user}",
+
+
+
+
+"tags": "Alterou a <b>{tag}</b> etiqueta para \"{local}\" e {user} alterou-a para {remote}"
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "OK"
+"okay": "OK",
+
+
+
+"cancel": "Cancelar"
 
 
 },

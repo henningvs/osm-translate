@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Inclinaison",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "En haut",
+
+
+
+
+
+
+"down": "En bas"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -2917,7 +2959,7 @@
 
 
 
-"label": "Opérateur"
+"label": "Exploitant"
 
 
 
@@ -3739,6 +3781,62 @@
 
 
 "no": "Non"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Type de voie de service",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Embranchement particulier court permettant à une compagnie ou une entité d'accéder au réseau principal.",
+
+
+
+
+
+
+"yard": "Voie interne à la compagnie utilisée pour le triage ou la maintenance.",
+
+
+
+
+
+
+"siding": "Voie parallèle",
+
+
+
+
+
+
+"crossover": "Voie de traversée"
 
 
 
@@ -13377,7 +13475,7 @@
 
 
 
-"name": "Plateforme",
+"name": "Plateforme d'attente",
 
 
 

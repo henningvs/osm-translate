@@ -1743,7 +1743,11 @@
 
 
 
-"error": "Hi ha hagut un error en intentar desar",
+"error": "Ha hagut un error en intentar desar",
+
+
+
+"status_code": "El servidor ha expedit el codi d'estat {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Teniu canvis sense desar."
+"unsaved_changes": "Teniu canvis sense desar.",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Resoldre les edicions conflictives",
+
+
+
+
+"count": "Conflicte {num} de {total}",
+
+
+
+
+"previous": "< Anterior",
+
+
+
+
+"next": "Següent >",
+
+
+
+
+"keep_local": "Mantenir els meus",
+
+
+
+
+"keep_remote": "Utilitzar els seus",
+
+
+
+
+"restore": "Restaurar",
+
+
+
+
+"delete": "Deixar eliminat",
+
+
+
+
+"download_changes": "O bé descarregueu els vostres canvis.",
+
+
+
+
+"done": "Tots els conflictes resolts!",
+
+
+
+
+"help": "Un altre usuari ha canviat algunes característiques del mapa que també heu canviat.\nCliqueu a cada ítem dels d'aquí sota per saber més detalls dels conflictes, i escolliu si manteniu\nels vostres canvis o bé els canvis de l'altre usuari.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Aquest objecte ha estat eliminat per {user}.",
+
+
+
+
+"location": "Tant tu com {user} vau moure aquest objecte.",
+
+
+
+
+"nodelist": "Tant tu com {user} vau canviar els nodes.",
+
+
+
+
+"memberlist": "Tant tu com {user} vau canviar els membres de la relació.",
+
+
+
+
+"tags": "Heu canviat l'etiqueta <b>{tag}</b> a \"{local}\" i {user} ho ha canviat  a \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "D'acord"
+"okay": "D'acord",
+
+
+
+"cancel": "Cancel·lar"
 
 
 },

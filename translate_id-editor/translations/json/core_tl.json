@@ -1234,6 +1234,24 @@
 
 
 
+"check": {
+
+
+
+
+"yes": "Oo",
+
+
+
+
+"no": "Hindi"
+
+
+
+},
+
+
+
 "none": "Wala",
 
 
@@ -1298,6 +1316,25 @@
 },
 
 
+"feature": {
+
+
+
+"others": {
+
+
+
+
+"description": "Iba pa"
+
+
+
+}
+
+
+},
+
+
 "restore": {
 
 
@@ -1333,10 +1370,6 @@
 
 
 "no_changes": "Walang mga pagbabago upang i-save.",
-
-
-
-"error": "May error habang sinusubukang i-save",
 
 
 

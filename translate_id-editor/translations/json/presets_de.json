@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Steigung",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Hinauf",
+
+
+
+
+
+
+"down": "Hinunter"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -2723,7 +2765,7 @@
 
 
 
-"placeholder": "allgemeine Bezeichnung (falls vorhanden)"
+"placeholder": "Allgemeine Bezeichnung (falls vorhanden)"
 
 
 
@@ -3739,6 +3781,62 @@
 
 
 "no": "Nein"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Diensttyp",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Spur",
+
+
+
+
+
+
+"yard": "Hof",
+
+
+
+
+
+
+"siding": "Abstellgleis",
+
+
+
+
+
+
+"crossover": "Gleiskreuzung"
 
 
 

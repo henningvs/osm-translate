@@ -1743,7 +1743,11 @@
 
 
 
-"error": "Dogodila se pogreška pri pokušaju spremanja.",
+"error": "Došlo je do grešaka pri pokušaju spremanja",
+
+
+
+"status_code": "Poslužitelj je vratio status kôd {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Imaš nespremljenih promjena."
+"unsaved_changes": "Imaš nespremljenih promjena.",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Riješi konfliktna uređivanja",
+
+
+
+
+"count": "Nedoumica {num} od {total}",
+
+
+
+
+"previous": "< Prethodni",
+
+
+
+
+"next": "Sljedeći >",
+
+
+
+
+"keep_local": "Zadrži moje",
+
+
+
+
+"keep_remote": "Koristi njihovo",
+
+
+
+
+"restore": "Vrati",
+
+
+
+
+"delete": "Ostavi obrisano",
+
+
+
+
+"download_changes": "Ili preuzmi svoje promjene.",
+
+
+
+
+"done": "Sve nedoumice su riješene!",
+
+
+
+
+"help": "Drugi korisnik je uredio neke od značajki koje si i ti uredio/la. \nKlikni na svaku stavku ispod za dobivanje više detalja o konfliktu i odaberi koju treba zadržati\ntvoje promjene ili promjene drugog korisnika.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Ovaj objekt je obrisao {user}",
+
+
+
+
+"location": "Ovaj objekt si pomaknuo/la ti i {user}.",
+
+
+
+
+"nodelist": "Čvorove si promijenio/la ti i {user}.",
+
+
+
+
+"memberlist": "Članove relacije si promijenio/la ti i {user}.",
+
+
+
+
+"tags": "Promijenio/la su <b>{tag}</b> oznaku u \"{local}\" i {user} ju je promijenio/la u \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "Ok"
+"okay": "Ok",
+
+
+
+"cancel": "Otkaži"
 
 
 },

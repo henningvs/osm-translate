@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Sklon",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Nahoru",
+
+
+
+
+
+
+"down": "Dolů"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -3739,6 +3781,62 @@
 
 
 "no": "Ne"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Typ manipulační koleje",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Nákladiště",
+
+
+
+
+
+
+"yard": "Kolej seřaďovacího nádraží",
+
+
+
+
+
+
+"siding": "Výhybna",
+
+
+
+
+
+
+"crossover": "Kolejová spojka"
 
 
 

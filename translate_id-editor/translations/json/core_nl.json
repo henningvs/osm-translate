@@ -17,7 +17,7 @@
 
 
 
-"description": "Voeg parken, gebouwen, meren of andere vlakken aan de kaart toe.",
+"description": "Voeg parken, gebouwen, meren of andere vlakken toe aan de kaart.",
 
 
 
@@ -99,7 +99,7 @@
 
 
 
-"tail": "Klik om knooppunten aan het vlak toe te voegen. Klik op het eerste knooppunt om het vlak te sluiten."
+"tail": "Klik om knooppunten aan het vlak toe te voegen. Klik wanneer je klaar bent op het eerste knooppunt om het vlak te sluiten."
 
 
 
@@ -265,7 +265,7 @@
 
 
 
-"annotation": "De rol van een lid van de relatie is gewijzigd."
+"annotation": "Rol van relatielid gewijzigd."
 
 
 
@@ -291,7 +291,7 @@
 
 
 
-"title": "Rond maken",
+"title": "Maak rond",
 
 
 
@@ -329,13 +329,13 @@
 
 
 
-"line": "Lijn rond gemaakt.",
+"line": "Lijn rondgemaakt.",
 
 
 
 
 
-"area": "Vlak rond gemaakt."
+"area": "Vlak rondgemaakt."
 
 
 
@@ -345,17 +345,17 @@
 
 
 
-"not_closed": "Dit kan niet rond gemaakt worden omdat het geen lus is.",
+"not_closed": "Dit kan niet rondgemaakt worden omdat het geen lus is.",
 
 
 
 
-"too_large": "Dit kan niet rond gemaakt worden omdat slechts een te klein deel ervan momenteel zichtbaar is.",
+"too_large": "Dit kan niet rondgemaakt worden omdat slechts een te klein deel ervan momenteel zichtbaar is.",
 
 
 
 
-"connected_to_hidden": "Dit kan niet rond gemaakt worden omdat het verbonden is met een verborgen object."
+"connected_to_hidden": "Dit kan niet rondgemaakt worden omdat het verbonden is met een verborgen object."
 
 
 
@@ -368,7 +368,7 @@
 
 
 
-"title": "Vierkant maken",
+"title": "Maak vierkant",
 
 
 
@@ -406,13 +406,13 @@
 
 
 
-"line": "Hoeken van een lijn haaks gemaakt.",
+"line": "Hoeken van lijn haaks gemaakt.",
 
 
 
 
 
-"area": "Hoeken van een vlak haaks gemaakt."
+"area": "Hoeken van vlak haaks gemaakt."
 
 
 
@@ -445,7 +445,7 @@
 
 
 
-"title": "Rechttrekken",
+"title": "Maak recht",
 
 
 
@@ -460,7 +460,7 @@
 
 
 
-"annotation": "Een lijn is rechtgetrokken.",
+"annotation": "Lijn rechtgetrokken.",
 
 
 
@@ -470,7 +470,7 @@
 
 
 
-"connected_to_hidden": "Deze lijn kan niet recht worden gemaakt omdat ze is verbonden met een verborgen object."
+"connected_to_hidden": "Deze lijn kan niet recht worden gemaakt omdat ze verbonden is met een verborgen object."
 
 
 
@@ -483,12 +483,12 @@
 
 
 
-"title": "Verwijderen",
+"title": "Verwijder",
 
 
 
 
-"description": "Verwijder object permanent.",
+"description": "Verwijder object voorgoed.",
 
 
 
@@ -505,7 +505,7 @@
 
 
 
-"vertex": "Knoop uit een weg verwijderd.",
+"vertex": "Knoop weggehaald uit weg.",
 
 
 
@@ -539,7 +539,7 @@
 
 
 
-"incomplete_relation": "Dit object kan niet verwijderd worden omdat het niet volledig is gedownload.",
+"incomplete_relation": "Dit object kan niet verwijderd worden omdat het niet volledig gedownload is.",
 
 
 
@@ -594,25 +594,25 @@
 
 
 
-"point": "Weg aan een punt verbonden.",
+"point": "Weg aan punt verbonden.",
 
 
 
 
 
-"vertex": "Weg aan een andere weg verbonden.",
+"vertex": "Weg aan andere weg verbonden.",
 
 
 
 
 
-"line": "Weg aan een lijn  verbonden.",
+"line": "Weg aan lijn verbonden.",
 
 
 
 
 
-"area": "Weg aan een vlak verbonden."
+"area": "Weg aan vlak verbonden."
 
 
 
@@ -630,7 +630,7 @@
 
 
 
-"title": "Losmaken",
+"title": "Maak los",
 
 
 
@@ -668,7 +668,7 @@
 
 
 
-"title": "Samenvoegen",
+"title": "Voeg samen",
 
 
 
@@ -693,7 +693,7 @@
 
 
 
-"not_adjacent": "Deze lijnen kunnen niet samengevoegd worden omdat ze niet zijn verbonden.",
+"not_adjacent": "Deze lijnen kunnen niet samengevoegd worden omdat ze niet verbonden zijn.",
 
 
 
@@ -703,7 +703,7 @@
 
 
 
-"incomplete_relation": "Deze objecten kunnen niet worden samengevoegd omdat minstens één ervan niet volledig is gedownload."
+"incomplete_relation": "Deze objecten kunnen niet samengevoegd worden omdat minstens één ervan niet volledig gedownload is."
 
 
 
@@ -716,7 +716,7 @@
 
 
 
-"title": "Verschuiven",
+"title": "Verschuif",
 
 
 
@@ -743,7 +743,7 @@
 
 
 
-"vertex": "Knoop van een weg verschoven.",
+"vertex": "Knooppunt van een weg verschoven.",
 
 
 
@@ -771,12 +771,12 @@
 
 
 
-"incomplete_relation": "Dit object kan niet worden verplaatst omdat het niet volledig is gedownload.",
+"incomplete_relation": "Dit object kan niet verplaatst worden omdat het niet volledig gedownload is.",
 
 
 
 
-"too_large": "Dit kan niet worden verplaatst omdat slechts een te klein deel ervan momenteel zichtbaar is.",
+"too_large": "Dit kan niet verplaatst worden omdat slechts een te klein deel ervan momenteel zichtbaar is.",
 
 
 
@@ -794,7 +794,7 @@
 
 
 
-"title": "Draaien",
+"title": "Draai",
 
 
 
@@ -831,7 +831,7 @@
 
 
 
-"too_large": "Dit kan niet gedraaid worden omdat slechts een klein deel ervan momenteel zichtbaar is.",
+"too_large": "Dit kan niet gedraaid worden omdat slechts een te klein deel ervan momenteel zichtbaar is.",
 
 
 
@@ -849,7 +849,7 @@
 
 
 
-"title": "Omdraaien",
+"title": "Keer om",
 
 
 
@@ -877,7 +877,7 @@
 
 
 
-"title": "Splitsen",
+"title": "Splits",
 
 
 
@@ -894,7 +894,7 @@
 
 
 
-"area": "Splits de grens van dit gebied in tweeën.",
+"area": "Splits de grens van dit gebied in tweeën. (Maakt multipolygon aan.)",
 
 
 
@@ -943,7 +943,7 @@
 
 
 
-"not_eligible": "Lijnen kunnen niet op hun begin- of eindpunt worden gesplitst.",
+"not_eligible": "Lijnen kunnen niet op hun begin- of eindknooppunt worden gesplitst.",
 
 
 
@@ -1069,7 +1069,7 @@
 
 
 
-"localized_translation_label": "Meertalige naam",
+"localized_translation_label": "Naam in meerdere talen",
 
 
 
@@ -1086,13 +1086,13 @@
 "zoom_in_edit": "Zoom in om aan te passen",
 
 
-"logout": "afmelden",
+"logout": "Afmelden",
 
 
-"loading_auth": "Verbinden met OpenStreetMap ...",
+"loading_auth": "Aan het verbinden met OpenStreetMap …",
 
 
-"report_a_bug": "softwareprobleem melden",
+"report_a_bug": "Softwareprobleem melden",
 
 
 "feature_info": {
@@ -1155,11 +1155,11 @@
 
 
 
-"cancel": "Afbreken",
+"cancel": "Annuleren",
 
 
 
-"changes": "{count} Veranderingen",
+"changes": "{count} veranderingen",
 
 
 
@@ -1231,7 +1231,7 @@
 
 
 
-"no_documentation_key": "Voor deze sleutel is geen documentatie beschikbaar",
+"no_documentation_key": "Er is geen documentatie beschikbaar voor deze categorie",
 
 
 
@@ -1279,7 +1279,7 @@
 
 
 
-"remove": "Verwijderen",
+"remove": "Verwijder",
 
 
 
@@ -1303,7 +1303,7 @@
 
 
 
-"edit": "Object bewerken",
+"edit": "Bewerk object",
 
 
 
@@ -1345,7 +1345,7 @@
 
 
 
-"add_fields": "Veld toevoegen:"
+"add_fields": "Voeg eigenschap toe:"
 
 
 },
@@ -1363,7 +1363,7 @@
 
 
 
-"percent_brightness": "{opacity}% ondoorzichtigheid",
+"percent_brightness": "Helderheid: {opacity}%",
 
 
 
@@ -1413,7 +1413,7 @@
 
 
 
-"map_features": "Dingen om op de Kaart te Zetten",
+"map_features": "Objecttypes Tonen/Verbergen",
 
 
 
@@ -1455,7 +1455,7 @@
 
 
 
-"tooltip": "Autowegen, Straten ..."
+"tooltip": "Autowegen, Straten …"
 
 
 
@@ -1473,7 +1473,7 @@
 
 
 
-"tooltip": "Toegangswegen, Rijbanen in Parkings, Veldwegen ..."
+"tooltip": "Toegangswegen, Rijbanen in Parkings, Veldwegen …"
 
 
 
@@ -1491,7 +1491,7 @@
 
 
 
-"tooltip": "Trottoirs, Paden voor Voetgangers of Fietsers ..."
+"tooltip": "Trottoirs, Paden voor Voetgangers of Fietsers …"
 
 
 
@@ -1509,7 +1509,7 @@
 
 
 
-"tooltip": "Gebouwen, Afdaken, Garages ..."
+"tooltip": "Gebouwen, Afdaken, Garages …"
 
 
 
@@ -1527,7 +1527,7 @@
 
 
 
-"tooltip": "Wouden, Landbouwgronden, Parken, Woongebieden, Winkelzones ..."
+"tooltip": "Wouden, Landbouwgronden, Parken, Woongebieden, Winkelzones …"
 
 
 
@@ -1563,7 +1563,7 @@
 
 
 
-"tooltip": "Rivieren, Meren, Vijvers, Reservoirs ..."
+"tooltip": "Rivieren, Meren, Vijvers, Reservoirs …"
 
 
 
@@ -1599,7 +1599,7 @@
 
 
 
-"tooltip": "Elektriciteitskabels, Energiecentrales, Transformatorstations ..."
+"tooltip": "Elektriciteitskabels, Energiecentrales, Transformatorstations …"
 
 
 
@@ -1617,7 +1617,7 @@
 
 
 
-"tooltip": "Voorgesteld, Onder Constructie, Verwaarloosd, Afgebroken ..."
+"tooltip": "Voorgesteld, Onder Constructie, Verwaarloosd, Afgebroken …"
 
 
 
@@ -1713,15 +1713,15 @@
 
 
 
-"description": "Er zijn niet-opgeslagen aanpassingen uit een vorige sessie. Wil je deze aanpassingen behouden?",
+"description": "Er zijn niet-opgeslagen aanpassingen uit een vorige sessie. Wil je deze aanpassingen herstellen?",
 
 
 
-"restore": "Behouden",
+"restore": "Herstellen",
 
 
 
-"reset": "Ongedaan maken"
+"reset": "Weggooien"
 
 
 },
@@ -1743,7 +1743,11 @@
 
 
 
-"error": "Er is een fout opgetreden bij het opslaan",
+"error": "Er zijn fouten opgetreden bij het opslaan",
+
+
+
+"status_code": "Server gaf volgende statuscode terug: {code}",
 
 
 
@@ -1755,7 +1759,109 @@
 
 
 
-"unsaved_changes": "Je hebt niet-opgeslagen aanpassingen"
+"unsaved_changes": "Je hebt niet-opgeslagen aanpassingen",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Los conflicterende bewerkingen op",
+
+
+
+
+"count": "Conflict {num} van {total}",
+
+
+
+
+"previous": "< Vorige",
+
+
+
+
+"next": "Volgende >",
+
+
+
+
+"keep_local": "Mijn versie behouden",
+
+
+
+
+"keep_remote": "Hun versie gebruiken",
+
+
+
+
+"restore": "Herstellen",
+
+
+
+
+"delete": "Verwijderd Laten",
+
+
+
+
+"download_changes": "Of download je veranderingen.",
+
+
+
+
+"done": "Alle conflicten opgelost!",
+
+
+
+
+"help": "Een andere gebruiker heeft sommige dingen bewerkt die jij ook hebt\nbewerkt. Klik op\nelk item hieronder voor meer details over het conflict, en kies welke\nversie je wil behouden: die van jou of die van hun.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Dit object is verwijderd door {user}.",
+
+
+
+
+"location": "Dit object werd zowel door jou als door {user} verplaatst.",
+
+
+
+
+"nodelist": "Er werden knooppunten zowel door jou als door {user} bewerkt.",
+
+
+
+
+"memberlist": "Leden van de relatie werden zowel door jou als door {user} bewerkt.",
+
+
+
+
+"tags": "Jij hebt de tag <b>{tag}</b> veranderd naar \"{local}\" en {user} veranderde het naar \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1789,7 +1895,7 @@
 
 
 
-"help_html": "Uw wijzigingen zouden binnen enkele minuten zichtbaar moeten zijn in de \n\"Standaard\"-laag. Andere lagen, en sommige kenmerken, kunnen langer duren\n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>details</a>).\n"
+"help_html": "Je wijzigingen zouden binnen enkele minuten zichtbaar moeten zijn in de \n\"Standaard\"-laag. Andere lagen, en sommige kenmerken, kunnen langer duren\n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>meer informatie hierover, in het Engels</a>).\n"
 
 
 },
@@ -1799,7 +1905,11 @@
 
 
 
-"okay": "OK"
+"okay": "OK",
+
+
+
+"cancel": "Annuleren"
 
 
 },
@@ -1809,7 +1919,7 @@
 
 
 
-"welcome": "Welkom bij de iD OpenStreetMap-editor",
+"welcome": "Welkom bij iD, een bewerkingsprogramma voor OpenStreetMap",
 
 
 
@@ -1835,7 +1945,7 @@
 
 
 
-"lose_changes": "Je hebt niet-opgeslagen aanpassingen. Door te wisselen van kaartserver worden deze ongedaan gemaakt. Weet je zeker dat je van kaartserver wilt wisselen?",
+"lose_changes": "Je hebt niet-opgeslagen aanpassingen. Door te wisselen van kaartserver gaan deze verloren. Weet je zeker dat je van kaartserver wilt wisselen?",
 
 
 
@@ -1974,11 +2084,11 @@
 
 
 
-"editing_saving": "# Bewerken & Opslaan\n\nDeze editor is ontworpen om voornamelijk online te gebruiken, en je gebruikt het via een website op dit moment.\n\n### Objecten Selecteren\n\nOm objecten in een kaart te selecteren, zoals een weg of interessant punt, moet je op de kaart erop kikken. Het geselecteerde object zal dan oplichten, er zal een paneel met details geopend worden en een menu zal getoond worden met dingen die je met dit object kan doen.\n\nOm meerdere objecten te kunnen selecteren, hou je de 'Shift'-toets ingedrukt terwijl je de objecten aanklikt, of terwijl je een rechthoek tekent op de kaart. Dat zal een kader tonen waarbinnen alle objecten geselecteerd worden.\n\n### Bewerkingen Opslaan\n\nAls je wijzigingen maakt, zoals het bewerken van wegen, gebouwen en andere plaatsen, worden deze eerst lokaal bijgehouden totdat je ze op de server opslaat. Maak je geen zorgen als je een fout maakt - je kan wijzigingen altijd ongedaan maken door op de 'Ongedaan maken'-knop te klikken en ze weer herstellen door op de 'Opnieuw doen'-knop te klikken.\n\nKlik op 'Opslaan' om een groep van bewerkingen op te slaan - bijvoorbeeld als je een gebied of dorp hebt afgerond en je aan een ander gebied wil beginnen. Je krijgt de mogelijkheid om te herzien wat je hebt aangepast en de editor geeft je suggesties voor verbeteringen en waarschuwingen als er iets mis lijkt te zijn.\n\nAls alles er goed uit ziet kun je kort commentaar toevoegen, dat de wijziging die je hebt gemaakt beschrijft. Klik daarna nogmaals op 'Opslaan' om de wijzigingen op te sturen naar [OpenStreetMap.org](http://www.openstreetmap.org/), waar ze zichtbaar zijn voor alle gebruikers en voor anderen om op voort te bouwen of te verbeteren.\n\nAls je in een sessie niet al je bewerkingen door kan voeren kun je het venster van de editor sluiten en later terugkomen (in dezelfde browser op dezelfde computer) en de bewerkapplicatie zal je aanbieden je werk te herstellen.\n",
+"editing_saving": "# Bewerken & Opslaan\n\nDit kaartbewerkingsprogramma is ontworpen om voornamelijk online te gebruikt te worden. Je gebruikt hem op dit moment via een website.\n\n### Objecten Selecteren\n\nOm objecten in een kaart te selecteren, zoals een weg of interessant punt, moet je op de kaart erop klikken. Het geselecteerde object zal dan oplichten, er zal een paneel met details geopend worden en een menu zal getoond worden met dingen die je met dit object kan doen.\n\nOm meerdere objecten te kunnen selecteren, hou je de 'Shift'-toets ingedrukt terwijl je de objecten aanklikt, of terwijl je een rechthoek tekent op de kaart. Dat zal een kader tonen waarbinnen alle objecten geselecteerd worden.\n\n### Bewerkingen Opslaan\n\nAls je wijzigingen maakt, zoals het bewerken van wegen, gebouwen en andere plaatsen, worden deze eerst lokaal bijgehouden totdat je ze op de server opslaat. Maak je geen zorgen als je een fout maakt – je kan wijzigingen altijd ongedaan maken door op de 'Ongedaan maken'-knop te klikken en ze weer herstellen door op de 'Opnieuw doen'-knop te klikken.\n\nKlik op 'Opslaan' om een groep van bewerkingen op te slaan – bijvoorbeeld als je een gebied of dorp hebt afgerond en je aan een ander gebied wil beginnen. Je krijgt de mogelijkheid om te herzien wat je hebt aangepast en de editor geeft je suggesties voor verbeteringen en waarschuwingen als er iets mis lijkt te zijn.\n\nAls alles er goed uit ziet kun je kort commentaar toevoegen, dat de wijziging die je hebt gemaakt beschrijft. Klik daarna nogmaals op 'Opslaan' om de wijzigingen op te sturen naar [OpenStreetMap.org](http://www.openstreetmap.org/), waar ze zichtbaar zijn voor alle gebruikers en voor anderen om op voort te bouwen of te verbeteren.\n\nAls je in een sessie niet al je bewerkingen door kan voeren kun je het venster van de editor sluiten en later terugkomen (in dezelfde browser op dezelfde computer) en de bewerkapplicatie zal je aanbieden je werk te herstellen.\n",
 
 
 
-"roads": "# Wegen\n\nJe kan met deze editor wegen maken, verbeteren en verwijderen. Wegen zijn er in allerlei soorten en maten: landweggetjes, snelwegen, paadjes, fietspaden en veel meer - ieder stukje dat vaak wordt gebruikt kan in kaart worden gebracht.\n\n### Selecteren\n\nKlik op een weg om deze te selecteren. De omtrek verschijnt samen met een klein menu op de kaart en een schermpje met informatie over de weg.\n\n### Aanpassen\n\nVaak kom je wegen tegen, die niet precies over het beeldmateriaal of de GPS-route erachter lopen. Je kan deze wegen aanpassen, zodat ze op de juiste plek komen te liggen.\n\nKlik eerst op de weg die je wil aanpassen. Deze zal dan oplichten en er verschijnen puntjes langs de lijn die je kan verslepen naar een betere plek. Als je nieuwe puntjes wil toevoegen voor meer detaillering, dubbelklik op een weggedeelte zonder een knooppunt en er wordt een nieuwe ingevoegd.\n\nAls een weg in het echt is verbonden met een andere weg, maar op de kaart niet, dan versleep je een van de puntjes op de andere weg om ze te verbinden. Dat wegen met elkaar zijn verbonden is belangrijk voor de kaart en essentieel om een routebeschrijving te kunnen maken.\n\nJe kan bovendien het 'Verplaats'-gereedschap aanklikken of de 'V'-snelkoppeling om de gehele weg in een keer te verplaatsen en opnieuw aanklikken om deze verplaatsing op te slaan.\n\n### Verwijderen\n\nAls een weg helemaal verkeerd is – je ziet dat het niet op het satellietbeeld te zien is en je hebt idealiter ter plaatse gecontroleerd dat de weg er niet is – dan kan je hem verwijderen, zodat hij van de kaart verdwijnt. Wees voorzichtig met het verwijderen van objecten – zoals bij iedere aanpassing is het resultaat voor iedereen zichtbaar en satellietbeelden zijn vaak verouderd, dus de weg zou gewoon nieuw aangelegd kunnen zijn.\n\nJe kan een weg verwijderen door er op te klikken om het te selecteren, waarna je op het prullenbakicoon drukt of de 'Verwijderen'-toets.\n\n### Aanmaken\n\nHeb je ergens een weg gevonden die nog niet op de kaart staat? Klik op het 'Lijn'-gereedschap in de linkerbovenhoek van de editor of druk op de sneltoets '2' om een lijn te tekenen.\n\nKlik op het begin van de weg op de kaart en begin te tekenen. Als de weg zich vertakt van de bestaande weg, begin dan op de plek waar ze elkaar kruisen.\n\nKlik dan de punten langs de weg, zodat deze het juiste tracé volgt, volgens het satellietbeeld of de GPS-route. Als de weg die je aan het tekenen bent een andere weg kruist, verbind deze dan door op het kruispunt te klikken. Als je klaar met tekenen bent, dubbelklik of druk op 'Return' of 'Enter' op je toetsenbord.\n",
+"roads": "# Wegen\n\nJe kan met deze editor wegen maken, verbeteren en verwijderen. Wegen zijn er in allerlei soorten en maten: landweggetjes, snelwegen, paadjes, fietspaden en veel meer – ieder stukje dat vaak wordt gebruikt kan in kaart worden gebracht.\n\n### Selecteren\n\nKlik op een weg om deze te selecteren. De omtrek verschijnt samen met een klein menu op de kaart en een schermpje met informatie over de weg.\n\n### Aanpassen\n\nVaak kom je wegen tegen, die niet precies over het beeldmateriaal of de GPS-route erachter lopen. Je kan deze wegen aanpassen, zodat ze op de juiste plek komen te liggen.\n\nKlik eerst op de weg die je wil aanpassen. Deze zal dan oplichten en er verschijnen puntjes langs de lijn die je kan verslepen naar een betere plek. Als je nieuwe puntjes wil toevoegen voor meer detaillering, dubbelklik op een weggedeelte zonder een knooppunt en er wordt een nieuwe ingevoegd.\n\nAls een weg in het echt is verbonden met een andere weg, maar op de kaart niet, dan versleep je een van de puntjes op de andere weg om ze te verbinden. Dat wegen met elkaar zijn verbonden is belangrijk voor de kaart en essentieel om een routebeschrijving te kunnen maken.\n\nJe kan bovendien het 'Verplaats'-gereedschap aanklikken of de 'V'-snelkoppeling om de gehele weg in een keer te verplaatsen en opnieuw aanklikken om deze verplaatsing op te slaan.\n\n### Verwijderen\n\nAls een weg helemaal verkeerd is – je ziet dat het niet op het satellietbeeld te zien is en je hebt idealiter ter plaatse gecontroleerd dat de weg er niet is – dan kan je hem verwijderen, zodat hij van de kaart verdwijnt. Wees voorzichtig met het verwijderen van objecten – zoals bij iedere aanpassing is het resultaat voor iedereen zichtbaar en satellietbeelden zijn vaak verouderd, dus de weg zou gewoon nieuw aangelegd kunnen zijn.\n\nJe kan een weg verwijderen door er op te klikken om het te selecteren, waarna je op het prullenbakicoon drukt of de 'Verwijderen'-toets.\n\n### Aanmaken\n\nHeb je ergens een weg gevonden die nog niet op de kaart staat? Klik op het 'Lijn'-gereedschap in de linkerbovenhoek van de editor of druk op de sneltoets '2' om een lijn te tekenen.\n\nKlik op het begin van de weg op de kaart en begin te tekenen. Als de weg zich vertakt van de bestaande weg, begin dan op de plek waar ze elkaar kruisen.\n\nKlik dan de punten langs de weg, zodat deze het juiste tracé volgt, volgens het satellietbeeld of de GPS-route. Als de weg die je aan het tekenen bent een andere weg kruist, verbind deze dan door op het kruispunt te klikken. Als je klaar met tekenen bent, dubbelklik of druk op 'Return' of 'Enter' op je toetsenbord.\n",
 
 
 
@@ -1990,7 +2100,7 @@
 
 
 
-"addresses": "# Adressen\n\nAdressen zijn één van de meest nuttige informatie-elementen voor de kaart.\n\nHoewel adressen vaak als deel van een straat worden weergegeven, worden zij\nin OpenStreetMap vastgelegd als eigenschap van gebouwen en plaatsen langs\nde straten.\n\nJe kan adresgegevens toevoegen aan plaatsen die als gebouwcontouren\nzijn gekarteerd, maar ook aan plaatsen die als een enkel punt zijn gekarteerd.\nDe meest betrouwbare bron voor adresgegevens is een veldonderzoek ter\nplaatse of eigen bekendheid - zoals met ieder ander object is kopiëren uit\ncommerciële bronnen zoals Google Maps strict verboden.\n",
+"addresses": "# Adressen\n\nAdressen zijn één van de meest nuttige informatie-elementen voor de kaart.\n\nHoewel adressen vaak als deel van een straat worden weergegeven, worden zij\nin OpenStreetMap vastgelegd als eigenschap van gebouwen en plaatsen langs\nde straten.\n\nJe kan adresgegevens toevoegen aan plaatsen die als gebouwcontouren\nzijn gekarteerd, maar ook aan plaatsen die als een enkel punt zijn gekarteerd.\nDe meest betrouwbare bron voor adresgegevens is een veldonderzoek ter\nplaatse of eigen bekendheid  zoals met ieder ander object is kopiëren uit\ncommerciële bronnen zoals Google Maps strikt verboden.\n",
 
 
 
@@ -2002,7 +2112,7 @@
 
 
 
-"relations": "# Relaties\n\nEen relatie is een speciaal type object in OpenStreetMap dat andere objecten groepeert. Twee vaakvoorkomende types relaties zijn bijvoorbeeld de *routerelatie*, die delen van een weg die tot eenzelfde snelweg behoren groepeert, en *multipolygonen*, die verschillende lijnen groeperen die samen een complex vlak definiëren (een van verschillende delen met gaten erin, zoals bij een donut).\n\nDe groep van elementen in een relatie heten *leden*. In de zijbalk kan je zien van welke relaties een element lid is, en daar op een relatie klikken om die te selecteren. Wanneer de relatie is geselecteerd, kan je al haar leden in een lijst in de zijbalk zien, en worden ze gehighlight op de kaart.\n\niD zal meestal relaties automatisch voor je in orde houden terwijl je bewerkt. Het belangrijkste waar je moet aan denken is dat als je een deel van een weg verwijdert om het nauwkeuriger opnieuw te tekenen, het nieuwe stuk weg lid moet zijn van dezelfde relaties als het oude.\n\n## Relaties Bewerken\n\nAls je relaties wilt bewerken, zijn hier de basisvaardigheden.\n\nOm een object aan een relatie toe te voegen, selecteer het object, klik op de \"+\"-knop in het \"Alle relaties\"-gedeelte van de zijbalk en selecteer of typ de naam van de relatie.\n\nOm een nieuwe relatie te maken, selecteer je het eerste object dat er deel van uit moet maken, klik je op de \"+\"-knop in het \"Alle relaties\"-gedeelte en kies je \"Nieuwe relatie ...\"\n\nOm een object van een relatie te verwijderen, selecteer je dat object en klik je op de vuilnisbakknop naast de relatie waaruit je het object wil verwijderen.\n\nJe kan multipolygonen met gaten maken door het \"Samenvoegen\"-gereedschap te gebruken. Teken twee vlakken (de binnenkant en de buitenkant), hou de Shift-toets ingedrukt en klik achtereenvolgens op hen allemaal om ze te selecteren. Klik dan op de \"Samenvoegen\"-knop (+).\n"
+"relations": "# Relaties\n\nEen relatie is een speciaal type object in OpenStreetMap dat andere objecten groepeert. Twee vaakvoorkomende types relaties zijn bijvoorbeeld de *routerelatie*, die delen van een weg die tot eenzelfde snelweg behoren groepeert, en *multipolygonen*, die verschillende lijnen groeperen die samen een complex vlak definiëren (een van verschillende delen met gaten erin, zoals bij een donut).\n\nDe groep van elementen in een relatie heten *leden*. In de zijbalk kan je zien van welke relaties een element lid is, en daar op een relatie klikken om die te selecteren. Wanneer de relatie is geselecteerd, kan je al haar leden in een lijst in de zijbalk zien, en worden ze gehighlight op de kaart.\n\niD zal meestal relaties automatisch voor je in orde houden terwijl je bewerkt. Het belangrijkste waar je moet aan denken is dat als je een deel van een weg verwijdert om het nauwkeuriger opnieuw te tekenen, het nieuwe stuk weg lid moet zijn van dezelfde relaties als het oude.\n\n## Relaties Bewerken\n\nAls je relaties wilt bewerken, zijn hier de basisvaardigheden.\n\nOm een object aan een relatie toe te voegen, selecteer het object, klik op de \"+\"-knop in het \"Alle relaties\"-gedeelte van de zijbalk en selecteer of typ de naam van de relatie.\n\nOm een nieuwe relatie te maken, selecteer je het eerste object dat er deel van uit moet maken, klik je op de \"+\"-knop in het \"Alle relaties\"-gedeelte en kies je \"Nieuwe relatie …\"\n\nOm een object van een relatie te verwijderen, selecteer je dat object en klik je op de vuilnisbakknop naast de relatie waaruit je het object wil verwijderen.\n\nJe kan multipolygonen met gaten maken door het \"Samenvoegen\"-gereedschap te gebruken. Teken twee vlakken (de binnenkant en de buitenkant), hou de Shift-toets ingedrukt en klik achtereenvolgens op hen allemaal om ze te selecteren. Klik dan op de \"Samenvoegen\"-knop (+).\n"
 
 
 },
@@ -2171,7 +2281,7 @@
 
 
 
-"intersect": "Klik om meer knooppunten aan de lijn toe te voegen. Je kan de kaart verslepen tijdens het tekenen als dat nodig zou zijn. Wegen en veel andere lijnen zijn onderdeel van een groter netwerk. Het is belangrijk dat deze lijnen correct aan elkaar zijn verbonden, zodat je een route kan laten berekenen. **Klik op 'Flower Street' om een kruising te maken waar de twee lijnen worden verbonden.**",
+"intersect": "Klik om meer knooppunten aan de lijn toe te voegen. Je kan de kaart verslepen tijdens het tekenen als dat nodig is. Wegen en veel andere lijnen zijn onderdeel van een groter netwerk. Het is belangrijk dat deze lijnen correct aan elkaar zijn verbonden, zodat je een route kan laten berekenen. **Klik op 'Flower Street' om een kruising te maken waar de twee lijnen worden verbonden.**",
 
 
 
@@ -2229,7 +2339,7 @@
 
 
 
-"start": "Begin met karteren!"
+"start": "Karteer de wereld!"
 
 
 

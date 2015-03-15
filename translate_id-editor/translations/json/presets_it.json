@@ -2091,6 +2091,48 @@
 
 
 
+"incline_steps": {
+
+
+
+
+
+"label": "Pendenza",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Su",
+
+
+
+
+
+
+"down": "Giù"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -3739,6 +3781,48 @@
 
 
 "no": "No"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Tipo di servizio",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Accesso",
+
+
+
+
+
+
+"yard": "Smistamento"
 
 
 
