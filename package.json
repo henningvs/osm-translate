@@ -10,7 +10,7 @@
 }],
 	"scripts": {
 		"test": "node ./translate_id-editor/translations/convertTranslations.js",
-		"start": "node ./translate_id-editor/translations/downloadTranslations.js && node ./translate_openstreetmap-website/translations/genLocalesJson.js",
+		"start": "node ./translate_id-editor/translations/downloadTranslations.js && node ./translate_openstreetmap-website/translations/genLocalesJson.js && node ./translate_openstreetmap-website/translations/genLocalesMo.js",
 		"predeploy": "",
 		"postdeploy": "",
 		"prepublish": ""
@@ -32,7 +32,9 @@
 	"dependencies": {
 		"js-yaml": "*",
 		"fs": "*",
-		"async": "*"
+		"async": "*",
+		"gettext-parser": "*",
+		"i18next-conv": "*"
 	},
 	"license": "GPL"
 }
