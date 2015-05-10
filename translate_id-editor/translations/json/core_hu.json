@@ -450,7 +450,7 @@
 
 
 
-"description": "Vonal kiegyenesítése",
+"description": "Vonal kiegyenesítése.",
 
 
 
@@ -1743,6 +1743,14 @@
 
 
 
+"error": "Mentés közben több hiba történt",
+
+
+
+"status_code": "A szerver a(z) {code} státuszkóddal válaszolt",
+
+
+
 "unknown_error_details": "Győződjön meg arról, hogy csatlakozik-e az internethez.",
 
 
@@ -1760,6 +1768,16 @@
 
 
 
+"header": "Ütköző módosítások feloldása",
+
+
+
+
+"count": "{num}. ütközés (összesen: {total})",
+
+
+
+
 "previous": "< Előző",
 
 
@@ -1770,7 +1788,66 @@
 
 
 
-"restore": "Visszaállítás"
+"keep_local": "Enyém megtartása",
+
+
+
+
+"keep_remote": "Övé használata",
+
+
+
+
+"restore": "Visszaállítás",
+
+
+
+
+"delete": "Hagyja törölve",
+
+
+
+
+"download_changes": "Vagy töltsd le változtatásaidat.",
+
+
+
+
+"done": "Minden ütközés feloldva!",
+
+
+
+
+"help": "Valaki más is változtatott azon a térképrészleten, amin te is dolgoztál.\nKattints az alábbi elemekre, hogy megtudj többet az ütközésekről és eldöntsd, hogy a te vagy\naz ő változtatásait szeretnéd-e megtartani.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Ezt az objektumot törölte {user}.",
+
+
+
+
+"location": "Ezt az objektumot te és {user} is áthelyezte.",
+
+
+
+
+"tags": "Te megváltoztattad a(z) <b>{tag}</b> címkét erre: \"{local}\", {user} pedig erre: \"{remote}\"."
 
 
 
@@ -1990,10 +2067,6 @@
 
 
 "title": "Súgó",
-
-
-
-"help": "# Súgó\n\nEz egy szerkesztő az [OpenStreetMap](http://www.openstreetmap.org/)-hoz, az ingyenes és szerkeszthető világtérképhez. A környezetedről tölthetsz fel, vagy frissíthetsz adatokat, ezáltal mindenki számára jobbá téve egy ingyenes térképet.\n\nAmit ezen a térképen alkotsz, mindenki számára látható lesz, aki használja az OpenStreetMap-ot. A szerkesztéshez mindösszesen egy [ingyenes OpenStreetMap fiókra](https://www.openstreetmap.org/user/new) lesz szükséged.\n\nAz [iD szerkesztő](http://ideditor.com/) egy együttműködésen alapuló projekt, a [GitHub-on elérhető forráskóddal](https://github.com/openstreetmap/iD).\n",
 
 
 

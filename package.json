@@ -10,7 +10,7 @@
 }],
 	"scripts": {
 		"test": "node ./translate_id-editor/translations/convertTranslations.js",
-		"start": "node ./translate_id-editor/translations/downloadTranslations.js && node ./translate_openstreetmap-website/translations/genLocalesJson.js && node ./translate_openstreetmap-website/translations/genLocalesMo.js",
+		"start": "node ./translate_id-editor/translations/downloadTranslations.js",
 		"predeploy": "",
 		"postdeploy": "",
 		"prepublish": ""

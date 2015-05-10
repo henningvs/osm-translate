@@ -1430,6 +1430,22 @@
 
 
 
+"drive_through": {
+
+
+
+
+
+"label": "Lối Mua hàng trên Xe"
+
+
+
+
+},
+
+
+
+
 "electrified": {
 
 
@@ -10021,13 +10037,13 @@
 
 
 
-"name": "Khu vực Mua hàng trên Xe",
+"name": "Lối Mua hàng trên Xe",
 
 
 
 
 
-"terms": "khu vực mua hàng trên xe, đứng hàng, hàng xe, xe, khu vuc mua hang tren xe, dung hang, hang xe"
+"terms": "lối mua hàng trên xe, dịch vụ mua hàng không cần đậu xe, dịch vụ mua hàng không cần đỗ xe, đứng hàng, hàng xe, xe, loi mua hang tren xe, dich vu mua hang khong can dau xe, dich vu mua hang khong can do xe, dung hang, hang xe"
 
 
 

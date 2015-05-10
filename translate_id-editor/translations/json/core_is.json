@@ -1034,6 +1034,10 @@
 
 
 
+"changes": "{count} breytingar",
+
+
+
 "warnings": "Aðvaranir",
 
 
@@ -1194,7 +1198,11 @@
 
 
 
-"location": "Staðsetning"
+"location": "Staðsetning",
+
+
+
+"add_fields": "Bæta við svæði:"
 
 
 },
@@ -1234,6 +1242,10 @@
 
 
 
+"data_layers": "Gagnalög",
+
+
+
 "fill_area": "Fylla svæði"
 
 
@@ -1244,12 +1256,30 @@
 
 
 
+"points": {
+
+
+
+
+"tooltip": "Áhugaverðir staðir"
+
+
+
+},
+
+
+
 "major_roads": {
 
 
 
 
-"description": "Aðalvegir"
+"description": "Aðalvegir",
+
+
+
+
+"tooltip": "Þjóðvegir, götur, osfrv."
 
 
 
@@ -1332,6 +1362,19 @@
 
 
 
+"power": {
+
+
+
+
+"description": "Flóknari möguleikar"
+
+
+
+},
+
+
+
 "past_future": {
 
 
@@ -1393,7 +1436,20 @@
 
 
 
-"unsaved_changes": "Þú átt óvistaðar breytingar"
+"unsaved_changes": "Þú átt óvistaðar breytingar",
+
+
+
+"conflict": {
+
+
+
+
+"next": "Næst >"
+
+
+
+}
 
 
 },
@@ -1553,6 +1609,10 @@
 
 
 "drag_drop": "Dragðu og slepptu .gpx skrá á síðuna eða smelltu á takkann til hægri til að fletta",
+
+
+
+"zoom": "Þysja að GPX-slóð",
 
 
 

@@ -350,7 +350,12 @@
 
 
 
-"too_large": "Nie można tego zaokrąglić, ponieważ nie jest widoczne wystarczająco dużo tego obiektu."
+"too_large": "Nie można tego zaokrąglić, ponieważ nie jest widoczne wystarczająco dużo tego obiektu.",
+
+
+
+
+"connected_to_hidden": "Z tego obiektu nie można utworzyć okręgu, ponieważ jest połączony z innym niewidocznym obiektem lub jego cechą. "
 
 
 
@@ -422,7 +427,12 @@
 
 
 
-"too_large": "Nie można skorygować równoległości, ponieważ nie jest widoczne wystarczająco dużo tego obiektu."
+"too_large": "Nie można skorygować równoległości, ponieważ nie jest widoczne wystarczająco dużo tego obiektu.",
+
+
+
+
+"connected_to_hidden": "Z tego obiektu nie można utworzyć kwadratu, ponieważ jest połączony z innym niewidocznym obiektem lub jego cechą. "
 
 
 
@@ -455,7 +465,12 @@
 
 
 
-"too_bendy": "Nie można wyprostować tej linii gdyż zakręca ona zbyt mocno."
+"too_bendy": "Nie można wyprostować tej linii gdyż zakręca ona zbyt mocno.",
+
+
+
+
+"connected_to_hidden": "Ta linia nie może być wyprostowana, ponieważ jest połączona z innym niewidocznym obiektem lub jego cechą. "
 
 
 
@@ -524,7 +539,17 @@
 
 
 
-"incomplete_relation": "Tego obiektu nie można usunąć, ponieważ nie został w pełni pobrany."
+"incomplete_relation": "Tego obiektu nie można usunąć, ponieważ nie został w pełni pobrany.",
+
+
+
+
+"part_of_relation": "Ten obiekt nie może zostać usunięty, ponieważ jest częścią większej relacji. Usuń obiekt z tej relacji.",
+
+
+
+
+"connected_to_hidden": "Tego obiektu nie można usunąć, ponieważ jest połączony z innym niewidocznym obiektem lub jego cechą. "
 
 
 
@@ -625,7 +650,12 @@
 
 
 
-"not_connected": "Nie ma tu wystarczająco wielu linii/obszarów do rozłączenia."
+"not_connected": "Nie ma tu wystarczająco wielu linii/obszarów do rozłączenia.",
+
+
+
+
+"connected_to_hidden": "Tego obiektu nie można odłączyć, ponieważ jest połączony z innym niewidocznym obiektem lub jego cechą. "
 
 
 
@@ -746,7 +776,12 @@
 
 
 
-"too_large": "Tego obiektu nie można przesunąć, gdyż nie jest ono wystarczająco widoczne."
+"too_large": "Tego obiektu nie można przesunąć, gdyż nie jest ono wystarczająco widoczne.",
+
+
+
+
+"connected_to_hidden": "Tego obiektu nie można przesunąć, ponieważ jest połączony z innym niewidocznym obiektem lub jego cechą. "
 
 
 
@@ -796,7 +831,12 @@
 
 
 
-"too_large": "Tego obiektu nie można obrócić, gdyż nie jest ono wystarczająco widoczne."
+"too_large": "Tego obiektu nie można obrócić, gdyż nie jest ono wystarczająco widoczne.",
+
+
+
+
+"connected_to_hidden": "Tego obiektu nie można obrócić, ponieważ jest połączony z innym niewidocznym obiektem lub jego cechą. "
 
 
 
@@ -908,7 +948,12 @@
 
 
 
-"multiple_ways": "Jest tu zbyt wiele linii do rozdzielenia."
+"multiple_ways": "Jest tu zbyt wiele linii do rozdzielenia.",
+
+
+
+
+"connected_to_hidden": "Tego obiektu nie można podzielić, ponieważ jest połączony z innym niewidocznym obiektem lub jego cechą. "
 
 
 
@@ -1048,6 +1093,20 @@
 
 
 "report_a_bug": "zgłoś błąd",
+
+
+"feature_info": {
+
+
+
+"hidden_warning": "{count} ukrytych obiektów",
+
+
+
+"hidden_details": "Te obiekty są obecnie ukryte: {details}"
+
+
+},
 
 
 "status": {
@@ -1354,7 +1413,11 @@
 
 
 
-"map_features": "Obiekty na mapie"
+"map_features": "Obiekty na mapie",
+
+
+
+"autohidden": "Te obiekty zostały automatycznie ukryte ze względu na ich zbyt dużą ilość. Jeśli chcesz je edytować, przybliż mapę."
 
 
 },
@@ -1387,7 +1450,12 @@
 
 
 
-"description": "Główne drogi"
+"description": "Główne drogi",
+
+
+
+
+"tooltip": "Autostrady, ulice, itp."
 
 
 
@@ -1400,7 +1468,12 @@
 
 
 
-"description": "Drogi drugorzędne"
+"description": "Drogi drugorzędne",
+
+
+
+
+"tooltip": "Drogi wewnętrzne, alejki parkingowe, ścieżki, etc."
 
 
 
@@ -1413,7 +1486,12 @@
 
 
 
-"description": "Ścieżki"
+"description": "Ścieżki",
+
+
+
+
+"tooltip": "Chodniki, ścieżki dla pieszych, ścieżki rowerowe, etc."
 
 
 
@@ -1426,7 +1504,30 @@
 
 
 
-"description": "Budynki"
+"description": "Budynki",
+
+
+
+
+"tooltip": "Budynki, wiaty, garaże, etc."
+
+
+
+},
+
+
+
+"landuse": {
+
+
+
+
+"description": "Obiekty użytkowania terenów",
+
+
+
+
+"tooltip": "Lasy, pola, parki, osiedla mieszkaniowe, obszary komercyjne, etc."
 
 
 
@@ -1439,7 +1540,84 @@
 
 
 
-"description": "Granice"
+"description": "Granice",
+
+
+
+
+"tooltip": "Granice administracyjne"
+
+
+
+},
+
+
+
+"water": {
+
+
+
+
+"description": "Obiekty wodne",
+
+
+
+
+"tooltip": "Rzeki, jeziora, stawy, dorzecza, etc."
+
+
+
+},
+
+
+
+"rail": {
+
+
+
+
+"description": "Obiekty kolejowe",
+
+
+
+
+"tooltip": "Tory kolejowe"
+
+
+
+},
+
+
+
+"power": {
+
+
+
+
+"description": "Obiekty związane z dystrybucją prądu elektrycznego.",
+
+
+
+
+"tooltip": "Linie energetyczne, elektrownie, podstacje, etc."
+
+
+
+},
+
+
+
+"past_future": {
+
+
+
+
+"description": "Przeszłość/przyszłość",
+
+
+
+
+"tooltip": "Projektowane, w czasie budowy, opuszczone, wyburzone, etc."
 
 
 
@@ -1452,7 +1630,12 @@
 
 
 
-"description": "Inne"
+"description": "Inne",
+
+
+
+
+"tooltip": "Wszystko pozostałe"
 
 
 
@@ -1471,7 +1654,12 @@
 
 
 
-"description": "Bez wypełnienia (szkielet)"
+"description": "Bez wypełnienia (szkielet)",
+
+
+
+
+"tooltip": "Włączenie trybu szkieletowego ułatwia przeglądanie zdjęć w tle."
 
 
 
@@ -1484,7 +1672,12 @@
 
 
 
-"description": "Częściowe wypełnienie"
+"description": "Częściowe wypełnienie",
+
+
+
+
+"tooltip": "Obszary wypełnione są tylko wzdłuż ich wewnętrznych krawędzi. (Polecane dla początkujących mapowiczów)"
 
 
 
@@ -1497,7 +1690,12 @@
 
 
 
-"description": "Pełne wypełnienie"
+"description": "Pełne wypełnienie",
+
+
+
+
+"tooltip": "Obszary są rysowane z pełnym wypełnieniem."
 
 
 
@@ -1545,11 +1743,125 @@
 
 
 
+"error": "Wystąpiły błędy podczas próby zapisu. ",
+
+
+
+"status_code": "Serwer zwrócił kod {code}",
+
+
+
+"unknown_error_details": "Upewnij się że jesteś połączony z internetem.",
+
+
+
 "uploading": "Wysyłanie zmian do OpenStreetMap.",
 
 
 
-"unsaved_changes": "Masz niezapisane zmiany."
+"unsaved_changes": "Masz niezapisane zmiany.",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Napraw konflikt edycji",
+
+
+
+
+"count": "Konflikt {num} z {total}",
+
+
+
+
+"previous": "< Poprzedni",
+
+
+
+
+"next": "Następny >",
+
+
+
+
+"keep_local": "Zachowaj moje",
+
+
+
+
+"keep_remote": "Użyj ichniejszych",
+
+
+
+
+"restore": "Przywróć",
+
+
+
+
+"delete": "Pozostaw usunięty",
+
+
+
+
+"download_changes": "Lub pobierz swoje zmiany.",
+
+
+
+
+"done": "Wszystkie konflikty rozwiązane!",
+
+
+
+
+"help": "Inny użytkownik zmienił niektóre z obiektów, które właśnie zmodyfikowałeś.\nWybierz każdą pozycję z osobna, aby poznać szczegóły konfliktu i wybrać jego rozwiązanie.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Ten obiekt został skasowany przez {user}.",
+
+
+
+
+"location": "Ten obiekt został przesunięty przez ciebie i {user}.",
+
+
+
+
+"nodelist": "Punkty zostały zmienione przez ciebie i {user}.",
+
+
+
+
+"memberlist": "Członkowie relacji zostali zmodyfikowani zarówno przez ciebie jak i {user}.",
+
+
+
+
+"tags": "Ustawiłeś wartość <b>{tag}</b> na \"{local}\", podczas gdy {user} zmienił go na \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1593,7 +1905,11 @@
 
 
 
-"okay": "Okej"
+"okay": "Okej",
+
+
+
+"cancel": "Anuluj"
 
 
 },
@@ -1742,6 +2058,10 @@
 
 
 
+"tooltip": "Zdjęcia z serwisu Mapillary",
+
+
+
 "title": "Nakładka zdjęć (Mapillary)",
 
 
@@ -1760,7 +2080,7 @@
 
 
 
-"help": "# Pomoc\n\nTo jest edytor [OpenStreetMap](http://www.openstreetmap.org/),\nwolnej i edytowalnej mapy świata. Możesz  go używać do dodawania i\naktualizacji danych w twoim rejonie, czyniąc otwartą mapę świata lepszą\ndla każdego.\n\nModyfikacje wprowadzone na tej mapie będą widoczne dla wszystkich\nużywających OpenStreetMap. Aby wprowadzić modyfikacje, potrzebujesz\n[darmowego konta OpenStreetMap](https://www.openstreetmap.org/user/new).\n\n[Edytor iD](http://ideditor.com/) jest projektem społecznościowym z\n[kodem dostępnym na GitHub](https://github.com/openstreetmap/iD).\n",
+"help": "# Pomoc\n\nTo jest edytor [OpenStreetMap](http://www.openstreetmap.org/),\nwolnej i edytowalnej mapy świata. Możesz go używać do dodawania i\naktualizacji danych w twoim rejonie, czyniąc otwartą mapę świata lepszą\ndla każdego.\n\nModyfikacje wprowadzone na tej mapie będą widoczne dla wszystkich\nużywających OpenStreetMap. Aby wprowadzić modyfikacje,\nmusisz się [zalogować](https://www.openstreetmap.org/login).\n\n[Edytor iD](http://ideditor.com/) jest projektem społecznościowym z\n[kodem dostępnym na GitHub](https://github.com/openstreetmap/iD).\n",
 
 
 
@@ -1769,6 +2089,10 @@
 
 
 "roads": "# Drogi\n\nMożesz tworzyć, poprawiać i usuwać drogi używając tego edytora. Drogi mogą być wszelkiego rodzaju:\nścieżki, ulice, szlaki, ścieżki rowerowe i tak dalej - każdy często uczęszczany odcinek powinien dać się\nprzedstawić.\n\n### Zaznaczanie\n\nKliknij drogę, aby ją zaznaczyć. Obwiednia powinna stać się widoczna, wraz z małym menu\nnarzędziowym na mapie oraz panelem bocznym pokazującym więcej informacji na temat drogi.\n\n### Modyfikowanie\n\nCzęsto będziesz widział drogi, które nie są wyrównane ze zdjęciami satelitarnymi lub śladami GPS.\nMożesz dopasować te drogi tak, aby były we właściwym miejscu.\n\nNajpierw kliknij drogę, którą chcesz zmienić. Podświetli ją to oraz pokaże punkty kontrolne, które\nmożesz przesunąć w lepsze miejsce. Jeżeli chcesz dodać nowe punkty kontrolne, aby droga\nbyła bardziej szczegółowa, dwukrotnie kliknij część drogi bez punktu, a w tym miejscu nowy się\npojawi.\n\nJeżeli droga łączy się z inną drogą, ale nie jest prawidłowo połączona z nią na mapie, możesz\nprzeciągnąć jeden z puntów kontrolnych na drugą drogę w celu ich połączenia. Prawidłowe połączenia\ndróg są ważne dla mapy i kluczowe dla wyznaczania tras.\n\nMożesz też kliknąć narzędzie 'Przesuń' lub nacisnąć klawisz `M` aby przesunąć jednocześnie całą\ndrogę, a następnie kliknąć ponownie, aby zachować to przesunięcie.\n\n### Usuwanie\n\nGdy droga jest całkiem błędna - widzisz, że nie istnieje na zdjęciach satelitarnych (a najlepiej sam\nsprawdziłeś w terenie, że jej nie ma) - możesz usunąć ją. Uważaj, gdy usuwasz obiekty - wyniki usunięcia,\ntak jak każdej modyfikacji, są widoczne dla wszystkich, a zdjęcie satelitarne często nie są aktualne,\nwięc droga może być po prostu nowo wybudowana.\n\nMożesz usunąć drogę przez zaznaczenie jej, a następnie kliknięcie ikony kosza lub wciśnięcie\nklawisza 'Delete'.\n\n### Tworzenie\n\nGdzieś tam powinna być droga, ale jej nie ma? Kliknij przycisk 'Linia' w górnym lewym rogu edytora\nlub naciśnij klawisz '2' na klawiaturze, aby zacząć rysować linię.\n\nKliknij początek drogi na mapie, aby zacząć rysować. Jeżeli droga odchodzi od już istniejącej, zacznij\nprzez kliknięcie w miejscu, w którym się łączą.\n\nNastępnie klikaj na punktach wzdłuż drogi tak, aby biegła ona odpowiednio według zdjęć satelitarnych\nlub GPS. Jeżeli droga, którą rysujesz, krzyżuje się z inną, połącz je, klikając na punkcie przecięcia. Gdy\nskończysz rysować, dwukrotnie kliknij ostatni punkt lub naciśnij klawisz 'Enter' na klawiaturze.\n",
+
+
+
+"gps": "# GPS\n\nDane GPS są najbardziej zaufanym źródłem dla OpenStreetMap. Ten edytor obsługuje lokalne ślady - pliki `.gpx` na twoim komputerze. Możesz zbierać tego\nrodzaju ślady GPS używając aplikacji na smartfony lub sprzętu GPS.\n\nInformacje jak używać GPS-u do zbierania informacji o okolicy możesz\nznaleźć pod [Zbieranie informacji z GPS](http://learnosm.org/en/beginner/using-gps/).\n\nAby użyć śladu GPX do rysowania mapy, przeciągnij i upuść plik GPX na edytor.\nJeżeli zostanie rozpoznany, zostanie dodany na mapę w postaci jaskrawej linii.\nKliknij menu 'Dane mapy' po prawej stronie, aby włączyć, wyłączyć lub powiększyć\ndo nowej warstwy GPX.\n\nŚlad GPX nie jest bezpośrednio wysyłany do OpenStreetMap - najlepiej użyć go\ndo rysowania mapy, używając go jako wzoru dla nowych obiektów, które dodasz.\nAby wysłać ślad na serwer odwiedź stronę [Publiczne ślady GPS](http://www.openstreetmap.org/trace/create),\nbędziesz mógł go udostępnić innym użytkownikom.\n",
 
 
 
@@ -1900,6 +2224,11 @@
 
 
 "title": "Obszary",
+
+
+
+
+"add": "Obszary służą do wyznaczanie granic dla takich obiektów jak jeziora, budynki, czy osiedla mieszkaniowe. Mogą również zostać użyte do mapowania wielu obiektów, które normalnie przedstawiane są za pomocą punktów. **Kliknij na przycisk Obszar, aby dodać nowy obszar.**",
 
 
 

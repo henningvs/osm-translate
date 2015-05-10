@@ -447,7 +447,29 @@
 
 
 
+"label": "Käyttöoikeus",
+
+
+
+
+
 "placeholder": "kyllä"
+
+
+
+
+},
+
+
+
+
+"access_toilets": {
+
+
+
+
+
+"label": "Käyttöoikeus"
 
 
 
@@ -607,7 +629,40 @@
 
 
 
-"label": "Käyttöoikeus"
+"label": "Käyttöoikeus",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"entry": "Sisäänkäynti",
+
+
+
+
+
+
+"exit": "Uloskäynti",
+
+
+
+
+
+
+"both": "Molemmat"
+
+
+
+
+
+}
 
 
 
@@ -721,7 +776,40 @@
 
 
 
-"label": "Käyttöoikeus kesällä"
+"label": "Käyttöoikeus kesällä",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"entry": "Sisäänkäynti",
+
+
+
+
+
+
+"exit": "Uloskäynti",
+
+
+
+
+
+
+"both": "Molemmat"
+
+
+
+
+
+}
 
 
 
@@ -891,6 +979,22 @@
 
 
 
+"brand": {
+
+
+
+
+
+"label": "Brändi"
+
+
+
+
+},
+
+
+
+
 "building": {
 
 
@@ -1020,6 +1124,41 @@
 
 
 
+"NNE": "Pohjois-koillinen",
+
+
+
+
+
+
+"ENE": "Itä-koillinen",
+
+
+
+
+
+
+"ESE": "Itä-kaakko",
+
+
+
+
+
+
+"SSE": "Etelä-kaakko",
+
+
+
+
+
+
+"SSW": "Etelä-lounas",
+
+
+
+
+
+
 "WSW": "Länsilounas",
 
 
@@ -1027,7 +1166,14 @@
 
 
 
-"WNW": "Länsiluode"
+"WNW": "Länsiluode",
+
+
+
+
+
+
+"NNW": "Pohjois-luode"
 
 
 
@@ -1197,6 +1343,22 @@
 
 
 
+"delivery": {
+
+
+
+
+
+"label": "Kotiinkuljetus"
+
+
+
+
+},
+
+
+
+
 "denomination": {
 
 
@@ -1219,7 +1381,7 @@
 
 
 
-"label": "Esittäminen"
+"label": "Merkittävyys"
 
 
 
@@ -1236,6 +1398,22 @@
 
 
 "label": "Kuvaus"
+
+
+
+
+},
+
+
+
+
+"drive_through": {
+
+
+
+
+
+"label": "Autokaista"
 
 
 
@@ -1422,6 +1600,20 @@
 
 
 
+"pillar": "Ilmajohto",
+
+
+
+
+
+
+"underground": "Maakaapeli",
+
+
+
+
+
+
 "wall": "Seinä",
 
 
@@ -1573,6 +1765,61 @@
 
 
 
+"gender": {
+
+
+
+
+
+"label": "Sukupuolirajoitus",
+
+
+
+
+
+"placeholder": "Ei tiedossa",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"male": "Miehet",
+
+
+
+
+
+
+"female": "Naiset",
+
+
+
+
+
+
+"unisex": "Sukupuolirajoitukseton"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "generator/method": {
 
 
@@ -1703,6 +1950,12 @@
 
 
 
+"label": "Koritelineet",
+
+
+
+
+
 "placeholder": "1, 2, 4..."
 
 
@@ -1752,6 +2005,48 @@
 
 
 "label": "Kaltevuus"
+
+
+
+
+},
+
+
+
+
+"incline_steps": {
+
+
+
+
+
+"label": "Kulkusuunta",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Ylös",
+
+
+
+
+
+
+"down": "Alas"
+
+
+
+
+
+}
 
 
 
@@ -1901,6 +2196,125 @@
 
 
 "label": "Kerros"
+
+
+
+
+},
+
+
+
+
+"leaf_cycle": {
+
+
+
+
+
+"label": "Lehtien pudotuskierto",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"evergreen": "Ei pudota lehtiä",
+
+
+
+
+
+
+"deciduous": "Pudottaa kaikki lehtensä",
+
+
+
+
+
+
+"semi_evergreen": "Pudottaa suurimman osan lehdistään",
+
+
+
+
+
+
+"semi_deciduous": "Pudottaa kaikki lehtensä hyvin lyhyeksi ajaksi",
+
+
+
+
+
+
+"mixed": "Sekoitus"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type": {
+
+
+
+
+
+"label": "Lehtilajike",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Leveälehtinen",
+
+
+
+
+
+
+"needleleaved": "Neulaset",
+
+
+
+
+
+
+"mixed": "Sekoitus",
+
+
+
+
+
+
+"leafless": "Lehdetön"
+
+
+
+
+
+}
 
 
 
@@ -2535,7 +2949,49 @@
 
 
 
-"surface": "Pinta"
+"surface": "Pysäköintikenttä",
+
+
+
+
+
+
+"multi-storey": "Monikerroksinen",
+
+
+
+
+
+
+"underground": "Maanalainen",
+
+
+
+
+
+
+"sheds": "Metallikatos",
+
+
+
+
+
+
+"carports": "Autokatos",
+
+
+
+
+
+
+"garage_boxes": "Autotallipaikka",
+
+
+
+
+
+
+"lane": "Kadunvarren pysäköintikaista"
 
 
 
@@ -2753,6 +3209,48 @@
 
 
 "nordic": "Murtomaahiihto",
+
+
+
+
+
+
+"skitour": "Erämaahiihto",
+
+
+
+
+
+
+"sled": "Pulkkamäki/kelkkailu",
+
+
+
+
+
+
+"hike": "Vaeltaminen",
+
+
+
+
+
+
+"sleigh": "Hevos- tai koiravetoinen reki",
+
+
+
+
+
+
+"ice_skate": "Luistelu",
+
+
+
+
+
+
+"snow_park": "Lumihuvipuisto",
 
 
 
@@ -3123,6 +3621,104 @@
 
 
 
+"service/bicycle/chain_tool": {
+
+
+
+
+
+"label": "Ketjutyökalu",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Oletettavasti ei",
+
+
+
+
+
+
+"yes": "Kyllä",
+
+
+
+
+
+
+"no": "Ei"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service/bicycle/pump": {
+
+
+
+
+
+"label": "Rengaspainepumppu",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Oletettavasti ei",
+
+
+
+
+
+
+"yes": "Kyllä",
+
+
+
+
+
+
+"no": "Ei"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "shelter": {
 
 
@@ -3193,7 +3789,89 @@
 
 
 
-"label": "Tupakointi"
+"label": "Tupakointi",
+
+
+
+
+
+"placeholder": "Ei, eristettynä, kyllä...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Ei tupakointia lainkaan",
+
+
+
+
+
+
+"separated": "Eristämättömillä tupakointialueilla",
+
+
+
+
+
+
+"isolated": "Eristetyillä tupakointialueilla",
+
+
+
+
+
+
+"outside": "Sallittu ulkona",
+
+
+
+
+
+
+"yes": "Sallittu kaikkialla",
+
+
+
+
+
+
+"dedicated": "Erityisesti tupakoijille (esim. tupakointikerho)"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"social_facility_for": {
+
+
+
+
+
+"label": "Kohderyhmä",
+
+
+
+
+
+"placeholder": "Kodittomat, vammaiset, lapset jne."
 
 
 
@@ -3220,6 +3898,38 @@
 
 
 "sport": {
+
+
+
+
+
+"label": "Urheilulaji"
+
+
+
+
+},
+
+
+
+
+"sport_ice": {
+
+
+
+
+
+"label": "Urheilulaji"
+
+
+
+
+},
+
+
+
+
+"sport_racing": {
 
 
 
@@ -3352,6 +4062,61 @@
 
 
 "label": "Huomioreuna näkövammaisille"
+
+
+
+
+},
+
+
+
+
+"takeaway": {
+
+
+
+
+
+"label": "Noutoateria (takeaway)",
+
+
+
+
+
+"placeholder": "Kyllä, ei, vain noutoateriat...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yes": "Kyllä",
+
+
+
+
+
+
+"no": "Ei",
+
+
+
+
+
+
+"only": "Vain noutoateriat"
+
+
+
+
+
+}
 
 
 
@@ -4242,6 +5007,28 @@
 
 
 
+"amenity/bicycle_repair_station": {
+
+
+
+
+
+"name": "Pyöränhuoltopiste",
+
+
+
+
+
+"terms": "polkupyörä, pyörä, pyöräily, polkupyöräily, huolto, pyörän, polkupyörän, pyöräilyhuolto, pyörähuolto, pikahuolto, korjaus, pyöräkorjaus, pyöränkorjaus, pyöränhuolto, rengaspaine, rengaspaineet, renkaanpaine, renkaanpaineet, ilma, ilmanpumppaus, ilmantäyttö, paineistus"
+
+
+
+
+},
+
+
+
+
 "amenity/boat_rental": {
 
 
@@ -4832,13 +5619,13 @@
 
 
 
-"name": "Pysäköintihallin sisäänajo",
+"name": "Pysäköintihallin ajoramppi",
 
 
 
 
 
-"terms": "pysäköinti, parkkipaikka, pysäköintipaikka, parkki, pysäköintitalo, parkkitalo, ulosajo, sisäänajo, ajo, ulos, sisään"
+"terms": "pysäköinti, parkkipaikka, pysäköintipaikka, parkki, pysäköintitalo, parkkitalo, ulosajo, sisäänajo, ajo, ulos, sisään, ramppi"
 
 
 
@@ -5138,6 +5925,44 @@
 
 
 
+"amenity/social_facility/food_bank": {
+
+
+
+
+
+"name": "Ruokapankki"
+
+
+
+
+},
+
+
+
+
+"amenity/social_facility/group_home": {
+
+
+
+
+
+"name": "Vanhainkoti",
+
+
+
+
+
+"terms": "vanhus, eläkeläinen, palvelu, palvelutalo, palvelukoti, talo, koti, sosiaalipalvelu, sosiaalipalvelut, vanhukset, eläkeläiset"
+
+
+
+
+},
+
+
+
+
 "amenity/social_facility/homeless_shelter": {
 
 
@@ -5150,7 +5975,7 @@
 
 
 
-"terms": "koditon, kodittomia, turvatalo, kodittomien"
+"terms": "koditon, kodittomia, turvatalo, kodittomien, turvakoti"
 
 
 
@@ -5270,7 +6095,13 @@
 
 
 
-"name": "WC"
+"name": "WC",
+
+
+
+
+
+"terms": "vessa, käymälä, saniteetti, saniteettitila, sanitaatio, pisuaari, pönttö, wc-istuin, wc-pönttö, pesuhuone, pesuallas, tarpeet, uloste, ulostaminen, virtsa, virtsaaminen"
 
 
 
@@ -5293,6 +6124,22 @@
 
 
 "terms": "kunnantalo, kaupungintalo, valtuusto,"
+
+
+
+
+},
+
+
+
+
+"amenity/university": {
+
+
+
+
+
+"name": "Yliopistoalue"
 
 
 
@@ -5736,6 +6583,38 @@
 
 
 
+"building/cathedral": {
+
+
+
+
+
+"name": "Katedraali"
+
+
+
+
+},
+
+
+
+
+"building/chapel": {
+
+
+
+
+
+"name": "Kappeli"
+
+
+
+
+},
+
+
+
+
 "building/church": {
 
 
@@ -5743,6 +6622,22 @@
 
 
 "name": "Kirkko"
+
+
+
+
+},
+
+
+
+
+"building/college": {
+
+
+
+
+
+"name": "Korkeakoulurakennus (college)"
 
 
 
@@ -5781,6 +6676,38 @@
 
 
 "terms": "rakennus, rakennustyömaa, rakenteilla"
+
+
+
+
+},
+
+
+
+
+"building/detached": {
+
+
+
+
+
+"name": "Omakotitalo"
+
+
+
+
+},
+
+
+
+
+"building/dormitory": {
+
+
+
+
+
+"name": "Asuntola"
 
 
 
@@ -5841,6 +6768,22 @@
 
 
 "terms": "ryhmäautotalli, joukkoautotalli, joukkotalli, ryhmätalli, autotalli"
+
+
+
+
+},
+
+
+
+
+"building/greenhouse": {
+
+
+
+
+
+"name": "Kasvihuone"
 
 
 
@@ -6336,6 +7279,22 @@
 
 
 
+"craft/confectionery": {
+
+
+
+
+
+"name": "Konditoria"
+
+
+
+
+},
+
+
+
+
 "craft/dressmaker": {
 
 
@@ -6520,7 +7479,13 @@
 
 
 
-"name": "metallirakennelma"
+"name": "Metallirakennustelinemyymälä",
+
+
+
+
+
+"terms": "rakennusteline, rakennus, rakentaminen, työmaa, rakennustyö, työmies, metalli, teline, työteline, työalusta, tikkaat, metalli, metallinen, metalliset, rautainen, rauta, rautaiset"
 
 
 
@@ -6740,7 +7705,7 @@
 
 
 
-"name": "rakennustelineasentaja"
+"name": "Rakennustelineliike"
 
 
 
@@ -6916,6 +7881,50 @@
 
 
 
+"craft/winery": {
+
+
+
+
+
+"name": "Viinitila",
+
+
+
+
+
+"terms": "viini, viinipanimo, viinit, alkoholi, juoma, juominen, panimo, viininvalmistamo, viininpanimo, viinivalmistamo, viinitalo"
+
+
+
+
+},
+
+
+
+
+"embankment": {
+
+
+
+
+
+"name": "Penger",
+
+
+
+
+
+"terms": "maavalli, rantavalli, valli, pengerrys, pato"
+
+
+
+
+},
+
+
+
+
 "emergency/ambulance_station": {
 
 
@@ -7027,6 +8036,22 @@
 
 
 "terms": "jalkakäytävä, jalankulku"
+
+
+
+
+},
+
+
+
+
+"ford": {
+
+
+
+
+
+"name": "Kahlauspaikka"
 
 
 
@@ -7458,6 +8483,22 @@
 
 
 
+"highway/raceway": {
+
+
+
+
+
+"name": "Moottoriurheilurata"
+
+
+
+
+},
+
+
+
+
 "highway/residential": {
 
 
@@ -7576,7 +8617,7 @@
 
 
 
-"name": "Läpiajo"
+"name": "Autokaista"
 
 
 
@@ -8000,6 +9041,22 @@
 
 
 
+"junction": {
+
+
+
+
+
+"name": "Risteys"
+
+
+
+
+},
+
+
+
+
 "landuse": {
 
 
@@ -8086,6 +9143,22 @@
 
 
 
+"landuse/commercial": {
+
+
+
+
+
+"name": "Liiketoiminta-alue"
+
+
+
+
+},
+
+
+
+
 "landuse/construction": {
 
 
@@ -8093,6 +9166,38 @@
 
 
 "name": "Rakennustyömaa"
+
+
+
+
+},
+
+
+
+
+"landuse/farm": {
+
+
+
+
+
+"name": "Maatila"
+
+
+
+
+},
+
+
+
+
+"landuse/farmland": {
+
+
+
+
+
+"name": "Maatila-alue"
 
 
 
@@ -8150,6 +9255,22 @@
 
 
 
+"landuse/industrial": {
+
+
+
+
+
+"name": "Teollisuusalue"
+
+
+
+
+},
+
+
+
+
 "landuse/meadow": {
 
 
@@ -8189,6 +9310,38 @@
 
 
 "name": "Louhos"
+
+
+
+
+},
+
+
+
+
+"landuse/residential": {
+
+
+
+
+
+"name": "Asuinalue"
+
+
+
+
+},
+
+
+
+
+"landuse/retail": {
+
+
+
+
+
+"name": "Vähittäiskauppa-alue"
 
 
 
@@ -8243,6 +9396,28 @@
 
 
 "terms": "koira, koirat, koira-alue, koiranulkoilutusalue, koirahäkki, koirapuisto"
+
+
+
+
+},
+
+
+
+
+"leisure/firepit": {
+
+
+
+
+
+"name": "Tulipiste",
+
+
+
+
+
+"terms": "nuotio, ruoanlaitto, ruoka, piste, grilli, grillaus"
 
 
 
@@ -8464,7 +9639,7 @@
 
 
 
-"terms": "jalkapallo, urheilu, liikunta, kenttä, areena, futis"
+"terms": "jalkapallo, urheilu, liikunta, kenttä, areena, futis, futiskenttä"
 
 
 
@@ -8534,7 +9709,13 @@
 
 
 
-"name": "Juoksupolku"
+"name": "Juoksupolku",
+
+
+
+
+
+"terms": "juoksu, juokseminen, polku, rata, reitti, juoksupolku, juoksurata, juoksureitti, liikunta, urheilu, kuntoilu, yleisurheilu"
 
 
 
@@ -8611,6 +9792,22 @@
 
 
 "name": "Uima-allas"
+
+
+
+
+},
+
+
+
+
+"leisure/track": {
+
+
+
+
+
+"name": "Kilparata (ei moottoriurheilu)"
 
 
 
@@ -8862,6 +10059,22 @@
 
 
 
+"man_made/water_well": {
+
+
+
+
+
+"name": "Vesikaivo"
+
+
+
+
+},
+
+
+
+
 "man_made/water_works": {
 
 
@@ -9002,6 +10215,22 @@
 
 
 
+"natural/cave_entrance": {
+
+
+
+
+
+"name": "Luolan suuaukko"
+
+
+
+
+},
+
+
+
+
 "natural/cliff": {
 
 
@@ -9126,6 +10355,28 @@
 
 
 
+"natural/scree": {
+
+
+
+
+
+"name": "Louhikko",
+
+
+
+
+
+"terms": "kivikko, rakka, kivikasa, kasa, kivikumpu, maakasa, vyörylohkareikko, lohkareikko"
+
+
+
+
+},
+
+
+
+
 "natural/scrub": {
 
 
@@ -9164,7 +10415,7 @@
 
 
 
-"name": "Havupuu"
+"name": "Puu"
 
 
 
@@ -9272,7 +10523,7 @@
 
 
 
-"name": "Lehtipuu"
+"name": "Luonnonvarainen metsä/puu"
 
 
 
@@ -9311,6 +10562,22 @@
 
 
 "terms": "tilintarkastus, tilintarkastaja, kirjanpito, kirjanpitäjä, kirjanpitotoimisto"
+
+
+
+
+},
+
+
+
+
+"office/administrative": {
+
+
+
+
+
+"name": "Hallinnon toimisto"
 
 
 
@@ -9387,6 +10654,22 @@
 
 
 "terms": "työ, työvoimatoimisto, työnvälitys, työnvälittäjä, työpaikka, työpaikat"
+
+
+
+
+},
+
+
+
+
+"office/estate_agent": {
+
+
+
+
+
+"name": "Kiinteistötoimisto"
 
 
 
@@ -9554,6 +10837,54 @@
 
 
 
+"office/research": {
+
+
+
+
+
+"name": "Tutkimustoimisto"
+
+
+
+
+},
+
+
+
+
+"office/telecommunication": {
+
+
+
+
+
+"name": "Tietoliikennetoimisto"
+
+
+
+
+},
+
+
+
+
+"office/therapist": {
+
+
+
+
+
+"name": "Terapialaitos"
+
+
+
+
+},
+
+
+
+
 "office/travel_agent": {
 
 
@@ -9576,7 +10907,13 @@
 
 
 
-"name": "Laskettelurinne/hiihtolatu"
+"name": "Laskettelurinne/hiihtolatu",
+
+
+
+
+
+"terms": "laskettelu, alamäki, mäki, laskettelumäki, rinne, latu, hiihtolatu, urheilu, kuntoilu, liikunta, talvi, talviliikunta, talviurheilu, talvikuntoilu"
 
 
 
@@ -9882,6 +11219,22 @@
 
 
 
+"power/substation": {
+
+
+
+
+
+"name": "Sähköasema"
+
+
+
+
+},
+
+
+
+
 "power/tower": {
 
 
@@ -9927,6 +11280,22 @@
 
 
 "terms": "pysäkki, asema, pysäkkilaituri, laituri, odotus, odotusalue, odotuslaituri, odottaminen, katos, asemalaituri, asema"
+
+
+
+
+},
+
+
+
+
+"public_transport/stop_position": {
+
+
+
+
+
+"name": "Pysätyspaikka"
 
 
 
@@ -10188,6 +11557,22 @@
 
 
 
+"roundabout": {
+
+
+
+
+
+"name": "Liikenneympyrä"
+
+
+
+
+},
+
+
+
+
 "route/ferry": {
 
 
@@ -10341,6 +11726,28 @@
 
 
 "name": "Leipomo"
+
+
+
+
+},
+
+
+
+
+"shop/bathroom_furnishing": {
+
+
+
+
+
+"name": "Kylpyhuoneliike",
+
+
+
+
+
+"terms": "kylpyhuone, kylpy, suihku, amme, sisustus, sisustaminen, pesuhuone, sauna"
 
 
 
@@ -10672,6 +12079,28 @@
 
 
 
+"shop/curtain": {
+
+
+
+
+
+"name": "Verhomyymälä",
+
+
+
+
+
+"terms": "verho, kaihdin, verhot, kaihtimet, rullaverho, liukuverho, verhokauppa, verholiike"
+
+
+
+
+},
+
+
+
+
 "shop/dairy": {
 
 
@@ -10774,6 +12203,22 @@
 
 
 
+"shop/fabric": {
+
+
+
+
+
+"name": "Rakennusliike"
+
+
+
+
+},
+
+
+
+
 "shop/farm": {
 
 
@@ -10787,6 +12232,22 @@
 
 
 "terms": "tuotestandi, standi, ständi, esittely, tuote-esittely, tuote, tavara, esittelypiste, esittelyständi, esittelystandi"
+
+
+
+
+},
+
+
+
+
+"shop/fashion": {
+
+
+
+
+
+"name": "Muotiliike"
 
 
 
@@ -11038,6 +12499,22 @@
 
 
 
+"shop/leather": {
+
+
+
+
+
+"name": "Nahkaliike"
+
+
+
+
+},
+
+
+
+
 "shop/locksmith": {
 
 
@@ -11104,6 +12581,22 @@
 
 
 
+"shop/massage": {
+
+
+
+
+
+"name": "Hierontayritys"
+
+
+
+
+},
+
+
+
+
 "shop/mobile_phone": {
 
 
@@ -11111,6 +12604,22 @@
 
 
 "name": "Matkapuhelinmyymälä"
+
+
+
+
+},
+
+
+
+
+"shop/money_lender": {
+
+
+
+
+
+"name": "Rahanlainausliike"
 
 
 
@@ -11143,6 +12652,28 @@
 
 
 "name": "Musiikkiliike"
+
+
+
+
+},
+
+
+
+
+"shop/musical_instrument": {
+
+
+
+
+
+"name": "Instrumenttimyymälä",
+
+
+
+
+
+"terms": "musiikki, soitin, soittimet, instrumentti, soittaminen, soitto"
 
 
 
@@ -11219,6 +12750,22 @@
 
 
 "terms": "laitesukellus, sukellus, sukeltaminen, laitesukeltaminen, sukelluskauppa, sukellusliike"
+
+
+
+
+},
+
+
+
+
+"shop/seafood": {
+
+
+
+
+
+"name": "Meriruokakauppa"
 
 
 
@@ -11308,6 +12855,60 @@
 
 
 
+"shop/tattoo": {
+
+
+
+
+
+"name": "Tatuointisalonki"
+
+
+
+
+},
+
+
+
+
+"shop/tea": {
+
+
+
+
+
+"name": "Teekauppa"
+
+
+
+
+},
+
+
+
+
+"shop/ticket": {
+
+
+
+
+
+"name": "Lipunmyyntipiste",
+
+
+
+
+
+"terms": "lippupalvelu, lippu, liput, lippupiste, matkalippu, konserttilippu, tapahtumalippu, pääsylippu, pääsyliput"
+
+
+
+
+},
+
+
+
+
 "shop/tobacco": {
 
 
@@ -11388,6 +12989,28 @@
 
 
 
+"shop/vacuum_cleaner": {
+
+
+
+
+
+"name": "Pölynimuriliike",
+
+
+
+
+
+"terms": "pölynimuri, siivoaminen, siivous, imuri, pölynimuri, imurointi"
+
+
+
+
+},
+
+
+
+
 "shop/variety_store": {
 
 
@@ -11411,6 +13034,28 @@
 
 
 "name": "Videovuokraamo"
+
+
+
+
+},
+
+
+
+
+"shop/water_sports": {
+
+
+
+
+
+"name": "Vesiurheiluliike",
+
+
+
+
+
+"terms": "uinti, uiminen, sukellus, sukeltaminen, laitesukellus, laitesukeltaminen, vesi, vesiurheilu, kauppa, liike, myymälä"
 
 
 

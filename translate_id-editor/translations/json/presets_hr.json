@@ -986,6 +986,22 @@
 
 
 
+"brand": {
+
+
+
+
+
+"label": "Marka"
+
+
+
+
+},
+
+
+
+
 "building": {
 
 
@@ -1826,6 +1842,61 @@
 
 
 
+"gender": {
+
+
+
+
+
+"label": "Spol",
+
+
+
+
+
+"placeholder": "Nepoznato",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"male": "Muško",
+
+
+
+
+
+
+"female": "Žensko",
+
+
+
+
+
+
+"unisex": "Unisex"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "generator/method": {
 
 
@@ -2011,6 +2082,48 @@
 
 
 "label": "Nagib"
+
+
+
+
+},
+
+
+
+
+"incline_steps": {
+
+
+
+
+
+"label": "Nagib",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "Gore",
+
+
+
+
+
+
+"down": "Dolje"
+
+
+
+
+
+}
 
 
 
@@ -2229,7 +2342,7 @@
 
 
 
-"label": "Ulična rasvjeta"
+"label": "Osvijetljeno"
 
 
 
@@ -2382,6 +2495,12 @@
 
 
 
+"label": "Težina staze po IMBA",
+
+
+
+
+
 "placeholder": "Lagano, srednje, teško...",
 
 
@@ -2402,7 +2521,7 @@
 
 
 
-"1": "Lagano (zeleni krug)",
+"1": "Lagano (plava staza)",
 
 
 
@@ -2705,7 +2824,7 @@
 
 
 
-"label": "Sati"
+"label": "Radno vrijeme"
 
 
 
@@ -2893,7 +3012,7 @@
 
 
 
-"novice": "Početnik (nastavni)",
+"novice": "Za početnike (baby staza)",
 
 
 
@@ -2907,14 +3026,14 @@
 
 
 
-"intermediate": "Srednje (plavi kvadrat)",
+"intermediate": "Srednje (crvena staza)",
 
 
 
 
 
 
-"advanced": "Napredno (crni dijamant)",
+"advanced": "Napredno (crna staza)",
 
 
 
@@ -2957,6 +3076,12 @@
 
 
 
+"label": "Uređenje staze",
+
+
+
+
+
 "options": {
 
 
@@ -2964,7 +3089,42 @@
 
 
 
-"mogul": "Brežuljkasti"
+"classic": "Klasično",
+
+
+
+
+
+
+"mogul": "Hupseri",
+
+
+
+
+
+
+"backcountry": "Neuređeno, \"off piste\"",
+
+
+
+
+
+
+"classic+skating": "Klasično i riblja kost",
+
+
+
+
+
+
+"scooter": "Za snježni skuter ili motorne sanjke",
+
+
+
+
+
+
+"skating": "Riblja kost"
 
 
 
@@ -2999,14 +3159,14 @@
 
 
 
-"downhill": "Spust",
+"downhill": "Alpsko skijanje",
 
 
 
 
 
 
-"nordic": "Nordijsko",
+"nordic": "Nordijsko skijanje",
 
 
 
@@ -3078,6 +3238,22 @@
 
 
 "label": "Vrsta"
+
+
+
+
+},
+
+
+
+
+"population": {
+
+
+
+
+
+"label": "Broj stanovnika"
 
 
 
@@ -3247,6 +3423,22 @@
 
 
 
+"restrictions": {
+
+
+
+
+
+"label": "Zabrane skretanja"
+
+
+
+
+},
+
+
+
+
 "route": {
 
 
@@ -3279,6 +3471,70 @@
 
 
 
+"sac_scale": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"hiking": "T1: Pješačenje",
+
+
+
+
+
+
+"mountain_hiking": "T2: Planinarenje",
+
+
+
+
+
+
+"demanding_mountain_hiking": "T3: Zahtjevno planinarenje",
+
+
+
+
+
+
+"alpine_hiking": "T4: Alpinističko planinarenje",
+
+
+
+
+
+
+"demanding_alpine_hiking": "T5: Zahtjevno alpinističko planinarenje",
+
+
+
+
+
+
+"difficult_alpine_hiking": "T6: Teško alpinističko planinarenje"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "service": {
 
 
@@ -3286,6 +3542,92 @@
 
 
 "label": "Vrsta"
+
+
+
+
+},
+
+
+
+
+"service/bicycle/chain_tool": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Pretpostavlja se da je Ne",
+
+
+
+
+
+
+"yes": "Da",
+
+
+
+
+
+
+"no": "Ne"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service/bicycle/pump": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Pretpostavlja se da je Ne",
+
+
+
+
+
+
+"yes": "Da",
+
+
+
+
+
+
+"no": "Ne"
+
+
+
+
+
+}
 
 
 
@@ -3318,6 +3660,165 @@
 
 
 "label": "Vrsta"
+
+
+
+
+},
+
+
+
+
+"smoking": {
+
+
+
+
+
+"label": "Pušenje",
+
+
+
+
+
+"placeholder": "Ne, odvojeno, da...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Nedozvoljeno svugdje",
+
+
+
+
+
+
+"separated": "U djelovima za pušenje koji nisu fizički odvojeni",
+
+
+
+
+
+
+"isolated": "U prostorijama za pušenje fizički odvojenima",
+
+
+
+
+
+
+"outside": "Dopušteno vani",
+
+
+
+
+
+
+"yes": "Dopušteno svugdje"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"smoothness": {
+
+
+
+
+
+"label": "Glatkost",
+
+
+
+
+
+"placeholder": "Mali kotačići, kotači, off-road",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"excellent": "Tanki kotačići: role, skejtbord",
+
+
+
+
+
+
+"good": "Tanki kotači: bicikli trkačice",
+
+
+
+
+
+
+"intermediate": "Kotači: gradski bicikl, kolica za invalide, skuteri",
+
+
+
+
+
+
+"bad": "Jači kotači: trekking bicikl, automobil, rikša",
+
+
+
+
+
+
+"very_bad": "Visoko podvozje: gradski terenci, SUV-ovi",
+
+
+
+
+
+
+"horrible": "Off road: prava off-road vozila",
+
+
+
+
+
+
+"very_horrible": "Specijalizirana off-road vozila: traktori, quad vozila",
+
+
+
+
+
+
+"impassable": "Neprolazno / nijedno vozilo sa kotačima"
+
+
+
+
+
+}
 
 
 
@@ -3517,6 +4018,22 @@
 
 
 
+"trees": {
+
+
+
+
+
+"label": "Drveće"
+
+
+
+
+},
+
+
+
+
 "tunnel": {
 
 
@@ -3626,6 +4143,22 @@
 
 
 "label": "Pristup s invalidskim kolicima"
+
+
+
+
+},
+
+
+
+
+"width": {
+
+
+
+
+
+"label": "Širina (u metrima)"
 
 
 
@@ -4401,7 +4934,29 @@
 
 
 
-"name": "Punionica"
+"name": "Punionica za električna vozila",
+
+
+
+
+
+"terms": "električna punionica,pumpa za električna vozila"
+
+
+
+
+},
+
+
+
+
+"amenity/childcare": {
+
+
+
+
+
+"name": "Jaslice"
 
 
 
@@ -5160,6 +5715,22 @@
 
 
 "name": "Sklonište"
+
+
+
+
+},
+
+
+
+
+"amenity/social_facility": {
+
+
+
+
+
+"name": "Socijalna ustanova"
 
 
 
@@ -7049,6 +7620,54 @@
 
 
 
+"footway/crossing": {
+
+
+
+
+
+"name": "Pružni prijelaz za pješake"
+
+
+
+
+},
+
+
+
+
+"footway/crosswalk": {
+
+
+
+
+
+"name": "Pješački prijelaz"
+
+
+
+
+},
+
+
+
+
+"footway/sidewalk": {
+
+
+
+
+
+"name": "Pločnik"
+
+
+
+
+},
+
+
+
+
 "golf/rough": {
 
 
@@ -7979,6 +8598,22 @@
 
 
 
+"landuse/garages": {
+
+
+
+
+
+"name": "Garaže"
+
+
+
+
+},
+
+
+
+
 "landuse/grass": {
 
 
@@ -7995,6 +8630,38 @@
 
 
 
+"landuse/industrial": {
+
+
+
+
+
+"name": "Industrijska zona"
+
+
+
+
+},
+
+
+
+
+"landuse/landfill": {
+
+
+
+
+
+"name": "Odlagalište otpada"
+
+
+
+
+},
+
+
+
+
 "landuse/meadow": {
 
 
@@ -8002,6 +8669,22 @@
 
 
 "name": "Livada"
+
+
+
+
+},
+
+
+
+
+"landuse/military": {
+
+
+
+
+
+"name": "Vojna zona"
 
 
 
@@ -8034,6 +8717,38 @@
 
 
 "name": "Kamenolom"
+
+
+
+
+},
+
+
+
+
+"landuse/residential": {
+
+
+
+
+
+"name": "Stambena zona"
+
+
+
+
+},
+
+
+
+
+"landuse/retail": {
+
+
+
+
+
+"name": "Trgovačka zona"
 
 
 
@@ -8148,6 +8863,22 @@
 
 
 "terms": "golf teren"
+
+
+
+
+},
+
+
+
+
+"leisure/ice_rink": {
+
+
+
+
+
+"name": "Klizalište"
 
 
 
@@ -8393,6 +9124,22 @@
 
 
 
+"leisure/running_track": {
+
+
+
+
+
+"name": "Staza za trčanje"
+
+
+
+
+},
+
+
+
+
 "leisure/slipway": {
 
 
@@ -8538,6 +9285,38 @@
 
 
 "terms": "prosjeka,prosječen pojas u šumi,šumska prosjeka,prosjeka šume,prosjeka u šumi,prosjeka kroz šumu"
+
+
+
+
+},
+
+
+
+
+"man_made/embankment": {
+
+
+
+
+
+"name": "Nasip"
+
+
+
+
+},
+
+
+
+
+"man_made/flagpole": {
+
+
+
+
+
+"name": "Jarbol za zastavu"
 
 
 
@@ -8834,6 +9613,22 @@
 
 
 "terms": "plaža,mjesto za kupanje,obala za kupanje,prostor uz more,prostor uz more uređen za kupanje,kupanje,pjeskovita obala,kupalište,žal"
+
+
+
+
+},
+
+
+
+
+"natural/cave_entrance": {
+
+
+
+
+
+"name": "Ulaz u pećinu"
 
 
 
@@ -9287,6 +10082,22 @@
 
 
 
+"office/political_party": {
+
+
+
+
+
+"name": "Politička stranka"
+
+
+
+
+},
+
+
+
+
 "office/travel_agent": {
 
 
@@ -9634,6 +10445,22 @@
 
 
 "terms": "ts,trafostanica"
+
+
+
+
+},
+
+
+
+
+"power/substation": {
+
+
+
+
+
+"name": "Trafostanica"
 
 
 
@@ -10043,6 +10870,22 @@
 
 
 
+"roundabout": {
+
+
+
+
+
+"name": "Kružni tok"
+
+
+
+
+},
+
+
+
+
 "route/ferry": {
 
 
@@ -10109,6 +10952,38 @@
 
 
 
+"shop/antiques": {
+
+
+
+
+
+"name": "Antikvarijat"
+
+
+
+
+},
+
+
+
+
+"shop/art": {
+
+
+
+
+
+"name": "Umjetnička galerija"
+
+
+
+
+},
+
+
+
+
 "shop/bakery": {
 
 
@@ -10122,6 +10997,22 @@
 
 
 "terms": "pekara,pekarnica,pekarna"
+
+
+
+
+},
+
+
+
+
+"shop/bathroom_furnishing": {
+
+
+
+
+
+"name": "Prodavaonica kupaonske opreme"
 
 
 
@@ -10188,6 +11079,22 @@
 
 
 "terms": "trgovina biciklima"
+
+
+
+
+},
+
+
+
+
+"shop/books": {
+
+
+
+
+
+"name": "Knjižara"
 
 
 
@@ -10307,6 +11214,38 @@
 
 
 
+"shop/carpet": {
+
+
+
+
+
+"name": "Prodavaonica tepiha"
+
+
+
+
+},
+
+
+
+
+"shop/cheese": {
+
+
+
+
+
+"name": "Prodavaonica sira"
+
+
+
+
+},
+
+
+
+
 "shop/chemist": {
 
 
@@ -10320,6 +11259,22 @@
 
 
 "terms": "ljekarna, farmacija, apoteka"
+
+
+
+
+},
+
+
+
+
+"shop/chocolate": {
+
+
+
+
+
+"name": "Prodavaonica čokolade"
 
 
 
@@ -10373,6 +11328,22 @@
 
 
 
+"shop/confectionery": {
+
+
+
+
+
+"name": "Prodavaonica slatkiša"
+
+
+
+
+},
+
+
+
+
 "shop/convenience": {
 
 
@@ -10386,6 +11357,38 @@
 
 
 "terms": "dućan,trgovina,prodavaonica,samoposluga,kvartovska trgovina,trgovina mješovitom robom, prodavaonica mješovite robe"
+
+
+
+
+},
+
+
+
+
+"shop/cosmetics": {
+
+
+
+
+
+"name": "Prodavaonica kozmetike"
+
+
+
+
+},
+
+
+
+
+"shop/dairy": {
+
+
+
+
+
+"name": "Prodavaonica mliječnih proizvoda"
 
 
 
@@ -10461,6 +11464,22 @@
 
 
 
+"shop/dry_cleaning": {
+
+
+
+
+
+"name": "Kemijska čistionica"
+
+
+
+
+},
+
+
+
+
 "shop/electronics": {
 
 
@@ -10474,6 +11493,28 @@
 
 
 "terms": "trgovina elektroničke opreme,prodavaonica elektroničke robe,trgovina elektroničke robe,prodavaonica elektroničke opreme,dućan s elektroničkom opremom,dućan elektroničke robe"
+
+
+
+
+},
+
+
+
+
+"shop/erotic": {
+
+
+
+
+
+"name": "Prodavaonica erotskih pomagala",
+
+
+
+
+
+"terms": "erotika, eros, pornjava,sexy shop"
 
 
 
@@ -10675,6 +11716,22 @@
 
 
 
+"shop/hearing_aids": {
+
+
+
+
+
+"name": "Prodavaonica slušnih pomagala"
+
+
+
+
+},
+
+
+
+
 "shop/hifi": {
 
 
@@ -10710,6 +11767,22 @@
 
 
 "terms": "zlatarna,zlatara,zlatar"
+
+
+
+
+},
+
+
+
+
+"shop/kiosk": {
+
+
+
+
+
+"name": "Kiosk za novine"
 
 
 
@@ -10792,6 +11865,22 @@
 
 
 "terms": "šoping centar,trgovački centar,outlet centar,prodajni centar"
+
+
+
+
+},
+
+
+
+
+"shop/massage": {
+
+
+
+
+
+"name": "Studio za masažu"
 
 
 
@@ -10889,6 +11978,22 @@
 
 
 
+"shop/pawnbroker": {
+
+
+
+
+
+"name": "Zalagaonica"
+
+
+
+
+},
+
+
+
+
 "shop/pet": {
 
 
@@ -10918,6 +12023,76 @@
 
 
 "name": "Prodavaonica fotografske opreme"
+
+
+
+
+},
+
+
+
+
+"shop/pyrotechnics": {
+
+
+
+
+
+"name": "Prodavaonica za pirotehniku",
+
+
+
+
+
+"terms": "vatromet,pirotehnika,petarda,prskalice"
+
+
+
+
+},
+
+
+
+
+"shop/religion": {
+
+
+
+
+
+"name": "Prodavaonica religioznih pomagala"
+
+
+
+
+},
+
+
+
+
+"shop/scuba_diving": {
+
+
+
+
+
+"name": "Prodavaonica opreme za ronjenje"
+
+
+
+
+},
+
+
+
+
+"shop/seafood": {
+
+
+
+
+
+"name": "Ribarnica"
 
 
 
@@ -11006,6 +12181,44 @@
 
 
 "terms": "veletrgovina,supermarket,trgovina,samoposluga,"
+
+
+
+
+},
+
+
+
+
+"shop/tailor": {
+
+
+
+
+
+"name": "Krojač"
+
+
+
+
+},
+
+
+
+
+"shop/tattoo": {
+
+
+
+
+
+"name": "Studio za tetoviranje",
+
+
+
+
+
+"terms": "tetovaže,pirsing,tetoviranje,salon za tetoviranje"
 
 
 
@@ -11138,6 +12351,44 @@
 
 
 "terms": "videoteka,video,video-kaseta,video kaseta,video kazeta,video-kazeta,iznajmljivanje video kazeta,iznajmljivanje dvda,iznajmljivanje dvd-a,dvd,blue ray,iznajmljivanje blue raya,blue-ray,iznajmljivanje blue-raya"
+
+
+
+
+},
+
+
+
+
+"shop/video_games": {
+
+
+
+
+
+"name": "Prodavaonica video igara",
+
+
+
+
+
+"terms": "računalne igre, igrice"
+
+
+
+
+},
+
+
+
+
+"shop/wine": {
+
+
+
+
+
+"name": "Vinarija"
 
 
 
@@ -11515,6 +12766,28 @@
 
 
 
+"traffic_calming/bump": {
+
+
+
+
+
+"name": "Uspornik",
+
+
+
+
+
+"terms": "ležeći policajac"
+
+
+
+
+},
+
+
+
+
 "type/boundary": {
 
 
@@ -11594,6 +12867,118 @@
 
 
 "terms": "ograničenje,blokiranje,ograničavanje,restrikcija,zadržavanje,zabrana,zabrana za vozila,zabrana pristupa"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_left_turn": {
+
+
+
+
+
+"name": "Zabranjeno lijevo skretanje"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_right_turn": {
+
+
+
+
+
+"name": "Zabranjeno desno skretanje"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_straight_on": {
+
+
+
+
+
+"name": "Zabranjeno produživanje ravno"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_u_turn": {
+
+
+
+
+
+"name": "Zabranjeno polukružno okretanje"
+
+
+
+
+},
+
+
+
+
+"type/restriction/only_left_turn": {
+
+
+
+
+
+"name": "Obavezno lijevo skretanje"
+
+
+
+
+},
+
+
+
+
+"type/restriction/only_right_turn": {
+
+
+
+
+
+"name": "Obavezno desno skretanje"
+
+
+
+
+},
+
+
+
+
+"type/restriction/only_straight_on": {
+
+
+
+
+
+"name": "Zabranjena sva skretanja"
 
 
 

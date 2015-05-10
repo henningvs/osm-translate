@@ -1430,6 +1430,22 @@
 
 
 
+"drive_through": {
+
+
+
+
+
+"label": "Genomkörning (Drive-through)"
+
+
+
+
+},
+
+
+
+
 "electrified": {
 
 
@@ -3781,6 +3797,62 @@
 
 
 "no": "Nej"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Användningsområde ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Industrispår",
+
+
+
+
+
+
+"yard": "Bangård",
+
+
+
+
+
+
+"siding": "Sidospår",
+
+
+
+
+
+
+"crossover": "Växelförbindelse"
 
 
 

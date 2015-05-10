@@ -2080,7 +2080,7 @@
 
 
 
-"help": "# Ajuda\n\nEste é um editor do [OpenStreetMap](http://www.openstreetmap.org/), o mapa mundial livre e editável. Pode utilizá-lo para adicionar e atualizar dados do mapa na sua área, colaborando na construção de um mapa mundial melhor para todos. \n\nAs edições que fizer neste mapa serão visíveis a todas as pessoas que utilizem o OpenStreetMap. Para poder alterar o mapa é necessário ter uma [conta no OpenStreetMap](https://www.openstreetmap.org/user/new). O [editor iD](http://ideditor.com/) é um projeto colaborativo com [código-fonte disponível no site GitHub](https://github.com/openstreetmap/iD). \n",
+"help": "#Ajuda\n\nEste é um editor para o [OpenStreetMap](http://www.openstreetmap.org/), o mapa livre e editável do mundo.\nPode usar-lo para adicionar e actualizar dados da tua área, tornando-o num mapa de código e dados abertos mundial melhor para todos.\n\nEdições que faças neste mapa serão visíveis para qualquer pessoa que\ndecida usar o OpenStreetMap. De maneira a fazer uma edição, basta\n[iniciar sessão](https://www.openstreetmap.org/login).\n\nO [editor iD](http://ideditor.com/) é um projeto colaborativo com o seu [código disponível no GitHub](https://github.com/openstreetmap/iD).\n",
 
 
 

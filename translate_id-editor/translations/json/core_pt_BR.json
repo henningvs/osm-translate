@@ -1747,6 +1747,10 @@
 
 
 
+"status_code": "O servidor retornou o status {code}",
+
+
+
 "unknown_error_details": "Por favor, verifique sua conexão com a internet.",
 
 
@@ -1764,12 +1768,32 @@
 
 
 
+"header": "Resolver edições conflitantes",
+
+
+
+
+"count": "Conflito {num} de {total}",
+
+
+
+
 "previous": "< Anterior",
 
 
 
 
 "next": "Próximo >",
+
+
+
+
+"keep_local": "Manter o meu",
+
+
+
+
+"keep_remote": "Usar o dele",
 
 
 
@@ -1784,7 +1808,17 @@
 
 
 
-"done": "Todos os conflitos foram resolvidos!"
+"download_changes": "Ou baixar suas alterações.",
+
+
+
+
+"done": "Todos os conflitos foram resolvidos!",
+
+
+
+
+"help": "Outro usuário alterou alguns dos mesmos itens do mapa que você alterou.\nClique em cada item abaixo para mais detalhes sobre o conflito, e escolha se quer manter as suas alterações ou as do outro usuário.\n"
 
 
 
@@ -1813,7 +1847,17 @@
 
 
 
-"nodelist": "Os pontos foram modificados tanto por você quanto pelo(a) {user}."
+"nodelist": "Os pontos foram modificados tanto por você quanto pelo(a) {user}.",
+
+
+
+
+"memberlist": "Os membros da relação foram modificados tanto por você quanto por {user}.",
+
+
+
+
+"tags": "Você mudou a etiqueta <b>{tag}</b> para \"{local}\" e o/a {user} mudou-a para \"{remote}\"."
 
 
 
@@ -2036,7 +2080,7 @@
 
 
 
-"help": "# Ajuda\n\nEste é um editor para OpenStreetMap (http://www.openstreetmap.org/), o mapa mundial livre e editavel. Você pode usá-lo para adicionar e atualizar de dados em sua área,  tornando um mapa mundi de codigo aberto melhor para todos.\nAs edições que você fizer nesse mapa serão visíveis para todos que usam OpenStreetMap. Para fazer uma edição você precisará de uma conta gratuita OpenStreetMap(https://www.openstreetmap.org/user/new).\n\nO editor iD (http://ideditor.com/) é um projeto colaborativo com o código fonte disponível no GitHub(https://github.com/openstreetmap/iD).\n",
+"help": "# Ajuda\n\nEste é um editor para [OpenStreetMap](http://www.openstreetmap.org/), o mapa mundial livre e editável. Você pode usá-lo para adicionar e atualizar de dados em sua área,  tornando um mapa mundi de código aberto melhor para todos.\n\nAs edições que você fizer nesse mapa serão visíveis para todos que usam OpenStreetMap. Para fazer uma edição você precisará se [identificar](https://www.openstreetmap.org/login).\n\nO [editor iD](http://ideditor.com/) é um projeto colaborativo com o [código fonte disponível no GitHub](https://github.com/openstreetmap/iD).\n",
 
 
 

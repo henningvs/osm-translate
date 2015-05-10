@@ -1430,6 +1430,22 @@
 
 
 
+"drive_through": {
+
+
+
+
+
+"label": "Durchfahrtslokal"
+
+
+
+
+},
+
+
+
+
 "electrified": {
 
 
@@ -3976,7 +3992,7 @@
 
 
 
-"dedicated": "Für Raucher besteimmt (z.B.: Raucherklub)"
+"dedicated": "Für Raucher bestimmt (z.B.: Raucherklub)"
 
 
 
@@ -5275,7 +5291,7 @@
 
 
 
-"terms": "Geldautomat"
+"terms": "Geldautomat,Bankautomat,Bankomat,Bancomat,Geldausgabeautomat,ATM"
 
 
 
@@ -6061,7 +6077,7 @@
 
 
 
-"name": "Vorschul-/Kindergartengelände",
+"name": "Kindergarten",
 
 
 
@@ -7733,7 +7749,7 @@
 
 
 
-"name": "Haus",
+"name": "Einfamilienhaus",
 
 
 
@@ -17347,13 +17363,13 @@
 
 
 
-"name": "Damm",
+"name": "Staudamm",
 
 
 
 
 
-"terms": "Staudamm, Staumauer"
+"terms": "Damm, Staumauer"
 
 
 

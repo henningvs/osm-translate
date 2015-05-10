@@ -1430,6 +1430,22 @@
 
 
 
+"drive_through": {
+
+
+
+
+
+"label": "Ventanilla de autoservicio"
+
+
+
+
+},
+
+
+
+
 "electrified": {
 
 
@@ -10027,7 +10043,7 @@
 
 
 
-"terms": "Parada sin bajar del vehiculo"
+"terms": "ventanilla, autoservicio, autobanco, autofarmacia"
 
 
 
@@ -10043,13 +10059,13 @@
 
 
 
-"name": "Vía privada de acceso",
+"name": "Vía privada de entrada",
 
 
 
 
 
-"terms": "calle, carril, pista, trayecto, avenida, carretera, vía de servicio, vía"
+"terms": "calle, carril, avenida, carretera, vía de servicio, entrada, privada, acceso, garaje"
 
 
 
@@ -10703,13 +10719,13 @@
 
 
 
-"name": "Área Comercial",
+"name": "Área comercial",
 
 
 
 
 
-"terms": "Zona Comercial"
+"terms": "área comercial, comercio, negocio, tiendas"
 
 
 
@@ -10753,7 +10769,7 @@
 
 
 
-"terms": "Tierras agrícolas, Tierras de labranza"
+"terms": "tierras de cultivo, tierras agrícolas, tierras de labranza, terreno agrícola"
 
 
 
@@ -10775,7 +10791,7 @@
 
 
 
-"terms": "Tierras agrícolas, Tierras de labranza"
+"terms": "tierras de cultivo, tierras agrícolas, tierras de labranza, terreno agrícola"
 
 
 
@@ -10879,13 +10895,13 @@
 
 
 
-"name": "Área Industrial",
+"name": "Área industrial",
 
 
 
 
 
-"terms": "Zona Industrial"
+"terms": "área industrial, parque industrial, industria, fábrica"
 
 
 
@@ -10945,13 +10961,13 @@
 
 
 
-"name": "Área Militar",
+"name": "Área militar",
 
 
 
 
 
-"terms": "Zona Militar"
+"terms": "área militar"
 
 
 
@@ -11011,13 +11027,13 @@
 
 
 
-"name": "Área Residencial",
+"name": "Área residencial",
 
 
 
 
 
-"terms": "Barrio Residencial"
+"terms": "área residencial"
 
 
 
@@ -11033,13 +11049,13 @@
 
 
 
-"name": "Área Comercial",
+"name": "Área comercial",
 
 
 
 
 
-"terms": "Zona Comercial"
+"terms": "área comercial, comercio, negocio, tienda"
 
 
 
@@ -13855,7 +13871,7 @@
 
 
 
-"terms": " glorieta"
+"terms": " rotonda, glorieta, óvalo, redoma, redondel"
 
 
 
@@ -15147,13 +15163,13 @@
 
 
 
-"name": "Tienda de Artículos para el Hogar ",
+"name": "Tienda de artículos del hogar ",
 
 
 
 
 
-"terms": "Tienda de Electrodomésticos"
+"terms": "artículos del hogar, enseres del hogar, hogar, casa, almacén, comercio, negocio, tienda"
 
 
 

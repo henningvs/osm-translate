@@ -90,6 +90,32 @@
 
 
 
+},
+
+
+
+"draw_area": {
+
+
+
+
+"tail": "Alale punkti lisamiseks tee klikk. Ala lõpetamiseks tee klikk ala esimesele punktile."
+
+
+
+},
+
+
+
+"draw_line": {
+
+
+
+
+"tail": "Joonele punktide lisamiseks tee hiirega klikk. Tee klikk teiste joonte peale, et jooni ühendada ja topeltklikk, et joont lõpetada."
+
+
+
 }
 
 
@@ -182,6 +208,16 @@
 
 
 "description": "Jätka seda joont.",
+
+
+
+
+"not_eligible": "Joont ei saa siit jätkata.",
+
+
+
+
+"multiple": "Siit saab jätkata mitut joont. Joone valimiseks hoia all Shift klahvi ja tee klikk joonele.",
 
 
 
@@ -309,7 +345,17 @@
 
 
 
-"not_closed": "Seda ei saa teha ringikujuliseks kuna see ei ole silmus."
+"not_closed": "Seda ei saa teha ringikujuliseks kuna see ei ole silmus.",
+
+
+
+
+"too_large": "Seda ei saa teha ringikujuliseks, kuna see ei ole täielikult nähtaval.",
+
+
+
+
+"connected_to_hidden": "Seda ei saa teha ringikujuliseks, kuna see on ühendatud peidetud objektiga."
 
 
 
@@ -376,7 +422,17 @@
 
 
 
-"not_squarish": "Seda ei saa teha täisnurkseks kuna see ei ole nurgeline."
+"not_squarish": "Seda ei saa teha täisnurkseks kuna see ei ole nurgeline.",
+
+
+
+
+"too_large": "Seda ei saa teha täisnurkseks, kuna see ei ole täielikult nähtaval.",
+
+
+
+
+"connected_to_hidden": "Seda ei saa teha täisnurkseks, kuna see on ühendatud peidetud objektiga."
 
 
 
@@ -409,7 +465,12 @@
 
 
 
-"too_bendy": "Seda ei saa sirgeks teha kuna see painduks liiga palju."
+"too_bendy": "Seda ei saa sirgeks teha kuna see painduks liiga palju.",
+
+
+
+
+"connected_to_hidden": "Seda ei saa teha sirgeks, kuna see on ühendatud peidetud objektiga."
 
 
 
@@ -423,6 +484,11 @@
 
 
 "title": "Kustuta",
+
+
+
+
+"description": "Kustuta objekt lõplikult.",
 
 
 
@@ -468,7 +534,22 @@
 
 
 
-}
+},
+
+
+
+
+"incomplete_relation": "Seda objekti ei saa kustutada, kuna see ei ole täielikult laetud.",
+
+
+
+
+"part_of_relation": "Seda objekti ei saa kustutada, kuna ta on osa suuremast relatsioonist. Sa pead eelnevalt selle relatsioonist eemaldama.",
+
+
+
+
+"connected_to_hidden": "Seda ei saa kustutada, kuna see on ühendatud peidetud objektiga."
 
 
 
@@ -564,7 +645,17 @@
 
 
 
-"annotation": "Lahtiühendatud jooned/alad."
+"annotation": "Lahtiühendatud jooned/alad.",
+
+
+
+
+"not_connected": "Siin pole piisavalt jooni/alasid lahtiühendamiseks.",
+
+
+
+
+"connected_to_hidden": "Seda ei saa lahti ühendada, kuna see on ühendatud peidetud objektiga."
 
 
 
@@ -602,7 +693,17 @@
 
 
 
-"not_adjacent": "Neid jooni ei saa ühendada kuna need ei ole üksteisega seotud."
+"not_adjacent": "Neid jooni ei saa ühendada kuna need ei ole üksteisega seotud.",
+
+
+
+
+"restriction": "Neid jooni ei saa ühendada, kuna vähemalt üks neist on \"{relation}\" relatsiooni osa.",
+
+
+
+
+"incomplete_relation": "Neid objekte ei saa ühendada, kuna vähemalt üks neist ei ole täielikult laetud."
 
 
 
@@ -636,36 +737,51 @@
 
 
 
-"point": "Punkt liigutatud.",
+"point": "Punkt nihutatud.",
 
 
 
 
 
-"vertex": "Liigutatud Joone punkti.",
+"vertex": "Nihutatud Joone punkti.",
 
 
 
 
 
-"line": "Liigutatud joont.",
+"line": "Nihutatud joont.",
 
 
 
 
 
-"area": "Liigutatud ala.",
+"area": "Nihutatud ala.",
 
 
 
 
 
-"multiple": "Liigutatud mitut objekti."
+"multiple": "Nihutatud mitut objekti."
 
 
 
 
-}
+},
+
+
+
+
+"incomplete_relation": "Seda objekti ei saa nihutada, kuna ta pole täielikult laetud.",
+
+
+
+
+"too_large": "Seda objekti ei saa nihutada, kuna see pole piisavalt nähtav.",
+
+
+
+
+"connected_to_hidden": "Seda objekti ei saa nihutada, kuna ta on ühendatud peidetud objektiga."
 
 
 
@@ -723,7 +839,7 @@
 
 
 
-"title": "Pööra",
+"title": "Pööra ümber",
 
 
 

@@ -1430,6 +1430,22 @@
 
 
 
+"drive_through": {
+
+
+
+
+
+"label": "Drive-Through"
+
+
+
+
+},
+
+
+
+
 "electrified": {
 
 
@@ -8947,7 +8963,7 @@
 
 
 
-"terms": "oversteekplaats, voetganger"
+"terms": "oversteekplaats,voetganger"
 
 
 
@@ -12611,7 +12627,13 @@
 
 
 
-"name": "Gelijkvloerse spoorwegovergang"
+"name": "Spoorwegovergang",
+
+
+
+
+
+"terms": "overweg,treinspoor"
 
 
 
@@ -15837,7 +15859,13 @@
 
 
 
-"name": "Stuw"
+"name": "Stuw",
+
+
+
+
+
+"terms": "waterkering,stuwdam,keerdam"
 
 
 

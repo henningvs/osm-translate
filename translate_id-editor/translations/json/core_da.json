@@ -2080,7 +2080,7 @@
 
 
 
-"help": "# Hjælp\n\nDette er et redigeringsværktøj til [OpenStreetMap](http://www.openstreetmap.org/),  det frie\nog redigeringsbare verdenskort. Du kan bruge dette værktøj til at \nopdatere kortet i dit lokalområde. Derved skaber du et bedre verdenskort \nmed open source og åbne data til gavn for alle.\n\nDine ændringer på kortet vil blive synlige for alle der benytter OpenStreetMap. \nFor at kunne redigere skal du oprette en [gratis OpenStreetMap-konto](https://www.openstreetmap.org/user/new).\n\nDette [iD-redigeringsværktøj](http://ideditor.com/) er samarbejdsprojekt og [kildekoden\ner tilgængelig på GitHub](https://github.com/systemed/iD). \n",
+"help": "# Hjælp\n\nDette er et redigeringsværktøj for [OpenStreetMap](http://www.openstreetmap.org/), det åbne og redigeringsbare verdenskort. Du kan bruge dette værktøj til at opdatere geodata i dit lokalområde. Derved skaber du et bedre verdenskort med open source og frie geodata til gavn for alle.\n\nDine ændringer på kortet vil blive synligt for alle og enhver der benytter OpenStreetMap. For at lave redigeringer skal du [logge ind](https://www.openstreetmap.org/login).\n\n Dette [iD redigeringsværktøj](http://ideditor.com/) er et kollaborativ projekt og [kildekoden er tilgængelig på GitHub](https://github.com/openstreetmap/iD).\n",
 
 
 

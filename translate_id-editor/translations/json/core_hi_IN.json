@@ -45,6 +45,43 @@
 }
 
 
+},
+
+
+"operations": {
+
+
+
+"continue": {
+
+
+
+
+"key": "A",
+
+
+
+
+"title": "जारी रखें"
+
+
+
+},
+
+
+
+"circularize": {
+
+
+
+
+"key": "O"
+
+
+
+}
+
+
 }
 
 }

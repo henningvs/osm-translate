@@ -2080,7 +2080,7 @@
 
 
 
-"help": "# Pomoć\n\niD je program za uređivanje [OpenStreetMap](http://www.openstreetmap.org/), \nbesplatne karte svijeta. Možeš ga koristiti za dodavanje i obnavljanje podataka u \nsvom području, čime stvaraš bolju kartu svijeta slobodnih izvornika i podataka \ndostupnu svima.\n\nKorekcije koje napraviš na karti će biti vidljive svakome tko koristi\nOpenStreetMap. Da bi mogao/la uređivati kartu, trebaš [besplatni\nOpenStreetMap korisnički račun](https://www.openstreetmap.org/user/new).\n\n[iD editor](http://ideditor.com/) je suradnički projekt sa [izvornim kôdom dostupnim \nna GitHub-u](https://github.com/openstreetmap/iD).\n",
+"help": "# Pomoć\n\niD je mrežna aplikacija za uređivanje [OpenStreetMap-a](http://www.openstreetmap.org/), \nbesplatne karte svijeta. Možeš ju koristiti za dodavanje \ni obnavljanje podataka u svojoj okolini, čime stvaraš bolju otvorenu kartu svijeta dostupnu svima, uključujući izvorne podatke karte. \n\nIspravke i sadržaj koji napraviš na karti biti će vidljive svakome tko koristi \nOpenStreetMap. Da bi mogao/la uređivati kartu, trebaš se \n[prijaviti] (https://www.openstreetmap.org/login). \n\n[iD editor](http://ideditor.com/) je suradnički projekt sa [izvornim kôdom \ndostupnim na GitHub-u](https://github.com/openstreetmap/iD).\n",
 
 
 

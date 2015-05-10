@@ -1430,6 +1430,22 @@
 
 
 
+"drive_through": {
+
+
+
+
+
+"label": "Via dins una propietat."
+
+
+
+
+},
+
+
+
+
 "electrified": {
 
 
@@ -3781,6 +3797,62 @@
 
 
 "no": "No"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Tipus de servei de la via",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Canvi d'agulles",
+
+
+
+
+
+
+"yard": "Platja",
+
+
+
+
+
+
+"siding": "Apartador",
+
+
+
+
+
+
+"crossover": "Intercambiador"
 
 
 

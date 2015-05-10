@@ -427,7 +427,12 @@
 
 
 
-"too_large": "Tätä kohdetta ei voi tehdä suorakulmaiseksi, koska se ei ole tarpeeksi näkyvissä."
+"too_large": "Tätä kohdetta ei voi tehdä suorakulmaiseksi, koska se ei ole tarpeeksi näkyvissä.",
+
+
+
+
+"connected_to_hidden": "Tätä kohdetta ei voi tehdä suorakulmaiseksi, sillä se on yhdistetty piilotettuun karttakohteeseen."
 
 
 
@@ -460,7 +465,12 @@
 
 
 
-"too_bendy": "Oikaiseminen epäonnistui, koska se taipuu liian paljon."
+"too_bendy": "Oikaiseminen epäonnistui, koska se taipuu liian paljon.",
+
+
+
+
+"connected_to_hidden": "Tätä kohdetta ei voi suoristaa, sillä se on yhdistetty piilotettuun karttakohteeseen."
 
 
 
@@ -529,7 +539,17 @@
 
 
 
-"incomplete_relation": "Tätä ominaisuutta ei voi poistaa, sillä sitä ei ole ladattu kokonaan."
+"incomplete_relation": "Tätä ominaisuutta ei voi poistaa, sillä sitä ei ole ladattu kokonaan.",
+
+
+
+
+"part_of_relation": "Tätä kohdetta ei voi poistaa, sillä se on osana isompaa relaatiota. Poista ensin relaatiojäsenyys.",
+
+
+
+
+"connected_to_hidden": "Tätä kohdetta ei voi poistaa, sillä se on yhdistetty piilotettuun karttakohteeseen."
 
 
 
@@ -630,7 +650,12 @@
 
 
 
-"not_connected": "Ei riittävästi viivoja/alueita niiden erottamiseksi."
+"not_connected": "Ei riittävästi viivoja/alueita niiden erottamiseksi.",
+
+
+
+
+"connected_to_hidden": "Tätä kohdetta ei voi katkaista, sillä se on yhdistetty piilotettuun karttakohteeseen."
 
 
 
@@ -751,7 +776,12 @@
 
 
 
-"too_large": "Tätä ei voi siirtää, koska sitä ei ole nykyisin riittävästi näkyvillä."
+"too_large": "Tätä ei voi siirtää, koska sitä ei ole nykyisin riittävästi näkyvillä.",
+
+
+
+
+"connected_to_hidden": "Tätä kohdetta ei voi siirtää, sillä se on yhdistetty piilotettuun karttakohteeseen."
 
 
 
@@ -764,12 +794,12 @@
 
 
 
-"title": "Käännä",
+"title": "Kierrä",
 
 
 
 
-"description": "Käännä tätä kappaletta sen keskipisteen ympäri.",
+"description": "Kierrä tätä kappaletta sen keskipisteen ympäri.",
 
 
 
@@ -785,13 +815,13 @@
 
 
 
-"line": "Viiva käännetty.",
+"line": "Viivaa kierretty.",
 
 
 
 
 
-"area": "Alue käännetty."
+"area": "Aluetta kierretty."
 
 
 
@@ -801,7 +831,12 @@
 
 
 
-"too_large": "Tätä ei voi pyörittää, koska sitä ei ole nykyisin riittävästi näkyvillä."
+"too_large": "Tätä ei voi kiertää, koska sitä ei ole nykyisin riittävästi näkyvillä.",
+
+
+
+
+"connected_to_hidden": "Tätä kohdetta ei voi kiertää, sillä se on yhdistetty piilotettuun karttakohteeseen."
 
 
 
@@ -913,7 +948,12 @@
 
 
 
-"multiple_ways": "Viivoja on liian monta jotta niitä voitaisiin jakaa osiin."
+"multiple_ways": "Viivoja on liian monta jotta niitä voitaisiin jakaa osiin.",
+
+
+
+
+"connected_to_hidden": "Tätä kohdetta ei voi jakaa, sillä se on yhdistetty piilotettuun karttakohteeseen."
 
 
 
@@ -1373,7 +1413,11 @@
 
 
 
-"map_features": "Karttaominaisuudet"
+"map_features": "Karttaominaisuudet",
+
+
+
+"autohidden": "Nämä kohteet ovat piilotettu automaattisesti, sillä ne sotkisivat karttanäkymää liikaa. Näytä ne suurentamalla karttaa."
 
 
 },
@@ -1424,7 +1468,12 @@
 
 
 
-"description": "Pienemmät tiet"
+"description": "Pienemmät tiet",
+
+
+
+
+"tooltip": "Huoltotiet, pysäköintialuetiet, polut jne."
 
 
 
@@ -1479,6 +1528,24 @@
 
 
 "tooltip": "Metsät, maatilat, puistot, asutus, kaupalliset alueet jne."
+
+
+
+},
+
+
+
+"boundaries": {
+
+
+
+
+"description": "Rajat",
+
+
+
+
+"tooltip": "Hallinnolliset rajat"
 
 
 
@@ -1780,7 +1847,12 @@
 
 
 
-"nodelist": "Sekä sinä että {user} ovat muuttaneet pisteitä."
+"nodelist": "Sekä sinä että {user} ovat muuttaneet pisteitä.",
+
+
+
+
+"memberlist": "Sekä sinä että {user} ovat muuttaneet relaation jäseniä."
 
 
 
@@ -1908,7 +1980,7 @@
 
 
 
-"untagged_area": "Alue, jolla ei ole tageja",
+"untagged_area": "Alue ilman tageja",
 
 
 
@@ -2003,7 +2075,7 @@
 
 
 
-"help": "# Ohje\n\nTämä on ohjelma [OpenStreetMap-kartan](http://www.openstreetmap.org/)\nilmaisen ja muokattavan kartan muokkaamiseen. Voit käyttää ja \nmuokata sillä vapaasti ja osallistua ihmisten tekemän\nmaailmankartan luomiseen alueellasi.\n\nKarttaan tehtävät muutokset ovat näkyvillä kaikille\nOpenStreetMapin käyttäjille. Kartan muokkaaminen edellyttää\n[ilmaista OpenStreetMap-käyttäjätiliä](https://www.openstreetmap.org/user/new).\n\n[iD-muokkausohjelma](http://ideditor.com/) on yhteistyöprojekti, jonka [lähdekoodi\non saatavilla GitHubista](https://github.com/openstreetmap/iD).\n",
+"help": "# Ohje\n\nTämä on ohjelma [OpenStreetMap](http://www.openstreetmap.org/)-kartan\nvapaasti muokattavan kartan muokkaamiseen. Voit käyttää ja muokata sillä\nalueellasi vapaasti ja osallistua ihmisten tekemän maailmankartan luomiseen.\n\nKarttaan tehtävät muutokset ovat näkyvillä kaikille OpenStreetMapin käyttäjille.\nKartan muokkaaminen edellyttää ilmaista [OpenStreetMap-käyttäjätiliä](https://www.openstreetmap.org/login).\n\n[iD-muokkausohjelma](http://ideditor.com/) on yhteistyöprojekti, jonka\n[lähdekoodi on saatavilla GitHubista](https://github.com/openstreetmap/iD).\n\n",
 
 
 
@@ -2012,6 +2084,10 @@
 
 
 "roads": "# Tiet\n\nTällä muokkausohjelmalla voi lisätä, muokata ja poistaa teitä. Tie-sanalla\ntarkoitetaan kaikkia väyliä, kuten moottoriteitä, latuja, polkuja, pyöräteitä\nja monia muita.\n\n### Valitseminen\n\nValitse tie kartalta napsauttamalla sitä. Tien ulkoreuna korostuu, sen viereen\navautuu pikatoimintopalkki ja sivupalkkiin ilmestyy tien kohdemuokkain.\n\n### Siirtäminen ja muotoileminen\n\nKartalta voi löytää usein teitä, jotka eivät täsmää taustalla olevan ilmakuvan\ntai GPS-jäljen kanssa. Tällaiset tiet tulisi siirtää nopeasti oikealle paikalleen.\n\nAloita napsauttamalla siirrettävää tietä. Tien ulkoreunat korostuvat ja sen\nviivapisteet korostuvat. Tien muotoa voi muuttaa vetämällä viivapisteitä\nuusiin paikkoihin. Uuden viivapisteen voi luoda kaksoisnapsauttamalla\nmitä tahansa tien kohtaa, jossa ei jo ole viivapistettä.\n\nJos oikeassa maailmassa on kahden tien risteys, mutta ne eivät risteä\nkartalla, vedä joku viivapiste toiseen tiehen, jolloin niiden välille tulee\nristeys. Ei riitä, että tiet vain näyttävät risteävän kartalla, vaan niillä tulee\nolla yhteinen viivapiste. Tämä on erityisen tärkeää navigaattoreiden\nreititysohjelmistojen toimivuuden vuoksi.\n\nSiirrä koko tietä kerralla pikatoimintopalkin Siirrä-toiminnolla tai painamalla\nnäppäimistöstä M-näppäintä. Siirrä tie uudelle paikalleen ja lukitse siirto\nnapsauttamalla.\n\n### Poistaminen\n\nJos tie on täysin virheellinen - se esimerkiksi puuttuu satelliittikuvasta\nkokonaan tai se ei varmasti ole enää olemassa - se tulee poistaa\nkartalta. Mieti tarkkaan ennen karttakohteiden poistamispäätöstä -\nmuutos näkyy kartalla kaikille ja lisäksi satelliittikuvat ovat usein\nvanhentuneita, joten tie on jo voitu ehtiä rakentaa uudelleen.\n\nPoista tie valitsemalla se ja napsauttamalla sitten roskakorin\nkuvaketta tai napsauttamalla näppäimistön Delete-näppäintä.\n\n### Luominen\n\nPuuttuuko tie kartalta? Aloita tien piirtäminen napsauttamalla yläpalkista\nViiva tai paina pikanäppäintä `2` näppäimistöstä.\n\nNapsauta seuraavaksi tien lähtöpistettä. Jos tie lähtee jo kartalla olevan tien\nristeyksestä, napsauta risteyskohtaa.\n\nJatka napsauttelemalla tielle viivapisteitä säännöllisin välimatkoin\nseuraamalla ilmakuvaa tai GPS-jälkeä. Jos tie risteää jonkun muun tien kanssa, muodosta risteys napsauttamalla risteyskohtaa ja jatka taas normaaliin tapaan. Lopeta piirtäminen ja viimeistele tie\nkaksoisnapsauttamalla tai painamalla Enter-näppäintä. Peru tien piirtäminen ja poista tie painamalla näppäimistön askelpalautinta.\n",
+
+
+
+"gps": "# GPS \n\nGPS-mittaukset ovat tärkein OpenStreetMapin aineiston lähde. Tämä \nmuokkausohjelma tukee omalta tietokoneeltasi ladattavia `.gpx`-tiedostoja. \nGPS-mittauksia voi tehdä useilla älypuhelinsovelluksilla ja tietysti myös erillisillä \nGPS-mittalaitteilla. \n\nLisätietoja GPS-mittausten tekemisestä on sivuilla [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/) ja [Aloittelijan opas](http://wiki.openstreetmap.org/wiki/Fi:Beginners_Guide_1.1).\n\nKäytä GPX-tiedostoa kartoittamisen apuna vetämällä ja pudottamalla tiedosto kartanmuokkausohjelmaan. Jos se toimii, GPS-jälki ilmestyy karttapohjalle \nkirkkaanviolettina viivana. Piilota, näytä uudelleen tai muuta tämän GPX-tason \nlähennystasoa Karttatiedot-valikosta oikeasta reunasta.\n\nTällä tavalla kartoittamisen apuna käytettyä GPX-tiedostoa ei tallenneta OpenStreetMapiin - tiedosto tulee hyödynnettyä parhaiten tallentamalla tiedosto myös muiden [karttakehittäjien käyttöön](http://www.openstreetmap.org/trace/create).\n",
 
 
 
@@ -2143,6 +2219,11 @@
 
 
 "title": "Alueet",
+
+
+
+
+"add": "Alueet ovat tarkempia kuin pelkät viivat tai paikkapisteet. Ne soveltuvat esimerkiksi järvien, rakennusten ja asuinalueiden merkitsemiseen. **Luo uusi alue napsauttamalla Alue-painiketta.**",
 
 
 

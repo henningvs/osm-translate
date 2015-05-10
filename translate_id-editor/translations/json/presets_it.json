@@ -1430,6 +1430,22 @@
 
 
 
+"drive_through": {
+
+
+
+
+
+"label": "Drive-through"
+
+
+
+
+},
+
+
+
+
 "electrified": {
 
 
@@ -12711,6 +12727,22 @@
 
 
 
+"power/substation": {
+
+
+
+
+
+"name": "Sottostazione"
+
+
+
+
+},
+
+
+
+
 "power/tower": {
 
 
@@ -13585,6 +13617,22 @@
 
 
 
+"shop/chocolate": {
+
+
+
+
+
+"name": "Cioccolateria"
+
+
+
+
+},
+
+
+
+
 "shop/clothes": {
 
 
@@ -13642,6 +13690,22 @@
 
 
 "terms": "Drogheria"
+
+
+
+
+},
+
+
+
+
+"shop/cosmetics": {
+
+
+
+
+
+"name": "Negozio di cosmetici"
 
 
 
@@ -14261,6 +14325,22 @@
 
 
 
+"shop/pawnbroker": {
+
+
+
+
+
+"name": "Banco dei pegni"
+
+
+
+
+},
+
+
+
+
 "shop/pet": {
 
 
@@ -14437,6 +14517,28 @@
 
 
 
+"shop/tobacco": {
+
+
+
+
+
+"name": "Tabacchino",
+
+
+
+
+
+"terms": "Tabaccheria"
+
+
+
+
+},
+
+
+
+
 "shop/toys": {
 
 
@@ -14560,6 +14662,22 @@
 
 
 "terms": "Videoteca"
+
+
+
+
+},
+
+
+
+
+"shop/weapons": {
+
+
+
+
+
+"name": "Armeria"
 
 
 

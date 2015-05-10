@@ -803,7 +803,14 @@
 
 
 
-"exit": "Wyjście"
+"exit": "Wyjście",
+
+
+
+
+
+
+"both": "Obydwa"
 
 
 
@@ -931,6 +938,22 @@
 
 
 
+"bench": {
+
+
+
+
+
+"label": "Ławka"
+
+
+
+
+},
+
+
+
+
 "bicycle_parking": {
 
 
@@ -954,6 +977,22 @@
 
 
 "label": "Typ"
+
+
+
+
+},
+
+
+
+
+"brand": {
+
+
+
+
+
+"label": "Marka"
 
 
 
@@ -1311,6 +1350,22 @@
 
 
 
+"delivery": {
+
+
+
+
+
+"label": "Dostawa"
+
+
+
+
+},
+
+
+
+
 "denomination": {
 
 
@@ -1350,6 +1405,22 @@
 
 
 "label": "Opis"
+
+
+
+
+},
+
+
+
+
+"drive_through": {
+
+
+
+
+
+"label": "Drive-Through"
 
 
 
@@ -1542,6 +1613,20 @@
 
 
 
+"pillar": "Nadziemny",
+
+
+
+
+
+
+"underground": "Podziemny",
+
+
+
+
+
+
 "wall": "Mur",
 
 
@@ -1677,6 +1762,70 @@
 
 
 
+"fuel/octane_100": {
+
+
+
+
+
+"label": "Sprzedawana benzyna wyścigowa"
+
+
+
+
+},
+
+
+
+
+"fuel/octane_91": {
+
+
+
+
+
+"label": "Sprzedawana benzyna niskooktanowa"
+
+
+
+
+},
+
+
+
+
+"fuel/octane_95": {
+
+
+
+
+
+"label": "Sprzedawana benzyna średniooktanowa"
+
+
+
+
+},
+
+
+
+
+"fuel/octane_98": {
+
+
+
+
+
+"label": "Sprzedawana benzyna wysokooktanowa"
+
+
+
+
+},
+
+
+
+
 "gauge": {
 
 
@@ -1684,6 +1833,61 @@
 
 
 "label": "Wskaźnik"
+
+
+
+
+},
+
+
+
+
+"gender": {
+
+
+
+
+
+"label": "Płeć",
+
+
+
+
+
+"placeholder": "Nieznana",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"male": "Mężczyzna",
+
+
+
+
+
+
+"female": "Kobieta",
+
+
+
+
+
+
+"unisex": "Dla obu płci"
+
+
+
+
+
+}
 
 
 
@@ -1769,6 +1973,12 @@
 
 
 
+"label": "Dla niepełnosprawnych",
+
+
+
+
+
 "placeholder": "1-18"
 
 
@@ -1812,6 +2022,12 @@
 
 
 "hoops": {
+
+
+
+
+
+"label": "Kosz",
 
 
 
@@ -1866,6 +2082,48 @@
 
 
 "label": "Nachylenie"
+
+
+
+
+},
+
+
+
+
+"incline_steps": {
+
+
+
+
+
+"label": "Nachylenie",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"up": "W górę",
+
+
+
+
+
+
+"down": "W dół"
+
+
+
+
+
+}
 
 
 
@@ -2024,6 +2282,118 @@
 
 
 
+"leaf_cycle": {
+
+
+
+
+
+"label": "Cykl życiowy",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"evergreen": "Zimozielone",
+
+
+
+
+
+
+"deciduous": "Zrzucające liście na zimę",
+
+
+
+
+
+
+"semi_deciduous": "Zrzucające liście, tropikalne",
+
+
+
+
+
+
+"mixed": "Mieszane"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type": {
+
+
+
+
+
+"label": "Kategoria",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Liściaste",
+
+
+
+
+
+
+"needleleaved": "Iglaste",
+
+
+
+
+
+
+"mixed": "Mieszane",
+
+
+
+
+
+
+"leafless": "Bezlistne"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leisure": {
 
 
@@ -2154,7 +2524,143 @@
 
 
 
-"placeholder": "0, 1, 2, 3..."
+"label": "Skala trudności dla rowerów górskich",
+
+
+
+
+
+"placeholder": "0, 1, 2, 3...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"0": "0: Ubita nawierzchnia żwirowa lub ziemna, brak przeszkód, szerokie zakręty",
+
+
+
+
+
+
+"1": "1: Trochę luźnej nawierzchni, niewielkie przeszkody, szerokie zakręty",
+
+
+
+
+
+
+"2": "2: Luźna nawierzchnia, przeszkody, zakręty",
+
+
+
+
+
+
+"3": "3: Śliska nawierzchnia, duże przeszkody, ciasne zakręty",
+
+
+
+
+
+
+"4": "4: Piasek lub kamienie, niebezpieczne zakręty",
+
+
+
+
+
+
+"5": "5: Maksymalnie trudny szlak, gołoborza, lawiniska",
+
+
+
+
+
+
+"6": "6: Teren praktycznie nieprzejezdny dla rowerów górskich poza wyczynem - trial, ekstremalne dh itp."
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"mtb/scale/imba": {
+
+
+
+
+
+"label": "Skala trudności szlaków dla rowerów górskich IMBA",
+
+
+
+
+
+"placeholder": "Łatwy, Wymagający, Trudny...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"0": "Najłatwiejszy (biały okrąg)",
+
+
+
+
+
+
+"1": "Łatwy (zielony okrąg)",
+
+
+
+
+
+
+"2": "Wymagający (niebieski kwadrat)",
+
+
+
+
+
+
+"3": "Trudny (czarny romb)",
+
+
+
+
+
+
+"4": "Ekstremalnie trudny (podwójny czarny romb)"
+
+
+
+
+
+}
 
 
 
@@ -2165,6 +2671,12 @@
 
 
 "mtb/scale/uphill": {
+
+
+
+
+
+"label": "Skala trudności podjazdów dla rowerów górskich ",
 
 
 
@@ -2456,6 +2968,12 @@
 
 
 
+"label": "Par",
+
+
+
+
+
 "placeholder": "3, 4, 5..."
 
 
@@ -2587,7 +3105,13 @@
 
 
 
-"label": "Stopień trudności"
+"label": "Stopień trudności",
+
+
+
+
+
+"placeholder": "Łatwy, Średni, Zaawansowany..."
 
 
 
@@ -2619,7 +3143,26 @@
 
 
 
-"label": "Typ"
+"label": "Typ",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"sled": "Tor saneczkowy"
+
+
+
+
+
+}
 
 
 
@@ -2901,13 +3444,75 @@
 
 
 
-"service/bicycle/pump": {
+"service/bicycle/chain_tool": {
+
+
+
+
+
+"label": "Skuwacz łańcucha",
 
 
 
 
 
 "options": {
+
+
+
+
+
+
+"undefined": "Domyślnie nie",
+
+
+
+
+
+
+"yes": "Tak",
+
+
+
+
+
+
+"no": "Nie"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service/bicycle/pump": {
+
+
+
+
+
+"label": "Pompowanie",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Domyślnie nie",
 
 
 
@@ -3144,7 +3749,14 @@
 
 
 
-"very_horrible": "Wyspecjalizowany off-road: traktor, ATV (quad)"
+"very_horrible": "Wyspecjalizowany off-road: traktor, ATV (quad)",
+
+
+
+
+
+
+"impassable": "Nieprzejezdne / nie dla pojazdów kołowych"
 
 
 
@@ -3450,7 +4062,47 @@
 
 
 
-"label": "Opróżnianie"
+"label": "Opróżnianie",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"flush": "Spuszczanie wody",
+
+
+
+
+
+
+"pitlatrine": "Latryna",
+
+
+
+
+
+
+"chemical": "Chemiczne",
+
+
+
+
+
+
+"bucket": "Wiadro"
+
+
+
+
+
+}
 
 
 
@@ -3517,7 +4169,7 @@
 
 
 
-"grade1": "Utwardzona lub mocna ubita powierzchnia",
+"grade1": "Utwardzona lub mocna ubita nawierzchnia",
 
 
 
@@ -4625,6 +5277,22 @@
 
 
 
+"amenity/community_centre": {
+
+
+
+
+
+"name": "Dom kultury"
+
+
+
+
+},
+
+
+
+
 "amenity/compressed_air": {
 
 
@@ -5272,6 +5940,22 @@
 
 
 "name": "Recykling"
+
+
+
+
+},
+
+
+
+
+"amenity/register_office": {
+
+
+
+
+
+"name": "Urząd stanu cywilnego"
 
 
 
@@ -7025,7 +7709,7 @@
 
 
 
-"terms": "jubiler"
+"terms": "biżuteria"
 
 
 
@@ -8045,6 +8729,22 @@
 
 
 
+"highway/raceway": {
+
+
+
+
+
+"name": "Tor wyścigowy"
+
+
+
+
+},
+
+
+
+
 "highway/residential": {
 
 
@@ -8725,6 +9425,22 @@
 
 
 
+"junction": {
+
+
+
+
+
+"name": "Skrzyżowanie"
+
+
+
+
+},
+
+
+
+
 "landuse": {
 
 
@@ -8829,6 +9545,22 @@
 
 
 
+"landuse/commercial": {
+
+
+
+
+
+"name": "Obszar komercyjny"
+
+
+
+
+},
+
+
+
+
 "landuse/construction": {
 
 
@@ -8842,6 +9574,44 @@
 
 
 "terms": "budowa,teren,budowy"
+
+
+
+
+},
+
+
+
+
+"landuse/farm": {
+
+
+
+
+
+"name": "Użytki rolne",
+
+
+
+
+
+"terms": "ziemia uprawna,grunty rolne"
+
+
+
+
+},
+
+
+
+
+"landuse/farmland": {
+
+
+
+
+
+"name": "Pola uprawne"
 
 
 
@@ -8933,6 +9703,22 @@
 
 
 
+"landuse/industrial": {
+
+
+
+
+
+"name": "Obszar przemysłowy"
+
+
+
+
+},
+
+
+
+
 "landuse/landfill": {
 
 
@@ -8977,6 +9763,22 @@
 
 
 
+"landuse/military": {
+
+
+
+
+
+"name": "Obszar wojskowy"
+
+
+
+
+},
+
+
+
+
 "landuse/orchard": {
 
 
@@ -9012,6 +9814,38 @@
 
 
 "terms": "kamieniołom, żwirownia, kruszywo"
+
+
+
+
+},
+
+
+
+
+"landuse/residential": {
+
+
+
+
+
+"name": "Zabudowa mieszkaniowa"
+
+
+
+
+},
+
+
+
+
+"landuse/retail": {
+
+
+
+
+
+"name": "Obszar handlowy"
 
 
 
@@ -9147,7 +9981,13 @@
 
 
 
-"name": "Lodowisko"
+"name": "Lodowisko",
+
+
+
+
+
+"terms": "lodowisko, ślizgawka"
 
 
 
@@ -9223,7 +10063,13 @@
 
 
 
-"name": "Stół piknikowy"
+"name": "Stół piknikowy",
+
+
+
+
+
+"terms": "stół piknikowy"
 
 
 
@@ -9517,6 +10363,22 @@
 
 
 
+"leisure/track": {
+
+
+
+
+
+"name": "Bieżnia"
+
+
+
+
+},
+
+
+
+
 "line": {
 
 
@@ -9669,7 +10531,13 @@
 
 
 
-"name": "Molo"
+"name": "Molo",
+
+
+
+
+
+"terms": "pomost"
 
 
 
@@ -9768,6 +10636,22 @@
 
 
 "terms": "wieża ciśnień"
+
+
+
+
+},
+
+
+
+
+"man_made/water_well": {
+
+
+
+
+
+"name": "Studnia"
 
 
 
@@ -10819,6 +11703,22 @@
 
 
 
+"place/suburb": {
+
+
+
+
+
+"name": "Dzielnica"
+
+
+
+
+},
+
+
+
+
 "place/town": {
 
 
@@ -11107,13 +12007,13 @@
 
 
 
-"name": "Nieużywany tor",
+"name": "Rozebrany tor",
 
 
 
 
 
-"terms": "opuszczona kolej"
+"terms": "rozebrany tor"
 
 
 
@@ -11379,6 +12279,22 @@
 
 
 
+"roundabout": {
+
+
+
+
+
+"name": "Rondo"
+
+
+
+
+},
+
+
+
+
 "route/ferry": {
 
 
@@ -11487,6 +12403,38 @@
 
 
 
+"shop/baby_goods": {
+
+
+
+
+
+"name": "Sklep z artykułami dla dzieci i niemowląt"
+
+
+
+
+},
+
+
+
+
+"shop/bag": {
+
+
+
+
+
+"name": "Sklep z torebkami/walizkami"
+
+
+
+
+},
+
+
+
+
 "shop/bakery": {
 
 
@@ -11509,6 +12457,22 @@
 
 
 
+"shop/bathroom_furnishing": {
+
+
+
+
+
+"name": "Sklep z wyposażeniem łazienek"
+
+
+
+
+},
+
+
+
+
 "shop/beauty": {
 
 
@@ -11522,6 +12486,22 @@
 
 
 "terms": "kosmetyczka, wizaż"
+
+
+
+
+},
+
+
+
+
+"shop/bed": {
+
+
+
+
+
+"name": "Sklep z łóżkami/materacami"
 
 
 
@@ -11645,6 +12625,22 @@
 
 
 
+"shop/candles": {
+
+
+
+
+
+"name": "Sklep ze świecami"
+
+
+
+
+},
+
+
+
+
 "shop/car": {
 
 
@@ -11711,6 +12707,44 @@
 
 
 
+"shop/carpet": {
+
+
+
+
+
+"name": "Sklep z dywanami",
+
+
+
+
+
+"terms": "wykładzina"
+
+
+
+
+},
+
+
+
+
+"shop/cheese": {
+
+
+
+
+
+"name": "Sklep z serami"
+
+
+
+
+},
+
+
+
+
 "shop/chemist": {
 
 
@@ -11724,6 +12758,22 @@
 
 
 "terms": "apteka"
+
+
+
+
+},
+
+
+
+
+"shop/chocolate": {
+
+
+
+
+
+"name": "Sklep z czekoladą"
 
 
 
@@ -11777,6 +12827,28 @@
 
 
 
+"shop/confectionery": {
+
+
+
+
+
+"name": "Sklep ze słodyczami",
+
+
+
+
+
+"terms": "cukierki"
+
+
+
+
+},
+
+
+
+
 "shop/convenience": {
 
 
@@ -11812,6 +12884,54 @@
 
 
 "terms": "kopiowanie"
+
+
+
+
+},
+
+
+
+
+"shop/cosmetics": {
+
+
+
+
+
+"name": "Sklep z kosmetykami"
+
+
+
+
+},
+
+
+
+
+"shop/curtain": {
+
+
+
+
+
+"name": "Sklep z zasłonami"
+
+
+
+
+},
+
+
+
+
+"shop/dairy": {
+
+
+
+
+
+"name": "Sklep z nabiałem"
 
 
 
@@ -11913,7 +13033,29 @@
 
 
 
-"name": "Sklep erotyczny"
+"name": "Sklep erotyczny",
+
+
+
+
+
+"terms": "sex shop"
+
+
+
+
+},
+
+
+
+
+"shop/fabric": {
+
+
+
+
+
+"name": "Sklep z tkaninami"
 
 
 
@@ -11977,6 +13119,28 @@
 
 
 
+"shop/frame": {
+
+
+
+
+
+"name": "Sklep z ramami",
+
+
+
+
+
+"terms": "oprawa obrazów"
+
+
+
+
+},
+
+
+
+
 "shop/funeral_directors": {
 
 
@@ -11990,6 +13154,22 @@
 
 
 "terms": "pochówek,pogrzeb"
+
+
+
+
+},
+
+
+
+
+"shop/furnace": {
+
+
+
+
+
+"name": "Sklep z ogrzewaniem"
 
 
 
@@ -12119,6 +13299,44 @@
 
 
 
+"shop/hearing_aids": {
+
+
+
+
+
+"name": "Sklep z aparatami słuchowymi"
+
+
+
+
+},
+
+
+
+
+"shop/herbalist": {
+
+
+
+
+
+"name": "Zielarz",
+
+
+
+
+
+"terms": "Herbaciarnia, zielarz"
+
+
+
+
+},
+
+
+
+
 "shop/hifi": {
 
 
@@ -12135,13 +13353,57 @@
 
 
 
+"shop/houseware": {
+
+
+
+
+
+"name": "Sklep z małymi artykułami gospodarstwa domowego",
+
+
+
+
+
+"terms": "sztućce, garnki, artykuły kuchenne"
+
+
+
+
+},
+
+
+
+
+"shop/interior_decoration": {
+
+
+
+
+
+"name": "Sklep z dekoracją wnętrz"
+
+
+
+
+},
+
+
+
+
 "shop/jewelry": {
 
 
 
 
 
-"name": "Jubiler"
+"name": "Jubiler",
+
+
+
+
+
+"terms": "biżuteria"
 
 
 
@@ -12157,7 +13419,29 @@
 
 
 
-"name": "Kiosk z prasą"
+"name": "Kiosk z prasą",
+
+
+
+
+
+"terms": "Kiosk"
+
+
+
+
+},
+
+
+
+
+"shop/kitchen": {
+
+
+
+
+
+"name": "Sklep z wyposażeniem i meblami kuchennymi"
 
 
 
@@ -12180,6 +13464,22 @@
 
 
 "terms": "pralnia"
+
+
+
+
+},
+
+
+
+
+"shop/leather": {
+
+
+
+
+
+"name": "Sklep skórzany"
 
 
 
@@ -12237,6 +13537,38 @@
 
 
 
+"shop/massage": {
+
+
+
+
+
+"name": "Masaż"
+
+
+
+
+},
+
+
+
+
+"shop/medical_supply": {
+
+
+
+
+
+"name": "Sklep ze sprzętem medycznym"
+
+
+
+
+},
+
+
+
+
 "shop/mobile_phone": {
 
 
@@ -12244,6 +13576,28 @@
 
 
 "name": "Sklep z telefonami komórkowymi"
+
+
+
+
+},
+
+
+
+
+"shop/money_lender": {
+
+
+
+
+
+"name": "Pożyczki",
+
+
+
+
+
+"terms": "kredyt"
 
 
 
@@ -12297,6 +13651,22 @@
 
 
 
+"shop/musical_instrument": {
+
+
+
+
+
+"name": "Sklep z instrumentami muzycznymi"
+
+
+
+
+},
+
+
+
+
 "shop/newsagent": {
 
 
@@ -12326,6 +13696,60 @@
 
 
 "terms": "optyk"
+
+
+
+
+},
+
+
+
+
+"shop/organic": {
+
+
+
+
+
+"name": "Sklep z naturalną żywnością"
+
+
+
+
+},
+
+
+
+
+"shop/outdoor": {
+
+
+
+
+
+"name": "Sklep turystyczny",
+
+
+
+
+
+"terms": "outdoor"
+
+
+
+
+},
+
+
+
+
+"shop/paint": {
+
+
+
+
+
+"name": "Sklep z farbami"
 
 
 
@@ -12453,6 +13877,28 @@
 
 
 
+"shop/second_hand": {
+
+
+
+
+
+"name": "Sklep z rzeczami używanymi",
+
+
+
+
+
+"terms": "second hand, komis"
+
+
+
+
+},
+
+
+
+
 "shop/shoes": {
 
 
@@ -12545,6 +13991,22 @@
 
 
 
+"shop/tattoo": {
+
+
+
+
+
+"name": "Studio tatuażu"
+
+
+
+
+},
+
+
+
+
 "shop/tea": {
 
 
@@ -12552,6 +14014,44 @@
 
 
 "name": "Herbaciarnia"
+
+
+
+
+},
+
+
+
+
+"shop/ticket": {
+
+
+
+
+
+"name": "Sprzedaż biletów",
+
+
+
+
+
+"terms": "kasa biletowa"
+
+
+
+
+},
+
+
+
+
+"shop/tobacco": {
+
+
+
+
+
+"name": "Sklep z tytoniem"
 
 
 
@@ -12637,6 +14137,22 @@
 
 
 
+"shop/vacuum_cleaner": {
+
+
+
+
+
+"name": "Sklep z odkurzaczami"
+
+
+
+
+},
+
+
+
+
 "shop/variety_store": {
 
 
@@ -12692,6 +14208,22 @@
 
 
 "name": "Sklep z bronią"
+
+
+
+
+},
+
+
+
+
+"shop/window_blind": {
+
+
+
+
+
+"name": "Sklep z żaluzjami/roletami"
 
 
 
@@ -12805,7 +14337,13 @@
 
 
 
-"name": "Kemping"
+"name": "Kemping",
+
+
+
+
+
+"terms": "Camping"
 
 
 
@@ -13040,6 +14578,70 @@
 
 
 "terms": "Zoo, ogród zoologiczny"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/bump": {
+
+
+
+
+
+"name": "Próg zwalniający"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/hump": {
+
+
+
+
+
+"name": "Wysepka zwalniająca"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/rumble_strip": {
+
+
+
+
+
+"name": "Linia wibracyjna"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/table": {
+
+
+
+
+
+"name": "Wyniesione przejście dla pieszych"
 
 
 

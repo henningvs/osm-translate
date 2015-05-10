@@ -1430,6 +1430,22 @@
 
 
 
+"drive_through": {
+
+
+
+
+
+"label": "Obslúženie z auta"
+
+
+
+
+},
+
+
+
+
 "electrified": {
 
 
@@ -2322,7 +2338,7 @@
 
 
 
-"semi_deciduous": "Krátkoopadavé",
+"semi_deciduous": "Krátkoopadavý",
 
 
 
@@ -3781,6 +3797,62 @@
 
 
 "no": "Nie"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Typ koľaje",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Vlečka",
+
+
+
+
+
+
+"yard": "Zoraďovacia koľaj",
+
+
+
+
+
+
+"siding": "Výhybňa",
+
+
+
+
+
+
+"crossover": "Výhybka"
 
 
 

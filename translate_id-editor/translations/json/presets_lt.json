@@ -533,14 +533,14 @@
 
 
 
-"place": "Vieta",
+"place": "Vietovė",
 
 
 
 
 
 
-"hamlet": "Kaimelis",
+"hamlet": "Viensėdis",
 
 
 
@@ -1421,6 +1421,22 @@
 
 
 "label": "Aprašymas"
+
+
+
+
+},
+
+
+
+
+"drive_through": {
+
+
+
+
+
+"label": "Pravažiavimas"
 
 
 
@@ -2975,6 +2991,12 @@
 
 
 
+"label": "Par",
+
+
+
+
+
 "placeholder": "3, 4, 5..."
 
 
@@ -3027,6 +3049,13 @@
 
 
 
+"multi-storey": "Daugiaaukštis",
+
+
+
+
+
+
 "underground": "Požeminis",
 
 
@@ -3035,6 +3064,13 @@
 
 
 "sheds": "Pašiūrės",
+
+
+
+
+
+
+"carports": "Stoginės",
 
 
 
@@ -3146,6 +3182,13 @@
 
 
 
+"freeride": "Laisvas (ne maršrutu)",
+
+
+
+
+
+
 "extreme": "Ekstremalus (būtina kopimo įranga)"
 
 
@@ -3163,6 +3206,12 @@
 
 
 "piste/grooming": {
+
+
+
+
+
+"label": "Priežiūra",
 
 
 
@@ -3218,6 +3267,13 @@
 
 
 "sled": "Rogės",
+
+
+
+
+
+
+"hike": "Žygis",
 
 
 
@@ -3494,6 +3550,82 @@
 
 
 
+"sac_scale": {
+
+
+
+
+
+"label": "Žygio sudėtingumas",
+
+
+
+
+
+"placeholder": "Kalnų žygiai, Alpių žygiai...",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"hiking": "T1: Žygiai",
+
+
+
+
+
+
+"mountain_hiking": "T2: Kalnų žygiai",
+
+
+
+
+
+
+"demanding_mountain_hiking": "T3: Varginantys kalnų žygiai",
+
+
+
+
+
+
+"alpine_hiking": "T4: Alpių žygiai",
+
+
+
+
+
+
+"demanding_alpine_hiking": "T5: Varginantys alpių žygiai",
+
+
+
+
+
+
+"difficult_alpine_hiking": "T6: Sudėtingi alpių žygiai"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "seasonal": {
 
 
@@ -3517,6 +3649,49 @@
 
 
 "label": "Tipas"
+
+
+
+
+},
+
+
+
+
+"service/bicycle/chain_tool": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"undefined": "Numatytai, kad Ne",
+
+
+
+
+
+
+"yes": "Taip",
+
+
+
+
+
+
+"no": "Ne"
+
+
+
+
+
+}
 
 
 
@@ -3560,6 +3735,55 @@
 
 
 "no": "Ne"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Tarnybos tipas",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"spur": "Atšaka",
+
+
+
+
+
+
+"yard": "Kiemas",
+
+
+
+
+
+
+"siding": "Atsarginis kelias"
 
 
 
@@ -3721,7 +3945,26 @@
 
 
 
-"label": "Tikslumas"
+"label": "Tikslumas",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"impassable": "Nepravažiuojama / jokiam ratuotam transportui"
+
+
+
+
+
+}
 
 
 
@@ -3850,6 +4093,13 @@
 
 
 "tunnel": "Tunelis",
+
+
+
+
+
+
+"embankment": "Pylimas",
 
 
 
@@ -4261,7 +4511,7 @@
 
 
 
-"label": "Važimėlio prieiga"
+"label": "Prieiga vežimėliu"
 
 
 
@@ -4346,6 +4596,28 @@
 
 
 "terms": "pakilimo takas,lėktuvų privažiavimas"
+
+
+
+
+},
+
+
+
+
+"aerialway/cable_car": {
+
+
+
+
+
+"name": "Funikulierius",
+
+
+
+
+
+"terms": "funikulierius,keltuvas"
 
 
 
@@ -10731,7 +11003,7 @@
 
 
 
-"name": "Vieta",
+"name": "Vietovė",
 
 
 
@@ -10775,13 +11047,13 @@
 
 
 
-"name": "Kaimelis",
+"name": "Viensėdis",
 
 
 
 
 
-"terms": "viensėdis"
+"terms": "viensėdis,kaimelis"
 
 
 
