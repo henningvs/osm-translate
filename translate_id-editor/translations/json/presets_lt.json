@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Nežinoma",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Bendra",
-
-
-
-
-
-
-"foot": "Pėstieji",
-
-
-
-
-
-
-"motor_vehicle": "Motorinis transportas",
-
-
-
-
-
-
-"bicycle": "Dviračiai",
-
-
-
-
-
-
-"horse": "Arkliai"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Leidžiamas",
-
-
-
-
-
-
-
-"description": "Priėjimas leidžiamas įstatymų; pirmumo teisė"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Draudžiamas",
-
-
-
-
-
-
-
-"description": "Priėjimas draudžiamas plačiajai visuomenei"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Leistinas",
-
-
-
-
-
-
-
-"description": "Priėjimas leistinas, kai savininkas konkrečiu laiku panaikina draudimą"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privatus",
-
-
-
-
-
-
-
-"description": "Priėjimas leistinas tik su savininko leidimu"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Skirtas",
+"description": "Priėjimas galimas remiantis ženklais ir savitais vietos įstatymais",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Priėjimas galimas remiantis ženklais ir savitais vietos įstatymais"
+"title": "Skirtas"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Tikslinis",
+"description": "Priėjimas leistinas tik atvykti į tikslą",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Priėjimas leistinas tik atvykti į tikslą"
+"title": "Tikslinis"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Priėjimas draudžiamas plačiajai visuomenei",
+
+
+
+
+
+
+
+"title": "Draudžiamas"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Priėjimas leistinas, kai savininkas konkrečiu laiku panaikina draudimą",
+
+
+
+
+
+
+
+"title": "Leistinas"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Priėjimas leistinas tik su savininko leidimu",
+
+
+
+
+
+
+
+"title": "Privatus"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Priėjimas leidžiamas įstatymų; pirmumo teisė",
+
+
+
+
+
+
+
+"title": "Leidžiamas"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Nežinoma",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Bendra",
+
+
+
+
+
+
+"bicycle": "Dviračiai",
+
+
+
+
+
+
+"foot": "Pėstieji",
+
+
+
+
+
+
+"horse": "Arkliai",
+
+
+
+
+
+
+"motor_vehicle": "Motorinis transportas"
 
 
 
@@ -498,6 +498,34 @@
 
 
 
+"city": "Miestas",
+
+
+
+
+
+
+"country": "Valstybė",
+
+
+
+
+
+
+"district": "Rajonas",
+
+
+
+
+
+
+"hamlet": "Viensėdis",
+
+
+
+
+
+
 "housename": "Namo pavadinimas",
 
 
@@ -512,27 +540,6 @@
 
 
 
-"street": "Gatvė",
-
-
-
-
-
-
-"city": "Miestas",
-
-
-
-
-
-
-"postcode": "Pašto kodas",
-
-
-
-
-
-
 "place": "Vietovė",
 
 
@@ -540,28 +547,7 @@
 
 
 
-"hamlet": "Viensėdis",
-
-
-
-
-
-
-"suburb": "Priemiestis",
-
-
-
-
-
-
-"subdistrict": "Seniūnija",
-
-
-
-
-
-
-"district": "Rajonas",
+"postcode": "Pašto kodas",
 
 
 
@@ -582,7 +568,21 @@
 
 
 
-"country": "Valstybė"
+"street": "Gatvė",
+
+
+
+
+
+
+"subdistrict": "Seniūnija",
+
+
+
+
+
+
+"suburb": "Priemiestis"
 
 
 
@@ -649,6 +649,13 @@
 
 
 
+"both": "Abu",
+
+
+
+
+
+
 "entry": "Įėjimas",
 
 
@@ -656,14 +663,7 @@
 
 
 
-"exit": "Išėjimas",
-
-
-
-
-
-
-"both": "Abu"
+"exit": "Išėjimas"
 
 
 
@@ -796,6 +796,13 @@
 
 
 
+"both": "Abu",
+
+
+
+
+
+
 "entry": "Įėjimas",
 
 
@@ -803,14 +810,7 @@
 
 
 
-"exit": "Išėjimas",
-
-
-
-
-
-
-"both": "Abu"
+"exit": "Išėjimas"
 
 
 
@@ -1075,63 +1075,7 @@
 
 
 
-"N": "Šiaurė",
-
-
-
-
-
-
 "E": "Rytai",
-
-
-
-
-
-
-"S": "Pietūs",
-
-
-
-
-
-
-"W": "Vakarai",
-
-
-
-
-
-
-"NE": "Šiaurės rytai",
-
-
-
-
-
-
-"SE": "Pietryčiai",
-
-
-
-
-
-
-"SW": "Pietvakariai",
-
-
-
-
-
-
-"NW": "Šiaurės vakarai",
-
-
-
-
-
-
-"NNE": "Šiaurės-šiaurės rytų",
 
 
 
@@ -1152,6 +1096,55 @@
 
 
 
+"N": "Šiaurė",
+
+
+
+
+
+
+"NE": "Šiaurės rytai",
+
+
+
+
+
+
+"NNE": "Šiaurės-šiaurės rytų",
+
+
+
+
+
+
+"NNW": "Šiaurės-šiaurės vakarų",
+
+
+
+
+
+
+"NW": "Šiaurės vakarai",
+
+
+
+
+
+
+"S": "Pietūs",
+
+
+
+
+
+
+"SE": "Pietryčiai",
+
+
+
+
+
+
 "SSE": "Pietų-pietryčių",
 
 
@@ -1166,7 +1159,14 @@
 
 
 
-"WSW": "Vakarų-pietvakarių",
+"SW": "Pietvakariai",
+
+
+
+
+
+
+"W": "Vakarai",
 
 
 
@@ -1180,7 +1180,7 @@
 
 
 
-"NNW": "Šiaurės-šiaurės vakarų"
+"WSW": "Vakarų-pietvakarių"
 
 
 
@@ -1215,14 +1215,14 @@
 
 
 
-"clockwise": "Pagal laikrodžio rodyklę",
+"anticlockwise": "Prieš laikrodžio rodyklę",
 
 
 
 
 
 
-"anticlockwise": "Prieš laikrodžio rodyklę"
+"clockwise": "Pagal laikrodžio rodyklę"
 
 
 
@@ -1458,12 +1458,6 @@
 
 
 
-"placeholder": "Kontaktinė linija, elektrifikuoti bėgiai...",
-
-
-
-
-
 "options": {
 
 
@@ -1478,6 +1472,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "rail": "Elektrifikuoti bėgiai",
 
 
@@ -1485,20 +1486,19 @@
 
 
 
-"yes": "Taip (nepatikslinta)",
+"yes": "Taip (nepatikslinta)"
 
 
 
 
 
-
-"no": "Ne"
-
+},
 
 
 
 
-}
+
+"placeholder": "Kontaktinė linija, elektrifikuoti bėgiai..."
 
 
 
@@ -1636,6 +1636,13 @@
 
 
 
+"pond": "Kūdra",
+
+
+
+
+
+
 "underground": "Požeminis",
 
 
@@ -1643,14 +1650,7 @@
 
 
 
-"wall": "Siena",
-
-
-
-
-
-
-"pond": "Kūdra"
+"wall": "Siena"
 
 
 
@@ -1870,20 +1870,7 @@
 
 
 
-"placeholder": "Nežinoma",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Vyras",
 
 
 
@@ -1897,13 +1884,26 @@
 
 
 
+"male": "Vyras",
+
+
+
+
+
+
 "unisex": "Abiejų lyčių"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nežinoma"
 
 
 
@@ -2126,14 +2126,14 @@
 
 
 
-"up": "Aukštyn",
+"down": "Žemyn",
 
 
 
 
 
 
-"down": "Žemyn"
+"up": "Aukštyn"
 
 
 
@@ -2184,13 +2184,6 @@
 
 
 
-"yes": "Taip",
-
-
-
-
-
-
 "no": "Ne",
 
 
@@ -2198,7 +2191,7 @@
 
 
 
-"wlan": "Belaidis internetas",
+"terminal": "Terminalas",
 
 
 
@@ -2212,7 +2205,14 @@
 
 
 
-"terminal": "Terminalas"
+"wlan": "Belaidis internetas",
+
+
+
+
+
+
+"yes": "Taip"
 
 
 
@@ -2317,13 +2317,6 @@
 
 
 
-"evergreen": "Amžinai žaliuojantis",
-
-
-
-
-
-
 "deciduous": "Nukrintantis",
 
 
@@ -2331,7 +2324,14 @@
 
 
 
-"semi_evergreen": "Pusiau-amžinai žaliuojantis",
+"evergreen": "Amžinai žaliuojantis",
+
+
+
+
+
+
+"mixed": "Mišrus",
 
 
 
@@ -2345,7 +2345,7 @@
 
 
 
-"mixed": "Mišrus"
+"semi_evergreen": "Pusiau-amžinai žaliuojantis"
 
 
 
@@ -2387,7 +2387,7 @@
 
 
 
-"needleleaved": "Spygliuočiai",
+"leafless": "Belapiai",
 
 
 
@@ -2401,7 +2401,7 @@
 
 
 
-"leafless": "Belapiai"
+"needleleaved": "Spygliuočiai"
 
 
 
@@ -2553,12 +2553,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2614,7 +2608,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2631,12 +2631,6 @@
 
 
 "label": "IMBA maršruto sudėtingumas",
-
-
-
-
-
-"placeholder": "Lengvas, vidutinis, sunkus...",
 
 
 
@@ -2683,7 +2677,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Lengvas, vidutinis, sunkus..."
 
 
 
@@ -2700,12 +2700,6 @@
 
 
 "label": "Kalnų dviračių sudėtingumas",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3...",
 
 
 
@@ -2759,7 +2753,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2874,6 +2874,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Numatytai, kad Ne",
 
 
@@ -2881,14 +2888,7 @@
 
 
 
-"yes": "Taip",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Taip"
 
 
 
@@ -2923,6 +2923,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Numatytai, kad Taip",
 
 
@@ -2930,14 +2937,7 @@
 
 
 
-"yes": "Taip",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Taip"
 
 
 
@@ -3042,34 +3042,6 @@
 
 
 
-"surface": "Danga",
-
-
-
-
-
-
-"multi-storey": "Daugiaaukštis",
-
-
-
-
-
-
-"underground": "Požeminis",
-
-
-
-
-
-
-"sheds": "Pašiūrės",
-
-
-
-
-
-
 "carports": "Stoginės",
 
 
@@ -3084,7 +3056,35 @@
 
 
 
-"lane": "Kelkraštis"
+"lane": "Kelkraštis",
+
+
+
+
+
+
+"multi-storey": "Daugiaaukštis",
+
+
+
+
+
+
+"sheds": "Pašiūrės",
+
+
+
+
+
+
+"surface": "Danga",
+
+
+
+
+
+
+"underground": "Požeminis"
 
 
 
@@ -3134,34 +3134,7 @@
 
 
 
-"placeholder": "Lengvas, vidutinis, sudėtingas...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Naujokams (instrukcijos)",
-
-
-
-
-
-
-"easy": "Lengvas (žalias žiedas)",
-
-
-
-
-
-
-"intermediate": "Vidutinis (mėlynas kvadratas)",
 
 
 
@@ -3175,7 +3148,21 @@
 
 
 
+"easy": "Lengvas (žalias žiedas)",
+
+
+
+
+
+
 "expert": "Eksperto (dvigubas juodas deimantas)",
+
+
+
+
+
+
+"extreme": "Ekstremalus (būtina kopimo įranga)",
 
 
 
@@ -3189,13 +3176,26 @@
 
 
 
-"extreme": "Ekstremalus (būtina kopimo įranga)"
+"intermediate": "Vidutinis (mėlynas kvadratas)",
 
 
 
 
 
-}
+
+"novice": "Naujokams (instrukcijos)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Lengvas, vidutinis, sudėtingas..."
 
 
 
@@ -3266,13 +3266,6 @@
 
 
 
-"sled": "Rogės",
-
-
-
-
-
-
 "hike": "Žygis",
 
 
@@ -3287,14 +3280,21 @@
 
 
 
-"snow_park": "Sniego parkas",
+"playground": "Vaikų žaidimų aikštelė",
 
 
 
 
 
 
-"playground": "Vaikų žaidimų aikštelė"
+"sled": "Rogės",
+
+
+
+
+
+
+"snow_park": "Sniego parkas"
 
 
 
@@ -3562,34 +3562,7 @@
 
 
 
-"placeholder": "Kalnų žygiai, Alpių žygiai...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Žygiai",
-
-
-
-
-
-
-"mountain_hiking": "T2: Kalnų žygiai",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Varginantys kalnų žygiai",
 
 
 
@@ -3610,13 +3583,40 @@
 
 
 
-"difficult_alpine_hiking": "T6: Sudėtingi alpių žygiai"
+"demanding_mountain_hiking": "T3: Varginantys kalnų žygiai",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Sudėtingi alpių žygiai",
+
+
+
+
+
+
+"hiking": "T1: Žygiai",
+
+
+
+
+
+
+"mountain_hiking": "T2: Kalnų žygiai"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Kalnų žygiai, Alpių žygiai..."
 
 
 
@@ -3671,6 +3671,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Numatytai, kad Ne",
 
 
@@ -3678,14 +3685,7 @@
 
 
 
-"yes": "Taip",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Taip"
 
 
 
@@ -3720,6 +3720,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Manoma, kad Ne",
 
 
@@ -3727,14 +3734,7 @@
 
 
 
-"yes": "Taip",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Taip"
 
 
 
@@ -3769,6 +3769,13 @@
 
 
 
+"siding": "Atsarginis kelias",
+
+
+
+
+
+
 "spur": "Atšaka",
 
 
@@ -3776,14 +3783,7 @@
 
 
 
-"yard": "Kiemas",
-
-
-
-
-
-
-"siding": "Atsarginis kelias"
+"yard": "Kiemas"
 
 
 
@@ -3875,12 +3875,6 @@
 
 
 
-"placeholder": "Ne, Atskirta, Taip...",
-
-
-
-
-
 "options": {
 
 
@@ -3888,14 +3882,7 @@
 
 
 
-"no": "Draudžiama rūkyti",
-
-
-
-
-
-
-"separated": "Rūkymo vietose, neizoliuota fiziškai",
+"dedicated": "Skirta rūkantiems (pvz.: rūkančiųjų klubas)",
 
 
 
@@ -3909,6 +3896,13 @@
 
 
 
+"no": "Draudžiama rūkyti",
+
+
+
+
+
+
 "outside": "Leidžiama lauke",
 
 
@@ -3916,20 +3910,26 @@
 
 
 
-"yes": "Leidžiama visur",
+"separated": "Rūkymo vietose, neizoliuota fiziškai",
 
 
 
 
 
 
-"dedicated": "Skirta rūkantiems (pvz.: rūkančiųjų klubas)"
+"yes": "Leidžiama visur"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Ne, Atskirta, Taip..."
 
 
 
@@ -4072,12 +4072,6 @@
 
 
 
-"placeholder": "Nežinoma",
-
-
-
-
-
 "options": {
 
 
@@ -4092,13 +4086,6 @@
 
 
 
-"tunnel": "Tunelis",
-
-
-
-
-
-
 "embankment": "Pylimas",
 
 
@@ -4106,13 +4093,26 @@
 
 
 
-"ford": "Brasta"
+"ford": "Brasta",
 
 
 
 
 
-}
+
+"tunnel": "Tunelis"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Nežinoma"
 
 
 
@@ -4214,20 +4214,7 @@
 
 
 
-"placeholder": "Taip, ne, tik išsinešimui...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": "Taip",
 
 
 
@@ -4241,13 +4228,26 @@
 
 
 
-"only": "Tik išsinešimui"
+"only": "Tik išsinešimui",
 
 
 
 
 
-}
+
+"yes": "Taip"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Taip, ne, tik išsinešimui..."
 
 
 
@@ -4323,13 +4323,14 @@
 
 
 
-"placeholder": "Puikus, Geras, Prastas...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Blogai: nėra žymų, kelio kartais nėra ar jis nesimato",
 
 
 
@@ -4350,21 +4351,14 @@
 
 
 
-"intermediate": "Vidutiniškai: šiek tiek žymų, kelias daugiausia matomas",
-
-
-
-
-
-
-"bad": "Blogai: nėra žymų, kelio kartais nėra ar jis nesimato",
-
-
-
-
-
-
 "horrible": "Tragiškai: dažnų atkarpų nėra, reikia orientavimosi sugebėjimų",
+
+
+
+
+
+
+"intermediate": "Vidutiniškai: šiek tiek žymų, kelias daugiausia matomas",
 
 
 
@@ -4377,7 +4371,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Puikus, Geras, Prastas..."
 
 
 
@@ -5473,7 +5473,7 @@
 
 
 
-"name": "Kapinės",
+"name": "Kapinės prie bažnyčios",
 
 
 
@@ -8043,44 +8043,6 @@
 
 
 
-"footway/crossing": {
-
-
-
-
-
-"name": "Sankryža",
-
-
-
-
-
-"terms": "sankryža,perėja"
-
-
-
-
-},
-
-
-
-
-"footway/crosswalk": {
-
-
-
-
-
-"name": "Pėsčiųjų perėja"
-
-
-
-
-},
-
-
-
-
 "footway/sidewalk": {
 
 
@@ -8213,50 +8175,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "Sankryža",
-
-
-
-
-
-"terms": "perėja,pervaža"
-
-
-
-
-},
-
-
-
-
-"highway/crosswalk": {
-
-
-
-
-
-"name": "Pėsčiųjų perėja",
-
-
-
-
-
-"terms": "perėja"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -8380,28 +8298,6 @@
 
 
 "terms": "takas"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "Pėsčiųjų",
-
-
-
-
-
-"terms": "pėsčiųjų"
 
 
 
@@ -11542,22 +11438,6 @@
 
 
 "terms": "geležinkelio stotelė"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Vieno lygio susikirtimas"
 
 
 

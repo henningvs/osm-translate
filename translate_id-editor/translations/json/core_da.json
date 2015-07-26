@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Tilføj en besked",
+"message_label": "Ændringssætskommentar",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Redigeringer af {users} og {count} andre"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} valgte",
+
+
+
+"geometry": "Geometri",
+
+
+
+"closed": "lukket",
+
+
+
+"center": "Center",
+
+
+
+"perimeter": "Perimeter",
+
+
+
+"length": "Længde",
+
+
+
+"area": "Område",
+
+
+
+"centroid": "Centroid",
+
+
+
+"location": "Lokalitet",
+
+
+
+"metric": "Meter",
+
+
+
+"imperial": "Imperial"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "punkt",
+
+
+
+"vertex": "hjørne",
+
+
+
+"line": "linje",
+
+
+
+"area": "område",
+
+
+
+"relation": "relation"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "nulstil"
+"reset": "nulstil",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minikort",
+
+
+
+
+"tooltip": "Vis et udzommet kort for at hjælpe med at lokalisere det viste område."
+
+
+
+}
 
 
 },
@@ -2084,7 +2178,7 @@
 
 
 
-"editing_saving": "# Redigere og gemme\n\nDette redigeringsværktøj er lavet primært til at arbejde online, og du\narbejder gennem et website lige nu.\n\n### Vælge objekter\n\nFor at vælge et kortobjekt, såsom en vej eller et interessepunkt, skal \ndu klikke på det på kortet. Dette vil fremhæve det valgte objekt, åbne \net panel med yderligere detajler om det og samtidig vise en menu med \nforskellige ting, du kan gøre med dette objekt.\n\nFlere objekter på en gang kan vælges ved at holde Skift-tasten nede. \nDerefter kan du enten klikke på hver enkelt af de objekter, du ønsker at \nvælge, eller trække en firkant med musen og dermed vælge alle objekter \ninden for firkanten. Dette tillader dig at arbejde med flere objekter samtidig.\n\n### Gemme redigeringer\n\nNår du laver ændringer, fx tilføjer veje, bygninger og steder, bliver disse\ngemt lokalt på din computer indtil du har gemt dem på OpenStreetMaps server.\nDu skal ikke bekymre dig om, hvis du laver en fejl - du kan fortryde ændringer \nved at klikke på Fortryd-knappen.\n\nKlik på Gem for at afslutte en gruppe af ændringer - fx hvis du har lavet et \nkomplet område af en by og nu ønsker at gå i gang med et nyt område. \nDu har mulighed for at gennemse hvad du har lavet og redigeringsværktøjet \ngiver nogle hjælpsomme forslag og advarsler, hvis der er noget som ikke ser \nhelt korrekt ud.\n\nHvis alting ser fint ud, kan du skrive en lille kort kommentar om de ændringer \ndu lige har lavet og derefter klikke Gem igen for at sende ændringerne til \n[OpenStreetMap.org](http://www.openstreetmap.org/). Dine ændringer vil nu være synlige og tilgængelige for alle, der så kan bygge videre og forbedre på dem.\n\nHvis du ikke kan afslutte dine ændringer i én omgang, kan du forlade \nredigeringsværktøjet og komme igen senere (til den samme browser og computer),\nhvorefter redigeringsværktøjet vil tilbyde at gendanne dit arbejde.\n",
+"editing_saving": "# Redigering og Gem\n\nDette redigeringsværktøj er primært beregnet til online brug ligesom\ndu bruger dette lige nu gennem en webside.\n\n### Objekt udvælgelse\n\nFor at vælge et kortobjekt fx en vej eller et interessepunkt, klik\npå dette på kortet. Dette vil tydeligt markere objektet, vil åbne et panel\nmed flere oplysninger om dette og en menu angiver hvad du kan gøre med dette objekt.\n\nFor at vælge flere objekter på en gang, hold 'Skift\" knappen nede. Dernæst klik\npå objekterne du vil udvælge eller indtegn en firkant på kortet.\nDette vil indtegne en kasse og alle objekterne er blevet udvalgt i denne.\n\n### Gem redigeringer\n\nNår du laver ændringer fx redigering af veje, bygninger og steder, så er\ndisse gemt lokalt indtil du gemmer dem på serveren. Du skal ikke bekymre\nhvis du laver en fejl - Du kan fortryde ved at klikke på fortrydknappen og\nomdanne ændringer tilbage med gendanknappen. \n\nKlik på 'Gem' for at afslutte en serie af redigeringer - fx hvis du har afsluttet\net område af en by og vil starte på et nyt område. Du vil få en chance\nfor at gennemse hvad du har lavet og redigeringsværktøjet vil give forslag \nog advarsler hvis noget ikke ser korrekt ud i ændringerne.\n\nHvis alting ser fint ud, så kan du tilføje en lille kommentar der forklarer\nændringerne du har lavet og dernæst klikker du 'Gem' igen for at afsende ændringerne\ntil [OpenStreetMap.org](http://www.openstreetmap.org/), hvor de vil blive synlige\ntil alle andre brugere og tilgængeligt for andre at bygge videre på.\n\nHvis du ikke kan nå at afslutte dine redigeringer, så kan du forlade redigeringsværktøjet\nog komme tilbage (på samme browser og computer) og redigeringsværktøjet\nvil tilbyde at gendanne dit arbejde.\n\n### Brug af redigeringsværktøjet\n\nEn liste af tilgængelige genvejstaster kan findes [her](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
 
 
 

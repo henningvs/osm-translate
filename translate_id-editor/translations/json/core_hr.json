@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Predaj poruku",
+"message_label": "Komentar promjene",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Uređivali {users} i {count} drugih"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} selektiranih",
+
+
+
+"geometry": "Geometrija",
+
+
+
+"closed": "zatvoreno",
+
+
+
+"center": "Centar",
+
+
+
+"perimeter": "Opseg",
+
+
+
+"length": "Duljina",
+
+
+
+"area": "Područje",
+
+
+
+"centroid": "Centroid",
+
+
+
+"location": "Lokacija",
+
+
+
+"metric": "Metrički",
+
+
+
+"imperial": "Imperijalni"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "točka",
+
+
+
+"vertex": "čvor",
+
+
+
+"line": "linija",
+
+
+
+"area": "područje",
+
+
+
+"relation": "relacija"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "resetiraj"
+"reset": "resetiraj",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Mini-karta",
+
+
+
+
+"tooltip": "Prikaži odzumiranu kartu za lakše lociranje trenutno prikazanog područja."
+
+
+
+}
 
 
 },
@@ -2084,7 +2178,7 @@
 
 
 
-"editing_saving": "# Uređivanje i spremanje promjena\n\nOvaj uređivač je primarno dizajniran za uređivanje na mreži i trenutačno ga\nkoristiš kroz internet preglednik kao web stranicu.\n\n### Odabir značajki\n\nZa odabir značajke karte, npr. ceste ili točke od interesa, klikni na nju na karti.\nPojaviti će se obrub oko značajke, otvoriti će se bočno okno koje prikazuje više\ndetalja o značajki i prikazati će se alatni izbornik sa mogućnostima koje možeš\nnapraviti na značajki.\n\nZa odabir nekoliko značajki istovremeno, drži tipku \"Shift\". Zatim ili klikni na\nznačajke koje želiš odabrati ili klikni i povuci za crtanje četverokuta. Time ćeš\nodabrati sve točke unutar četverokuta.\n\n### Spremanje uređivanja\n\nKada napraviš promjene na karti, npr. urediš ulice, zgrade i mjesta, one su\nspremljene lokalno sve dok ih ne spremiš na server. Nemoraš se briniti ukoliko\nnapraviš pogrešku - možeš poništiti promjene klikom na tipku \"Opovrgni\" i\nponoviti promjene klikom na tipku \"Ponovi\".\n\nKlikni na tipku \"Spremi\" da završiš grupu promjena - na primjer ako si završio/la\npodručje grada i želiš početi uređivati novo područje. Nakon što stisneš \"Spremi\"\nmoći ćeš pregledati sve promjene koje si napravio/la i uređivač će ti dati korisne\nprijedloge i upozorenja ako je nešto neuobičajeno među promjenama.\n\nAko je sve u redu, možeš ostaviti kratak komentar u kojem ćeš opisati napravljenu\npromjenu na karti. Ponovno klikni \"Spremi\" za postavljanje promjena na\n[OpenStreetMap.org](http://www.openstreetmap.org/), gdje će biti vidljive svim\ndrugim korisnicima i dostupne drugima za dopunu i nadogradnju.\n\nAko ne možeš završiti sve planirane promjene odjednom, možeš ugasiti prozor\nuređivača i kasnije se vratiti (na isti internet preglednik i isto računalo) i uređivač\nće ti ponuditi da nastaviš gdje si stao/la. \n",
+"editing_saving": "# Uređivanje i pohranjivanje\n\nOvaj uređivač je primarno dizajniran za korištenje na mreži, i pristupaš mu\nkroz web stranicu.\n\n### Selektiranje značajki\n\nZa selektiranje značajke na karti, npr. ceste ili točke interesa, klikni\nna nju na karti. To će istaknuti značajku, otvoriti okno\ns detaljima o njoj, i prikazati izbornik s mogućnostima koje možeš napraviti na značajki.\n\nZa selektiranje više značajki, pritisni i drži 'Shift' tipku. Tada ili klikni na\nznačajke koje želiš selektirati ili povuci po karti za crtanje pravokutnika.\nTime će se nacrtati pravokutnik i selektirati sve točke unutar njega.\n\n### Pohranjivanje promjena\n\nKada napraviš promjenu poput uređenja ceste, zgrada i mjesta, one su\npohranjene lokalno dok ih ne spremiš na server. Ne moraš se brinuti ako pogriješiš\n- možeš poništiti promjene klikom na tipku \"Opovrgni\" i vratiti\npromjene klikom na tipku \"Ponovi\".\n\nKlikni 'Spremi' za završavanje skupa uređivanja - npr. ako završiš jedno područje grada\ni želiš početi novo područje. Imaš mogućnost, pogledati popis promjena koju si napravio/la,\ni uređivač će ti dati korisne prijedloge i upozorenja\nako je promjena nešto nije u redu.\n\nAko je sve u redu, možeš unijeti kratak komentar za objašnjenje napravljenih promjena\nkoje si napravio/la i ponovno kliknuti 'Spremi' za postavljanje promjena\nna [OpenStreetMap.org](http://www.openstreetmap.org/), gdje će biti vidljive\nza sve ostale korisnike i dostupne drugima za dogradnju i unaprijeđenje podataka.\n\nAko nisi zavšio/la sve promjene u jednom uređivanju, možeš ostaviti prozor\nuređivača i doći kasnije (na isto računalo i isti internet preglednik) i\naplikacija za uređivanje će ti ponuditi vraćanje tvojih započetih promjena.\n\n### Korištenje uređivača\n\nPopis dostupnih kratica na tipkovnici mogu se pronaći[ovdje](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
 
 
 

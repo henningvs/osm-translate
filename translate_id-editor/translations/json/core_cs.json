@@ -355,7 +355,7 @@
 
 
 
-"connected_to_hidden": "Z objektu nelze udělat kruh, protože je napojen na skytý objekt."
+"connected_to_hidden": "Z objektu nelze udělat kruh, protože je napojen na skrytý objekt."
 
 
 
@@ -470,7 +470,7 @@
 
 
 
-"connected_to_hidden": "Čáru nelze narovnat, protože je napojená na skytý objekt."
+"connected_to_hidden": "Čáru nelze narovnat, protože je napojená na skrytý objekt."
 
 
 
@@ -864,7 +864,7 @@
 
 
 
-"annotation": "Ceta byla převrácena."
+"annotation": "Čára byla převrácena."
 
 
 
@@ -1058,7 +1058,7 @@
 "tooltip_keyhint": "Zkratka:",
 
 
-"browser_notice": "Tento editor funguje ve Firefoxu, Chrome, Safari, Opeře a Internet Exploreru od verze 9. Musíte tedy upgradovat na novější verzi prohlížeče; nebo použijte editor Potlatch 2.",
+"browser_notice": "Tento editor funguje ve Firefoxu, Chrome, Safari, Opeře a Internet Exploreru od verze 9. Musíte tedy aktualizovat na novější verzi prohlížeče nebo použijte editor Potlatch 2.",
 
 
 "translate": {
@@ -1099,7 +1099,7 @@
 
 
 
-"hidden_warning": "{count} skrytých objetků",
+"hidden_warning": "{count} skrytých objektů",
 
 
 
@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Zpráva k publikaci",
+"message_label": "Komentář ke změnám",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Přispěli {users} a {count} další."
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "zvoleno {n}",
+
+
+
+"geometry": "Geometrie",
+
+
+
+"closed": "uzavřená",
+
+
+
+"center": "Střed",
+
+
+
+"perimeter": "Obvod",
+
+
+
+"length": "Délka",
+
+
+
+"area": "Plocha",
+
+
+
+"centroid": "Těžiště",
+
+
+
+"location": "Poloha",
+
+
+
+"metric": "Metrické jednotky",
+
+
+
+"imperial": "Imperiální jednotky"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "uzel",
+
+
+
+"vertex": "uzel",
+
+
+
+"line": "čára",
+
+
+
+"area": "plocha",
+
+
+
+"relation": "relace"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "vrátit na začátek"
+"reset": "vrátit na začátek",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Mapka",
+
+
+
+
+"tooltip": "Zobrazit přehledovou mapku zobrazující aktuální výřez v širším okolí"
+
+
+
+}
 
 
 },
@@ -1417,7 +1511,7 @@
 
 
 
-"autohidden": "Tyto objekty jsou nyní skryté, protože jinak by na mapě byl strašný bordel. Když mapu zvětšíte, můžete je zobrazit a editovat."
+"autohidden": "Tyto objekty jsou nyní skryté, protože jinak by jich na mapě bylo zobrazeno příliš mnoho. Když mapu zvětšíte, můžete je zobrazit a editovat."
 
 
 },
@@ -1993,7 +2087,7 @@
 
 
 
-"tag_suggests_area": "Vlastnost {tag} obvykle označuje plochu - ale zvolený objekt není plocha",
+"tag_suggests_area": "Vlastnost {tag} obvykle označuje plochu, ale zvolený objekt není plocha",
 
 
 
@@ -2080,11 +2174,7 @@
 
 
 
-"help": "# Pomoc\n\nToto je editor [OpenStreetMap](http://www.openstreetmap.org/), svobodné a otevřené mapy světa, vytvářené jako open-source a open-data. S pomocí editoru můžete přidávat a upravovat data v mapě třeba ve svém okolí, a zlepšovat tak celou mapu pro každého.\n\nVaše úpravy mapy budou viditelné pro každého uživatele OpenStreetMap. Před editací se ovšem musíte [přihlásit](https://www.openstreetmap.org/login).\n\n[iD editor](http://ideditor.com/) je projekt vytvářený spoluprácí mnoha lidí, se [zdrojovým kódem na GitHubu](https://github.com/openstreetmap/iD).\n",
-
-
-
-"editing_saving": "# Editace a publikace\n\nTento editor pracuje primárně online - právě teď k němu přistupujete prostřednictvím webové stránky.\n\n### Výběr objektů\n\nChcete-li vybrat objekt, jako třeba silnici nebo obchod, klikněte na něj v mapě. Objekt se tím označí, otevře se boční panel s vlastnostmi objektu a zobrazí se nabídka akcemi, které lze s objektem provést.\n\nMůžete označit a pracovat s několika objekty najednou: podržte klávesu 'Shift', a pak buď postupně označte dotyčné objekty, anebo klikněte na mapu a táhněte myší či prstem - editor označí všechny objekty uvnitř příslušného obdélníku.\n\n### Publikace změn\n\nKdyž provedete nějaké úpravy objektů v mapě, úpravy jsou uloženy lokálně ve vašem prohlížeči. Nelekejte se, když uděláte chybu - úpravy lze vrátit zpět tlačítkem Zpět, a naopak je znovu provést tlačítkem Znovu.\n\nPo dokončení bloku úprav klikněte na 'Uložit' - například když jste upravili jednu část města, a chcete začít úpravy někde jinde. Zobrazí se přehled úprav, které jste provedli, editor tyto úpravy zkontroluje, a když se mu něco nebude zdát, zobrazí varování a návrhy.\n\nKdyž bude všechno v pořádku, můžete přidat krátký komentář s vysvětlením vašich úprav a kliknout znovu 'Uložit'. Úpravy se tímto publikují na [OpenStreetMap.org](http://www.openstreetmap.org/), kde za chvíli budou viditelné pro všechny uživatele a bude na nich možné provádět další úpravy.\n\nPokud nechcete nebo nemůžete pravy dokončit teď, stačí prostě odejít ze stránky pryč. Až příště navštívíte stránku (na stejném počítači, ve stejném prohlížeči), editor vám nabídne možnost znovu načíst neuložené úpravy.\n",
+"help": "# Pomoc\n\nToto je editor [OpenStreetMap](http://www.openstreetmap.org/), svobodné a otevřené mapy světa, vytvářené jako open-source a open-data. S pomocí editoru můžete přidávat a upravovat data v mapě třeba ve svém okolí, a zlepšovat tak celou mapu pro každého.\n\nVaše úpravy mapy budou viditelné pro každého uživatele OpenStreetMap. Před editací se ovšem musíte [přihlásit](https://www.openstreetmap.org/login).\n\n[iD editor](http://ideditor.com/) je projekt vytvářený spoluprací mnoha lidí, se [zdrojovým kódem na GitHubu](https://github.com/openstreetmap/iD).\n",
 
 
 
@@ -2108,7 +2198,7 @@
 
 
 
-"buildings": "# Budovy\n\nOpenStreetMap je největší databází budov na světě. Můžete tuto databázi rozšiřovat a vylepšovat.\n\n### Výběr\n\nBudovu označíte kliknutím na její hranici. Budova se v editoru rozsvítí, otevře se malá nabídka nástrojů a boční panel s informacemi o budově.\n\n### Úpravy\n\nBudovy někdy mohou mít špatnou polohu, tvar nebo nesprávné vlastnosti.\n\nPokud chcete posunout celou budovu, označte ji a kliněte na ikonu posunu - pak můžete pohnout budovou myší. Posun ukončíte kliknutím.\n\nKdyž má budova špatný tvar, klikněte na uzel na hranici budovy a posuňte ho na správné místo.\n\n### Vytváření\n\nMohou být budovy v mapě zaznamenané jako plochy, nebo jako samostatné uzly? Pravidlo je takové, že _pokud je to možné, budovy by se měly mapovat jako plochy_, a firmy, podniky, zařízení a další subjekty působící v budově by se měly mapovat jako uzly uvnitř budovy. V České republice se jako uzly uvnitř budovy obvykle mapují i adresy.\n\nChcete-li nakreslit novou budovu, klikněte na tlačítko 'Plocha' vlevo nahoře a klikáním nakreslete obrys budovy. Kreslení ukončíte buď kliknutím na první nakreslený uzel nebo stisknutím klávesy 'Enter' nebo 'Return'.\n\n### Smazání\n\nBudovy lze také mazat - ale dělejte to pouze v případě, že jste si opravdu jistí, že budova ve skutečnosti neexistuje. Satelitní snímky nejsou dostatečným důkazem, protože mohou být zastaralé nebo zavádějící. Buďte opatrní - když budovu smažete, budova zmizí z mapy pro všechny její uživatele.\n\nBudovu smažete tak, že ji označíte kliknutím a potom buď kliknete na ikonu odpadkového koše, nebo stisknete klávesu 'Delete'.\n",
+"buildings": "# Budovy\n\nOpenStreetMap je největší databází budov na světě. Můžete tuto databázi rozšiřovat a vylepšovat.\n\n### Výběr\n\nBudovu označíte kliknutím na její hranici. Budova se v editoru rozsvítí, otevře se malá nabídka nástrojů a boční panel s informacemi o budově.\n\n### Úpravy\n\nBudovy někdy mohou mít špatnou polohu, tvar nebo nesprávné vlastnosti.\n\nPokud chcete posunout celou budovu, označte ji a klikněte na ikonu posunu - pak můžete pohnout budovou myší. Posun ukončíte kliknutím.\n\nKdyž má budova špatný tvar, klikněte na uzel na hranici budovy a posuňte ho na správné místo.\n\n### Vytváření\n\nMohou být budovy v mapě zaznamenané jako plochy, nebo jako samostatné uzly? Pravidlo je takové, že _pokud je to možné, budovy by se měly mapovat jako plochy_, a firmy, podniky, zařízení a další subjekty působící v budově by se měly mapovat jako uzly uvnitř budovy. V České republice se jako uzly uvnitř budovy obvykle mapují i adresy.\n\nChcete-li nakreslit novou budovu, klikněte na tlačítko 'Plocha' vlevo nahoře a klikáním nakreslete obrys budovy. Kreslení ukončíte buď kliknutím na první nakreslený uzel nebo stisknutím klávesy 'Enter' nebo 'Return'.\n\n### Smazání\n\nBudovy lze také mazat - ale dělejte to pouze v případě, že jste si opravdu jistí, že budova ve skutečnosti neexistuje. Satelitní snímky nejsou dostatečným důkazem, protože mohou být zastaralé nebo zavádějící. Buďte opatrní - když budovu smažete, budova zmizí z mapy pro všechny její uživatele.\n\nBudovu smažete tak, že ji označíte kliknutím a potom buď kliknete na ikonu odpadkového koše, nebo stisknete klávesu 'Delete'.\n",
 
 
 
@@ -2253,7 +2343,7 @@
 
 
 
-"describe": "**Pridejte název a zavřete editor vlastností.**"
+"describe": "**Přidejte název a zavřete editor vlastností.**"
 
 
 

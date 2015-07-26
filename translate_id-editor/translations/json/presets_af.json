@@ -144,48 +144,31 @@
 
 
 
-"placeholder": "Onbekend",
-
-
-
-
-
-"types": {
+"options": {
 
 
 
 
 
 
-"access": "Algemene",
+"designated": {
 
 
 
 
 
 
-"foot": "Voet",
+
+"description": "Voorgeskrewe toegang",
 
 
 
 
 
 
-"motor_vehicle": "Motorvoertuie",
 
+"title": "Toegewys"
 
-
-
-
-
-"bicycle": "Fietse",
-
-
-
-
-
-
-"horse": "Perde"
 
 
 
@@ -197,14 +180,8 @@
 
 
 
-"options": {
 
-
-
-
-
-
-"yes": {
+"destination": {
 
 
 
@@ -212,7 +189,15 @@
 
 
 
-"title": "Toegelaat"
+"description": "Beperkte toegang",
+
+
+
+
+
+
+
+"title": "Eindbestemming"
 
 
 
@@ -234,7 +219,7 @@
 
 
 
-"title": "Toegang Verbode",
+"description": "Geen toegang vir algemene publiek",
 
 
 
@@ -242,7 +227,7 @@
 
 
 
-"description": "Geen toegang vir algemene publiek"
+"title": "Toegang Verbode"
 
 
 
@@ -286,7 +271,7 @@
 
 
 
-"title": "Privaat",
+"description": "Toegang slegs soos gereël met eienaar",
 
 
 
@@ -294,37 +279,7 @@
 
 
 
-"description": "Toegang slegs soos gereël met eienaar"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"designated": {
-
-
-
-
-
-
-
-"title": "Toegewys",
-
-
-
-
-
-
-
-"description": "Voorgeskrewe toegang"
+"title": "Privaat"
 
 
 
@@ -338,7 +293,7 @@
 
 
 
-"destination": {
+"yes": {
 
 
 
@@ -346,15 +301,7 @@
 
 
 
-"title": "Eindbestemming",
-
-
-
-
-
-
-
-"description": "Beperkte toegang"
+"title": "Toegelaat"
 
 
 
@@ -362,6 +309,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Onbekend",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Algemene",
+
+
+
+
+
+
+"bicycle": "Fietse",
+
+
+
+
+
+
+"foot": "Voet",
+
+
+
+
+
+
+"horse": "Perde",
+
+
+
+
+
+
+"motor_vehicle": "Motorvoertuie"
 
 
 
@@ -418,6 +418,13 @@
 
 
 
+"city": "Tipe",
+
+
+
+
+
+
 "housename": "Huisnaam",
 
 
@@ -425,14 +432,7 @@
 
 
 
-"street": "Straat",
-
-
-
-
-
-
-"city": "Tipe",
+"place": "Plek",
 
 
 
@@ -446,7 +446,7 @@
 
 
 
-"place": "Plek"
+"street": "Straat"
 
 
 
@@ -724,13 +724,6 @@
 
 
 
-"N": "Noord",
-
-
-
-
-
-
 "E": "Oos",
 
 
@@ -738,14 +731,7 @@
 
 
 
-"S": "Suid",
-
-
-
-
-
-
-"W": "Wes",
+"N": "Noord",
 
 
 
@@ -753,6 +739,20 @@
 
 
 "NE": "Noordoos",
+
+
+
+
+
+
+"NW": "Noordwes",
+
+
+
+
+
+
+"S": "Suid",
 
 
 
@@ -773,7 +773,7 @@
 
 
 
-"NW": "Noordwes"
+"W": "Wes"
 
 
 
@@ -808,14 +808,14 @@
 
 
 
-"clockwise": "Kloksgewys",
+"anticlockwise": "Antikloksgewys",
 
 
 
 
 
 
-"anticlockwise": "Antikloksgewys"
+"clockwise": "Kloksgewys"
 
 
 
@@ -1176,7 +1176,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Terminaal",
 
 
 
@@ -1190,7 +1190,7 @@
 
 
 
-"terminal": "Terminaal"
+"wlan": "Wifi"
 
 
 
@@ -1792,12 +1792,6 @@
 
 
 
-"placeholder": "Onbekend",
-
-
-
-
-
 "options": {
 
 
@@ -1812,7 +1806,7 @@
 
 
 
-"tunnel": "Tonnel",
+"cutting": "Uitgrawing",
 
 
 
@@ -1826,13 +1820,19 @@
 
 
 
-"cutting": "Uitgrawing"
+"tunnel": "Tonnel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Onbekend"
 
 
 
@@ -3238,22 +3238,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "Oorgang"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -3341,22 +3325,6 @@
 
 
 "name": "Paadjie"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "Voetganger"
 
 
 
@@ -5309,22 +5277,6 @@
 
 
 "name": "Ongebruikte spoorweg"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Spooroorgang"
 
 
 

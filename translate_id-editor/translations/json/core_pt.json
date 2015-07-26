@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Sumário de edição",
+"message_label": "Comentário de Sumário",
 
 
 
@@ -1159,7 +1159,7 @@
 
 
 
-"changes": "{Count} Alterações",
+"changes": "{count} Alterações",
 
 
 
@@ -1189,7 +1189,83 @@
 
 
 
-"truncated_list": "Edições de {users} e outros {count}"
+"truncated_list": "Edições feitas por {users} e outros {count} utilizadores"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} selecionados",
+
+
+
+"geometry": "Geometria",
+
+
+
+"closed": "fechado",
+
+
+
+"center": "Centro",
+
+
+
+"perimeter": "Perímetro ",
+
+
+
+"length": "Comprimento",
+
+
+
+"area": "Área",
+
+
+
+"centroid": "Centroide ",
+
+
+
+"location": "Localização",
+
+
+
+"metric": "Metrico",
+
+
+
+"imperial": "Imperial"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "ponto",
+
+
+
+"vertex": "vértice",
+
+
+
+"line": "lina",
+
+
+
+"area": "área",
+
+
+
+"relation": "relaçã"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "reiniciar"
+"reset": "reiniciar",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Mini-mapa",
+
+
+
+
+"tooltip": "Mostra um pequeno mapa com uma área mais abrangente que ajuda a localizar a tela exibida."
+
+
+
+}
 
 
 },
@@ -2081,10 +2175,6 @@
 
 
 "help": "#Ajuda\n\nEste é um editor para o [OpenStreetMap](http://www.openstreetmap.org/), o mapa livre e editável do mundo.\nPode usar-lo para adicionar e actualizar dados da tua área, tornando-o num mapa de código e dados abertos mundial melhor para todos.\n\nEdições que faças neste mapa serão visíveis para qualquer pessoa que\ndecida usar o OpenStreetMap. De maneira a fazer uma edição, basta\n[iniciar sessão](https://www.openstreetmap.org/login).\n\nO [editor iD](http://ideditor.com/) é um projeto colaborativo com o seu [código disponível no GitHub](https://github.com/openstreetmap/iD).\n",
-
-
-
-"editing_saving": "# Editar e Gravar\n\nEste editor foi concebido para editar ligado à internet, e está a utilizá-lo\natravés de um site neste momento.\n\n### Selecionar elementos do mapa\n\nPara selecionar um elemento do mapa, como uma estrada ou uma loja,\nclique nesse elemento no mapa. Aparecerá de seguida um painel lateral\ncom informações sobre o elemento onde poderá eliminar, alterar ou\nacrescentar informações.\n\nPara selecionar vários elementos manter premida a tecla 'Shift' (maiúsculas),\nclicar e arrastar com o rato no mapa. Isto irá selecionar todos os elementos\ndentro do retângulo selecionado, permitindo fazer alterações em todos\nos elementos selecionados de uma só vez.\n\n### Gravar Edições\n\nQuando faz alterações como editar estradas, edifícios e locais, as alterações\nsão gravadas no seu computador até que clique no botão Gravar para enviar\nas alterações para o OpenStreetMap. Não se preocupe caso cometa algum\nerro - pode desfazer as alterações clicando no botão de Desfazer, assim\ncomo refazer as alterações desfeitas clicando no botão Refazer que se\nencontram no topo do ecrã.\n\nClique em 'Gravar' para terminar um conjunto de alterações - por exemplo,\nse terminou as alterações num local e quer fazer alterações noutro local.\nTerá oportunidade de rever as alterações que fez e o editor fornece\nsugestões úteis e avisos caso alguma alteração que não pareça correta.\n\nSe tudo estiver bem, pode introduzir uma breve descrição explicando\nas alterações que fez e clicar de seguida em 'Gravar' de novo para enviar\nas alterações para o [OpenStreetMap.org](http://www.openstreetmap.org/)\nonde estarão visíveis para todos e onde outros podem melhorar e completar.\n\nCaso não possa terminar as edições de uma só vez, pode deixar o editor,\nou inclusive fechar o navegador de internet e mais tarde regressar ao site\ndo OpenStreetMap, editando-o novamente . Será mostrado então um aviso\n(caso seja o mesmo computador e mesmo navegador de internet) que tem\nalterações por gravar e se quer recuperar essas alterações, para continuar.\n",
 
 
 

@@ -1083,7 +1083,7 @@
 },
 
 
-"zoom_in_edit": "Zomma in för att redigera",
+"zoom_in_edit": "Zooma in för att redigera",
 
 
 "logout": "logga ut",
@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Skicka meddelande",
+"message_label": "Ändringskommentar",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Ändrad av {users} och {count} andra"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} vald(a)",
+
+
+
+"geometry": "Geometri",
+
+
+
+"closed": "sluten",
+
+
+
+"center": "Centrum",
+
+
+
+"perimeter": "Omkrets",
+
+
+
+"length": "Längd",
+
+
+
+"area": "Area",
+
+
+
+"centroid": "Centrumpunkt",
+
+
+
+"location": "Positionering",
+
+
+
+"metric": "Metriskt",
+
+
+
+"imperial": "Brittiskt"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "Punkt",
+
+
+
+"vertex": "Hörn",
+
+
+
+"line": "Linje",
+
+
+
+"area": "area",
+
+
+
+"relation": "relation"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "ta bort"
+"reset": "ta bort",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minikarta",
+
+
+
+
+"tooltip": "Visar en utzoomad karta för att hjälpa dig att hitta i området som visas för tillfället."
+
+
+
+}
 
 
 },
@@ -1895,7 +1989,7 @@
 
 
 
-"help_html": "Dina ändringar bör synas på \"Standard\"-lagret innom några minuter. Andra lager, och vissa egenskaper kan ta längre tid. \n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>detaljer</a>).\n"
+"help_html": "Dina ändringar bör synas på \"Standard\"-lagret inom några minuter. Andra lager, och vissa egenskaper kan ta längre tid. \n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>detaljer</a>).\n"
 
 
 },
@@ -2080,11 +2174,11 @@
 
 
 
-"help": "# Hjälp\n\nDetta är en redigerare för [OpenStreetMap](http://www.openstreetmap.org/), \nen gratis och redigerbar karta över världen. Du kan använda den för att lägga till och ändra \ndata i ditt område, allt för att göra en världsomspännande karta baserad på \nöppen källkod och öppen data bättre för alla.\n\nRedigeringar du gör på kartan kommer att visas för alla som använder \nOpenStreetMap. För att göra en redigering måste du\n[log in](https://www.openstreetmap.org/login).\n\n[iD editor](http://ideditor.com/) är ett gemensammt projekt med [källkod \ntillgänglig på GitHub](https://github.com/openstreetmap/iD).\n",
+"help": "# Hjälp\n\nDetta är en redigerare för [OpenStreetMap](http://www.openstreetmap.org/), \nen gratis och redigerbar karta över världen. Du kan använda den för att lägga till och ändra \ndata i ditt område, allt för att göra en världsomspännande karta baserad på \nöppen källkod och öppen data bättre för alla.\n\nRedigeringar du gör på kartan kommer att visas för alla som använder \nOpenStreetMap. För att göra en redigering måste du\n[log in](https://www.openstreetmap.org/login).\n\n[iD editor](http://ideditor.com/) är ett gemensamt projekt med [källkod \ntillgänglig på GitHub](https://github.com/openstreetmap/iD).\n",
 
 
 
-"editing_saving": "# Redigera & spara\n\nDenna redigerare är designad att främst fungera online, och du använder den via en webbsida just nu.\n\n### Välj objekt\n\nFör att välja ett kartobjekt, t.ex. en väg eller en punkt, klicka på den på kartan. Detta kommer att markera det valda objektet, öppna en panel med detaljer om det, och visa en meny med saker du kan göra med det.\n\nFör att välja flera objekt, håll ner Skift-tangenten. Klicka sedan på objekten du vill välja eller dra på kartan för att rita en rektangel. Detta kommer att rita en ruta och markera punkterna inuti den.\n\n### Spara redigeringar\n\nNär du gör ändringar som att ändra på en väg, byggnad eller plats är detta sparat lokalt fram tills att du spara det på servern. Oroa dig inte om du gör ett misstag, du kan alltid ångra en ändring genom att klicka på Ånga-knappen och göra om din förändring genom att klicka på Gör om-knappen.\n\nKlicka på Spara för att slutföra en grupp att förändringar, t.ex. om du fullfört ett område i en stad och vill börja ändra i ett annat område. Du får möjlighet att granska vad du gjort och redigeraren ger dig hjälpsamma förslag och varningar om någon ändring inte verka korrekt.\n\nOm allt ser bra ut kan du ange en kort kommentar som förklarar vad du gjort och sedan klicka på Spara igen för att skicka iväg ändringarna till [OpenStreetMap.org](http://www.openstreetmap.org/) där de blir synliga för alla andra användare och tillgängliga för andra att bygga sina förbättringar på.\n\nOm du inte kan slutföra din ändring på en gång kan du lämna redigeringsfönstret öppet och komma tillbaka (i samma webbläsare på samma dator) och redigeringsprogrammet kommer att ge dig möjlighet att återställa ditt arbete.\n",
+"editing_saving": "# Redigera & spara\n\nDenna redigerare är designad att främst fungera online, och du använder den via en webbsida just nu.\n\n### Välj objekt\n\nFör att välja ett kartobjekt, t.ex. en väg eller en punkt, klicka på den på kartan. Detta kommer att markera det valda objektet, öppna en panel med detaljer om det, och visa en meny med saker du kan göra med det.\n\nFör att välja flera objekt, håll ner Skift-tangenten. Klicka sedan på objekten du vill välja eller dra på kartan för att rita en rektangel. Detta kommer att rita en ruta och markera punkterna inuti den.\n\n### Spara redigeringar\n\nNär du gör ändringar som att ändra på en väg, byggnad eller plats är detta sparat lokalt fram tills att du spara det på servern. Oroa dig inte om du gör ett misstag, du kan alltid ångra en ändring genom att klicka på Ånga-knappen och göra om din förändring genom att klicka på Gör om-knappen. \n\nKlicka på Spara för att slutföra en grupp att förändringar, t.ex. om du fullfört ett område i en stad och vill börja ändra i ett annat område. Du får möjlighet att granska vad du gjort och redigeraren ger dig hjälpsamma förslag och varningar om någon ändring inte verka korrekt. \n\nOm allt ser bra ut kan du ange en kort kommentar som förklarar vad du gjort och sedan klicka på Spara igen för att skicka ändringarna till [OpenStreetMap.org](http://www.openstreetmap.org/) där de blir synliga för alla andra användare och tillgängliga för andra att jobba vidare med. \n\nOm du inte kan slutföra din ändring på en gång kan du lämna redigeringsfönstret öppet och komma tillbaka (i samma webbläsare på samma dator) och redigeringsprogrammet kommer att ge dig möjlighet att återuppta ditt arbete. \n\n### Använda redigeraren\n\nEn lista med tillgängliga kortkommandon hittas [här](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
 
 
 
@@ -2108,7 +2202,7 @@
 
 
 
-"buildings": "# Byggnader\n\nOpenStreetMap är världens största databas över byggnader. Du kan skapa\noch förbättra denna databas.\n\n### Markering\n\nDu kan markera en byggnad genom att klicka på dess kant. Detta kommer att markera \nbyggnaden och öppna en litet verktygsmeny och ett sidofält som visar mer information\nom byggnaden.\n\n### Modifiering\n\nIbland är byggnader felaktigt placerade eller har felaktiga taggar.\n\nFör att flytta en hel byggnad, markera den och klicka sedan på \"Flytta\"-verktyget. flytta\nmus för att flytta byggnaden, och klicka när den är korrekt placerad.\n\nFör att fixa den specifika formen av en byggnad, klicka och dra noderna som bildar\nramen till bättre platser.\n\n### Skapa\n\nEn av de viktigaste frågorna att tänka på vid tilläggning av byggnader till kartan är att\nOpenStreetMap registrerar byggnader både som form och punkt. Tumregeln\när att _kartlägga en byggnad som en form när möjligt_ och kartlägg företag, bostäder,\nfacilitet, och andra saker finns i byggandena som punkter placerade\ninuti byggnadernas ram.\n\nBörja rita en byggnad som en ram genom att klicka på knappen \"område\" högst upp till vänster\ngränssnittet, och avsluta det antingen genom att trycka på \"Retur\" på tangentbordet\neller genom att klicka på den första ritade noden för att stänga formen.\n\n### Radering\n\nOm en byggnad är helt fel – du kan se att den inte finns med i någon satellitbild\noch helst har bekräftat lokalt att det inte finns – kan du ta bort\nden, vilket tar bort det från kartan. Var försiktig när du tar bort objekt –\nlikt alla ändringar kommer resultatet ses av alla och satellitbilder\när ofta föråldrad, så byggnaden kan helt enkelt vara nybyggd.\n\nDu kan ta bort en byggnad genom att klicka på den för att markera den och sedan klicka på\nikonen papperskorg eller trycka på \"Delete\"-tangenten.\n",
+"buildings": "# Byggnader\n\nOpenStreetMap är världens största databas över byggnader. Du kan skapa\noch förbättra denna databas.\n\n### Markering\n\nDu kan markera en byggnad genom att klicka på dess kant. Detta kommer att markera \nbyggnaden och öppna en litet verktygsmeny och ett sidofält som visar mer information\nom byggnaden.\n\n### Modifiering\n\nIbland är byggnader felaktigt placerade eller har felaktiga taggar.\n\nFör att flytta en hel byggnad, markera den och klicka sedan på \"Flytta\"-verktyget. flytta\nmus för att flytta byggnaden, och klicka när den är korrekt placerad.\n\nFör att fixa den specifika formen av en byggnad, klicka och dra noderna som bildar\nramen till bättre platser.\n\n### Skapa\n\nEn av de viktigaste frågorna att tänka på vid tilläggning av byggnader till kartan är att\nOpenStreetMap registrerar byggnader både som form och punkt. Tumregeln\när att _kartlägga en byggnad som en form när möjligt_ och kartlägg företag, bostäder,\nfaciliteter, och andra saker finns i byggnaderna som punkter placerade\ninuti byggnadernas ram.\n\nBörja rita en byggnad som en ram genom att klicka på knappen \"område\" högst upp till vänster\ngränssnittet, och avsluta det antingen genom att trycka på \"Retur\" på tangentbordet\neller genom att klicka på den första ritade noden för att stänga formen.\n\n### Radering\n\nOm en byggnad är helt fel – du kan se att den inte finns med i någon satellitbild\noch helst har bekräftat lokalt att det inte finns – kan du ta bort\nden, vilket tar bort det från kartan. Var försiktig när du tar bort objekt –\nlikt alla ändringar kommer resultatet ses av alla och satellitbilder\när ofta föråldrad, så byggnaden kan helt enkelt vara nybyggd.\n\nDu kan ta bort en byggnad genom att klicka på den för att markera den och sedan klicka på\nikonen papperskorg eller trycka på \"Delete\"-tangenten.\n",
 
 
 

@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Módosítási üzenet",
+"message_label": "Módosításcsomag megjegyzés",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Szerkesztette {users} és {count} másik szerkesztő"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} kiválasztott",
+
+
+
+"geometry": "Geometria",
+
+
+
+"closed": "zárt",
+
+
+
+"center": "Középpont",
+
+
+
+"perimeter": "Kerület",
+
+
+
+"length": "Hossz",
+
+
+
+"area": "Terület",
+
+
+
+"centroid": "Súlypont ",
+
+
+
+"location": "Pozíció",
+
+
+
+"metric": "Metrikus",
+
+
+
+"imperial": "Angol birodalmi mértékegység"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "pont",
+
+
+
+"vertex": "csúcspont",
+
+
+
+"line": "vonal",
+
+
+
+"area": "terület",
+
+
+
+"relation": "kapcsolat"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "visszavonás"
+"reset": "visszavonás",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minitérkép",
+
+
+
+
+"tooltip": "Áttekintő térkép mutatása a megjelenített terület meghatározásához."
+
+
+
+}
 
 
 },
@@ -1847,6 +1941,16 @@
 
 
 
+"nodelist": "Az adott pontok egyszerre kerültek módosításra általad és {user} - által.",
+
+
+
+
+"memberlist": "A kapcsolat elemei egyszerre kerültek módosításra általad és {user} által.",
+
+
+
+
 "tags": "Te megváltoztattad a(z) <b>{tag}</b> címkét erre: \"{local}\", {user} pedig erre: \"{remote}\"."
 
 
@@ -2070,7 +2174,11 @@
 
 
 
-"editing_saving": "# Szerkesztés és Mentés\n\nA szerkesztőt elsődlegesen online munkára tervezték és te jelenleg\negy weblapon éred el.\n\n### Elemek kiválasztása\n\nEgy térképelem, mint út vagy érdekes hely kiválasztásához kattints rá a térképen.\nEttől a kiválasztott elem kiemelődik és megnyílik egy panel az adataival,\nés egy menüvel, ami mutatja, miket tudsz az elemmel csinálni.\n\nTöbb elemet a 'Shift' gomb nyomva tartása közbeni kattintással, vagy\nhúzással tudsz kiválasztani. A húzással kijelölöd a bekeretezett részen lévő\nösszes elemet, lehetővé téve, hogy egyszerre több mindent változtass.\n\n### Szerkesztések mentése\n\nAmikor utakat, épületeket, helyeket szerkesztesz, ezek a változások\nhelyileg lesznek tárolva, amíg nem mented őket a szerverre. Ne aggódj, ha \nelrontasz valamit - vissza tudod vonni a változtatásaidat a visszavonás gombra\nkattintva, a mégis gombra kattintva pedig a korábban visszavont változtatásaidat\nállíthatod vissza.\n\nKattints a 'Mentés' gombra, ha végeztél egy terület szerkesztésével - például,\nha befejezted egy város részletének szerkesztését és egy másik területet szeretnél\nszerkeszteni. Lehetőséged lesz visszanézni, hogy mit csináltál. A szerkesztő hasznos\ntanácsokat biztosít és figyelmeztet ha valami nem tűnik megfelelőnek  a változtatásaiddal.\n\nHa minden rendben van, beírhatsz egy rövid ismertetést a szerkesztéseiddel kapcsolatban\nés újból a 'Mentés' gombra kattintva közzéteheted a változtatásaidat és az információkat\nvelük kapcsolatban az [OpenStreetMap.org](http://www.openstreetmap.org/) webhelyen,\nahol az összes felhasználónak láthatóak és elérhetőek lesznek, hogy azokra építhessenek,\nfejleszthessék azokat.\n\nHa nem tudod befejezni a szerkesztéseidet egyszerre, elhagyhatod a szerkesztő ablakot, mert\namikor visszatérsz (ugyanazzal a böngészővel és számítógéppel), a szerkesztő fel fogja ajánlani,\nhogy visszaállítsa-e a korábbi munkádat.\n",
+"help": "# Súgó\n\nEz egy szerkesztő az [OpenStreetMap](http://www.openstreetmap.org/)-hoz, a szabadon szerkeszthető és felhasználható világtérképhez. A környezetedről tölthetsz fel, vagy frissíthetsz adatokat, ezáltal mindenki számára jobbá téve egy ingyenes térképet.\n\nAmit ezen a térképen alkotsz, mindenki számára látható lesz, aki használja az OpenStreetMap-ot. A szerkesztéshez [be kell jelentkezned]\n(https://www.openstreetmap.org/login)\n\nAz [iD szerkesztő](http://ideditor.com/) egy együttműködésen alapuló projekt, a [GitHub-on elérhető forráskóddal](https://github.com/openstreetmap/iD), aminek a fordításába és fejlesztésébe te is besegíthetsz.\n",
+
+
+
+"editing_saving": "# Szerkesztés és Mentés \n\nA szerkesztőt elsődlegesen online munkára tervezték és te jelenleg egy weblapon éred el. \n\n### Elemek kiválasztása \n\nEgy térképelem, mint út vagy érdekes hely kiválasztásához kattints rá a térképen. Ettől a kiválasztott elem kiemelődik és megnyílik egy panel az adataival, és egy menüvel, ami mutatja, miket tudsz az elemmel csinálni. Több elemet a 'Shift' gomb nyomva tartása közbeni kattintással, vagy húzással tudsz kiválasztani. A húzással kijelölöd a bekeretezett részen lévő összes elemet, lehetővé téve, hogy egyszerre több mindent változtass. \n\n### Szerkesztések mentése \n\nAmikor utakat, épületeket, helyeket szerkesztesz, ezek a változások helyileg lesznek tárolva, amíg nem mented őket a szerverre. Ne aggódj, ha elrontasz valamit - vissza tudod vonni a változtatásaidat a visszavonás gombra kattintva, a mégis gombra kattintva pedig a korábban visszavont változtatásaidat állíthatod vissza. \n\nKattints a 'Mentés' gombra, ha végeztél egy terület szerkesztésével - például, ha befejezted egy város részletének szerkesztését és egy másik területet szeretnél szerkeszteni. Lehetőséged lesz visszanézni, hogy mit csináltál. A szerkesztő hasznos tanácsokat biztosít és figyelmeztet ha valami nem tűnik megfelelőnek a változtatásaiddal. \n\nHa minden rendben van, beírhatsz egy rövid ismertetést a szerkesztéseiddel kapcsolatban és újból a 'Mentés' gombra kattintva közzéteheted a változtatásaidat és az információkat velük kapcsolatban az [OpenStreetMap.org](http://www.openstreetmap.org/) webhelyen, ahol az összes felhasználónak láthatóak és elérhetőek lesznek, hogy azokra építhessenek, fejleszthessék azokat. \n\nHa nem tudod befejezni a szerkesztéseidet egyszerre, elhagyhatod a szerkesztő ablakot, mert amikor visszatérsz (ugyanazzal a böngészővel és számítógéppel), a szerkesztő fel fogja ajánlani, hogy visszaállítsa-e a korábbi munkádat.\n\n### Szerkesztő használata\n\nA szerkesztést megkönnyítő gyorsbillentyűket [itt](http://wiki.openstreetmap.org/wiki/Hu:iD/Shortcuts) találhatod meg.\n",
 
 
 

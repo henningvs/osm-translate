@@ -350,7 +350,12 @@
 
 
 
-"too_large": "Tidak bisa dibuat bentuk lingkaran karena belum cukup terlihat."
+"too_large": "Tidak bisa dibuat bentuk lingkaran karena belum cukup terlihat.",
+
+
+
+
+"connected_to_hidden": "Tidak bisa dibuat melingkar karena terhubung dengan fitur tersembunyi."
 
 
 
@@ -422,7 +427,12 @@
 
 
 
-"too_large": "Tidak bisa dibuat bentuk kotak karena belum cukup terlihat."
+"too_large": "Tidak bisa dibuat bentuk kotak karena belum cukup terlihat.",
+
+
+
+
+"connected_to_hidden": "Tidak bisa dibuat persegi karena terhubung dengan fitur tersembunyi."
 
 
 
@@ -455,7 +465,12 @@
 
 
 
-"too_bendy": "Garis ini tidak dapat diluruskan karena terlalu banyak lekukan."
+"too_bendy": "Garis ini tidak dapat diluruskan karena terlalu banyak lekukan.",
+
+
+
+
+"connected_to_hidden": "Garis ini tidak dapat diluruskan karena terhubung dengan fitur tersembunyi."
 
 
 
@@ -524,7 +539,17 @@
 
 
 
-"incomplete_relation": "Fitur ini tidak bisa dihapus karena belum sepenuhnya terunduh."
+"incomplete_relation": "Fitur ini tidak bisa dihapus karena belum sepenuhnya terunduh.",
+
+
+
+
+"part_of_relation": "Fitur ini tidak dapat dihapus karena merupakan bagian dari relasi lebih besar. Anda harus melepasnya dahulu dari relasi tersebut.",
+
+
+
+
+"connected_to_hidden": "Tidak bisa dihapus karena terhubung dengan fitur tersembunyi."
 
 
 
@@ -625,7 +650,12 @@
 
 
 
-"not_connected": "Kurang garis/area di sini untuk diputuskan."
+"not_connected": "Kurang garis/area di sini untuk diputuskan.",
+
+
+
+
+"connected_to_hidden": "Tidak bisa diputus karena terhubung dengan fitur tersembunyi."
 
 
 
@@ -746,7 +776,12 @@
 
 
 
-"too_large": "Objek ini tidak dapat dipindahkan karena baru separuhnya yang tampak di layar."
+"too_large": "Objek ini tidak dapat dipindahkan karena baru separuhnya yang tampak di layar.",
+
+
+
+
+"connected_to_hidden": "Tidak bisa dipindah karena terhubung dengan fitur tersembunyi."
 
 
 
@@ -796,7 +831,12 @@
 
 
 
-"too_large": "Objek ini tidak dapat diputar karena baru separuhnya yang tampak di layar."
+"too_large": "Objek ini tidak dapat diputar karena baru separuhnya yang tampak di layar.",
+
+
+
+
+"connected_to_hidden": "Tidak bisa diputar karena terhubung dengan fitur tersembunyi."
 
 
 
@@ -908,7 +948,12 @@
 
 
 
-"multiple_ways": "Terlalu banyak garis untuk dipisahkan"
+"multiple_ways": "Terlalu banyak garis untuk dipisahkan",
+
+
+
+
+"connected_to_hidden": "Tidak bisa dipotong karena terhubung dengan fitur tersembunyi."
 
 
 
@@ -1013,7 +1058,7 @@
 "tooltip_keyhint": "Pintasan:",
 
 
-"browser_notice": "Penyunting ini bisa digunakan di Firefox, Chrome, Safari, Opera, dan Internet Explorer 9 dan versi yang lebih tinggi. Silahkan perbarui peramban Anda atau gunakan Potlatc 2 untuk menyuting peta.",
+"browser_notice": "Penyunting ini bisa digunakan di Firefox, Chrome, Safari, Opera, dan Internet Explorer 9 dan versi yang lebih tinggi. Silakan perbarui peramban Anda atau gunakan Potlatch 2 untuk menyunting peta.",
 
 
 "translate": {
@@ -1050,6 +1095,20 @@
 "report_a_bug": "laporkan sebuah kerusakan",
 
 
+"feature_info": {
+
+
+
+"hidden_warning": "{count} fitur tersembunyi",
+
+
+
+"hidden_details": "Fitur-fitur berikut saat ini tersembunyi: {details}"
+
+
+},
+
+
 "status": {
 
 
@@ -1080,7 +1139,7 @@
 
 
 
-"message_label": "Sampaikan pesan",
+"message_label": "Komentar set perubahan",
 
 
 
@@ -1097,6 +1156,10 @@
 
 
 "cancel": "Batal",
+
+
+
+"changes": "{count} Perubahan",
 
 
 
@@ -1127,6 +1190,74 @@
 
 
 "truncated_list": "Disunting oleh {users} dan {count} lainnya"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} terpilih",
+
+
+
+"geometry": "Geometri",
+
+
+
+"center": "Pusat",
+
+
+
+"perimeter": "Perimeter",
+
+
+
+"length": "Panjang",
+
+
+
+"area": "Area",
+
+
+
+"centroid": "Titik berat",
+
+
+
+"location": "Letak",
+
+
+
+"metric": "Metrik",
+
+
+
+"imperial": "Imperial"
+
+
+},
+
+
+"geometry": {
+
+
+
+"vertex": "titik",
+
+
+
+"line": "garis",
+
+
+
+"area": "bidang",
+
+
+
+"relation": "relasi"
 
 
 },
@@ -1180,7 +1311,7 @@
 
 
 
-"all_tags": "Semua Tags",
+"all_tags": "Semua tag",
 
 
 
@@ -1204,7 +1335,7 @@
 
 
 
-"results": "{n}hasil untuk {search}",
+"results": "{n} hasil untuk {search}",
 
 
 
@@ -1244,6 +1375,24 @@
 
 
 
+"check": {
+
+
+
+
+"yes": "Ya",
+
+
+
+
+"no": "Tidak"
+
+
+
+},
+
+
+
 "none": "Tidak ada",
 
 
@@ -1260,7 +1409,11 @@
 
 
 
-"location": "Lokasi"
+"location": "Lokasi",
+
+
+
+"add_fields": "Tambah atribut:"
 
 
 },
@@ -1302,7 +1455,55 @@
 
 
 
-"reset": "ulang"
+"reset": "ulang",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Peta mini",
+
+
+
+
+"tooltip": "Menampilkan peta diperkecil untuk membantu penentuan letak area yang sedang dilihat."
+
+
+
+}
+
+
+},
+
+
+"map_data": {
+
+
+
+"title": "Data Peta",
+
+
+
+"description": "Data Peta",
+
+
+
+"data_layers": "Lapisan Data",
+
+
+
+"fill_area": "Isi Area",
+
+
+
+"map_features": "Fitur Peta",
+
+
+
+"autohidden": "Fitur-fitur berikut telah disembunyikan secara otomatis karena akan terlalu banyak yang tampil pada layar. Anda dapat perbesar untuk menyuntingnya."
 
 
 },
@@ -1312,12 +1513,71 @@
 
 
 
+"points": {
+
+
+
+
+"description": "Titik",
+
+
+
+
+"tooltip": "Lokasi Pusat Perhatian"
+
+
+
+},
+
+
+
+"major_roads": {
+
+
+
+
+"description": "Jalan Besar",
+
+
+
+
+"tooltip": "Jalan Protokol, Jalan Umum, dsb."
+
+
+
+},
+
+
+
+"minor_roads": {
+
+
+
+
+"description": "Jalan Kecil",
+
+
+
+
+"tooltip": "Jalan Akses, Tempat Parkir, Jalan Setapak, dsb."
+
+
+
+},
+
+
+
 "paths": {
 
 
 
 
-"description": "Jalan Kecil"
+"description": "Jalan Kecil",
+
+
+
+
+"tooltip": "Trotoar, Jalur Pejalan Kaki, Jalur Sepeda, dsb."
 
 
 
@@ -1330,7 +1590,30 @@
 
 
 
-"description": "Bangunan"
+"description": "Bangunan",
+
+
+
+
+"tooltip": "Bangunan, Naungan, Garasi, dsb."
+
+
+
+},
+
+
+
+"landuse": {
+
+
+
+
+"description": "Fitur Lahan",
+
+
+
+
+"tooltip": "Hutan, Pertanian, Taman, Perumahan, Niaga, dsb."
 
 
 
@@ -1356,12 +1639,71 @@
 
 
 
+"water": {
+
+
+
+
+"description": "Fitur Air",
+
+
+
+
+"tooltip": "Sungai, Danau, Kolam, Lembangan, dsb."
+
+
+
+},
+
+
+
+"rail": {
+
+
+
+
+"description": "Fitur Rel",
+
+
+
+
+"tooltip": "Jalur Rel"
+
+
+
+},
+
+
+
+"power": {
+
+
+
+
+"description": "Fitur Daya",
+
+
+
+
+"tooltip": "Jalur Listrik, Pembangkit Listrik, Gardu, dsb."
+
+
+
+},
+
+
+
 "past_future": {
 
 
 
 
-"description": "Masa Lalu/Akan Datang"
+"description": "Masa Lalu/Akan Datang",
+
+
+
+
+"tooltip": "Diajukan, Dibangun, Ditinggalkan, Diruntuhkan, dsb."
 
 
 
@@ -1374,7 +1716,72 @@
 
 
 
-"description": "Lainnya"
+"description": "Lainnya",
+
+
+
+
+"tooltip": "Selain yang disebutkan"
+
+
+
+}
+
+
+},
+
+
+"area_fill": {
+
+
+
+"wireframe": {
+
+
+
+
+"description": "Tidak ada Isi (Wireframe)",
+
+
+
+
+"tooltip": "Menggunakan modus wireframe membuat mudah untuk melihat gambar latar belakang."
+
+
+
+},
+
+
+
+"partial": {
+
+
+
+
+"description": "Isi Sebagian",
+
+
+
+
+"tooltip": "Area digambar dengan isi hanya pada sekitar dalam garisnya. (Dianjurkan untuk pemeta pemula)"
+
+
+
+},
+
+
+
+"full": {
+
+
+
+
+"description": "Isi Penuh",
+
+
+
+
+"tooltip": "Area digambar terisi penuh."
 
 
 
@@ -1422,11 +1829,125 @@
 
 
 
+"error": "Kesalahan terjadi saat mencoba menyimpan",
+
+
+
+"status_code": "Server mengembalikan kode status {code}",
+
+
+
+"unknown_error_details": "Mohon pastikan Anda terhubung dengan internet.",
+
+
+
 "uploading": "Mengunggah perubahan ke OpenStreetMap.",
 
 
 
-"unsaved_changes": "Anda mememiliki perubahan yang belum tersimpan"
+"unsaved_changes": "Anda mememiliki perubahan yang belum tersimpan",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Menyelesaikan suntingan bertentangan",
+
+
+
+
+"count": "{num} dari {total} Konflik",
+
+
+
+
+"previous": "< Sebelumnya",
+
+
+
+
+"next": "Berikutnya >",
+
+
+
+
+"keep_local": "Simpan milik saya",
+
+
+
+
+"keep_remote": "Gunakan milik mereka",
+
+
+
+
+"restore": "Kembalikan",
+
+
+
+
+"delete": "Biarkan Terhapus",
+
+
+
+
+"download_changes": "Atau unduh perubahan Anda.",
+
+
+
+
+"done": "Semua konflik terselesaikan!",
+
+
+
+
+"help": "Pengguna lain mengubah beberapa fitur peta yang sama dengan yang Anda ubah.\nKlik pada tiap butir di bawah untuk penjelasan lebih tentang konfliknya, dan memilih untuk menyimpan\nperubahan Anda atau perubahan pengguna tersebut.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Objek ini telah dihapus oleh {user}.",
+
+
+
+
+"location": "Objek ini dipindahkan oleh Anda dan {user}.",
+
+
+
+
+"nodelist": "Titik-titik diubah oleh Anda dan {user}.",
+
+
+
+
+"memberlist": "Anggota relasi diubah Anda dan {user}.",
+
+
+
+
+"tags": "Anda mengubah tag <b>{tag}</b> menjadi \"{local}\" dan {user} mengubahnya menjadi \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1452,11 +1973,11 @@
 
 
 
-"twitter": "Berbagi di Twitter",
+"twitter": "Bagikan di Twitter",
 
 
 
-"google": "Berbagi di Google+",
+"google": "Bagikan di Google+",
 
 
 
@@ -1470,7 +1991,11 @@
 
 
 
-"okay": "Baiklah"
+"okay": "Baiklah",
+
+
+
+"cancel": "Batal"
 
 
 },
@@ -1538,7 +2063,7 @@
 
 
 
-"untagged_point": "Titik Tak-bertanda",
+"untagged_point": "Titik tak bertanda",
 
 
 
@@ -1637,7 +2162,19 @@
 
 
 
-"title": "Bantuan"
+"title": "Bantuan",
+
+
+
+"help": "# Bantuan\n\nIni adalah penyunting untuk [OpenStreetMap](http://www.openstreetmap.org/),\npeta dunia yang gratis dan dapat disunting. Anda dapat menggunakannya\nuntuk menambah dan memperbarui data di area Anda, membuat peta dunia\nbersumber dan berdata terbuka lebih baik untuk semua orang.\n\nSuntingan yang Anda buat di peta ini akan terlihat oleh semua pengguna\nOpenStreetMap. Untuk membuat suntingan, Anda perlu\n[log in](https://www.openstreetmap.org/login).\n\n[iD editor](http://ideditor.com/) adalah proyek kerja sama dengan [source\ncode available on GitHub](https://github.com/openstreetmap/iD).\n",
+
+
+
+"editing_saving": "# Menyunting & Menyimpan\n\nPenyunting dirancang untuk bekerja secara daring, dan Anda mengaksesnya\nmelalui situs web sekarang.\n\n### Memilih Fitur\n\nUntuk memilih fitur peta, seperti jalan atau titik ketertarikan, klik\npada fitur di peta. Hal ini akan membuat fitur yang terpilih lebih cerah, membuka panel\nberisi perinciannya, dan menampilkan menu berisi hal-hal yang Anda dapat lakukan dengan fitur tersebut.\n\nUntuk memilih beberapa fitur, tahan tombol 'Shift'. Lalu klik pada\nfitur yang mau dipilih, atau geser pada peta untuk menggambar persegi panjang.\nIni akan menggambar sebuah kotak dan memilih semua titik di dalamnya.\n\n### Menyimpan Suntingan\n\nSaat Anda membuat perubahan seperti menyunting jalan, bangunan, dan tempat, perubahan ini\ndisimpan secara lokal sampai Anda menyimpan ke server. Jangan khawatir jika Anda\nmembuat kesalahan - Anda dapat membatalkan perubahan dengan menekan tombol undo, dan mengembalikan\nperubahan dengan menekan tombol redo.\n\nKlik 'Simpan' untuk menyelesaikan sekelompok perubahan - seperti, jika Anda telah melengkapi\nsebuah area di kota dan akan memulai di area baru lain. Anda memiliki kesempatan\nuntuk meninjau kembali apa yang telah dilakukan, dan penyunting akan memberikan saran berguna\ndan peringatan jika sesuatu terkesan janggal dengan perubahan tersebut.\n\nJika semua terlihat baik, Anda dapat memasukkan penjelasan pendek mengenai perubahan\nyang Anda buat, dan klik 'Simpan' lagi untuk mengirim perubahan\nke [OpenStreetMap.org](http://www.openstreetmap.org/), yang akan terlihat\noleh seluruh pengguna dan tersedia bagi yang lain untuk dibangun dan diperbaiki.\n\nJika Anda tidak bisa menyelesaikan suntingan dalam sekali waktu, Anda dapat meninggalkan jendela penyunting\ndan kembali (pada peramban dan komputer yang sama), dan aplikasi penyunting akan menawarkan untuk mengembalikan kembali apa yang sudah dikerjakan.\n\n### Menggunakan penyunting\n\nDaftar shortcut untuk keyboard tersedia [here](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
+
+
+
+"roads": "# Jalan\n\nAnda dapat membuat, memperbaiki, dan menghapus jalan dengan penyunting ini. Jalan ada banyak\njenis: jalan setapak, jalan raya, jalan sepeda, dan sebagainya - segmen yang sering dilalui\nseharusnya dapat dipetakan.\n\n### Memilih\n\nKlik pada jalan untuk memilihnya. Sebuah garis tepi akan terlihat, dengan\nmenu peralatan kecil pada peta dan sidebar berisi informasi lebih tentang jalan tersebut.\n\n### Mengubah\n\nSeringkali Anda akan melihat jalan-jalan yang tidak segaris dengan gambar di belakangnya\natau dengan trek GPS. Anda dapat mengatur jalan-jalan ini agar mereka berada\npada posisi yang tepat.\n\nPertama, klik pada jalan yang Anda ingin ubah. Ini akan menyorotinya dan menampilkan\ntitik kendali di sepanjang jalan yang dapat Anda geser ke letak yang lebih baik. Jika\nAnda ingin menambah titik kendali untuk memerincinya, klik dua kali bagian\ndari jalan tanpa titik, dan titik kendali akan ditambah.\n\nJika jalan itu terhubung dengan jalan lain, tetapi tidak terhubung dengan baik\npada peta, Anda bisa menggeser salah satu titik kendalinya ke jalan lain tersebut untuk\nmenghubungkannya. Memastikan jalan terhubung penting untuk peta dan sangat diperlukan untuk memberikan arah berkendara.\n\nAnda dapat klik alat 'Move' atau tekan tombol pintasan 'M' untuk memindahkan keseluruhan jalan sekaligus,\nlalu klik lagi untuk menyimpan pemindahan tersebut.\n\n### Menghapus\n\nJika sebuah jalan seluruhnya salah - Anda dapat melihat bahwa itu tidak ada pada citra satelit\ndan telah mengamatinya langsung bahwa itu memang tidak ada - Anda dapat menghapusnya,\nuntuk menghilangkannya dari peta. Berhati-hatilah saat menghapus fitur -\nseperti suntingan lain, hasilnya akan terlihat oleh semua orang dan citra satelit\nseringkali sudah usang, sehingga jalan mungkin baru dibangun.\n\nAnda dapat menghapus jalan dengan klik jalan tersebut untuk memilihnya,\nlalu klik ikon tong sampah atau menekan tombol 'Delete'.\n\n### Menciptakan\n\nMenemukan tempat yang seharusnya ada jalan tapi tidak ada? Pilih ikon 'Line'\npada kiri-atas penyunting atau tekan tombol pintasan '2' untuk mulai\nmenggambar garis.\n\nKlik pada bagian awal jalan untuk mulai menggambar. Jika jalan\nbercabang dari jalan yang sudah ada, mulai dengan klik pada tempat keduanya terhubung.\n\nLalu klik pada titik-titik sepanjang jalan sehingga sesuai alur,\nmenurut citra satelit atau GPS. Jika jalan yang Anda gambar menyeberangi jalan lain,\nhubungkan jalan itu dengan mengeklik pada titik persimpangan. Saat Anda selesai menggambar, klik dua kali\natau tekan 'Return' atau 'Enter' pada papan tik.\n"
 
 
 },
@@ -1705,7 +2242,7 @@
 
 
 
-"choose": "**Pilih Cafe dari daftar.**",
+"choose": "**Pilih Kafe dari daftar.**",
 
 
 
@@ -1854,7 +2391,7 @@
 
 
 
-"help": "Dokumentasi lebih dan ujicoba tersedia di sini.",
+"help": "Dokumentasi lebih dan panduan tersedia di sini.",
 
 
 

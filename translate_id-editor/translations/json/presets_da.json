@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Ukendt",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Generelt",
-
-
-
-
-
-
-"foot": "Til fods",
-
-
-
-
-
-
-"motor_vehicle": "Motorkøretøjer",
-
-
-
-
-
-
-"bicycle": "Cykler",
-
-
-
-
-
-
-"horse": "Heste"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Tilladt",
-
-
-
-
-
-
-
-"description": "Adgang tilladt i følge loven"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Forbudt",
-
-
-
-
-
-
-
-"description": "Adgang ikke tilladt for offentligheden"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Adgang efter tilladelse",
-
-
-
-
-
-
-
-"description": "Adgang tilladt indtil ejer tilbagekalder tilladelsen"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privat",
-
-
-
-
-
-
-
-"description": "Adgang kun tilladt ved udstedelse af individuelle tilladelser fra ejer"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Udpeget til netop dette formål",
+"description": "Adgang tilladt ifølge trafikskilte eller lokale bestemmelser",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Adgang tilladt ifølge trafikskilte eller lokale bestemmelser"
+"title": "Udpeget til netop dette formål"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Destination",
+"description": "Ærindekørsel tilladt",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Ærindekørsel tilladt"
+"title": "Destination"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Adgang ikke tilladt for offentligheden",
+
+
+
+
+
+
+
+"title": "Forbudt"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Adgang tilladt indtil ejer tilbagekalder tilladelsen",
+
+
+
+
+
+
+
+"title": "Adgang efter tilladelse"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Adgang kun tilladt ved udstedelse af individuelle tilladelser fra ejer",
+
+
+
+
+
+
+
+"title": "Privat"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Adgang tilladt i følge loven",
+
+
+
+
+
+
+
+"title": "Tilladt"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Ukendt",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Generelt",
+
+
+
+
+
+
+"bicycle": "Cykler",
+
+
+
+
+
+
+"foot": "Til fods",
+
+
+
+
+
+
+"horse": "Heste",
+
+
+
+
+
+
+"motor_vehicle": "Motorkøretøjer"
 
 
 
@@ -498,6 +498,41 @@
 
 
 
+"city": "By",
+
+
+
+
+
+
+"conscriptionnumber": "123",
+
+
+
+
+
+
+"country": "Land",
+
+
+
+
+
+
+"district": "Bydel",
+
+
+
+
+
+
+"hamlet": "Lille landsby",
+
+
+
+
+
+
 "housename": "Husnavn",
 
 
@@ -512,27 +547,6 @@
 
 
 
-"street": "Gade",
-
-
-
-
-
-
-"city": "By",
-
-
-
-
-
-
-"postcode": "Postnummer",
-
-
-
-
-
-
 "place": "Sted",
 
 
@@ -540,28 +554,7 @@
 
 
 
-"hamlet": "Lille landsby",
-
-
-
-
-
-
-"suburb": "Forstad",
-
-
-
-
-
-
-"subdistrict": "Kvarter",
-
-
-
-
-
-
-"district": "Bydel",
+"postcode": "Postnummer",
 
 
 
@@ -582,7 +575,21 @@
 
 
 
-"country": "Land"
+"street": "Gade",
+
+
+
+
+
+
+"subdistrict": "Kvarter",
+
+
+
+
+
+
+"suburb": "Forstad"
 
 
 
@@ -649,6 +656,13 @@
 
 
 
+"both": "Begge",
+
+
+
+
+
+
 "entry": "Indgang",
 
 
@@ -656,14 +670,7 @@
 
 
 
-"exit": "Udgang",
-
-
-
-
-
-
-"both": "Begge"
+"exit": "Udgang"
 
 
 
@@ -796,6 +803,13 @@
 
 
 
+"both": "Begge",
+
+
+
+
+
+
 "entry": "Indgang",
 
 
@@ -803,14 +817,7 @@
 
 
 
-"exit": "Udgang",
-
-
-
-
-
-
-"both": "Begge"
+"exit": "Udgang"
 
 
 
@@ -843,6 +850,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Type"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -1075,63 +1098,7 @@
 
 
 
-"N": "Nord",
-
-
-
-
-
-
 "E": "Øst",
-
-
-
-
-
-
-"S": "Syd",
-
-
-
-
-
-
-"W": "Vest",
-
-
-
-
-
-
-"NE": "Nordøst",
-
-
-
-
-
-
-"SE": "Sydøst",
-
-
-
-
-
-
-"SW": "Sydvest",
-
-
-
-
-
-
-"NW": "Nordvest",
-
-
-
-
-
-
-"NNE": "Nord-nordøst",
 
 
 
@@ -1152,6 +1119,55 @@
 
 
 
+"N": "Nord",
+
+
+
+
+
+
+"NE": "Nordøst",
+
+
+
+
+
+
+"NNE": "Nord-nordøst",
+
+
+
+
+
+
+"NNW": "Nord-nordvest",
+
+
+
+
+
+
+"NW": "Nordvest",
+
+
+
+
+
+
+"S": "Syd",
+
+
+
+
+
+
+"SE": "Sydøst",
+
+
+
+
+
+
 "SSE": "Syd-sydøst",
 
 
@@ -1166,7 +1182,14 @@
 
 
 
-"WSW": "Vest-sydvest",
+"SW": "Sydvest",
+
+
+
+
+
+
+"W": "Vest",
 
 
 
@@ -1180,7 +1203,7 @@
 
 
 
-"NNW": "Nord-nordvest"
+"WSW": "Vest-sydvest"
 
 
 
@@ -1215,14 +1238,14 @@
 
 
 
-"clockwise": "Med uret",
+"anticlockwise": "Mod uret",
 
 
 
 
 
 
-"anticlockwise": "Mod uret"
+"clockwise": "Med uret"
 
 
 
@@ -1261,6 +1284,22 @@
 
 
 "label": "Type"
+
+
+
+
+},
+
+
+
+
+"content": {
+
+
+
+
+
+"label": "Indhold"
 
 
 
@@ -1366,6 +1405,276 @@
 
 
 
+"cycleway": {
+
+
+
+
+
+"label": "Cykelvejbaner",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Cykelvejbane adskilt fra traffiken med opmalet linje.",
+
+
+
+
+
+
+
+"title": "Standard cykelvejbane"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Ingen cykelvejbaner",
+
+
+
+
+
+
+
+"title": "Ingen"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Cykelvejbane hvor det er tilladt at køre begge retninger på ensrettet biltrafikvej",
+
+
+
+
+
+
+
+"title": "Begge retninger cykelvejbane"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Cykelvejbane der kører i modsat retning af biltrafikken",
+
+
+
+
+
+
+
+"title": "Modsat rettet cykelvejbane"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "En cykelvejbane delt med busvejbane",
+
+
+
+
+
+
+
+"title": "Cykelvejbane delt med bus"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Cykelvejbane med ingen adskillelse fra biltrafikken",
+
+
+
+
+
+
+
+"title": "Delt cykelvejbane"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Cykelsti adskilt fysisk fra trafikken med en barrierer",
+
+
+
+
+
+
+
+"title": "Cykelsti"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Ingen",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Venstre side",
+
+
+
+
+
+
+"cycleway:right": "Højre side"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "delivery": {
 
 
@@ -1458,12 +1767,6 @@
 
 
 
-"placeholder": "Køreledning, elektrificeret jernbane",
-
-
-
-
-
 "options": {
 
 
@@ -1478,6 +1781,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "rail": "Elektrificeret jernbane",
 
 
@@ -1485,20 +1795,19 @@
 
 
 
-"yes": "Ja (uspecificeret)",
+"yes": "Ja (uspecificeret)"
 
 
 
 
 
-
-"no": "Nej"
-
+},
 
 
 
 
-}
+
+"placeholder": "Køreledning, elektrificeret jernbane"
 
 
 
@@ -1636,6 +1945,13 @@
 
 
 
+"pond": "Dam",
+
+
+
+
+
+
 "underground": "Underjordisk",
 
 
@@ -1643,14 +1959,7 @@
 
 
 
-"wall": "Mur",
-
-
-
-
-
-
-"pond": "Dam"
+"wall": "Mur"
 
 
 
@@ -1870,20 +2179,7 @@
 
 
 
-"placeholder": "Ukendt",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Mand",
 
 
 
@@ -1897,13 +2193,26 @@
 
 
 
+"male": "Mand",
+
+
+
+
+
+
 "unisex": "Unisex"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Ukendt"
 
 
 
@@ -2126,14 +2435,14 @@
 
 
 
-"up": "Op",
+"down": "Ned",
 
 
 
 
 
 
-"down": "Ned"
+"up": "Op"
 
 
 
@@ -2184,13 +2493,6 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
 "no": "Nej",
 
 
@@ -2198,7 +2500,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Terminal",
 
 
 
@@ -2212,7 +2514,14 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "Wifi",
+
+
+
+
+
+
+"yes": "Ja"
 
 
 
@@ -2317,13 +2626,6 @@
 
 
 
-"evergreen": "Stedsegrønt",
-
-
-
-
-
-
 "deciduous": "Løvfældende",
 
 
@@ -2331,7 +2633,14 @@
 
 
 
-"semi_evergreen": "Delvist stedsegrønt",
+"evergreen": "Stedsegrønt",
+
+
+
+
+
+
+"mixed": "Blandet",
 
 
 
@@ -2345,7 +2654,7 @@
 
 
 
-"mixed": "Blandet"
+"semi_evergreen": "Delvist stedsegrønt"
 
 
 
@@ -2387,7 +2696,7 @@
 
 
 
-"needleleaved": "Nåleblade",
+"leafless": "Bladløs",
 
 
 
@@ -2401,7 +2710,7 @@
 
 
 
-"leafless": "Bladløs"
+"needleleaved": "Nåleblade"
 
 
 
@@ -2440,6 +2749,22 @@
 
 
 "label": "Længde (meter)"
+
+
+
+
+},
+
+
+
+
+"level": {
+
+
+
+
+
+"label": "Etage"
 
 
 
@@ -2553,12 +2878,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2614,7 +2933,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2631,12 +2956,6 @@
 
 
 "label": "Sværhedsgrad for IMBA-spor",
-
-
-
-
-
-"placeholder": "Nemt, medium, svært",
 
 
 
@@ -2683,7 +3002,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nemt, medium, svært"
 
 
 
@@ -2700,12 +3025,6 @@
 
 
 "label": "Sværhedsgrad for mountainbike op ad bakke",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3...",
 
 
 
@@ -2759,7 +3078,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2874,6 +3199,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "undefined": "Antages at være Nej",
 
 
@@ -2881,14 +3213,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nej"
+"yes": "Ja"
 
 
 
@@ -2923,6 +3248,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "undefined": "Antages at være Ja",
 
 
@@ -2930,14 +3262,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nej"
+"yes": "Ja"
 
 
 
@@ -3042,34 +3367,6 @@
 
 
 
-"surface": "Overflade",
-
-
-
-
-
-
-"multi-storey": "Multiniveau",
-
-
-
-
-
-
-"underground": "Underjordisk",
-
-
-
-
-
-
-"sheds": "Læskure",
-
-
-
-
-
-
 "carports": "Carporte",
 
 
@@ -3084,7 +3381,35 @@
 
 
 
-"lane": "Vejsidespor"
+"lane": "Vejsidespor",
+
+
+
+
+
+
+"multi-storey": "Multiniveau",
+
+
+
+
+
+
+"sheds": "Læskure",
+
+
+
+
+
+
+"surface": "Overflade",
+
+
+
+
+
+
+"underground": "Underjordisk"
 
 
 
@@ -3134,34 +3459,7 @@
 
 
 
-"placeholder": "Let, mellemsvær, avanceret...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Nybegynder (vejledning)",
-
-
-
-
-
-
-"easy": "Nemt (grøn cirkel)",
-
-
-
-
-
-
-"intermediate": "Mellemsvært (blå firkant)",
 
 
 
@@ -3175,7 +3473,21 @@
 
 
 
+"easy": "Nemt (grøn cirkel)",
+
+
+
+
+
+
 "expert": "Ekspert (dobbelt sort diamant)",
+
+
+
+
+
+
+"extreme": "Ekstremt (klatreudstyr påkrævet)",
 
 
 
@@ -3189,13 +3501,26 @@
 
 
 
-"extreme": "Ekstremt (klatreudstyr påkrævet)"
+"intermediate": "Mellemsvært (blå firkant)",
 
 
 
 
 
-}
+
+"novice": "Nybegynder (vejledning)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Let, mellemsvær, avanceret..."
 
 
 
@@ -3224,20 +3549,6 @@
 
 
 
-"classic": "Klassisk",
-
-
-
-
-
-
-"mogul": "Pukkelpist",
-
-
-
-
-
-
 "backcountry": "Offpiste",
 
 
@@ -3245,7 +3556,21 @@
 
 
 
+"classic": "Klassisk",
+
+
+
+
+
+
 "classic+skating": "Klassisk og skiløb",
+
+
+
+
+
+
+"mogul": "Pukkelpist",
 
 
 
@@ -3301,7 +3626,28 @@
 
 
 
+"hike": "Skivandretur",
+
+
+
+
+
+
+"ice_skate": "Skøjter",
+
+
+
+
+
+
 "nordic": "Nordisk",
+
+
+
+
+
+
+"playground": "Legeplads",
 
 
 
@@ -3322,13 +3668,6 @@
 
 
 
-"hike": "Skivandretur",
-
-
-
-
-
-
 "sleigh": "Kælk",
 
 
@@ -3336,21 +3675,7 @@
 
 
 
-"ice_skate": "Skøjter",
-
-
-
-
-
-
-"snow_park": "Snepark",
-
-
-
-
-
-
-"playground": "Legeplads"
+"snow_park": "Snepark"
 
 
 
@@ -3405,6 +3730,22 @@
 
 
 "label": "Type"
+
+
+
+
+},
+
+
+
+
+"power_supply": {
+
+
+
+
+
+"label": "Eltransformator"
 
 
 
@@ -3485,6 +3826,48 @@
 
 
 "label": "Accepterer papir"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"label": "Genbrugstype",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Genbrugscenter",
+
+
+
+
+
+
+"container": "Container"
+
+
+
+
+
+}
 
 
 
@@ -3618,34 +4001,7 @@
 
 
 
-"placeholder": "Bjergvandring, alpinvandring...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Vandring",
-
-
-
-
-
-
-"mountain_hiking": "T2: Bjergvandring",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Krævende bjergvandring",
 
 
 
@@ -3666,13 +4022,56 @@
 
 
 
-"difficult_alpine_hiking": "T6: Vanskelig alpinvandring"
+"demanding_mountain_hiking": "T3: Krævende bjergvandring",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Vanskelig alpinvandring",
+
+
+
+
+
+
+"hiking": "T1: Vandring",
+
+
+
+
+
+
+"mountain_hiking": "T2: Bjergvandring"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Bjergvandring, alpinvandring..."
+
+
+
+
+},
+
+
+
+
+"sanitary_dump_station": {
+
+
+
+
+
+"label": "Toilet funktionsmåde"
 
 
 
@@ -3733,6 +4132,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "undefined": "Antages at være Nej",
 
 
@@ -3740,14 +4146,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nej"
+"yes": "Ja"
 
 
 
@@ -3782,6 +4181,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "undefined": "Antages at være Nej",
 
 
@@ -3789,14 +4195,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nej"
+"yes": "Ja"
 
 
 
@@ -3831,14 +4230,7 @@
 
 
 
-"spur": "Firmaspor",
-
-
-
-
-
-
-"yard": "Rangergård",
+"crossover": "Kryds",
 
 
 
@@ -3852,7 +4244,14 @@
 
 
 
-"crossover": "Kryds"
+"spur": "Firmaspor",
+
+
+
+
+
+
+"yard": "Rangergård"
 
 
 
@@ -3944,12 +4343,6 @@
 
 
 
-"placeholder": "Nej, adskilt, ja...",
-
-
-
-
-
 "options": {
 
 
@@ -3957,14 +4350,7 @@
 
 
 
-"no": "Rygning forbudt overalt",
-
-
-
-
-
-
-"separated": "I rygeområder, ikke fysisk adskilte",
+"dedicated": "Dedikeret til rygere (fx rygerklub)",
 
 
 
@@ -3978,6 +4364,13 @@
 
 
 
+"no": "Rygning forbudt overalt",
+
+
+
+
+
+
 "outside": "Tilladt udenfor",
 
 
@@ -3985,20 +4378,26 @@
 
 
 
-"yes": "Tilladt alle steder",
+"separated": "I rygeområder, ikke fysisk adskilte",
 
 
 
 
 
 
-"dedicated": "Dedikeret til rygere (fx rygerklub)"
+"yes": "Tilladt alle steder"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nej, adskilt, ja..."
 
 
 
@@ -4020,13 +4419,14 @@
 
 
 
-"placeholder": "Tynde hjul, hjul, offroad...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Robuste hjul:  mountainbikecykel, bil, rickshaw",
 
 
 
@@ -4047,14 +4447,21 @@
 
 
 
+"horrible": "Offroad: kraftigt terrængående køretøj",
+
+
+
+
+
+
+"impassable": "Ufremkommeligt / intet køretøj på hjul",
+
+
+
+
+
+
 "intermediate": "Hjul: citybike, kørestol, scooter",
-
-
-
-
-
-
-"bad": "Robuste hjul:  mountainbikecykel, bil, rickshaw",
 
 
 
@@ -4068,27 +4475,19 @@
 
 
 
-"horrible": "Offroad: kraftigt terrængående køretøj",
+"very_horrible": "Specialiseret offroad: traktor, ATV"
 
 
 
 
 
-
-"very_horrible": "Specialiseret offroad: traktor, ATV",
-
+},
 
 
 
 
 
-"impassable": "Ufremkommeligt / intet køretøj på hjul"
-
-
-
-
-
-}
+"placeholder": "Tynde hjul, hjul, offroad..."
 
 
 
@@ -4196,12 +4595,6 @@
 
 
 
-"placeholder": "Ukendt",
-
-
-
-
-
 "options": {
 
 
@@ -4216,7 +4609,7 @@
 
 
 
-"tunnel": "Tunnel",
+"cutting": "Forsænkning",
 
 
 
@@ -4230,20 +4623,26 @@
 
 
 
-"cutting": "Forsænkning",
+"ford": "Vadested",
 
 
 
 
 
 
-"ford": "Vadested"
+"tunnel": "Tunnel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Ukendt"
 
 
 
@@ -4345,20 +4744,7 @@
 
 
 
-"placeholder": "Ja, nej, kun takeaway...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": "Ja",
 
 
 
@@ -4372,13 +4758,26 @@
 
 
 
-"only": "Kun Takeway"
+"only": "Kun Takeway",
 
 
 
 
 
-}
+
+"yes": "Ja"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Ja, nej, kun takeaway..."
 
 
 
@@ -4407,14 +4806,7 @@
 
 
 
-"flush": "Træk & slip",
-
-
-
-
-
-
-"pitlatrine": "Latrin",
+"bucket": "Spand",
 
 
 
@@ -4428,7 +4820,14 @@
 
 
 
-"bucket": "Spand"
+"flush": "Træk & slip",
+
+
+
+
+
+
+"pitlatrine": "Latrin"
 
 
 
@@ -4488,12 +4887,6 @@
 
 
 
-"placeholder": "Fast, overvejende fast, blød …",
-
-
-
-
-
 "options": {
 
 
@@ -4535,7 +4928,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Fast, overvejende fast, blød …"
 
 
 
@@ -4557,13 +4956,14 @@
 
 
 
-"placeholder": "Fremragende, god, dårlig...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Dårlig: ​​ingen markører, sti til tider usynlig / sporløs",
 
 
 
@@ -4584,21 +4984,14 @@
 
 
 
-"intermediate": "Mellemsvær: kun få markører, sti for det meste synlig",
-
-
-
-
-
-
-"bad": "Dårlig: ​​ingen markører, sti til tider usynlig / sporløs",
-
-
-
-
-
-
 "horrible": "Frygtelig: ofte sporløs, kræver visse orienteringsfærdigheder",
+
+
+
+
+
+
+"intermediate": "Mellemsvær: kun få markører, sti for det meste synlig",
 
 
 
@@ -4611,7 +5004,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Fremragende, god, dårlig..."
 
 
 
@@ -4676,6 +5075,22 @@
 
 
 "label": "Type"
+
+
+
+
+},
+
+
+
+
+"water_point": {
+
+
+
+
+
+"label": "Vandbrønd"
 
 
 
@@ -5455,6 +5870,28 @@
 
 
 
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Ølhave",
+
+
+
+
+
+"terms": "Ølhave, Ølstue"
+
+
+
+
+},
+
+
+
+
 "amenity/boat_rental": {
 
 
@@ -5600,6 +6037,28 @@
 
 
 "terms": "Bilvask, Automobilvask"
+
+
+
+
+},
+
+
+
+
+"amenity/casino": {
+
+
+
+
+
+"name": "Kasino",
+
+
+
+
+
+"terms": "Kasino, Casino"
 
 
 
@@ -6533,6 +6992,28 @@
 
 
 
+"amenity/sanitary_dump_station": {
+
+
+
+
+
+"name": "Tør closettoilet funtionsområde",
+
+
+
+
+
+"terms": "Tør closettoilet funtionsområde"
+
+
+
+
+},
+
+
+
+
 "amenity/school": {
 
 
@@ -6920,6 +7401,28 @@
 
 
 "terms": "Område"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Vejbelægning",
+
+
+
+
+
+"terms": "Vejbelægning, Vejoverflade"
 
 
 
@@ -9245,13 +9748,13 @@
 
 
 
-"name": "Kryds",
+"name": "Gadekryds",
 
 
 
 
 
-"terms": "Kryds"
+"terms": "Gadekryds, Vejkryds"
 
 
 
@@ -9569,19 +10072,41 @@
 
 
 
+"highway/corridor": {
+
+
+
+
+
+"name": "Indendørskorridor",
+
+
+
+
+
+"terms": "Indendørskorridor, Indendørspassage"
+
+
+
+
+},
+
+
+
+
 "highway/crossing": {
 
 
 
 
 
-"name": "Kryds",
+"name": "Gadekryds",
 
 
 
 
 
-"terms": "Kryds"
+"terms": "Gadekryds, Vejkryds"
 
 
 
@@ -9597,13 +10122,13 @@
 
 
 
-"name": "Fodgængerovergang",
+"name": "Pedestrian Crosswalk",
 
 
 
 
 
-"terms": "Fodgængerovergang"
+"terms": "Pedestrian Crosswalk"
 
 
 
@@ -10999,6 +11524,28 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Plantepleje",
+
+
+
+
+
+"terms": "Plantepleje"
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
@@ -11100,6 +11647,28 @@
 
 
 "terms": "Fritid"
+
+
+
+
+},
+
+
+
+
+"leisure/adult_gaming_centre": {
+
+
+
+
+
+"name": "Voksen spillecenter",
+
+
+
+
+
+"terms": "Voksen spillecenter"
 
 
 
@@ -11703,6 +12272,28 @@
 
 
 
+"man_made/adit": {
+
+
+
+
+
+"name": "Mineindgang",
+
+
+
+
+
+"terms": "Mineindgang"
+
+
+
+
+},
+
+
+
+
 "man_made/breakwater": {
 
 
@@ -11813,6 +12404,28 @@
 
 
 
+"man_made/mast": {
+
+
+
+
+
+"name": "Radiomast",
+
+
+
+
+
+"terms": "Radiomast"
+
+
+
+
+},
+
+
+
+
 "man_made/observation": {
 
 
@@ -11826,6 +12439,28 @@
 
 
 "terms": "observationstårn, udkigstårn"
+
+
+
+
+},
+
+
+
+
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Oliebrønd",
+
+
+
+
+
+"terms": "Oliebrønd"
 
 
 
@@ -11870,6 +12505,50 @@
 
 
 "terms": "Rørledning"
+
+
+
+
+},
+
+
+
+
+"man_made/silo": {
+
+
+
+
+
+"name": "Silo",
+
+
+
+
+
+"terms": "Silo, Silotank"
+
+
+
+
+},
+
+
+
+
+"man_made/storage_tank": {
+
+
+
+
+
+"name": "Lagertank",
+
+
+
+
+
+"terms": "Lagertank"
 
 
 
@@ -12341,6 +13020,28 @@
 
 
 
+"natural/saddle": {
+
+
+
+
+
+"name": "Sadel",
+
+
+
+
+
+"terms": "Sadel"
+
+
+
+
+},
+
+
+
+
 "natural/scree": {
 
 
@@ -12420,6 +13121,50 @@
 
 
 "terms": "Træ"
+
+
+
+
+},
+
+
+
+
+"natural/tree_row": {
+
+
+
+
+
+"name": "Trærække",
+
+
+
+
+
+"terms": "Trærække"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Vulkan",
+
+
+
+
+
+"terms": "Vulkan"
 
 
 
@@ -13080,6 +13825,28 @@
 
 
 "terms": "Storby"
+
+
+
+
+},
+
+
+
+
+"place/farm": {
+
+
+
+
+
+"name": "Gård",
+
+
+
+
+
+"terms": "Gård, Bondegård"
 
 
 
@@ -17423,6 +18190,28 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Søtankstation",
+
+
+
+
+
+"terms": "Søtankstation"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -17458,6 +18247,28 @@
 
 
 "terms": "Flodbred"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Søtoilet funktionsområde",
+
+
+
+
+
+"terms": "Søtoilet funktionsområde"
 
 
 

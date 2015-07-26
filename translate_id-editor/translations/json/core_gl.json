@@ -350,7 +350,12 @@
 
 
 
-"too_large": "Isto non se pode redondear porque non está completamente visible."
+"too_large": "Isto non se pode redondear porque non está completamente visible.",
+
+
+
+
+"connected_to_hidden": "Isto non se pode facer circular xa que está conectado cun elemento oculto."
 
 
 
@@ -422,7 +427,12 @@
 
 
 
-"too_large": "Isto non se pode escuadrar porque non está completamente visible."
+"too_large": "Isto non se pode escuadrar porque non está completamente visible.",
+
+
+
+
+"connected_to_hidden": "Isto non se pode facer cadrado xa que está conectado cun elemento oculto."
 
 
 
@@ -455,7 +465,12 @@
 
 
 
-"too_bendy": "Isto non pode ser endereitado porque é demasiado sinuoso."
+"too_bendy": "Isto non pode ser endereitado porque é demasiado sinuoso.",
+
+
+
+
+"connected_to_hidden": "Isto non se pode facer lineal xa que está conectado cun elemento oculto."
 
 
 
@@ -524,7 +539,17 @@
 
 
 
-"incomplete_relation": "Este elemento non pode ser borrado porque non foi descargado completamente."
+"incomplete_relation": "Este elemento non pode ser borrado porque non foi descargado completamente.",
+
+
+
+
+"part_of_relation": "Isto non se pode eliminar xa que é parte dunha relación maior. Ten que eliminar esa relación primeiro.",
+
+
+
+
+"connected_to_hidden": "Isto non se pode eliminar xa que está conectado cun elemento oculto."
 
 
 
@@ -625,7 +650,12 @@
 
 
 
-"not_connected": "Aquí non hai liñas/áreas suficientes para poder desconectar."
+"not_connected": "Aquí non hai liñas/áreas suficientes para poder desconectar.",
+
+
+
+
+"connected_to_hidden": "Isto non se pode desconectar xa que está conectado cun elemento oculto."
 
 
 
@@ -746,7 +776,12 @@
 
 
 
-"too_large": "Isto non se pode mover debido a que non está completamente visible."
+"too_large": "Isto non se pode mover debido a que non está completamente visible.",
+
+
+
+
+"connected_to_hidden": "Isto non se pode mover xa que está conectado cun elemento oculto."
 
 
 
@@ -796,7 +831,12 @@
 
 
 
-"too_large": "Isto non se pode rotar debido a que non está completamente visible."
+"too_large": "Isto non se pode rotar debido a que non está completamente visible.",
+
+
+
+
+"connected_to_hidden": "Isto non se pode rotar xa que está conectado cun elemento oculto."
 
 
 
@@ -908,7 +948,12 @@
 
 
 
-"multiple_ways": "Aquí hai demasiadas liñas para dividir."
+"multiple_ways": "Aquí hai demasiadas liñas para dividir.",
+
+
+
+
+"connected_to_hidden": "Isto non se pode partir xa que está conectado cun elemento oculto."
 
 
 
@@ -1050,6 +1095,20 @@
 "report_a_bug": "informar dun erro",
 
 
+"feature_info": {
+
+
+
+"hidden_warning": "{count} elementos agochados",
+
+
+
+"hidden_details": "Estes elementos agora están agochados: {details} "
+
+
+},
+
+
 "status": {
 
 
@@ -1080,7 +1139,7 @@
 
 
 
-"message_label": "Mensaxe de envío",
+"message_label": "Comentario sobre o conxunto de cambios",
 
 
 
@@ -1097,6 +1156,10 @@
 
 
 "cancel": "Cancelar",
+
+
+
+"changes": "{count} Cambios",
 
 
 
@@ -1127,6 +1190,78 @@
 
 
 "truncated_list": "Edicións de {users} e {count} máis"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} seleccionados",
+
+
+
+"geometry": "Xeometría",
+
+
+
+"closed": "pechado",
+
+
+
+"center": "Centro",
+
+
+
+"perimeter": "Perímetro",
+
+
+
+"length": "Lonxitude",
+
+
+
+"area": "Área",
+
+
+
+"centroid": "Centroide",
+
+
+
+"location": "Localización",
+
+
+
+"metric": "Métrica"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "punto",
+
+
+
+"vertex": "vértice",
+
+
+
+"line": "liña",
+
+
+
+"area": "área",
+
+
+
+"relation": "relación"
 
 
 },
@@ -1244,6 +1379,24 @@
 
 
 
+"check": {
+
+
+
+
+"yes": "Si",
+
+
+
+
+"no": "Non"
+
+
+
+},
+
+
+
 "none": "Ningún",
 
 
@@ -1260,7 +1413,11 @@
 
 
 
-"location": "Localización"
+"location": "Localización",
+
+
+
+"add_fields": "Engadir campo:"
 
 
 },
@@ -1302,7 +1459,337 @@
 
 
 
-"reset": "reiniciar"
+"reset": "reiniciar",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Mapa pequeno",
+
+
+
+
+"tooltip": "Mostrar un mapa reducido para facilitar a localización da área que se estea a mostrar. "
+
+
+
+}
+
+
+},
+
+
+"map_data": {
+
+
+
+"title": "Mapa de datos",
+
+
+
+"description": "Mapa de datos",
+
+
+
+"data_layers": "Capas de datos",
+
+
+
+"fill_area": "Encher as áreas",
+
+
+
+"map_features": "Características do mapa",
+
+
+
+"autohidden": "Xa que se mostrarían moitas na pantalla, hai características que se agocharon de xeito automático. Podes facer unha ampliación para editar calquera delas."
+
+
+},
+
+
+"feature": {
+
+
+
+"points": {
+
+
+
+
+"description": "Puntos",
+
+
+
+
+"tooltip": "Puntos de interese"
+
+
+
+},
+
+
+
+"major_roads": {
+
+
+
+
+"description": "Estradas primarias",
+
+
+
+
+"tooltip": "Estradas principais, rías etc. "
+
+
+
+},
+
+
+
+"minor_roads": {
+
+
+
+
+"description": "Estradas secundarias",
+
+
+
+
+"tooltip": "Estradas de servizo, áreas de estacionamento, pistas etc."
+
+
+
+},
+
+
+
+"paths": {
+
+
+
+
+"description": "Camiño",
+
+
+
+
+"tooltip": "Beirarrúas, camiños peonís, camiños para ciclismo, etc."
+
+
+
+},
+
+
+
+"buildings": {
+
+
+
+
+"description": "Edificios",
+
+
+
+
+"tooltip": "Edificios, cabanas, garaxes, etc."
+
+
+
+},
+
+
+
+"landuse": {
+
+
+
+
+"description": "Usos do solo",
+
+
+
+
+"tooltip": "Montes, áreas agrícolas, parques, áreas residenciais, comercios, etc."
+
+
+
+},
+
+
+
+"boundaries": {
+
+
+
+
+"description": "Fronteiras",
+
+
+
+
+"tooltip": "Fronteiras administrativas"
+
+
+
+},
+
+
+
+"water": {
+
+
+
+
+"description": "Áreas de augas",
+
+
+
+
+"tooltip": "Ríos, lagoas, pozas, concas fluviais, etc."
+
+
+
+},
+
+
+
+"rail": {
+
+
+
+
+"description": "Recursos ferroviarios",
+
+
+
+
+"tooltip": "Ferrovías"
+
+
+
+},
+
+
+
+"power": {
+
+
+
+
+"description": "Estacións enerxéticas",
+
+
+
+
+"tooltip": "Liñas de tensión, central eléctrica, subestacións, etc."
+
+
+
+},
+
+
+
+"past_future": {
+
+
+
+
+"description": "Estado da obra",
+
+
+
+
+"tooltip": "Proposta, en construción, abandonada, en demolición, etc."
+
+
+
+},
+
+
+
+"others": {
+
+
+
+
+"description": "Outros",
+
+
+
+
+"tooltip": "Todo o demais"
+
+
+
+}
+
+
+},
+
+
+"area_fill": {
+
+
+
+"wireframe": {
+
+
+
+
+"description": "Sen recheo (molde)",
+
+
+
+
+"tooltip": "Activando o modo sen recheo, faise máis sinxelo ver a imaxe de fondo. "
+
+
+
+},
+
+
+
+"partial": {
+
+
+
+
+"description": "Recheo parcial",
+
+
+
+
+"tooltip": "As áreas debúxanse con recheo só por unha parte interior da súa contorna. Isto recoméndaselle os novos cartógrafos."
+
+
+
+},
+
+
+
+"full": {
+
+
+
+
+"description": "Recheo completo",
+
+
+
+
+"tooltip": "As áreas móstranse completamente recheas."
+
+
+
+}
 
 
 },
@@ -1346,11 +1833,125 @@
 
 
 
+"error": "Houbo erros ao se intentar gardar. ",
+
+
+
+"status_code": "O servidor devolveu a referencia de estado {code}",
+
+
+
+"unknown_error_details": "Asegúrse de que está conectado a internet.",
+
+
+
 "uploading": "Subindo cambios a OpenStreetMap.",
 
 
 
-"unsaved_changes": "Tes cambios sen gardar"
+"unsaved_changes": "Tes cambios sen gardar",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Resolvendo os conflitos de edición",
+
+
+
+
+"count": "Conflito {num} de {total}",
+
+
+
+
+"previous": "< Anterior",
+
+
+
+
+"next": "Seguinte >",
+
+
+
+
+"keep_local": "Manter a miña",
+
+
+
+
+"keep_remote": "Usar a súa",
+
+
+
+
+"restore": "Recuperar",
+
+
+
+
+"delete": "Deixar eliminadas",
+
+
+
+
+"download_changes": "ou descargar os seus cambios.",
+
+
+
+
+"done": "Resolvéronse todos os conflitos.",
+
+
+
+
+"help": "Outro usuario e ti cambiáchedes as mesmas propiedades do mapa.\nPreme en cada un dos elementos de embaixo para ver con máis detalle cada un dos \nconflitos que se dan. Escolle cales son os cambios teus que queres manter e cales son \nos queres polos feitos polo outro usuario. \n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "Este elemento eliminouno {user}.",
+
+
+
+
+"location": "Este obxecto movéstelo ti e {user}.",
+
+
+
+
+"nodelist": "Este obxecto cambiáchedelo ti e {user}.",
+
+
+
+
+"memberlist": "Os elementos da relación modificáronnos {user} e máis vostede,",
+
+
+
+
+"tags": "Cambiaches a etiqueta  <b>{tag}</b> a \"{local}\" e {user} cambiouna para \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1394,7 +1995,11 @@
 
 
 
-"okay": "Vale"
+"okay": "Vale",
+
+
+
+"cancel": "Cancelar"
 
 
 },
@@ -1547,7 +2152,11 @@
 
 
 
-"title": "Superposición de fotos (Mapillary)"
+"title": "Superposición de fotos (Mapillary)",
+
+
+
+"view_on_mapillary": "Ver esta imaxe en Mapillary"
 
 
 },

@@ -240,22 +240,6 @@
 
 
 
-"footway/crosswalk": {
-
-
-
-
-
-"name": "Pedestrian Crossing"
-
-
-
-
-},
-
-
-
-
 "highway/bridleway": {
 
 
@@ -263,22 +247,6 @@
 
 
 "name": "Bridleway"
-
-
-
-
-},
-
-
-
-
-"highway/crosswalk": {
-
-
-
-
-
-"name": "Zebra Crossing"
 
 
 

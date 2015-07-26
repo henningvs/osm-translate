@@ -192,172 +192,7 @@
 
 
 
-"placeholder": "Tidak diketahui",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Umum",
-
-
-
-
-
-
-"foot": "Kaki",
-
-
-
-
-
-
-"motor_vehicle": "Sepeda Motor",
-
-
-
-
-
-
-"bicycle": "Sepeda",
-
-
-
-
-
-
-"horse": "Kuda"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Diizinkan"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Terlarang",
-
-
-
-
-
-
-
-"description": "Akses terbatas untuk umum"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Dibolehkan",
-
-
-
-
-
-
-
-"description": "Akses diperbolehkan sampai batas pemilik membatalkan izin"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Pribadi",
-
-
-
-
-
-
-
-"description": "Akses diperbolehkan hanya dengan perizinan dari pemilik pada tingkatan pribadi"
-
-
-
-
-
-
-},
 
 
 
@@ -372,7 +207,7 @@
 
 
 
-"title": "Ditunjuk",
+"description": "Akses diperbolehkan sesuai dengan tanda atau peraturan lokal yang spesifik",
 
 
 
@@ -380,7 +215,7 @@
 
 
 
-"description": "Akses diperbolehkan sesuai dengan tanda atau peraturan lokal yang spesifik"
+"title": "Ditunjuk"
 
 
 
@@ -402,7 +237,7 @@
 
 
 
-"title": "Tujuan",
+"description": "Akses diperbolehkan hanya untuk mencapai tujuan",
 
 
 
@@ -410,7 +245,127 @@
 
 
 
-"description": "Akses diperbolehkan hanya untuk mencapai tujuan"
+"title": "Tujuan"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Akses terbatas untuk umum",
+
+
+
+
+
+
+
+"title": "Terlarang"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Akses diperbolehkan sampai batas pemilik membatalkan izin",
+
+
+
+
+
+
+
+"title": "Dibolehkan"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Akses diperbolehkan hanya dengan perizinan dari pemilik pada tingkatan pribadi",
+
+
+
+
+
+
+
+"title": "Pribadi"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Akses diperbolehkan oleh hukum; hak pengguna jalan",
+
+
+
+
+
+
+
+"title": "Diizinkan"
 
 
 
@@ -418,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Tidak diketahui",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Umum",
+
+
+
+
+
+
+"bicycle": "Sepeda",
+
+
+
+
+
+
+"foot": "Kaki",
+
+
+
+
+
+
+"horse": "Kuda",
+
+
+
+
+
+
+"motor_vehicle": "Kendaraan Bermotor"
 
 
 
@@ -445,7 +453,7 @@
 
 
 
-"placeholder": "iya"
+"placeholder": "ya"
 
 
 
@@ -490,6 +498,34 @@
 
 
 
+"city": "Kota",
+
+
+
+
+
+
+"country": "Negara",
+
+
+
+
+
+
+"district": "Kabupaten",
+
+
+
+
+
+
+"hamlet": "Dusun",
+
+
+
+
+
+
 "housename": "Nama rumah",
 
 
@@ -504,27 +540,6 @@
 
 
 
-"street": "Jalan",
-
-
-
-
-
-
-"city": "Kota",
-
-
-
-
-
-
-"postcode": "Kode pos",
-
-
-
-
-
-
 "place": "Tempat",
 
 
@@ -532,28 +547,7 @@
 
 
 
-"hamlet": "Dusun",
-
-
-
-
-
-
-"suburb": "Kelurahan",
-
-
-
-
-
-
-"subdistrict": "Kecamatan",
-
-
-
-
-
-
-"district": "Kabupaten",
+"postcode": "Kode pos",
 
 
 
@@ -574,7 +568,21 @@
 
 
 
-"country": "Negara"
+"street": "Jalan",
+
+
+
+
+
+
+"subdistrict": "Kecamatan",
+
+
+
+
+
+
+"suburb": "Kelurahan"
 
 
 
@@ -641,6 +649,13 @@
 
 
 
+"both": "Keduanya",
+
+
+
+
+
+
 "entry": "Masuk",
 
 
@@ -648,14 +663,7 @@
 
 
 
-"exit": "Keluar",
-
-
-
-
-
-
-"both": "Keduanya"
+"exit": "Keluar"
 
 
 
@@ -677,7 +685,7 @@
 
 
 
-"label": "Kapasitas (perjam)",
+"label": "Kapasitas (per jam)",
 
 
 
@@ -759,7 +767,20 @@
 
 
 
+"label": "Akses (musim panas)",
+
+
+
+
+
 "options": {
+
+
+
+
+
+
+"both": "Keduanya",
 
 
 
@@ -773,14 +794,7 @@
 
 
 
-"exit": "Keluar",
-
-
-
-
-
-
-"both": "Keduanya"
+"exit": "Keluar"
 
 
 
@@ -860,6 +874,22 @@
 
 
 
+"backrest": {
+
+
+
+
+
+"label": "Sandaran"
+
+
+
+
+},
+
+
+
+
 "barrier": {
 
 
@@ -867,6 +897,22 @@
 
 
 "label": "Tipe"
+
+
+
+
+},
+
+
+
+
+"bench": {
+
+
+
+
+
+"label": "Bangku"
 
 
 
@@ -899,6 +945,22 @@
 
 
 "label": "Tipe"
+
+
+
+
+},
+
+
+
+
+"brand": {
+
+
+
+
+
+"label": "Merek"
 
 
 
@@ -981,63 +1043,7 @@
 
 
 
-"N": "Utara",
-
-
-
-
-
-
 "E": "Timur",
-
-
-
-
-
-
-"S": "Selatan",
-
-
-
-
-
-
-"W": "Barat",
-
-
-
-
-
-
-"NE": "Timur Laut",
-
-
-
-
-
-
-"SE": "Tenggara",
-
-
-
-
-
-
-"SW": "Barat Daya",
-
-
-
-
-
-
-"NW": "Barat Laut",
-
-
-
-
-
-
-"NNE": "Utara-timur laut",
 
 
 
@@ -1058,6 +1064,55 @@
 
 
 
+"N": "Utara",
+
+
+
+
+
+
+"NE": "Timur Laut",
+
+
+
+
+
+
+"NNE": "Utara-timur laut",
+
+
+
+
+
+
+"NNW": "Timur-barat laut",
+
+
+
+
+
+
+"NW": "Barat Laut",
+
+
+
+
+
+
+"S": "Selatan",
+
+
+
+
+
+
+"SE": "Tenggara",
+
+
+
+
+
+
 "SSE": "Selatan-tenggara",
 
 
@@ -1072,7 +1127,14 @@
 
 
 
-"WSW": "Barat-barat daya",
+"SW": "Barat Daya",
+
+
+
+
+
+
+"W": "Barat",
 
 
 
@@ -1086,7 +1148,7 @@
 
 
 
-"NNW": "Timur-barat laut"
+"WSW": "Barat-barat daya"
 
 
 
@@ -1121,14 +1183,14 @@
 
 
 
-"clockwise": "Searah Jarum Jam",
+"anticlockwise": "Berlawanan Jarum Jam",
 
 
 
 
 
 
-"anticlockwise": "Berlawanan Jarum Jam"
+"clockwise": "Searah Jarum Jam"
 
 
 
@@ -1263,6 +1325,228 @@
 
 
 "label": "Masakan"
+
+
+
+
+},
+
+
+
+
+"cycleway": {
+
+
+
+
+
+"label": "Jalur Sepeda",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Jalur sepeda dipisahkan dari lalu lintas oleh garis"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Tidak ada jalur sepeda",
+
+
+
+
+
+
+
+"title": "Tidak ada"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Jalur sepeda yang melintas dua arah pada jalan satu arah"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Jalur sepeda yang melintas berlawanan arah dengan lalu lintas"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Jalur sepeda berbagi dengan jalur bus"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Jalur sepeda yang tak dipisahkan dari lalu lintas"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Jalur sepeda dipisahkan dari lalu lintas oleh pembatas"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "tidak ada",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Sisi kiri",
+
+
+
+
+
+
+"cycleway:right": "Sisi kanan"
+
+
+
+
+
+}
 
 
 
@@ -1470,21 +1754,21 @@
 
 
 
-"underground": "Dibawah tanah",
+"pond": "Kolam",
 
 
 
 
 
 
-"wall": "Tembok",
+"underground": "Bawah tanah",
 
 
 
 
 
 
-"pond": "Kolam"
+"wall": "Tembok"
 
 
 
@@ -1507,6 +1791,22 @@
 
 
 "label": "Perbaiki Saya"
+
+
+
+
+},
+
+
+
+
+"fuel": {
+
+
+
+
+
+"label": "Bahan bakar"
 
 
 
@@ -1596,6 +1896,118 @@
 
 
 
+"fuel/octane_100": {
+
+
+
+
+
+"label": "Menjual Bensin Balap"
+
+
+
+
+},
+
+
+
+
+"fuel/octane_91": {
+
+
+
+
+
+"label": "Menjual Bensin Biasa"
+
+
+
+
+},
+
+
+
+
+"fuel/octane_95": {
+
+
+
+
+
+"label": "Menjual Bensin Kualitas Menengah"
+
+
+
+
+},
+
+
+
+
+"fuel/octane_98": {
+
+
+
+
+
+"label": "Menjual Bensin Kualitas Tinggi"
+
+
+
+
+},
+
+
+
+
+"gender": {
+
+
+
+
+
+"label": "Kelamin",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"female": "Perempuan",
+
+
+
+
+
+
+"male": "Laki-laki"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Tidak diketahui"
+
+
+
+
+},
+
+
+
+
 "generator/method": {
 
 
@@ -1666,7 +2078,7 @@
 
 
 
-"label": "TIpe"
+"label": "Tipe"
 
 
 
@@ -1682,7 +2094,7 @@
 
 
 
-"label": "TIpe"
+"label": "Tipe"
 
 
 
@@ -1759,13 +2171,6 @@
 
 
 
-"yes": "Iya",
-
-
-
-
-
-
 "no": "Tidak",
 
 
@@ -1773,7 +2178,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Terminal",
 
 
 
@@ -1787,7 +2192,14 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "Wifi",
+
+
+
+
+
+
+"yes": "Ya"
 
 
 
@@ -1927,6 +2339,22 @@
 
 
 
+"lit": {
+
+
+
+
+
+"label": "Disinari"
+
+
+
+
+},
+
+
+
+
 "location": {
 
 
@@ -2003,12 +2431,6 @@
 
 
 
-"placeholder": "Mudah, Menengah, Susah...",
-
-
-
-
-
 "options": {
 
 
@@ -2050,7 +2472,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Mudah, Menengah, Susah..."
 
 
 
@@ -2181,14 +2609,21 @@
 
 
 
-"yes": "Iya",
+"no": "Tidak",
 
 
 
 
 
 
-"no": "Tidak"
+"undefined": "Dianggap Tidak",
+
+
+
+
+
+
+"yes": "Ya"
 
 
 
@@ -2223,14 +2658,21 @@
 
 
 
-"yes": "Iya",
+"no": "Tidak",
 
 
 
 
 
 
-"no": "Tidak"
+"undefined": "Dianggap Ya",
+
+
+
+
+
+
+"yes": "Ya"
 
 
 
@@ -2473,6 +2915,105 @@
 
 
 
+"recycling/cans": {
+
+
+
+
+
+"label": "Menerima Kaleng"
+
+
+
+
+},
+
+
+
+
+"recycling/clothes": {
+
+
+
+
+
+"label": "Menerima Pakaian"
+
+
+
+
+},
+
+
+
+
+"recycling/glass": {
+
+
+
+
+
+"label": "Menerima Kaca"
+
+
+
+
+},
+
+
+
+
+"recycling/paper": {
+
+
+
+
+
+"label": "Menerima Kertas"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"label": "Jenis Daur Ulang",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Pusat Daur Ulang"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "ref": {
 
 
@@ -2537,6 +3078,22 @@
 
 
 
+"restrictions": {
+
+
+
+
+
+"label": "Larangan Berbelok"
+
+
+
+
+},
+
+
+
+
 "route": {
 
 
@@ -2569,6 +3126,22 @@
 
 
 
+"seasonal": {
+
+
+
+
+
+"label": "Musiman"
+
+
+
+
+},
+
+
+
+
 "service": {
 
 
@@ -2576,6 +3149,98 @@
 
 
 "label": "Tipe"
+
+
+
+
+},
+
+
+
+
+"service/bicycle/chain_tool": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Tidak",
+
+
+
+
+
+
+"undefined": "Dianggap Tidak",
+
+
+
+
+
+
+"yes": "Ya"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service/bicycle/pump": {
+
+
+
+
+
+"label": "Pompa Angin",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Tidak",
+
+
+
+
+
+
+"undefined": "Dianggap Tidak",
+
+
+
+
+
+
+"yes": "Ya"
+
+
+
+
+
+}
 
 
 
@@ -2633,13 +3298,89 @@
 
 
 
+"smoking": {
+
+
+
+
+
+"label": "Merokok",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"dedicated": "Diperuntukkan bagi perokok (contoh: klub perokok)",
+
+
+
+
+
+
+"isolated": "Dalam tempat merokok, tertutup",
+
+
+
+
+
+
+"no": "Dilarang merokok di mana saja",
+
+
+
+
+
+
+"outside": "Diperbolehkan di luar",
+
+
+
+
+
+
+"separated": "Dalam tempat merokok, terbuka",
+
+
+
+
+
+
+"yes": "Diperbolehkan di mana saja"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Tidak, Terpisah, Ya..."
+
+
+
+
+},
+
+
+
+
 "social_facility_for": {
 
 
 
 
 
-"placeholder": "Tuna Wisma, Disabilitas, Anak-anak, dll"
+"placeholder": "Tunawisma, Disabilitas, Anak-anak, dll"
 
 
 
@@ -2687,7 +3428,7 @@
 
 
 
-"label": "Olagraga"
+"label": "Olahraga"
 
 
 
@@ -2709,12 +3450,6 @@
 
 
 
-"placeholder": "Tak Diketahui",
-
-
-
-
-
 "options": {
 
 
@@ -2729,20 +3464,26 @@
 
 
 
-"tunnel": "Terowongan",
+"ford": "Ford",
 
 
 
 
 
 
-"ford": "Ford"
+"tunnel": "Terowongan"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Tak Diketahui"
 
 
 
@@ -2775,6 +3516,42 @@
 
 
 "label": "Permukaan"
+
+
+
+
+},
+
+
+
+
+"takeaway": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Tidak",
+
+
+
+
+
+
+"yes": "Ya"
+
+
+
+
+
+}
 
 
 
@@ -2838,7 +3615,60 @@
 
 
 
-"label": "Tipe Trek"
+"label": "Tipe Trek",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"grade1": "Solid: diaspal atau permukaan keras sangat tetal",
+
+
+
+
+
+
+"grade2": "Kebanyakan Padat: batu/kerikil dengan campuran bahan lunak",
+
+
+
+
+
+
+"grade3": "Campuran imbang antara bahan padat dan lunak",
+
+
+
+
+
+
+"grade4": "Kebanyakan Lembut: tanah/pasir/rumput dengan campuran bahan keras",
+
+
+
+
+
+
+"grade5": "Lembut: tanah/pasir/rumput"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Padat, Kebanyakan Padat, Lembut..."
 
 
 
@@ -2924,7 +3754,7 @@
 
 
 
-"placeholder": "http://contoh.com/"
+"placeholder": "http://example.com/"
 
 
 
@@ -3028,6 +3858,22 @@
 
 
 
+"aerialway/cable_car": {
+
+
+
+
+
+"name": "Kereta Gantung"
+
+
+
+
+},
+
+
+
+
 "aerialway/gondola": {
 
 
@@ -3050,7 +3896,13 @@
 
 
 
-"name": "Landas pacu"
+"name": "Aeroway",
+
+
+
+
+
+"terms": "Pesawat, Bandara, Bandar udara"
 
 
 
@@ -3082,6 +3934,28 @@
 
 
 
+"aeroway/apron": {
+
+
+
+
+
+"name": "Pelataran pesawat",
+
+
+
+
+
+"terms": "Apron, Parkir Pesawat"
+
+
+
+
+},
+
+
+
+
 "aeroway/gate": {
 
 
@@ -3104,7 +3978,7 @@
 
 
 
-"name": "Hangar"
+"name": "Hanggar"
 
 
 
@@ -3126,7 +4000,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Landasan Heli', dipisahkan dengan koma>"
+"terms": "Helikopter, Pendaratan Helikopter, Bandar Helikopter"
 
 
 
@@ -3142,7 +4016,7 @@
 
 
 
-"name": "Landaspacu"
+"name": "Landas pacu"
 
 
 
@@ -3158,7 +4032,13 @@
 
 
 
-"name": "Jalur taksi"
+"name": "Landas hubung",
+
+
+
+
+
+"terms": "Landas gelinding, Jalan rayap, Landas ancang"
 
 
 
@@ -3244,7 +4124,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Bank', dipisahkan dengan koma>"
+"terms": "Uang, Keuangan"
 
 
 
@@ -3292,7 +4172,13 @@
 
 
 
-"name": "Kursi"
+"name": "Bangku",
+
+
+
+
+
+"terms": "Tempat Duduk"
 
 
 
@@ -3346,6 +4232,44 @@
 
 
 
+"amenity/bicycle_repair_station": {
+
+
+
+
+
+"name": "Bengkel Sepeda",
+
+
+
+
+
+"terms": "Perbaikan Sepeda"
+
+
+
+
+},
+
+
+
+
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Taman Bir"
+
+
+
+
+},
+
+
+
+
 "amenity/boat_rental": {
 
 
@@ -3353,6 +4277,22 @@
 
 
 "name": "Penyewaan Perahu Boat"
+
+
+
+
+},
+
+
+
+
+"amenity/bureau_de_change": {
+
+
+
+
+
+"name": "Penukaran Mata Uang"
 
 
 
@@ -3384,7 +4324,7 @@
 
 
 
-"name": "Cafe",
+"name": "Kafe",
 
 
 
@@ -3444,6 +4384,38 @@
 
 
 
+"amenity/casino": {
+
+
+
+
+
+"name": "Kasino"
+
+
+
+
+},
+
+
+
+
+"amenity/childcare": {
+
+
+
+
+
+"name": "Tempat Penitipan Anak"
+
+
+
+
+},
+
+
+
+
 "amenity/cinema": {
 
 
@@ -3456,7 +4428,7 @@
 
 
 
-"terms": "Bioskop"
+"terms": "Sinema"
 
 
 
@@ -3514,6 +4486,28 @@
 
 
 
+"amenity/compressed_air": {
+
+
+
+
+
+"name": "Pompa Ban",
+
+
+
+
+
+"terms": "Tempat Isi Angin Ban"
+
+
+
+
+},
+
+
+
+
 "amenity/courthouse": {
 
 
@@ -3526,7 +4520,7 @@
 
 
 
-"terms": "Pengadilan"
+"terms": "Hukum"
 
 
 
@@ -3542,7 +4536,7 @@
 
 
 
-"name": "Doktor Gigi"
+"name": "Dokter Gigi"
 
 
 
@@ -3559,6 +4553,22 @@
 
 
 "name": "Dokter"
+
+
+
+
+},
+
+
+
+
+"amenity/dojo": {
+
+
+
+
+
+"name": "Sasana Bela Diri"
 
 
 
@@ -3700,7 +4710,39 @@
 
 
 
-"terms": "Kuburan"
+"terms": "Makam, Pemakaman, TPU"
+
+
+
+
+},
+
+
+
+
+"amenity/hospital": {
+
+
+
+
+
+"name": "Lingkungan Rumah Sakit"
+
+
+
+
+},
+
+
+
+
+"amenity/kindergarten": {
+
+
+
+
+
+"name": "Lingkungan Prasekolah/Taman Kanak-kanak"
 
 
 
@@ -3802,7 +4844,13 @@
 
 
 
-"name": "Farmasi"
+"name": "Apotek",
+
+
+
+
+
+"terms": "Farmasi"
 
 
 
@@ -3840,7 +4888,13 @@
 
 
 
-"name": "Candi Budha"
+"name": "Kuil Buddha",
+
+
+
+
+
+"terms": "Wihara"
 
 
 
@@ -3856,13 +4910,7 @@
 
 
 
-"name": "Gereja",
-
-
-
-
-
-"terms": "Gereja"
+"name": "Gereja"
 
 
 
@@ -3884,7 +4932,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Sinagog', dipisahkan dengan koma>"
+"terms": "Yahudi"
 
 
 
@@ -3944,13 +4992,13 @@
 
 
 
-"name": "Kotak surat",
+"name": "Kotak Surat",
 
 
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Kotak surat', dipisahkan dengan koma>"
+"terms": "Kotak Pos"
 
 
 
@@ -3972,7 +5020,7 @@
 
 
 
-"terms": "Kantor Pos"
+"terms": "Surat"
 
 
 
@@ -3998,6 +5046,44 @@
 
 
 
+"amenity/recycling": {
+
+
+
+
+
+"name": "Daur Ulang"
+
+
+
+
+},
+
+
+
+
+"amenity/register_office": {
+
+
+
+
+
+"name": "Dinas Catatan Sipil",
+
+
+
+
+
+"terms": "Dispendukcapil, Kependudukan, Penduduk"
+
+
+
+
+},
+
+
+
+
 "amenity/restaurant": {
 
 
@@ -4010,7 +5096,23 @@
 
 
 
-"terms": "Restoran"
+"terms": "Rumah Makan"
+
+
+
+
+},
+
+
+
+
+"amenity/school": {
+
+
+
+
+
+"name": "Lingkungan Sekolah"
 
 
 
@@ -4036,13 +5138,29 @@
 
 
 
+"amenity/social_facility/food_bank": {
+
+
+
+
+
+"name": "Bank Makanan"
+
+
+
+
+},
+
+
+
+
 "amenity/social_facility/homeless_shelter": {
 
 
 
 
 
-"name": "Tempat Penampungan Tuna Wisma"
+"name": "Tempat Penampungan Tunawisma"
 
 
 
@@ -4081,6 +5199,22 @@
 
 
 "terms": "Kolam Renang"
+
+
+
+
+},
+
+
+
+
+"amenity/taxi": {
+
+
+
+
+
+"name": "Tempat Tunggu Taksi"
 
 
 
@@ -4146,7 +5280,7 @@
 
 
 
-"terms": "Toilet, WC,"
+"terms": "Kamar Kecil, WC"
 
 
 
@@ -4178,6 +5312,22 @@
 
 
 
+"amenity/university": {
+
+
+
+
+
+"name": "Lingkungan Universitas"
+
+
+
+
+},
+
+
+
+
 "amenity/vending_machine": {
 
 
@@ -4185,6 +5335,22 @@
 
 
 "name": "Mesin Minuman"
+
+
+
+
+},
+
+
+
+
+"amenity/veterinary": {
+
+
+
+
+
+"name": "Dokter Hewan"
 
 
 
@@ -4216,7 +5382,13 @@
 
 
 
-"name": "Area"
+"name": "Area",
+
+
+
+
+
+"terms": "Daerah, Kawasan, Wilayah"
 
 
 
@@ -4482,6 +5654,22 @@
 
 
 
+"building/chapel": {
+
+
+
+
+
+"name": "Kapel"
+
+
+
+
+},
+
+
+
+
 "building/church": {
 
 
@@ -4520,7 +5708,7 @@
 
 
 
-"name": "Bangunan Komersil"
+"name": "Bangunan Komersial"
 
 
 
@@ -4584,7 +5772,7 @@
 
 
 
-"name": "Garasi"
+"name": "Garasi tunggal"
 
 
 
@@ -4600,7 +5788,23 @@
 
 
 
-"name": "Garasi"
+"name": "Garasi jamak"
+
+
+
+
+},
+
+
+
+
+"building/greenhouse": {
+
+
+
+
+
+"name": "Rumah Kaca"
 
 
 
@@ -4681,6 +5885,22 @@
 
 
 "name": "Bangunan Industri"
+
+
+
+
+},
+
+
+
+
+"building/kindergarten": {
+
+
+
+
+
+"name": "Bangunan Prasekolah/Taman Kanak-kanak"
 
 
 
@@ -4824,7 +6044,23 @@
 
 
 
-"name": "Gundang"
+"name": "Gudang"
+
+
+
+
+},
+
+
+
+
+"craft": {
+
+
+
+
+
+"name": "Pengrajin"
 
 
 
@@ -4898,6 +6134,44 @@
 
 
 
+"craft/bookbinder": {
+
+
+
+
+
+"name": "Tukang Jilid",
+
+
+
+
+
+"terms": "Penjilid Buku, Binder Buku"
+
+
+
+
+},
+
+
+
+
+"craft/brewery": {
+
+
+
+
+
+"name": "Perusahaan Bir"
+
+
+
+
+},
+
+
+
+
 "craft/carpenter": {
 
 
@@ -4905,6 +6179,28 @@
 
 
 "name": "Tukang Kayu"
+
+
+
+
+},
+
+
+
+
+"craft/caterer": {
+
+
+
+
+
+"name": "Jasa Boga",
+
+
+
+
+
+"terms": "Katering, Pejasaboga"
 
 
 
@@ -4930,13 +6226,35 @@
 
 
 
+"craft/confectionery": {
+
+
+
+
+
+"name": "Penganan",
+
+
+
+
+
+"terms": "Toko Kue, Toko Kudapan"
+
+
+
+
+},
+
+
+
+
 "craft/dressmaker": {
 
 
 
 
 
-"name": "Penjahit"
+"name": "Penjahit Pakaian Wanita"
 
 
 
@@ -4978,6 +6296,54 @@
 
 
 
+"craft/handicraft": {
+
+
+
+
+
+"name": "Kerajinan Tangan"
+
+
+
+
+},
+
+
+
+
+"craft/key_cutter": {
+
+
+
+
+
+"name": "Duplikat Kunci"
+
+
+
+
+},
+
+
+
+
+"craft/locksmith": {
+
+
+
+
+
+"name": "Ahli Kunci"
+
+
+
+
+},
+
+
+
+
 "craft/metal_construction": {
 
 
@@ -4994,6 +6360,22 @@
 
 
 
+"craft/painter": {
+
+
+
+
+
+"name": "Tukang Cat"
+
+
+
+
+},
+
+
+
+
 "craft/photographer": {
 
 
@@ -5001,6 +6383,104 @@
 
 
 "name": "Fotografer"
+
+
+
+
+},
+
+
+
+
+"craft/photographic_laboratory": {
+
+
+
+
+
+"name": "Laboratorium Fotografi",
+
+
+
+
+
+"terms": "Lab Fotografi"
+
+
+
+
+},
+
+
+
+
+"craft/plumber": {
+
+
+
+
+
+"name": "Tukang Ledeng",
+
+
+
+
+
+"terms": "Tukang Leding, Tukang Pipa"
+
+
+
+
+},
+
+
+
+
+"craft/pottery": {
+
+
+
+
+
+"name": "Tembikar",
+
+
+
+
+
+"terms": "Tanah Liat"
+
+
+
+
+},
+
+
+
+
+"craft/roofer": {
+
+
+
+
+
+"name": "Tukang Atap"
+
+
+
+
+},
+
+
+
+
+"craft/scaffolder": {
+
+
+
+
+
+"name": "Perancah"
 
 
 
@@ -5042,13 +6522,111 @@
 
 
 
+"craft/sweep": {
+
+
+
+
+
+"name": "Penyapu Cerobong"
+
+
+
+
+},
+
+
+
+
 "craft/tailor": {
 
 
 
 
 
-"name": "Tukang Jahit"
+"name": "Penjahit Pakaian Pria"
+
+
+
+
+},
+
+
+
+
+"craft/tinsmith": {
+
+
+
+
+
+"name": "Pandai Timah"
+
+
+
+
+},
+
+
+
+
+"craft/watchmaker": {
+
+
+
+
+
+"name": "Ahli Arloji",
+
+
+
+
+
+"terms": "Tukang Jam Tangan"
+
+
+
+
+},
+
+
+
+
+"craft/winery": {
+
+
+
+
+
+"name": "Penghasil Anggur",
+
+
+
+
+
+"terms": "Minuman Keras, Miras, Alkohol"
+
+
+
+
+},
+
+
+
+
+"emergency/ambulance_station": {
+
+
+
+
+
+"name": "Pos Ambulans",
+
+
+
+
+
+"terms": "Ambulan"
 
 
 
@@ -5064,7 +6642,13 @@
 
 
 
-"name": "Keran Pemadam Kebakaran"
+"name": "Keran Pemadam Kebakaran",
+
+
+
+
+
+"terms": "Hidran, Pompa Air"
 
 
 
@@ -5097,6 +6681,54 @@
 
 
 "name": "Pintu Masuk/Keluar"
+
+
+
+
+},
+
+
+
+
+"footway/crossing": {
+
+
+
+
+
+"name": "Penyeberangan Jalan"
+
+
+
+
+},
+
+
+
+
+"footway/crosswalk": {
+
+
+
+
+
+"name": "Penyeberangan Pejalan Kaki"
+
+
+
+
+},
+
+
+
+
+"footway/sidewalk": {
+
+
+
+
+
+"name": "Trotoar"
 
 
 
@@ -5144,23 +6776,7 @@
 
 
 
-"name": "Pemberhentian Bis"
-
-
-
-
-},
-
-
-
-
-"highway/crossing": {
-
-
-
-
-
-"name": "Penyebrangan"
+"name": "Pemberhentian Bus"
 
 
 
@@ -5198,7 +6814,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Titian Pejalan Kaki', dipisahkan dengan koma>"
+"terms": "Pejalan Kaki"
 
 
 
@@ -5224,6 +6840,22 @@
 
 
 
+"highway/mini_roundabout": {
+
+
+
+
+
+"name": "Bundaran Kecil"
+
+
+
+
+},
+
+
+
+
 "highway/motorway": {
 
 
@@ -5231,6 +6863,22 @@
 
 
 "name": "Jalan Tol"
+
+
+
+
+},
+
+
+
+
+"highway/motorway_junction": {
+
+
+
+
+
+"name": "Jalan Keluar Tol"
 
 
 
@@ -5272,13 +6920,19 @@
 
 
 
-"highway/pedestrian": {
+"highway/primary": {
 
 
 
 
 
-"name": "Pejalan kaki"
+"name": "Jalan Provinsi",
+
+
+
+
+
+"terms": "Jalan Primer, Jalan Utama"
 
 
 
@@ -5288,13 +6942,13 @@
 
 
 
-"highway/primary": {
+"highway/raceway": {
 
 
 
 
 
-"name": "Jalan Provinsi"
+"name": "Trek Balap"
 
 
 
@@ -5310,7 +6964,13 @@
 
 
 
-"name": "Jalan Perumahan"
+"name": "Jalan Perumahan",
+
+
+
+
+
+"terms": "Jalan Permukiman, Jalan Pemukiman"
 
 
 
@@ -5326,7 +6986,29 @@
 
 
 
-"name": "Tempat Peristirahatan"
+"name": "Tempat Peristirahatan",
+
+
+
+
+
+"terms": "Rest Area"
+
+
+
+
+},
+
+
+
+
+"highway/road": {
+
+
+
+
+
+"name": "Jalan Tak Diketahui"
 
 
 
@@ -5342,7 +7024,13 @@
 
 
 
-"name": "Jalan Kabupaten"
+"name": "Jalan Kabupaten",
+
+
+
+
+
+"terms": "Jalan Sekunder"
 
 
 
@@ -5400,13 +7088,67 @@
 
 
 
+"highway/service/parking_aisle": {
+
+
+
+
+
+"name": "Jalan Parkir"
+
+
+
+
+},
+
+
+
+
 "highway/steps": {
 
 
 
 
 
-"name": "Titian"
+"name": "Tangga"
+
+
+
+
+},
+
+
+
+
+"highway/stop": {
+
+
+
+
+
+"name": "Rambu Berhenti",
+
+
+
+
+
+"terms": "Tanda Stop"
+
+
+
+
+},
+
+
+
+
+"highway/street_lamp": {
+
+
+
+
+
+"name": "Lampu Jalan"
 
 
 
@@ -5422,7 +7164,13 @@
 
 
 
-"name": "Jalan Kota"
+"name": "Jalan Kota",
+
+
+
+
+
+"terms": "Jalan Tersier"
 
 
 
@@ -5460,7 +7208,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Lampu Merah', dipisahkan dengan koma>"
+"terms": "Lampu Merah"
 
 
 
@@ -5540,7 +7288,7 @@
 
 
 
-"name": "Situs arkeologi"
+"name": "Situs Arkeologi"
 
 
 
@@ -5556,7 +7304,13 @@
 
 
 
-"name": "Kastil"
+"name": "Istana",
+
+
+
+
+
+"terms": "Kastil, Benteng, Kastel"
 
 
 
@@ -5605,6 +7359,28 @@
 
 
 "name": "Reruntuhan"
+
+
+
+
+},
+
+
+
+
+"junction": {
+
+
+
+
+
+"name": "Persimpangan",
+
+
+
+
+
+"terms": "Pertigaan, Perempatan"
 
 
 
@@ -5668,7 +7444,13 @@
 
 
 
-"name": "Kuburan"
+"name": "Pemakaman",
+
+
+
+
+
+"terms": "Kuburan, Makam, TPU, Tempat Pemakaman Umum"
 
 
 
@@ -5685,6 +7467,28 @@
 
 
 "name": "Halaman Gereja"
+
+
+
+
+},
+
+
+
+
+"landuse/commercial": {
+
+
+
+
+
+"name": "Kawasan Niaga",
+
+
+
+
+
+"terms": "Area Komersial, Daerah Komersial"
 
 
 
@@ -5758,6 +7562,22 @@
 
 
 
+"landuse/industrial": {
+
+
+
+
+
+"name": "Kawasan Industri"
+
+
+
+
+},
+
+
+
+
 "landuse/meadow": {
 
 
@@ -5765,6 +7585,28 @@
 
 
 "name": "Padang Rumput"
+
+
+
+
+},
+
+
+
+
+"landuse/military": {
+
+
+
+
+
+"name": "Daerah Militer",
+
+
+
+
+
+"terms": "Area Militer, Kawasan Militer"
 
 
 
@@ -5797,6 +7639,50 @@
 
 
 "name": "Pertambangan"
+
+
+
+
+},
+
+
+
+
+"landuse/residential": {
+
+
+
+
+
+"name": "Daerah Permukiman",
+
+
+
+
+
+"terms": "Perumahan, Pemukiman"
+
+
+
+
+},
+
+
+
+
+"landuse/retail": {
+
+
+
+
+
+"name": "Daerah Perbelanjaan",
+
+
+
+
+
+"terms": "Belanja, Berbelanja, Eceran, Pertokoan"
 
 
 
@@ -5902,6 +7788,44 @@
 
 
 
+"leisure/ice_rink": {
+
+
+
+
+
+"name": "Arena Seluncur Es",
+
+
+
+
+
+"terms": "Ice Skating"
+
+
+
+
+},
+
+
+
+
+"leisure/nature_reserve": {
+
+
+
+
+
+"name": "Cagar Alam"
+
+
+
+
+},
+
+
+
+
 "leisure/park": {
 
 
@@ -5914,7 +7838,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Taman', dipisahkan dengan koma>"
+"terms": "Kebun"
 
 
 
@@ -5972,6 +7896,28 @@
 
 
 
+"leisure/pitch/baseball": {
+
+
+
+
+
+"name": "Lapangan Bisbol",
+
+
+
+
+
+"terms": "Baseball"
+
+
+
+
+},
+
+
+
+
 "leisure/pitch/basketball": {
 
 
@@ -5979,6 +7925,28 @@
 
 
 "name": "Lapangan Basket"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/skateboard": {
+
+
+
+
+
+"name": "Arena Papan Seluncur",
+
+
+
+
+
+"terms": "Skating, Skateboarding"
 
 
 
@@ -6052,6 +8020,22 @@
 
 
 
+"leisure/running_track": {
+
+
+
+
+
+"name": "Lintasan Lari"
+
+
+
+
+},
+
+
+
+
 "leisure/sports_center": {
 
 
@@ -6100,6 +8084,22 @@
 
 
 
+"leisure/track": {
+
+
+
+
+
+"name": "Jalur Balap (tidak bermotor)"
+
+
+
+
+},
+
+
+
+
 "line": {
 
 
@@ -6123,6 +8123,44 @@
 
 
 "name": "Buatan manusia"
+
+
+
+
+},
+
+
+
+
+"man_made/breakwater": {
+
+
+
+
+
+"name": "Pemecah Gelombang",
+
+
+
+
+
+"terms": "Pemecah Ombak, Tembok Laut"
+
+
+
+
+},
+
+
+
+
+"man_made/flagpole": {
+
+
+
+
+
+"name": "Tiang Bendera"
 
 
 
@@ -6164,6 +8202,22 @@
 
 
 
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Sumur Minyak"
+
+
+
+
+},
+
+
+
+
 "man_made/pier": {
 
 
@@ -6171,6 +8225,44 @@
 
 
 "name": "Dermaga"
+
+
+
+
+},
+
+
+
+
+"man_made/pipeline": {
+
+
+
+
+
+"name": "Jalur Pipa",
+
+
+
+
+
+"terms": "Pipa Gas"
+
+
+
+
+},
+
+
+
+
+"man_made/storage_tank": {
+
+
+
+
+
+"name": "Tangki Penyimpanan"
 
 
 
@@ -6212,13 +8304,57 @@
 
 
 
+"man_made/wastewater_plant": {
+
+
+
+
+
+"name": "Pabrik Air Limbah",
+
+
+
+
+
+"terms": "Limbah, Limbah Cair"
+
+
+
+
+},
+
+
+
+
 "man_made/water_tower": {
 
 
 
 
 
-"name": "Tower Air"
+"name": "Menara Air"
+
+
+
+
+},
+
+
+
+
+"man_made/water_well": {
+
+
+
+
+
+"name": "Sumur",
+
+
+
+
+
+"terms": "Perigi"
 
 
 
@@ -6276,6 +8412,22 @@
 
 
 
+"natural/cave_entrance": {
+
+
+
+
+
+"name": "Pintu Gua"
+
+
+
+
+},
+
+
+
+
 "natural/cliff": {
 
 
@@ -6304,7 +8456,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Garis Pantai', dipisahkan dengan koma>"
+"terms": "Laut, Batas"
 
 
 
@@ -6320,7 +8472,13 @@
 
 
 
-"name": "Sungai Es"
+"name": "Gletser",
+
+
+
+
+
+"terms": "Sungai Es"
 
 
 
@@ -6374,7 +8532,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Puncak', dipisahkan dengan koma>"
+"terms": "Gunung"
 
 
 
@@ -6432,6 +8590,44 @@
 
 
 
+"natural/tree_row": {
+
+
+
+
+
+"name": "Deretan pohon"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Gunung Api",
+
+
+
+
+
+"terms": "Gunung Berapi"
+
+
+
+
+},
+
+
+
+
 "natural/water": {
 
 
@@ -6460,7 +8656,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Danau', dipisahkan dengan koma>"
+"terms": "Situ"
 
 
 
@@ -6482,7 +8678,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Empang', dipisahkan dengan koma>"
+"terms": "Air"
 
 
 
@@ -6498,7 +8694,13 @@
 
 
 
-"name": "Serapan Air"
+"name": "Waduk",
+
+
+
+
+
+"terms": "Reservoir, Air, Danau"
 
 
 
@@ -6546,7 +8748,13 @@
 
 
 
-"name": "Kantor"
+"name": "Kantor",
+
+
+
+
+
+"terms": "Balai"
 
 
 
@@ -6604,6 +8812,22 @@
 
 
 
+"office/company": {
+
+
+
+
+
+"name": "Kantor Perusahaan"
+
+
+
+
+},
+
+
+
+
 "office/educational_institution": {
 
 
@@ -6620,13 +8844,29 @@
 
 
 
+"office/employment_agency": {
+
+
+
+
+
+"name": "Agen Tenaga Kerja"
+
+
+
+
+},
+
+
+
+
 "office/estate_agent": {
 
 
 
 
 
-"name": "Kantor Real Estat"
+"name": "Kantor Real Estate"
 
 
 
@@ -6690,7 +8930,13 @@
 
 
 
-"name": "Kantor IT"
+"name": "Kantor IT",
+
+
+
+
+
+"terms": "Teknologi Informasi, TI"
 
 
 
@@ -6722,7 +8968,7 @@
 
 
 
-"name": "Majalah"
+"name": "Koran"
 
 
 
@@ -6738,7 +8984,7 @@
 
 
 
-"name": "Kantor NGO"
+"name": "Kantor LSM"
 
 
 
@@ -6872,7 +9118,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Pulau', dipisahkan dengan koma>"
+"terms": "Tanah, Daratan"
 
 
 
@@ -7058,6 +9304,22 @@
 
 
 
+"railway/abandoned": {
+
+
+
+
+
+"name": "Rel Terhapus"
+
+
+
+
+},
+
+
+
+
 "railway/disused": {
 
 
@@ -7080,7 +9342,29 @@
 
 
 
-"name": "Monorail"
+"name": "Monorel"
+
+
+
+
+},
+
+
+
+
+"railway/narrow_gauge": {
+
+
+
+
+
+"name": "Sepur Sempit",
+
+
+
+
+
+"terms": "Narrow Gauge Rail, Trek, Trak, Lebar Jalur Kereta Api"
 
 
 
@@ -7144,7 +9428,7 @@
 
 
 
-"name": "Terowongan"
+"name": "Jalur Bawah Tanah"
 
 
 
@@ -7202,13 +9486,35 @@
 
 
 
+"roundabout": {
+
+
+
+
+
+"name": "Bundaran"
+
+
+
+
+},
+
+
+
+
 "route/ferry": {
 
 
 
 
 
-"name": "Rute Fery"
+"name": "Rute Feri",
+
+
+
+
+
+"terms": "Kapal, Laut"
 
 
 
@@ -7250,6 +9556,92 @@
 
 
 
+"shop/anime": {
+
+
+
+
+
+"name": "Toko Anime",
+
+
+
+
+
+"terms": "Manga, Komik"
+
+
+
+
+},
+
+
+
+
+"shop/antiques": {
+
+
+
+
+
+"name": "Toko Barang Antik"
+
+
+
+
+},
+
+
+
+
+"shop/art": {
+
+
+
+
+
+"name": "Galeri Seni"
+
+
+
+
+},
+
+
+
+
+"shop/baby_goods": {
+
+
+
+
+
+"name": "Toko Perlengkapan Bayi"
+
+
+
+
+},
+
+
+
+
+"shop/bag": {
+
+
+
+
+
+"name": "Toko Tas/Koper"
+
+
+
+
+},
+
+
+
+
 "shop/bakery": {
 
 
@@ -7266,6 +9658,22 @@
 
 
 
+"shop/bathroom_furnishing": {
+
+
+
+
+
+"name": "Toko Perlengkapan Kamar Mandi"
+
+
+
+
+},
+
+
+
+
 "shop/beauty": {
 
 
@@ -7273,6 +9681,28 @@
 
 
 "name": "Salon Kecantikan"
+
+
+
+
+},
+
+
+
+
+"shop/bed": {
+
+
+
+
+
+"name": "Toko Selimut/Matras",
+
+
+
+
+
+"terms": "Tempat Tidur, Sprei, Seprai, Ranjang, Kamar Tidur"
 
 
 
@@ -7314,6 +9744,28 @@
 
 
 
+"shop/bookmaker": {
+
+
+
+
+
+"name": "Juru Taruh",
+
+
+
+
+
+"terms": "Tukang Taruh, Taruhan, Judi"
+
+
+
+
+},
+
+
+
+
 "shop/books": {
 
 
@@ -7336,7 +9788,13 @@
 
 
 
-"name": "Butik"
+"name": "Butik",
+
+
+
+
+
+"terms": "Toko Baju, Pakaian"
 
 
 
@@ -7602,6 +10060,44 @@
 
 
 
+"shop/curtain": {
+
+
+
+
+
+"name": "Toko Gorden",
+
+
+
+
+
+"terms": "Toko Tirai"
+
+
+
+
+},
+
+
+
+
+"shop/dairy": {
+
+
+
+
+
+"name": "Toko Susu"
+
+
+
+
+},
+
+
+
+
 "shop/department_store": {
 
 
@@ -7609,6 +10105,50 @@
 
 
 "name": "Pasar Swalayan"
+
+
+
+
+},
+
+
+
+
+"shop/doityourself": {
+
+
+
+
+
+"name": "Toko Swakriya",
+
+
+
+
+
+"terms": "Lakukan Sendiri, DIY"
+
+
+
+
+},
+
+
+
+
+"shop/dry_cleaning": {
+
+
+
+
+
+"name": "Jasa Cuci Kering",
+
+
+
+
+
+"terms": "Dry Clean"
 
 
 
@@ -7650,6 +10190,44 @@
 
 
 
+"shop/fashion": {
+
+
+
+
+
+"name": "Toko Mode",
+
+
+
+
+
+"terms": "Fashion, Fesyen"
+
+
+
+
+},
+
+
+
+
+"shop/fishmonger": {
+
+
+
+
+
+"name": "Penjual Ikan"
+
+
+
+
+},
+
+
+
+
 "shop/florist": {
 
 
@@ -7682,6 +10260,22 @@
 
 
 
+"shop/furnace": {
+
+
+
+
+
+"name": "Toko Perapian"
+
+
+
+
+},
+
+
+
+
 "shop/furniture": {
 
 
@@ -7689,6 +10283,28 @@
 
 
 "name": "Toko Furnitur"
+
+
+
+
+},
+
+
+
+
+"shop/garden_centre": {
+
+
+
+
+
+"name": "Toko Tanaman",
+
+
+
+
+
+"terms": "Bunga, Tanaman Hias, Kebun, Taman"
 
 
 
@@ -7762,6 +10378,50 @@
 
 
 
+"shop/hearing_aids": {
+
+
+
+
+
+"name": "Toko Alat Bantu Dengar",
+
+
+
+
+
+"terms": "Bantuan Pendengaran"
+
+
+
+
+},
+
+
+
+
+"shop/interior_decoration": {
+
+
+
+
+
+"name": "Toko Dekorasi Interior",
+
+
+
+
+
+"terms": "Hiasan, Rumah"
+
+
+
+
+},
+
+
+
+
 "shop/jewelry": {
 
 
@@ -7816,7 +10476,13 @@
 
 
 
-"name": "Laundri"
+"name": "Penatu",
+
+
+
+
+
+"terms": "Binatu, Laundry, Cuci Baju"
 
 
 
@@ -7842,13 +10508,61 @@
 
 
 
+"shop/locksmith": {
+
+
+
+
+
+"name": "Ahli Kunci"
+
+
+
+
+},
+
+
+
+
+"shop/lottery": {
+
+
+
+
+
+"name": "Toko Lotre"
+
+
+
+
+},
+
+
+
+
 "shop/mall": {
 
 
 
 
 
-"name": "Mall"
+"name": "Mal"
+
+
+
+
+},
+
+
+
+
+"shop/massage": {
+
+
+
+
+
+"name": "Panti Pijat"
 
 
 
@@ -7880,7 +10594,35 @@
 
 
 
-"name": "Toko Handphone"
+"name": "Toko Handphone",
+
+
+
+
+
+"terms": "HP, Smartphone, Ponsel"
+
+
+
+
+},
+
+
+
+
+"shop/money_lender": {
+
+
+
+
+
+"name": "Peminjaman Uang",
+
+
+
+
+
+"terms": "Lintah Darat"
 
 
 
@@ -7922,6 +10664,22 @@
 
 
 
+"shop/musical_instrument": {
+
+
+
+
+
+"name": "Toko Alat Musik"
+
+
+
+
+},
+
+
+
+
 "shop/newsagent": {
 
 
@@ -7944,7 +10702,13 @@
 
 
 
-"name": "Optik"
+"name": "Optik",
+
+
+
+
+
+"terms": "Mata"
 
 
 
@@ -7986,6 +10750,38 @@
 
 
 
+"shop/paint": {
+
+
+
+
+
+"name": "Toko Cat"
+
+
+
+
+},
+
+
+
+
+"shop/pawnbroker": {
+
+
+
+
+
+"name": "Pegadaian"
+
+
+
+
+},
+
+
+
+
 "shop/pet": {
 
 
@@ -8018,6 +10814,22 @@
 
 
 
+"shop/pyrotechnics": {
+
+
+
+
+
+"name": "Toko Kembang Api"
+
+
+
+
+},
+
+
+
+
 "shop/radiotechnics": {
 
 
@@ -8025,6 +10837,22 @@
 
 
 "name": "Toko Komponen Radio/Elektronik"
+
+
+
+
+},
+
+
+
+
+"shop/religion": {
+
+
+
+
+
+"name": "Toko Agamawi"
 
 
 
@@ -8056,7 +10884,29 @@
 
 
 
-"name": "Toko Seafood"
+"name": "Toko HIdangan Laut"
+
+
+
+
+},
+
+
+
+
+"shop/second_hand": {
+
+
+
+
+
+"name": "Jual Titip/Pasar Loak",
+
+
+
+
+
+"terms": "Konsinyasi/Toko Barang Bekas"
 
 
 
@@ -8104,7 +10954,7 @@
 
 
 
-"name": "Toko Perlengkapan Kantor"
+"name": "Toko Alat Tulis"
 
 
 
@@ -8126,7 +10976,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Supermarket', dipisahkan dengan koma>"
+"terms": "Pasar Swalayan"
 
 
 
@@ -8168,6 +11018,22 @@
 
 
 
+"shop/tea": {
+
+
+
+
+
+"name": "Toko Teh"
+
+
+
+
+},
+
+
+
+
 "shop/ticket": {
 
 
@@ -8175,6 +11041,28 @@
 
 
 "name": "Penjual Tiket"
+
+
+
+
+},
+
+
+
+
+"shop/tobacco": {
+
+
+
+
+
+"name": "Toko Tembakau",
+
+
+
+
+
+"terms": "Rokok"
 
 
 
@@ -8232,6 +11120,22 @@
 
 
 
+"shop/vacuum_cleaner": {
+
+
+
+
+
+"name": "Toko Pengisap Debu"
+
+
+
+
+},
+
+
+
+
 "shop/variety_store": {
 
 
@@ -8248,13 +11152,139 @@
 
 
 
+"shop/video": {
+
+
+
+
+
+"name": "Toko Video",
+
+
+
+
+
+"terms": "CD, DVD, Sewa"
+
+
+
+
+},
+
+
+
+
+"shop/video_games": {
+
+
+
+
+
+"name": "Toko Permainan Video",
+
+
+
+
+
+"terms": "Video Game"
+
+
+
+
+},
+
+
+
+
+"shop/water_sports": {
+
+
+
+
+
+"name": "Toko Renang/Olahraga Air"
+
+
+
+
+},
+
+
+
+
+"shop/weapons": {
+
+
+
+
+
+"name": "Toko Senjata"
+
+
+
+
+},
+
+
+
+
+"shop/window_blind": {
+
+
+
+
+
+"name": "Toko Kerai",
+
+
+
+
+
+"terms": "Jendela, Krey, Bidai, Tirai"
+
+
+
+
+},
+
+
+
+
+"shop/wine": {
+
+
+
+
+
+"name": "Toko Anggur",
+
+
+
+
+
+"terms": "Alkohol, Minum, Minuman Beralkohol"
+
+
+
+
+},
+
+
+
+
 "tourism": {
 
 
 
 
 
-"name": "Wisata"
+"name": "Pariwisata",
+
+
+
+
+
+"terms": "Wisata, Turisme"
 
 
 
@@ -8270,7 +11300,7 @@
 
 
 
-"name": "Karyaseni"
+"name": "Karya Seni"
 
 
 
@@ -8404,7 +11434,7 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Museum', dipisahkan dengan koma>"
+"terms": "Gedung Bersejarah, Sejarah, Prasejarah, Kuno"
 
 
 
@@ -8478,6 +11508,44 @@
 
 
 
+"traffic_calming/bump": {
+
+
+
+
+
+"name": "Polisi Tidur"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/rumble_strip": {
+
+
+
+
+
+"name": "Pita Kejut",
+
+
+
+
+
+"terms": "Marka Kejut, Pita Penggaduh, Garis Kejut, Rumble Strip"
+
+
+
+
+},
+
+
+
+
 "type/boundary": {
 
 
@@ -8516,7 +11584,7 @@
 
 
 
-"name": "Banyak-poligon"
+"name": "Multipoligon"
 
 
 
@@ -8644,7 +11712,7 @@
 
 
 
-"name": "Dilarang Putar Balik"
+"name": "Dilarang Berbelok"
 
 
 
@@ -8692,7 +11760,7 @@
 
 
 
-"name": "Rute Bis"
+"name": "Rute Bus"
 
 
 
@@ -8938,7 +12006,29 @@
 
 
 
-"terms": "<alihbahasa dengan sinonim atau istilah terkait untuk 'Sungai', dipisahkan dengan koma>"
+"terms": "Kali"
+
+
+
+
+},
+
+
+
+
+"waterway/riverbank": {
+
+
+
+
+
+"name": "Tepi Sungai",
+
+
+
+
+
+"terms": "Pinggir Kali"
 
 
 
@@ -8955,6 +12045,28 @@
 
 
 "name": "Aliran"
+
+
+
+
+},
+
+
+
+
+"waterway/weir": {
+
+
+
+
+
+"name": "Tanggul",
+
+
+
+
+
+"terms": "Sungai, Bendung"
 
 
 

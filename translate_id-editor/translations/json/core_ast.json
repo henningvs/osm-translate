@@ -143,7 +143,13 @@
 
 
 
-"vertex": "Amestáu un noyu a una vía"
+"vertex": "Amestáu un noyu a una vía",
+
+
+
+
+
+"relation": "Amestada una rellación."
 
 
 
@@ -187,6 +193,31 @@
 
 
 "continue": {
+
+
+
+
+"key": "A",
+
+
+
+
+"title": "Siguir",
+
+
+
+
+"description": "Siguir esta llinia",
+
+
+
+
+"not_eligible": "Equí nun pue siguise llinia denguna.",
+
+
+
+
+"multiple": "D'equí pueden siguise delles llinies. Pa escoyer una llinia, calca la tecla Mayús y fai clic nella pa seleicionala.",
 
 
 
@@ -314,7 +345,17 @@
 
 
 
-"too_large": "Esto nun pue facese circular porque anguaño nun ye visible bastante."
+"not_closed": "Nun pué facese circular porque nun ye un llazu.",
+
+
+
+
+"too_large": "Esto nun pue facese circular porque anguaño nun ye visible bastante.",
+
+
+
+
+"connected_to_hidden": "Nun pué facese circular porque ta coneutao a una carauterística tapecida."
 
 
 
@@ -386,7 +427,12 @@
 
 
 
-"too_large": "Esto nun pue escuadrase porque anguaño nun ye visible bastante."
+"too_large": "Esto nun pue escuadrase porque anguaño nun ye visible bastante.",
+
+
+
+
+"connected_to_hidden": "Nun pué facese cuadrao porque ta coneutao a una carauterística tapecida."
 
 
 
@@ -419,7 +465,12 @@
 
 
 
-"too_bendy": "Nun pue enderechase porque ta doblada enforma."
+"too_bendy": "Nun pue enderechase porque ta doblada enforma.",
+
+
+
+
+"connected_to_hidden": "Esta llinia nun puede enderechase porque ta coneutao a una carauterística tapecida."
 
 
 
@@ -433,6 +484,11 @@
 
 
 "title": "Desaniciar",
+
+
+
+
+"description": "Desaniciar l'oxetu de mou permanente.",
 
 
 
@@ -483,7 +539,43 @@
 
 
 
-"incomplete_relation": "Esta carauterística nun pue desaniciase porque nun se descargó completamente."
+"incomplete_relation": "Esta carauterística nun pue desaniciase porque nun se descargó completamente.",
+
+
+
+
+"part_of_relation": "Esta carauterística nun pue desaniciase porque ye parte d'una rellación mayor. Tienes primero que quitala de la rellación.",
+
+
+
+
+"connected_to_hidden": "Nun pue desaniciase porque ta coneutao a una carauterística tapecida."
+
+
+
+},
+
+
+
+"add_member": {
+
+
+
+
+"annotation": "Amestáu un miembru a una rellación."
+
+
+
+},
+
+
+
+"delete_member": {
+
+
+
+
+"annotation": "Desaniciáu un miembru d'una rellación."
 
 
 
@@ -553,7 +645,17 @@
 
 
 
-"annotation": "Llinies/árees desconectaes."
+"annotation": "Llinies/árees desconectaes.",
+
+
+
+
+"not_connected": "Equí nun hai bastantes llinies/árees que desconectar.",
+
+
+
+
+"connected_to_hidden": "Nun pue desconeutase porque ta coneutao a una carauterística tapecida."
 
 
 
@@ -582,6 +684,21 @@
 
 
 "annotation": "Entemecies {n} llinies.",
+
+
+
+
+"not_eligible": "Eses carauterístiques nun puen amestase",
+
+
+
+
+"not_adjacent": "Eses llinies nun puen amestase porque nun tán coneutaes.",
+
+
+
+
+"restriction": "Eses llinies nun puen amestase porque polo menos una ye miembru d'una rellación «{relation}».",
 
 
 
@@ -649,7 +766,22 @@
 
 
 
-}
+},
+
+
+
+
+"incomplete_relation": "Esta carauterística nun pue movese porque nun se descargó completamente.",
+
+
+
+
+"too_large": "Nun pue movese porque anguaño nun ye visible una parte bastante d'ello.",
+
+
+
+
+"connected_to_hidden": "Nun pue movese porque ta coneutao a una carauterística tapecida."
 
 
 
@@ -694,7 +826,17 @@
 
 
 
-}
+},
+
+
+
+
+"too_large": "Nun pue xirase porque anguaño nun ye visible una parte bastante d'ello.",
+
+
+
+
+"connected_to_hidden": "Nun pue xirase porque ta coneutao a una carauterística tapecida."
 
 
 
@@ -740,7 +882,63 @@
 
 
 
-"key": "X"
+"description": {
+
+
+
+
+
+"line": "Partir esta llinia en dos nesti nodu.",
+
+
+
+
+
+"area": "Partir la llende d'esti área en dos.",
+
+
+
+
+
+"multiple": "Partir les llinies/llendes d'esti área en dos nesti nodu."
+
+
+
+
+},
+
+
+
+
+"key": "X",
+
+
+
+
+"annotation": {
+
+
+
+
+
+"line": "Partir una llinia.",
+
+
+
+
+
+"area": "Partir una llende d'área.",
+
+
+
+
+
+"multiple": "Partir {n} llinies/llendes d'área."
+
+
+
+
+}
 
 
 
@@ -754,6 +952,10 @@
 
 
 
+"tooltip": "Desfacer: {action}",
+
+
+
 "nothing": "Ren que desfacer."
 
 
@@ -761,6 +963,10 @@
 
 
 "redo": {
+
+
+
+"tooltip": "Refacer: {action}",
 
 
 
@@ -810,6 +1016,20 @@
 "report_a_bug": "informar d'un fallu",
 
 
+"feature_info": {
+
+
+
+"hidden_warning": "{count} carauterístiques tapecíes",
+
+
+
+"hidden_details": "Anguaño estes carauterístiques tán tapecíes: {details}"
+
+
+},
+
+
 "status": {
 
 
@@ -840,11 +1060,15 @@
 
 
 
-"message_label": "Mensaxe d'unviu",
+"message_label": "Comentariu del conxuntu de cambios",
 
 
 
 "upload_explanation": "Los cambios que xuba tarán visibles en tolos mapes qu'usen los datos d'OpenStreetMap.",
+
+
+
+"upload_explanation_with_user": "Los cambios que xubas como {user} tarán visibles en tolos mapes qu'usen datos d'OpenStreetMap.",
 
 
 
@@ -853,6 +1077,10 @@
 
 
 "cancel": "Encaboxar",
+
+
+
+"changes": "{count} cambios",
 
 
 
@@ -883,6 +1111,100 @@
 
 
 "truncated_list": "Ediciones de {users} y otros {count}"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} seleicionao",
+
+
+
+"geometry": "Xeometría",
+
+
+
+"closed": "zarrao",
+
+
+
+"center": "Centrar",
+
+
+
+"perimeter": "Perímetru",
+
+
+
+"length": "Llargor",
+
+
+
+"area": "Área",
+
+
+
+"centroid": "Centroide",
+
+
+
+"location": "Llugar",
+
+
+
+"metric": "Métricu",
+
+
+
+"imperial": "Imperial"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "puntu",
+
+
+
+"vertex": "vértice",
+
+
+
+"line": "llinia",
+
+
+
+"area": "área",
+
+
+
+"relation": "rellación"
+
+
+},
+
+
+"geocoder": {
+
+
+
+"search": "Buscar en tol mundu...",
+
+
+
+"no_results_visible": "Nun hai resultaos nel área visible del mapa",
+
+
+
+"no_results_worldwide": "Nun s'alcontraron resultaos"
 
 
 },
@@ -930,6 +1252,10 @@
 
 
 
+"new_relation": "Nueva rellación...",
+
+
+
 "role": "Rol",
 
 
@@ -966,6 +1292,36 @@
 
 
 
+"incomplete": "<non descargao>",
+
+
+
+"feature_list": "Buscar carauterístiques",
+
+
+
+"edit": "Editar carauterística",
+
+
+
+"check": {
+
+
+
+
+"yes": "Si",
+
+
+
+
+"no": "Non"
+
+
+
+},
+
+
+
 "none": "Dengún",
 
 
@@ -982,7 +1338,11 @@
 
 
 
-"location": "Allugamientu"
+"location": "Allugamientu",
+
+
+
+"add_fields": "Amestar campu:"
 
 
 },
@@ -1016,11 +1376,309 @@
 
 
 
+"custom_prompt": "Escribi una plantía d'URL de títulu. Los parámetros válidos son {z}, {x}, {y} pal esquema Z/X/Y y {u} pal esquema QuadTiles.",
+
+
+
 "fix_misalignment": "Iguar l'alliniamientu",
 
 
 
-"reset": "reaniciar"
+"reset": "reaniciar",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minimapa",
+
+
+
+
+"tooltip": "Amuesa un mapa alloñáu p'ayudar a alcontrar l'área que se ve actualmente."
+
+
+
+}
+
+
+},
+
+
+"map_data": {
+
+
+
+"title": "Datos del mapa",
+
+
+
+"description": "Datos del mapa",
+
+
+
+"data_layers": "Capes de datos",
+
+
+
+"fill_area": "Rellenar árees",
+
+
+
+"map_features": "Elementos del mapa",
+
+
+
+"autohidden": "Estos elementos tapeciéronse automáticamente porque s'amosaríen demasiaos en pantalla. Puedes averate pa editalos."
+
+
+},
+
+
+"feature": {
+
+
+
+"points": {
+
+
+
+
+"description": "Puntos",
+
+
+
+
+"tooltip": "Puntos d'interés"
+
+
+
+},
+
+
+
+"major_roads": {
+
+
+
+
+"description": "Carreteres principales",
+
+
+
+
+"tooltip": "Carreteres, cais, etc."
+
+
+
+},
+
+
+
+"minor_roads": {
+
+
+
+
+"description": "Carreteres menores",
+
+
+
+
+"tooltip": "Víes de serviciu, pasiellos d'aparcamientu, pistes, etc."
+
+
+
+},
+
+
+
+"paths": {
+
+
+
+
+"description": "Caminos",
+
+
+
+
+"tooltip": "Aceres, siendes peatonales, víes ciclistes, etc."
+
+
+
+},
+
+
+
+"buildings": {
+
+
+
+
+"description": "Edificios",
+
+
+
+
+"tooltip": "Edificios, refuxos, garaxes, etc."
+
+
+
+},
+
+
+
+"landuse": {
+
+
+
+
+"description": "Tipos d'usu del terrén",
+
+
+
+
+"tooltip": "Viesques, cultivos, parques, residencial, comercial, etc."
+
+
+
+},
+
+
+
+"boundaries": {
+
+
+
+
+"description": "Llendes",
+
+
+
+
+"tooltip": "Llendes alministratives"
+
+
+
+},
+
+
+
+"water": {
+
+
+
+
+"description": "Elementos acuáticos",
+
+
+
+
+"tooltip": "Rios, llagos, banzaos, cuenques, etc."
+
+
+
+},
+
+
+
+"rail": {
+
+
+
+
+"description": "Elementos ferroviarios",
+
+
+
+
+"tooltip": "Ferrocarriles"
+
+
+
+},
+
+
+
+"power": {
+
+
+
+
+"description": "Elementos d'enerxía",
+
+
+
+
+"tooltip": "Llinies eléctriques, plantes de xeneración, subestaciones, etc."
+
+
+
+},
+
+
+
+"past_future": {
+
+
+
+
+"description": "Pasao/Futuru",
+
+
+
+
+"tooltip": "Propuesto, en construcción, abandonao, valtao, etc."
+
+
+
+},
+
+
+
+"others": {
+
+
+
+
+"description": "Otros",
+
+
+
+
+"tooltip": "Tolo demás"
+
+
+
+}
+
+
+},
+
+
+"area_fill": {
+
+
+
+"wireframe": {
+
+
+
+
+"description": "Sin rellenu (alambre)",
+
+
+
+
+"tooltip": "Activar el mou d'alambre facilita ver les imaxes de fondu."
+
+
+
+}
 
 
 },
@@ -1064,11 +1722,73 @@
 
 
 
+"unknown_error_details": "Comprueba que tienes conexón a internet.",
+
+
+
 "uploading": "Xubiendo cambios a OpenStreetMap.",
 
 
 
-"unsaved_changes": "Tien cambios ensin guardar"
+"unsaved_changes": "Tien cambios ensin guardar",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Iguar conflictos d'edición",
+
+
+
+
+"count": "Conflictu {num} de {total}",
+
+
+
+
+"previous": "< Anterior",
+
+
+
+
+"next": "Siguiente >",
+
+
+
+
+"keep_local": "Caltener lo mio",
+
+
+
+
+"keep_remote": "Usar lo ayeno",
+
+
+
+
+"restore": "Restaurar",
+
+
+
+
+"delete": "Dexar desaniciao",
+
+
+
+
+"download_changes": "O descargar los tos cambeos",
+
+
+
+
+"done": "¡Iguaos tolos conflictos!"
+
+
+
+}
 
 
 },
@@ -1238,11 +1958,33 @@
 },
 
 
+"mapillary": {
+
+
+
+"tooltip": "Fotos a nivel de cai de Mapillary",
+
+
+
+"title": "Capa de foto (Mapillary)",
+
+
+
+"view_on_mapillary": "Ver esta imaxe'n Mapillary"
+
+
+},
+
+
 "help": {
 
 
 
-"title": "Ayuda"
+"title": "Ayuda",
+
+
+
+"help": "# Ayuda\n\nEsti ye un editor pa [OpenStreetMap](http://www.openstreetmap.org/), el\nmapamundi llibre y editable. Pues usalu p'amestar y anovar los datos\nde la to fastera, pa facer un mapamundi de códigu y datos abiertos\nmeyor pa tol mundu.\n\nLes ediciones que faigas nesti mapa sedrán visibles pa cualquiera qu'use\nOpenStreetMap. Pa facer una edición, necesites\n[aniciar sesión](https://www.openstreetmap.org/login).\n\nEl [editor iD](http://ideditor.com/) ye un proyeutu collaborativu col  [códigu\nfonte disponible'n GitHub](https://github.com/openstreetmap/iD).\n"
 
 
 },
@@ -1333,7 +2075,12 @@
 
 
 
-"title": "Árees"
+"title": "Árees",
+
+
+
+
+"search": "**Guetar '{name}'.**"
 
 
 

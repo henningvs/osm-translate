@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Description des changements",
+"message_label": "Commentaire de changeset",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Editions de {users} et de {count} autres"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} selectionné s",
+
+
+
+"geometry": "Géométrie",
+
+
+
+"closed": "fermé",
+
+
+
+"center": "Centre",
+
+
+
+"perimeter": "Périmètre",
+
+
+
+"length": "Longueur",
+
+
+
+"area": "Polygone",
+
+
+
+"centroid": "Centroïde",
+
+
+
+"location": "Emplacement",
+
+
+
+"metric": "Métrique",
+
+
+
+"imperial": "Impérial"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "point",
+
+
+
+"vertex": "sommet",
+
+
+
+"line": "ligne",
+
+
+
+"area": "polygone",
+
+
+
+"relation": "relation"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "réinitialiser"
+"reset": "réinitialiser",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minicarte",
+
+
+
+
+"tooltip": "Montre une carte de vue d'ensemble pour aider à localiser la zone actuellement affichée."
+
+
+
+}
 
 
 },
@@ -2081,10 +2175,6 @@
 
 
 "help": "# Aide\n\nCeci est un éditeur pour [OpenStreetMap](http://www.openstreetmap.org/), la \ncarte du monde libre et éditable. Vous pouvez l'utiliser pour ajouter ou mettre à jour\nles données dans votre zone, et participer ainsi à la réalisation d'une carte du monde libre et à données ouvertes\nmeilleure pour tout le monde.\n\nLes modifications que vous réaliserez sur cette carte seront visibles par tous les utilisateurs d'\nOpenStreetMap.  Pour commencer à éditer, vous devez vous\n[connecter](https://www.openstreetmap.org/login).\n\nL'[éditeur iD](http://ideditor.com/) est un projet collaboratif dont le [code\nsource est disponible sur GitHub](https://github.com/openstreetmap/iD).\n",
-
-
-
-"editing_saving": "# Éditer et sauvegarder⏎\n⏎\nCet éditeur est conçu principalement pour travailler en mode connecté, et vous l'accéder depuis un site Web en ce moment.⏎\n⏎\n### Sélectionner un élément de la carte⏎\n⏎\nPour sélection un élément de la carte, tel qu'une rue ou un point d'intérêt, cliquez sur ce dernier⏎\nsur la carte. Cette action mettra l'élément en surbrillance, et ouvrira le panneau latéral⏎\nqui affiche les propriétés de l'élément. Un menu apparaîtra également sur la carte,⏎\npermettant de poser des actions sur l'élément (telles que le déplacer, repositionner⏎\nses points constituants, etc).\n⏎\nPour sélectionner plusieurs éléments, appuyez sur la touche 'Majuscule'. Puis, cliquez⏎\nun à un sur les éléments à sélectionner. Alternativement, il est possible de dessinez un rectangle⏎\nsur la carte (toujours en appuyant sur 'Majuscule) pour effectuer la sélection multiple.⏎\nles points à sélectionner.⏎\n⏎\n### Enregistrer les modifications⏎\n⏎\nL'éditeur enregistre localement (sur votre ordinateur) toutes les modifications⏎\nque vous effectuez sur les éléments de la carte (les rues, les bâtiments, etc.).⏎\nCes modifications seront envoyées au serveur OpenStreetMap uniquement⏎\nlorsque vous appuierez sur \"Sauvegarder\".⏎\n⏎\nNe vous faites donc pas de souci si vous faites une erreur. Vous pouvez annuler⏎\ntout changement effectué en appuyant sur le bouton d'annulation (la flèche de demi-tour⏎\npointant vers la gauche).⏎\n⏎\nLorsque vous avez terminé un groupe de modifications - par exemple, vous avez⏎\ncomplété une partie de la ville et vous voulez en débuter une nouvelle,⏎\nil suffit d'appuyer sur le bouton \"Sauvegarder\". Vos changements ne seront pas⏎\nenvoyés immédiatement - vous avez l'occasion de réviser le travail effectué⏎\navant de confirmer les changements. ⏎\n⏎\nSi tout semble bon, entrez un commentaire décrivant vos changements⏎\n(par exemple: \"Ajout d'une boulangerie\" ou \"Ajout de commerces du quartier\"),⏎\npuis appuyez à nouveau sur le bouton 'Sauvegarder' (qui, cette fois-ci, apparaîtra\nen bleu dans le panneau latéral). Vos changements seront alors envoyés à⏎\n[OpenStreetMap.org](http://www.openstreetmap.org/), où il seront partagés et rendus⏎\nvisibles à tous les autres utilisateurs.\n⏎\nSi vous ne pouvez pas terminer vos changements en une seule séance, vous pouvez⏎\nfermer la fenêtre de l'éditeur. Vos changements seront enregistrés localement.⏎\nLorsque vous ouvrirez à nouveau l'éditeur, sur le même ordinateur et avec le même⏎\nnavigateur Web, l'éditeur vous proposera de récupérer le travail de la séance précédente.⏎\n",
 
 
 

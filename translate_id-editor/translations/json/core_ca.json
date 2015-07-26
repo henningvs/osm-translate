@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Afegiu un comentari",
+"message_label": "Comentari de conjunt de canvis",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Edicions fetes per {users} i {count} més"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} seleccionats",
+
+
+
+"geometry": "Geometria",
+
+
+
+"closed": "tancat",
+
+
+
+"center": "Centre",
+
+
+
+"perimeter": "Perímetre",
+
+
+
+"length": "Llargària",
+
+
+
+"area": "Àrea",
+
+
+
+"centroid": "Centroide",
+
+
+
+"location": "Ubicació",
+
+
+
+"metric": "Mètric",
+
+
+
+"imperial": "Imperial"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "punt",
+
+
+
+"vertex": "vèrtex",
+
+
+
+"line": "línia",
+
+
+
+"area": "àrea",
+
+
+
+"relation": "relació"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "reiniciar"
+"reset": "reiniciar",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Miniatura del mapa",
+
+
+
+
+"tooltip": "Mostrar un mapa amb menys zoom per ajudar a localitzar l'àrea que es mostra actualment."
+
+
+
+}
 
 
 },
@@ -2084,7 +2178,7 @@
 
 
 
-"editing_saving": "# Edició i desat\n\nAquest editor està dissenyat per treballar principalment en línia, i hi heu accedit mitjançant una pàgina web.\n\n### Selecció de característiques\n\nPer selecionar una característica del mapa, com ara una carretera o un punt d'interès, cliqueu-hi a sobre. Això ressaltarà la característica, obrirà un panell amb els detalls sobre aquesta, i un menú amb les coses que hi podeu fer .\n\nPodeu seleccionar múltiples característiques, prement la tecla 'Shift' i clicant-les per separat, o bé clicant i arrossegant el cursor. Això seleccionarà totes les característiques que englobi el requadre que es dibuixarà i permetrà modificar totes les característiques seleccionades en un sol cop.\n\n### Desant les edicions\n\nQuan feu canvis com ara editar carreteres, edificis, o llocs, aquests canvis es desen localment fins que els deseu al servidor. No us preocupeu si cometeu algun error- podeu desfer els canvis clicant el botó de desfer, i podeu refer els canvis clicant el botó de refer.\n\nCliqueu 'Desa' per acabar un grup d'edicions - per exemple, si heu acabat de delimitar l'àrea d'una ciutat i voleu començar a fer-ne una altra. Tindreu la oportunitat de revisar la feina feta,\ni l'editor proporcionarà suggeriments que us podran ajudar\ni també mostrarà alertes si alguna cosa no està del tot bé als vostres canvis.\n\nSi tot sembla correcte, podeu escriure un breu comentari explicant el canvis\nque heu fet, i clicar desa un altre cop per publicar els canvis\na [OpenStreetMap.org](http://www.openstreetmap.org/), on seran visibles\nper a tots els altres usuaris i disponibles per a altres editors per refer-los o bé millorar-los.\n\nSi no podeu acabar les vostres edicions en una sessió, podeu sortir de la finestra d'edició i tornar més tard (al mateix navegador i ordinador), i l'aplicació d'edició\npreguntarà si voleu restaurar els canvis anteriors.\n",
+"editing_saving": "# Edició i desat \n\nAquest editor està dissenyat per treballar principalment en línia, i hi heu accedit mitjançant una pàgina web. \n\n### Selecció de característiques \n\nPer selecionar una característica del mapa, com ara una carretera o un punt d'interès, cliqueu-hi a sobre. \nAixò ressaltarà la característica seleccionada, obrirà un panell amb els detalls sobre aquesta, i un menú amb les coses que hi podeu fer. \n\nPer seleccionar múltiples característiques, premeu la tecla 'Shift' i cliqueu-les per separat, o bé clicant i arrossegant el cursor dibuixeu un rectangle per sobre de totes. Això seleccionarà totes les característiques que englobi el rectangle que es dibuixarà i permetrà modificar totes les característiques seleccionades en un sol cop. \n\n### Desant les edicions \n\nQuan feu canvis com ara editar carreteres, edificis, o llocs, aquests canvis es desen localment fins que els deseu al servidor. No us preocupeu si cometeu algun error- podeu desfer els canvis clicant el botó de desfer, i podeu refer els canvis clicant el botó de refer. \n\nCliqueu 'Desa' per acabar un grup d'edicions - per exemple, si heu acabat de delimitar l'àrea d'una ciutat i voleu començar a fer-ne una altra. Tindreu la oportunitat de revisar la feina feta, i l'editor proporcionarà suggeriments que us podran ajudar com també mostrarà alertes si alguna cosa no està del tot bé als vostres canvis.\n\n Si tot sembla correcte, podeu escriure un breu comentari explicant el canvis que heu fet, i clicar desa un altre cop per publicar els canvis a [OpenStreetMap.org](http://www.openstreetmap.org/), on seran visibles per a tots els altres usuaris i disponibles per a altres per refer-los o bé millorar-los. Si no podeu acabar les vostres edicions en una sessió, podeu sortir de la finestra d'edició i tornar més tard (al mateix navegador i ordinador), i l'aplicació d'edició preguntarà si voleu restaurar els canvis anteriors. \n\n### Fent servir l'editor\n\nHi ha una llista de dreceres de teclat disponible [aquí](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
 
 
 

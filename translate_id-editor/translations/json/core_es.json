@@ -450,7 +450,7 @@
 
 
 
-"description": "Enderezar esta línea",
+"description": "Enderezar esta línea.",
 
 
 
@@ -505,7 +505,7 @@
 
 
 
-"vertex": "Vértice elimnado de la ruta.",
+"vertex": "Nodo eliminado de la vía.",
 
 
 
@@ -539,17 +539,17 @@
 
 
 
-"incomplete_relation": "Está característica no puede ser borrada porque no se ha descargado completa.",
+"incomplete_relation": "Está característica no puede ser borrada porque no se ha descargado completamente.",
 
 
 
 
-"part_of_relation": "Esta característica no se puede eliminar porque es parte de una relación más grande. Usted debe eliminarlo de la relación primero.",
+"part_of_relation": "Esta característica no puede ser eliminada porque es parte de una relación más grande. Usted debe quitarla de la relación primero.",
 
 
 
 
-"connected_to_hidden": "Esto no puede ser borrado porque está conectado a un elemento oculto."
+"connected_to_hidden": "Esto no puede ser borrado porque está conectado a una característica oculta."
 
 
 
@@ -575,7 +575,7 @@
 
 
 
-"annotation": "Eliminar un miembro de una relación"
+"annotation": "Quitar un miembro de una relación."
 
 
 
@@ -688,7 +688,7 @@
 
 
 
-"not_eligible": "Estos elementos no pueden ser fusionados.",
+"not_eligible": "Estas características no pueden ser combinadas.",
 
 
 
@@ -703,7 +703,7 @@
 
 
 
-"incomplete_relation": "Estos elementos no se pueden combinar porque al menos uno de ellos no se ha descargado por completo."
+"incomplete_relation": "Estas características no pueden ser combinadas porque al menos una no ha sido descargado por completo."
 
 
 
@@ -1099,11 +1099,11 @@
 
 
 
-"hidden_warning": "{count} elementos ocultos",
+"hidden_warning": "{count} características ocultas",
 
 
 
-"hidden_details": "Estos elementos actualmente están ocultos: {details}"
+"hidden_details": "Estas características actualmente están ocultas: {details}"
 
 
 },
@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Mensaje del registro",
+"message_label": "Comentario del conjunto de cambios",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Ediciones de {users} y {count} más"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} seleccionado",
+
+
+
+"geometry": "Geometría",
+
+
+
+"closed": "cerrado",
+
+
+
+"center": "Centro",
+
+
+
+"perimeter": "Perímetro",
+
+
+
+"length": "Tamaño",
+
+
+
+"area": "Área",
+
+
+
+"centroid": "Centroide",
+
+
+
+"location": "Ubicación",
+
+
+
+"metric": "Métrica",
+
+
+
+"imperial": "Imperial"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "punto",
+
+
+
+"vertex": "vértice",
+
+
+
+"line": "línea",
+
+
+
+"area": "área",
+
+
+
+"relation": "relación"
 
 
 },
@@ -1279,7 +1355,7 @@
 
 
 
-"remove": "Eliminar",
+"remove": "Quitar",
 
 
 
@@ -1299,7 +1375,7 @@
 
 
 
-"feature_list": "Buscar elementos",
+"feature_list": "Buscar características",
 
 
 
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "reiniciar"
+"reset": "reiniciar",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minimapa",
+
+
+
+
+"tooltip": "Mostrar una vista alejada del mapa para ayudar a ubicar el área que se muestra actualmente."
+
+
+
+}
 
 
 },
@@ -1413,11 +1507,11 @@
 
 
 
-"map_features": "Elementos de la mapa",
+"map_features": "Características del mapa",
 
 
 
-"autohidden": "Estos objetos geográficos se han ocultado automáticamente porque existen demasiados representados en la pantalla. Puede acercarse con el zoom para editarlos."
+"autohidden": "Estas características se han ocultado automáticamente porque existen demasiadas mostradas en la pantalla. Puede acercarse para editarlos."
 
 
 },
@@ -1522,7 +1616,7 @@
 
 
 
-"description": "Usos del suelo",
+"description": "Características de usos del suelo",
 
 
 
@@ -1558,7 +1652,7 @@
 
 
 
-"description": "Elementos relacionados con el agua",
+"description": "Características de agua",
 
 
 
@@ -1576,7 +1670,7 @@
 
 
 
-"description": "Elementos ferroviarios",
+"description": "Características ferroviarias",
 
 
 
@@ -1594,7 +1688,7 @@
 
 
 
-"description": "Elementos relacionados con la energía",
+"description": "Características de energía",
 
 
 
@@ -1747,7 +1841,7 @@
 
 
 
-"status_code": "El servidor devolvió código de estado {code}",
+"status_code": "El servidor devolvió el código de estado {code}",
 
 
 
@@ -1803,12 +1897,12 @@
 
 
 
-"delete": "Dejar Borrado",
+"delete": "Dejar borrado",
 
 
 
 
-"download_changes": "O descargar los cambios.",
+"download_changes": "O descargar tus cambios.",
 
 
 
@@ -1818,7 +1912,7 @@
 
 
 
-"help": "Otro usuario cambió algunas de las características del mapa que usted modificó.\nHaga clic en cada ítem para más detalles sobre el conflicto, y elija si desea mantener\nsus cambios o los cambios del otro usuario.\n"
+"help": "Otro usuario cambió algunas de las mismas características del mapa que cambió.\nHaga clic en cada ítem para más detalles sobre el conflicto, y elija si desea mantener\nsus cambios o los cambios de los otros usuarios.\n"
 
 
 
@@ -1842,22 +1936,22 @@
 
 
 
-"location": "Este objeto fue movido por usted y por {user}.",
+"location": "Este objeto fue movido por ambos, usted y {user}.",
 
 
 
 
-"nodelist": "Los nodos fueron cambiados por usted y por {user}.",
+"nodelist": "Los nodos fueron cambiados por ambos, usted y {user}.",
 
 
 
 
-"memberlist": "Los miembros de la relación fueron cambiados por usted y por {user}.",
+"memberlist": "Los miembros de la relación fueron cambiados por ambos, usted y {user}.",
 
 
 
 
-"tags": "Ha cambiado la etiqueta <b>{tag}</b> a \"{local}\" y {user} la cambió a \"{remote}\"."
+"tags": "Usted cambió la etiqueta <b>{tag}</b> a «{local}» y el {user} la cambió a «{remote}»."
 
 
 
@@ -1989,7 +2083,7 @@
 
 
 
-"many_deletions": "Está eliminando {n} objetos ¿Está seguro que quiere hacer esto? Esto los eliminará del mapa que todos ven en openstreetmap.org.",
+"many_deletions": "Está eliminando {n} objetos. ¿Está seguro que quiere hacer esto? Esto eliminará del mapa que todo el mundo ve en openstreetmap.org.",
 
 
 
@@ -2084,7 +2178,7 @@
 
 
 
-"editing_saving": "# Editar & Guardar\n\nEste editor está diseñado para trabajar en línea principalmente, ya que en estos momentos esta accediendo a través de un sitio web.\n\n### Seleccionar elementos gráficos\n\nPara seleccionar un elemento del mapa, como una carretera o un punto de interés, simplemente haz clic sobre él. Esto resaltará el elemento seleccionado, abriendo un panel con sus características, y  mostrará un menú de cosas que puedes hacer con ese elemento.\n\nSe pueden seleccionar múltiples elementos de una vez manteniendo pulsada la tecla 'Mayús' y haciendo clic y arrastrando el ratón sobre el mapa. Esto seleccionará todas los elementos que están dentro del recuadro que se dibuja, lo que le permite realizar acciones con todos ellos al mismo tiempo.\n\n### Guardar ediciones\n\nCuando haga cambios -como editar carreteras, edificios o lugares- estos se  almacenan localmente en tu ordenador hasta que decidas guardarlos en el servidor. No se preocupe si cometes un error - puede deshacer los cambios haciendo clic en el botón 'Deshacer', y rehacerlos de nuevo haciendo clic en el botón 'Rehacer'.\n\nHaga clic en 'Guardar' para finalizar un grupo de ediciones (por ejemplo, si ha completado una zona de la ciudad y quisiera empezar en una nueva área).  Antes de subir los cambios al servidor tendrás oportunidad de revisar lo que has hecho, y el editor proporciona avisos y sugerencias útiles si algo parece que no es correcto en los cambios.\n\nSi ve que todo es correcto escriba un breve comentario explicando el cambio que ha hecho y haga clic en 'Guardar' de nuevo para registrar los cambios en [OpenStreetMap.org](http:\\/\\/www.openstreetmap.org\\/), donde serán visibles para todos los demás usuarios y estarán disponible para que otros colaboradores del proyecto puedan seguir construyendo y mejorando el mapa.\n\nSi aún no ha terminado sus ediciones en una sesión, puede dejar la ventana del editor abierta y volver más tarde (en el mismo navegador y ordenador), y el editor le permitirá retomar tu trabajo.\n",
+"editing_saving": "# Editar & Guardar\n\nEste editor está diseñado para trabajar en línea principalmente, y en estos\nmomentos esta accediendo a través de un sitio web.\n\n### Seleccionar características\n\nPara seleccionar una característica del mapa, como una carretera o un punto de\ninterés, haga clic sobre ella en el mapa. Esto resaltará el elemento seleccionado,\nabriendo un panel con sus detalles, y mostrará un menú de cosas que puedes\nhacer con ese elemento.\n\nPara seleccionar múltiples elementos, mantenga pulsada la tecla 'Mayús'. Luego\nhaga clic en las características que desea seleccionar o arrastre en el mapa para\ndibujar un rectángulo. Esto dibujará una caja y seleccionará todos los puntos\ndentro de ella.\n\n### Guardar ediciones\n\nCuando haga cambios como editar carreteras, edificios o lugares, estos se\nalmacenan localmente en su ordenador hasta que los guarde en el servidor.\nNo se preocupe si comete un error - puede deshacer los cambios haciendo\nclic en el botón 'Deshacer', y rehacerlos haciendo clic en el botón 'Rehacer'.\n\nHaga clic en 'Guardar' para finalizar un grupo de ediciones - por ejemplo, si ha\ncompletado una zona de la ciudad y quisiera empezar en un área nueva. Tendrá\nla oportunidad de revisar lo que ha hecho, y el editor proporciona avisos y\nsugerencias útiles si algo parece no ser correcto en los cambios.\n\nSi ve que todo es correcto, puede escribir un breve comentario explicando el\ncambio que ha hecho, y haga clic en 'Guardar' de nuevo para registrar los\ncambios en [OpenStreetMap.org](http://www.openstreetmap.org/), donde serán\nvisibles para todos los demás usuarios y estarán disponible para que otros\npuedan seguir construyendo y mejorando el mapa.\n\nSi no puede terminar sus ediciones en una sola sesión, puede dejar la ventana\ndel editor y volver más tarde (al mismo navegador y ordenador), y el editor le\npermitirá retomar su trabajo.\n\n### Uso del editor\n\nUna lista de métodos abreviados de teclado disponibles puede encontrarse [aquí](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
 
 
 
@@ -2205,12 +2299,12 @@
 
 
 
-"reselect_delete": "Todos los elementos en el mapa pueden ser eliminados. **Haga clic en el punto que creó.**",
+"reselect_delete": "Todos las características en el mapa pueden ser eliminadas. **Haga clic en el punto que creó.**",
 
 
 
 
-"delete": "El menú que aparece alrededor del punto sugiere acciones que se pueden aplicar al elemento seleccionado, incluyendo la opción de eliminar. **Elimine el punto.**"
+"delete": "El menú alrededor del punto contiene operaciones que pueden ser aplicadas a esta, incluyendo eliminar. **Elimine el punto.**"
 
 
 
@@ -2228,7 +2322,7 @@
 
 
 
-"add": "Las áreas se utilizan para mostrar los límites de características como lagos, edificios y zonas residenciales. Ellos también pueden ser utilizados para la cartografía más detallada de las muchas características que usted puede ser que normalmente mapa como puntos. ** Haga clic en el botón Área para agregar una nueva zona. **",
+"add": "Las áreas son utilizadas para mostrar los límites de características como lagos, edificios y zonas residenciales. Estas también pueden ser utilizadas para mapear con más detalle las diversas características que pondría normalmente en el mapa como puntos. ** Haga clic en el botón «área» para añadir una nueva área.**",
 
 
 
@@ -2248,12 +2342,12 @@
 
 
 
-"choose": "**Elija 'Parque infantil' de la lista.**",
+"choose": "**Elija «zona de juegos» de la lista.**",
 
 
 
 
-"describe": "**Agregue un nombre y cierre el editor de elementos**"
+"describe": "**De un nombre y cierre el editor de características**"
 
 
 
@@ -2271,47 +2365,47 @@
 
 
 
-"add": "Las líneas son utilizadas para representar elementos como caminos, líneas férreas y ríos. **Haga clic en el botón Línea para agregar una nueva línea.**",
+"add": "Las líneas son utilizadas para representar características como vías, líneas férreas y ríos. **Haga clic en el botón «línea» para agregar una nueva línea.**",
 
 
 
 
-"start": "**Inicie la línea haciendo clic al final de la vía.**",
+"start": "**Comience la línea haciendo clic al final de la vía.**",
 
 
 
 
-"intersect": "Haga clic para añadir más puntos a la línea. Si es necesario, puede arrastrar el mapa mientras dibuja. Los caminos, y muchos otros tipos de líneas, son parte de una red más grande. Es importante que estas líneas estén conectadas apropiadamente para que las aplicaciones de enrutamiento, como los navegadores de automóvil, puedan funcionar correctamente. **Haga clic en la calle 'Flower Street' para crear una intersección conectando las dos líneas.**   ",
+"intersect": "Haga clic para añadir más nodos a la línea. Puede arrastrar el mapa mientras dibuja si fuese necesario. Las vías, y muchos otros tipos de líneas, son parte de una red más grande. Es importante que estas líneas estén conectadas apropiadamente para que las aplicaciones de navegación funcionen correctamente. **Haga clic en «Flower Street» para crear una intersección conectando las dos líneas.**",
 
 
 
 
-"finish": "Las líneas pueden finalizarse haciendo clic nuevamente en el ultimo punto. **Termine de dibujar la vía.** ",
+"finish": "Puede terminar las líneas haciendo clic nuevamente en el ultimo nodo. **Termine de dibujar la vía.**",
 
 
 
 
-"road": "**Seleccione 'Carretera sin categoría conocida' de la lista**",
+"road": "**Seleccione la «vía» de la lista**",
 
 
 
 
-"residential": "Existen diferentes tipos de vías, la más común de las cuales es la de calle urbana. **Elija el tipo 'Calle urbana'**",
+"residential": "Existen diferentes tipos de vías, la más común es «residencial». **Elija el tipo de vía «residencial»**",
 
 
 
 
-"describe": "**Asigne un nombre a la vía y cierre el editor de elementos.**",
+"describe": "**De un nombre a la vía y cierre el editor de características.**",
 
 
 
 
-"restart": "El vía debe intersectar con la calle Flower Street..",
+"restart": "La vía tiene que intersectar con Flower Street.",
 
 
 
 
-"wrong_preset": "No ha seleccionado el tipo 'Calle urbana'. **Haga clic aquí para elegir de nuevo**"
+"wrong_preset": "No ha seleccionado el tipo de vía «residencial». **Haga clic aquí para elegir de nuevo**"
 
 
 
@@ -2329,7 +2423,7 @@
 
 
 
-"help": "Para ver más documentación y este tutorial pulse aquí.",
+"help": "Más documentación y este tutorial están disponibles aquí.",
 
 
 
@@ -2339,7 +2433,7 @@
 
 
 
-"start": "¡Empezar a editar el mapa!"
+"start": "¡Comience a mapear!"
 
 
 

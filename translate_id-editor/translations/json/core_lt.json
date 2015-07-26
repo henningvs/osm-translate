@@ -1139,10 +1139,6 @@
 
 
 
-"message_label": "Pakeitimo aprašymas",
-
-
-
 "upload_explanation": "Jūsų įkeliami pakeitimai bus matomi visuose žemėlapiuose, naudojančiuose OpenStreetMap duomenis.",
 
 
@@ -2081,10 +2077,6 @@
 
 
 "help": "# Help\n\nTai [OpenStreetMap](http://www.openstreetmap.org/), laisvo ir keičiamo pasaulio žemėlapio redaktorius. Šiuo redaktoriumi galite pridėti ir keisti duomenis savo vietovėje, taip visiems pagerindami atviro kodo ir atvirų duomenų pasaulio žemėlapį.\n\nPakeitimai, kuriuos darote šiame žemėlapyje bus matomi visiems, kas naudoja OpenStreetMap. Kad padarytumėte pakeitimą, jums reikia [prisijungti](https://www.openstreetmap.org/login).\n\n[iD redaktorius](http://ideditor.com/) - tai bendruomenės projektas, kurio [kodas atvirai prieinamas GitHub](https://github.com/openstreetmap/iD).\n",
-
-
-
-"editing_saving": "# Keitimas ir įrašymas\n\nŠis redaktorius sukurtas visų pirma darbui prisijungus, todėl jūs jį paleidžiate per svetainę.\n\n### Objektų žymėjimas\n\nNorėdami pažymėti objektą, tokį kaip kelią ar lankytiną vietą, pažymėkite jį žemėlapyje. Taip pažymėtas objektus bus paryškintas ir bus atidaryta panelė su objekto informacija bei meniu veiksmų, kuriuos galite atlikti su pažymėtu objektu.\n\nNorėdami pažymėti kelis objektus, laikykite paspaudę klavišą „Shift“. Tada arba spauskite ant kitų objektų, kuriuos norite pažymėti, arba tempkite pele per žemėlapį, kad nupaišytumėte stačiakampį.\nTaip bus pažymėti visi taškai, esantys stačiakampio viduje.\n\n### Pakeitimų įrašymas\n\nKai padarote tarkim kelių, pastatų ar vietovių pakeitimų, jie saugomi vietoje tol, kol jūs neįrašote jų į serverį. Nesijaudinkite jei padarote klaidą, visada galite atstatyti pakeitimus su atstatymo mygtuku ir pakartotinai juos padaryti paspaudę pakartojimo mygtuką.\n\nSpauskite mygtuką „Įrašyti“, jei norite įrašyti grupę pakeitimų, pavyzdžiui jei baigėte vienos vietos pakeitimus ir dabar norėtumėte pradėti keisti kitoje vietoje. Galėsite peržiūrėti, ką padarėte, o redaktorius pateiks naudingus patarimus ar įspėjimus, jei kažkas atrodo ne visai teisingai.\n\nJei viskas gerai, galite įvesti trumpą komentarą, paaiškinantį jūsų pakeitimus ir tada vėl spausti „Įrašyti“, kad įkeltumėte pakeitimus į\n[OpenStreetMap.org](http://www.openstreetmap.org/), kur visi kiti naudotojai juos matys ir galės toliau tobulinti.\n\nJei negalite baigti savo pakeitimų vienu prisėdimu, galite palikti redaktoriaus langą ir grįžti vėliau (toje pačioje naršyklėje ir tame pačiame kompiuteryje), redaktorius jums pasiūlys tęsti jūsų darbą.\n",
 
 
 

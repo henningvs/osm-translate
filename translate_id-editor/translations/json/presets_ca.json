@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Desconegut",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "General",
-
-
-
-
-
-
-"foot": "A peu",
-
-
-
-
-
-
-"motor_vehicle": "Vehicles de motor",
-
-
-
-
-
-
-"bicycle": "Bicicletes",
-
-
-
-
-
-
-"horse": "Cavalls"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Permès",
-
-
-
-
-
-
-
-"description": "Accés garantit per llei; us dona dret de pas"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Prohibit",
-
-
-
-
-
-
-
-"description": "No es permet l'accés al públic en general"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Permissiu",
-
-
-
-
-
-
-
-"description": "Accés garantit fins que el propietari ho prohibeixi."
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privat",
-
-
-
-
-
-
-
-"description": "Accés permès només amb autorització individualitzada del propietari"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Específic",
+"description": "Accés garantit seguint les normes de les senyals o les normes locals específiques.",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Accés garantit seguint les normes de les senyals o les normes locals específiques."
+"title": "Específic"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Destinació",
+"description": "Accés permès només per arribar a un destí",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Accés permès només per arribar a un destí"
+"title": "Destinació"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "No es permet l'accés al públic en general",
+
+
+
+
+
+
+
+"title": "Prohibit"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Accés garantit fins que el propietari ho prohibeixi.",
+
+
+
+
+
+
+
+"title": "Permissiu"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Accés permès només amb autorització individualitzada del propietari",
+
+
+
+
+
+
+
+"title": "Privat"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Accés garantit per llei; us dona dret de pas",
+
+
+
+
+
+
+
+"title": "Permès"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Desconegut",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "General",
+
+
+
+
+
+
+"bicycle": "Bicicletes",
+
+
+
+
+
+
+"foot": "A peu",
+
+
+
+
+
+
+"horse": "Cavalls",
+
+
+
+
+
+
+"motor_vehicle": "Vehicles de motor"
 
 
 
@@ -498,6 +498,41 @@
 
 
 
+"city": "Ciutat ",
+
+
+
+
+
+
+"conscriptionnumber": "123",
+
+
+
+
+
+
+"country": "País",
+
+
+
+
+
+
+"district": "Districte",
+
+
+
+
+
+
+"hamlet": "Llogaret",
+
+
+
+
+
+
 "housename": "Nom de la casa",
 
 
@@ -512,27 +547,6 @@
 
 
 
-"street": "Carrer",
-
-
-
-
-
-
-"city": "Ciutat ",
-
-
-
-
-
-
-"postcode": "Codi postal",
-
-
-
-
-
-
 "place": "Lloc",
 
 
@@ -540,28 +554,7 @@
 
 
 
-"hamlet": "Llogaret",
-
-
-
-
-
-
-"suburb": "Sector",
-
-
-
-
-
-
-"subdistrict": "Subdistricte",
-
-
-
-
-
-
-"district": "Districte",
+"postcode": "Codi postal",
 
 
 
@@ -582,7 +575,21 @@
 
 
 
-"country": "País"
+"street": "Carrer",
+
+
+
+
+
+
+"subdistrict": "Subdistricte",
+
+
+
+
+
+
+"suburb": "Sector"
 
 
 
@@ -649,6 +656,13 @@
 
 
 
+"both": "Ambdues",
+
+
+
+
+
+
 "entry": "Entrada",
 
 
@@ -656,14 +670,7 @@
 
 
 
-"exit": "Sortida",
-
-
-
-
-
-
-"both": "Ambdues"
+"exit": "Sortida"
 
 
 
@@ -796,6 +803,13 @@
 
 
 
+"both": "Ambdues",
+
+
+
+
+
+
 "entry": "Entrada",
 
 
@@ -803,14 +817,7 @@
 
 
 
-"exit": "Sortida",
-
-
-
-
-
-
-"both": "Ambdues"
+"exit": "Sortida"
 
 
 
@@ -843,6 +850,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Tipus"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -1075,63 +1098,7 @@
 
 
 
-"N": "Nord",
-
-
-
-
-
-
 "E": "Est",
-
-
-
-
-
-
-"S": "Sud",
-
-
-
-
-
-
-"W": "Oest",
-
-
-
-
-
-
-"NE": "Nord-est",
-
-
-
-
-
-
-"SE": "Sud-est",
-
-
-
-
-
-
-"SW": "Sud-oest",
-
-
-
-
-
-
-"NW": "Nord-oest",
-
-
-
-
-
-
-"NNE": "Nord-nord-est",
 
 
 
@@ -1152,6 +1119,55 @@
 
 
 
+"N": "Nord",
+
+
+
+
+
+
+"NE": "Nord-est",
+
+
+
+
+
+
+"NNE": "Nord-nord-est",
+
+
+
+
+
+
+"NNW": "Nord-nord-oest",
+
+
+
+
+
+
+"NW": "Nord-oest",
+
+
+
+
+
+
+"S": "Sud",
+
+
+
+
+
+
+"SE": "Sud-est",
+
+
+
+
+
+
 "SSE": "Sud-sud-est",
 
 
@@ -1166,7 +1182,14 @@
 
 
 
-"WSW": "Oest-sud-oest",
+"SW": "Sud-oest",
+
+
+
+
+
+
+"W": "Oest",
 
 
 
@@ -1180,7 +1203,7 @@
 
 
 
-"NNW": "Nord-nord-oest"
+"WSW": "Oest-sud-oest"
 
 
 
@@ -1215,14 +1238,14 @@
 
 
 
-"clockwise": "en sentit de les agulles del rellotge",
+"anticlockwise": "en sentit contrari al de les agulles del rellotge",
 
 
 
 
 
 
-"anticlockwise": "en sentit contrari al de les agulles del rellotge"
+"clockwise": "en sentit de les agulles del rellotge"
 
 
 
@@ -1261,6 +1284,22 @@
 
 
 "label": "Tipus"
+
+
+
+
+},
+
+
+
+
+"content": {
+
+
+
+
+
+"label": "Continguts"
 
 
 
@@ -1366,6 +1405,276 @@
 
 
 
+"cycleway": {
+
+
+
+
+
+"label": "Carrils Bici",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Un Carril Bici separat de la circulació per una línia pintada",
+
+
+
+
+
+
+
+"title": "Carril Bici estàndard"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Cap Carril Bici",
+
+
+
+
+
+
+
+"title": "Cap"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Un Carril Bici que discorre en ambdós sentits en un carrer d'un sol sentit",
+
+
+
+
+
+
+
+"title": "Carril Bici en sentit contrari"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Un Carril Bici que discorre contrari al sentit de circulació",
+
+
+
+
+
+
+
+"title": "Carril Bici contrari"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Un Carril Bici compartit amb un Carril Bus",
+
+
+
+
+
+
+
+"title": "Carril Bici amb Carril Bus"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Carril Bici sense cap separació de la circulació",
+
+
+
+
+
+
+
+"title": "Carril Bici compartit"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Un Carril Bici separat de la circulació per una barrera física",
+
+
+
+
+
+
+
+"title": "Camí ciclable"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "cap",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "a la banda esquerre",
+
+
+
+
+
+
+"cycleway:right": "a la banda dreta"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "delivery": {
 
 
@@ -1458,12 +1767,6 @@
 
 
 
-"placeholder": "Catenària, 3r rail...",
-
-
-
-
-
 "options": {
 
 
@@ -1478,6 +1781,13 @@
 
 
 
+"no": "No",
+
+
+
+
+
+
 "rail": "3r rail",
 
 
@@ -1485,20 +1795,19 @@
 
 
 
-"yes": "Sí (no especificat)",
+"yes": "Sí (no especificat)"
 
 
 
 
 
-
-"no": "No"
-
+},
 
 
 
 
-}
+
+"placeholder": "Catenària, 3r rail..."
 
 
 
@@ -1636,6 +1945,13 @@
 
 
 
+"pond": "Bassa",
+
+
+
+
+
+
 "underground": "Subterrani",
 
 
@@ -1643,14 +1959,7 @@
 
 
 
-"wall": "Mur",
-
-
-
-
-
-
-"pond": "Bassa"
+"wall": "Mur"
 
 
 
@@ -1870,20 +2179,7 @@
 
 
 
-"placeholder": "Desconegut",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Masculí",
 
 
 
@@ -1897,13 +2193,26 @@
 
 
 
+"male": "Masculí",
+
+
+
+
+
+
 "unisex": "Unisex"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Desconegut"
 
 
 
@@ -2126,14 +2435,14 @@
 
 
 
-"up": "Amunt",
+"down": "Avall",
 
 
 
 
 
 
-"down": "Avall"
+"up": "Amunt"
 
 
 
@@ -2184,13 +2493,6 @@
 
 
 
-"yes": "Sí",
-
-
-
-
-
-
 "no": "No",
 
 
@@ -2198,7 +2500,7 @@
 
 
 
-"wlan": "WiFi",
+"terminal": "Mitjançant un terminal",
 
 
 
@@ -2212,7 +2514,14 @@
 
 
 
-"terminal": "Mitjançant un terminal"
+"wlan": "WiFi",
+
+
+
+
+
+
+"yes": "Sí"
 
 
 
@@ -2317,13 +2626,6 @@
 
 
 
-"evergreen": "Perenne",
-
-
-
-
-
-
 "deciduous": "Caducifoli",
 
 
@@ -2331,7 +2633,14 @@
 
 
 
-"semi_evergreen": "Semiperenne",
+"evergreen": "Perenne",
+
+
+
+
+
+
+"mixed": "Barrejat",
 
 
 
@@ -2345,7 +2654,7 @@
 
 
 
-"mixed": "Barrejat"
+"semi_evergreen": "Semiperenne"
 
 
 
@@ -2387,7 +2696,7 @@
 
 
 
-"needleleaved": "Fulles primes",
+"leafless": "Sense fullatge",
 
 
 
@@ -2401,7 +2710,7 @@
 
 
 
-"leafless": "Sense fullatge"
+"needleleaved": "Fulles primes"
 
 
 
@@ -2440,6 +2749,22 @@
 
 
 "label": "Llargada (metres)"
+
+
+
+
+},
+
+
+
+
+"level": {
+
+
+
+
+
+"label": "Nivell"
 
 
 
@@ -2553,12 +2878,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2614,7 +2933,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2631,12 +2956,6 @@
 
 
 "label": "Dificultat del camí segons IMBA",
-
-
-
-
-
-"placeholder": "Fàcil, Mitjana, Difícil...",
 
 
 
@@ -2683,7 +3002,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Fàcil, Mitjana, Difícil..."
 
 
 
@@ -2700,12 +3025,6 @@
 
 
 "label": "Dificultat d'ascens per a ciclistes de muntanya",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3...",
 
 
 
@@ -2759,7 +3078,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2874,6 +3199,13 @@
 
 
 
+"no": "No",
+
+
+
+
+
+
 "undefined": "Sobreentès que no",
 
 
@@ -2881,14 +3213,7 @@
 
 
 
-"yes": "Sí",
-
-
-
-
-
-
-"no": "No"
+"yes": "Sí"
 
 
 
@@ -2923,6 +3248,13 @@
 
 
 
+"no": "No",
+
+
+
+
+
+
 "undefined": "Sobreentès que sí",
 
 
@@ -2930,14 +3262,7 @@
 
 
 
-"yes": "Sí",
-
-
-
-
-
-
-"no": "No"
+"yes": "Sí"
 
 
 
@@ -3042,34 +3367,6 @@
 
 
 
-"surface": "Superfície",
-
-
-
-
-
-
-"multi-storey": "Diversos nivells",
-
-
-
-
-
-
-"underground": "Subterrani",
-
-
-
-
-
-
-"sheds": "Garatges",
-
-
-
-
-
-
 "carports": "Aixoplucs",
 
 
@@ -3084,7 +3381,35 @@
 
 
 
-"lane": "Adossat a la carretera"
+"lane": "Adossat a la carretera",
+
+
+
+
+
+
+"multi-storey": "Diversos nivells",
+
+
+
+
+
+
+"sheds": "Garatges",
+
+
+
+
+
+
+"surface": "Superfície",
+
+
+
+
+
+
+"underground": "Subterrani"
 
 
 
@@ -3134,34 +3459,7 @@
 
 
 
-"placeholder": "Fàcil, Intermedi, avançat...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Debutants (instrucció)",
-
-
-
-
-
-
-"easy": "Fàcil (pista verda)",
-
-
-
-
-
-
-"intermediate": "Intermedi (Pista blava)",
 
 
 
@@ -3175,7 +3473,21 @@
 
 
 
+"easy": "Fàcil (pista verda)",
+
+
+
+
+
+
 "expert": "Expert (Pista negra nivell II)",
+
+
+
+
+
+
+"extreme": "Extrem (es necessita equipament d'escalada)",
 
 
 
@@ -3189,13 +3501,26 @@
 
 
 
-"extreme": "Extrem (es necessita equipament d'escalada)"
+"intermediate": "Intermedi (Pista blava)",
 
 
 
 
 
-}
+
+"novice": "Debutants (instrucció)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Fàcil, Intermedi, avançat..."
 
 
 
@@ -3224,20 +3549,6 @@
 
 
 
-"classic": "Classic",
-
-
-
-
-
-
-"mogul": "Mogul",
-
-
-
-
-
-
 "backcountry": "Backcountry",
 
 
@@ -3245,7 +3556,21 @@
 
 
 
+"classic": "Classic",
+
+
+
+
+
+
 "classic+skating": "Classic i Skating",
+
+
+
+
+
+
+"mogul": "Mogul",
 
 
 
@@ -3301,7 +3626,28 @@
 
 
 
+"hike": "Raquetes/senderistes",
+
+
+
+
+
+
+"ice_skate": "Patinatge sobre gel",
+
+
+
+
+
+
 "nordic": "Esquí de fons",
+
+
+
+
+
+
+"playground": "Parc infantil",
 
 
 
@@ -3322,13 +3668,6 @@
 
 
 
-"hike": "Raquetes/senderistes",
-
-
-
-
-
-
 "sleigh": "Trineus multiplaça",
 
 
@@ -3336,21 +3675,7 @@
 
 
 
-"ice_skate": "Patinatge sobre gel",
-
-
-
-
-
-
-"snow_park": "Parc per a snowboards",
-
-
-
-
-
-
-"playground": "Parc infantil"
+"snow_park": "Parc per a snowboards"
 
 
 
@@ -3405,6 +3730,22 @@
 
 
 "label": "Tipus"
+
+
+
+
+},
+
+
+
+
+"power_supply": {
+
+
+
+
+
+"label": "Abastament elèctric"
 
 
 
@@ -3485,6 +3826,48 @@
 
 
 "label": "Accepta paper"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"label": "Tipus de reciclatge",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Centre de Reciclatge",
+
+
+
+
+
+
+"container": "Contenidor"
+
+
+
+
+
+}
 
 
 
@@ -3618,34 +4001,7 @@
 
 
 
-"placeholder": "Muntanysime, Alpinisme...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Senderisme",
-
-
-
-
-
-
-"mountain_hiking": "T2: Muntanyisme",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Muntanyisme exigent",
 
 
 
@@ -3666,13 +4022,56 @@
 
 
 
-"difficult_alpine_hiking": "T6: Alpinisme difícil"
+"demanding_mountain_hiking": "T3: Muntanyisme exigent",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Alpinisme difícil",
+
+
+
+
+
+
+"hiking": "T1: Senderisme",
+
+
+
+
+
+
+"mountain_hiking": "T2: Muntanyisme"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Muntanysime, Alpinisme..."
+
+
+
+
+},
+
+
+
+
+"sanitary_dump_station": {
+
+
+
+
+
+"label": "Lavabo"
 
 
 
@@ -3733,6 +4132,13 @@
 
 
 
+"no": "No",
+
+
+
+
+
+
 "undefined": "Sobreentès que és no",
 
 
@@ -3740,14 +4146,7 @@
 
 
 
-"yes": "Sí",
-
-
-
-
-
-
-"no": "No"
+"yes": "Sí"
 
 
 
@@ -3782,6 +4181,13 @@
 
 
 
+"no": "No",
+
+
+
+
+
+
 "undefined": "Entès que no",
 
 
@@ -3789,14 +4195,7 @@
 
 
 
-"yes": "Sí",
-
-
-
-
-
-
-"no": "No"
+"yes": "Sí"
 
 
 
@@ -3831,14 +4230,7 @@
 
 
 
-"spur": "Canvi d'agulles",
-
-
-
-
-
-
-"yard": "Platja",
+"crossover": "Intercambiador",
 
 
 
@@ -3852,7 +4244,14 @@
 
 
 
-"crossover": "Intercambiador"
+"spur": "Canvi d'agulles",
+
+
+
+
+
+
+"yard": "Platja"
 
 
 
@@ -3944,12 +4343,6 @@
 
 
 
-"placeholder": "No, Separats, Sí...",
-
-
-
-
-
 "options": {
 
 
@@ -3957,14 +4350,7 @@
 
 
 
-"no": "Prohibit fumar a tot arreu",
-
-
-
-
-
-
-"separated": "A les àrees per a fumadors, no aïllades físicament",
+"dedicated": "Dedicat a fumadors (ex: club de fumadors)",
 
 
 
@@ -3978,6 +4364,13 @@
 
 
 
+"no": "Prohibit fumar a tot arreu",
+
+
+
+
+
+
 "outside": "Permès a fora",
 
 
@@ -3985,20 +4378,26 @@
 
 
 
-"yes": "Permès a tot arreu",
+"separated": "A les àrees per a fumadors, no aïllades físicament",
 
 
 
 
 
 
-"dedicated": "Dedicat a fumadors (ex: club de fumadors)"
+"yes": "Permès a tot arreu"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "No, Separats, Sí..."
 
 
 
@@ -4020,13 +4419,14 @@
 
 
 
-"placeholder": "Rodetes, Rodes, Tot terreny...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Rodes robustes: bicicleta de muntanya, cotxe, carruatge oriental",
 
 
 
@@ -4047,14 +4447,21 @@
 
 
 
+"horrible": "Tot terreny : vehicle utilitari pesant tot terreny",
+
+
+
+
+
+
+"impassable": "Impassable / Vehicles sense rodes",
+
+
+
+
+
+
 "intermediate": "Rodes: bicicleta urbana, cadira de rodes, patinet",
-
-
-
-
-
-
-"bad": "Rodes robustes: bicicleta de muntanya, cotxe, carruatge oriental",
 
 
 
@@ -4068,27 +4475,19 @@
 
 
 
-"horrible": "Tot terreny : vehicle utilitari pesant tot terreny",
+"very_horrible": "Tot terreny especialitzades: tractors, Quads"
 
 
 
 
 
-
-"very_horrible": "Tot terreny especialitzades: tractors, Quads",
-
+},
 
 
 
 
 
-"impassable": "Impassable / Vehicles sense rodes"
-
-
-
-
-
-}
+"placeholder": "Rodetes, Rodes, Tot terreny..."
 
 
 
@@ -4196,12 +4595,6 @@
 
 
 
-"placeholder": "Desconegut",
-
-
-
-
-
 "options": {
 
 
@@ -4216,7 +4609,7 @@
 
 
 
-"tunnel": "Túnel",
+"cutting": "Trinxera",
 
 
 
@@ -4230,20 +4623,26 @@
 
 
 
-"cutting": "Trinxera",
+"ford": "Ford",
 
 
 
 
 
 
-"ford": "Ford"
+"tunnel": "Túnel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Desconegut"
 
 
 
@@ -4345,20 +4744,7 @@
 
 
 
-"placeholder": "Sí, No, Només per emportar...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": "Sí",
 
 
 
@@ -4372,13 +4758,26 @@
 
 
 
-"only": "Només per emportar"
+"only": "Només per emportar",
 
 
 
 
 
-}
+
+"yes": "Sí"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Sí, No, Només per emportar..."
 
 
 
@@ -4407,14 +4806,7 @@
 
 
 
-"flush": "Renovació d'aigua",
-
-
-
-
-
-
-"pitlatrine": "Latrina",
+"bucket": "Cubell",
 
 
 
@@ -4428,7 +4820,14 @@
 
 
 
-"bucket": "Cubell"
+"flush": "Renovació d'aigua",
+
+
+
+
+
+
+"pitlatrine": "Latrina"
 
 
 
@@ -4488,12 +4887,6 @@
 
 
 
-"placeholder": "Sòlid, majoritàriament sòlid, tou...",
-
-
-
-
-
 "options": {
 
 
@@ -4535,7 +4928,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Sòlid, majoritàriament sòlid, tou..."
 
 
 
@@ -4557,13 +4956,14 @@
 
 
 
-"placeholder": "Excel·lent, Bona, Dolenta...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Dolenta: sense marcadors. el camí a vegades no es veu/no hi és",
 
 
 
@@ -4584,21 +4984,14 @@
 
 
 
-"intermediate": "Intermedia: pocs marcadors, el camí es majoritàriament visible",
-
-
-
-
-
-
-"bad": "Dolenta: sense marcadors. el camí a vegades no es veu/no hi és",
-
-
-
-
-
-
 "horrible": "Horrible: a vegades sense camí, calen nocions d'orientació",
+
+
+
+
+
+
+"intermediate": "Intermedia: pocs marcadors, el camí es majoritàriament visible",
 
 
 
@@ -4611,7 +5004,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Excel·lent, Bona, Dolenta..."
 
 
 
@@ -4676,6 +5075,22 @@
 
 
 "label": "Tipus"
+
+
+
+
+},
+
+
+
+
+"water_point": {
+
+
+
+
+
+"label": "Punt d'aigua"
 
 
 
@@ -5377,6 +5792,22 @@
 
 
 
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Biergarten"
+
+
+
+
+},
+
+
+
+
 "amenity/boat_rental": {
 
 
@@ -5504,6 +5935,22 @@
 
 
 "terms": "Servei de neteja de cotxes, Tren de rentat de cotxes, Estació d'autorentat de cotxes"
+
+
+
+
+},
+
+
+
+
+"amenity/casino": {
+
+
+
+
+
+"name": "Casino"
 
 
 
@@ -6329,6 +6776,22 @@
 
 
 
+"amenity/sanitary_dump_station": {
+
+
+
+
+
+"name": "Estació de buidatge de lavabos"
+
+
+
+
+},
+
+
+
+
 "amenity/school": {
 
 
@@ -6668,6 +7131,22 @@
 
 
 "terms": "Àrea"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Superfície de la carretera"
 
 
 
@@ -8579,13 +9058,7 @@
 
 
 
-"name": "Pas de vianants",
-
-
-
-
-
-"terms": "Travessera, Cruïlla, Pas de Vianants, Pas Zebra, Pas de peatons, pas de transeünts"
+"name": "Creuament de carrer"
 
 
 
@@ -8601,13 +9074,7 @@
 
 
 
-"name": "Pas de vianants",
-
-
-
-
-
-"terms": "Pas de peatons, pas, de, peatons, vianants, persones, zebra"
+"name": "Pas de vianants"
 
 
 
@@ -8843,19 +9310,29 @@
 
 
 
+"highway/corridor": {
+
+
+
+
+
+"name": "Corredor interior"
+
+
+
+
+},
+
+
+
+
 "highway/crossing": {
 
 
 
 
 
-"name": "Pas de vianants",
-
-
-
-
-
-"terms": "Travessera, Cruïlla, Pas de Vianants, Pas Zebra, Pas de peatons, pas de transeünts"
+"name": "Creuament de carrer"
 
 
 
@@ -8871,13 +9348,7 @@
 
 
 
-"name": "Pas de vianants",
-
-
-
-
-
-"terms": "Pas de peatons, pas, de, peatons, vianants, persones, zebra"
+"name": "Pas de vianants"
 
 
 
@@ -8893,13 +9364,13 @@
 
 
 
-"name": "Carril bici",
+"name": "Carril Bici",
 
 
 
 
 
-"terms": "Carril bici, Via verda, Via ciclista"
+"terms": "Carril Bici, Via verda, Via ciclista"
 
 
 
@@ -9063,13 +9534,7 @@
 
 
 
-"name": "Via Peatonal",
-
-
-
-
-
-"terms": "Carrer Peatonal, Àrea per a peatons, Trànsit tallat, Carrer tancat al trànsit, Carrer per a vianants, Àrea per a vianants, Carrer per a transeünts, Peatons, Peatonal, Carrer per a Transeünts, Àrea peatonal"
+"name": "Zona de vianants"
 
 
 
@@ -10183,6 +10648,22 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Planter"
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
@@ -10272,6 +10753,22 @@
 
 
 "terms": "Lleure,Temps lliure"
+
+
+
+
+},
+
+
+
+
+"leisure/adult_gaming_centre": {
+
+
+
+
+
+"name": "Centre d'oci adult"
 
 
 
@@ -10827,6 +11324,22 @@
 
 
 
+"man_made/adit": {
+
+
+
+
+
+"name": "Entrada"
+
+
+
+
+},
+
+
+
+
 "man_made/breakwater": {
 
 
@@ -10925,6 +11438,22 @@
 
 
 
+"man_made/mast": {
+
+
+
+
+
+"name": "Torre de ràdio"
+
+
+
+
+},
+
+
+
+
 "man_made/observation": {
 
 
@@ -10932,6 +11461,22 @@
 
 
 "name": "Torre de vigilància"
+
+
+
+
+},
+
+
+
+
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Pou petrolífer"
 
 
 
@@ -10976,6 +11521,38 @@
 
 
 "terms": "Gàseoducte,Oleoducte,Canonades"
+
+
+
+
+},
+
+
+
+
+"man_made/silo": {
+
+
+
+
+
+"name": "Sitja"
+
+
+
+
+},
+
+
+
+
+"man_made/storage_tank": {
+
+
+
+
+
+"name": "Dipòsit d'emmagatzematge"
 
 
 
@@ -11363,6 +11940,22 @@
 
 
 
+"natural/saddle": {
+
+
+
+
+
+"name": "Seient"
+
+
+
+
+},
+
+
+
+
 "natural/scree": {
 
 
@@ -11424,6 +12017,38 @@
 
 
 "terms": "Arbre"
+
+
+
+
+},
+
+
+
+
+"natural/tree_row": {
+
+
+
+
+
+"name": "Fila d'arbres"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Volcà"
 
 
 
@@ -11985,6 +12610,22 @@
 
 
 
+"place/farm": {
+
+
+
+
+
+"name": "Granja"
+
+
+
+
+},
+
+
+
+
 "place/hamlet": {
 
 
@@ -12433,13 +13074,7 @@
 
 
 
-"name": "Pas a nivell",
-
-
-
-
-
-"terms": "Pas a nivell, Pas de ferrocarril, guardaagulles, pas de ferrocarril, barreres, semàfors, tren, cotxe"
+"name": "Pas a nivell"
 
 
 
@@ -15587,6 +16222,22 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Benzinera per a embarcacions"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -15622,6 +16273,22 @@
 
 
 "terms": "Riba del riu, Ribera"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Lavabo per a vaixells"
 
 
 

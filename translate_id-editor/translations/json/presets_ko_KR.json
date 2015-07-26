@@ -31,14 +31,14 @@
 
 
 
-"street": "길",
+"city": "도시",
 
 
 
 
 
 
-"city": "도시"
+"street": "길"
 
 
 
@@ -265,14 +265,14 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "터미널",
 
 
 
 
 
 
-"terminal": "터미널"
+"wlan": "Wifi"
 
 
 

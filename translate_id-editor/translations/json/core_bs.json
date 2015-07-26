@@ -986,10 +986,6 @@
 
 
 
-"message_label": "Predaja poruke",
-
-
-
 "upload_explanation": "Promjene koje postavite će biti vidljive na svim kartama koje koriste OpenStreetMap podatke.",
 
 
@@ -1414,10 +1410,6 @@
 
 
 "title": "Pomoć",
-
-
-
-"editing_saving": "# Uređivanje i spremanje\n\nOvaj editor je dizajniran da primarno radi online, i pristupate mu\nkroz web stranicu upravo sada.\n\n### Odabir značajki\n\nDa odaberete značajku na karti, kao npr. cestu ili tačku od interesa, kliknite\nna istu na karti. Ovo će osvijetliti odabranu značajku, otvoriti panel sa\ndetaljima o istoj, i pokazati izbor stvari koje možete uraditi sa značajkom.\n\nDa odaberete više značajki odjednom, držite tipku 'Shift'. Onda ili kliknite\nna značajke koje želite odabrati, ili povucite na karti da nacrtate pravougaonik.\nOvo će nacrtati kutiju i odabrati sve tačke unutar iste.\n\n### Spremanje uređivanja\n\nKada uradite promjene kao što su uređivanje cesta, zgrada i mjesta, isti se\npohranjuju lokalno sve dok ih ne spremite na server. Ne brinite ako napravite\ngrešku - možete poništiti promjene klikom na dugme \"Poništiti\", i vratiti\npromjene klikom na dugme \"Vratiti\".\n\nKliknite na 'Spremiti' da završite grupu uređivanja - npr, ako ste završili\ndio grada i želite započeti uređivanje na novom području. Imaćete priliku\nda pregledate šta ste uradili, a editor daje prijedloge od pomoći\ni upozorenja ako se nešto ne čini uredu sa promjenama.\n\nAko sve izgleda uredno, možete unijeti kratak komentar kojim objašnjavate promjene\nkoje ste napravili, i kliknite na 'Spremiti' opet kako bi postavili promjene\nna [OpenStreetMap.org](http://www.openstreetmap.org/), gdje su one vidljive\nsvim drugim korisnicima i dostupne za druge da ih dalje uređuju i poboljšavaju.\n\nAko ne možete završiti vaša uređivanja u jednom sjedenju, možete napustiti prozor\neditora i vratiti se (na istom pregledniku i računaru), i\naplikacija editora će ponuditi da vratite vaš rad.\n",
 
 
 

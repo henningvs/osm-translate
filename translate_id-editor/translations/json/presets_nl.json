@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Onbekend",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Algemeen",
-
-
-
-
-
-
-"foot": "Voet",
-
-
-
-
-
-
-"motor_vehicle": "Motorvoertuigen",
-
-
-
-
-
-
-"bicycle": "Fietsen",
-
-
-
-
-
-
-"horse": "Paarden"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Toegestaan",
-
-
-
-
-
-
-
-"description": "Toegang bij wet toegestaan, recht van overpad"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Verboden",
-
-
-
-
-
-
-
-"description": "Toegang niet toegestaan voor het algemeen publiek"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Niet-wettelijke bepaling",
-
-
-
-
-
-
-
-"description": "Toegang toegestaan totdat de eigenaar de toestemming intrekt"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privé",
-
-
-
-
-
-
-
-"description": "Toegang slechts toegestaan met toestemming van de eigenaar op individuele basis"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Geadviseerd",
+"description": "Toegang toegestaan volgens bebording of specifieke, plaatselijke verordeningen",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Toegang toegestaan volgens bebording of specifieke, plaatselijke verordeningen"
+"title": "Geadviseerd"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Bestemming",
+"description": "Toegang uitsluitend voor bestemmingsverkeer",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Toegang uitsluitend voor bestemmingsverkeer"
+"title": "Bestemming"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Toegang niet toegestaan voor het algemeen publiek",
+
+
+
+
+
+
+
+"title": "Verboden"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Toegang toegestaan totdat de eigenaar de toestemming intrekt",
+
+
+
+
+
+
+
+"title": "Privéterrein maar gebruik toegelaten door eigenaar"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Toegang slechts toegestaan met toestemming van de eigenaar op individuele basis",
+
+
+
+
+
+
+
+"title": "Privé"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Toegang bij wet toegestaan, recht van overpad",
+
+
+
+
+
+
+
+"title": "Toegestaan"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Onbekend",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Algemeen",
+
+
+
+
+
+
+"bicycle": "Fietsen",
+
+
+
+
+
+
+"foot": "Voet",
+
+
+
+
+
+
+"horse": "Paarden",
+
+
+
+
+
+
+"motor_vehicle": "Motorvoertuigen"
 
 
 
@@ -498,6 +498,41 @@
 
 
 
+"city": "Stad",
+
+
+
+
+
+
+"conscriptionnumber": "123",
+
+
+
+
+
+
+"country": "Land",
+
+
+
+
+
+
+"district": "Arrondissement",
+
+
+
+
+
+
+"hamlet": "Gehucht",
+
+
+
+
+
+
 "housename": "Huisnaam",
 
 
@@ -512,27 +547,6 @@
 
 
 
-"street": "Straat",
-
-
-
-
-
-
-"city": "Stad",
-
-
-
-
-
-
-"postcode": "Postcode",
-
-
-
-
-
-
 "place": "Plaats",
 
 
@@ -540,28 +554,7 @@
 
 
 
-"hamlet": "Gehucht",
-
-
-
-
-
-
-"suburb": "Buitenwijk",
-
-
-
-
-
-
-"subdistrict": "Sub-arrondissement",
-
-
-
-
-
-
-"district": "Arrondissement",
+"postcode": "Postcode",
 
 
 
@@ -582,7 +575,21 @@
 
 
 
-"country": "Land"
+"street": "Straat",
+
+
+
+
+
+
+"subdistrict": "Sub-arrondissement",
+
+
+
+
+
+
+"suburb": "Buitenwijk"
 
 
 
@@ -649,6 +656,13 @@
 
 
 
+"both": "Beide",
+
+
+
+
+
+
 "entry": "Ingang",
 
 
@@ -656,14 +670,7 @@
 
 
 
-"exit": "Uitgang",
-
-
-
-
-
-
-"both": "Beide"
+"exit": "Uitgang"
 
 
 
@@ -796,6 +803,13 @@
 
 
 
+"both": "Beide",
+
+
+
+
+
+
 "entry": "Ingang",
 
 
@@ -803,14 +817,7 @@
 
 
 
-"exit": "Uitgang",
-
-
-
-
-
-
-"both": "Beide"
+"exit": "Uitgang"
 
 
 
@@ -843,6 +850,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Type"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -944,7 +967,7 @@
 
 
 
-"label": "Bank"
+"label": "Zitbank"
 
 
 
@@ -1075,63 +1098,7 @@
 
 
 
-"N": "Noord",
-
-
-
-
-
-
 "E": "Oost",
-
-
-
-
-
-
-"S": "Zuid",
-
-
-
-
-
-
-"W": "West",
-
-
-
-
-
-
-"NE": "Noordoost",
-
-
-
-
-
-
-"SE": "Zuidoost",
-
-
-
-
-
-
-"SW": "Zuidwest",
-
-
-
-
-
-
-"NW": "Noordwest",
-
-
-
-
-
-
-"NNE": "Noordnoordoost",
 
 
 
@@ -1152,6 +1119,55 @@
 
 
 
+"N": "Noord",
+
+
+
+
+
+
+"NE": "Noordoost",
+
+
+
+
+
+
+"NNE": "Noordnoordoost",
+
+
+
+
+
+
+"NNW": "Noordnoordwest",
+
+
+
+
+
+
+"NW": "Noordwest",
+
+
+
+
+
+
+"S": "Zuid",
+
+
+
+
+
+
+"SE": "Zuidoost",
+
+
+
+
+
+
 "SSE": "Zuidzuidoost",
 
 
@@ -1166,7 +1182,14 @@
 
 
 
-"WSW": "Westzuidwest",
+"SW": "Zuidwest",
+
+
+
+
+
+
+"W": "West",
 
 
 
@@ -1180,7 +1203,7 @@
 
 
 
-"NNW": "Noordnoordwest"
+"WSW": "Westzuidwest"
 
 
 
@@ -1215,14 +1238,14 @@
 
 
 
-"clockwise": "Met de klok mee",
+"anticlockwise": "Tegen de klok in",
 
 
 
 
 
 
-"anticlockwise": "Tegen de klok in"
+"clockwise": "Met de klok mee"
 
 
 
@@ -1261,6 +1284,22 @@
 
 
 "label": "Type"
+
+
+
+
+},
+
+
+
+
+"content": {
+
+
+
+
+
+"label": "Inhoud"
 
 
 
@@ -1366,6 +1405,276 @@
 
 
 
+"cycleway": {
+
+
+
+
+
+"label": "Fietspaden",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Een fietspad afgescheiden van het autoverkeer door een geverfde lijn",
+
+
+
+
+
+
+
+"title": "Standaardfietspad"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Geen fietspad",
+
+
+
+
+
+
+
+"title": "Geen"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Een fietspad waar je in beide richtingen mag op rijden in een eenrichtingsstraat",
+
+
+
+
+
+
+
+"title": "Tweerichtingsfietspad in eenrichtingsstraat"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Een fietspad in de andere richting dan de hoofdweg",
+
+
+
+
+
+
+
+"title": "Tegenrichtingsfietspad"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Een rijstrook voor bussen en fietsers",
+
+
+
+
+
+
+
+"title": "Fiets- en busstrook"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Overrijdbare aanduidingen om auto's attent te maken op fietsers",
+
+
+
+
+
+
+
+"title": "Fietssuggestiestrook"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Een fietspad dat fysiek is afgescheiden van het verkeer. Niet op de hoofdweg aanduiden als het fietspad al afzonderlijk getekend is.",
+
+
+
+
+
+
+
+"title": "Afgescheiden fietspad"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "geen",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Linkerkant",
+
+
+
+
+
+
+"cycleway:right": "Rechterkant"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "delivery": {
 
 
@@ -1458,12 +1767,6 @@
 
 
 
-"placeholder": "Contactleiding, Elektrisch Spoor …",
-
-
-
-
-
 "options": {
 
 
@@ -1478,6 +1781,13 @@
 
 
 
+"no": "Nee",
+
+
+
+
+
+
 "rail": "Elektrisch Spoor",
 
 
@@ -1485,20 +1795,19 @@
 
 
 
-"yes": "Ja (onbepaald)",
+"yes": "Ja (onbepaald)"
 
 
 
 
 
-
-"no": "Nee"
-
+},
 
 
 
 
-}
+
+"placeholder": "Contactleiding, Elektrisch Spoor …"
 
 
 
@@ -1636,6 +1945,13 @@
 
 
 
+"pond": "Vijver",
+
+
+
+
+
+
 "underground": "Metro",
 
 
@@ -1643,14 +1959,7 @@
 
 
 
-"wall": "Muur",
-
-
-
-
-
-
-"pond": "Vijver"
+"wall": "Muur"
 
 
 
@@ -1870,20 +2179,7 @@
 
 
 
-"placeholder": "Onbekend",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Mannelijk",
 
 
 
@@ -1897,13 +2193,26 @@
 
 
 
+"male": "Mannelijk",
+
+
+
+
+
+
 "unisex": "Unisex"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Onbekend"
 
 
 
@@ -2126,14 +2435,14 @@
 
 
 
-"up": "Naar boven",
+"down": "Naar beneden",
 
 
 
 
 
 
-"down": "Naar beneden"
+"up": "Naar boven"
 
 
 
@@ -2184,13 +2493,6 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
 "no": "Nee",
 
 
@@ -2198,7 +2500,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Computer",
 
 
 
@@ -2212,7 +2514,14 @@
 
 
 
-"terminal": "Computer"
+"wlan": "Wifi",
+
+
+
+
+
+
+"yes": "Ja"
 
 
 
@@ -2317,13 +2626,6 @@
 
 
 
-"evergreen": "Groenblijvend",
-
-
-
-
-
-
 "deciduous": "Bladverliezend",
 
 
@@ -2331,7 +2633,14 @@
 
 
 
-"semi_evergreen": "Half-Groenblijvend",
+"evergreen": "Groenblijvend",
+
+
+
+
+
+
+"mixed": "Gemengd",
 
 
 
@@ -2345,7 +2654,7 @@
 
 
 
-"mixed": "Gemengd"
+"semi_evergreen": "Half-Groenblijvend"
 
 
 
@@ -2387,7 +2696,7 @@
 
 
 
-"needleleaved": "Naalden",
+"leafless": "Bladloos",
 
 
 
@@ -2401,7 +2710,7 @@
 
 
 
-"leafless": "Bladloos"
+"needleleaved": "Naalden"
 
 
 
@@ -2440,6 +2749,22 @@
 
 
 "label": "Lengte (Meter)"
+
+
+
+
+},
+
+
+
+
+"level": {
+
+
+
+
+
+"label": "Verdieping"
 
 
 
@@ -2553,12 +2878,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3 …",
-
-
-
-
-
 "options": {
 
 
@@ -2614,7 +2933,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3 …"
 
 
 
@@ -2631,12 +2956,6 @@
 
 
 "label": "IMBA Route-Moeilijkheidsgraad",
-
-
-
-
-
-"placeholder": "Makkelijk, Gemiddeld, Moeilijk …",
 
 
 
@@ -2683,7 +3002,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Makkelijk, Gemiddeld, Moeilijk …"
 
 
 
@@ -2700,12 +3025,6 @@
 
 
 "label": "Mountain biking Moeilijkheidsgraad Berg-op",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3 …",
 
 
 
@@ -2759,7 +3078,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3 …"
 
 
 
@@ -2874,6 +3199,13 @@
 
 
 
+"no": "Nee",
+
+
+
+
+
+
 "undefined": "Aangenomen dat het Nee is",
 
 
@@ -2881,14 +3213,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nee"
+"yes": "Ja"
 
 
 
@@ -2923,6 +3248,13 @@
 
 
 
+"no": "Nee",
+
+
+
+
+
+
 "undefined": "Aangenomen dat het Ja is",
 
 
@@ -2930,14 +3262,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nee"
+"yes": "Ja"
 
 
 
@@ -3042,34 +3367,6 @@
 
 
 
-"surface": "Oppervlak",
-
-
-
-
-
-
-"multi-storey": "Parkeergebouw met meerdere verdiepingen",
-
-
-
-
-
-
-"underground": "ondergrond",
-
-
-
-
-
-
-"sheds": "Stallen",
-
-
-
-
-
-
 "carports": "Carports",
 
 
@@ -3084,7 +3381,35 @@
 
 
 
-"lane": "Parkeerstrook"
+"lane": "Parkeerstrook",
+
+
+
+
+
+
+"multi-storey": "Parkeergebouw met meerdere verdiepingen",
+
+
+
+
+
+
+"sheds": "Stallen",
+
+
+
+
+
+
+"surface": "Oppervlak",
+
+
+
+
+
+
+"underground": "ondergrond"
 
 
 
@@ -3134,34 +3459,7 @@
 
 
 
-"placeholder": "Gemakkelijk, gemiddeld, moeilijk...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Beginner (educatief)",
-
-
-
-
-
-
-"easy": "Makkelijk (groen rondje)",
-
-
-
-
-
-
-"intermediate": "Gemiddeld (blauw vierkant)",
 
 
 
@@ -3175,7 +3473,21 @@
 
 
 
+"easy": "Makkelijk (groen rondje)",
+
+
+
+
+
+
 "expert": "Expert (dubbele zwarte ruit)",
+
+
+
+
+
+
+"extreme": "Extreem (klimuitrusting vereist)",
 
 
 
@@ -3189,13 +3501,26 @@
 
 
 
-"extreme": "Extreem (klimuitrusting vereist)"
+"intermediate": "Gemiddeld (blauw vierkant)",
 
 
 
 
 
-}
+
+"novice": "Beginner (educatief)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Gemakkelijk, gemiddeld, moeilijk..."
 
 
 
@@ -3224,20 +3549,6 @@
 
 
 
-"classic": "Klassiek",
-
-
-
-
-
-
-"mogul": "Buckel",
-
-
-
-
-
-
 "backcountry": "Freeride",
 
 
@@ -3245,7 +3556,21 @@
 
 
 
+"classic": "Klassiek",
+
+
+
+
+
+
 "classic+skating": "Klassiek en Schaatsen",
+
+
+
+
+
+
+"mogul": "Buckel",
 
 
 
@@ -3301,7 +3626,28 @@
 
 
 
+"hike": "Wandelen",
+
+
+
+
+
+
+"ice_skate": "IJsschaatsen",
+
+
+
+
+
+
 "nordic": "Nordic",
+
+
+
+
+
+
+"playground": "Speelplaats",
 
 
 
@@ -3322,13 +3668,6 @@
 
 
 
-"hike": "Wandelen",
-
-
-
-
-
-
 "sleigh": "Slee getrokken door dieren",
 
 
@@ -3336,21 +3675,7 @@
 
 
 
-"ice_skate": "IJsschaatsen",
-
-
-
-
-
-
-"snow_park": "Sneeuwpark",
-
-
-
-
-
-
-"playground": "Speelplaats"
+"snow_park": "Sneeuwpark"
 
 
 
@@ -3405,6 +3730,22 @@
 
 
 "label": "Type"
+
+
+
+
+},
+
+
+
+
+"power_supply": {
+
+
+
+
+
+"label": "Stroomvoorziening"
 
 
 
@@ -3485,6 +3826,48 @@
 
 
 "label": "Aanvaardt Papier"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"label": "Recyclage-infrastructuur",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Milieupark/Containerpark",
+
+
+
+
+
+
+"container": "Container"
+
+
+
+
+
+}
 
 
 
@@ -3618,34 +4001,7 @@
 
 
 
-"placeholder": "Bergwandelen, Alpinewandelen …",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Wandelen",
-
-
-
-
-
-
-"mountain_hiking": "T2: Bergwandelen",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Zwaar Bergwandelen",
 
 
 
@@ -3666,13 +4022,56 @@
 
 
 
-"difficult_alpine_hiking": "T6: Moeilijk Alpinewandelen"
+"demanding_mountain_hiking": "T3: Zwaar Bergwandelen",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Moeilijk Alpinewandelen",
+
+
+
+
+
+
+"hiking": "T1: Wandelen",
+
+
+
+
+
+
+"mountain_hiking": "T2: Bergwandelen"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Bergwandelen, Alpinewandelen …"
+
+
+
+
+},
+
+
+
+
+"sanitary_dump_station": {
+
+
+
+
+
+"label": "Toilet-afvoer"
 
 
 
@@ -3733,6 +4132,13 @@
 
 
 
+"no": "Nee",
+
+
+
+
+
+
 "undefined": "Aangenomen dat het Nee is",
 
 
@@ -3740,14 +4146,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nee"
+"yes": "Ja"
 
 
 
@@ -3782,6 +4181,13 @@
 
 
 
+"no": "Nee",
+
+
+
+
+
+
 "undefined": "Aangenomen dat het Nee is",
 
 
@@ -3789,14 +4195,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nee"
+"yes": "Ja"
 
 
 
@@ -3831,14 +4230,7 @@
 
 
 
-"spur": "Aansluiting voor bedrijven",
-
-
-
-
-
-
-"yard": "Bundel",
+"crossover": "Wisselspoor",
 
 
 
@@ -3852,7 +4244,14 @@
 
 
 
-"crossover": "Wisselspoor"
+"spur": "Aansluiting voor bedrijven",
+
+
+
+
+
+
+"yard": "Bundel"
 
 
 
@@ -3944,12 +4343,6 @@
 
 
 
-"placeholder": "Nee, Gescheiden, Ja …",
-
-
-
-
-
 "options": {
 
 
@@ -3957,14 +4350,7 @@
 
 
 
-"no": "Roken nergens toegestaan",
-
-
-
-
-
-
-"separated": "Roken toegestaan op aangegeven plaatsen, fysiek niet gescheiden",
+"dedicated": "Toegespitst op rokers (bv. rookclub)",
 
 
 
@@ -3978,6 +4364,13 @@
 
 
 
+"no": "Roken nergens toegestaan",
+
+
+
+
+
+
 "outside": "Toegestaan buiten",
 
 
@@ -3985,20 +4378,26 @@
 
 
 
-"yes": "Overal toegestaan",
+"separated": "Roken toegestaan op aangegeven plaatsen, fysiek niet gescheiden",
 
 
 
 
 
 
-"dedicated": "Toegespitst op rokers (bv. rookclub)"
+"yes": "Overal toegestaan"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nee, Gescheiden, Ja …"
 
 
 
@@ -4020,13 +4419,14 @@
 
 
 
-"placeholder": "Dunne Wieltjes, Wielen, Offroad …",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Stevige wielen: trekkingfiets, auto, riksja",
 
 
 
@@ -4047,14 +4447,21 @@
 
 
 
+"horrible": "Offroad: zware offroadvoertuigen",
+
+
+
+
+
+
+"impassable": "Ontoegankelijk / Geen voertuig op wielen",
+
+
+
+
+
+
 "intermediate": "Wielen: stadsfiets, rolstoel, scooter",
-
-
-
-
-
-
-"bad": "Stevige wielen: trekkingfiets, auto, riksja",
 
 
 
@@ -4068,27 +4475,19 @@
 
 
 
-"horrible": "Offroad: zware offroadvoertuigen",
+"very_horrible": "Gespecialiseerde offroad: tractor, quad"
 
 
 
 
 
-
-"very_horrible": "Gespecialiseerde offroad: tractor, quad",
-
+},
 
 
 
 
 
-"impassable": "Ontoegankelijk / Geen voertuig op wielen"
-
-
-
-
-
-}
+"placeholder": "Dunne Wieltjes, Wielen, Offroad …"
 
 
 
@@ -4196,12 +4595,6 @@
 
 
 
-"placeholder": "Onbekend",
-
-
-
-
-
 "options": {
 
 
@@ -4216,7 +4609,7 @@
 
 
 
-"tunnel": "Tunnel",
+"cutting": "Landuitsnijding",
 
 
 
@@ -4230,20 +4623,26 @@
 
 
 
-"cutting": "Landuitsnijding",
+"ford": "fort",
 
 
 
 
 
 
-"ford": "fort"
+"tunnel": "Tunnel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Onbekend"
 
 
 
@@ -4345,20 +4744,7 @@
 
 
 
-"placeholder": "Ja, Nee, Alleen Afhaal …",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": "Ja",
 
 
 
@@ -4372,13 +4758,26 @@
 
 
 
-"only": "Alleen Afhaal"
+"only": "Alleen Afhaal",
 
 
 
 
 
-}
+
+"yes": "Ja"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Ja, Nee, Alleen Afhaal …"
 
 
 
@@ -4407,14 +4806,7 @@
 
 
 
-"flush": "Doorspoelen",
-
-
-
-
-
-
-"pitlatrine": "Kuil/Latrine",
+"bucket": "Emmer",
 
 
 
@@ -4428,7 +4820,14 @@
 
 
 
-"bucket": "Emmer"
+"flush": "Doorspoelen",
+
+
+
+
+
+
+"pitlatrine": "Kuil/Latrine"
 
 
 
@@ -4488,12 +4887,6 @@
 
 
 
-"placeholder": "Vast, Voornamelijk Vast, Los …",
-
-
-
-
-
 "options": {
 
 
@@ -4535,7 +4928,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Vast, Voornamelijk Vast, Los …"
 
 
 
@@ -4557,13 +4956,14 @@
 
 
 
-"placeholder": "Uitmuntend, Goed, Slecht …",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Slecht: geen wegwijzers, paden soms zichtbaar/geen paden",
 
 
 
@@ -4584,21 +4984,14 @@
 
 
 
-"intermediate": "Gemiddeld: weinig wegwijzers, paden meestal zichtbaar",
-
-
-
-
-
-
-"bad": "Slecht: geen wegwijzers, paden soms zichtbaar/geen paden",
-
-
-
-
-
-
 "horrible": "Verschikkelijk: meestal geen paden, wat oriëntatie vaardigheden vereist",
+
+
+
+
+
+
+"intermediate": "Gemiddeld: weinig wegwijzers, paden meestal zichtbaar",
 
 
 
@@ -4611,7 +5004,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Uitmuntend, Goed, Slecht …"
 
 
 
@@ -4676,6 +5075,22 @@
 
 
 "label": "Type"
+
+
+
+
+},
+
+
+
+
+"water_point": {
+
+
+
+
+
+"label": "Watervoorziening"
 
 
 
@@ -5237,7 +5652,7 @@
 
 
 
-"terms": "pinnen,pinautomaat,bancontact,ATM,geld afhalen,geldautomaat"
+"terms": "pinnen,pinautomaat,bancontact,ATM,geld afhalen,geldautomaat,geld uit de muur"
 
 
 
@@ -5253,7 +5668,7 @@
 
 
 
-"name": "Bank",
+"name": "Bank (financieel)",
 
 
 
@@ -5325,7 +5740,7 @@
 
 
 
-"terms": "bank, bankje"
+"terms": "bank,bankje"
 
 
 
@@ -5392,6 +5807,28 @@
 
 
 "terms": "fietsonderhoud, onderhoud, banden, fietsbanden, fietspomp, fietsherstelstation, fietsenmaker"
+
+
+
+
+},
+
+
+
+
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Biergarten",
+
+
+
+
+
+"terms": "bier,terras,café,cafe"
 
 
 
@@ -5546,6 +5983,28 @@
 
 
 "terms": "carwash, wasstraat"
+
+
+
+
+},
+
+
+
+
+"amenity/casino": {
+
+
+
+
+
+"name": "Casino",
+
+
+
+
+
+"terms": "gokken,kansspelen"
 
 
 
@@ -5743,7 +6202,7 @@
 
 
 
-"terms": "rechtszaal, rechtbank, gerechtshof, paleis van justitie, justitiepaleis"
+"terms": "rechtszaal,rechtbank,gerechtshof,paleis van justitie,justitiepaleis"
 
 
 
@@ -6449,6 +6908,28 @@
 
 
 
+"amenity/sanitary_dump_station": {
+
+
+
+
+
+"name": "Kampeerauto-toilet-afvoer",
+
+
+
+
+
+"terms": "kampeerauto,beerput,camper,kampeerwagen,mobilhome,zwerfwagen,motorhome,uitwerpselen,urine,toilet"
+
+
+
+
+},
+
+
+
+
 "amenity/school": {
 
 
@@ -6615,7 +7096,7 @@
 
 
 
-"terms": "zwemmen, bad, water"
+"terms": "zwemmen,water"
 
 
 
@@ -6830,6 +7311,28 @@
 
 
 "terms": "vlak"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Wegdek",
+
+
+
+
+
+"terms": "rand van weg;gebied;wegoppervlak"
 
 
 
@@ -7563,7 +8066,7 @@
 
 
 
-"terms": "serre, kas"
+"terms": "serre,kas"
 
 
 
@@ -7629,7 +8132,7 @@
 
 
 
-"terms": "woning, woonst"
+"terms": "woning,woonst,woongebied,huizen,residentieel,wonen,woonwijk,gebouw"
 
 
 
@@ -7727,7 +8230,7 @@
 
 
 
-"terms": "residentieel, huis, appartementsgebouw, flats"
+"terms": "residentieel,huis,appartementsgebouw,flats"
 
 
 
@@ -7875,7 +8378,7 @@
 
 
 
-"terms": "rijtjeshuizen"
+"terms": "rijtjeshuizen,huis,woningen,woonsten,woongebied,gebouw"
 
 
 
@@ -7941,7 +8444,7 @@
 
 
 
-"terms": "magazijn"
+"terms": "magazijn,warenhuis"
 
 
 
@@ -8963,7 +9466,7 @@
 
 
 
-"terms": "oversteekplaats,voetganger"
+"terms": "oversteekplaats"
 
 
 
@@ -8979,13 +9482,7 @@
 
 
 
-"name": "Zebrapad",
-
-
-
-
-
-"terms": "oversteekplaats, voetgangers, voetpad"
+"name": "Brits zebrapad zonder verkeerslichten"
 
 
 
@@ -9275,13 +9772,29 @@
 
 
 
+"highway/corridor": {
+
+
+
+
+
+"name": "Gang in Gebouw"
+
+
+
+
+},
+
+
+
+
 "highway/crossing": {
 
 
 
 
 
-"name": "Oversteekplaats"
+"name": "Zebrapad"
 
 
 
@@ -9297,13 +9810,7 @@
 
 
 
-"name": "Zebrapad",
-
-
-
-
-
-"terms": "oversteekplaats, voetgangers, voetpad"
+"name": "Brits zebrapad zonder verkeerslichten"
 
 
 
@@ -9477,7 +9984,7 @@
 
 
 
-"name": "Voetgangersgebied"
+"name": "Voetgangersstraat"
 
 
 
@@ -10495,13 +11002,41 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Plantenkwekerij",
+
+
+
+
+
+"terms": "tuinderij,tuin"
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
 
 
 
-"name": "Mijnbouw"
+"name": "Groeve",
+
+
+
+
+
+"terms": "steengroeve,mijn,openluchtmijn,dagbouw"
 
 
 
@@ -10523,7 +11058,7 @@
 
 
 
-"terms": "huizen, residentieel, wonen, woonwijk"
+"terms": "huizen,residentieel,wonen,woonwijk"
 
 
 
@@ -10584,6 +11119,28 @@
 
 
 "name": "Vrije tijd"
+
+
+
+
+},
+
+
+
+
+"leisure/adult_gaming_centre": {
+
+
+
+
+
+"name": "Speelzaal (met kansspelmachines)",
+
+
+
+
+
+"terms": "casino;slot machine;slots;gokken"
 
 
 
@@ -11009,7 +11566,13 @@
 
 
 
-"name": "Zwembad"
+"name": "Zwembad",
+
+
+
+
+
+"terms": "zwemmen,water"
 
 
 
@@ -11064,6 +11627,22 @@
 
 
 "name": "Aangelegd"
+
+
+
+
+},
+
+
+
+
+"man_made/adit": {
+
+
+
+
+
+"name": "Horizontale Mijningang"
 
 
 
@@ -11155,7 +11734,35 @@
 
 
 
-"name": "Vuurtoren"
+"name": "Vuurtoren",
+
+
+
+
+
+"terms": "lichtbaken"
+
+
+
+
+},
+
+
+
+
+"man_made/mast": {
+
+
+
+
+
+"name": "Zendmast",
+
+
+
+
+
+"terms": "radiomast,antenne"
 
 
 
@@ -11178,6 +11785,28 @@
 
 
 "terms": "uitkijktoren"
+
+
+
+
+},
+
+
+
+
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Oliebron",
+
+
+
+
+
+"terms": "olieput,gasbron"
 
 
 
@@ -11216,6 +11845,50 @@
 
 
 "terms": "pijplijn, pijpleiding"
+
+
+
+
+},
+
+
+
+
+"man_made/silo": {
+
+
+
+
+
+"name": "Silo",
+
+
+
+
+
+"terms": "veevoeder,graansilo"
+
+
+
+
+},
+
+
+
+
+"man_made/storage_tank": {
+
+
+
+
+
+"name": "Opslagtank",
+
+
+
+
+
+"terms": "olietank,silo"
 
 
 
@@ -11591,6 +12264,22 @@
 
 
 
+"natural/saddle": {
+
+
+
+
+
+"name": "Zadelpunt"
+
+
+
+
+},
+
+
+
+
 "natural/scree": {
 
 
@@ -11646,6 +12335,44 @@
 
 
 "name": "Boom"
+
+
+
+
+},
+
+
+
+
+"natural/tree_row": {
+
+
+
+
+
+"name": "Bomenrij",
+
+
+
+
+
+"terms": "rij bomen,laan"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Vulkaan"
 
 
 
@@ -12177,6 +12904,28 @@
 
 
 
+"place/farm": {
+
+
+
+
+
+"name": "Boerderij",
+
+
+
+
+
+"terms": "hoeve,hof"
+
+
+
+
+},
+
+
+
+
 "place/hamlet": {
 
 
@@ -12633,7 +13382,7 @@
 
 
 
-"terms": "overweg,treinspoor"
+"terms": "overweg"
 
 
 
@@ -13929,7 +14678,7 @@
 
 
 
-"terms": "huiswaar, elektronica, meubilair, meubels, huishoudelijke elektronica, gebruiksvoorwerpen"
+"terms": "huiswaar,elektronica,meubilair,meubels,huishoudelijke elektronica,gebruiksvoorwerpen"
 
 
 
@@ -15023,7 +15772,7 @@
 
 
 
-"terms": "bed and breakfast,bed & breakfast,hotel"
+"terms": "bed and breakfast,bed & breakfast,hotel,B&B"
 
 
 
@@ -15787,6 +16536,28 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Tankstation voor Boten",
+
+
+
+
+
+"terms": "schip,brandstof"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -15822,6 +16593,28 @@
 
 
 "terms": "oever"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Boot-toilet-afvoer",
+
+
+
+
+
+"terms": "schip,uitwerpselen,urine,toilet"
 
 
 

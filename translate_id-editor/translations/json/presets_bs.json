@@ -176,180 +176,7 @@
 
 
 
-"placeholder": "Nepoznato",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Opće",
-
-
-
-
-
-
-"foot": "Pješke",
-
-
-
-
-
-
-"motor_vehicle": "Motorna vozila",
-
-
-
-
-
-
-"bicycle": "Bicikli",
-
-
-
-
-
-
-"horse": "Konji"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Dozvoljeno",
-
-
-
-
-
-
-
-"description": "Pristup dozvoljen zakonom: pravo prvenstva prolaza"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Zabranjeno",
-
-
-
-
-
-
-
-"description": "Pristup nije dozvoljen za širu javnost"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Propustljiv",
-
-
-
-
-
-
-
-"description": "Pristup dozvoljen sve dok vlasnik ne povuče dozvolu"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privatan",
-
-
-
-
-
-
-
-"description": "Pristup dozvoljen samo uz dozvolu vlasnika na ličnoj bazi"
-
-
-
-
-
-
-},
 
 
 
@@ -364,7 +191,7 @@
 
 
 
-"title": "Namjenski",
+"description": "Pristup dozvoljen u skladu sa saobraćajnim znakovima ili posebnim lokalnim zakonima",
 
 
 
@@ -372,7 +199,7 @@
 
 
 
-"description": "Pristup dozvoljen u skladu sa saobraćajnim znakovima ili posebnim lokalnim zakonima"
+"title": "Namjenski"
 
 
 
@@ -394,7 +221,7 @@
 
 
 
-"title": "Odredište",
+"description": "Pristup dozvoljen samo kako bi se dostiglo odredište",
 
 
 
@@ -402,7 +229,127 @@
 
 
 
-"description": "Pristup dozvoljen samo kako bi se dostiglo odredište"
+"title": "Odredište"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Pristup nije dozvoljen za širu javnost",
+
+
+
+
+
+
+
+"title": "Zabranjeno"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Pristup dozvoljen sve dok vlasnik ne povuče dozvolu",
+
+
+
+
+
+
+
+"title": "Propustljiv"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Pristup dozvoljen samo uz dozvolu vlasnika na ličnoj bazi",
+
+
+
+
+
+
+
+"title": "Privatan"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Pristup dozvoljen zakonom: pravo prvenstva prolaza",
+
+
+
+
+
+
+
+"title": "Dozvoljeno"
 
 
 
@@ -410,6 +357,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Nepoznato",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Opće",
+
+
+
+
+
+
+"bicycle": "Bicikli",
+
+
+
+
+
+
+"foot": "Pješke",
+
+
+
+
+
+
+"horse": "Konji",
+
+
+
+
+
+
+"motor_vehicle": "Motorna vozila"
 
 
 
@@ -460,14 +460,14 @@
 
 
 
-"street": "Ulica",
+"city": "Grad",
 
 
 
 
 
 
-"city": "Grad"
+"street": "Ulica"
 
 
 
@@ -878,14 +878,14 @@
 
 
 
-"clockwise": "U smjeru kazaljke na satu",
+"anticlockwise": "U smjeru suprotnom od kazaljke na satu",
 
 
 
 
 
 
-"anticlockwise": "U smjeru suprotnom od kazaljke na satu"
+"clockwise": "U smjeru kazaljke na satu"
 
 
 
@@ -1370,7 +1370,7 @@
 
 
 
-"wlan": "WiFi",
+"terminal": "Terminal",
 
 
 
@@ -1384,7 +1384,7 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "WiFi"
 
 
 
@@ -2088,12 +2088,6 @@
 
 
 
-"placeholder": "Nepoznato",
-
-
-
-
-
 "options": {
 
 
@@ -2108,7 +2102,7 @@
 
 
 
-"tunnel": "Tunel",
+"cutting": "Usjek",
 
 
 
@@ -2122,13 +2116,19 @@
 
 
 
-"cutting": "Usjek"
+"tunnel": "Tunel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nepoznato"
 
 
 
@@ -4874,28 +4874,6 @@
 
 
 
-"footway/crossing": {
-
-
-
-
-
-"name": "Prelaz",
-
-
-
-
-
-"terms": "prelaz,pješački prelaz"
-
-
-
-
-},
-
-
-
-
 "footway/sidewalk": {
 
 
@@ -5160,28 +5138,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "Prelaz",
-
-
-
-
-
-"terms": "pješački prelaz,zebra"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -5327,28 +5283,6 @@
 
 
 "terms": "staza,puteljak"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "Pješački",
-
-
-
-
-
-"terms": "pješački,za pješake"
 
 
 
@@ -8539,28 +8473,6 @@
 
 
 "terms": "željeznička ustava,željezničko zaustavljanje,željeznički zastoj"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Prelaz u nivou",
-
-
-
-
-
-"terms": "prelaz u nivou,ukrštanje željeznice i puta"
 
 
 

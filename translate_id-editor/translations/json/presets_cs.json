@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Není známo",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Všem",
-
-
-
-
-
-
-"foot": "Pěší",
-
-
-
-
-
-
-"motor_vehicle": "Motorová vozidla",
-
-
-
-
-
-
-"bicycle": "Jízdní kola",
-
-
-
-
-
-
-"horse": "Koně"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Povolen",
-
-
-
-
-
-
-
-"description": "Přístup oficiálně, ze zákona povolen"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Zakázán",
-
-
-
-
-
-
-
-"description": "Přístup širší veřejnosti zakázán"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Do odvolání",
-
-
-
-
-
-
-
-"description": "Vstup je povolen do té doby, než majitel povolení zruší"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Soukromé",
-
-
-
-
-
-
-
-"description": "Přístup je povolen jen s individuálním svolením majitele"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Explicitně povolen",
+"description": "Přístup je povolen podle značení či místních předpisů",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Přístup je povolen podle značení či místních předpisů"
+"title": "Explicitně povolen"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Jen do místa",
+"description": "Průjezd zakázán, průchod zakázán apod.",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Průjezd zakázán, průchod zakázán apod."
+"title": "Jen do místa"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Přístup širší veřejnosti zakázán",
+
+
+
+
+
+
+
+"title": "Zakázán"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Vstup je povolen do té doby, než majitel povolení zruší",
+
+
+
+
+
+
+
+"title": "Do odvolání"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Přístup je povolen jen s individuálním svolením majitele",
+
+
+
+
+
+
+
+"title": "Soukromé"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Přístup oficiálně, ze zákona povolen",
+
+
+
+
+
+
+
+"title": "Povolen"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Není známo",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Všem",
+
+
+
+
+
+
+"bicycle": "Jízdní kola",
+
+
+
+
+
+
+"foot": "Pěší",
+
+
+
+
+
+
+"horse": "Koně",
+
+
+
+
+
+
+"motor_vehicle": "Motorová vozidla"
 
 
 
@@ -498,6 +498,41 @@
 
 
 
+"city": "Město",
+
+
+
+
+
+
+"conscriptionnumber": "123",
+
+
+
+
+
+
+"country": "Stát (země)",
+
+
+
+
+
+
+"district": "Distrikt",
+
+
+
+
+
+
+"hamlet": "Osada",
+
+
+
+
+
+
 "housename": "Název domu",
 
 
@@ -512,27 +547,6 @@
 
 
 
-"street": "Ulice",
-
-
-
-
-
-
-"city": "Město",
-
-
-
-
-
-
-"postcode": "Poštovní směrovací číslo",
-
-
-
-
-
-
 "place": "Obydlené místo",
 
 
@@ -540,28 +554,7 @@
 
 
 
-"hamlet": "Osada",
-
-
-
-
-
-
-"suburb": "Městská část (obvod)",
-
-
-
-
-
-
-"subdistrict": "Subdistrikt",
-
-
-
-
-
-
-"district": "Distrikt",
+"postcode": "Poštovní směrovací číslo",
 
 
 
@@ -582,7 +575,21 @@
 
 
 
-"country": "Stát (země)"
+"street": "Ulice",
+
+
+
+
+
+
+"subdistrict": "Subdistrikt",
+
+
+
+
+
+
+"suburb": "Městská část (obvod)"
 
 
 
@@ -649,6 +656,13 @@
 
 
 
+"both": "Oboje",
+
+
+
+
+
+
 "entry": "Vstup",
 
 
@@ -656,14 +670,7 @@
 
 
 
-"exit": "Výstup",
-
-
-
-
-
-
-"both": "Oboje"
+"exit": "Výstup"
 
 
 
@@ -796,6 +803,13 @@
 
 
 
+"both": "Oboje",
+
+
+
+
+
+
 "entry": "Vstup",
 
 
@@ -803,14 +817,7 @@
 
 
 
-"exit": "Výstup",
-
-
-
-
-
-
-"both": "Oboje"
+"exit": "Výstup"
 
 
 
@@ -843,6 +850,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Typ"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -1075,63 +1098,7 @@
 
 
 
-"N": "Sever",
-
-
-
-
-
-
 "E": "Východ",
-
-
-
-
-
-
-"S": "Jih",
-
-
-
-
-
-
-"W": "Západ",
-
-
-
-
-
-
-"NE": "Severovýchod",
-
-
-
-
-
-
-"SE": "Jihovýchod",
-
-
-
-
-
-
-"SW": "Jihozápad",
-
-
-
-
-
-
-"NW": "Severozápad",
-
-
-
-
-
-
-"NNE": "Severo-severovýchod",
 
 
 
@@ -1152,6 +1119,55 @@
 
 
 
+"N": "Sever",
+
+
+
+
+
+
+"NE": "Severovýchod",
+
+
+
+
+
+
+"NNE": "Severo-severovýchod",
+
+
+
+
+
+
+"NNW": "Severo-severozápad",
+
+
+
+
+
+
+"NW": "Severozápad",
+
+
+
+
+
+
+"S": "Jih",
+
+
+
+
+
+
+"SE": "Jihovýchod",
+
+
+
+
+
+
 "SSE": "Jiho-jihovýchod",
 
 
@@ -1166,7 +1182,14 @@
 
 
 
-"WSW": "Západo-jihozápad",
+"SW": "Jihozápad",
+
+
+
+
+
+
+"W": "Západ",
 
 
 
@@ -1180,7 +1203,7 @@
 
 
 
-"NNW": "Severo-severozápad"
+"WSW": "Západo-jihozápad"
 
 
 
@@ -1215,14 +1238,14 @@
 
 
 
-"clockwise": "Po směru hod. ručiček",
+"anticlockwise": "Proti směru hod. ručiček",
 
 
 
 
 
 
-"anticlockwise": "Proti směru hod. ručiček"
+"clockwise": "Po směru hod. ručiček"
 
 
 
@@ -1261,6 +1284,22 @@
 
 
 "label": "Typ"
+
+
+
+
+},
+
+
+
+
+"content": {
+
+
+
+
+
+"label": "Obsah"
 
 
 
@@ -1366,6 +1405,276 @@
 
 
 
+"cycleway": {
+
+
+
+
+
+"label": "Cyklopruhy",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Jízdní pruh pro cyklisty, oddělený podélnou čarou",
+
+
+
+
+
+
+
+"title": "Normální cyklopruh"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Bez cyklopruhu",
+
+
+
+
+
+
+
+"title": "Žádný"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Cyklopruh, kterým cyklisté mohou jet v jednosměrce oběma směry",
+
+
+
+
+
+
+
+"title": "Obousměrný cyklopruh"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Cykloobousměrka - cyklopruh v opačném směru než ostatní provoz",
+
+
+
+
+
+
+
+"title": "Protisměrný cyklopruh"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Jízdní pruh sdílený cyklisty, autobusy a případně taxi",
+
+
+
+
+
+
+
+"title": "Pruh sdílený s autobusy"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Vyznačený doporučený průjezd cyklistů v jízdním pruhu",
+
+
+
+
+
+
+
+"title": "Piktokoridor"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Jízdní pruh oddělený od ostatního provozu fyzickou bariérou",
+
+
+
+
+
+
+
+"title": "Cyklostezka"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "není známo",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Po levé straně",
+
+
+
+
+
+
+"cycleway:right": "Po pravé straně"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "delivery": {
 
 
@@ -1458,12 +1767,6 @@
 
 
 
-"placeholder": "Trolejové vedení, napájecí kolejnice...",
-
-
-
-
-
 "options": {
 
 
@@ -1478,6 +1781,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "rail": "Napájecí kolejnice",
 
 
@@ -1485,20 +1795,19 @@
 
 
 
-"yes": "Ano (nespecifikováno)",
+"yes": "Ano (nespecifikováno)"
 
 
 
 
 
-
-"no": "Ne"
-
+},
 
 
 
 
-}
+
+"placeholder": "Trolejové vedení, napájecí kolejnice..."
 
 
 
@@ -1636,6 +1945,13 @@
 
 
 
+"pond": "U vody (suchý)",
+
+
+
+
+
+
 "underground": "Podzemní",
 
 
@@ -1643,14 +1959,7 @@
 
 
 
-"wall": "Nástěnný",
-
-
-
-
-
-
-"pond": "U vody (suchý)"
+"wall": "Nástěnný"
 
 
 
@@ -1870,20 +2179,7 @@
 
 
 
-"placeholder": "Neznámé",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Muži",
 
 
 
@@ -1897,13 +2193,26 @@
 
 
 
+"male": "Muži",
+
+
+
+
+
+
 "unisex": "Muži i ženy"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Neznámé"
 
 
 
@@ -2126,14 +2435,14 @@
 
 
 
-"up": "Nahoru",
+"down": "Dolů",
 
 
 
 
 
 
-"down": "Dolů"
+"up": "Nahoru"
 
 
 
@@ -2184,13 +2493,6 @@
 
 
 
-"yes": "Ano",
-
-
-
-
-
-
 "no": "Ne",
 
 
@@ -2198,7 +2500,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Počítače",
 
 
 
@@ -2212,7 +2514,14 @@
 
 
 
-"terminal": "Počítače"
+"wlan": "Wifi",
+
+
+
+
+
+
+"yes": "Ano"
 
 
 
@@ -2317,13 +2626,6 @@
 
 
 
-"evergreen": "Stálezelené",
-
-
-
-
-
-
 "deciduous": "Opadavé",
 
 
@@ -2331,7 +2633,14 @@
 
 
 
-"semi_evergreen": "Polostálezelené",
+"evergreen": "Stálezelené",
+
+
+
+
+
+
+"mixed": "Smíšené",
 
 
 
@@ -2345,7 +2654,7 @@
 
 
 
-"mixed": "Smíšené"
+"semi_evergreen": "Polostálezelené"
 
 
 
@@ -2387,7 +2696,7 @@
 
 
 
-"needleleaved": "Jehličnaté",
+"leafless": "Bezlisté",
 
 
 
@@ -2401,7 +2710,7 @@
 
 
 
-"leafless": "Bezlisté"
+"needleleaved": "Jehličnaté"
 
 
 
@@ -2440,6 +2749,22 @@
 
 
 "label": "Délka (v metrech)"
+
+
+
+
+},
+
+
+
+
+"level": {
+
+
+
+
+
+"label": "Patro"
 
 
 
@@ -2553,12 +2878,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2614,7 +2933,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2631,12 +2956,6 @@
 
 
 "label": "Podle IMBA",
-
-
-
-
-
-"placeholder": "Lehké, středně těžké, těžké",
 
 
 
@@ -2683,7 +3002,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Lehké, středně těžké, těžké"
 
 
 
@@ -2700,12 +3025,6 @@
 
 
 "label": "Klasifikace obtížnosti pro MTB do kopce",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3...",
 
 
 
@@ -2759,7 +3078,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2874,6 +3199,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Implicitně Ne",
 
 
@@ -2881,14 +3213,7 @@
 
 
 
-"yes": "Ano",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Ano"
 
 
 
@@ -2923,6 +3248,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Implicitně Ano",
 
 
@@ -2930,14 +3262,7 @@
 
 
 
-"yes": "Ano",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Ano"
 
 
 
@@ -3042,34 +3367,6 @@
 
 
 
-"surface": "Povrchové",
-
-
-
-
-
-
-"multi-storey": "Víceúrovňové",
-
-
-
-
-
-
-"underground": "Podzemní",
-
-
-
-
-
-
-"sheds": "Lehký přístřešek",
-
-
-
-
-
-
 "carports": "Přístřešek",
 
 
@@ -3084,7 +3381,35 @@
 
 
 
-"lane": "Parkování po straně ulice"
+"lane": "Parkování po straně ulice",
+
+
+
+
+
+
+"multi-storey": "Víceúrovňové",
+
+
+
+
+
+
+"sheds": "Lehký přístřešek",
+
+
+
+
+
+
+"surface": "Povrchové",
+
+
+
+
+
+
+"underground": "Podzemní"
 
 
 
@@ -3134,34 +3459,7 @@
 
 
 
-"placeholder": "Lehká, Střední, Těžká...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Pro začátečníky (francouzské sjezdovky: zelená)",
-
-
-
-
-
-
-"easy": "Lehká (evropské sjezdovky: modrá)",
-
-
-
-
-
-
-"intermediate": "Střední (evropské sjezdovky: červená)",
 
 
 
@@ -3175,7 +3473,21 @@
 
 
 
+"easy": "Lehká (evropské sjezdovky: modrá)",
+
+
+
+
+
+
 "expert": "Velmi těžká (alpské sjezdovky: oranžová; americké: dva černé diamanty)",
+
+
+
+
+
+
+"extreme": "Extrémní (je třeba horolezecké výbavy)",
 
 
 
@@ -3189,13 +3501,26 @@
 
 
 
-"extreme": "Extrémní (je třeba horolezecké výbavy)"
+"intermediate": "Střední (evropské sjezdovky: červená)",
 
 
 
 
 
-}
+
+"novice": "Pro začátečníky (francouzské sjezdovky: zelená)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Lehká, Střední, Těžká..."
 
 
 
@@ -3224,20 +3549,6 @@
 
 
 
-"classic": "Klasika",
-
-
-
-
-
-
-"mogul": "Boule",
-
-
-
-
-
-
 "backcountry": "Strojově neupraveno",
 
 
@@ -3245,7 +3556,21 @@
 
 
 
+"classic": "Klasika",
+
+
+
+
+
+
 "classic+skating": "Klasika a bruslení",
+
+
+
+
+
+
+"mogul": "Boule",
 
 
 
@@ -3301,7 +3626,28 @@
 
 
 
+"hike": "Pěší",
+
+
+
+
+
+
+"ice_skate": "Bruslení na ledu",
+
+
+
+
+
+
 "nordic": "Běžky",
+
+
+
+
+
+
+"playground": "Dětský ski park",
 
 
 
@@ -3322,13 +3668,6 @@
 
 
 
-"hike": "Pěší",
-
-
-
-
-
-
 "sleigh": "Tažené saně",
 
 
@@ -3336,21 +3675,7 @@
 
 
 
-"ice_skate": "Bruslení na ledu",
-
-
-
-
-
-
-"snow_park": "Snowpark",
-
-
-
-
-
-
-"playground": "Dětský ski park"
+"snow_park": "Snowpark"
 
 
 
@@ -3414,6 +3739,22 @@
 
 
 
+"power_supply": {
+
+
+
+
+
+"label": "Elektrická přípojka"
+
+
+
+
+},
+
+
+
+
 "railway": {
 
 
@@ -3468,7 +3809,7 @@
 
 
 
-"label": "Skl"
+"label": "Sklo"
 
 
 
@@ -3485,6 +3826,48 @@
 
 
 "label": "Papír"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"label": "Typ recyklačního místa",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Sběrna odpadu",
+
+
+
+
+
+
+"container": "Kontejnery"
+
+
+
+
+
+}
 
 
 
@@ -3618,34 +4001,7 @@
 
 
 
-"placeholder": "Horská turistika, vysokohorská turistika...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Turistika",
-
-
-
-
-
-
-"mountain_hiking": "T2: Horská turistika",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Náročná horská turistika",
 
 
 
@@ -3666,13 +4022,56 @@
 
 
 
-"difficult_alpine_hiking": "T6: Těžká vysokohorská turistika"
+"demanding_mountain_hiking": "T3: Náročná horská turistika",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Těžká vysokohorská turistika",
+
+
+
+
+
+
+"hiking": "T1: Turistika",
+
+
+
+
+
+
+"mountain_hiking": "T2: Horská turistika"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Horská turistika, vysokohorská turistika..."
+
+
+
+
+},
+
+
+
+
+"sanitary_dump_station": {
+
+
+
+
+
+"label": "Výlevka pro WC"
 
 
 
@@ -3733,6 +4132,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Implicitně Ne",
 
 
@@ -3740,14 +4146,7 @@
 
 
 
-"yes": "Ano",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Ano"
 
 
 
@@ -3782,6 +4181,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Implicitně Ne",
 
 
@@ -3789,14 +4195,7 @@
 
 
 
-"yes": "Ano",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Ano"
 
 
 
@@ -3831,14 +4230,7 @@
 
 
 
-"spur": "Nákladiště",
-
-
-
-
-
-
-"yard": "Kolej seřaďovacího nádraží",
+"crossover": "Kolejová spojka",
 
 
 
@@ -3852,7 +4244,14 @@
 
 
 
-"crossover": "Kolejová spojka"
+"spur": "Nákladiště",
+
+
+
+
+
+
+"yard": "Kolej seřaďovacího nádraží"
 
 
 
@@ -3944,12 +4343,6 @@
 
 
 
-"placeholder": "Ne, V oddělené místnosti, Ano...",
-
-
-
-
-
 "options": {
 
 
@@ -3957,14 +4350,7 @@
 
 
 
-"no": "Ne, všude zakázáno",
-
-
-
-
-
-
-"separated": "Na určených místech, neoddělených",
+"dedicated": "Zaměřeno na kuřáky (např. kuřácký klub)",
 
 
 
@@ -3978,6 +4364,13 @@
 
 
 
+"no": "Ne, všude zakázáno",
+
+
+
+
+
+
 "outside": "Povoleno venku",
 
 
@@ -3985,20 +4378,26 @@
 
 
 
-"yes": "Povoleno všude",
+"separated": "Na určených místech, neoddělených",
 
 
 
 
 
 
-"dedicated": "Zaměřeno na kuřáky (např. kuřácký klub)"
+"yes": "Povoleno všude"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Ne, V oddělené místnosti, Ano..."
 
 
 
@@ -4020,13 +4419,14 @@
 
 
 
-"placeholder": "Tenká kolečka, Běžná kola, Terénní kola...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Robustní kola: běžná auta, trekové bicykly, rikši",
 
 
 
@@ -4047,14 +4447,21 @@
 
 
 
+"horrible": "Terénní kola: off-road auta",
+
+
+
+
+
+
+"impassable": "Neprůjezdné žádným vozidlem",
+
+
+
+
+
+
 "intermediate": "Běžná kola: závodní auta, městské bicykly, kolečková křesla, skútry",
-
-
-
-
-
-
-"bad": "Robustní kola: běžná auta, trekové bicykly, rikšy",
 
 
 
@@ -4068,27 +4475,19 @@
 
 
 
-"horrible": "Terénní kola: off-road auta",
+"very_horrible": "Speciální terénní kola: traktory, čtyřkolky, tanky, MTB"
 
 
 
 
 
-
-"very_horrible": "Speciální terénní kola: traktory, čtyřkolky, tanky, MTB",
-
+},
 
 
 
 
 
-"impassable": "Neprůjezdné žádným vozidlem"
-
-
-
-
-
-}
+"placeholder": "Tenká kolečka, Běžná kola, Terénní kola..."
 
 
 
@@ -4196,12 +4595,6 @@
 
 
 
-"placeholder": "Není známo",
-
-
-
-
-
 "options": {
 
 
@@ -4216,7 +4609,7 @@
 
 
 
-"tunnel": "Tunel",
+"cutting": "Zářez",
 
 
 
@@ -4230,20 +4623,26 @@
 
 
 
-"cutting": "Zářez",
+"ford": "Brod",
 
 
 
 
 
 
-"ford": "Brod"
+"tunnel": "Tunel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Není známo"
 
 
 
@@ -4345,20 +4744,7 @@
 
 
 
-"placeholder": "Ano, Ne, Jen s sebou",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": "Ano",
 
 
 
@@ -4372,13 +4758,26 @@
 
 
 
-"only": "Jen s sebou"
+"only": "Jen s sebou",
 
 
 
 
 
-}
+
+"yes": "Ano"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Ano, Ne, Jen s sebou"
 
 
 
@@ -4407,14 +4806,7 @@
 
 
 
-"flush": "Splachovací",
-
-
-
-
-
-
-"pitlatrine": "Suchý",
+"bucket": "Nádrž na odpad",
 
 
 
@@ -4428,7 +4820,14 @@
 
 
 
-"bucket": "Nádrž na odpad"
+"flush": "Splachovací",
+
+
+
+
+
+
+"pitlatrine": "Suchý"
 
 
 
@@ -4488,12 +4887,6 @@
 
 
 
-"placeholder": "Pevný, převážně pevný, měkký povrch",
-
-
-
-
-
 "options": {
 
 
@@ -4535,7 +4928,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Pevný, převážně pevný, měkký povrch"
 
 
 
@@ -4557,13 +4956,14 @@
 
 
 
-"placeholder": "Výborná, Dobrá, Špatná...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Špatná: žádné značení, pěšina se místy úplně vytrácí",
 
 
 
@@ -4584,21 +4984,14 @@
 
 
 
-"intermediate": "Střední: občasné značení, pěšina je většinou zřetelná",
-
-
-
-
-
-
-"bad": "Špatná: žádné značení, pěšina se místy úplně vytrácí",
-
-
-
-
-
-
 "horrible": "Hrozná: pěšina se často ztrácí, je nutné mít orientační smysl",
+
+
+
+
+
+
+"intermediate": "Střední: občasné značení, pěšina je většinou zřetelná",
 
 
 
@@ -4611,7 +5004,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Výborná, Dobrá, Špatná..."
 
 
 
@@ -4676,6 +5075,22 @@
 
 
 "label": "Typ"
+
+
+
+
+},
+
+
+
+
+"water_point": {
+
+
+
+
+
+"label": "Kohout s pitnou vodou"
 
 
 
@@ -4917,7 +5332,7 @@
 
 
 
-"terms": "pojízdný koberec,pásový dopravník,lyžařský vlek,vlek,lanovka na pásu,pohybivý pás,eskalátor"
+"terms": "pojízdný koberec,pásový dopravník,lyžařský vlek,vlek,lanovka na pásu,pohyblivý pás,eskalátor"
 
 
 
@@ -4983,7 +5398,7 @@
 
 
 
-"terms": "lyžařský vlek,vlek,kotvička,lanový vlek"
+"terms": "lyžařský vlek,vlek,kotva,kotvička,lanový vlek"
 
 
 
@@ -5049,7 +5464,7 @@
 
 
 
-"terms": "letitiště,přistávací dráha,letadlo,terminál"
+"terms": "letiště,přistávací dráha,letadlo,terminál"
 
 
 
@@ -5181,7 +5596,7 @@
 
 
 
-"terms": "runway,přistávací dráha,vzletová dráha,přistávací plocha"
+"terms": "runway,ranvej,přistávací dráha,vzletová dráha,přistávací plocha"
 
 
 
@@ -5455,6 +5870,28 @@
 
 
 
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Pivní zahrádka",
+
+
+
+
+
+"terms": "zahrádka,venku,posezení,pivo,pod širým nebem"
+
+
+
+
+},
+
+
+
+
 "amenity/boat_rental": {
 
 
@@ -5600,6 +6037,28 @@
 
 
 "terms": "myčka,automyčka,mytí,čistění,umývání,čistírna"
+
+
+
+
+},
+
+
+
+
+"amenity/casino": {
+
+
+
+
+
+"name": "Kasino",
+
+
+
+
+
+"terms": "kasino,ruleta,blackjack,herna,hazard,gambling"
 
 
 
@@ -6237,7 +6696,7 @@
 
 
 
-"terms": "křesťanský,křesťanství,kostel,kostelík,chrám,bazilika,katedrála,kaple,kaplička,chrám páně,rotunda,farnost,diecéze,mešita,minaret,synagoga,pagoda,stúpa,oratorium,motlitebna,náboženský,náboženská,náboženské,sakrální,svatyně"
+"terms": "křesťanský,křesťanství,kostel,kostelík,chrám,bazilika,katedrála,kaple,kaplička,chrám páně,rotunda,farnost,diecéze,mešita,minaret,synagoga,pagoda,stúpa,oratorium,modlitebna,náboženský,náboženská,náboženské,sakrální,svatyně"
 
 
 
@@ -6253,7 +6712,7 @@
 
 
 
-"name": "Budhistický chrám",
+"name": "Buddhistický chrám",
 
 
 
@@ -6473,13 +6932,13 @@
 
 
 
-"name": "Recyklace",
+"name": "Recyklační místo",
 
 
 
 
 
-"terms": "recyklace,kontejner,recyklační centrum,sběr,sběrna,sběrné suroviny,sběr odpadu,odpad,odpadky,popelnice"
+"terms": "recyklace,kontejner,recyklační centrum,sběr,sběrna,sběrné suroviny,sběrna odpadu,sběr odpadu,odpad,odpadky,popelnice"
 
 
 
@@ -6524,6 +6983,28 @@
 
 
 "terms": "bar,jídelna,kantýna,bistro,bufet,rychlé občerstvení,fast food,hamburger,restaurace,restaurant,hostinec,pohostinství,krčma,gastronomie,občerstvení,stánek,jídlo,obědy,gril,pizzeria,čína,kebab"
+
+
+
+
+},
+
+
+
+
+"amenity/sanitary_dump_station": {
+
+
+
+
+
+"name": "Výlevka pro karavany",
+
+
+
+
+
+"terms": "záchod,kanalizace,výlevka,žumpa,odpadní voda,wc,toaleta,karavan,kemp,obytný vůz"
 
 
 
@@ -6920,6 +7401,28 @@
 
 
 "terms": "území,oblast,plocha,prostor"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Plocha silnice",
+
+
+
+
+
+"terms": "plocha silnice,povrch silnice,plocha cesty,povrch cesty"
 
 
 
@@ -7469,7 +7972,7 @@
 
 
 
-"terms": "kaple,kaplička,babtisterium,karner,modlitebna,kostel"
+"terms": "kaple,kaplička,baptisterium,karner,modlitebna,kostel"
 
 
 
@@ -8503,7 +9006,7 @@
 
 
 
-"terms": "zateplovlování,zateplení,izolace"
+"terms": "zateplování,zateplení,izolace"
 
 
 
@@ -8701,7 +9204,7 @@
 
 
 
-"terms": "štukatér,škukatérství,štuky"
+"terms": "štukatér,štukatérství,štuky"
 
 
 
@@ -8833,7 +9336,7 @@
 
 
 
-"terms": "plachty,plachetář,výroba plachet"
+"terms": "plachty,plachtář,výroba plachet"
 
 
 
@@ -9245,7 +9748,7 @@
 
 
 
-"name": "Přechod pro chodce",
+"name": "Cesta přechodu pro chodce",
 
 
 
@@ -9267,7 +9770,7 @@
 
 
 
-"name": "Přechod typu zebra",
+"name": "Cesta přechodu typu zebra",
 
 
 
@@ -9569,13 +10072,35 @@
 
 
 
+"highway/corridor": {
+
+
+
+
+
+"name": "Chodba",
+
+
+
+
+
+"terms": "chodba,koridor"
+
+
+
+
+},
+
+
+
+
 "highway/crossing": {
 
 
 
 
 
-"name": "Přechod",
+"name": "Bod přechodu pro chodce",
 
 
 
@@ -9597,7 +10122,7 @@
 
 
 
-"name": "Přechod typu zebra",
+"name": "Bod přechodu typu zebra",
 
 
 
@@ -9691,7 +10216,7 @@
 
 
 
-"terms": "malý kruhový objezd, kruháč"
+"terms": "malý kruhový objezd,kruháč"
 
 
 
@@ -9801,7 +10326,7 @@
 
 
 
-"terms": "pěší zóna"
+"terms": "pěší zóna,ulice pro pěší"
 
 
 
@@ -10043,7 +10568,7 @@
 
 
 
-"terms": "okénko pro řidiče, pult pro řidiče, obsluha řidiče, obsluha do auta"
+"terms": "okénko pro řidiče,pult pro řidiče,obsluha řidiče,obsluha do auta,drive through"
 
 
 
@@ -10433,7 +10958,7 @@
 
 
 
-"name": "Hraniční káme",
+"name": "Hraniční kámen",
 
 
 
@@ -10571,7 +11096,7 @@
 
 
 
-"terms": "svatostánek u cesty,svatyně,svatostánek"
+"terms": "svatostánek u cesty,svatyně,svatostánek,kaplička"
 
 
 
@@ -10637,7 +11162,7 @@
 
 
 
-"terms": "zahradkářská osada,zahrádky,zahrady,zahradkářská kolonie"
+"terms": "zahrádkářská osada,zahrádky,zahrady,zahrádkářská kolonie"
 
 
 
@@ -10999,6 +11524,28 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Pěstitelská školka",
+
+
+
+
+
+"terms": "školka,pěstitelská školka,lesní školka,sazenice"
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
@@ -11100,6 +11647,28 @@
 
 
 "terms": "oddech,volno,volná chvíle,odpočinek,volný čas"
+
+
+
+
+},
+
+
+
+
+"leisure/adult_gaming_centre": {
+
+
+
+
+
+"name": "Herna (hrací automaty)",
+
+
+
+
+
+"terms": "herna,automaty,hazard,hrací automaty,výherní hrací automaty,gambling"
 
 
 
@@ -11385,7 +11954,7 @@
 
 
 
-"terms": "basebalové hřiště,basebal"
+"terms": "baseballové hřiště,baseball"
 
 
 
@@ -11703,6 +12272,28 @@
 
 
 
+"man_made/adit": {
+
+
+
+
+
+"name": "Štola",
+
+
+
+
+
+"terms": "štola,důl,vstup do dolu,důlní,horní,tunel"
+
+
+
+
+},
+
+
+
+
 "man_made/breakwater": {
 
 
@@ -11813,6 +12404,28 @@
 
 
 
+"man_made/mast": {
+
+
+
+
+
+"name": "Telekomunikační stožár",
+
+
+
+
+
+"terms": "stožár,radio,komunikace,telekomunikace,bts,základnová stanice"
+
+
+
+
+},
+
+
+
+
 "man_made/observation": {
 
 
@@ -11826,6 +12439,28 @@
 
 
 "terms": "rozhledna,pozorovatelna,věž"
+
+
+
+
+},
+
+
+
+
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Ropný vrt",
+
+
+
+
+
+"terms": "ropa,těžba,těžební,ropný,vrt"
 
 
 
@@ -11869,7 +12504,51 @@
 
 
 
-"terms": "rouura,roury,transport,vodovod,ropovod,plynovod,kanál,rozvod"
+"terms": "roura,roury,transport,vodovod,ropovod,plynovod,kanál,rozvod"
+
+
+
+
+},
+
+
+
+
+"man_made/silo": {
+
+
+
+
+
+"name": "Silo",
+
+
+
+
+
+"terms": "silo,zásobník,silážní,sýpka,špýchar,špejchar"
+
+
+
+
+},
+
+
+
+
+"man_made/storage_tank": {
+
+
+
+
+
+"name": "Zásobník",
+
+
+
+
+
+"terms": "zásobník,nádrž"
 
 
 
@@ -12341,6 +13020,28 @@
 
 
 
+"natural/saddle": {
+
+
+
+
+
+"name": "Sedlo",
+
+
+
+
+
+"terms": "sedlo,průsmyk,rozsedlina,horské sedlo,klíčové sedlo"
+
+
+
+
+},
+
+
+
+
 "natural/scree": {
 
 
@@ -12429,6 +13130,50 @@
 
 
 
+"natural/tree_row": {
+
+
+
+
+
+"name": "Stromořadí",
+
+
+
+
+
+"terms": "stromořadí,alej,strom,stromy"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Sopka",
+
+
+
+
+
+"terms": "sopka,vulkán,štítová sopka,stratovulkán"
+
+
+
+
+},
+
+
+
+
 "natural/water": {
 
 
@@ -12485,7 +13230,7 @@
 
 
 
-"terms": "rybník,rybíček,louže,tůň,hráz,přehrada"
+"terms": "rybník,rybníček,louže,tůň,hráz,přehrada"
 
 
 
@@ -13089,6 +13834,28 @@
 
 
 
+"place/farm": {
+
+
+
+
+
+"name": "Zemědělská usedlost",
+
+
+
+
+
+"terms": "zemědělská usedlost,farma,zemědělské družstvo,jzd"
+
+
+
+
+},
+
+
+
+
 "place/hamlet": {
 
 
@@ -13321,7 +14088,7 @@
 
 
 
-"terms": "generátor, elektrický generátor, elektrárna, zdroj proudu"
+"terms": "generátor,elektrický generátor,elektrárna,zdroj proudu"
 
 
 
@@ -13359,7 +14126,7 @@
 
 
 
-"name": "Elektrické vedení nížšího napětí (pod 50 kV)",
+"name": "Elektrické vedení nižšího napětí (pod 50 kV)",
 
 
 
@@ -13381,7 +14148,7 @@
 
 
 
-"name": "Eletrický sloup",
+"name": "Sloup elektrického vedení",
 
 
 
@@ -14707,7 +15474,7 @@
 
 
 
-"terms": "obchod pro kutily,stavební materiál,stavebniny,staviva,potřeby pro kutily,zahradní potřeby,železářství,kutil"
+"terms": "obchod pro kutily,stavební materiál,stavebniny,staviva,potřeby pro kutily,zahradní potřeby,železářství,kutil,hobby"
 
 
 
@@ -14927,7 +15694,7 @@
 
 
 
-"terms": "pohřební služba,pohřební služba,pohřebák,hřbitovní služby,hřitovní služba,hrobař"
+"terms": "pohřební služba,pohřební služba,pohřebák,hřbitovní služby,hřbitovní služba,hrobař"
 
 
 
@@ -17423,6 +18190,28 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Lodní čerpací stanice",
+
+
+
+
+
+"terms": "lodní pumpa,pumpa,čerpací stanice,loď,jachta,hausbót"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -17458,6 +18247,28 @@
 
 
 "terms": "břeh řeky,břeh,nábřeží,pobřeží"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Výlevka pro lodě",
+
+
+
+
+
+"terms": "záchod,kanalizace,výlevka,žumpa,odpadní voda,wc,toaleta,loď,jachta,hausbót"
 
 
 

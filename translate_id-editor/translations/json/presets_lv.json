@@ -24,42 +24,31 @@
 
 
 
-"types": {
+"options": {
 
 
 
 
 
 
-"access": "Vispārīgs",
+"designated": {
 
 
 
 
 
 
-"foot": "Kājām",
+
+"description": "Piekļuve atļauta atbilstoši zīmēm vai speciāliem vietējiem likumiem",
 
 
 
 
 
 
-"motor_vehicle": "Automašīnas",
 
+"title": "Nozīmēts"
 
-
-
-
-
-"bicycle": "Velosipēdi",
-
-
-
-
-
-
-"horse": "Zirgi"
 
 
 
@@ -71,22 +60,8 @@
 
 
 
-"options": {
 
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Atļauts",
+"destination": {
 
 
 
@@ -94,7 +69,7 @@
 
 
 
-"description": "Piekļuve atļauta ar likumu"
+"title": "Galamērķis"
 
 
 
@@ -116,7 +91,7 @@
 
 
 
-"title": "Aizliegts",
+"description": "Piekļuve nav atļauta bez speciālā atļaujām ",
 
 
 
@@ -124,7 +99,7 @@
 
 
 
-"description": "Piekļuve nav atļauta bez speciālā atļaujām "
+"title": "Aizliegts"
 
 
 
@@ -168,7 +143,7 @@
 
 
 
-"title": "Privāts",
+"description": "Piekļuve atļauta tikai ar īpašnieka atļauju",
 
 
 
@@ -176,37 +151,7 @@
 
 
 
-"description": "Piekļuve atļauta tikai ar īpašnieka atļauju"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"designated": {
-
-
-
-
-
-
-
-"title": "Nozīmēts",
-
-
-
-
-
-
-
-"description": "Piekļuve atļauta atbilstoši zīmēm vai speciāliem vietējiem likumiem"
+"title": "Privāts"
 
 
 
@@ -220,7 +165,7 @@
 
 
 
-"destination": {
+"yes": {
 
 
 
@@ -228,7 +173,15 @@
 
 
 
-"title": "Galamērķis"
+"description": "Piekļuve atļauta ar likumu",
+
+
+
+
+
+
+
+"title": "Atļauts"
 
 
 
@@ -236,6 +189,53 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Vispārīgs",
+
+
+
+
+
+
+"bicycle": "Velosipēdi",
+
+
+
+
+
+
+"foot": "Kājām",
+
+
+
+
+
+
+"horse": "Zirgi",
+
+
+
+
+
+
+"motor_vehicle": "Automašīnas"
 
 
 
@@ -270,14 +270,14 @@
 
 
 
-"street": "Iela",
+"city": "Pilsēta",
 
 
 
 
 
 
-"city": "Pilsēta"
+"street": "Iela"
 
 
 
@@ -648,7 +648,7 @@
 
 
 
-"wlan": "Bezvadu internets",
+"terminal": "Termināls",
 
 
 
@@ -662,7 +662,7 @@
 
 
 
-"terminal": "Termināls"
+"wlan": "Bezvadu internets"
 
 
 
@@ -1152,7 +1152,7 @@
 
 
 
-"tunnel": "Tunelis",
+"cutting": "Izgriezums",
 
 
 
@@ -1166,7 +1166,7 @@
 
 
 
-"cutting": "Izgriezums"
+"tunnel": "Tunelis"
 
 
 

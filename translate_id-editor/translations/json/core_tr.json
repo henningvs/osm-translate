@@ -1080,10 +1080,6 @@
 
 
 
-"message_label": "Mesajı işle",
-
-
-
 "upload_explanation": "Yüklediğin değişiklikler OpenStreetMap verilerini kullanan bütün haritalarda görülebilecek. ",
 
 
@@ -1127,6 +1123,20 @@
 
 
 "truncated_list": "{users} ve {count} başkası eliyle yapılan katkılar"
+
+
+},
+
+
+"infobox": {
+
+
+
+"length": "Uzunluk",
+
+
+
+"area": "Alan"
 
 
 },
@@ -1364,6 +1374,19 @@
 
 
 
+"paths": {
+
+
+
+
+"description": "Patikalar"
+
+
+
+},
+
+
+
 "buildings": {
 
 
@@ -1405,7 +1428,12 @@
 
 
 
-"description": "Sınırlar"
+"description": "Sınırlar",
+
+
+
+
+"tooltip": "İdari Sınırları"
 
 
 
@@ -1450,6 +1478,19 @@
 
 
 "tooltip": "Enerji Nakil Hatları, Enerji Santralleri, Trafolar, vb."
+
+
+
+},
+
+
+
+"past_future": {
+
+
+
+
+"tooltip": "Öneri, Yapım Aşamasında, Terk Edilmiş, Yıkılmış v.b."
 
 
 
@@ -1547,6 +1588,10 @@
 
 
 
+"error": "Kaydederken bir hata oluşturuldu",
+
+
+
 "unknown_error_details": "Lütfen internete bağlı olduğunuzdan emin olun.",
 
 
@@ -1555,7 +1600,65 @@
 
 
 
-"unsaved_changes": "Kaydedilmemiş değişiklikleriniz var"
+"unsaved_changes": "Kaydedilmemiş değişiklikleriniz var",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Çakışan düzeltmeleri çöz",
+
+
+
+
+"count": "Çakışma {num} (toplam: {total})",
+
+
+
+
+"previous": "< Önceki",
+
+
+
+
+"next": "Sonraki >",
+
+
+
+
+"keep_local": "Benimki dursun",
+
+
+
+
+"keep_remote": "Diğerinin ki kullan",
+
+
+
+
+"restore": "Geri getir",
+
+
+
+
+"delete": "Silinmiş Kalsın",
+
+
+
+
+"download_changes": "veya kendin düzeltmeleri indir",
+
+
+
+
+"done": "Bütün çakışmaları düzenlendi!"
+
+
+
+}
 
 
 },
@@ -1599,7 +1702,11 @@
 
 
 
-"okay": "Tamam"
+"okay": "Tamam",
+
+
+
+"cancel": "İptal"
 
 
 },

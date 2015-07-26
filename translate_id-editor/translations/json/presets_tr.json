@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Bilinmeyen",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Genel",
-
-
-
-
-
-
-"foot": "Yürüyerek",
-
-
-
-
-
-
-"motor_vehicle": "Motorlu araçlar",
-
-
-
-
-
-
-"bicycle": "Bisikletler",
-
-
-
-
-
-
-"horse": "Atlar"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Serbest",
-
-
-
-
-
-
-
-"description": "Yasaca girişe izin verilmiş; geçme önceliği"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Yasak",
-
-
-
-
-
-
-
-"description": "Giriş kamuya açık değildir"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "İzin veren",
-
-
-
-
-
-
-
-"description": "Sahibi geri çekene kadar giriş açık"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Özel",
-
-
-
-
-
-
-
-"description": "Giriş, sahibinin oluruna bağlı"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Ayrılmış",
+"description": "Giriş, imlere ya da yerel yasalara göre olurlanmış",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Giriş, imlere ya da yerel yasalara göre olurlanmış"
+"title": "Ayrılmış"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Hedef",
+"description": "Giriş, yalnız varılacak yere ulaşmak için olurlu",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Giriş, yalnız varılacak yere ulaşmak için olurlu"
+"title": "Hedef"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Giriş kamuya açık değildir",
+
+
+
+
+
+
+
+"title": "Yasak"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Sahibi geri çekene kadar giriş açık",
+
+
+
+
+
+
+
+"title": "İzin veren"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Giriş, sahibinin oluruna bağlı",
+
+
+
+
+
+
+
+"title": "Özel"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Yasaca girişe izin verilmiş; geçme önceliği",
+
+
+
+
+
+
+
+"title": "Serbest"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Bilinmeyen",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Genel",
+
+
+
+
+
+
+"bicycle": "Bisikletler",
+
+
+
+
+
+
+"foot": "Yürüyerek",
+
+
+
+
+
+
+"horse": "Atlar",
+
+
+
+
+
+
+"motor_vehicle": "Motorlu araçlar"
 
 
 
@@ -498,6 +498,34 @@
 
 
 
+"city": "Şehir",
+
+
+
+
+
+
+"country": "Ülke",
+
+
+
+
+
+
+"district": "İlçe",
+
+
+
+
+
+
+"hamlet": "Küçük köy",
+
+
+
+
+
+
 "housename": "Ev adı",
 
 
@@ -512,27 +540,6 @@
 
 
 
-"street": "Sokak",
-
-
-
-
-
-
-"city": "Şehir",
-
-
-
-
-
-
-"postcode": "Posta kodu",
-
-
-
-
-
-
 "place": "Yer",
 
 
@@ -540,7 +547,7 @@
 
 
 
-"hamlet": "Küçük köy",
+"postcode": "Posta kodu",
 
 
 
@@ -561,7 +568,14 @@
 
 
 
-"country": "Ülke"
+"street": "Sokak",
+
+
+
+
+
+
+"suburb": "Şehiriçi mahalle"
 
 
 
@@ -628,6 +642,13 @@
 
 
 
+"both": "İkisi",
+
+
+
+
+
+
 "entry": "Giriş",
 
 
@@ -635,14 +656,7 @@
 
 
 
-"exit": "Çıkış",
-
-
-
-
-
-
-"both": "İkisi"
+"exit": "Çıkış"
 
 
 
@@ -775,6 +789,13 @@
 
 
 
+"both": "İkisi",
+
+
+
+
+
+
 "entry": "Giriş",
 
 
@@ -782,14 +803,7 @@
 
 
 
-"exit": "Çıkış",
-
-
-
-
-
-
-"both": "İkisi"
+"exit": "Çıkış"
 
 
 
@@ -828,6 +842,22 @@
 
 
 "label": "Tip"
+
+
+
+
+},
+
+
+
+
+"artist": {
+
+
+
+
+
+"label": "Sanatçı"
 
 
 
@@ -917,6 +947,22 @@
 
 
 
+"brand": {
+
+
+
+
+
+"label": "Marka"
+
+
+
+
+},
+
+
+
+
 "building": {
 
 
@@ -977,7 +1023,131 @@
 
 
 
-"label": "Yön"
+"label": "Yön",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"E": "Doğu",
+
+
+
+
+
+
+"ENE": "Doğu-kuzeydoğu",
+
+
+
+
+
+
+"ESE": "Doğu-güneydoğu",
+
+
+
+
+
+
+"N": "Kuzey",
+
+
+
+
+
+
+"NE": "Kuzeydoğu",
+
+
+
+
+
+
+"NNE": "Kuzey-kuzeydoğu",
+
+
+
+
+
+
+"NNW": "Kuzey-kuzeybatı",
+
+
+
+
+
+
+"NW": "Kuzeybatı",
+
+
+
+
+
+
+"S": "Güney",
+
+
+
+
+
+
+"SE": "Güneydoğu",
+
+
+
+
+
+
+"SSE": "Güney-güneydoğu",
+
+
+
+
+
+
+"SSW": "Güney-güneybatı",
+
+
+
+
+
+
+"SW": "Güneybatı",
+
+
+
+
+
+
+"W": "Batı",
+
+
+
+
+
+
+"WNW": "Batı-kuzeybatı",
+
+
+
+
+
+
+"WSW": "Batı-güneybatı"
+
+
+
+
+
+}
 
 
 
@@ -993,7 +1163,20 @@
 
 
 
+"label": "Yön",
+
+
+
+
+
 "options": {
+
+
+
+
+
+
+"anticlockwise": "Saat Yönünün Tersine",
 
 
 
@@ -1048,6 +1231,22 @@
 
 
 
+"content": {
+
+
+
+
+
+"label": "İçerik"
+
+
+
+
+},
+
+
+
+
 "country": {
 
 
@@ -1064,6 +1263,22 @@
 
 
 
+"covered": {
+
+
+
+
+
+"label": "Kapalı"
+
+
+
+
+},
+
+
+
+
 "craft": {
 
 
@@ -1071,6 +1286,22 @@
 
 
 "label": "Tip"
+
+
+
+
+},
+
+
+
+
+"crop": {
+
+
+
+
+
+"label": "Tarim ürünü"
 
 
 
@@ -1103,6 +1334,48 @@
 
 
 "label": "Mutfak"
+
+
+
+
+},
+
+
+
+
+"cycleway": {
+
+
+
+
+
+"label": "Bisiklet Yolları",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Sol tarafta",
+
+
+
+
+
+
+"cycleway:right": "Sağ tarafta"
+
+
+
+
+
+}
 
 
 
@@ -1281,7 +1554,33 @@
 
 
 
-"label": "Tip"
+"label": "Tip",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"underground": "Yeraltı",
+
+
+
+
+
+
+"wall": "Duvar"
+
+
+
+
+
+}
 
 
 
@@ -1298,6 +1597,70 @@
 
 
 "label": "Bunu Düzelt"
+
+
+
+
+},
+
+
+
+
+"fuel": {
+
+
+
+
+
+"label": "Benzin İstasyonu"
+
+
+
+
+},
+
+
+
+
+"gender": {
+
+
+
+
+
+"label": "Cinsiyet",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"female": "Kadın",
+
+
+
+
+
+
+"male": "Erkek"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Bilinmiyor"
 
 
 
@@ -1409,6 +1772,74 @@
 
 
 
+"iata": {
+
+
+
+
+
+"label": "IATA"
+
+
+
+
+},
+
+
+
+
+"icao": {
+
+
+
+
+
+"label": "ICAO"
+
+
+
+
+},
+
+
+
+
+"incline_steps": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"down": "Aşağı",
+
+
+
+
+
+
+"up": "Yukarı"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "information": {
 
 
@@ -1444,13 +1875,6 @@
 
 
 
-"yes": "Evet",
-
-
-
-
-
-
 "no": "Hayır",
 
 
@@ -1458,7 +1882,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Terminal",
 
 
 
@@ -1472,7 +1896,14 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "Wifi",
+
+
+
+
+
+
+"yes": "Evet"
 
 
 
@@ -1558,6 +1989,22 @@
 
 
 
+"leaf_type": {
+
+
+
+
+
+"label": "Yaprak Türü"
+
+
+
+
+},
+
+
+
+
 "leisure": {
 
 
@@ -1565,6 +2012,22 @@
 
 
 "label": "Tip"
+
+
+
+
+},
+
+
+
+
+"length": {
+
+
+
+
+
+"label": "Uzunluk (metre)"
 
 
 
@@ -1768,7 +2231,33 @@
 
 
 
-"label": "Tek Yön"
+"label": "Tek Yön",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Hayır",
+
+
+
+
+
+
+"yes": "Evet"
+
+
+
+
+
+}
 
 
 
@@ -1784,7 +2273,33 @@
 
 
 
-"label": "Tek Yön"
+"label": "Tek Yön",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Hayır",
+
+
+
+
+
+
+"yes": "Evet"
+
+
+
+
+
+}
 
 
 
@@ -1848,7 +2363,33 @@
 
 
 
-"label": "Tür"
+"label": "Tür",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"surface": "Yüzey",
+
+
+
+
+
+
+"underground": "Yeraltı"
+
+
+
+
+
+}
 
 
 
@@ -1902,7 +2443,26 @@
 
 
 
-"label": "Tip"
+"label": "Tip",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"playground": "Çocuk Parkı"
+
+
+
+
+
+}
 
 
 
@@ -1919,6 +2479,22 @@
 
 
 "label": "Tip"
+
+
+
+
+},
+
+
+
+
+"population": {
+
+
+
+
+
+"label": "Nüfus"
 
 
 
@@ -2008,6 +2584,22 @@
 
 
 
+"restrictions": {
+
+
+
+
+
+"label": "Dönüş Kısıtlamaları"
+
+
+
+
+},
+
+
+
+
 "route": {
 
 
@@ -2024,6 +2616,22 @@
 
 
 
+"seasonal": {
+
+
+
+
+
+"label": "Mevsimsel"
+
+
+
+
+},
+
+
+
+
 "service": {
 
 
@@ -2031,6 +2639,71 @@
 
 
 "label": "Tip"
+
+
+
+
+},
+
+
+
+
+"service/bicycle/chain_tool": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Hayır",
+
+
+
+
+
+
+"yes": "Evet"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service/bicycle/pump": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Hayır"
+
+
+
+
+
+}
 
 
 
@@ -2120,6 +2793,38 @@
 
 
 
+"sport_ice": {
+
+
+
+
+
+"label": "Spor"
+
+
+
+
+},
+
+
+
+
+"sport_racing": {
+
+
+
+
+
+"label": "Spor"
+
+
+
+
+},
+
+
+
+
 "structure": {
 
 
@@ -2127,12 +2832,6 @@
 
 
 "label": "Yapı",
-
-
-
-
-
-"placeholder": "Bilinmeyen",
 
 
 
@@ -2152,13 +2851,33 @@
 
 
 
+"embankment": "Set",
+
+
+
+
+
+
+"ford": "Akarsu Geçişi Yeri",
+
+
+
+
+
+
 "tunnel": "Tünel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Bilinmeyen"
 
 
 
@@ -2200,6 +2919,42 @@
 
 
 
+"takeaway": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Hayır",
+
+
+
+
+
+
+"yes": "Evet"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "toilets/disposal": {
 
 
@@ -2213,7 +2968,14 @@
 
 
 
-"bucket": "Kova"
+"bucket": "Kova",
+
+
+
+
+
+
+"pitlatrine": "Hela"
 
 
 
@@ -2252,6 +3014,22 @@
 
 
 "placeholder": "Olağanüstü, İyi, Kötü"
+
+
+
+
+},
+
+
+
+
+"trees": {
+
+
+
+
+
+"label": "Ağaçlar"
 
 
 
@@ -2363,6 +3141,22 @@
 
 
 
+"width": {
+
+
+
+
+
+"label": "Genişlik (metre)"
+
+
+
+
+},
+
+
+
+
 "wikipedia": {
 
 
@@ -2394,6 +3188,54 @@
 
 
 "name": "Adres"
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"name": "Teleferik Yolu"
+
+
+
+
+},
+
+
+
+
+"aerialway/station": {
+
+
+
+
+
+"name": "Teleferik İstasyonu"
+
+
+
+
+},
+
+
+
+
+"aeroway": {
+
+
+
+
+
+"name": "Hava Yolu"
 
 
 
@@ -2457,7 +3299,23 @@
 
 
 
-"name": "Dinlenme tesisi"
+"name": "Tesis"
+
+
+
+
+},
+
+
+
+
+"amenity/arts_centre": {
+
+
+
+
+
+"name": "Sanat Merkezi"
 
 
 
@@ -2515,6 +3373,22 @@
 
 
 
+"amenity/bbq": {
+
+
+
+
+
+"name": "Mangal"
+
+
+
+
+},
+
+
+
+
 "amenity/bench": {
 
 
@@ -2563,6 +3437,22 @@
 
 
 
+"amenity/bicycle_repair_station": {
+
+
+
+
+
+"name": "Bisiklet Tamiri"
+
+
+
+
+},
+
+
+
+
 "amenity/boat_rental": {
 
 
@@ -2570,6 +3460,38 @@
 
 
 "name": "Bot Kiralama"
+
+
+
+
+},
+
+
+
+
+"amenity/bureau_de_change": {
+
+
+
+
+
+"name": "Döviz Bürosu"
+
+
+
+
+},
+
+
+
+
+"amenity/bus_station": {
+
+
+
+
+
+"name": "Otogar"
 
 
 
@@ -2634,6 +3556,22 @@
 
 
 "name": "Araç Yıkama"
+
+
+
+
+},
+
+
+
+
+"amenity/childcare": {
+
+
+
+
+
+"name": "Çocuk Bakımı"
 
 
 
@@ -2851,6 +3789,22 @@
 
 
 
+"amenity/kindergarten": {
+
+
+
+
+
+"name": "Kreş Sahası"
+
+
+
+
+},
+
+
+
+
 "amenity/library": {
 
 
@@ -2874,6 +3828,22 @@
 
 
 "name": "Pazar Yeri"
+
+
+
+
+},
+
+
+
+
+"amenity/nightclub": {
+
+
+
+
+
+"name": "Gece Kulübü"
 
 
 
@@ -3187,6 +4157,22 @@
 
 
 
+"amenity/taxi": {
+
+
+
+
+
+"name": "Taksi Durağı"
+
+
+
+
+},
+
+
+
+
 "amenity/telephone": {
 
 
@@ -3258,6 +4244,38 @@
 
 
 "name": "Yerleşke"
+
+
+
+
+},
+
+
+
+
+"amenity/veterinary": {
+
+
+
+
+
+"name": "Veteriner"
+
+
+
+
+},
+
+
+
+
+"amenity/waste_basket": {
+
+
+
+
+
+"name": "Çöp Kutusu"
 
 
 
@@ -3411,6 +4429,22 @@
 
 
 
+"barrier/hedge": {
+
+
+
+
+
+"name": "Çit"
+
+
+
+
+},
+
+
+
+
 "barrier/stile": {
 
 
@@ -3459,6 +4493,22 @@
 
 
 
+"boundary/administrative": {
+
+
+
+
+
+"name": "İdari Sınırı"
+
+
+
+
+},
+
+
+
+
 "building": {
 
 
@@ -3491,6 +4541,54 @@
 
 
 
+"building/barn": {
+
+
+
+
+
+"name": "Samanlık"
+
+
+
+
+},
+
+
+
+
+"building/bunker": {
+
+
+
+
+
+"name": "Barınak"
+
+
+
+
+},
+
+
+
+
+"building/cabin": {
+
+
+
+
+
+"name": "Kabin"
+
+
+
+
+},
+
+
+
+
 "building/cathedral": {
 
 
@@ -3507,6 +4605,22 @@
 
 
 
+"building/chapel": {
+
+
+
+
+
+"name": "Şapel"
+
+
+
+
+},
+
+
+
+
 "building/church": {
 
 
@@ -3514,6 +4628,22 @@
 
 
 "name": "Kilise"
+
+
+
+
+},
+
+
+
+
+"building/college": {
+
+
+
+
+
+"name": "Kolej Binası"
 
 
 
@@ -3619,6 +4749,38 @@
 
 
 
+"building/garages": {
+
+
+
+
+
+"name": "Garaj"
+
+
+
+
+},
+
+
+
+
+"building/greenhouse": {
+
+
+
+
+
+"name": "Sera"
+
+
+
+
+},
+
+
+
+
 "building/hospital": {
 
 
@@ -3690,6 +4852,22 @@
 
 
 "name": "Endüstriyel Bina"
+
+
+
+
+},
+
+
+
+
+"building/kindergarten": {
+
+
+
+
+
+"name": "Kreş Binası"
 
 
 
@@ -3827,6 +5005,22 @@
 
 
 
+"craft": {
+
+
+
+
+
+"name": "Zanaat"
+
+
+
+
+},
+
+
+
+
 "craft/beekeeper": {
 
 
@@ -3859,6 +5053,38 @@
 
 
 
+"craft/boatbuilder": {
+
+
+
+
+
+"name": "Tersane"
+
+
+
+
+},
+
+
+
+
+"craft/brewery": {
+
+
+
+
+
+"name": "Bira Fabrikası"
+
+
+
+
+},
+
+
+
+
 "craft/carpenter": {
 
 
@@ -3882,6 +5108,22 @@
 
 
 "name": "Saatçi"
+
+
+
+
+},
+
+
+
+
+"craft/confectionery": {
+
+
+
+
+
+"name": "Pastane"
 
 
 
@@ -3930,6 +5172,38 @@
 
 
 "name": "Bahçıvan"
+
+
+
+
+},
+
+
+
+
+"craft/handicraft": {
+
+
+
+
+
+"name": "El Sanatı"
+
+
+
+
+},
+
+
+
+
+"craft/hvac": {
+
+
+
+
+
+"name": "Isı & Soğutma"
 
 
 
@@ -4051,6 +5325,22 @@
 
 
 
+"craft/pottery": {
+
+
+
+
+
+"name": "Çömklekçi Atölyesi"
+
+
+
+
+},
+
+
+
+
 "craft/roofer": {
 
 
@@ -4058,6 +5348,22 @@
 
 
 "name": "Çatı Tamircisi"
+
+
+
+
+},
+
+
+
+
+"craft/sawmill": {
+
+
+
+
+
+"name": "Kereste Fabrikası"
 
 
 
@@ -4163,6 +5469,22 @@
 
 
 
+"craft/tinsmith": {
+
+
+
+
+
+"name": "Tenekeci"
+
+
+
+
+},
+
+
+
+
 "craft/upholsterer": {
 
 
@@ -4186,6 +5508,38 @@
 
 
 "name": "Saatçi"
+
+
+
+
+},
+
+
+
+
+"craft/winery": {
+
+
+
+
+
+"name": "Şarap Fabrikası"
+
+
+
+
+},
+
+
+
+
+"embankment": {
+
+
+
+
+
+"name": "Set"
 
 
 
@@ -4243,13 +5597,13 @@
 
 
 
-"footway/crosswalk": {
+"footway/sidewalk": {
 
 
 
 
 
-"name": "Yaya Geçidi"
+"name": "Kaldırım"
 
 
 
@@ -4259,13 +5613,13 @@
 
 
 
-"footway/sidewalk": {
+"ford": {
 
 
 
 
 
-"name": "Kaldırım"
+"name": "Akarsu Geçişi Yeri"
 
 
 
@@ -4291,6 +5645,22 @@
 
 
 
+"highway/bridleway": {
+
+
+
+
+
+"name": "At Yürüyüş Yolu"
+
+
+
+
+},
+
+
+
+
 "highway/bus_stop": {
 
 
@@ -4298,38 +5668,6 @@
 
 
 "name": "Otobüs Durağı"
-
-
-
-
-},
-
-
-
-
-"highway/crossing": {
-
-
-
-
-
-"name": "Geçit"
-
-
-
-
-},
-
-
-
-
-"highway/crosswalk": {
-
-
-
-
-
-"name": "Yaya Geçidi"
 
 
 
@@ -4371,6 +5709,22 @@
 
 
 
+"highway/living_street": {
+
+
+
+
+
+"name": "Sokak"
+
+
+
+
+},
+
+
+
+
 "highway/mini_roundabout": {
 
 
@@ -4394,6 +5748,22 @@
 
 
 "name": "Otoyol"
+
+
+
+
+},
+
+
+
+
+"highway/motorway_junction": {
+
+
+
+
+
+"name": "Otoyol Sapağı"
 
 
 
@@ -4441,7 +5811,7 @@
 
 
 
-"name": "Yaya"
+"name": "Yaya Yolu"
 
 
 
@@ -4595,6 +5965,22 @@
 
 
 
+"highway/service/alley": {
+
+
+
+
+
+"name": "İki tarafı ağaçlı yol"
+
+
+
+
+},
+
+
+
+
 "highway/service/drive-through": {
 
 
@@ -4618,6 +6004,22 @@
 
 
 "name": "Özel Yol"
+
+
+
+
+},
+
+
+
+
+"highway/services": {
+
+
+
+
+
+"name": "Servis Alanı"
 
 
 
@@ -4730,6 +6132,22 @@
 
 
 "name": "Bölünmüş Anayol"
+
+
+
+
+},
+
+
+
+
+"highway/turning_circle": {
+
+
+
+
+
+"name": "Dönüş Dairesi"
 
 
 
@@ -4867,6 +6285,38 @@
 
 
 
+"junction": {
+
+
+
+
+
+"name": "Yol Ayrımı"
+
+
+
+
+},
+
+
+
+
+"landuse": {
+
+
+
+
+
+"name": "Arazi Kullanımı"
+
+
+
+
+},
+
+
+
+
 "landuse/allotments": {
 
 
@@ -4915,6 +6365,22 @@
 
 
 
+"landuse/commercial": {
+
+
+
+
+
+"name": "Ticari Alan"
+
+
+
+
+},
+
+
+
+
 "landuse/construction": {
 
 
@@ -4922,6 +6388,38 @@
 
 
 "name": "İnşaat"
+
+
+
+
+},
+
+
+
+
+"landuse/farm": {
+
+
+
+
+
+"name": "Tarım Alanı"
+
+
+
+
+},
+
+
+
+
+"landuse/farmland": {
+
+
+
+
+
+"name": "Tarım Alanı"
 
 
 
@@ -4963,6 +6461,22 @@
 
 
 
+"landuse/garages": {
+
+
+
+
+
+"name": "Garaj"
+
+
+
+
+},
+
+
+
+
 "landuse/grass": {
 
 
@@ -4970,6 +6484,22 @@
 
 
 "name": "Yeşil Alan"
+
+
+
+
+},
+
+
+
+
+"landuse/industrial": {
+
+
+
+
+
+"name": "Sanayi Alanı"
 
 
 
@@ -5011,6 +6541,22 @@
 
 
 
+"landuse/military": {
+
+
+
+
+
+"name": "Askeri Alan"
+
+
+
+
+},
+
+
+
+
 "landuse/orchard": {
 
 
@@ -5034,6 +6580,38 @@
 
 
 "name": "Ocak"
+
+
+
+
+},
+
+
+
+
+"landuse/residential": {
+
+
+
+
+
+"name": "Yerleşim Alanı"
+
+
+
+
+},
+
+
+
+
+"landuse/retail": {
+
+
+
+
+
+"name": "Esnaf Bölgesi"
 
 
 
@@ -5155,6 +6733,22 @@
 
 
 
+"leisure/nature_reserve": {
+
+
+
+
+
+"name": "Tabiat Parkı"
+
+
+
+
+},
+
+
+
+
 "leisure/park": {
 
 
@@ -5162,6 +6756,22 @@
 
 
 "name": "Park"
+
+
+
+
+},
+
+
+
+
+"leisure/picnic_table": {
+
+
+
+
+
+"name": "Piknik Masası"
 
 
 
@@ -5299,6 +6909,22 @@
 
 
 
+"leisure/sports_center": {
+
+
+
+
+
+"name": "Spor Merkezi"
+
+
+
+
+},
+
+
+
+
 "leisure/stadium": {
 
 
@@ -5363,6 +6989,54 @@
 
 
 
+"man_made/cutline": {
+
+
+
+
+
+"name": "Yangın Kesme Hattı"
+
+
+
+
+},
+
+
+
+
+"man_made/embankment": {
+
+
+
+
+
+"name": "Set"
+
+
+
+
+},
+
+
+
+
+"man_made/flagpole": {
+
+
+
+
+
+"name": "Bayrak"
+
+
+
+
+},
+
+
+
+
 "man_made/lighthouse": {
 
 
@@ -5370,6 +7044,54 @@
 
 
 "name": "Deniz Feneri"
+
+
+
+
+},
+
+
+
+
+"man_made/mast": {
+
+
+
+
+
+"name": "Komünikasyon Direği"
+
+
+
+
+},
+
+
+
+
+"man_made/observation": {
+
+
+
+
+
+"name": "Gözetleme Kulesi"
+
+
+
+
+},
+
+
+
+
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Petrol Kuyusu"
 
 
 
@@ -5459,6 +7181,38 @@
 
 
 
+"military/barracks": {
+
+
+
+
+
+"name": "Baraka"
+
+
+
+
+},
+
+
+
+
+"military/bunker": {
+
+
+
+
+
+"name": "Barınak"
+
+
+
+
+},
+
+
+
+
 "natural": {
 
 
@@ -5507,6 +7261,22 @@
 
 
 
+"natural/cave_entrance": {
+
+
+
+
+
+"name": "Mağara Girişi"
+
+
+
+
+},
+
+
+
+
 "natural/cliff": {
 
 
@@ -5530,6 +7300,22 @@
 
 
 "name": "Sahil Yolu"
+
+
+
+
+},
+
+
+
+
+"natural/fell": {
+
+
+
+
+
+"name": "Kır"
 
 
 
@@ -5603,6 +7389,22 @@
 
 
 
+"natural/scree": {
+
+
+
+
+
+"name": "Kayşat"
+
+
+
+
+},
+
+
+
+
 "natural/scrub": {
 
 
@@ -5642,6 +7444,22 @@
 
 
 "name": "Ağaç"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Yanardağ"
 
 
 
@@ -5763,6 +7581,54 @@
 
 
 
+"office/accountant": {
+
+
+
+
+
+"name": "Muhasebeci"
+
+
+
+
+},
+
+
+
+
+"office/administrative": {
+
+
+
+
+
+"name": "İdari Ofis"
+
+
+
+
+},
+
+
+
+
+"office/architect": {
+
+
+
+
+
+"name": "Mimar"
+
+
+
+
+},
+
+
+
+
 "office/company": {
 
 
@@ -5770,6 +7636,22 @@
 
 
 "name": "Şirket Ofisi"
+
+
+
+
+},
+
+
+
+
+"office/educational_institution": {
+
+
+
+
+
+"name": "Eğitimsel Kurumu"
 
 
 
@@ -5859,6 +7741,38 @@
 
 
 
+"office/newspaper": {
+
+
+
+
+
+"name": "Gazete"
+
+
+
+
+},
+
+
+
+
+"office/physician": {
+
+
+
+
+
+"name": "Hekim"
+
+
+
+
+},
+
+
+
+
 "office/political_party": {
 
 
@@ -5866,6 +7780,22 @@
 
 
 "name": "Siyasi Parti"
+
+
+
+
+},
+
+
+
+
+"office/telecommunication": {
+
+
+
+
+
+"name": "Telekom Bürosu"
 
 
 
@@ -5914,6 +7844,22 @@
 
 
 "name": "Şehir"
+
+
+
+
+},
+
+
+
+
+"place/farm": {
+
+
+
+
+
+"name": "Çiftlik"
 
 
 
@@ -6051,6 +7997,22 @@
 
 
 
+"power/generator": {
+
+
+
+
+
+"name": "Jenerator"
+
+
+
+
+},
+
+
+
+
 "power/line": {
 
 
@@ -6083,6 +8045,70 @@
 
 
 
+"power/substation": {
+
+
+
+
+
+"name": "Trafo"
+
+
+
+
+},
+
+
+
+
+"power/tower": {
+
+
+
+
+
+"name": "Yüksek Gerilim Direği"
+
+
+
+
+},
+
+
+
+
+"power/transformer": {
+
+
+
+
+
+"name": "Transformatör"
+
+
+
+
+},
+
+
+
+
+"public_transport/platform": {
+
+
+
+
+
+"name": "Peron"
+
+
+
+
+},
+
+
+
+
 "railway": {
 
 
@@ -6099,13 +8125,45 @@
 
 
 
-"railway/level_crossing": {
+"railway/abandoned": {
 
 
 
 
 
-"name": "Demiryolu Geçidi"
+"name": "Terk Edilmiş Demiryolu"
+
+
+
+
+},
+
+
+
+
+"railway/disused": {
+
+
+
+
+
+"name": "Kullanılmayan Demiryolu"
+
+
+
+
+},
+
+
+
+
+"railway/halt": {
+
+
+
+
+
+"name": "Demiryolu Durağı"
 
 
 
@@ -6211,6 +8269,38 @@
 
 
 
+"relation": {
+
+
+
+
+
+"name": "İlişki"
+
+
+
+
+},
+
+
+
+
+"roundabout": {
+
+
+
+
+
+"name": "Dönel Kavşak"
+
+
+
+
+},
+
+
+
+
 "route/ferry": {
 
 
@@ -6234,6 +8324,38 @@
 
 
 "name": "Dükkan"
+
+
+
+
+},
+
+
+
+
+"shop/antiques": {
+
+
+
+
+
+"name": "Antika Dükkanı"
+
+
+
+
+},
+
+
+
+
+"shop/art": {
+
+
+
+
+
+"name": "Sanat Galerisi"
 
 
 
@@ -6505,6 +8627,22 @@
 
 
 
+"shop/cosmetics": {
+
+
+
+
+
+"name": "Kozmetik Dükkanı"
+
+
+
+
+},
+
+
+
+
 "shop/electronics": {
 
 
@@ -6617,6 +8755,38 @@
 
 
 
+"shop/houseware": {
+
+
+
+
+
+"name": "Ev Eşyaları Mağazası"
+
+
+
+
+},
+
+
+
+
+"shop/interior_decoration": {
+
+
+
+
+
+"name": "İç Dekorasyon Mağazası"
+
+
+
+
+},
+
+
+
+
 "shop/jewelry": {
 
 
@@ -6633,6 +8803,22 @@
 
 
 
+"shop/kitchen": {
+
+
+
+
+
+"name": "Beyaz Eşya Mağazası"
+
+
+
+
+},
+
+
+
+
 "shop/laundry": {
 
 
@@ -6640,6 +8826,38 @@
 
 
 "name": "Çamaşır Yıkama"
+
+
+
+
+},
+
+
+
+
+"shop/leather": {
+
+
+
+
+
+"name": "Deri Dükkanı"
+
+
+
+
+},
+
+
+
+
+"shop/locksmith": {
+
+
+
+
+
+"name": "Anahtarcı"
 
 
 
@@ -6697,6 +8915,38 @@
 
 
 
+"shop/money_lender": {
+
+
+
+
+
+"name": "Tefeci"
+
+
+
+
+},
+
+
+
+
+"shop/musical_instrument": {
+
+
+
+
+
+"name": "Çalgı Mağazası"
+
+
+
+
+},
+
+
+
+
 "shop/optician": {
 
 
@@ -6704,6 +8954,22 @@
 
 
 "name": "Optik"
+
+
+
+
+},
+
+
+
+
+"shop/organic": {
+
+
+
+
+
+"name": "Organik Ürünleri Dükkanı"
 
 
 
@@ -6736,6 +9002,22 @@
 
 
 "name": "Süpermarket"
+
+
+
+
+},
+
+
+
+
+"shop/tailor": {
+
+
+
+
+
+"name": "Terzi"
 
 
 
@@ -7049,6 +9331,22 @@
 
 
 
+"type/boundary/administrative": {
+
+
+
+
+
+"name": "İdari Sınırı"
+
+
+
+
+},
+
+
+
+
 "type/restriction": {
 
 
@@ -7056,6 +9354,38 @@
 
 
 "name": "Kısıtlama"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_left_turn": {
+
+
+
+
+
+"name": "Sola Dönmek Yasak"
+
+
+
+
+},
+
+
+
+
+"type/restriction/no_right_turn": {
+
+
+
+
+
+"name": "Sağa Dönmek Yasak"
 
 
 

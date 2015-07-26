@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Commento",
+"message_label": "Commento al gruppo di modifiche",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Modifiche di {users} e {count} altri"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} selezionati",
+
+
+
+"geometry": "Geometria",
+
+
+
+"closed": "chiuso",
+
+
+
+"center": "Centro",
+
+
+
+"perimeter": "Perimetro",
+
+
+
+"length": "Lunghezza",
+
+
+
+"area": "Area",
+
+
+
+"centroid": "Baricentro",
+
+
+
+"location": "Posizione",
+
+
+
+"metric": "Metrico",
+
+
+
+"imperial": "Imperiale"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "punto",
+
+
+
+"vertex": "vertice",
+
+
+
+"line": "linea",
+
+
+
+"area": "area",
+
+
+
+"relation": "relazione"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "reset"
+"reset": "reset",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minimappa",
+
+
+
+
+"tooltip": "Mostra una mappa più vasta per localizzare meglio l'area corrente."
+
+
+
+}
 
 
 },
@@ -2084,7 +2178,7 @@
 
 
 
-"editing_saving": "# Modifica & salvataggio\n\nQuesto editor è stato pensato per funzionare principalmente online\ned anche in questo momento lo stai utilizzando tramite browser web.\n\n### Selezione degli Elementi\n\nPer selezionare un elemento della mappa, come ad esempio una strada o\nun punto di interesse, clicca su di esso sulla mappa. Questo farà in modo\nche l'elemento selezionato venga evidenziato, che si apra un pannello con\ni dettagli e che si apra un menu di azioni che è possibile fare con l'elemento\nstesso.\n\nPer selezionare più elementi tenendo premuto il tasto 'Maiusc' clicca su ogni\nelemento o trascina il mouse disegnando un riquadro sulla mappa. Questo\nfarà sì che tutti gli elementi all'interno del riquadro vengano selezionati\nconsentendo di compiere azioni su più elementi in una volta sola.\n\n### Salvataggio delle modifiche\n\nQuando si fanno dei cambiamenti, come modifiche alle strade, agli edifici e\nai luoghi, queste vengono memorizzate localmente fino a che non si effettua\nil salvataggio sul server. Non preoccuparti se fai un errore, puoi annullare\nla modifica premento il tasto 'Annulla' e rieffettuare la modifica cliccando\nsul tasto 'Ripeti'.\n\nSe ad esempio hai completato un'area della città e vuoi iniziare un'altra\narea clicca su 'Salva' e porre fine ad un gruppo di modifiche. Avrai comunque\nla possibilità di revisionare ciò che hai modificato inoltre l'editor fornirà\nsuggerimenti e avvertimenti se qualcosa nelle tue modifiche non sembra\nandare bene.\n\nSe tutto è a posto puoi aggiungere un piccolo commento per spiegare la\nmodifica effettuata e cliccare su 'Salva' di nuovo per caricare le modifiche su\n[OpenStreetMap.org](http://www.openstreetmap.org/), dove saranno visibili\na tutti gli utenti e disponibili agli altri per consentire di costruirci sopra o\nmigliorarle ulteriormente.\n\nSe non riesci a finire le modifiche in una seduta, puoi abbandonare la\nfinestra dell'editor e tornarci più tardi (utilizzando lo stesso browser e lo\nstesso computer): l'editor ti offrirà infatti la possibiltà di recuperare il tuo lavoro.\n",
+"editing_saving": "# Modifica & salvataggio\n\nQuesto editor è stato pensato per funzionare principalmente online ed\nanche in questo momento lo stai utilizzando tramite browser web.\n\n### Selezione degli Elementi\n\nPer selezionare un elemento della mappa, come ad esempio una\nstrada o un punto di interesse, clicca su di esso sulla mappa. Questo\nfarà in modo che l'elemento selezionato venga evidenziato, che si apra\nun pannello con i dettagli e che si apra un menu di azioni che è\npossibile fare con l'elemento stesso.\n\nPer selezionare più elementi tenendo premuto il tasto 'Maiusc'; clicca\nsu ogni elemento o trascina il mouse disegnando un riquadro sulla\nmappa. Questo farà sì che tutti gli elementi all'interno del riquadro\nvengano selezionati consentendo di compiere azioni su più elementi\nin una volta sola.\n\n### Salvataggio delle modifiche\n\nQuando si fanno dei cambiamenti, come modifiche alle strade, agli\nedifici e ai luoghi, questi vengono memorizzati localmente fino a che\nnon si effettua il salvataggio sul server. Non preoccuparti se fai un\nerrore, puoi annullare la modifica premendo il tasto 'Annulla' e\nrieffettuare la modifica cliccando sul tasto 'Ripeti'.\n\nSe ad esempio hai completato un'area della città e vuoi iniziare un'altra\narea clicca su 'Salva' e porre fine ad un gruppo di modifiche. Avrai\ncomunque la possibilità di revisionare ciò che hai modificato inoltre\nl'editor fornirà suggerimenti e avvertimenti se qualcosa nelle tue\nmodifiche non sembra andare bene.\n\nSe tutto è a posto puoi aggiungere un piccolo commento per spiegare\nla modifica effettuata e cliccare su 'Salva' di nuovo per caricare le\nmodifiche su [OpenStreetMap.org](http://www.openstreetmap.org/),\ndove saranno visibili a tutti gli utenti e disponibili agli altri per\nconsentire di costruirci sopra o migliorarle ulteriormente.\n\nSe non riesci a finire le modifiche in una seduta, puoi abbandonare la\nfinestra dell'editor e tornarci più tardi (utilizzando lo stesso browser e lo\nstesso computer): l'editor ti offrirà infatti la possibiltà di recuperare il tuo\nlavoro.\n\n### Utilizzo dell'editor\n\n[Qui](http://wiki.openstreetmap.org/wiki/ID/Shortcuts) puoi trovare una lista delle scorciatoie disponibili.\n",
 
 
 

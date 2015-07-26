@@ -66,7 +66,7 @@
 
 
 
-"name": "Ścieżki"
+"name": "Ścieżka"
 
 
 
@@ -114,7 +114,7 @@
 
 
 
-"name": "Drogi"
+"name": "Droga"
 
 
 
@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Nieznane",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Ogólny",
-
-
-
-
-
-
-"foot": "Piesi",
-
-
-
-
-
-
-"motor_vehicle": "Pojazdy silnikowe",
-
-
-
-
-
-
-"bicycle": "Rowery",
-
-
-
-
-
-
-"horse": "Konie"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Dozwolony",
-
-
-
-
-
-
-
-"description": "Dostęp przyznany przez prawo"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Zabroniony",
-
-
-
-
-
-
-
-"description": "Niedostępne dla ogólnego ruchu"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Dozwolony",
-
-
-
-
-
-
-
-"description": "Dostęp dozwolony do czasu, gdy właściciel wycofa zgodę"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Prywatny",
-
-
-
-
-
-
-
-"description": "Dostęp jest dozwolony tylko za zgodą właściciela na zasadzie indywidualnej"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Wyznaczony",
+"description": "Dostęp jest dozwolony na podstawie znaków lub określonych przepisów lokalnych",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Dostęp jest dozwolony na podstawie znaków lub określonych przepisów lokalnych"
+"title": "Wyznaczony"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Docelowy",
+"description": "Dostęp dozwolony tylko by dotrzeć do celu",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Dostęp dozwolony tylko by dotrzeć do celu"
+"title": "Docelowy"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Niedostępne dla ogólnego ruchu",
+
+
+
+
+
+
+
+"title": "Zabroniony"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Dostęp dozwolony do czasu, gdy właściciel wycofa zgodę",
+
+
+
+
+
+
+
+"title": "Dozwolony"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Dostęp jest dozwolony tylko za zgodą właściciela na zasadzie indywidualnej",
+
+
+
+
+
+
+
+"title": "Prywatny"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Dostęp przyznany przez prawo",
+
+
+
+
+
+
+
+"title": "Dozwolony"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Nieznane",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Ogólny",
+
+
+
+
+
+
+"bicycle": "Rowery",
+
+
+
+
+
+
+"foot": "Piesi",
+
+
+
+
+
+
+"horse": "Konie",
+
+
+
+
+
+
+"motor_vehicle": "Pojazdy silnikowe"
 
 
 
@@ -498,6 +498,34 @@
 
 
 
+"city": "Miasto",
+
+
+
+
+
+
+"country": "Kraj",
+
+
+
+
+
+
+"district": "Dystrykt",
+
+
+
+
+
+
+"hamlet": "Przysiółek",
+
+
+
+
+
+
 "housename": "Nazwa domu",
 
 
@@ -512,27 +540,6 @@
 
 
 
-"street": "Ulica",
-
-
-
-
-
-
-"city": "Miasto",
-
-
-
-
-
-
-"postcode": "Kod pocztowy",
-
-
-
-
-
-
 "place": "Miejsce",
 
 
@@ -540,28 +547,7 @@
 
 
 
-"hamlet": "Przysiółek",
-
-
-
-
-
-
-"suburb": "Dzielnica",
-
-
-
-
-
-
-"subdistrict": "Sub-dystrykt",
-
-
-
-
-
-
-"district": "Dystrykt",
+"postcode": "Kod pocztowy",
 
 
 
@@ -582,7 +568,21 @@
 
 
 
-"country": "Kraj"
+"street": "Ulica",
+
+
+
+
+
+
+"subdistrict": "Sub-dystrykt",
+
+
+
+
+
+
+"suburb": "Dzielnica"
 
 
 
@@ -649,6 +649,13 @@
 
 
 
+"both": "Oba",
+
+
+
+
+
+
 "entry": "Wejście",
 
 
@@ -656,14 +663,7 @@
 
 
 
-"exit": "Wyjście",
-
-
-
-
-
-
-"both": "Oba"
+"exit": "Wyjście"
 
 
 
@@ -796,6 +796,13 @@
 
 
 
+"both": "Obydwa",
+
+
+
+
+
+
 "entry": "Wejście",
 
 
@@ -803,14 +810,7 @@
 
 
 
-"exit": "Wyjście",
-
-
-
-
-
-
-"both": "Obydwa"
+"exit": "Wyjście"
 
 
 
@@ -1075,63 +1075,7 @@
 
 
 
-"N": "Północ",
-
-
-
-
-
-
 "E": "Wschód",
-
-
-
-
-
-
-"S": "Południe",
-
-
-
-
-
-
-"W": "Zachód",
-
-
-
-
-
-
-"NE": "Północny wschód",
-
-
-
-
-
-
-"SE": "Południowy wschód",
-
-
-
-
-
-
-"SW": "Południowy zachód",
-
-
-
-
-
-
-"NW": "Północny zachód",
-
-
-
-
-
-
-"NNE": "Północny północny wschód",
 
 
 
@@ -1152,6 +1096,55 @@
 
 
 
+"N": "Północ",
+
+
+
+
+
+
+"NE": "Północny wschód",
+
+
+
+
+
+
+"NNE": "Północny północny wschód",
+
+
+
+
+
+
+"NNW": "Północny północny zachód",
+
+
+
+
+
+
+"NW": "Północny zachód",
+
+
+
+
+
+
+"S": "Południe",
+
+
+
+
+
+
+"SE": "Południowy wschód",
+
+
+
+
+
+
 "SSE": "Południowy południowy wschód",
 
 
@@ -1166,7 +1159,14 @@
 
 
 
-"WSW": "Zachodni południowy zachód",
+"SW": "Południowy zachód",
+
+
+
+
+
+
+"W": "Zachód",
 
 
 
@@ -1180,7 +1180,7 @@
 
 
 
-"NNW": "Północny północny zachód"
+"WSW": "Zachodni południowy zachód"
 
 
 
@@ -1215,14 +1215,14 @@
 
 
 
-"clockwise": "Zgodnie ze wskazówkami zegara",
+"anticlockwise": "Przeciwnie do wskazówek zegara",
 
 
 
 
 
 
-"anticlockwise": "Przeciwnie do wskazówek zegara"
+"clockwise": "Zgodnie ze wskazówkami zegara"
 
 
 
@@ -1318,6 +1318,22 @@
 
 
 
+"crop": {
+
+
+
+
+
+"label": "Przytnij"
+
+
+
+
+},
+
+
+
+
 "crossing": {
 
 
@@ -1341,6 +1357,192 @@
 
 
 "label": "Kuchnia"
+
+
+
+
+},
+
+
+
+
+"cycleway": {
+
+
+
+
+
+"label": "Pasy rowerowe",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Pas rowerowy, wydzielony od drogi namalowaną linią",
+
+
+
+
+
+
+
+"title": "Standardowy pas rowerowy"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Brak pasa rowerowego",
+
+
+
+
+
+
+
+"title": "Brak"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Pas rowerowy dzielony z buspasem"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Pas rowerowy nieoddzielony od pasa ruchu"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"title": "Ścieżka rowerowa"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "brak",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Lewa strona",
+
+
+
+
+
+
+"cycleway:right": "Prawa strona"
+
+
+
+
+
+}
 
 
 
@@ -1442,12 +1644,6 @@
 
 
 
-"placeholder": "Linia napowietrzna, Trzecia szyna",
-
-
-
-
-
 "options": {
 
 
@@ -1462,6 +1658,13 @@
 
 
 
+"no": "Nie",
+
+
+
+
+
+
 "rail": "Trzecia szyna",
 
 
@@ -1469,20 +1672,19 @@
 
 
 
-"yes": "Tak (nieokreślone)",
+"yes": "Tak (nieokreślone)"
 
 
 
 
 
-
-"no": "Nie"
-
+},
 
 
 
 
-}
+
+"placeholder": "Linia napowietrzna, Trzecia szyna"
 
 
 
@@ -1620,6 +1822,13 @@
 
 
 
+"pond": "Staw",
+
+
+
+
+
+
 "underground": "Podziemny",
 
 
@@ -1627,14 +1836,7 @@
 
 
 
-"wall": "Mur",
-
-
-
-
-
-
-"pond": "Staw"
+"wall": "Mur"
 
 
 
@@ -1854,20 +2056,7 @@
 
 
 
-"placeholder": "Nieznana",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Mężczyzna",
 
 
 
@@ -1881,13 +2070,26 @@
 
 
 
+"male": "Mężczyzna",
+
+
+
+
+
+
 "unisex": "Dla obu płci"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nieznana"
 
 
 
@@ -2110,14 +2312,14 @@
 
 
 
-"up": "W górę",
+"down": "W dół",
 
 
 
 
 
 
-"down": "W dół"
+"up": "W górę"
 
 
 
@@ -2168,13 +2370,6 @@
 
 
 
-"yes": "Tak",
-
-
-
-
-
-
 "no": "Nie",
 
 
@@ -2182,7 +2377,7 @@
 
 
 
-"wlan": "Bezprzewodowy",
+"terminal": "Terminal",
 
 
 
@@ -2196,7 +2391,14 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "Bezprzewodowy",
+
+
+
+
+
+
+"yes": "Tak"
 
 
 
@@ -2301,13 +2503,6 @@
 
 
 
-"evergreen": "Zimozielone",
-
-
-
-
-
-
 "deciduous": "Zrzucające liście na zimę",
 
 
@@ -2315,14 +2510,21 @@
 
 
 
-"semi_deciduous": "Zrzucające liście, tropikalne",
+"evergreen": "Zimozielone",
 
 
 
 
 
 
-"mixed": "Mieszane"
+"mixed": "Mieszane",
+
+
+
+
+
+
+"semi_deciduous": "Zrzucające liście, tropikalne"
 
 
 
@@ -2364,7 +2566,7 @@
 
 
 
-"needleleaved": "Iglaste",
+"leafless": "Bezlistne",
 
 
 
@@ -2378,7 +2580,7 @@
 
 
 
-"leafless": "Bezlistne"
+"needleleaved": "Iglaste"
 
 
 
@@ -2417,6 +2619,22 @@
 
 
 "label": "Długość (w metrach)"
+
+
+
+
+},
+
+
+
+
+"level": {
+
+
+
+
+
+"label": "Poziom"
 
 
 
@@ -2530,12 +2748,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2591,7 +2803,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2608,12 +2826,6 @@
 
 
 "label": "Skala trudności szlaków dla rowerów górskich IMBA",
-
-
-
-
-
-"placeholder": "Łatwy, Wymagający, Trudny...",
 
 
 
@@ -2660,7 +2872,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Łatwy, Wymagający, Trudny..."
 
 
 
@@ -2677,12 +2895,6 @@
 
 
 "label": "Skala trudności podjazdów dla rowerów górskich ",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3...",
 
 
 
@@ -2736,7 +2948,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2851,6 +3069,13 @@
 
 
 
+"no": "Nie",
+
+
+
+
+
+
 "undefined": "Domyślnie nie",
 
 
@@ -2858,14 +3083,7 @@
 
 
 
-"yes": "Tak",
-
-
-
-
-
-
-"no": "Nie"
+"yes": "Tak"
 
 
 
@@ -2900,6 +3118,13 @@
 
 
 
+"no": "Nie",
+
+
+
+
+
+
 "undefined": "Domyślnie tak",
 
 
@@ -2907,14 +3132,7 @@
 
 
 
-"yes": "Tak",
-
-
-
-
-
-
-"no": "Nie"
+"yes": "Tak"
 
 
 
@@ -3019,34 +3237,6 @@
 
 
 
-"surface": "Naziemny",
-
-
-
-
-
-
-"multi-storey": "Wielopoziomowy",
-
-
-
-
-
-
-"underground": "Podziemny",
-
-
-
-
-
-
-"sheds": "Garaże",
-
-
-
-
-
-
 "carports": "Wiaty",
 
 
@@ -3061,7 +3251,35 @@
 
 
 
-"lane": "Pas na jezdni"
+"lane": "Pas na jezdni",
+
+
+
+
+
+
+"multi-storey": "Wielopoziomowy",
+
+
+
+
+
+
+"sheds": "Garaże",
+
+
+
+
+
+
+"surface": "Naziemny",
+
+
+
+
+
+
+"underground": "Podziemny"
 
 
 
@@ -3111,6 +3329,25 @@
 
 
 
+"options": {
+
+
+
+
+
+
+"extreme": "Ekstremalna (konieczne wyposażenie wspinaczkowe)"
+
+
+
+
+
+},
+
+
+
+
+
 "placeholder": "Łatwy, Średni, Zaawansowany..."
 
 
@@ -3150,6 +3387,20 @@
 
 
 "options": {
+
+
+
+
+
+
+"downhill": "Downhill",
+
+
+
+
+
+
+"playground": "Plac zabaw",
 
 
 
@@ -3291,6 +3542,35 @@
 
 
 "label": "Papier"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"container": "Pojemnik"
+
+
+
+
+
+}
 
 
 
@@ -3463,6 +3743,13 @@
 
 
 
+"no": "Nie",
+
+
+
+
+
+
 "undefined": "Domyślnie nie",
 
 
@@ -3470,14 +3757,7 @@
 
 
 
-"yes": "Tak",
-
-
-
-
-
-
-"no": "Nie"
+"yes": "Tak"
 
 
 
@@ -3512,6 +3792,13 @@
 
 
 
+"no": "Nie",
+
+
+
+
+
+
 "undefined": "Domyślnie nie",
 
 
@@ -3519,14 +3806,7 @@
 
 
 
-"yes": "Tak",
-
-
-
-
-
-
-"no": "Nie"
+"yes": "Tak"
 
 
 
@@ -3618,12 +3898,6 @@
 
 
 
-"placeholder": "Nie, Wydzielone, Tak...",
-
-
-
-
-
 "options": {
 
 
@@ -3631,14 +3905,7 @@
 
 
 
-"no": "Całkowity zakaz palenia",
-
-
-
-
-
-
-"separated": "W miejscach dla palących, nieoddzielonych fizycznie",
+"dedicated": "Miejsce dla palących (np. klub palaczy)",
 
 
 
@@ -3652,6 +3919,13 @@
 
 
 
+"no": "Całkowity zakaz palenia",
+
+
+
+
+
+
 "outside": "Dozwolone na zewnątrz",
 
 
@@ -3659,20 +3933,26 @@
 
 
 
-"yes": "Dozwolone wszędzie",
+"separated": "W miejscach dla palących, nieoddzielonych fizycznie",
 
 
 
 
 
 
-"dedicated": "Miejsce dla palących (np. klub palaczy)"
+"yes": "Dozwolone wszędzie"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nie, Wydzielone, Tak..."
 
 
 
@@ -3694,13 +3974,14 @@
 
 
 
-"placeholder": "Cienkie kółka, Koła, Off-road...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Solidne koła: rower trekkingowy, samochód, riksza",
 
 
 
@@ -3721,14 +4002,21 @@
 
 
 
+"horrible": "Off-road: ciężki pojazd terenowy",
+
+
+
+
+
+
+"impassable": "Nieprzejezdne / nie dla pojazdów kołowych",
+
+
+
+
+
+
 "intermediate": "Koła: rower miejski, wózek inwalidzki, skuter",
-
-
-
-
-
-
-"bad": "Solidne koła: rower trekkingowy, samochód, riksza",
 
 
 
@@ -3742,27 +4030,19 @@
 
 
 
-"horrible": "Off-road: ciężki pojazd terenowy",
+"very_horrible": "Wyspecjalizowany off-road: traktor, ATV (quad)"
 
 
 
 
 
-
-"very_horrible": "Wyspecjalizowany off-road: traktor, ATV (quad)",
-
+},
 
 
 
 
 
-"impassable": "Nieprzejezdne / nie dla pojazdów kołowych"
-
-
-
-
-
-}
+"placeholder": "Cienkie kółka, Koła, Off-road..."
 
 
 
@@ -3870,12 +4150,6 @@
 
 
 
-"placeholder": "Nieznane",
-
-
-
-
-
 "options": {
 
 
@@ -3890,7 +4164,7 @@
 
 
 
-"tunnel": "Tunel",
+"cutting": "Wykop",
 
 
 
@@ -3904,20 +4178,26 @@
 
 
 
-"cutting": "Wykop",
+"ford": "Bród",
 
 
 
 
 
 
-"ford": "Bród"
+"tunnel": "Tunel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nieznane"
 
 
 
@@ -4013,20 +4293,13 @@
 
 
 
-"placeholder": "Tak, Nie, Tylko na wynos...",
+"label": "Na wynos",
 
 
 
 
 
 "options": {
-
-
-
-
-
-
-"yes": "Tak",
 
 
 
@@ -4040,13 +4313,26 @@
 
 
 
-"only": "Tylko na wynos."
+"only": "Tylko na wynos.",
 
 
 
 
 
-}
+
+"yes": "Tak"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Tak, Nie, Tylko na wynos..."
 
 
 
@@ -4075,14 +4361,7 @@
 
 
 
-"flush": "Spuszczanie wody",
-
-
-
-
-
-
-"pitlatrine": "Latryna",
+"bucket": "Wiadro",
 
 
 
@@ -4096,7 +4375,14 @@
 
 
 
-"bucket": "Wiadro"
+"flush": "Spuszczanie wody",
+
+
+
+
+
+
+"pitlatrine": "Latryna"
 
 
 
@@ -4156,12 +4442,6 @@
 
 
 
-"placeholder": "Utwardzona, nieubita...",
-
-
-
-
-
 "options": {
 
 
@@ -4203,7 +4483,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Utwardzona, nieubita..."
 
 
 
@@ -5223,7 +5509,7 @@
 
 
 
-"name": "Przychodnia lekarska",
+"name": "Klinika",
 
 
 
@@ -5359,13 +5645,13 @@
 
 
 
-"name": "Doktor",
+"name": "Gabinet lub przychodnia lekarska",
 
 
 
 
 
-"terms": "lekarz,doktor,konował,medyk,uzdrowiciel"
+"terms": "lekarz, doktor, medyk, uzdrowiciel, nzoz, zoz, spzoz, gabinet lekarski"
 
 
 
@@ -5977,7 +6263,7 @@
 
 
 
-"terms": "bar,kawiarnia,stołówka,jadalnia,drive-in,knajpa,jadłodajnia,fast food,grill,gospoda,klub nocny,pizzeria"
+"terms": "bar,kawiarnia,stołówka,jadalnia,drive-in,knajpa,jadłodajnia,fast food,grill,gospoda,klub nocny,pizzeria,karczma,zajazd"
 
 
 
@@ -6787,7 +7073,13 @@
 
 
 
-"name": "Bunkier"
+"name": "Bunkier",
+
+
+
+
+
+"terms": "bunkier, schron,"
 
 
 
@@ -8285,50 +8577,6 @@
 
 
 
-"footway/crossing": {
-
-
-
-
-
-"name": "Przejście dla pieszych",
-
-
-
-
-
-"terms": "przejście dla pieszych, "
-
-
-
-
-},
-
-
-
-
-"footway/crosswalk": {
-
-
-
-
-
-"name": "Przejście dla pieszych",
-
-
-
-
-
-"terms": "przejście,pasy,zebra"
-
-
-
-
-},
-
-
-
-
 "footway/sidewalk": {
 
 
@@ -8449,50 +8697,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "Przejście dla pieszych",
-
-
-
-
-
-"terms": "skrzyżowanie,krzyżówka"
-
-
-
-
-},
-
-
-
-
-"highway/crosswalk": {
-
-
-
-
-
-"name": "Przejście dla pieszych",
-
-
-
-
-
-"terms": "przejście,pasy,zebra"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -8521,7 +8725,7 @@
 
 
 
-"name": "Ścieżka dla pieszych",
+"name": "Chodnik",
 
 
 
@@ -8654,28 +8858,6 @@
 
 
 "terms": "ścieżka,dróżka"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "Deptak",
-
-
-
-
-
-"terms": "piesi,pieszych,deptak,droga"
 
 
 
@@ -9321,7 +9503,7 @@
 
 
 
-"name": "Miejsce pamięci",
+"name": "Pomnik/miejsce pamięci",
 
 
 
@@ -9343,7 +9525,7 @@
 
 
 
-"name": "Pomnik",
+"name": "Monument",
 
 
 
@@ -11041,6 +11223,38 @@
 
 
 
+"natural/tree_row": {
+
+
+
+
+
+"name": "Rząd drzew"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Wulkan"
+
+
+
+
+},
+
+
+
+
 "natural/water": {
 
 
@@ -11201,7 +11415,7 @@
 
 
 
-"terms": "księgowy"
+"terms": "biuro rachunkowe, księgowość, rachun"
 
 
 
@@ -11395,7 +11609,13 @@
 
 
 
-"name": "Biuro prawnicze"
+"name": "Biuro prawnicze",
+
+
+
+
+
+"terms": "prawnik, kancelaria, adwokat, radca"
 
 
 
@@ -11602,6 +11822,22 @@
 
 
 "terms": "miasto"
+
+
+
+
+},
+
+
+
+
+"place/farm": {
+
+
+
+
+
+"name": "Farma"
 
 
 
@@ -12068,28 +12304,6 @@
 
 
 "terms": "stacja,przystanek,kolej,kolejowa"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Rogatka",
-
-
-
-
-
-"terms": "skrzyżowanie, krzyżówka, Przejazd kolejowy"
 
 
 
@@ -13072,6 +13286,22 @@
 
 
 "name": "Stragan produktów"
+
+
+
+
+},
+
+
+
+
+"shop/fashion": {
+
+
+
+
+
+"name": "Sklep odzieżowy"
 
 
 
@@ -14407,7 +14637,7 @@
 
 
 
-"name": "Schronisko",
+"name": "Schronisko lub hostel",
 
 
 

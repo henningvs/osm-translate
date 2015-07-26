@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Tuntematon",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Yleinen",
-
-
-
-
-
-
-"foot": "Kävely",
-
-
-
-
-
-
-"motor_vehicle": "Moottoriajoneuvot",
-
-
-
-
-
-
-"bicycle": "Pyöräily",
-
-
-
-
-
-
-"horse": "Hevoset"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Sallittu",
-
-
-
-
-
-
-
-"description": "Laki sallii pääsyn alueelle"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Kielletty",
-
-
-
-
-
-
-
-"description": "Ei pääsyä ilman erityislupaa"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Luvanvarainen",
-
-
-
-
-
-
-
-"description": "Pääsy sallittu, kunnes omistaja peruuttaa luvan"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Yksityinen",
-
-
-
-
-
-
-
-"description": "Pääsy sallittu vain omistajan erityisluvalla"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Ilmoitettu",
+"description": "Liikennemerkki, erityislaki tai muu vastaava sallii pääsyn",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Liikennemerkki, erityislaki tai muu vastaava sallii pääsyn"
+"title": "Ilmoitettu"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Läpikulku",
+"description": "Pääsy sallittu vain, jos kohde on alueella",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Pääsy sallittu vain, jos kohde on alueella"
+"title": "Läpikulku"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Ei pääsyä ilman erityislupaa",
+
+
+
+
+
+
+
+"title": "Kielletty"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Pääsy sallittu, kunnes omistaja peruuttaa luvan",
+
+
+
+
+
+
+
+"title": "Luvanvarainen"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Pääsy sallittu vain omistajan erityisluvalla",
+
+
+
+
+
+
+
+"title": "Yksityinen"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Laki sallii pääsyn alueelle",
+
+
+
+
+
+
+
+"title": "Sallittu"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Tuntematon",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Yleinen",
+
+
+
+
+
+
+"bicycle": "Pyöräily",
+
+
+
+
+
+
+"foot": "Kävely",
+
+
+
+
+
+
+"horse": "Hevoset",
+
+
+
+
+
+
+"motor_vehicle": "Moottoriajoneuvot"
 
 
 
@@ -498,6 +498,27 @@
 
 
 
+"city": "Paikkakunta",
+
+
+
+
+
+
+"country": "Valtio",
+
+
+
+
+
+
+"district": "Seutu",
+
+
+
+
+
+
 "housename": "Talon nimi",
 
 
@@ -512,27 +533,6 @@
 
 
 
-"street": "Kadunnimi",
-
-
-
-
-
-
-"city": "Paikkakunta",
-
-
-
-
-
-
-"postcode": "Postinumero",
-
-
-
-
-
-
 "place": "Paikka",
 
 
@@ -540,21 +540,7 @@
 
 
 
-"suburb": "Lähiö",
-
-
-
-
-
-
-"subdistrict": "Aliseutu",
-
-
-
-
-
-
-"district": "Seutu",
+"postcode": "Postinumero",
 
 
 
@@ -575,7 +561,21 @@
 
 
 
-"country": "Valtio"
+"street": "Kadunnimi",
+
+
+
+
+
+
+"subdistrict": "Aliseutu",
+
+
+
+
+
+
+"suburb": "Lähiö"
 
 
 
@@ -642,6 +642,13 @@
 
 
 
+"both": "Molemmat",
+
+
+
+
+
+
 "entry": "Sisäänkäynti",
 
 
@@ -649,14 +656,7 @@
 
 
 
-"exit": "Uloskäynti",
-
-
-
-
-
-
-"both": "Molemmat"
+"exit": "Uloskäynti"
 
 
 
@@ -700,7 +700,7 @@
 
 
 
-"placeholder": "500, 2500, 5000..."
+"placeholder": "500, 2 500, 5 000..."
 
 
 
@@ -789,6 +789,13 @@
 
 
 
+"both": "Molemmat",
+
+
+
+
+
+
 "entry": "Sisäänkäynti",
 
 
@@ -796,14 +803,7 @@
 
 
 
-"exit": "Uloskäynti",
-
-
-
-
-
-
-"both": "Molemmat"
+"exit": "Uloskäynti"
 
 
 
@@ -1068,63 +1068,7 @@
 
 
 
-"N": "Pohjoinen",
-
-
-
-
-
-
 "E": "Itä",
-
-
-
-
-
-
-"S": "Etelä",
-
-
-
-
-
-
-"W": "Länsi",
-
-
-
-
-
-
-"NE": "Koillinen",
-
-
-
-
-
-
-"SE": "Kaakko",
-
-
-
-
-
-
-"SW": "Lounas",
-
-
-
-
-
-
-"NW": "Luode",
-
-
-
-
-
-
-"NNE": "Pohjois-koillinen",
 
 
 
@@ -1145,6 +1089,55 @@
 
 
 
+"N": "Pohjoinen",
+
+
+
+
+
+
+"NE": "Koillinen",
+
+
+
+
+
+
+"NNE": "Pohjois-koillinen",
+
+
+
+
+
+
+"NNW": "Pohjois-luode",
+
+
+
+
+
+
+"NW": "Luode",
+
+
+
+
+
+
+"S": "Etelä",
+
+
+
+
+
+
+"SE": "Kaakko",
+
+
+
+
+
+
 "SSE": "Etelä-kaakko",
 
 
@@ -1159,7 +1152,14 @@
 
 
 
-"WSW": "Länsilounas",
+"SW": "Lounas",
+
+
+
+
+
+
+"W": "Länsi",
 
 
 
@@ -1173,7 +1173,7 @@
 
 
 
-"NNW": "Pohjois-luode"
+"WSW": "Länsilounas"
 
 
 
@@ -1208,14 +1208,14 @@
 
 
 
-"clockwise": "Myötäpäivään",
+"anticlockwise": "Vastapäivään",
 
 
 
 
 
 
-"anticlockwise": "Vastapäivään"
+"clockwise": "Myötäpäivään"
 
 
 
@@ -1311,6 +1311,22 @@
 
 
 
+"crop": {
+
+
+
+
+
+"label": "Rajaa"
+
+
+
+
+},
+
+
+
+
 "crossing": {
 
 
@@ -1334,6 +1350,276 @@
 
 
 "label": "Ruokakulttuuri"
+
+
+
+
+},
+
+
+
+
+"cycleway": {
+
+
+
+
+
+"label": "Pyöräkaistat",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Ajoneuvoliikenteestä ajorataan maalatulla viivalla eroteltu pyöräkaista",
+
+
+
+
+
+
+
+"title": "Perinteinen pyöräkaista"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Ei pyöräkaistaa",
+
+
+
+
+
+
+
+"title": "Ei mitään"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Pyöräkaistajärjestely, jossa yksisuuntaista katua voi ajaa pyöräkaistoilla kumpaankin suuntaan",
+
+
+
+
+
+
+
+"title": "Vastavirtapyöräkaista"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Pyöräkaista, jonka ajosuunta on päinvastainen ajoneuvoliikenteeseen nähden",
+
+
+
+
+
+
+
+"title": "Vastakkainen pyöräkaista"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Pyöräkaista, joka on samassa tilassa bussikaistan kanssa",
+
+
+
+
+
+
+
+"title": "Bussi-pyöräkaista"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Pyöräkaista, jota ei ole eroteltu mitenkään ajoneuvoliikenteestä",
+
+
+
+
+
+
+
+"title": "Jaetun tilan pyöräkaista"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Pyöräkaista, joka on eroteltu fyysisellä esteellä muusta liikenteestä, yleensä yksisuuntainen",
+
+
+
+
+
+
+
+"title": "Fyysisesti eroteltu pyörätie"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "ei mitään",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Vasemmalla puolella",
+
+
+
+
+
+
+"cycleway:right": "Oikealla puolella"
+
+
+
+
+
+}
 
 
 
@@ -1442,7 +1728,14 @@
 
 
 
-"contact_line": "Sähkojohtimet",
+"contact_line": "Sähköjohtimet",
+
+
+
+
+
+
+"no": "Ei",
 
 
 
@@ -1456,20 +1749,19 @@
 
 
 
-"yes": "Kyllä (määrittelemätön)",
+"yes": "Kyllä (tarkemmin määrittelemätön)"
 
 
 
 
 
-
-"no": "Ei"
-
+},
 
 
 
 
-}
+
+"placeholder": "Sähköjohtimet, sähkökisko..."
 
 
 
@@ -1501,7 +1793,7 @@
 
 
 
-"label": "Kiireellinen"
+"label": "Ensiapupäivystys"
 
 
 
@@ -1571,7 +1863,7 @@
 
 
 
-"label": "Hinta"
+"label": "Maksullisuus"
 
 
 
@@ -1607,6 +1899,13 @@
 
 
 
+"pond": "Lampi",
+
+
+
+
+
+
 "underground": "Maakaapeli",
 
 
@@ -1614,14 +1913,7 @@
 
 
 
-"wall": "Seinä",
-
-
-
-
-
-
-"pond": "Lampi"
+"wall": "Seinä"
 
 
 
@@ -1777,20 +2069,7 @@
 
 
 
-"placeholder": "Ei tiedossa",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Miehet",
 
 
 
@@ -1804,13 +2083,26 @@
 
 
 
+"male": "Miehet",
+
+
+
+
+
+
 "unisex": "Sukupuolirajoitukseton"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Ei tiedossa"
 
 
 
@@ -2033,14 +2325,14 @@
 
 
 
-"up": "Ylös",
+"down": "Alas",
 
 
 
 
 
 
-"down": "Alas"
+"up": "Ylös"
 
 
 
@@ -2091,13 +2383,6 @@
 
 
 
-"yes": "Kyllä",
-
-
-
-
-
-
 "no": "Ei",
 
 
@@ -2105,7 +2390,7 @@
 
 
 
-"wlan": "WLAN",
+"terminal": "Terminaali",
 
 
 
@@ -2119,7 +2404,14 @@
 
 
 
-"terminal": "Terminaali"
+"wlan": "WLAN",
+
+
+
+
+
+
+"yes": "Kyllä"
 
 
 
@@ -2224,13 +2516,6 @@
 
 
 
-"evergreen": "Ei pudota lehtiä",
-
-
-
-
-
-
 "deciduous": "Pudottaa kaikki lehtensä",
 
 
@@ -2238,7 +2523,14 @@
 
 
 
-"semi_evergreen": "Pudottaa suurimman osan lehdistään",
+"evergreen": "Ei pudota lehtiä",
+
+
+
+
+
+
+"mixed": "Sekoitus",
 
 
 
@@ -2252,7 +2544,7 @@
 
 
 
-"mixed": "Sekoitus"
+"semi_evergreen": "Pudottaa suurimman osan lehdistään"
 
 
 
@@ -2294,7 +2586,7 @@
 
 
 
-"needleleaved": "Neulaset",
+"leafless": "Lehdetön",
 
 
 
@@ -2308,7 +2600,7 @@
 
 
 
-"leafless": "Lehdetön"
+"needleleaved": "Neulaset"
 
 
 
@@ -2460,12 +2752,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2521,7 +2807,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2538,12 +2830,6 @@
 
 
 "label": "IMBA-polkuluokitus",
-
-
-
-
-
-"placeholder": "Helppo, keskivaikea, Vaikea...",
 
 
 
@@ -2590,7 +2876,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Helppo, keskivaikea, Vaikea..."
 
 
 
@@ -2612,12 +2904,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2625,35 +2911,35 @@
 
 
 
-"0": "0: Nousu keskimäärin <10%, sorapohja, ei esteitä",
+"0": "0: Nousu keskimäärin <10 %, sorapohja, ei esteitä",
 
 
 
 
 
 
-"1": "1: Nousu keskimäärin <15%, sorapohja, satunnaisia pieniä esteitä",
+"1": "1: Nousu keskimäärin <15 %, sorapohja, satunnaisia pieniä esteitä",
 
 
 
 
 
 
-"2": "2: Nousu keskimäärin <20%, vakaa pinta, juurikkoa",
+"2": "2: Nousu keskimäärin <20 %, vakaa pinta, juurikkoa",
 
 
 
 
 
 
-"3": "3: Nousu keskimäärin <25%, vaihteleva pinta, kiviä, runsasta juurikkoa",
+"3": "3: Nousu keskimäärin <25 %, vaihteleva pinta, kiviä, runsasta juurikkoa",
 
 
 
 
 
 
-"4": "4: Nousu keskimäärin <30%, huonokuntoinen, suuria kiviä ja erittäin runsasta juurikkoa",
+"4": "4: Nousu keskimäärin <30 %, huonokuntoinen, suuria kiviä ja erittäin runsasta juurikkoa",
 
 
 
@@ -2666,7 +2952,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2781,6 +3073,13 @@
 
 
 
+"no": "Ei",
+
+
+
+
+
+
 "undefined": "Oletettavasti ei",
 
 
@@ -2788,14 +3087,7 @@
 
 
 
-"yes": "Kyllä",
-
-
-
-
-
-
-"no": "Ei"
+"yes": "Kyllä"
 
 
 
@@ -2830,6 +3122,13 @@
 
 
 
+"no": "Ei",
+
+
+
+
+
+
 "undefined": "Oletettavasti kyllä",
 
 
@@ -2837,14 +3136,7 @@
 
 
 
-"yes": "Kyllä",
-
-
-
-
-
-
-"no": "Ei"
+"yes": "Kyllä"
 
 
 
@@ -2949,34 +3241,6 @@
 
 
 
-"surface": "Pysäköintikenttä",
-
-
-
-
-
-
-"multi-storey": "Monikerroksinen",
-
-
-
-
-
-
-"underground": "Maanalainen",
-
-
-
-
-
-
-"sheds": "Metallikatos",
-
-
-
-
-
-
 "carports": "Autokatos",
 
 
@@ -2991,7 +3255,35 @@
 
 
 
-"lane": "Kadunvarren pysäköintikaista"
+"lane": "Kadunvarren pysäköintikaista",
+
+
+
+
+
+
+"multi-storey": "Pysäköintitalo",
+
+
+
+
+
+
+"sheds": "Metallikatos",
+
+
+
+
+
+
+"surface": "Pysäköintikenttä",
+
+
+
+
+
+
+"underground": "Pysäköintiluola"
 
 
 
@@ -3041,34 +3333,7 @@
 
 
 
-"placeholder": "Helppo, keskivaikea, vaikea...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Vasta-alkaja (ohjeellinen)",
-
-
-
-
-
-
-"easy": "Erittäin helppo (vihreä ympyrä)",
-
-
-
-
-
-
-"intermediate": "Helppo (sininen neliö)",
 
 
 
@@ -3082,7 +3347,21 @@
 
 
 
+"easy": "Erittäin helppo (vihreä ympyrä)",
+
+
+
+
+
+
 "expert": "Vaikea (musta timantti)",
+
+
+
+
+
+
+"extreme": "Extreme (edellyttää kiipeilyvarusteet)",
 
 
 
@@ -3096,13 +3375,26 @@
 
 
 
-"extreme": "Extreme (edellyttää kiipeilyvarusteet)"
+"intermediate": "Helppo (sininen neliö)",
 
 
 
 
 
-}
+
+"novice": "Vasta-alkaja (ohjeellinen)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Helppo, keskivaikea, vaikea..."
 
 
 
@@ -3131,21 +3423,14 @@
 
 
 
-"classic": "Tasainen",
-
-
-
-
-
-
-"mogul": "Kumpare",
-
-
-
-
-
-
 "backcountry": "Maaseutuhiihto",
+
+
+
+
+
+
+"classic": "Tasainen",
 
 
 
@@ -3159,7 +3444,14 @@
 
 
 
-"scooter": "Lumikelkka",
+"mogul": "Kumpare",
+
+
+
+
+
+
+"scooter": "Moottorikelkka",
 
 
 
@@ -3208,7 +3500,28 @@
 
 
 
+"hike": "Vaeltaminen",
+
+
+
+
+
+
+"ice_skate": "Luistelu",
+
+
+
+
+
+
 "nordic": "Murtomaahiihto",
+
+
+
+
+
+
+"playground": "Leikkipuisto",
 
 
 
@@ -3229,13 +3542,6 @@
 
 
 
-"hike": "Vaeltaminen",
-
-
-
-
-
-
 "sleigh": "Hevos- tai koiravetoinen reki",
 
 
@@ -3243,21 +3549,7 @@
 
 
 
-"ice_skate": "Luistelu",
-
-
-
-
-
-
-"snow_park": "Lumihuvipuisto",
-
-
-
-
-
-
-"playground": "Leikkipuisto"
+"snow_park": "Lumihuvipuisto"
 
 
 
@@ -3525,34 +3817,7 @@
 
 
 
-"placeholder": "Vuoristopatikointi, alppipatikointi...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Patikointi",
-
-
-
-
-
-
-"mountain_hiking": "T2: Vuoristopatikointi",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Vaativa vuoristopatikointi",
 
 
 
@@ -3573,13 +3838,56 @@
 
 
 
-"difficult_alpine_hiking": "T6: Vaikea alppipatikointi"
+"demanding_mountain_hiking": "T3: Vaativa vuoristopatikointi",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Vaikea alppipatikointi",
+
+
+
+
+
+
+"hiking": "T1: Patikointi",
+
+
+
+
+
+
+"mountain_hiking": "T2: Vuoristopatikointi"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Vuoristopatikointi, alppipatikointi..."
+
+
+
+
+},
+
+
+
+
+"sanitary_dump_station": {
+
+
+
+
+
+"label": "Tyhjennystekniikka"
 
 
 
@@ -3640,6 +3948,13 @@
 
 
 
+"no": "Ei",
+
+
+
+
+
+
 "undefined": "Oletettavasti ei",
 
 
@@ -3647,14 +3962,7 @@
 
 
 
-"yes": "Kyllä",
-
-
-
-
-
-
-"no": "Ei"
+"yes": "Kyllä"
 
 
 
@@ -3689,6 +3997,13 @@
 
 
 
+"no": "Ei",
+
+
+
+
+
+
 "undefined": "Oletettavasti ei",
 
 
@@ -3696,14 +4011,63 @@
 
 
 
-"yes": "Kyllä",
+"yes": "Kyllä"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"label": "Käyttötarkoitus",
+
+
+
+
+
+"options": {
 
 
 
 
 
 
-"no": "Ei"
+"crossover": "Raiteenvaihtoraide",
+
+
+
+
+
+
+"siding": "Ohitusraide",
+
+
+
+
+
+
+"spur": "Teollisuuden pistoraide",
+
+
+
+
+
+
+"yard": "Ratapiharaide"
 
 
 
@@ -3725,7 +4089,7 @@
 
 
 
-"label": "Katos"
+"label": "Pysäkkikatos"
 
 
 
@@ -3795,12 +4159,6 @@
 
 
 
-"placeholder": "Ei, eristettynä, kyllä...",
-
-
-
-
-
 "options": {
 
 
@@ -3808,14 +4166,7 @@
 
 
 
-"no": "Ei tupakointia lainkaan",
-
-
-
-
-
-
-"separated": "Eristämättömillä tupakointialueilla",
+"dedicated": "Erityisesti tupakoijille (esim. tupakointikerho)",
 
 
 
@@ -3829,6 +4180,13 @@
 
 
 
+"no": "Ei tupakointia lainkaan",
+
+
+
+
+
+
 "outside": "Sallittu ulkona",
 
 
@@ -3836,20 +4194,26 @@
 
 
 
-"yes": "Sallittu kaikkialla",
+"separated": "Eristämättömillä tupakointialueilla",
 
 
 
 
 
 
-"dedicated": "Erityisesti tupakoijille (esim. tupakointikerho)"
+"yes": "Sallittu kaikkialla"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Ei, eristettynä, kyllä..."
 
 
 
@@ -3957,12 +4321,6 @@
 
 
 
-"placeholder": "Tuntematon",
-
-
-
-
-
 "options": {
 
 
@@ -3977,7 +4335,7 @@
 
 
 
-"tunnel": "Tunneli",
+"cutting": "Kallioleikkaus",
 
 
 
@@ -3991,13 +4349,19 @@
 
 
 
-"cutting": "Kallioleikkaus"
+"tunnel": "Tunneli"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Tuntematon"
 
 
 
@@ -4083,20 +4447,7 @@
 
 
 
-"placeholder": "Kyllä, ei, vain noutoateriat...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": "Kyllä",
 
 
 
@@ -4110,13 +4461,26 @@
 
 
 
-"only": "Vain noutoateriat"
+"only": "Vain noutoateriat",
 
 
 
 
 
-}
+
+"yes": "Kyllä"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Kyllä, ei, vain noutoateriat..."
 
 
 
@@ -4145,6 +4509,13 @@
 
 
 
+"chemical": "Kemikaalinen",
+
+
+
+
+
+
 "flush": "Huuhtelu",
 
 
@@ -4152,14 +4523,7 @@
 
 
 
-"pitlatrine": "Peittoaines",
-
-
-
-
-
-
-"chemical": "Kemikaalinen"
+"pitlatrine": "Peittoaines"
 
 
 
@@ -4219,13 +4583,14 @@
 
 
 
-"placeholder": "Erinomainen, hyvä, huono...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Huono: ei viitoitusta, polku on satunnaisesti heikosti havaittavissa/puuttuu kokonaan",
 
 
 
@@ -4246,21 +4611,14 @@
 
 
 
-"intermediate": "Keskinkertainen: viitoitettu satunnaisesti, polku pääosin näkyvissä",
-
-
-
-
-
-
-"bad": "Huono: ei viitoitusta, polku on satunnaisesti heikosti havaittavissa/puuttuu kokonaan",
-
-
-
-
-
-
 "horrible": "Surkea: pääosin ei polkua ollenkaan, suunnistustaidot välttämättömiä",
+
+
+
+
+
+
+"intermediate": "Keskinkertainen: viitoitettu satunnaisesti, polku pääosin näkyvissä",
 
 
 
@@ -4273,7 +4631,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Erinomainen, hyvä, huono..."
 
 
 
@@ -4501,7 +4865,13 @@
 
 
 
-"name": "Tuolihissi"
+"name": "Tuolihissi",
+
+
+
+
+
+"terms": "hissi, hiihtohissi, lasketteluhissi, laskettelu, penkki, tuoli, istuin"
 
 
 
@@ -4517,7 +4887,13 @@
 
 
 
-"name": "Gondolihissi"
+"name": "Gondolihissi",
+
+
+
+
+
+"terms": "hissi, hiihtohissi, lasketteluhissi, laskettelu, gondoli, koppi, koppihissi"
 
 
 
@@ -4533,7 +4909,13 @@
 
 
 
-"name": "Mattohissi"
+"name": "Mattohissi",
+
+
+
+
+
+"terms": "hissi, hiihtohissi, lasketteluhissi, laskettelu, liukuhihna, hihna, hihnahissi, liukuhihnahissi"
 
 
 
@@ -4549,7 +4931,13 @@
 
 
 
-"name": "Sompahissi"
+"name": "Sompahissi",
+
+
+
+
+
+"terms": "hissi, hiihtohissi, lasketteluhissi, laskettelu, sompa, tutti, tuttihissi"
 
 
 
@@ -4581,7 +4969,13 @@
 
 
 
-"name": "Naruhissi"
+"name": "Naruhissi",
+
+
+
+
+
+"terms": "hissi, hiihtohissi, lasketteluhissi, laskettelu, naru, köysi, köysihissi"
 
 
 
@@ -4613,7 +5007,13 @@
 
 
 
-"name": "Ankkurihissi"
+"name": "Ankkurihissi",
+
+
+
+
+
+"terms": "hissi, hiihtohissi, lasketteluhissi, laskettelu, ankkuri, parihissi"
 
 
 
@@ -5843,6 +6243,28 @@
 
 
 
+"amenity/public_bookcase": {
+
+
+
+
+
+"name": "Julkinen kirjahylly",
+
+
+
+
+
+"terms": "avoin, kirja, kirjoja, kirjat, vapaa, kirjan, kirjanjakelupiste, kirjapiste, jako, jakaa, jakelu, ilmainen, kädestä käteen, kirjanvaihto"
+
+
+
+
+},
+
+
+
+
 "amenity/recycling": {
 
 
@@ -5975,7 +6397,7 @@
 
 
 
-"terms": "koditon, kodittomia, turvatalo, kodittomien, turvakoti"
+"terms": "koditon, kodittomia, turvatalo, kodittomien, turvakoti, kodittomat, kodittoman, asunnoton, asunnottomat, asunnottomien"
 
 
 
@@ -8007,22 +8429,6 @@
 
 
 
-"footway/crossing": {
-
-
-
-
-
-"name": "Suojatieväylä"
-
-
-
-
-},
-
-
-
-
 "footway/sidewalk": {
 
 
@@ -8273,22 +8679,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "Suojatie"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -8426,22 +8816,6 @@
 
 
 "name": "Polku"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "Kävelykatu"
 
 
 
@@ -9165,7 +9539,13 @@
 
 
 
-"name": "Rakennustyömaa"
+"name": "Rakennustyömaa",
+
+
+
+
+
+"terms": "rakennustyö, työmaa, työ, raksa, tietyö, tietyömaa"
 
 
 
@@ -9411,13 +9791,13 @@
 
 
 
-"name": "Tulipiste",
+"name": "Nuotiopaikka",
 
 
 
 
 
-"terms": "nuotio, ruoanlaitto, ruoka, piste, grilli, grillaus"
+"terms": "nuotio, ruoanlaitto, ruoka, piste, grilli, grillaus, tulipiste, tulipesä, tuli"
 
 
 
@@ -9941,6 +10321,22 @@
 
 
 
+"man_made/mast": {
+
+
+
+
+
+"name": "Radiomasto"
+
+
+
+
+},
+
+
+
+
 "man_made/observation": {
 
 
@@ -9954,6 +10350,22 @@
 
 
 "terms": "observatorio, näköalatasanne, näköala, maisema, maisematorni"
+
+
+
+
+},
+
+
+
+
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Öljylähde"
 
 
 
@@ -10961,6 +11373,22 @@
 
 
 
+"place/farm": {
+
+
+
+
+
+"name": "Maatila"
+
+
+
+
+},
+
+
+
+
 "place/hamlet": {
 
 
@@ -11382,22 +11810,6 @@
 
 
 "terms": "rautatie, juna, junarata, pysäkki, asema, rautatieasema, VR"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Tasoristeys"
 
 
 
@@ -12705,6 +13117,28 @@
 
 
 
+"shop/paint": {
+
+
+
+
+
+"name": "Maalikauppa",
+
+
+
+
+
+"terms": "maalaaminen, maali, maalit, maalaus, rautakauppa, maalimyymälä, maaliliike"
+
+
+
+
+},
+
+
+
+
 "shop/pet": {
 
 
@@ -12728,6 +13162,28 @@
 
 
 "name": "Valokuvausliike"
+
+
+
+
+},
+
+
+
+
+"shop/radiotechnics": {
+
+
+
+
+
+"name": "Elektroniikkakomponenttimyymälä",
+
+
+
+
+
+"terms": "radio, elektroniikka, komponentti, tekninen, tekniikka, osa, osat, varaosa"
 
 
 
@@ -13043,6 +13499,28 @@
 
 
 
+"shop/video_games": {
+
+
+
+
+
+"name": "Videopeliliike",
+
+
+
+
+
+"terms": "konsoli, konsolipeli, pelikonsoli, xbox, playstation, nintendo, peli, pelaaminen, videopeli, pc, tietokone, tietotekniikka"
+
+
+
+
+},
+
+
+
+
 "shop/water_sports": {
 
 
@@ -13056,6 +13534,50 @@
 
 
 "terms": "uinti, uiminen, sukellus, sukeltaminen, laitesukellus, laitesukeltaminen, vesi, vesiurheilu, kauppa, liike, myymälä"
+
+
+
+
+},
+
+
+
+
+"shop/weapons": {
+
+
+
+
+
+"name": "Aseliike",
+
+
+
+
+
+"terms": "ase, pyssy, ampuma-ase, ampuminen, ammunta, starttipistooli, pistooli"
+
+
+
+
+},
+
+
+
+
+"shop/window_blind": {
+
+
+
+
+
+"name": "Kaihdinmyymälä",
+
+
+
+
+
+"terms": "verho, ikkuna, ikkunaverho, ikkunakaihdin, kaihdin, verhot, kaihtimet, rullaverho, rullakaihdin, rullakaihtimet, rullaverhot"
 
 
 
@@ -13362,6 +13884,54 @@
 
 
 "name": "Eläintarha"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/bump": {
+
+
+
+
+
+"name": "Hidastustöyssy"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/hump": {
+
+
+
+
+
+"name": "Lievä hidastustöyssy"
+
+
+
+
+},
+
+
+
+
+"traffic_calming/rumble_strip": {
+
+
+
+
+
+"name": "Väristysviivahidaste"
 
 
 
@@ -13896,6 +14466,22 @@
 
 
 "name": "Joentörmä"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Satama-WC:n tyhjennystekniikka"
 
 
 

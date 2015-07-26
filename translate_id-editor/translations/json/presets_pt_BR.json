@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Desconhecido",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Geral",
-
-
-
-
-
-
-"foot": "Pedestres",
-
-
-
-
-
-
-"motor_vehicle": "Veículos Automotores",
-
-
-
-
-
-
-"bicycle": "Bicicletas",
-
-
-
-
-
-
-"horse": "Cavalos"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Público",
-
-
-
-
-
-
-
-"description": "Acesso permitido por lei; via pública com direito de passagem"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Proibido",
-
-
-
-
-
-
-
-"description": "Acesso não permitido ao público em geral"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Autorizado",
-
-
-
-
-
-
-
-"description": "Acesso livre e autorizado (mas cancelável) pelo dono"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privado",
-
-
-
-
-
-
-
-"description": "Acesso requer permissão prévia do dono, dada individualmente"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Designado",
+"description": "Acesso designado por placas (ou leis locais) para uso preferencial por veículos específicos",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Acesso designado por placas (ou leis locais) para uso preferencial por veículos específicos"
+"title": "Designado"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Destino",
+"description": "Acesso permitido apenas na saída ou na chegada a um destino",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Acesso permitido apenas na saída ou na chegada a um destino"
+"title": "Destino"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Acesso não permitido ao público em geral",
+
+
+
+
+
+
+
+"title": "Proibido"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Acesso livre e autorizado (mas cancelável) pelo dono",
+
+
+
+
+
+
+
+"title": "Autorizado"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Acesso requer permissão prévia do dono, dada individualmente",
+
+
+
+
+
+
+
+"title": "Privado"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Acesso permitido por lei; via pública com direito de passagem",
+
+
+
+
+
+
+
+"title": "Público"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Desconhecido",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Geral",
+
+
+
+
+
+
+"bicycle": "Bicicletas",
+
+
+
+
+
+
+"foot": "Pedestres",
+
+
+
+
+
+
+"horse": "Cavalos",
+
+
+
+
+
+
+"motor_vehicle": "Veículos Automotores"
 
 
 
@@ -498,6 +498,41 @@
 
 
 
+"city": "Município",
+
+
+
+
+
+
+"conscriptionnumber": "123",
+
+
+
+
+
+
+"country": "País",
+
+
+
+
+
+
+"district": "Distrito",
+
+
+
+
+
+
+"hamlet": "Lugarejo",
+
+
+
+
+
+
 "housename": "Nome da casa",
 
 
@@ -512,27 +547,6 @@
 
 
 
-"street": "Rua",
-
-
-
-
-
-
-"city": "Município",
-
-
-
-
-
-
-"postcode": "CEP",
-
-
-
-
-
-
 "place": "Local",
 
 
@@ -540,28 +554,7 @@
 
 
 
-"hamlet": "Lugarejo",
-
-
-
-
-
-
-"suburb": "Bairro",
-
-
-
-
-
-
-"subdistrict": "Sub-Bairro",
-
-
-
-
-
-
-"district": "Distrito",
+"postcode": "CEP",
 
 
 
@@ -582,7 +575,21 @@
 
 
 
-"country": "País"
+"street": "Rua",
+
+
+
+
+
+
+"subdistrict": "Sub-Bairro",
+
+
+
+
+
+
+"suburb": "Bairro"
 
 
 
@@ -649,6 +656,13 @@
 
 
 
+"both": "Ambos",
+
+
+
+
+
+
 "entry": "Entrada",
 
 
@@ -656,14 +670,7 @@
 
 
 
-"exit": "Saída",
-
-
-
-
-
-
-"both": "Ambos"
+"exit": "Saída"
 
 
 
@@ -796,6 +803,13 @@
 
 
 
+"both": "Ambos",
+
+
+
+
+
+
 "entry": "Entrada",
 
 
@@ -803,14 +817,7 @@
 
 
 
-"exit": "Saída",
-
-
-
-
-
-
-"both": "Ambos"
+"exit": "Saída"
 
 
 
@@ -843,6 +850,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -1075,13 +1098,6 @@
 
 
 
-"N": "Norte",
-
-
-
-
-
-
 "E": "Leste",
 
 
@@ -1089,14 +1105,21 @@
 
 
 
-"S": "Sul",
+"ENE": "Leste-nordeste",
 
 
 
 
 
 
-"W": "Oeste",
+"ESE": "Leste-sudeste",
+
+
+
+
+
+
+"N": "Norte",
 
 
 
@@ -1110,14 +1133,14 @@
 
 
 
-"SE": "Sudeste",
+"NNE": "Norte-nordeste",
 
 
 
 
 
 
-"SW": "Sudoeste",
+"NNW": "Norte-noroeste",
 
 
 
@@ -1131,56 +1154,56 @@
 
 
 
-"NNE": "Nor-nordeste",
+"S": "Sul",
 
 
 
 
 
 
-"ENE": "És-nordeste",
+"SE": "Sudeste",
 
 
 
 
 
 
-"ESE": "És-sudeste",
+"SSE": "Sul-sudeste",
 
 
 
 
 
 
-"SSE": "Su-sudeste",
+"SSW": "Sul-sudoeste",
 
 
 
 
 
 
-"SSW": "Su-sudoeste",
+"SW": "Sudoeste",
 
 
 
 
 
 
-"WSW": "Oés-sudoeste",
+"W": "Oeste",
 
 
 
 
 
 
-"WNW": "Oés-noroeste",
+"WNW": "Oeste-noroeste",
 
 
 
 
 
 
-"NNW": "Nor-noroeste"
+"WSW": "Oeste-sudoeste"
 
 
 
@@ -1215,14 +1238,14 @@
 
 
 
-"clockwise": "Sentido Horário",
+"anticlockwise": "Sentido Anti-horário",
 
 
 
 
 
 
-"anticlockwise": "Sentido Anti-horário"
+"clockwise": "Sentido Horário"
 
 
 
@@ -1261,6 +1284,22 @@
 
 
 "label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"content": {
+
+
+
+
+
+"label": "Conteúdo"
 
 
 
@@ -1366,6 +1405,276 @@
 
 
 
+"cycleway": {
+
+
+
+
+
+"label": "Ciclofaixas",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Uma ciclofaixa, ou seja, sem segregação fisica, apenas separada do trânsito de automóveis por uma linha pintada.",
+
+
+
+
+
+
+
+"title": "Ciclofaixa padrão"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Sem ciclofaixa",
+
+
+
+
+
+
+
+"title": "Nenhum"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Uma ciclofaixa que segue em ambos sentidos em uma via de mão única",
+
+
+
+
+
+
+
+"title": "Ciclofaixa na contramão"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Uma ciclofaixa que segue em ambos sentidos em uma via de mão única",
+
+
+
+
+
+
+
+"title": "Ciclofaixa no sentido contrário"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Uma ciclofaixa compartilhada com uma faixa para ônibus",
+
+
+
+
+
+
+
+"title": "Ciclofaixa compartilhada com ônibus"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Uma ciclofaixa sem separação do trânsito de veículos",
+
+
+
+
+
+
+
+"title": "Ciclofaixa compartilhada"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Uma ciclofaixa separada do trânsito por uma barreira física",
+
+
+
+
+
+
+
+"title": "Ciclovia paralela"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "nenhum",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Lado esquerdo",
+
+
+
+
+
+
+"cycleway:right": "Lado direito"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "delivery": {
 
 
@@ -1458,12 +1767,6 @@
 
 
 
-"placeholder": "Linha de contato, trilho eletrificado...",
-
-
-
-
-
 "options": {
 
 
@@ -1478,6 +1781,13 @@
 
 
 
+"no": "Não",
+
+
+
+
+
+
 "rail": "Trilho eletrificado",
 
 
@@ -1485,20 +1795,19 @@
 
 
 
-"yes": "Sim (indefinido)",
+"yes": "Sim (indefinido)"
 
 
 
 
 
-
-"no": "Não"
-
+},
 
 
 
 
-}
+
+"placeholder": "Linha de contato, trilho eletrificado..."
 
 
 
@@ -1636,6 +1945,13 @@
 
 
 
+"pond": "Lagoa",
+
+
+
+
+
+
 "underground": "Subterrâneo",
 
 
@@ -1643,14 +1959,7 @@
 
 
 
-"wall": "Muro",
-
-
-
-
-
-
-"pond": "Lagoa"
+"wall": "Muro"
 
 
 
@@ -1870,20 +2179,7 @@
 
 
 
-"placeholder": "Desconhecido",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Masculino",
 
 
 
@@ -1897,13 +2193,26 @@
 
 
 
+"male": "Masculino",
+
+
+
+
+
+
 "unisex": "Unissex"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Desconhecido"
 
 
 
@@ -2126,14 +2435,14 @@
 
 
 
-"up": "Para cima",
+"down": "Para baixo",
 
 
 
 
 
 
-"down": "Para baixo"
+"up": "Para cima"
 
 
 
@@ -2184,13 +2493,6 @@
 
 
 
-"yes": "Sim",
-
-
-
-
-
-
 "no": "Não",
 
 
@@ -2198,7 +2500,7 @@
 
 
 
-"wlan": "Sem Fio",
+"terminal": "Terminal de Acesso",
 
 
 
@@ -2212,7 +2514,14 @@
 
 
 
-"terminal": "Terminal de Acesso"
+"wlan": "Sem Fio",
+
+
+
+
+
+
+"yes": "Sim"
 
 
 
@@ -2317,13 +2626,6 @@
 
 
 
-"evergreen": "Perenifólia",
-
-
-
-
-
-
 "deciduous": "Caducifólia",
 
 
@@ -2331,7 +2633,14 @@
 
 
 
-"semi_evergreen": "Semi-perenifólia",
+"evergreen": "Perenifólia",
+
+
+
+
+
+
+"mixed": "Mista",
 
 
 
@@ -2345,7 +2654,7 @@
 
 
 
-"mixed": "Mista"
+"semi_evergreen": "Semi-perenifólia"
 
 
 
@@ -2387,7 +2696,7 @@
 
 
 
-"needleleaved": "Acicufoliada",
+"leafless": "Sem folhas",
 
 
 
@@ -2401,7 +2710,7 @@
 
 
 
-"leafless": "Sem folhas"
+"needleleaved": "Acicufoliada"
 
 
 
@@ -2440,6 +2749,22 @@
 
 
 "label": "Comprimento (Metros)"
+
+
+
+
+},
+
+
+
+
+"level": {
+
+
+
+
+
+"label": "Andar"
 
 
 
@@ -2553,12 +2878,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2566,21 +2885,21 @@
 
 
 
-"0": "0: Pedregulho sólido / terra batida, sem obstáculos, curvas amplas",
+"0": "0: Cascalho sólido / terra compacta, sem obstáculos, curvas amplas",
 
 
 
 
 
 
-"1": "1: Alguma terra solta, pequenos obstáculos, curvas amplas",
+"1": "1: Um pouco de terra solta, pequenos obstáculos, curvas amplas",
 
 
 
 
 
 
-"2": "2: Muita terra solta, grandes obstáculos, curvas fechas fáceis",
+"2": "2: Muita terra solta, grandes obstáculos, curvas fechadas fáceis",
 
 
 
@@ -2594,7 +2913,7 @@
 
 
 
-"4": "4: Terra solta ou seixos, curva fechada perigosa",
+"4": "4: Terra solta ou rochas, curva fechada perigosa",
 
 
 
@@ -2608,13 +2927,19 @@
 
 
 
-"6": "6: Não é transitável exceto pelos melhores mountain bikers"
+"6": "6: Não transitável exceto pelos melhores mountain bikers"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2631,12 +2956,6 @@
 
 
 "label": "Trilha de baixa dificuldade",
-
-
-
-
-
-"placeholder": "Fácil, Médio, Difícil...",
 
 
 
@@ -2683,7 +3002,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Fácil, Médio, Difícil..."
 
 
 
@@ -2705,12 +3030,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2718,14 +3037,14 @@
 
 
 
-"0": "0: Inclinação média <10%, pedregulho/terra batida, sem obstáculos",
+"0": "0: Inclinação média <10%, cascalho/terra compacta, sem obstáculos",
 
 
 
 
 
 
-"1": "1: Inclinação média <15%, pedregulho/terra batida, poucos objetos pequenos",
+"1": "1: Inclinação média <15%, cascalho/terra compacta, poucos objetos pequenos",
 
 
 
@@ -2746,7 +3065,7 @@
 
 
 
-"4": "4: Inclinação média <30%, condição insatisfatória, pedras/galhos grandes",
+"4": "4: Inclinação média <30%, condição ruim, pedras/galhos grandes",
 
 
 
@@ -2759,7 +3078,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2874,6 +3199,13 @@
 
 
 
+"no": "Não",
+
+
+
+
+
+
 "undefined": "Assumindo ser Não",
 
 
@@ -2881,14 +3213,7 @@
 
 
 
-"yes": "Sim",
-
-
-
-
-
-
-"no": "Não"
+"yes": "Sim"
 
 
 
@@ -2923,6 +3248,13 @@
 
 
 
+"no": "Não",
+
+
+
+
+
+
 "undefined": "Assumindo ser Sim",
 
 
@@ -2930,14 +3262,7 @@
 
 
 
-"yes": "Sim",
-
-
-
-
-
-
-"no": "Não"
+"yes": "Sim"
 
 
 
@@ -3042,34 +3367,6 @@
 
 
 
-"surface": "Superfície",
-
-
-
-
-
-
-"multi-storey": "Vários níveis",
-
-
-
-
-
-
-"underground": "Subterrâneo",
-
-
-
-
-
-
-"sheds": "Cabanas",
-
-
-
-
-
-
 "carports": "Abrigo de carros",
 
 
@@ -3084,7 +3381,35 @@
 
 
 
-"lane": "Faixa de acostamento"
+"lane": "Faixa de acostamento",
+
+
+
+
+
+
+"multi-storey": "Vários níveis",
+
+
+
+
+
+
+"sheds": "Cabanas",
+
+
+
+
+
+
+"surface": "Superfície",
+
+
+
+
+
+
+"underground": "Subterrâneo"
 
 
 
@@ -3134,34 +3459,7 @@
 
 
 
-"placeholder": "Fácil, Intermediário, Avançado...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Principiante (educativo)",
-
-
-
-
-
-
-"easy": "Fácil (círculo verde)",
-
-
-
-
-
-
-"intermediate": "Intermediário (quadrado azul)",
 
 
 
@@ -3175,7 +3473,21 @@
 
 
 
+"easy": "Fácil (círculo verde)",
+
+
+
+
+
+
 "expert": "Especialista (duplo diamante preto)",
+
+
+
+
+
+
+"extreme": "Extremo (necessário equipamento de escalada)",
 
 
 
@@ -3189,13 +3501,26 @@
 
 
 
-"extreme": "Extremo (necessário equipamento de escalada)"
+"intermediate": "Intermediário (quadrado azul)",
 
 
 
 
 
-}
+
+"novice": "Principiante (educativo)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Fácil, Intermediário, Avançado..."
 
 
 
@@ -3224,20 +3549,6 @@
 
 
 
-"classic": "Clássico",
-
-
-
-
-
-
-"mogul": "Mongol",
-
-
-
-
-
-
 "backcountry": "Sertão",
 
 
@@ -3245,7 +3556,21 @@
 
 
 
+"classic": "Clássico",
+
+
+
+
+
+
 "classic+skating": "Clássico e Patinação",
+
+
+
+
+
+
+"mogul": "Moguls",
 
 
 
@@ -3301,7 +3626,28 @@
 
 
 
+"hike": "Caminhada",
+
+
+
+
+
+
+"ice_skate": "Patim de gelo",
+
+
+
+
+
+
 "nordic": "Nórdico",
+
+
+
+
+
+
+"playground": "Playground",
 
 
 
@@ -3322,13 +3668,6 @@
 
 
 
-"hike": "Caminhada",
-
-
-
-
-
-
 "sleigh": "Trenó",
 
 
@@ -3336,21 +3675,7 @@
 
 
 
-"ice_skate": "Patim de gelo",
-
-
-
-
-
-
-"snow_park": "Estação de Esqui",
-
-
-
-
-
-
-"playground": "Playground"
+"snow_park": "Estação de Esqui"
 
 
 
@@ -3405,6 +3730,22 @@
 
 
 "label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"power_supply": {
+
+
+
+
+
+"label": "Fonte de Energia"
 
 
 
@@ -3485,6 +3826,48 @@
 
 
 "label": "Aceita Papel"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"label": "Tipo de Reciclagem",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Centro de Reciclagem",
+
+
+
+
+
+
+"container": "Container"
+
+
+
+
+
+}
 
 
 
@@ -3618,34 +4001,7 @@
 
 
 
-"placeholder": "Caminhada na montanha, caminhada alpina",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Caminhada",
-
-
-
-
-
-
-"mountain_hiking": "T2: Caminhada na montanha",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Requer caminhada na montanha",
 
 
 
@@ -3659,20 +4015,63 @@
 
 
 
-"demanding_alpine_hiking": "T5: Requer caminhada alpina",
+"demanding_alpine_hiking": "T5: Caminhada alpina exigente",
 
 
 
 
 
 
-"difficult_alpine_hiking": "T6: Dificuldade de caminhada alpina"
+"demanding_mountain_hiking": "T3: Caminhada de montanha exigente",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Caminhada alpina difícil",
+
+
+
+
+
+
+"hiking": "T1: Caminhada",
+
+
+
+
+
+
+"mountain_hiking": "T2: Caminhada de montanha"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Caminhada de montanha, caminhada alpina"
+
+
+
+
+},
+
+
+
+
+"sanitary_dump_station": {
+
+
+
+
+
+"label": "Ponto de Descarga de Dejetos"
 
 
 
@@ -3720,13 +4119,20 @@
 
 
 
-"label": "Ferramenta de corrente",
+"label": "Chave de Corrente",
 
 
 
 
 
 "options": {
+
+
+
+
+
+
+"no": "Não",
 
 
 
@@ -3740,14 +4146,7 @@
 
 
 
-"yes": "Sim",
-
-
-
-
-
-
-"no": "Não"
+"yes": "Sim"
 
 
 
@@ -3769,13 +4168,20 @@
 
 
 
-"label": "Bomba de ar",
+"label": "Bomba de Ar",
 
 
 
 
 
 "options": {
+
+
+
+
+
+
+"no": "Não",
 
 
 
@@ -3789,14 +4195,7 @@
 
 
 
-"yes": "Sim",
-
-
-
-
-
-
-"no": "Não"
+"yes": "Sim"
 
 
 
@@ -3831,14 +4230,7 @@
 
 
 
-"spur": "Ramal de inserção",
-
-
-
-
-
-
-"yard": "Pátio de manobra",
+"crossover": "Linha de serviço",
 
 
 
@@ -3852,7 +4244,14 @@
 
 
 
-"crossover": "Linha de serviço"
+"spur": "Ramal de inserção",
+
+
+
+
+
+
+"yard": "Pátio de manobra"
 
 
 
@@ -3944,12 +4343,6 @@
 
 
 
-"placeholder": "Não, Separado, Yes...",
-
-
-
-
-
 "options": {
 
 
@@ -3957,14 +4350,7 @@
 
 
 
-"no": "Não fume em qualquer lugar",
-
-
-
-
-
-
-"separated": "Em áreas de fumantes, não fisicamente isoladas",
+"dedicated": "Dedicado a fumantes (por exemplo, clube de fumantes)",
 
 
 
@@ -3978,6 +4364,13 @@
 
 
 
+"no": "Não fume em qualquer lugar",
+
+
+
+
+
+
 "outside": "Permitido do lado de fora",
 
 
@@ -3985,20 +4378,26 @@
 
 
 
-"yes": "Permitido em toda parte",
+"separated": "Em áreas de fumantes, não fisicamente isoladas",
 
 
 
 
 
 
-"dedicated": "Dedicado a fumantes (por exemplo, clube de fumantes)"
+"yes": "Permitido em toda parte"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Não, Separado, Yes..."
 
 
 
@@ -4014,13 +4413,7 @@
 
 
 
-"label": "Maciez",
-
-
-
-
-
-"placeholder": "Cilindros estreitos, rodas, fora de estrada",
+"label": "Suavidade",
 
 
 
@@ -4033,14 +4426,35 @@
 
 
 
-"excellent": "Cilindros estreitos: patins urbano, prancha de skate ",
+"bad": "Rodas Resistentes: bicicleta de trilha, carro, riquixá",
 
 
 
 
 
 
-"good": "Rodas estreintas: bicicleta de corridas",
+"excellent": "Rodinhas Estreitas: patins urbano, prancha de skate ",
+
+
+
+
+
+
+"good": "Rodas Estreitas: bicicleta de corrida",
+
+
+
+
+
+
+"horrible": "Off-Road:  veículo pesado para uso fora de estrada.",
+
+
+
+
+
+
+"impassable": "Intransponível / Nenhum veículo sobre rodas",
 
 
 
@@ -4054,41 +4468,26 @@
 
 
 
-"bad": "Rodas resistentes: trekking bike, carro, riquixá",
+"very_bad": "Suspensão Elevada: veículo leve para uso fora de estrada.",
 
 
 
 
 
 
-"very_bad": "Alta desobstrução: veículo fora de estrada para serviço leve",
+"very_horrible": "Especializado Off-Road: trator, quadriciclo ATV"
 
 
 
 
 
-
-"horrible": "Fora de estrada:  veículo fora de estrada para serviço pesado.",
-
+},
 
 
 
 
 
-"very_horrible": "Especializado em fora de estrada: trator, quadriciclo",
-
-
-
-
-
-
-"impassable": "Intransponível / Nenhum veículo sobre rodas"
-
-
-
-
-
-}
+"placeholder": "Rodinhas Estreitas, Rodas, Off-Road..."
 
 
 
@@ -4196,12 +4595,6 @@
 
 
 
-"placeholder": "Desconhecido",
-
-
-
-
-
 "options": {
 
 
@@ -4216,7 +4609,7 @@
 
 
 
-"tunnel": "Túnel",
+"cutting": "Escavação",
 
 
 
@@ -4230,20 +4623,26 @@
 
 
 
-"cutting": "Escavação",
+"ford": "Vau",
 
 
 
 
 
 
-"ford": "Vau"
+"tunnel": "Túnel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Desconhecido"
 
 
 
@@ -4345,20 +4744,7 @@
 
 
 
-"placeholder": "Sim, Não, Somente para viagem...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": "Sim",
 
 
 
@@ -4372,13 +4758,26 @@
 
 
 
-"only": "Somente para viagem"
+"only": "Só para Viagem",
 
 
 
 
 
-}
+
+"yes": "Sim"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Sim, Não, Só para Viagem..."
 
 
 
@@ -4407,14 +4806,7 @@
 
 
 
-"flush": "Descarga",
-
-
-
-
-
-
-"pitlatrine": "Fossa/Latrina",
+"bucket": "Balde",
 
 
 
@@ -4428,7 +4820,14 @@
 
 
 
-"bucket": "Balde"
+"flush": "Descarga",
+
+
+
+
+
+
+"pitlatrine": "Fossa/Latrina"
 
 
 
@@ -4482,13 +4881,7 @@
 
 
 
-"label": "Tipo de trilha",
-
-
-
-
-
-"placeholder": "Sólido, Na maioria das vezes sólido, Macio...",
+"label": "Firmeza do Solo",
 
 
 
@@ -4501,41 +4894,47 @@
 
 
 
-"grade1": "Sólido: Pavimentado ou superfície de pedra britada fortemente compactada",
+"grade1": "Rígida: pavimentada ou material fortemente compactado",
 
 
 
 
 
 
-"grade2": "Na maioria das vezes sólido: Cascalho/rocha com algum material macio mesclado.",
+"grade2": "Parcialmente Rígida: brita/rocha com um pouco de material macio",
 
 
 
 
 
 
-"grade3": "Mistura em parte iguais de materiais duros e macios",
+"grade3": "Mistura homogênea de materiais rígidos e macios",
 
 
 
 
 
 
-"grade4": "Na maioria das vezes macio: terra/areia/grama com algum material duro mesclado.",
+"grade4": "Parcialmente Macia: terra/areia/grama com um pouco de material rígido",
 
 
 
 
 
 
-"grade5": "Macio: terra/areia/grama"
+"grade5": "Macia: terra/areia/grama"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Rígida, Parcialmente Rígida, Macia..."
 
 
 
@@ -4557,13 +4956,14 @@
 
 
 
-"placeholder": "Excelente, Bom, Ruim...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Ruim: sem sinais, o caminho algumas vezes não é visível ou não existe",
 
 
 
@@ -4584,21 +4984,14 @@
 
 
 
-"intermediate": "Intermediário: poucos sinais, caminho visível na maioria das vezes",
-
-
-
-
-
-
-"bad": "Ruim: sem sinais, o caminho algumas vezes não é visível ou não existe",
-
-
-
-
-
-
 "horrible": "Horrível: frequentemente sem caminho, algumas habilidades em localização são necessárias",
+
+
+
+
+
+
+"intermediate": "Intermediário: poucos sinais, caminho visível na maioria das vezes",
 
 
 
@@ -4611,7 +5004,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Excelente, Bom, Ruim..."
 
 
 
@@ -4676,6 +5075,22 @@
 
 
 "label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"water_point": {
+
+
+
+
+
+"label": "Ponto aquático"
 
 
 
@@ -4823,7 +5238,7 @@
 
 
 
-"name": "Teleférico",
+"name": "Teleférico do tipo cabine",
 
 
 
@@ -4867,13 +5282,13 @@
 
 
 
-"name": "Telecadeira",
+"name": "Teleférico do tipo cadeira",
 
 
 
 
 
-"terms": "Teleférico de cadeira"
+"terms": "Teleférico de cadeira, telecadeira"
 
 
 
@@ -4999,7 +5414,7 @@
 
 
 
-"name": "Estação de Teleférico",
+"name": "Estação Teleférica",
 
 
 
@@ -5417,13 +5832,13 @@
 
 
 
-"name": "Aluguel de Bicicletas",
+"name": "Estação de Bicicletas Públicas",
 
 
 
 
 
-"terms": "Aluguel de Bicicletas, Compartilhamento de Bicicletas"
+"terms": "Estação de Bicicletas Públicas, Compartilhamento de Bicicletas"
 
 
 
@@ -5439,13 +5854,35 @@
 
 
 
-"name": "Estação de conserto de bicicletas",
+"name": "Estação de Conserto de Bicicletas",
 
 
 
 
 
-"terms": "Oficina de bicicleta, Conserto de bicicleta, Estação de reparo de bicicletas, Reparo de bicicletas"
+"terms": "Estação de Conserto de Bicicletas, Estação de Reparo de Bicicletas"
+
+
+
+
+},
+
+
+
+
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Biergarten",
+
+
+
+
+
+"terms": "Biergarten, Cervejaria ao Ar Livre"
 
 
 
@@ -5483,13 +5920,13 @@
 
 
 
-"name": "Câmbio",
+"name": "Casa de Câmbio",
 
 
 
 
 
-"terms": "Câmbio, Casa de Câmbio"
+"terms": "Casa de Câmbio"
 
 
 
@@ -5505,13 +5942,13 @@
 
 
 
-"name": "Rodoviária",
+"name": "Estação Rodoviária",
 
 
 
 
 
-"terms": "Rodoviária, Terminal Rodoviário"
+"terms": "Estação Rodoviária, Terminal Rodoviário"
 
 
 
@@ -5571,7 +6008,7 @@
 
 
 
-"name": "Carsharing",
+"name": "Compartilhamento de Carros",
 
 
 
@@ -5609,19 +6046,35 @@
 
 
 
+"amenity/casino": {
+
+
+
+
+
+"name": "Cassino"
+
+
+
+
+},
+
+
+
+
 "amenity/charging_station": {
 
 
 
 
 
-"name": "Estação de Carregamento",
+"name": "Eletroposto",
 
 
 
 
 
-"terms": "Estação de Recarga, Estação de Carga Elétrica, Tomada de Cargamento, Tomada de Recarga"
+"terms": "Eletroposto, Estação de Recarga, Estação de Carga Elétrica, Tomada de Cargamento, Tomada de Recarga"
 
 
 
@@ -5687,7 +6140,7 @@
 
 
 
-"terms": "Clínica, Consultório"
+"terms": "Clínica, Consultório, Posto de Saúde, Médico, Atendimento médico especializado"
 
 
 
@@ -6033,13 +6486,13 @@
 
 
 
-"name": "Caixa de sal",
+"name": "Caixa de Sal-Gema",
 
 
 
 
 
-"terms": "Grit bin"
+"terms": "Caixa de sal-gema"
 
 
 
@@ -6061,7 +6514,7 @@
 
 
 
-"terms": "clínica,sala de emergência,serviço de saúde,hospício,enfermaria,instituição,asilo,sanatório,cirurgia"
+"terms": "Pronto socorro, Pronto atendimento, clínica, sala de emergência, serviço de saúde, hospício, enfermaria, instituição, asilo, sanatório, cirurgia"
 
 
 
@@ -6187,13 +6640,13 @@
 
 
 
-"name": "Entrada/Saída de estacionamento interno",
+"name": "Entrada de Estacionamento Interno",
 
 
 
 
 
-"terms": "Entrada/Saída de Estacionamento, Entrada/Saída de Garagem"
+"terms": "Entrada de Estacionamento Interno, Entrada de Garagem"
 
 
 
@@ -6231,7 +6684,7 @@
 
 
 
-"name": "Templo Religioso",
+"name": "Local de Prática Religiosa",
 
 
 
@@ -6429,13 +6882,13 @@
 
 
 
-"name": "Estante pública",
+"name": "Biblioteca ao Ar Livre",
 
 
 
 
 
-"terms": "Biblioteca pública"
+"terms": "Biblioteca ao Ar Livre, Biblioteca Pública"
 
 
 
@@ -6533,6 +6986,22 @@
 
 
 
+"amenity/sanitary_dump_station": {
+
+
+
+
+
+"name": "Ponto de Descarga de Dejetos (para trailers)"
+
+
+
+
+},
+
+
+
+
 "amenity/school": {
 
 
@@ -6561,13 +7030,13 @@
 
 
 
-"name": "Abrigo",
+"name": "Abrigo contra Intempéries",
 
 
 
 
 
-"terms": "Abrigo"
+"terms": "Abrigo contra Intempéries"
 
 
 
@@ -6633,7 +7102,7 @@
 
 
 
-"terms": "Casa de Idosos"
+"terms": "Lar de Idosos"
 
 
 
@@ -6831,7 +7300,7 @@
 
 
 
-"terms": "Área de Universidade"
+"terms": "Área de Universidade, Faculdade, Área de Faculdade, Centro Universitário"
 
 
 
@@ -7507,7 +7976,7 @@
 
 
 
-"name": "Edifício de escola técnica",
+"name": "Edifício de Escola Técnica",
 
 
 
@@ -7529,13 +7998,13 @@
 
 
 
-"name": "Edifício Comercial",
+"name": "Edifício de Negócios",
 
 
 
 
 
-"terms": "Edifício Comercial, Prédio Comercial"
+"terms": "Edifício de Negócios, Edifício Comercial, Prédio Comercial"
 
 
 
@@ -7557,7 +8026,7 @@
 
 
 
-"terms": "Edificação em Construção"
+"terms": "Edificação em Construção, Construção, Obras"
 
 
 
@@ -7881,13 +8350,13 @@
 
 
 
-"name": "Edifício de Varejo",
+"name": "Edifício de Atividade de Vendas",
 
 
 
 
 
-"terms": "Edifício Comercial, Loja, Mercado, Shopping"
+"terms": "Edifício de Atividade de Vendas, Edifício de Varejo"
 
 
 
@@ -8063,7 +8532,7 @@
 
 
 
-"terms": "Edifício Universitário"
+"terms": "Edifício Universitário, Faculdade, Edifício de Faculdade"
 
 
 
@@ -8343,13 +8812,13 @@
 
 
 
-"name": "Confeitaria",
+"name": "Doçaria",
 
 
 
 
 
-"terms": "confeitaria"
+"terms": "doçaria, confeitaria"
 
 
 
@@ -9239,50 +9708,6 @@
 
 
 
-"footway/crossing": {
-
-
-
-
-
-"name": "Travessia de Pedestres",
-
-
-
-
-
-"terms": "faixa de segurança,cruzamento,passagem"
-
-
-
-
-},
-
-
-
-
-"footway/crosswalk": {
-
-
-
-
-
-"name": "Travessia de Pedestres",
-
-
-
-
-
-"terms": "Travessia de Pedestres"
-
-
-
-
-},
-
-
-
-
 "footway/sidewalk": {
 
 
@@ -9569,50 +9994,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "Travessia de Pedestres",
-
-
-
-
-
-"terms": "Faixa de Pedestres"
-
-
-
-
-},
-
-
-
-
-"highway/crosswalk": {
-
-
-
-
-
-"name": "Travessia de Pedestres",
-
-
-
-
-
-"terms": "Travessia de Pedestres"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -9773,13 +10154,13 @@
 
 
 
-"name": "Caminho",
+"name": "Caminho Informal",
 
 
 
 
 
-"terms": "Trilha"
+"terms": "Caminho Informal"
 
 
 
@@ -9795,13 +10176,7 @@
 
 
 
-"name": "Calçadão",
-
-
-
-
-
-"terms": "Calçadão"
+"name": "Calçadão"
 
 
 
@@ -10191,7 +10566,7 @@
 
 
 
-"name": "Lampião de rua",
+"name": "Poste de Luz",
 
 
 
@@ -10257,13 +10632,13 @@
 
 
 
-"name": "Estrada Rústica",
+"name": "Estrada Informal",
 
 
 
 
 
-"terms": "Trilha Automotiva, Estrada de Fazenda, Estrada Agrícola, Estrada Bucólica, Caminho"
+"terms": "Via Agro-Florestal, Trilha Automotiva, Estrada de Fazenda, Estrada Agrícola, Estrada Bucólica, Caminho"
 
 
 
@@ -10675,7 +11050,7 @@
 
 
 
-"name": "Cemitério",
+"name": "Cemitério Secular",
 
 
 
@@ -10719,13 +11094,13 @@
 
 
 
-"name": "Área comercial",
+"name": "Área de Negócios",
 
 
 
 
 
-"terms": "Comércio, comercial"
+"terms": "Área de Negócios, Área Comercial"
 
 
 
@@ -10763,13 +11138,13 @@
 
 
 
-"name": "Fazenda",
+"name": "Área de Lavoura",
 
 
 
 
 
-"terms": "Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável"
+"terms": "Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável, fazenda, lavoura,"
 
 
 
@@ -10785,13 +11160,13 @@
 
 
 
-"name": "Fazenda",
+"name": "Área de Lavoura",
 
 
 
 
 
-"terms": "Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável"
+"terms": "Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável, fazenda, lavoura"
 
 
 
@@ -10813,7 +11188,7 @@
 
 
 
-"terms": "Pátio de Fazenda"
+"terms": "Pátio de Fazenda, Chácara, Sítio"
 
 
 
@@ -10939,13 +11314,13 @@
 
 
 
-"name": "Prado",
+"name": "Pasto / Prado",
 
 
 
 
 
-"terms": "Prado, Pasto, Pradaria"
+"terms": "Prado, Pasto, Pradaria, Área de Pasto, Pastagem, Fazenda"
 
 
 
@@ -11049,13 +11424,13 @@
 
 
 
-"name": "Varejo",
+"name": "Área de Vendas",
 
 
 
 
 
-"terms": "Comércio, varejistas, comercial"
+"terms": "Área de Vendas, Área de Varejo, Comércio, Varejista, Comercial, Vendas"
 
 
 
@@ -11071,7 +11446,7 @@
 
 
 
-"name": "Vinhedo",
+"name": "Vinha",
 
 
 
@@ -11137,7 +11512,7 @@
 
 
 
-"name": "Parque de Cães",
+"name": "Cachorródromo",
 
 
 
@@ -11813,6 +12188,28 @@
 
 
 
+"man_made/mast": {
+
+
+
+
+
+"name": "Torre de Rádio",
+
+
+
+
+
+"terms": "Torre de Comunicação, Torre de Telecomunicações, Antena"
+
+
+
+
+},
+
+
+
+
 "man_made/observation": {
 
 
@@ -11826,6 +12223,28 @@
 
 
 "terms": "Torre de observação"
+
+
+
+
+},
+
+
+
+
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Poço de Petróleo",
+
+
+
+
+
+"terms": "Cavalo mecânico, Poço de extração de petróleo"
 
 
 
@@ -11870,6 +12289,50 @@
 
 
 "terms": "Encanamento, Duto"
+
+
+
+
+},
+
+
+
+
+"man_made/silo": {
+
+
+
+
+
+"name": "Silo",
+
+
+
+
+
+"terms": "Silo"
+
+
+
+
+},
+
+
+
+
+"man_made/storage_tank": {
+
+
+
+
+
+"name": "Tanque de armazenamento",
+
+
+
+
+
+"terms": "Tanque de Armazenamento"
 
 
 
@@ -12237,7 +12700,7 @@
 
 
 
-"name": "Colina",
+"name": "Encosta",
 
 
 
@@ -12429,6 +12892,38 @@
 
 
 
+"natural/tree_row": {
+
+
+
+
+
+"name": "Fileira de árvores"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Vulcão"
+
+
+
+
+},
+
+
+
+
 "natural/water": {
 
 
@@ -12551,7 +13046,7 @@
 
 
 
-"terms": "Bosque, Floresta"
+"terms": "Floresta, Bosque"
 
 
 
@@ -13080,6 +13575,28 @@
 
 
 "terms": "Cidade, Município"
+
+
+
+
+},
+
+
+
+
+"place/farm": {
+
+
+
+
+
+"name": "Fazenda",
+
+
+
+
+
+"terms": "Fazenda"
 
 
 
@@ -13639,28 +14156,6 @@
 
 
 
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Passagem de Nível",
-
-
-
-
-
-"terms": "Passagem de Nível"
-
-
-
-
-},
-
-
-
-
 "railway/monorail": {
 
 
@@ -13931,7 +14426,7 @@
 
 
 
-"name": "Loja de Licores",
+"name": "Loja de alcoólicos licenciada",
 
 
 
@@ -13953,7 +14448,7 @@
 
 
 
-"name": "Loja de animes",
+"name": "Loja de Mangá/Anime",
 
 
 
@@ -13997,13 +14492,13 @@
 
 
 
-"name": "Galeria de arte",
+"name": "Loja de Artigos de Arte",
 
 
 
 
 
-"terms": "Museu de arte"
+"terms": "Loja de Artigos de Arte"
 
 
 
@@ -14041,7 +14536,7 @@
 
 
 
-"name": "Loja de Bolsas",
+"name": "Loja de Bolsas/Malas",
 
 
 
@@ -14085,7 +14580,7 @@
 
 
 
-"name": "Loja de Mobiliário para Banheiros",
+"name": "Loja de Mobiliário de Banheiros",
 
 
 
@@ -14217,13 +14712,13 @@
 
 
 
-"name": "Loja de livros",
+"name": "Livraria",
 
 
 
 
 
-"terms": "Livraria, Livros, Sebo"
+"terms": "Livraria, Livros, Sebo, Loja de Livros"
 
 
 
@@ -14283,13 +14778,13 @@
 
 
 
-"name": "Doceria",
+"name": "Loja de Velas",
 
 
 
 
 
-"terms": "Loja de Doces"
+"terms": "Loja de Velas"
 
 
 
@@ -14547,7 +15042,7 @@
 
 
 
-"name": "Copiadora",
+"name": "Reprografia",
 
 
 
@@ -15119,7 +15614,7 @@
 
 
 
-"name": "Loja de ervas e plantas",
+"name": "Ervanária",
 
 
 
@@ -15163,7 +15658,7 @@
 
 
 
-"name": "Loja de utensílios domésticos",
+"name": "Loja de Utensílios Domésticos",
 
 
 
@@ -15361,13 +15856,13 @@
 
 
 
-"name": "Centro Comercial",
+"name": "Galeria Comercial/Shopping",
 
 
 
 
 
-"terms": "Shopping Center, Galeria"
+"terms": "Shopping Center, Galeria Comercial"
 
 
 
@@ -15449,13 +15944,13 @@
 
 
 
-"name": "Financeira",
+"name": "Financiadora",
 
 
 
 
 
-"terms": "Casa de Empréstimos, Loja de Empréstimos"
+"terms": "Financiadora, Casa de Empréstimos, Loja de Empréstimos"
 
 
 
@@ -15493,7 +15988,7 @@
 
 
 
-"name": "Loja de Instrumentos Musicais",
+"name": "Loja de Discos Musicais",
 
 
 
@@ -15581,7 +16076,7 @@
 
 
 
-"name": "Loja de Alimentos Orgânicos",
+"name": "Loja de Produtos Orgânicos",
 
 
 
@@ -15669,7 +16164,7 @@
 
 
 
-"name": "Pet Shop",
+"name": "Loja de animais",
 
 
 
@@ -15801,13 +16296,13 @@
 
 
 
-"name": "Loja de frutos do mar",
+"name": "Peixaria / Frutos do mar",
 
 
 
 
 
-"terms": "Peixaria, Petiscaria, Pescado, Petisqueira"
+"terms": "Peixaria, Pescado, Petisqueira, Loja de Frutos do Mar, Camarão, Lagosta, Peixes"
 
 
 
@@ -15823,7 +16318,7 @@
 
 
 
-"name": "Financeira",
+"name": "Brechó",
 
 
 
@@ -15933,13 +16428,13 @@
 
 
 
-"name": "Alfaiate",
+"name": "Alfaiataria",
 
 
 
 
 
-"terms": "Alfaiate"
+"terms": "Alfaiataria"
 
 
 
@@ -15955,7 +16450,7 @@
 
 
 
-"name": "Estúdio de tatuagem",
+"name": "Estúdio de Tatuagem",
 
 
 
@@ -16263,7 +16758,7 @@
 
 
 
-"name": "Loja de Blindagem de Vidros",
+"name": "Loja de Persianas",
 
 
 
@@ -16681,7 +17176,7 @@
 
 
 
-"name": "Lombada",
+"name": "Lombada tipo 1",
 
 
 
@@ -16703,7 +17198,7 @@
 
 
 
-"name": "Lombada rápida",
+"name": "Lombada tipo 2",
 
 
 
@@ -16731,7 +17226,7 @@
 
 
 
-"terms": "banda sonora"
+"terms": "sonorizador"
 
 
 
@@ -16747,7 +17242,7 @@
 
 
 
-"name": "Faixa elevada de pedestres",
+"name": "Faixa Elevada para Travessia de Pedestres",
 
 
 
@@ -16857,13 +17352,13 @@
 
 
 
-"name": "Proibido Curva à Esquerda",
+"name": "Proibido Virar à Esquerda",
 
 
 
 
 
-"terms": "Proibido Curva à Esquerda"
+"terms": "Proibido Virar à Esquerda"
 
 
 
@@ -16879,13 +17374,13 @@
 
 
 
-"name": "Proibido Curva à Direita",
+"name": "Proibido Virar à Direita",
 
 
 
 
 
-"terms": "Proibido Curva à Direita"
+"terms": "Proibido Virar à Direita"
 
 
 
@@ -16945,13 +17440,13 @@
 
 
 
-"name": "Curva à Esquerda Obrigatória",
+"name": "Obrigatório Virar à Esquerda",
 
 
 
 
 
-"terms": "Curva à Esquerda Obrigatória"
+"terms": "Obrigatório Virar à Esquerda"
 
 
 
@@ -16967,13 +17462,13 @@
 
 
 
-"name": "Curva à Direita Obrigatória",
+"name": "Obrigatório Virar à Direita",
 
 
 
 
 
-"terms": "Curva à Direita Obrigatória"
+"terms": "Obrigatório Virar à Direita"
 
 
 
@@ -16989,13 +17484,13 @@
 
 
 
-"name": "Proibido curva à direita e à esquerda",
+"name": "Obrigatório Seguir em Frente",
 
 
 
 
 
-"terms": "Proibido curva à direita e à esquerda"
+"terms": "Obrigatório Seguir em Frente"
 
 
 
@@ -17423,6 +17918,28 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Posto de Combustível Marítimo",
+
+
+
+
+
+"terms": "Pier de Combustível Marítimo, Ponto de Combustível Marítimo, Ponto de Abastecimento Marítimo"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -17458,6 +17975,22 @@
 
 
 "terms": "Orla Fluvial, Margem do Rio"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Ponto de Descarga de Dejetos (para barcos)"
 
 
 

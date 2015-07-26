@@ -47,14 +47,14 @@
 
 
 
-"street": "Stradă",
+"city": "Oraș",
 
 
 
 
 
 
-"city": "Oraș"
+"street": "Stradă"
 
 
 
@@ -345,7 +345,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Terminal",
 
 
 
@@ -359,7 +359,7 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "Wifi"
 
 
 
@@ -1254,22 +1254,6 @@
 
 
 "name": "Stație de autobuz"
-
-
-
-
-},
-
-
-
-
-"highway/crossing": {
-
-
-
-
-
-"name": "Trecere"
 
 
 

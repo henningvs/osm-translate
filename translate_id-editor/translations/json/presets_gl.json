@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Descoñecido",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Xeral",
-
-
-
-
-
-
-"foot": "A pé",
-
-
-
-
-
-
-"motor_vehicle": "Automóbiles",
-
-
-
-
-
-
-"bicycle": "Bicicletas",
-
-
-
-
-
-
-"horse": "Cabalos"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Permitido",
-
-
-
-
-
-
-
-"description": "Acceso permitido pola lei; un dereito de paso"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Prohibido",
-
-
-
-
-
-
-
-"description": "Acceso non permitido ao público en xeral"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Permisivo",
-
-
-
-
-
-
-
-"description": "Acceso permitido ata que o propietario revogue o permiso"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privado",
-
-
-
-
-
-
-
-"description": "Acceso permitido só coa autorización do propietario de forma individual"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Designado",
+"description": "Acceso permitido segundo sinais ou ordenanzas locais específicas",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Acceso permitido segundo sinais ou ordenanzas locais específicas"
+"title": "Designado"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Destino",
+"description": "Acceso permitido só para chegar a un destino determinado",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Acceso permitido só para chegar a un destino determinado"
+"title": "Destino"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Acceso non permitido ao público en xeral",
+
+
+
+
+
+
+
+"title": "Prohibido"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Acceso permitido ata que o propietario revogue o permiso",
+
+
+
+
+
+
+
+"title": "Permisivo"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Acceso permitido só coa autorización do propietario de forma individual",
+
+
+
+
+
+
+
+"title": "Privado"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Acceso permitido pola lei; un dereito de paso",
+
+
+
+
+
+
+
+"title": "Permitido"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Descoñecido",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Xeral",
+
+
+
+
+
+
+"bicycle": "Bicicletas",
+
+
+
+
+
+
+"foot": "A pé",
+
+
+
+
+
+
+"horse": "Cabalos",
+
+
+
+
+
+
+"motor_vehicle": "Automóbiles"
 
 
 
@@ -498,6 +498,27 @@
 
 
 
+"city": "Cidade",
+
+
+
+
+
+
+"country": "País",
+
+
+
+
+
+
+"hamlet": "Aldea",
+
+
+
+
+
+
 "housename": "Nome da casa",
 
 
@@ -512,14 +533,7 @@
 
 
 
-"street": "Rúa",
-
-
-
-
-
-
-"city": "Cidade",
+"place": "Lugar",
 
 
 
@@ -533,28 +547,14 @@
 
 
 
-"place": "Lugar",
+"street": "Rúa",
 
 
 
 
 
 
-"hamlet": "Aldea",
-
-
-
-
-
-
-"suburb": "Barrio",
-
-
-
-
-
-
-"country": "País"
+"suburb": "Barrio"
 
 
 
@@ -803,63 +803,7 @@
 
 
 
-"N": "Norte",
-
-
-
-
-
-
 "E": "Leste",
-
-
-
-
-
-
-"S": "Sur",
-
-
-
-
-
-
-"W": "Oeste",
-
-
-
-
-
-
-"NE": "Nordeste",
-
-
-
-
-
-
-"SE": "Sueste",
-
-
-
-
-
-
-"SW": "Suroeste",
-
-
-
-
-
-
-"NW": "Noroeste",
-
-
-
-
-
-
-"NNE": "Nor-nordeste",
 
 
 
@@ -880,6 +824,55 @@
 
 
 
+"N": "Norte",
+
+
+
+
+
+
+"NE": "Nordeste",
+
+
+
+
+
+
+"NNE": "Nor-nordeste",
+
+
+
+
+
+
+"NNW": "Nor-noroeste",
+
+
+
+
+
+
+"NW": "Noroeste",
+
+
+
+
+
+
+"S": "Sur",
+
+
+
+
+
+
+"SE": "Sueste",
+
+
+
+
+
+
 "SSE": "Sur-sueste",
 
 
@@ -894,7 +887,14 @@
 
 
 
-"WSW": "Oés-suroeste",
+"SW": "Suroeste",
+
+
+
+
+
+
+"W": "Oeste",
 
 
 
@@ -908,7 +908,7 @@
 
 
 
-"NNW": "Nor-noroeste"
+"WSW": "Oés-suroeste"
 
 
 
@@ -943,14 +943,14 @@
 
 
 
-"clockwise": "Sentido horario",
+"anticlockwise": "Sentido antihorario",
 
 
 
 
 
 
-"anticlockwise": "Sentido antihorario"
+"clockwise": "Sentido horario"
 
 
 
@@ -1391,13 +1391,6 @@
 
 
 
-"yes": "Si",
-
-
-
-
-
-
 "no": "Non",
 
 
@@ -1405,7 +1398,7 @@
 
 
 
-"wlan": "Wi-Fi",
+"terminal": "Terminal",
 
 
 
@@ -1419,7 +1412,14 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "Wi-Fi",
+
+
+
+
+
+
+"yes": "Si"
 
 
 
@@ -1756,6 +1756,13 @@
 
 
 
+"no": "Non",
+
+
+
+
+
+
 "undefined": "Suponse Non",
 
 
@@ -1763,14 +1770,7 @@
 
 
 
-"yes": "Si",
-
-
-
-
-
-
-"no": "Non"
+"yes": "Si"
 
 
 
@@ -1805,6 +1805,13 @@
 
 
 
+"no": "Non",
+
+
+
+
+
+
 "undefined": "Suponse Si",
 
 
@@ -1812,14 +1819,7 @@
 
 
 
-"yes": "Si",
-
-
-
-
-
-
-"no": "Non"
+"yes": "Si"
 
 
 
@@ -2173,12 +2173,6 @@
 
 
 
-"placeholder": "Descoñecido",
-
-
-
-
-
 "options": {
 
 
@@ -2193,7 +2187,7 @@
 
 
 
-"tunnel": "Túnel",
+"cutting": "Desmonte",
 
 
 
@@ -2207,13 +2201,19 @@
 
 
 
-"cutting": "Desmonte"
+"tunnel": "Túnel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Descoñecido"
 
 
 
@@ -3803,28 +3803,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "Paso de peóns",
-
-
-
-
-
-"terms": "paso peonil, paso peatonal, paso de cebra"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -3918,22 +3896,6 @@
 
 
 "name": "Camiño"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "Rúa peonil"
 
 
 
@@ -5560,22 +5522,6 @@
 
 
 "name": "Ferrocarril en desuso"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Paso a nivel"
 
 
 

@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Inconnu",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Général",
-
-
-
-
-
-
-"foot": "À pied",
-
-
-
-
-
-
-"motor_vehicle": "Véhicules motorisés",
-
-
-
-
-
-
-"bicycle": "Vélos",
-
-
-
-
-
-
-"horse": "Cavaliers"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Autorisé",
-
-
-
-
-
-
-
-"description": "Accès autorisé par servitude de passage"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Interdit",
-
-
-
-
-
-
-
-"description": "Accès interdit au public"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Accès permis",
-
-
-
-
-
-
-
-"description": "Accès laissé libre par le propriétaire, révocable à tout moment"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privé",
-
-
-
-
-
-
-
-"description": "Accès autorisé sur demande au propriétaire"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Restreint à certains types de véhicules",
+"description": "Accès autorisé par des panneaux ou par une réglementation locale",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Accès autorisé par des panneaux ou par une réglementation locale"
+"title": "Restreint à certains types de véhicules"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Interdit sauf riverains",
+"description": "Circulation interdite, sauf pour accéder aux zones desservies",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Circulation interdite, sauf pour accéder aux zones desservies"
+"title": "Interdit sauf riverains"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Accès interdit au public",
+
+
+
+
+
+
+
+"title": "Interdit"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Accès laissé libre par le propriétaire, révocable à tout moment",
+
+
+
+
+
+
+
+"title": "Accès permis"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Accès autorisé sur demande au propriétaire",
+
+
+
+
+
+
+
+"title": "Privé"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Accès autorisé par servitude de passage",
+
+
+
+
+
+
+
+"title": "Autorisé"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Inconnu",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Général",
+
+
+
+
+
+
+"bicycle": "Vélos",
+
+
+
+
+
+
+"foot": "À pied",
+
+
+
+
+
+
+"horse": "Cavaliers",
+
+
+
+
+
+
+"motor_vehicle": "Véhicules motorisés"
 
 
 
@@ -498,6 +498,41 @@
 
 
 
+"city": "Ville",
+
+
+
+
+
+
+"conscriptionnumber": "123",
+
+
+
+
+
+
+"country": "Pays",
+
+
+
+
+
+
+"district": "District",
+
+
+
+
+
+
+"hamlet": "Hameau",
+
+
+
+
+
+
 "housename": "Nom de la maison",
 
 
@@ -512,27 +547,6 @@
 
 
 
-"street": "Rue",
-
-
-
-
-
-
-"city": "Ville",
-
-
-
-
-
-
-"postcode": "Code postal",
-
-
-
-
-
-
 "place": "Place",
 
 
@@ -540,28 +554,7 @@
 
 
 
-"hamlet": "Hameau",
-
-
-
-
-
-
-"suburb": "Banlieue",
-
-
-
-
-
-
-"subdistrict": "Sous-district",
-
-
-
-
-
-
-"district": "District",
+"postcode": "Code postal",
 
 
 
@@ -582,7 +575,21 @@
 
 
 
-"country": "Pays"
+"street": "Rue",
+
+
+
+
+
+
+"subdistrict": "Sous-district",
+
+
+
+
+
+
+"suburb": "Banlieue"
 
 
 
@@ -649,6 +656,13 @@
 
 
 
+"both": "Les deux",
+
+
+
+
+
+
 "entry": "Entrée",
 
 
@@ -656,14 +670,7 @@
 
 
 
-"exit": "Sortie",
-
-
-
-
-
-
-"both": "Les deux"
+"exit": "Sortie"
 
 
 
@@ -796,6 +803,13 @@
 
 
 
+"both": "Les deux",
+
+
+
+
+
+
 "entry": "Entrée",
 
 
@@ -803,14 +817,7 @@
 
 
 
-"exit": "Sortie",
-
-
-
-
-
-
-"both": "Les deux"
+"exit": "Sortie"
 
 
 
@@ -843,6 +850,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Type"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -1075,63 +1098,7 @@
 
 
 
-"N": "Nord",
-
-
-
-
-
-
 "E": "Est",
-
-
-
-
-
-
-"S": "Sud",
-
-
-
-
-
-
-"W": "Ouest",
-
-
-
-
-
-
-"NE": "Nord-Est",
-
-
-
-
-
-
-"SE": "Sud-Est",
-
-
-
-
-
-
-"SW": "Sud-Ouest",
-
-
-
-
-
-
-"NW": "Nord-Ouest",
-
-
-
-
-
-
-"NNE": "Nord-Nord-Est",
 
 
 
@@ -1152,6 +1119,55 @@
 
 
 
+"N": "Nord",
+
+
+
+
+
+
+"NE": "Nord-Est",
+
+
+
+
+
+
+"NNE": "Nord-Nord-Est",
+
+
+
+
+
+
+"NNW": "Nord-Nord-Ouest",
+
+
+
+
+
+
+"NW": "Nord-Ouest",
+
+
+
+
+
+
+"S": "Sud",
+
+
+
+
+
+
+"SE": "Sud-Est",
+
+
+
+
+
+
 "SSE": "Sud-Sud-Est",
 
 
@@ -1166,7 +1182,14 @@
 
 
 
-"WSW": "Ouest-Sud-Ouest",
+"SW": "Sud-Ouest",
+
+
+
+
+
+
+"W": "Ouest",
 
 
 
@@ -1180,7 +1203,7 @@
 
 
 
-"NNW": "Nord-Nord-Ouest"
+"WSW": "Ouest-Sud-Ouest"
 
 
 
@@ -1215,14 +1238,14 @@
 
 
 
-"clockwise": "Sens horaire",
+"anticlockwise": "Sens anti-horaire",
 
 
 
 
 
 
-"anticlockwise": "Sens anti-horaire"
+"clockwise": "Sens horaire"
 
 
 
@@ -1261,6 +1284,22 @@
 
 
 "label": "Type"
+
+
+
+
+},
+
+
+
+
+"content": {
+
+
+
+
+
+"label": "Contenu"
 
 
 
@@ -1366,6 +1405,276 @@
 
 
 
+"cycleway": {
+
+
+
+
+
+"label": "Bandes cyclables",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Une bande cyclable séparée du trafic automobile par une ligne peinte",
+
+
+
+
+
+
+
+"title": "Bande cyclable ordinaire"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Pas de bande cyclable",
+
+
+
+
+
+
+
+"title": "Aucun"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Une bande cyclable qui permet de se déplacer dans les deux sens dans une rue à sens unique",
+
+
+
+
+
+
+
+"title": "Bande cyclable à double sens"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Une bande cyclable qui permet de se déplacer dans la direction opposée du trafic",
+
+
+
+
+
+
+
+"title": "Bande cyclable à contresens"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Une bande cyclable partagée avec une voie de bus",
+
+
+
+
+
+
+
+"title": "Bande cyclable partagée avec les bus"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Une bande cyclable sans séparation avec le trafic automobile",
+
+
+
+
+
+
+
+"title": "Bande cyclable partagée"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Une voie cyclable séparée du trafic par une barrière physique",
+
+
+
+
+
+
+
+"title": "Piste cyclable"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Aucun",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Côté gauche",
+
+
+
+
+
+
+"cycleway:right": "Côté droit"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "delivery": {
 
 
@@ -1458,12 +1767,6 @@
 
 
 
-"placeholder": "Ligne de contact, Lignes électriques",
-
-
-
-
-
 "options": {
 
 
@@ -1478,6 +1781,13 @@
 
 
 
+"no": "Non",
+
+
+
+
+
+
 "rail": "Rails électrifiés",
 
 
@@ -1485,20 +1795,19 @@
 
 
 
-"yes": "Oui (non spécifié)",
+"yes": "Oui (non spécifié)"
 
 
 
 
 
-
-"no": "Non"
-
+},
 
 
 
 
-}
+
+"placeholder": "Ligne de contact, Lignes électriques"
 
 
 
@@ -1636,6 +1945,13 @@
 
 
 
+"pond": "Étang",
+
+
+
+
+
+
 "underground": "Sous-terrain",
 
 
@@ -1643,14 +1959,7 @@
 
 
 
-"wall": "Mur",
-
-
-
-
-
-
-"pond": "Étang"
+"wall": "Mur"
 
 
 
@@ -1870,20 +2179,7 @@
 
 
 
-"placeholder": "Inconnu",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Homme",
 
 
 
@@ -1897,13 +2193,26 @@
 
 
 
+"male": "Homme",
+
+
+
+
+
+
 "unisex": "Unisexe"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Inconnu"
 
 
 
@@ -2126,14 +2435,14 @@
 
 
 
-"up": "En haut",
+"down": "En bas",
 
 
 
 
 
 
-"down": "En bas"
+"up": "En haut"
 
 
 
@@ -2184,13 +2493,6 @@
 
 
 
-"yes": "Oui",
-
-
-
-
-
-
 "no": "Non",
 
 
@@ -2198,7 +2500,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Terminal",
 
 
 
@@ -2212,7 +2514,14 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "Wifi",
+
+
+
+
+
+
+"yes": "Oui"
 
 
 
@@ -2317,13 +2626,6 @@
 
 
 
-"evergreen": "Sempervirent",
-
-
-
-
-
-
 "deciduous": "Caduc",
 
 
@@ -2331,7 +2633,14 @@
 
 
 
-"semi_evergreen": "Semi-Sempervirent",
+"evergreen": "Sempervirent",
+
+
+
+
+
+
+"mixed": "Mélangé",
 
 
 
@@ -2345,7 +2654,7 @@
 
 
 
-"mixed": "Mélangé"
+"semi_evergreen": "Semi-Sempervirent"
 
 
 
@@ -2387,7 +2696,7 @@
 
 
 
-"needleleaved": "Arbres à aiguilles",
+"leafless": "Sans feuilles",
 
 
 
@@ -2401,7 +2710,7 @@
 
 
 
-"leafless": "Sans feuilles"
+"needleleaved": "Arbres à aiguilles"
 
 
 
@@ -2440,6 +2749,22 @@
 
 
 "label": "Longueur (mètres)"
+
+
+
+
+},
+
+
+
+
+"level": {
+
+
+
+
+
+"label": "Niveau"
 
 
 
@@ -2553,12 +2878,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2614,7 +2933,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2631,12 +2956,6 @@
 
 
 "label": "IMBA Trail Difficulté",
-
-
-
-
-
-"placeholder": "Facile, Intermédiaire, Difficile...",
 
 
 
@@ -2683,7 +3002,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Facile, Intermédiaire, Difficile..."
 
 
 
@@ -2700,12 +3025,6 @@
 
 
 "label": "Difficulté VTT en montée",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3...",
 
 
 
@@ -2759,7 +3078,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2874,6 +3199,13 @@
 
 
 
+"no": "Non",
+
+
+
+
+
+
 "undefined": "Supposément Non",
 
 
@@ -2881,14 +3213,7 @@
 
 
 
-"yes": "Oui",
-
-
-
-
-
-
-"no": "Non"
+"yes": "Oui"
 
 
 
@@ -2923,6 +3248,13 @@
 
 
 
+"no": "Non",
+
+
+
+
+
+
 "undefined": "Supposément Oui",
 
 
@@ -2930,14 +3262,7 @@
 
 
 
-"yes": "Oui",
-
-
-
-
-
-
-"no": "Non"
+"yes": "Oui"
 
 
 
@@ -3042,34 +3367,6 @@
 
 
 
-"surface": "Surface",
-
-
-
-
-
-
-"multi-storey": "Multiples niveaux",
-
-
-
-
-
-
-"underground": "Souterrain",
-
-
-
-
-
-
-"sheds": "Cabanes",
-
-
-
-
-
-
 "carports": "Abris de voiture",
 
 
@@ -3084,7 +3381,35 @@
 
 
 
-"lane": "Route"
+"lane": "Route",
+
+
+
+
+
+
+"multi-storey": "Multiples niveaux",
+
+
+
+
+
+
+"sheds": "Cabanes",
+
+
+
+
+
+
+"surface": "Surface",
+
+
+
+
+
+
+"underground": "Souterrain"
 
 
 
@@ -3134,34 +3459,7 @@
 
 
 
-"placeholder": "Facile, Intermédiaire, Avancé...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Novice (enseignement)",
-
-
-
-
-
-
-"easy": "Facile (ronds verts)",
-
-
-
-
-
-
-"intermediate": "Intermédiaire (carrés bleus)",
 
 
 
@@ -3175,7 +3473,21 @@
 
 
 
+"easy": "Facile (ronds verts)",
+
+
+
+
+
+
 "expert": "Expert (doubles losanges noirs)",
+
+
+
+
+
+
+"extreme": "Extrème (matériel d'escalade requis)",
 
 
 
@@ -3189,13 +3501,26 @@
 
 
 
-"extreme": "Extrème (matériel d'escalade requis)"
+"intermediate": "Intermédiaire (carrés bleus)",
 
 
 
 
 
-}
+
+"novice": "Novice (enseignement)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Facile, Intermédiaire, Avancé..."
 
 
 
@@ -3224,20 +3549,6 @@
 
 
 
-"classic": "Classique",
-
-
-
-
-
-
-"mogul": "Piste de ski de bosses",
-
-
-
-
-
-
 "backcountry": "Arrière pays",
 
 
@@ -3245,7 +3556,21 @@
 
 
 
+"classic": "Classique",
+
+
+
+
+
+
 "classic+skating": "Damage classique et pour pas de patineur",
+
+
+
+
+
+
+"mogul": "Piste de ski de bosses",
 
 
 
@@ -3301,7 +3626,28 @@
 
 
 
+"hike": "Randonnée",
+
+
+
+
+
+
+"ice_skate": "Patin à glace",
+
+
+
+
+
+
 "nordic": "Nordique",
+
+
+
+
+
+
+"playground": "Aire de jeux",
 
 
 
@@ -3322,13 +3668,6 @@
 
 
 
-"hike": "Randonnée",
-
-
-
-
-
-
 "sleigh": "Traîneau",
 
 
@@ -3336,21 +3675,7 @@
 
 
 
-"ice_skate": "Patin à glace",
-
-
-
-
-
-
-"snow_park": "Parc à neige",
-
-
-
-
-
-
-"playground": "Aire de jeux"
+"snow_park": "Parc à neige"
 
 
 
@@ -3405,6 +3730,22 @@
 
 
 "label": "Type"
+
+
+
+
+},
+
+
+
+
+"power_supply": {
+
+
+
+
+
+"label": "Source de courant"
 
 
 
@@ -3485,6 +3826,48 @@
 
 
 "label": "Accepte le papier"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"label": "Type de recyclage",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Déchèterie",
+
+
+
+
+
+
+"container": "Conteneur de recyclage"
+
+
+
+
+
+}
 
 
 
@@ -3618,34 +4001,7 @@
 
 
 
-"placeholder": "Randonnée de Montagne, Randonnée Alpine",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1 : Randonnée",
-
-
-
-
-
-
-"mountain_hiking": "T2 : Randonnée de Montagne",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3 : Randonnée de Montagne Exigeante",
 
 
 
@@ -3666,13 +4022,56 @@
 
 
 
-"difficult_alpine_hiking": "T6 : Randonnée Alpine Difficile"
+"demanding_mountain_hiking": "T3 : Randonnée de Montagne Exigeante",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6 : Randonnée Alpine Difficile",
+
+
+
+
+
+
+"hiking": "T1 : Randonnée",
+
+
+
+
+
+
+"mountain_hiking": "T2 : Randonnée de Montagne"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Randonnée de Montagne, Randonnée Alpine"
+
+
+
+
+},
+
+
+
+
+"sanitary_dump_station": {
+
+
+
+
+
+"label": "Station de vidange sanitaire"
 
 
 
@@ -3733,6 +4132,13 @@
 
 
 
+"no": "Non",
+
+
+
+
+
+
 "undefined": "Supposé être Non",
 
 
@@ -3740,14 +4146,7 @@
 
 
 
-"yes": "Oui",
-
-
-
-
-
-
-"no": "Non"
+"yes": "Oui"
 
 
 
@@ -3782,6 +4181,13 @@
 
 
 
+"no": "Non",
+
+
+
+
+
+
 "undefined": "Supposé être Non",
 
 
@@ -3789,14 +4195,7 @@
 
 
 
-"yes": "Oui",
-
-
-
-
-
-
-"no": "Non"
+"yes": "Oui"
 
 
 
@@ -3831,14 +4230,7 @@
 
 
 
-"spur": "Embranchement particulier court permettant à une compagnie ou une entité d'accéder au réseau principal.",
-
-
-
-
-
-
-"yard": "Voie interne à la compagnie utilisée pour le triage ou la maintenance.",
+"crossover": "Voie de traversée",
 
 
 
@@ -3852,7 +4244,14 @@
 
 
 
-"crossover": "Voie de traversée"
+"spur": "Embranchement particulier court permettant à une compagnie ou une entité d'accéder au réseau principal.",
+
+
+
+
+
+
+"yard": "Voie interne à la compagnie utilisée pour le triage ou la maintenance."
 
 
 
@@ -3944,12 +4343,6 @@
 
 
 
-"placeholder": "Non, Séparé, Oui",
-
-
-
-
-
 "options": {
 
 
@@ -3957,14 +4350,7 @@
 
 
 
-"no": "Interdiction de fumer, quel que soit l'endroit",
-
-
-
-
-
-
-"separated": "Dans des endroits fumeurs, non isolés physiquement",
+"dedicated": "Dédié aux fumeurs (ex : club de fumeurs)",
 
 
 
@@ -3978,6 +4364,13 @@
 
 
 
+"no": "Interdiction de fumer, quel que soit l'endroit",
+
+
+
+
+
+
 "outside": "Autorisé dehors",
 
 
@@ -3985,20 +4378,26 @@
 
 
 
-"yes": "Autorisé partout",
+"separated": "Dans des endroits fumeurs, non isolés physiquement",
 
 
 
 
 
 
-"dedicated": "Dédié aux fumeurs (ex : club de fumeurs)"
+"yes": "Autorisé partout"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Non, Séparé, Oui"
 
 
 
@@ -4020,13 +4419,14 @@
 
 
 
-"placeholder": "Petites Roulettes, Roues, Hors-Piste",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Grandes Roues : VTT, voiture, pousse-pousse",
 
 
 
@@ -4047,14 +4447,21 @@
 
 
 
+"horrible": "Hors-Piste : Gros véhicule hors-piste",
+
+
+
+
+
+
+"impassable": "Infranchissable / Pas de véhicules à roues",
+
+
+
+
+
+
 "intermediate": "Roues : vélo de ville, fauteuil roulant, scooter",
-
-
-
-
-
-
-"bad": "Grandes Roues : VTT, voiture, pousse-pousse",
 
 
 
@@ -4068,27 +4475,19 @@
 
 
 
-"horrible": "Hors-Piste : Gros véhicule hors-piste",
+"very_horrible": "Spécialisé tout-terrain : tracteur, véhicule tout-terrain"
 
 
 
 
 
-
-"very_horrible": "Spécialisé tout-terrain : tracteur, véhicule tout-terrain",
-
+},
 
 
 
 
 
-"impassable": "Infranchissable / Pas de véhicules à roues"
-
-
-
-
-
-}
+"placeholder": "Petites Roulettes, Roues, Hors-Piste"
 
 
 
@@ -4196,12 +4595,6 @@
 
 
 
-"placeholder": "Inconnu",
-
-
-
-
-
 "options": {
 
 
@@ -4216,7 +4609,7 @@
 
 
 
-"tunnel": "Tunnel",
+"cutting": "Tranchée",
 
 
 
@@ -4230,20 +4623,26 @@
 
 
 
-"cutting": "Tranchée",
+"ford": "Gué",
 
 
 
 
 
 
-"ford": "Gué"
+"tunnel": "Tunnel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Inconnu"
 
 
 
@@ -4345,20 +4744,7 @@
 
 
 
-"placeholder": "Oui, Non, À emporter seulement...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": "Oui",
 
 
 
@@ -4372,13 +4758,26 @@
 
 
 
-"only": "À emporter seulement"
+"only": "À emporter seulement",
 
 
 
 
 
-}
+
+"yes": "Oui"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Oui, Non, À emporter seulement..."
 
 
 
@@ -4407,14 +4806,7 @@
 
 
 
-"flush": "Toilettes publiques",
-
-
-
-
-
-
-"pitlatrine": "Latrines",
+"bucket": "Seau",
 
 
 
@@ -4428,7 +4820,14 @@
 
 
 
-"bucket": "Seau"
+"flush": "Toilettes publiques",
+
+
+
+
+
+
+"pitlatrine": "Latrines"
 
 
 
@@ -4488,12 +4887,6 @@
 
 
 
-"placeholder": "Dur, Majoritairement Dur, Mou...",
-
-
-
-
-
 "options": {
 
 
@@ -4535,7 +4928,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Dur, Majoritairement Dur, Mou..."
 
 
 
@@ -4557,13 +4956,14 @@
 
 
 
-"placeholder": "Excellent, Bon, Mauvais...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Mauvais: pas de balisage, sentier inconsistent",
 
 
 
@@ -4584,21 +4984,14 @@
 
 
 
-"intermediate": "Intermédiaire: peu de balisage, sentier identifiable",
-
-
-
-
-
-
-"bad": "Mauvais: pas de balisage, sentier inconsistent",
-
-
-
-
-
-
 "horrible": "Horrible: sentier disaraît fréquemment, nécessite de s'orienter",
+
+
+
+
+
+
+"intermediate": "Intermédiaire: peu de balisage, sentier identifiable",
 
 
 
@@ -4611,7 +5004,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Excellent, Bon, Mauvais..."
 
 
 
@@ -4676,6 +5075,22 @@
 
 
 "label": "Type"
+
+
+
+
+},
+
+
+
+
+"water_point": {
+
+
+
+
+
+"label": "Point d'eau"
 
 
 
@@ -5455,6 +5870,28 @@
 
 
 
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Brasserie de plein air",
+
+
+
+
+
+"terms": "Brasserie, bière, boissons alcolisées"
+
+
+
+
+},
+
+
+
+
 "amenity/boat_rental": {
 
 
@@ -5600,6 +6037,28 @@
 
 
 "terms": "Lavage de voiture, lave auto"
+
+
+
+
+},
+
+
+
+
+"amenity/casino": {
+
+
+
+
+
+"name": "Casino",
+
+
+
+
+
+"terms": "Casino"
 
 
 
@@ -6533,6 +6992,28 @@
 
 
 
+"amenity/sanitary_dump_station": {
+
+
+
+
+
+"name": "Station de vidange sanitaire",
+
+
+
+
+
+"terms": "Station de vidange, sanitaires, mobilehome ,camping, toilettes chimiques"
+
+
+
+
+},
+
+
+
+
 "amenity/school": {
 
 
@@ -6920,6 +7401,28 @@
 
 
 "terms": "Zone, Aire"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Revêtement",
+
+
+
+
+
+"terms": "Revêtement"
 
 
 
@@ -9251,7 +9754,7 @@
 
 
 
-"terms": "Passage piéton"
+"terms": "Traversée de rue"
 
 
 
@@ -9569,19 +10072,41 @@
 
 
 
+"highway/corridor": {
+
+
+
+
+
+"name": "Couloir intérieur",
+
+
+
+
+
+"terms": "Corridor intérieur"
+
+
+
+
+},
+
+
+
+
 "highway/crossing": {
 
 
 
 
 
-"name": "Passage piéton",
+"name": "Passage piéton ",
 
 
 
 
 
-"terms": "Carrefour, Intersection"
+"terms": "Passage piéton "
 
 
 
@@ -9603,7 +10128,7 @@
 
 
 
-"terms": "Passage clouté"
+"terms": "Passage piéton, Zébra, Passage zébré"
 
 
 
@@ -9795,13 +10320,13 @@
 
 
 
-"name": "Piétonnier",
+"name": "Rue piétonne",
 
 
 
 
 
-"terms": "Piéton"
+"terms": "Rue piétonnisée,Espace piétonnier"
 
 
 
@@ -10999,6 +11524,28 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Pépinière",
+
+
+
+
+
+"terms": "Pépinière"
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
@@ -11100,6 +11647,28 @@
 
 
 "terms": "Loisir"
+
+
+
+
+},
+
+
+
+
+"leisure/adult_gaming_centre": {
+
+
+
+
+
+"name": "Jeux pour adultes",
+
+
+
+
+
+"terms": "Jeux pour adultes"
 
 
 
@@ -11703,6 +12272,28 @@
 
 
 
+"man_made/adit": {
+
+
+
+
+
+"name": "Entrée de mine",
+
+
+
+
+
+"terms": "Entrée de galerie de mine,Entrée de galerie"
+
+
+
+
+},
+
+
+
+
 "man_made/breakwater": {
 
 
@@ -11813,6 +12404,28 @@
 
 
 
+"man_made/mast": {
+
+
+
+
+
+"name": "Mât d'émission radio",
+
+
+
+
+
+"terms": "Émetteur de téléphonie mobile, émetteur de téléphonie cellulaire, mât de transmission, pylône de transmission, tour haubanée, émetteur radio, émetteur de télévision, tour de télévision, tour de télédiffusion, ..."
+
+
+
+
+},
+
+
+
+
 "man_made/observation": {
 
 
@@ -11826,6 +12439,28 @@
 
 
 "terms": "Tour d'observation, Mirador"
+
+
+
+
+},
+
+
+
+
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Puits de pétrole",
+
+
+
+
+
+"terms": "Puits de forage, derrick, chevalet de pompage, ..."
 
 
 
@@ -11870,6 +12505,50 @@
 
 
 "terms": "Pipeline, Gazoduc, Oleoduc"
+
+
+
+
+},
+
+
+
+
+"man_made/silo": {
+
+
+
+
+
+"name": "Silo",
+
+
+
+
+
+"terms": "Réservoir, emplacement de stockage, ..."
+
+
+
+
+},
+
+
+
+
+"man_made/storage_tank": {
+
+
+
+
+
+"name": "Réservoir de stockage",
+
+
+
+
+
+"terms": "Silo de stockage"
 
 
 
@@ -12341,6 +13020,28 @@
 
 
 
+"natural/saddle": {
+
+
+
+
+
+"name": "Col de montagne",
+
+
+
+
+
+"terms": "Passe"
+
+
+
+
+},
+
+
+
+
 "natural/scree": {
 
 
@@ -12420,6 +13121,50 @@
 
 
 "terms": "Arbre"
+
+
+
+
+},
+
+
+
+
+"natural/tree_row": {
+
+
+
+
+
+"name": "Rangée d'arbres",
+
+
+
+
+
+"terms": "Rangée d'arbres,Alignement d'arbres"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Volcan",
+
+
+
+
+
+"terms": "Volcan"
 
 
 
@@ -13089,6 +13834,28 @@
 
 
 
+"place/farm": {
+
+
+
+
+
+"name": "Ferme isolée",
+
+
+
+
+
+"terms": "Écart"
+
+
+
+
+},
+
+
+
+
 "place/hamlet": {
 
 
@@ -13645,13 +14412,13 @@
 
 
 
-"name": "Passage à niveau",
+"name": "Passage à niveau ",
 
 
 
 
 
-"terms": "Passage à niveau, traverse de chemin de fer"
+"terms": "Passage à niveau "
 
 
 
@@ -17423,6 +18190,28 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Station-service marine",
+
+
+
+
+
+"terms": "Station-service nautique, nautisme, bateaux, essence"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -17458,6 +18247,28 @@
 
 
 "terms": "Berge"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Station de vidange sanitaire marine",
+
+
+
+
+
+"terms": "Station de vidange sanitaire nautique"
 
 
 

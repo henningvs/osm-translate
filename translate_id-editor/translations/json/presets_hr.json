@@ -18,7 +18,7 @@
 
 
 
-"name": "Zgrada"
+"name": "Građevina"
 
 
 
@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Nepoznat",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Općeniti pristup",
-
-
-
-
-
-
-"foot": "Pješacima",
-
-
-
-
-
-
-"motor_vehicle": "Motornim vozilima",
-
-
-
-
-
-
-"bicycle": "Biciklima",
-
-
-
-
-
-
-"horse": "Konjima"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Dozvoljeno",
-
-
-
-
-
-
-
-"description": "Regulirano zakonom, pravilo desne strane"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Zabranjeno",
-
-
-
-
-
-
-
-"description": "Pristup nije dozvoljen javnosti"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Dopustivo",
-
-
-
-
-
-
-
-"description": "Pristup dozvoljen dok vlasnik ne zabrani"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privatno",
-
-
-
-
-
-
-
-"description": "Pristup dozvoljen samo s dozvolom vlasnika na pojedinačnoj bazi"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Označeno",
+"description": "Pristup dozvoljen prema znakovima ili prema lokalnom zakonu",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Pristup dozvoljen prema znakovima ili prema lokalnom zakonu"
+"title": "Označeno"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Destinacija",
+"description": "Pristup dozvoljen samo za pristup destinaciji",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Pristup dozvoljen samo za pristup destinaciji"
+"title": "Destinacija"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Pristup nije dozvoljen javnosti",
+
+
+
+
+
+
+
+"title": "Zabranjeno"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Pristup dozvoljen dok vlasnik ne zabrani",
+
+
+
+
+
+
+
+"title": "Dopustivo"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Pristup dozvoljen samo s dozvolom vlasnika na pojedinačnoj bazi",
+
+
+
+
+
+
+
+"title": "Privatno"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Regulirano zakonom, pravilo desne strane",
+
+
+
+
+
+
+
+"title": "Dozvoljeno"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Nepoznat",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Općeniti pristup",
+
+
+
+
+
+
+"bicycle": "Biciklima",
+
+
+
+
+
+
+"foot": "Pješacima",
+
+
+
+
+
+
+"horse": "Konjima",
+
+
+
+
+
+
+"motor_vehicle": "Motornim vozilima"
 
 
 
@@ -498,6 +498,41 @@
 
 
 
+"city": "Grad",
+
+
+
+
+
+
+"conscriptionnumber": "123",
+
+
+
+
+
+
+"country": "Država",
+
+
+
+
+
+
+"district": "Oblast",
+
+
+
+
+
+
+"hamlet": "Zaseok",
+
+
+
+
+
+
 "housename": "Naziv kuće",
 
 
@@ -512,27 +547,6 @@
 
 
 
-"street": "Ulica",
-
-
-
-
-
-
-"city": "Grad",
-
-
-
-
-
-
-"postcode": "Poštanski broj",
-
-
-
-
-
-
 "place": "Mjesto",
 
 
@@ -540,28 +554,7 @@
 
 
 
-"hamlet": "Zaseok",
-
-
-
-
-
-
-"suburb": "Predgrađe",
-
-
-
-
-
-
-"subdistrict": "Okrug",
-
-
-
-
-
-
-"district": "Oblast",
+"postcode": "Poštanski broj",
 
 
 
@@ -582,7 +575,21 @@
 
 
 
-"country": "Država"
+"street": "Ulica",
+
+
+
+
+
+
+"subdistrict": "Okrug",
+
+
+
+
+
+
+"suburb": "Predgrađe"
 
 
 
@@ -649,6 +656,13 @@
 
 
 
+"both": "Oba",
+
+
+
+
+
+
 "entry": "Ulaz",
 
 
@@ -656,14 +670,7 @@
 
 
 
-"exit": "Izlaz",
-
-
-
-
-
-
-"both": "Oba"
+"exit": "Izlaz"
 
 
 
@@ -796,6 +803,13 @@
 
 
 
+"both": "Oba",
+
+
+
+
+
+
 "entry": "Ulaz",
 
 
@@ -803,14 +817,7 @@
 
 
 
-"exit": "Izlaz",
-
-
-
-
-
-
-"both": "Oba"
+"exit": "Izlaz"
 
 
 
@@ -1075,63 +1082,7 @@
 
 
 
-"N": "Sjever",
-
-
-
-
-
-
 "E": "Istok",
-
-
-
-
-
-
-"S": "Jug",
-
-
-
-
-
-
-"W": "Zapad",
-
-
-
-
-
-
-"NE": "Sjeveroistok",
-
-
-
-
-
-
-"SE": "Jugoistok",
-
-
-
-
-
-
-"SW": "Jugozapad",
-
-
-
-
-
-
-"NW": "Sjeverozapad",
-
-
-
-
-
-
-"NNE": "Sjever-sjeveroistok",
 
 
 
@@ -1152,6 +1103,55 @@
 
 
 
+"N": "Sjever",
+
+
+
+
+
+
+"NE": "Sjeveroistok",
+
+
+
+
+
+
+"NNE": "Sjever-sjeveroistok",
+
+
+
+
+
+
+"NNW": "Sjever-sjeverozapad",
+
+
+
+
+
+
+"NW": "Sjeverozapad",
+
+
+
+
+
+
+"S": "Jug",
+
+
+
+
+
+
+"SE": "Jugoistok",
+
+
+
+
+
+
 "SSE": "Jug-jugoistok",
 
 
@@ -1166,7 +1166,14 @@
 
 
 
-"WSW": "Zapad-jugozapad",
+"SW": "Jugozapad",
+
+
+
+
+
+
+"W": "Zapad",
 
 
 
@@ -1180,7 +1187,7 @@
 
 
 
-"NNW": "Sjever-sjeverozapad"
+"WSW": "Zapad-jugozapad"
 
 
 
@@ -1215,14 +1222,14 @@
 
 
 
-"clockwise": "U smijeru kazaljke za satu",
+"anticlockwise": "U suprotnom smijeru od kazaljke na satu",
 
 
 
 
 
 
-"anticlockwise": "U suprotnom smijeru od kazaljke na satu"
+"clockwise": "U smijeru kazaljke za satu"
 
 
 
@@ -1261,6 +1268,22 @@
 
 
 "label": "Vrsta"
+
+
+
+
+},
+
+
+
+
+"content": {
+
+
+
+
+
+"label": "Sadržaj"
 
 
 
@@ -1366,6 +1389,276 @@
 
 
 
+"cycleway": {
+
+
+
+
+
+"label": "Biciklističke staze",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Biciklistička staza odvojena od automobila nacrtanom linijom",
+
+
+
+
+
+
+
+"title": "Standardna biciklistička staza"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Nema biciklističke staze",
+
+
+
+
+
+
+
+"title": "Nijedna"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Biciklistička staza obostranog smjera kretanja u jedosmjernoj ulici",
+
+
+
+
+
+
+
+"title": "Biciklistička staza suprotnog smjera"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Biciklistička staza suprotnog smjera kretanja u odnosu na promet",
+
+
+
+
+
+
+
+"title": "Biciklistička staza suprotnog smjera"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Biciklistička staza dijeljena s autobusnom trakom",
+
+
+
+
+
+
+
+"title": "Biciklistička staza dijeljena s autobusima"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Biciklistička staza nije razdvojena od motornog prometa",
+
+
+
+
+
+
+
+"title": "Dijeljena biciklistička staza "
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Biciklistička staza razdvojena fizičkom preprekom od motornog prometa",
+
+
+
+
+
+
+
+"title": "Biciklistička staza"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "nijedna",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Lijeva strana",
+
+
+
+
+
+
+"cycleway:right": "Desna strana"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "delivery": {
 
 
@@ -1430,6 +1723,22 @@
 
 
 
+"drive_through": {
+
+
+
+
+
+"label": "Provezi-kroz"
+
+
+
+
+},
+
+
+
+
 "electrified": {
 
 
@@ -1437,12 +1746,6 @@
 
 
 "label": "Elektrifikacija",
-
-
-
-
-
-"placeholder": "Dodirna crta, elektrificirana željeznica",
 
 
 
@@ -1462,6 +1765,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "rail": "Elektrificirana željeznica",
 
 
@@ -1469,20 +1779,19 @@
 
 
 
-"yes": "Da (nedefinirano)",
+"yes": "Da (nedefinirano)"
 
 
 
 
 
-
-"no": "Ne"
-
+},
 
 
 
 
-}
+
+"placeholder": "Dodirna crta, elektrificirana željeznica"
 
 
 
@@ -1620,6 +1929,13 @@
 
 
 
+"pond": "Jezerce",
+
+
+
+
+
+
 "underground": "Podzemni",
 
 
@@ -1627,14 +1943,7 @@
 
 
 
-"wall": "Zid",
-
-
-
-
-
-
-"pond": "Jezerce"
+"wall": "Zid"
 
 
 
@@ -1854,20 +2163,7 @@
 
 
 
-"placeholder": "Nepoznato",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Muško",
 
 
 
@@ -1881,13 +2177,26 @@
 
 
 
+"male": "Muško",
+
+
+
+
+
+
 "unisex": "Unisex"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nepoznato"
 
 
 
@@ -2110,14 +2419,14 @@
 
 
 
-"up": "Gore",
+"down": "Dolje",
 
 
 
 
 
 
-"down": "Dolje"
+"up": "Gore"
 
 
 
@@ -2168,13 +2477,6 @@
 
 
 
-"yes": "Da",
-
-
-
-
-
-
 "no": "Ne",
 
 
@@ -2182,7 +2484,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Terminal",
 
 
 
@@ -2196,7 +2498,14 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "Wifi",
+
+
+
+
+
+
+"yes": "Da"
 
 
 
@@ -2314,6 +2623,22 @@
 
 
 
+"level": {
+
+
+
+
+
+"label": "Razina"
+
+
+
+
+},
+
+
+
+
 "levels": {
 
 
@@ -2418,12 +2743,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2479,7 +2798,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2496,12 +2821,6 @@
 
 
 "label": "Težina staze po IMBA",
-
-
-
-
-
-"placeholder": "Lagano, srednje, teško...",
 
 
 
@@ -2548,7 +2867,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Lagano, srednje, teško..."
 
 
 
@@ -2565,12 +2890,6 @@
 
 
 "label": "Težina uspona staze za brdski biciklizam",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3...",
 
 
 
@@ -2624,7 +2943,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2739,6 +3064,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Pretpostavlja se da je Ne",
 
 
@@ -2746,14 +3078,7 @@
 
 
 
-"yes": "Da",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Da"
 
 
 
@@ -2788,6 +3113,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Pretpostavlja se da je Da",
 
 
@@ -2795,14 +3127,7 @@
 
 
 
-"yes": "Da",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Da"
 
 
 
@@ -2907,34 +3232,6 @@
 
 
 
-"surface": "Površinski",
-
-
-
-
-
-
-"multi-storey": "Višerazinski",
-
-
-
-
-
-
-"underground": "Podzemni",
-
-
-
-
-
-
-"sheds": "Šupe",
-
-
-
-
-
-
 "carports": "Nastrešnica",
 
 
@@ -2949,7 +3246,35 @@
 
 
 
-"lane": "Parking uz prometnicu"
+"lane": "Parking uz prometnicu",
+
+
+
+
+
+
+"multi-storey": "Višerazinski",
+
+
+
+
+
+
+"sheds": "Šupe",
+
+
+
+
+
+
+"surface": "Površinski",
+
+
+
+
+
+
+"underground": "Podzemni"
 
 
 
@@ -2999,34 +3324,7 @@
 
 
 
-"placeholder": "Lagano, srednje, napredno...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Za početnike (baby staza)",
-
-
-
-
-
-
-"easy": "Lagano (zeleni krug)",
-
-
-
-
-
-
-"intermediate": "Srednje (crvena staza)",
 
 
 
@@ -3040,7 +3338,21 @@
 
 
 
+"easy": "Lagano (zeleni krug)",
+
+
+
+
+
+
 "expert": "Ekspert (dupli crni dijamant)",
+
+
+
+
+
+
+"extreme": "Ekstremno (potrebna oprema za penjanje)",
 
 
 
@@ -3054,13 +3366,26 @@
 
 
 
-"extreme": "Ekstremno (potrebna oprema za penjanje)"
+"intermediate": "Srednje (crvena staza)",
 
 
 
 
 
-}
+
+"novice": "Za početnike (baby staza)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Lagano, srednje, napredno..."
 
 
 
@@ -3089,20 +3414,6 @@
 
 
 
-"classic": "Klasično",
-
-
-
-
-
-
-"mogul": "Hupseri",
-
-
-
-
-
-
 "backcountry": "Neuređeno, \"off piste\"",
 
 
@@ -3110,7 +3421,21 @@
 
 
 
+"classic": "Klasično",
+
+
+
+
+
+
 "classic+skating": "Klasično i riblja kost",
+
+
+
+
+
+
+"mogul": "Hupseri",
 
 
 
@@ -3166,7 +3491,28 @@
 
 
 
+"hike": "Pješačenje",
+
+
+
+
+
+
+"ice_skate": "Klizanje na ledu",
+
+
+
+
+
+
 "nordic": "Nordijsko skijanje",
+
+
+
+
+
+
+"playground": "Igralište za djecu",
 
 
 
@@ -3187,13 +3533,6 @@
 
 
 
-"hike": "Pješačenje",
-
-
-
-
-
-
 "sleigh": "Zaprežne sanjke",
 
 
@@ -3201,21 +3540,7 @@
 
 
 
-"ice_skate": "Klizanje na ledu",
-
-
-
-
-
-
-"snow_park": "Snježni park",
-
-
-
-
-
-
-"playground": "Igralište za djecu"
+"snow_park": "Snježni park"
 
 
 
@@ -3359,6 +3684,42 @@
 
 
 
+"recycling/type": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Reciklažni centar",
+
+
+
+
+
+
+"container": "Kontejner"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "ref": {
 
 
@@ -3477,28 +3838,13 @@
 
 
 
+"label": "Težina planinarske staze",
+
+
+
+
+
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Pješačenje",
-
-
-
-
-
-
-"mountain_hiking": "T2: Planinarenje",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Zahtjevno planinarenje",
 
 
 
@@ -3519,13 +3865,56 @@
 
 
 
-"difficult_alpine_hiking": "T6: Teško alpinističko planinarenje"
+"demanding_mountain_hiking": "T3: Zahtjevno planinarenje",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Teško alpinističko planinarenje",
+
+
+
+
+
+
+"hiking": "T1: Pješačenje",
+
+
+
+
+
+
+"mountain_hiking": "T2: Planinarenje"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Planinsko planinarenje, Alpsko planinarenje..."
+
+
+
+
+},
+
+
+
+
+"seasonal": {
+
+
+
+
+
+"label": "Sezonski"
 
 
 
@@ -3557,7 +3946,20 @@
 
 
 
+"label": "Alat za lanac",
+
+
+
+
+
 "options": {
+
+
+
+
+
+
+"no": "Ne",
 
 
 
@@ -3571,14 +3973,7 @@
 
 
 
-"yes": "Da",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Da"
 
 
 
@@ -3600,7 +3995,20 @@
 
 
 
+"label": "Zračna pumpa",
+
+
+
+
+
 "options": {
+
+
+
+
+
+
+"no": "Ne",
 
 
 
@@ -3614,14 +4022,7 @@
 
 
 
-"yes": "Da",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Da"
 
 
 
@@ -3681,27 +4082,7 @@
 
 
 
-"placeholder": "Ne, odvojeno, da...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"no": "Nedozvoljeno svugdje",
-
-
-
-
-
-
-"separated": "U djelovima za pušenje koji nisu fizički odvojeni",
 
 
 
@@ -3715,7 +4096,21 @@
 
 
 
+"no": "Nedozvoljeno svugdje",
+
+
+
+
+
+
 "outside": "Dopušteno vani",
+
+
+
+
+
+
+"separated": "U djelovima za pušenje koji nisu fizički odvojeni",
 
 
 
@@ -3728,7 +4123,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Ne, odvojeno, da..."
 
 
 
@@ -3750,13 +4151,14 @@
 
 
 
-"placeholder": "Mali kotačići, kotači, off-road",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Jači kotači: trekking bicikl, automobil, rikša",
 
 
 
@@ -3777,14 +4179,21 @@
 
 
 
+"horrible": "Off road: prava off-road vozila",
+
+
+
+
+
+
+"impassable": "Neprolazno / nijedno vozilo sa kotačima",
+
+
+
+
+
+
 "intermediate": "Kotači: gradski bicikl, kolica za invalide, skuteri",
-
-
-
-
-
-
-"bad": "Jači kotači: trekking bicikl, automobil, rikša",
 
 
 
@@ -3798,27 +4207,19 @@
 
 
 
-"horrible": "Off road: prava off-road vozila",
+"very_horrible": "Specijalizirana off-road vozila: traktori, quad vozila"
 
 
 
 
 
-
-"very_horrible": "Specijalizirana off-road vozila: traktori, quad vozila",
-
+},
 
 
 
 
 
-"impassable": "Neprolazno / nijedno vozilo sa kotačima"
-
-
-
-
-
-}
+"placeholder": "Mali kotačići, kotači, off-road"
 
 
 
@@ -3872,12 +4273,6 @@
 
 
 
-"placeholder": "Nepoznat",
-
-
-
-
-
 "options": {
 
 
@@ -3892,7 +4287,7 @@
 
 
 
-"tunnel": "Tunel",
+"cutting": "Usjek",
 
 
 
@@ -3906,13 +4301,19 @@
 
 
 
-"cutting": "Usjek"
+"tunnel": "Tunel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nepoznat"
 
 
 
@@ -4008,7 +4409,13 @@
 
 
 
-"label": "Vidljivost staze"
+"label": "Vidljivost staze",
+
+
+
+
+
+"placeholder": "Odlična, dobra, loša..."
 
 
 
@@ -4830,7 +5237,7 @@
 
 
 
-"name": "Autobusna stanica"
+"name": "Autobusni kolodvor"
 
 
 
@@ -5027,6 +5434,22 @@
 
 
 "name": "Fakultetsko zemljište"
+
+
+
+
+},
+
+
+
+
+"amenity/community_centre": {
+
+
+
+
+
+"name": "Društveni centar"
 
 
 
@@ -7080,6 +7503,28 @@
 
 
 
+"craft/hvac": {
+
+
+
+
+
+"name": "HVAC",
+
+
+
+
+
+"terms": "rashladni sustav,klimatizacija,ventilacija,klima,vanjski rashladni sustav,vanjski sustav za grijanje,klimatizacijsko grijaći sustav"
+
+
+
+
+},
+
+
+
+
 "craft/jeweler": {
 
 
@@ -7620,38 +8065,6 @@
 
 
 
-"footway/crossing": {
-
-
-
-
-
-"name": "Pružni prijelaz za pješake"
-
-
-
-
-},
-
-
-
-
-"footway/crosswalk": {
-
-
-
-
-
-"name": "Pješački prijelaz"
-
-
-
-
-},
-
-
-
-
 "footway/sidewalk": {
 
 
@@ -7729,28 +8142,6 @@
 
 
 "terms": "bus stanica,stanica za bus,autobusna stanica,busna stanica"
-
-
-
-
-},
-
-
-
-
-"highway/crossing": {
-
-
-
-
-
-"name": "Pješački prijelaz",
-
-
-
-
-
-"terms": "zebra,pješački prijelaz"
 
 
 
@@ -7885,22 +8276,6 @@
 
 
 "name": "Staza"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "Pješačka zona"
 
 
 
@@ -10647,28 +11022,6 @@
 
 
 "terms": "željeznička stanica,željeznička postaja,stanica za vlak"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Željeznično-cestovni prijelaz",
-
-
-
-
-
-"terms": "žcp,prijelaz preko željezničke pruge,križanje ceste i pruge,križanje pruge i ceste"
 
 
 

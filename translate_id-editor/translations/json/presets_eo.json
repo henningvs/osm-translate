@@ -90,61 +90,7 @@
 
 
 
-"placeholder": "Nekonata",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"bicycle": "Bicikloj",
-
-
-
-
-
-
-"horse": "Ĉevaloj"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Permesita"
-
-
-
-
-
-
-},
 
 
 
@@ -166,7 +112,61 @@
 
 
 
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"title": "Permesita"
+
+
+
+
+
+
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Nekonata",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"bicycle": "Bicikloj",
+
+
+
+
+
+
+"horse": "Ĉevaloj"
 
 
 
@@ -217,21 +217,21 @@
 
 
 
-"housenumber": "123",
-
-
-
-
-
-
-"street": "Strato",
-
-
-
-
-
-
 "city": "Urbo",
+
+
+
+
+
+
+"country": "Lando",
+
+
+
+
+
+
+"housenumber": "123",
 
 
 
@@ -245,7 +245,7 @@
 
 
 
-"country": "Lando"
+"street": "Strato"
 
 
 
@@ -495,13 +495,6 @@
 
 
 
-"yes": "Jes",
-
-
-
-
-
-
 "no": "Ne",
 
 
@@ -509,7 +502,14 @@
 
 
 
-"wlan": "Wi-Fi"
+"wlan": "Wi-Fi",
+
+
+
+
+
+
+"yes": "Jes"
 
 
 
@@ -663,14 +663,14 @@
 
 
 
-"yes": "Jes",
+"no": "Ne",
 
 
 
 
 
 
-"no": "Ne"
+"yes": "Jes"
 
 
 
@@ -699,14 +699,14 @@
 
 
 
-"yes": "Jes",
+"no": "Ne",
 
 
 
 
 
 
-"no": "Ne"
+"yes": "Jes"
 
 
 

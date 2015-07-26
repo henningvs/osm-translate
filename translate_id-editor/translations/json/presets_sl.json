@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Neznano",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Splošno",
-
-
-
-
-
-
-"foot": "Peš",
-
-
-
-
-
-
-"motor_vehicle": "Motorna vozila",
-
-
-
-
-
-
-"bicycle": "Kolesarji",
-
-
-
-
-
-
-"horse": "Konji"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Dovoljeno",
-
-
-
-
-
-
-
-"description": "Dostopno po zakonu; služnostna pravica"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Prepovedano",
-
-
-
-
-
-
-
-"description": "Dostop za splošno javnosto NI dovoljen"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Začasno dovoljen",
-
-
-
-
-
-
-
-"description": "Dostop je dovoljen začasno, dokler lastnik dovoljenja ne prekliče"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Zasebno",
-
-
-
-
-
-
-
-"description": "Dostop je dovoljen samo z osebnim dovoljenjem lastnika"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Namembno",
+"description": "Dostop je dovoljen v skladu z znaki ali posebnimi krajevnimi zakoni",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Dostop je dovoljen v skladu z znaki ali posebnimi krajevnimi zakoni"
+"title": "Namembno"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Za dostavo",
+"description": "Dostop je dovoljen samo za dostavo",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Dostop je dovoljen samo za dostavo"
+"title": "Za dostavo"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Dostop za splošno javnosto NI dovoljen",
+
+
+
+
+
+
+
+"title": "Prepovedano"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Dostop je dovoljen začasno, dokler lastnik dovoljenja ne prekliče",
+
+
+
+
+
+
+
+"title": "Začasno dovoljen"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Dostop je dovoljen samo z osebnim dovoljenjem lastnika",
+
+
+
+
+
+
+
+"title": "Zasebno"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Dostopno po zakonu; služnostna pravica",
+
+
+
+
+
+
+
+"title": "Dovoljeno"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Neznano",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Splošno",
+
+
+
+
+
+
+"bicycle": "Kolesarji",
+
+
+
+
+
+
+"foot": "Peš",
+
+
+
+
+
+
+"horse": "Konji",
+
+
+
+
+
+
+"motor_vehicle": "Motorna vozila"
 
 
 
@@ -498,6 +498,34 @@
 
 
 
+"city": "Mesto",
+
+
+
+
+
+
+"country": "Država",
+
+
+
+
+
+
+"district": "Okrožje",
+
+
+
+
+
+
+"hamlet": "Zaselek",
+
+
+
+
+
+
 "housename": "Hišno/domače ime",
 
 
@@ -512,27 +540,6 @@
 
 
 
-"street": "Ulica",
-
-
-
-
-
-
-"city": "Mesto",
-
-
-
-
-
-
-"postcode": "Poštna številka",
-
-
-
-
-
-
 "place": "Kraj",
 
 
@@ -540,28 +547,7 @@
 
 
 
-"hamlet": "Zaselek",
-
-
-
-
-
-
-"suburb": "Predmestje",
-
-
-
-
-
-
-"subdistrict": "Okraj",
-
-
-
-
-
-
-"district": "Okrožje",
+"postcode": "Poštna številka",
 
 
 
@@ -582,7 +568,21 @@
 
 
 
-"country": "Država"
+"street": "Ulica",
+
+
+
+
+
+
+"subdistrict": "Okraj",
+
+
+
+
+
+
+"suburb": "Predmestje"
 
 
 
@@ -649,6 +649,13 @@
 
 
 
+"both": "Oboje",
+
+
+
+
+
+
 "entry": "Vhod",
 
 
@@ -656,14 +663,7 @@
 
 
 
-"exit": "Izhod",
-
-
-
-
-
-
-"both": "Oboje"
+"exit": "Izhod"
 
 
 
@@ -796,6 +796,13 @@
 
 
 
+"both": "Oboje",
+
+
+
+
+
+
 "entry": "Vhod",
 
 
@@ -803,14 +810,7 @@
 
 
 
-"exit": "Izhod",
-
-
-
-
-
-
-"both": "Oboje"
+"exit": "Izhod"
 
 
 
@@ -1043,63 +1043,7 @@
 
 
 
-"N": "Sever",
-
-
-
-
-
-
 "E": "Vzhod",
-
-
-
-
-
-
-"S": "Jug",
-
-
-
-
-
-
-"W": "Zahod",
-
-
-
-
-
-
-"NE": "Severovzhod",
-
-
-
-
-
-
-"SE": "Jugovzhod",
-
-
-
-
-
-
-"SW": "Jugozahod",
-
-
-
-
-
-
-"NW": "Severozahod",
-
-
-
-
-
-
-"NNE": "Sever-severovzhod",
 
 
 
@@ -1120,6 +1064,55 @@
 
 
 
+"N": "Sever",
+
+
+
+
+
+
+"NE": "Severovzhod",
+
+
+
+
+
+
+"NNE": "Sever-severovzhod",
+
+
+
+
+
+
+"NNW": "Sever-severozahod",
+
+
+
+
+
+
+"NW": "Severozahod",
+
+
+
+
+
+
+"S": "Jug",
+
+
+
+
+
+
+"SE": "Jugovzhod",
+
+
+
+
+
+
 "SSE": "Jug-jugovzhod",
 
 
@@ -1134,7 +1127,14 @@
 
 
 
-"WSW": "Zahod-jugozahod",
+"SW": "Jugozahod",
+
+
+
+
+
+
+"W": "Zahod",
 
 
 
@@ -1148,7 +1148,7 @@
 
 
 
-"NNW": "Sever-severozahod"
+"WSW": "Zahod-jugozahod"
 
 
 
@@ -1183,14 +1183,14 @@
 
 
 
-"clockwise": "V smeri urinega kazalca",
+"anticlockwise": "Proti smeri urinega kazalca",
 
 
 
 
 
 
-"anticlockwise": "Proti smeri urinega kazalca"
+"clockwise": "V smeri urinega kazalca"
 
 
 
@@ -1378,12 +1378,6 @@
 
 
 
-"placeholder": "Elektrificiran tir",
-
-
-
-
-
 "options": {
 
 
@@ -1398,6 +1392,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "rail": "Prevodne tračnice",
 
 
@@ -1405,20 +1406,19 @@
 
 
 
-"yes": "Da (vrsta ni določena)",
+"yes": "Da (vrsta ni določena)"
 
 
 
 
 
-
-"no": "Ne"
-
+},
 
 
 
 
-}
+
+"placeholder": "Elektrificiran tir"
 
 
 
@@ -1556,6 +1556,13 @@
 
 
 
+"pond": "Črpališče iz ribnika",
+
+
+
+
+
+
 "underground": "Podzemni",
 
 
@@ -1563,14 +1570,7 @@
 
 
 
-"wall": "Zidni",
-
-
-
-
-
-
-"pond": "Črpališče iz ribnika"
+"wall": "Zidni"
 
 
 
@@ -2007,13 +2007,6 @@
 
 
 
-"yes": "Da",
-
-
-
-
-
-
 "no": "Ne",
 
 
@@ -2021,7 +2014,7 @@
 
 
 
-"wlan": "Wifi - brezžično",
+"terminal": "Računalniški terminal",
 
 
 
@@ -2035,7 +2028,14 @@
 
 
 
-"terminal": "Računalniški terminal"
+"wlan": "Wifi - brezžično",
+
+
+
+
+
+
+"yes": "Da"
 
 
 
@@ -2257,12 +2257,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2318,7 +2312,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2335,12 +2335,6 @@
 
 
 "label": "Zahtevnost po IMBA",
-
-
-
-
-
-"placeholder": "Nezahtevno, srednje zahtevno, zahtevno",
 
 
 
@@ -2387,7 +2381,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nezahtevno, srednje zahtevno, zahtevno"
 
 
 
@@ -2404,12 +2404,6 @@
 
 
 "label": "Zahtevnost vzpona na kolesu",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3...",
 
 
 
@@ -2463,7 +2457,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2578,6 +2578,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Predpostavljeno: NE",
 
 
@@ -2585,14 +2592,7 @@
 
 
 
-"yes": "Da",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Da"
 
 
 
@@ -2627,6 +2627,13 @@
 
 
 
+"no": "Ne",
+
+
+
+
+
+
 "undefined": "Predpostavljeno: DA",
 
 
@@ -2634,14 +2641,7 @@
 
 
 
-"yes": "Da",
-
-
-
-
-
-
-"no": "Ne"
+"yes": "Da"
 
 
 
@@ -2746,34 +2746,6 @@
 
 
 
-"surface": "Na prostem",
-
-
-
-
-
-
-"multi-storey": "V več nadstropjih",
-
-
-
-
-
-
-"underground": "Podzemno",
-
-
-
-
-
-
-"sheds": "Samostoječa zasebna garaža",
-
-
-
-
-
-
 "carports": "Nadstrešek",
 
 
@@ -2788,7 +2760,35 @@
 
 
 
-"lane": "Pas za parkiranje"
+"lane": "Pas za parkiranje",
+
+
+
+
+
+
+"multi-storey": "V več nadstropjih",
+
+
+
+
+
+
+"sheds": "Samostoječa zasebna garaža",
+
+
+
+
+
+
+"surface": "Na prostem",
+
+
+
+
+
+
+"underground": "Podzemno"
 
 
 
@@ -2838,34 +2838,7 @@
 
 
 
-"placeholder": "Lahke, srednje zahtevne, zahtevne...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Za začetnike",
-
-
-
-
-
-
-"easy": "Lahka",
-
-
-
-
-
-
-"intermediate": "Srednje zahtevna",
 
 
 
@@ -2879,7 +2852,21 @@
 
 
 
+"easy": "Lahka",
+
+
+
+
+
+
 "expert": "Zelo zahtevna",
+
+
+
+
+
+
+"extreme": "Izjemno zahtevna (za vzpon nujna uporaba plezalnih pripomočkov)",
 
 
 
@@ -2893,13 +2880,26 @@
 
 
 
-"extreme": "Izjemno zahtevna (za vzpon nujna uporaba plezalnih pripomočkov)"
+"intermediate": "Srednje zahtevna",
 
 
 
 
 
-}
+
+"novice": "Za začetnike"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Lahke, srednje zahtevne, zahtevne..."
 
 
 
@@ -2928,20 +2928,6 @@
 
 
 
-"classic": "Klasično",
-
-
-
-
-
-
-"mogul": "Grbine",
-
-
-
-
-
-
 "backcountry": "Smučarsko pohodništvo",
 
 
@@ -2949,7 +2935,21 @@
 
 
 
+"classic": "Klasično",
+
+
+
+
+
+
 "classic+skating": "Tek na smučeh - klasična in drsalna tehnika",
+
+
+
+
+
+
+"mogul": "Grbine",
 
 
 
@@ -3005,7 +3005,28 @@
 
 
 
+"hike": "Zimsko pohodništvo",
+
+
+
+
+
+
+"ice_skate": "Drsanje",
+
+
+
+
+
+
 "nordic": "Nordijsko smučanje",
+
+
+
+
+
+
+"playground": "Igrišče",
 
 
 
@@ -3026,13 +3047,6 @@
 
 
 
-"hike": "Zimsko pohodništvo",
-
-
-
-
-
-
 "sleigh": "Snežna vprega",
 
 
@@ -3040,21 +3054,7 @@
 
 
 
-"ice_skate": "Drsanje",
-
-
-
-
-
-
-"snow_park": "Snežni park",
-
-
-
-
-
-
-"playground": "Igrišče"
+"snow_park": "Snežni park"
 
 
 
@@ -3322,34 +3322,7 @@
 
 
 
-"placeholder": "Različne stopnje težavnosti poti...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Hiking",
-
-
-
-
-
-
-"mountain_hiking": "T2: Mountain Hiking",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Demanding Mountain Hiking",
 
 
 
@@ -3370,13 +3343,40 @@
 
 
 
-"difficult_alpine_hiking": "T6: Difficult Alpine Hiking"
+"demanding_mountain_hiking": "T3: Demanding Mountain Hiking",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Difficult Alpine Hiking",
+
+
+
+
+
+
+"hiking": "T1: Hiking",
+
+
+
+
+
+
+"mountain_hiking": "T2: Mountain Hiking"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Različne stopnje težavnosti poti..."
 
 
 
@@ -3494,12 +3494,6 @@
 
 
 
-"placeholder": "Ne, ločeno, da...",
-
-
-
-
-
 "options": {
 
 
@@ -3507,14 +3501,7 @@
 
 
 
-"no": "Prepovedano brez izjem",
-
-
-
-
-
-
-"separated": "Prostor za kadilce, ki ni ločen s pregrado",
+"dedicated": "Namenjeno kadilcem.",
 
 
 
@@ -3528,6 +3515,13 @@
 
 
 
+"no": "Prepovedano brez izjem",
+
+
+
+
+
+
 "outside": "Dovoljeno zunaj.",
 
 
@@ -3535,20 +3529,26 @@
 
 
 
-"yes": "Dovoljeno povsod.",
+"separated": "Prostor za kadilce, ki ni ločen s pregrado",
 
 
 
 
 
 
-"dedicated": "Namenjeno kadilcem."
+"yes": "Dovoljeno povsod."
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Ne, ločeno, da..."
 
 
 
@@ -3570,13 +3570,14 @@
 
 
 
-"placeholder": "Za rolerje, kolesa, terence ...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Robustna kolesa: za treking kolo, avto, rikšo ipd.",
 
 
 
@@ -3597,14 +3598,14 @@
 
 
 
+"horrible": "Terenska vozila: za terenska vozila ipd.",
+
+
+
+
+
+
 "intermediate": "Kolesa: za cestno kolo, invalidski voziček, skuter ipd.",
-
-
-
-
-
-
-"bad": "Robustna kolesa: za treking kolo, avto, rikšo ipd.",
 
 
 
@@ -3618,20 +3619,19 @@
 
 
 
-"horrible": "Terenska vozila: za terenska vozila ipd.",
-
-
-
-
-
-
 "very_horrible": "Posebna terenska vozila: traktor, štirikolesnik, tank, gorsko kolo"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Za rolerje, kolesa, terence ..."
 
 
 
@@ -3739,12 +3739,6 @@
 
 
 
-"placeholder": "Neznano",
-
-
-
-
-
 "options": {
 
 
@@ -3759,7 +3753,7 @@
 
 
 
-"tunnel": "Predor",
+"cutting": "Usek",
 
 
 
@@ -3773,20 +3767,26 @@
 
 
 
-"cutting": "Usek",
+"ford": "Plitvina",
 
 
 
 
 
 
-"ford": "Plitvina"
+"tunnel": "Predor"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Neznano"
 
 
 
@@ -3879,14 +3879,7 @@
 
 
 
-"flush": "Splakovanje",
-
-
-
-
-
-
-"pitlatrine": "Štrbunk",
+"bucket": "Posoda",
 
 
 
@@ -3900,7 +3893,14 @@
 
 
 
-"bucket": "Posoda"
+"flush": "Splakovanje",
+
+
+
+
+
+
+"pitlatrine": "Štrbunk"
 
 
 
@@ -3960,12 +3960,6 @@
 
 
 
-"placeholder": "Trdno, pretežno trdno, mehko...",
-
-
-
-
-
 "options": {
 
 
@@ -4007,7 +4001,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Trdno, pretežno trdno, mehko..."
 
 
 
@@ -4029,13 +4029,14 @@
 
 
 
-"placeholder": "Odlična, dobra, slaba...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Slaba: ni oznak poti, pot ponekod ni vidna oz. je sploh ni",
 
 
 
@@ -4056,21 +4057,14 @@
 
 
 
-"intermediate": "Srednja: le nekaj oznak poti, pot je večinoma vidna",
-
-
-
-
-
-
-"bad": "Slaba: ni oznak poti, pot ponekod ni vidna oz. je sploh ni",
-
-
-
-
-
-
 "horrible": "Obupna: pogosto brezpotje, terja sposobnost orientacije",
+
+
+
+
+
+
+"intermediate": "Srednja: le nekaj oznak poti, pot je večinoma vidna",
 
 
 
@@ -4083,7 +4077,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Odlična, dobra, slaba..."
 
 
 
@@ -8413,50 +8413,6 @@
 
 
 
-"footway/crossing": {
-
-
-
-
-
-"name": "Prehod za pešce",
-
-
-
-
-
-"terms": "zebra"
-
-
-
-
-},
-
-
-
-
-"footway/crosswalk": {
-
-
-
-
-
-"name": "Prehod za pešce",
-
-
-
-
-
-"terms": "prehod,zebra"
-
-
-
-
-},
-
-
-
-
 "footway/sidewalk": {
 
 
@@ -8743,50 +8699,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "Prehod za pešce",
-
-
-
-
-
-"terms": "zebra"
-
-
-
-
-},
-
-
-
-
-"highway/crosswalk": {
-
-
-
-
-
-"name": "Prehod za pešce",
-
-
-
-
-
-"terms": "Prehod,zebra"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -8954,28 +8866,6 @@
 
 
 "terms": "steza,gaz"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "Peš cona",
-
-
-
-
-
-"terms": "pločnik,območje za pešce"
 
 
 
@@ -12484,28 +12374,6 @@
 
 
 "terms": "postaja brez perona in objektov"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Nivojsko križišče",
-
-
-
-
-
-"terms": "andrejev križ,potni prehod"
 
 
 

@@ -1195,6 +1195,82 @@
 },
 
 
+"infobox": {
+
+
+
+"selected": "{n} označených",
+
+
+
+"geometry": "Tvar",
+
+
+
+"closed": "zatvorené",
+
+
+
+"center": "Stred",
+
+
+
+"perimeter": "Obvod",
+
+
+
+"length": "Dĺžka",
+
+
+
+"area": "Plocha",
+
+
+
+"centroid": "Ťažisko",
+
+
+
+"location": "Poloha",
+
+
+
+"metric": "Metrické",
+
+
+
+"imperial": "Imperiálne"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "bod",
+
+
+
+"vertex": "vrchol",
+
+
+
+"line": "čiara",
+
+
+
+"area": "plocha",
+
+
+
+"relation": "relácia"
+
+
+},
+
+
 "geocoder": {
 
 
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "vynulovať"
+"reset": "vynulovať",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Náhľad mapy",
+
+
+
+
+"tooltip": "Zobraz odialenú mapu pre ľahšie lokalizovanie práve zobrazenej oblasti."
+
+
+
+}
 
 
 },
@@ -2084,7 +2178,7 @@
 
 
 
-"editing_saving": "# Upravovanie a ukladanie\n\nTento editor je primárne navrhnutý na prácu online, a aj práve teraz ho používate cez internetovú stránku.\n\n### Výber objektov\n\nPre výber objektu, ako napríklad cesta alebo bod záujmu, naň kliknite na mape. Týmto sa vybraný objekt zvýrazní, otvorí sa panel s jeho detajlami a zobrazí sa ponuka s úkonmi, ktoré môžete s objektom urobiť.\n\nViacero objektov je možné vybrať podržaním klávesu \"Shift\". Potom jednoducho kliknite na objekty, ktoré chcete vybrať, alebo pretiahnite po mape akoby ste chceli nakresliť obdĺžnik. Týmto sa zobrazí rám a vyberú sa všetky objekty, ktoré sa v ňom nachádzajú.\n\n### Ukladanie úprav\n\nKed urobíte zmeny ako úpravy ciest, budov a miest, tieto budú lokálne uložené, až pokiaľ ich neuložíte na server. Netrápte sa ak urobíte chybu. Zmeny môžete vrátit späť kliknutím na tlačítko vrátiť a zopakovať kliknutím na tlačitko zopakovať.\n\nKeď chcete ukončit sériu úprav, kliknite na \"Ulož\". Napríklad  ak ste dokončili časť mesta a chcete začať s inou časťou. Budete mať možnosť si prehliadnuť, čo ste urobili a editor poskytne užitočné návrhy a varovania ak niečo nie je so zmenami vporiadku.\n\nAk všetko vyzerá vporiadku, môžete vyplniť krátky komentár vysvetľujúci, čo ste urobili a kliknite znovu na \"Ulož\" pre odoslanie zmien na [OpenStreetMap.org](http://www.openstreetmap.org/), kde budú viditeľné pre ostatných používateľov a tak dostupné pre ďalšie vylepšenia.\n\nAk nemôžete dokončiť úpravy počas jedného sedenia, môžete zatvoriť okno prehliadača, vrátiť sa späť (na rovnakom prehliadači a počítači) a editor vám ponúkne obnoviť vašu prácu.\n",
+"editing_saving": "# Upravovanie a ukladanie\n\nTento editor je primárne navrhnutý na prácu online, a aj práve teraz\nho používate cez internetovú stránku. \n\n### Výber objektov\n\nPre výber objektu, ako napríklad cesta alebo bod záujmu, naň kliknite\nna mape. Týmto sa vybraný objekt zvýrazní, otvorí sa panel s jeho\ndetajlami a zobrazí sa ponuka s úkonmi, ktoré môžete s objektom urobiť.\n\nViacero objektov je možné vybrať podržaním klávesu \"Shift\". Potom jednoducho\nkliknite na objekty, ktoré chcete vybrať, alebo pretiahnite po mape akoby ste \nchceli nakresliť obdĺžnik. Týmto sa zobrazí rám a vyberú sa všetky objekty, ktoré\nsa v ňom nachádzajú. \n\n### Ukladanie úprav\nKed urobíte zmeny ako úpravy ciest, budov a miest, tieto budú lokálne uložené,\naž pokiaľ ich neuložíte na server. Netrápte sa ak urobíte chybu. Zmeny môžete\nvrátit späť kliknutím na tlačítko vrátiť a zopakovať kliknutím na tlačitko zopakovať. \n\nKeď chcete ukončit sériu úprav, kliknite na \"Ulož\". Napríklad ak ste dokončili\nčasť mesta a chcete začať s inou časťou. Budete mať možnosť si prehliadnuť,\nčo ste urobili a editor poskytne užitočné návrhy a varovania ak niečo nie je so\nzmenami vporiadku.\n\nAk všetko vyzerá vporiadku, môžete vyplniť krátky komentár vysvetľujúci, čo ste\nurobili a kliknite znovu na \"Ulož\" pre odoslanie zmien \nna [OpenStreetMap.org](http://www.openstreetmap.org/), kde budú viditeľné\npre ostatných používateľov a tak dostupné pre ďalšie vylepšenia.\n\nAk nemôžete dokončiť úpravy počas jedného sedenia, môžete zatvoriť okno\nprehliadača, vrátiť sa späť (na rovnakom prehliadači a počítači) a editor vám\nponúkne obnoviť vašu prácu.\n\n### Používanie editora\n\nZoznam dostupných klávesových skratiek je dostupný [tu](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
 
 
 

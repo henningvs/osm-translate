@@ -176,180 +176,7 @@
 
 
 
-"placeholder": "未知",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "總體",
-
-
-
-
-
-
-"foot": "行",
-
-
-
-
-
-
-"motor_vehicle": "車",
-
-
-
-
-
-
-"bicycle": "單車",
-
-
-
-
-
-
-"horse": "馬"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "准許",
-
-
-
-
-
-
-
-"description": "按法例可通，通路之權。"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "禁入",
-
-
-
-
-
-
-
-"description": "公眾不通"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "放任",
-
-
-
-
-
-
-
-"description": "可通，直至地主唔畀。"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "私家",
-
-
-
-
-
-
-
-"description": "要地主批准"
-
-
-
-
-
-
-},
 
 
 
@@ -364,7 +191,7 @@
 
 
 
-"title": "指名",
+"description": "通行與否，按法例或路牌指定",
 
 
 
@@ -372,7 +199,7 @@
 
 
 
-"description": "通行與否，按法例或路牌指定"
+"title": "指名"
 
 
 
@@ -394,7 +221,7 @@
 
 
 
-"title": "目的地",
+"description": "限往目的地",
 
 
 
@@ -402,7 +229,127 @@
 
 
 
-"description": "限往目的地"
+"title": "目的地"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "公眾不通",
+
+
+
+
+
+
+
+"title": "禁入"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "可通，直至地主唔畀。",
+
+
+
+
+
+
+
+"title": "放任"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "要地主批准",
+
+
+
+
+
+
+
+"title": "私家"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "按法例可通，通路之權。",
+
+
+
+
+
+
+
+"title": "准許"
 
 
 
@@ -410,6 +357,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "未知",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "總體",
+
+
+
+
+
+
+"bicycle": "單車",
+
+
+
+
+
+
+"foot": "行",
+
+
+
+
+
+
+"horse": "馬",
+
+
+
+
+
+
+"motor_vehicle": "車"
 
 
 
@@ -460,14 +460,14 @@
 
 
 
-"street": "街",
+"city": "城",
 
 
 
 
 
 
-"city": "城"
+"street": "街"
 
 
 
@@ -732,14 +732,14 @@
 
 
 
-"clockwise": "順時針",
+"anticlockwise": "逆時針",
 
 
 
 
 
 
-"anticlockwise": "逆時針"
+"clockwise": "順時針"
 
 
 
@@ -1224,7 +1224,7 @@
 
 
 
-"wlan": "無綫上網",
+"terminal": "終端機",
 
 
 
@@ -1238,7 +1238,7 @@
 
 
 
-"terminal": "終端機"
+"wlan": "無綫上網"
 
 
 
@@ -1894,12 +1894,6 @@
 
 
 
-"placeholder": "未知",
-
-
-
-
-
 "options": {
 
 
@@ -1914,7 +1908,7 @@
 
 
 
-"tunnel": "隧道",
+"cutting": "開山",
 
 
 
@@ -1928,13 +1922,19 @@
 
 
 
-"cutting": "開山"
+"tunnel": "隧道"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "未知"
 
 
 
@@ -4102,28 +4102,6 @@
 
 
 
-"footway/crossing": {
-
-
-
-
-
-"name": "路口",
-
-
-
-
-
-"terms": "Crossing,路口"
-
-
-
-
-},
-
-
-
-
 "footway/sidewalk": {
 
 
@@ -4388,28 +4366,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "路口",
-
-
-
-
-
-"terms": "Crossing,路口,過路處"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -4555,28 +4511,6 @@
 
 
 "terms": "Path,徑,路徑"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "行人大街",
-
-
-
-
-
-"terms": "Pedestrian,行人大街,行人專用路"
 
 
 
@@ -7767,28 +7701,6 @@
 
 
 "terms": "Railway Halt,小火車站,火車站仔,火車細站"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "平交道口",
-
-
-
-
-
-"terms": "Level Crossing,平交道,平交道口"
 
 
 

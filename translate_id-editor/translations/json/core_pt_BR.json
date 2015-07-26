@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Mensagem de alteração",
+"message_label": "Comentário para o conjunto de alterações",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Edições de {users} e {count} outros"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} selecionados",
+
+
+
+"geometry": "Geometria",
+
+
+
+"closed": "fechado",
+
+
+
+"center": "Centro",
+
+
+
+"perimeter": "Perímetro",
+
+
+
+"length": "Comprimento",
+
+
+
+"area": "Área",
+
+
+
+"centroid": "Centróide",
+
+
+
+"location": "Localização",
+
+
+
+"metric": "Métrico",
+
+
+
+"imperial": "Imperial"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "ponto",
+
+
+
+"vertex": "vértice",
+
+
+
+"line": "linha",
+
+
+
+"area": "área",
+
+
+
+"relation": "relação"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "redefinir"
+"reset": "redefinir",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minimapa",
+
+
+
+
+"tooltip": "Afastar a visualização do mapa para facilitar a localização da área atualmente mostrada."
+
+
+
+}
 
 
 },
@@ -1491,7 +1585,7 @@
 
 
 
-"tooltip": "Calçadas, caminhos, rotas cicláveis etc."
+"tooltip": "Calçadas, Caminhos de Pedestre, Ciclovias, etc."
 
 
 
@@ -2084,7 +2178,7 @@
 
 
 
-"editing_saving": "# Editando e Salvando\n\nEsse editor é feito para trabalhar primariamente online e você está\nneste momento acessando-o através de um sítio eletrônico.\n\n### Selecionando Elementos\n\nPara selecionar um elemento do mapa, como uma estrada ou \num ponto de interesse, clique sobre ele. Isso vai pôr o elemento\nselecionado em destaque, abrir um painel com detalhes sobre\nele e mostrar um menu de coisas que podem ser feitas com ele.\n\nMúltiplos elementos podem ser selecionados segurando a tecla\n\"Shift\", clicando e arrastando no mapa. Isso vai selecionar todos\nos elementos que estiverem dentro da caixa que foi desenhada,\npermitindo você fazer coisas com vários objetos de uma vez\nsó.\n\n### Salvando as Alterações\n\nQuando você faz alterações como editar ruas, prédios e lugares, elas\nsão guardadas localmente até que você as envie para o servidor. Não\nse preocupe se você cometer algum deslize: você pode desfazer\nalterações clicando no botão de desfazer e também refazer as\nalterações clicando no botão de refazer.\n\nClique em \"Salvar\" para salvar um conjunto de alterações. Por exemplo,\nvocê completou uma área de uma cidade e gostaria de começar a\neditar uma outra área. Você terá a chance de revisar o que foi feito\naté o momento e o editor mostrará sugestões e dicas se alguma coisa\nparecer estar errada com as suas alterações.\n\nSe tudo parecer estar OK, você pode inserir um breve comentário\nexplicando as mudanças que você fez e clicar em \"Salvar\" de novo\npara lançar as mudanças para o [OpenStreetMap](http://www.openstreetmap.org/),\nonde elas estarão visíveis para todos os outros usuários.\n\nSe você não conseguir concluir uma sessão de edição, você pode\ndeixar a janela do seu editor aberta e voltar mais tarde (no mesmo\nnavegador e computador) que o editor irá oferecer a possibilidade\nde restaurar o seu trabalho.\n",
+"editing_saving": "# Editando e Salvando\n\nEsse editor é feito para trabalhar on-line e você está neste momento\nacessando-o através de uma página na Internet.\n\n### Selecionando Elementos\n\nPara selecionar um elemento do mapa, como uma estrada ou um ponto de\ninteresse, clique sobre ele. Isso vai pôr o elemento selecionado em destaque,\nabrir um painel com detalhes sobre ele e mostrar um menu de coisas que podem\nser feitas com ele.\n\nMúltiplos elementos podem ser selecionados segurando a\ntecla \"Shift\" e clicando nos quais você quer selecionar ou arrastando no mapa\npara desenhar um retângulo. Isso vai selecionar todos os elementos que\nestiverem dentro da caixa que foi desenhada.\n\n### Salvando Edições\n\nQuando você faz alterações como editar ruas, prédios e locais, elas são\nguardadas localmente até que você as envie para o servidor. Não se preocupe\nse você cometer algum deslize - você pode desfazer alterações clicando no\nbotão de desfazer e também refazer as alterações clicando no botão de refazer.\n\nClique em \"Salvar\" para finalizar um conjunto de alterações. Por exemplo, você\ncompletou uma área de uma cidade e gostaria de começar a editar uma outra\nárea. Você terá a chance de revisar o que foi feito até o momento e o editor\nmostrará sugestões e dicas se alguma coisa parecer estar errada com as suas\nalterações.\n\nSe tudo parecer estar OK, você pode inserir um breve comentário explicando\nas mudanças que você fez e clicar em \"Salvar\" de novo para enviar as mudanças\npara o [OpenStreetMap](http://www.openstreetmap.org/), onde elas estarão\nvisíveis para todos os outros usuários.\n\nSe você não conseguir concluir uma sessão de edição, você pode fechar a\njanela do editor e voltar mais tarde (no mesmo navegador e computador) que\no editor irá oferecer a possibilidade de restaurar o seu trabalho.\n\n### Usando o editor\n\nUma lista com os atalhos de teclado disponíveis pode ser encontrada [aqui](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
 
 
 
@@ -2104,7 +2198,7 @@
 
 
 
-"inspector": "# Usando o Inspetor\n\nO inspetor é a seção no lado direito da página que aparece quando um \nrecurso é selecionado e permite que você edite seus detalhes.\n\n### Selecionando um tipo de recurso\n\nDepois de adicionar um ponto, linha ou área, você pode escolher que \ntipo de característica ele tem, como por exemplo se é uma autoestrada \nou via residencial, supermercado ou cafeteria.\nO inspetor vai exibir botões para os tipos de recursos mais comuns, e \nvocê pode encontrar outros, digitando o que você está procurando na \ncaixa de pesquisa.\n\nClique no botão \"i\" no canto inferior direito de um botão de recurso para\naprender mais sobre ele. Clique em um botão para escolher o tipo.\n\n### Usando formas e editando etiquetas\n\nDepois de escolher um tipo de recurso, ou quando você seleciona um \nrecurso que já tem um tipo atribuído, o inspetor vai exibir campos com \ndetalhes sobre o recurso como seu nome e endereço. \n\nAbaixo dos campos que você vê, você pode clicar nos ícones para adicionar \noutros detalhes, como informações da [Wikipedia] (http://www.wikipedia.org/),\nacesso para cadeirantes, entre outros. \n\nNa parte inferior do inspetor, clique em 'Etiquetas adicionais' para adicionar\noutras etiquetas ao elemento. O [Taginfo] (http://taginfo.openstreetmap.org/) é\num excelente recurso para aprender mais sobre as combinações de etiquetas \nmais populares.\n\nAs alterações feitas no Inspetor são automaticamente aplicadas ao mapa.\nVocê pode desfazê-los a qualquer momento, clicando no botão 'Desfazer'.\n",
+"inspector": "# Usando o Inspetor\n\nO inspetor é a seção no lado esquerdo da página que aparece quando um \nrecurso é selecionado e permite que você edite seus detalhes.\n\n### Selecionando um tipo de recurso\n\nDepois de adicionar um ponto, linha ou área, você pode escolher que \ntipo de característica ele tem, como por exemplo se é uma autoestrada \nou via residencial, supermercado ou cafeteria.\nO inspetor vai exibir botões para os tipos de recursos mais comuns, e \nvocê pode encontrar outros, digitando o que você está procurando na \ncaixa de pesquisa.\n\nClique no botão \"i\" no canto inferior direito de um botão de recurso para\naprender mais sobre ele. Clique em um botão para escolher o tipo.\n\n### Usando formas e editando etiquetas\n\nDepois de escolher um tipo de recurso, ou quando você seleciona um \nrecurso que já tem um tipo atribuído, o inspetor vai exibir campos com \ndetalhes sobre o recurso como seu nome e endereço. \n\nAbaixo dos campos que você vê, você pode clicar nos ícones para adicionar \noutros detalhes, como informações da [Wikipedia] (http://www.wikipedia.org/),\nacesso para cadeirantes, entre outros. \n\nNa parte inferior do inspetor, clique em 'Etiquetas adicionais' para adicionar\noutras etiquetas ao elemento. O [Taginfo] (http://taginfo.openstreetmap.org/) é\num excelente recurso para aprender mais sobre as combinações de etiquetas \nmais populares.\n\nAs alterações feitas no Inspetor são automaticamente aplicadas ao mapa.\nVocê pode desfazê-los a qualquer momento, clicando no botão 'Desfazer'.\n",
 
 
 

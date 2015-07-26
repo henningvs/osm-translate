@@ -1139,7 +1139,7 @@
 
 
 
-"message_label": "Beschrijf wat je gedaan hebt",
+"message_label": "Opmerking bij wijzigingen",
 
 
 
@@ -1190,6 +1190,82 @@
 
 
 "truncated_list": "Aanpassingen door {users} en {count} anderen"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} geselecteerd",
+
+
+
+"geometry": "Meetkundige eigenschappen",
+
+
+
+"closed": "gesloten",
+
+
+
+"center": "Midden",
+
+
+
+"perimeter": "Omtrek",
+
+
+
+"length": "Lengte",
+
+
+
+"area": "Oppervlakte",
+
+
+
+"centroid": "Zwaartepunt",
+
+
+
+"location": "Locatie",
+
+
+
+"metric": "Metrisch",
+
+
+
+"imperial": "Brits"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "punt",
+
+
+
+"vertex": "vertex",
+
+
+
+"line": "lijn",
+
+
+
+"area": "vlak",
+
+
+
+"relation": "relatie"
 
 
 },
@@ -1387,7 +1463,25 @@
 
 
 
-"reset": "Standaard herstellen"
+"reset": "Standaard herstellen",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minikaart",
+
+
+
+
+"tooltip": "Toon een kleine, uitgezoomde kaart om je te helpen oriënteren."
+
+
+
+}
 
 
 },
@@ -2084,7 +2178,7 @@
 
 
 
-"editing_saving": "# Bewerken & Opslaan\n\nDit kaartbewerkingsprogramma is ontworpen om voornamelijk online te gebruikt te worden. Je gebruikt hem op dit moment via een website.\n\n### Objecten Selecteren\n\nOm objecten in een kaart te selecteren, zoals een weg of interessant punt, moet je op de kaart erop klikken. Het geselecteerde object zal dan oplichten, er zal een paneel met details geopend worden en een menu zal getoond worden met dingen die je met dit object kan doen.\n\nOm meerdere objecten te kunnen selecteren, hou je de 'Shift'-toets ingedrukt terwijl je de objecten aanklikt, of terwijl je een rechthoek tekent op de kaart. Dat zal een kader tonen waarbinnen alle objecten geselecteerd worden.\n\n### Bewerkingen Opslaan\n\nAls je wijzigingen maakt, zoals het bewerken van wegen, gebouwen en andere plaatsen, worden deze eerst lokaal bijgehouden totdat je ze op de server opslaat. Maak je geen zorgen als je een fout maakt – je kan wijzigingen altijd ongedaan maken door op de 'Ongedaan maken'-knop te klikken en ze weer herstellen door op de 'Opnieuw doen'-knop te klikken.\n\nKlik op 'Opslaan' om een groep van bewerkingen op te slaan – bijvoorbeeld als je een gebied of dorp hebt afgerond en je aan een ander gebied wil beginnen. Je krijgt de mogelijkheid om te herzien wat je hebt aangepast en de editor geeft je suggesties voor verbeteringen en waarschuwingen als er iets mis lijkt te zijn.\n\nAls alles er goed uit ziet kun je kort commentaar toevoegen, dat de wijziging die je hebt gemaakt beschrijft. Klik daarna nogmaals op 'Opslaan' om de wijzigingen op te sturen naar [OpenStreetMap.org](http://www.openstreetmap.org/), waar ze zichtbaar zijn voor alle gebruikers en voor anderen om op voort te bouwen of te verbeteren.\n\nAls je in een sessie niet al je bewerkingen door kan voeren kun je het venster van de editor sluiten en later terugkomen (in dezelfde browser op dezelfde computer) en de bewerkapplicatie zal je aanbieden je werk te herstellen.\n",
+"editing_saving": "# Bewerken & Opslaan\n\nDit kaartbewerkingsprogramma is ontworpen om voornamelijk online te gebruikt te worden. Je gebruikt hem op dit moment via een website.\n\n### Objecten Selecteren\n\nOm objecten in een kaart te selecteren, zoals een weg of interessant punt, moet je op de kaart erop klikken. Het geselecteerde object zal dan oplichten, er zal een paneel met details geopend worden en een menu zal getoond worden met dingen die je met dit object kan doen.\n\nOm meerdere objecten te kunnen selecteren, hou je de 'Shift'-toets ingedrukt terwijl je de objecten aanklikt, of terwijl je een rechthoek tekent op de kaart. Dat laatste zal een kader tonen waarbinnen alle objecten geselecteerd worden.\n\n### Bewerkingen Opslaan\n\nAls je wijzigingen maakt, zoals het bewerken van wegen, gebouwen en andere plaatsen, worden deze eerst lokaal bijgehouden totdat je ze op de server opslaat. Maak je geen zorgen als je een fout maakt – je kan wijzigingen altijd ongedaan maken door op de 'Ongedaan maken'-knop te klikken en ze weer herstellen door op de 'Opnieuw doen'-knop te klikken.\n\nKlik op 'Opslaan' om een groep van bewerkingen op te slaan – bijvoorbeeld als je een gebied of dorp hebt afgerond en je aan een ander gebied wil beginnen. Je krijgt de mogelijkheid om te herzien wat je hebt aangepast en de editor geeft je suggesties voor verbeteringen en waarschuwingen als er iets mis lijkt te zijn.\n\nAls alles er goed uit ziet kun je kort commentaar toevoegen, dat de wijziging die je hebt gemaakt beschrijft. Klik daarna nogmaals op 'Opslaan' om de wijzigingen op te sturen naar [OpenStreetMap.org](http://www.openstreetmap.org/), waar ze zichtbaar zijn voor alle gebruikers en voor anderen om op voort te bouwen of te verbeteren.\n\nAls je in een sessie niet al je bewerkingen door kan voeren kun je het venster van de editor sluiten en later terugkomen (in dezelfde browser op dezelfde computer) en de bewerkapplicatie zal je aanbieden je werk te herstellen.\n\n### Het kaartbewerkingsprogramma gebruiken\n\nEen lijst van beschikbare sneltoetsen kan je [hier](http://wiki.openstreetmap.org/wiki/NL:iD/Shortcuts) vinden.\n",
 
 
 
@@ -2104,7 +2198,7 @@
 
 
 
-"inspector": "# Het inspectiegereedschap\n\nHet inspectiegereedschap is het schermelement links op de pagina dat verschijnt als een object wordt geselecteerd en maakt het je mogelijk om eigenschappen aan te passen.\n\n### Een objecttype selecteren\n\nNadat je een punt, lijn of vlak hebt toegevoegd, kan je kiezen wat voor type object het is, bijvoorbeeld of het een snelweg of woonerf is, een supermarkt of een café. Het inspectiegereedschap toont knoppen voor veelvoorkomende objecttypen en je kan andere vinden door een term in het zoekscherm in te vullen.\n\nKlik op de 'i' in de rechterbenedenhoek van een objecttypeknop om meer te weten te komen. Klik op een knop om het type te selecteren.\n\n### Formulieren gebruiken en tags bewerken\n\nNadat je een objecttype hebt gekozen, of wanneer je een object selecteert dat al een type toegekend heeft gekregen, dan toont het inspectiegereedschap allerlei eigenschappen van het object, zoals naam en adres.\n\nOnder de getoonde eigenschappen kan je op icoontjes klikken om meer eigenschappen toe te voegen, zoals informatie uit [Wikipedia](http://www.wikipedia.org/), toegankelijkheid voor rolstoelgebruikers, etc.\n\nOnderaan het inspectiegereedschap klik je op 'Extra tags' om andere tags toe te voegen. [Taginfo](http://taginfo.openstreetmap.org/) biedt een prachtig overzicht om meer te weten te komen over veelgebruikte combinaties van tags.\n\nAanpassingen die je in het inspectiegereedschap maakt zijn meteen zichtbaar in de kaart. Je kan ze op ieder moment ongedaan maken, door op de knop 'Ongedaan maken' te klikken.\n",
+"inspector": "# Het inspectiegereedschap\n\nHet inspectie­gereedschap is het schermelement links op de pagina dat verschijnt als een object wordt geselecteerd en maakt het je mogelijk om eigenschappen aan te passen.\n\n### Een objecttype selecteren\n\nNadat je een punt, lijn of vlak hebt toegevoegd, kan je kiezen wat voor type object het is, bijvoorbeeld of het een snelweg of woonerf is, een supermarkt of een café. Het inspectiegereedschap toont knoppen voor veelvoorkomende objecttypen en je kan andere vinden door een term in het zoekscherm in te vullen.\n\nKlik op de 'i' in de rechterbenedenhoek van een objecttypeknop om meer te weten te komen. Klik op een knop om het type te selecteren.\n\n### Formulieren gebruiken en tags bewerken\n\nNadat je een objecttype hebt gekozen, of wanneer je een object selecteert dat al een type toegekend heeft gekregen, dan toont het inspectiegereedschap allerlei eigenschappen van het object, zoals naam en adres.\n\nOnder de getoonde eigenschappen kan je op icoontjes klikken om meer eigenschappen toe te voegen, zoals informatie uit [Wikipedia](http://www.wikipedia.org/), toegankelijkheid voor rolstoelgebruikers, etc.\n\nOnderaan het inspectiegereedschap klik je op 'Extra tags' om andere tags toe te voegen. [Taginfo](http://taginfo.openstreetmap.org/) biedt een prachtig overzicht om meer te weten te komen over veelgebruikte combinaties van tags.\n\nAanpassingen die je in het inspectiegereedschap maakt zijn meteen zichtbaar in de kaart. Je kan ze op ieder moment ongedaan maken, door op de knop 'Ongedaan maken' te klikken.\n",
 
 
 

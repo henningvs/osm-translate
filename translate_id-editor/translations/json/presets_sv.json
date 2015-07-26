@@ -50,7 +50,7 @@
 
 
 
-"name": "Landanvänding"
+"name": "Landanvändning"
 
 
 
@@ -192,180 +192,7 @@
 
 
 
-"placeholder": "Okänt",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Generell",
-
-
-
-
-
-
-"foot": "Fotgängare",
-
-
-
-
-
-
-"motor_vehicle": "Motorfordon",
-
-
-
-
-
-
-"bicycle": "Cyklar",
-
-
-
-
-
-
-"horse": "Hästar"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Tillåtna",
-
-
-
-
-
-
-
-"description": "Tillträde är tillåtet enligt lag"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Förbjudet",
-
-
-
-
-
-
-
-"description": "Tillträde ej tillåten för allmänheten"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Påbjuden",
-
-
-
-
-
-
-
-"description": "Tillträde tillåten fram till dess ägare återkallar tillståndet"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Privat",
-
-
-
-
-
-
-
-"description": "Tillträde tillåten endast med tillstånd av ägaren på individuell basis"
-
-
-
-
-
-
-},
 
 
 
@@ -380,7 +207,7 @@
 
 
 
-"title": "Föredragen",
+"description": "Åtkomst tillåten enligt skyltar eller specifika lokala lagar",
 
 
 
@@ -388,7 +215,7 @@
 
 
 
-"description": "Åtkomst tillåten enligt skyltar eller specifika lokala lagar"
+"title": "Föredragen"
 
 
 
@@ -410,7 +237,7 @@
 
 
 
-"title": "Destination",
+"description": "Åtkomst tillåten endast för att nå en destination",
 
 
 
@@ -418,7 +245,127 @@
 
 
 
-"description": "Åtkomst tillåten endast för att nå en destination"
+"title": "Destination"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Tillträde ej tillåten för allmänheten",
+
+
+
+
+
+
+
+"title": "Förbjudet"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Tillträde tillåten fram till dess ägare återkallar tillståndet",
+
+
+
+
+
+
+
+"title": "Påbjuden"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Tillträde tillåten endast med tillstånd av ägaren på individuell basis",
+
+
+
+
+
+
+
+"title": "Privat"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Tillträde är tillåtet enligt lag",
+
+
+
+
+
+
+
+"title": "Tillåtna"
 
 
 
@@ -426,6 +373,59 @@
 
 
 }
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Okänt",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Generell",
+
+
+
+
+
+
+"bicycle": "Cyklar",
+
+
+
+
+
+
+"foot": "Fotgängare",
+
+
+
+
+
+
+"horse": "Hästar",
+
+
+
+
+
+
+"motor_vehicle": "Motorfordon"
 
 
 
@@ -498,6 +498,41 @@
 
 
 
+"city": "Stad",
+
+
+
+
+
+
+"conscriptionnumber": "123",
+
+
+
+
+
+
+"country": "Land",
+
+
+
+
+
+
+"district": "Distrikt",
+
+
+
+
+
+
+"hamlet": "Småort",
+
+
+
+
+
+
 "housename": "Husnamn",
 
 
@@ -512,27 +547,6 @@
 
 
 
-"street": "Gata",
-
-
-
-
-
-
-"city": "Stad",
-
-
-
-
-
-
-"postcode": "Postnummer",
-
-
-
-
-
-
 "place": "Plats",
 
 
@@ -540,28 +554,7 @@
 
 
 
-"hamlet": "Småort",
-
-
-
-
-
-
-"suburb": "Stadsdel",
-
-
-
-
-
-
-"subdistrict": "Deldistrikt",
-
-
-
-
-
-
-"district": "Distrikt",
+"postcode": "Postnummer",
 
 
 
@@ -582,7 +575,21 @@
 
 
 
-"country": "Land"
+"street": "Gata",
+
+
+
+
+
+
+"subdistrict": "Deldistrikt",
+
+
+
+
+
+
+"suburb": "Stadsdel"
 
 
 
@@ -649,6 +656,13 @@
 
 
 
+"both": "Båda",
+
+
+
+
+
+
 "entry": "Ingång",
 
 
@@ -656,14 +670,7 @@
 
 
 
-"exit": "Utgång",
-
-
-
-
-
-
-"both": "Båda"
+"exit": "Utgång"
 
 
 
@@ -796,6 +803,13 @@
 
 
 
+"both": "Båda",
+
+
+
+
+
+
 "entry": "Ingång",
 
 
@@ -803,14 +817,7 @@
 
 
 
-"exit": "Utgång",
-
-
-
-
-
-
-"both": "Båda"
+"exit": "Utgång"
 
 
 
@@ -843,6 +850,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Typ"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -1075,63 +1098,7 @@
 
 
 
-"N": "Norr",
-
-
-
-
-
-
 "E": "Öster",
-
-
-
-
-
-
-"S": "Söder",
-
-
-
-
-
-
-"W": "Väster",
-
-
-
-
-
-
-"NE": "Nordost",
-
-
-
-
-
-
-"SE": "Sydost",
-
-
-
-
-
-
-"SW": "Sydväst",
-
-
-
-
-
-
-"NW": "Nordväst",
-
-
-
-
-
-
-"NNE": "Nordnordost",
 
 
 
@@ -1152,6 +1119,55 @@
 
 
 
+"N": "Norr",
+
+
+
+
+
+
+"NE": "Nordost",
+
+
+
+
+
+
+"NNE": "Nordnordost",
+
+
+
+
+
+
+"NNW": "Nordnordväst",
+
+
+
+
+
+
+"NW": "Nordväst",
+
+
+
+
+
+
+"S": "Söder",
+
+
+
+
+
+
+"SE": "Sydost",
+
+
+
+
+
+
 "SSE": "Sydsydost",
 
 
@@ -1166,7 +1182,14 @@
 
 
 
-"WSW": "Västsydväst",
+"SW": "Sydväst",
+
+
+
+
+
+
+"W": "Väster",
 
 
 
@@ -1180,7 +1203,7 @@
 
 
 
-"NNW": "Nordnordväst"
+"WSW": "Västsydväst"
 
 
 
@@ -1215,14 +1238,14 @@
 
 
 
-"clockwise": "Medsols",
+"anticlockwise": "Motsols",
 
 
 
 
 
 
-"anticlockwise": "Motsols"
+"clockwise": "Medsols"
 
 
 
@@ -1261,6 +1284,22 @@
 
 
 "label": "Typ"
+
+
+
+
+},
+
+
+
+
+"content": {
+
+
+
+
+
+"label": "Innehåll"
 
 
 
@@ -1366,6 +1405,276 @@
 
 
 
+"cycleway": {
+
+
+
+
+
+"label": "Cykelfiler",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Cykelfil separerad från motortrafik med en målad linje",
+
+
+
+
+
+
+
+"title": "Normal cykelfil"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Ingen cykelfil",
+
+
+
+
+
+
+
+"title": "Ingen"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Cykelfil som går i båda riktningarna på en enkelriktad gata",
+
+
+
+
+
+
+
+"title": "Dubbelriktad cykelfil"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite_lane": {
+
+
+
+
+
+
+
+"description": "Cykelfil som går i motsatt riktning mot övrig trafik",
+
+
+
+
+
+
+
+"title": "Motriktad cykelfil"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"share_busway": {
+
+
+
+
+
+
+
+"description": "Cykelfil delad med bussfil",
+
+
+
+
+
+
+
+"title": "Cykelfil delad med buss"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"shared_lane": {
+
+
+
+
+
+
+
+"description": "Cykelfil utan separation från motortrafik",
+
+
+
+
+
+
+
+"title": "Delad cykelfil"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"track": {
+
+
+
+
+
+
+
+"description": "Cykelfil separerad från trafik med fysisk barriär ",
+
+
+
+
+
+
+
+"title": "Cykelspår"
+
+
+
+
+
+
+}
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Ingen",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"cycleway:left": "Vänster sida",
+
+
+
+
+
+
+"cycleway:right": "Höger sida"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "delivery": {
 
 
@@ -1458,12 +1767,6 @@
 
 
 
-"placeholder": "Kontaktledning, elektrifierad räls...",
-
-
-
-
-
 "options": {
 
 
@@ -1478,6 +1781,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "rail": "Elektrifierad räls",
 
 
@@ -1485,20 +1795,19 @@
 
 
 
-"yes": "Ja (ospecificerad)",
+"yes": "Ja (ospecificerad)"
 
 
 
 
 
-
-"no": "Nej"
-
+},
 
 
 
 
-}
+
+"placeholder": "Kontaktledning, elektrifierad räls..."
 
 
 
@@ -1636,6 +1945,13 @@
 
 
 
+"pond": "Damm",
+
+
+
+
+
+
 "underground": "Underjordisk",
 
 
@@ -1643,14 +1959,7 @@
 
 
 
-"wall": "Vägg",
-
-
-
-
-
-
-"pond": "Damm"
+"wall": "Vägg"
 
 
 
@@ -1784,7 +2093,7 @@
 
 
 
-"label": "Säljer E100"
+"label": "Säljer 100-oktanig bensin"
 
 
 
@@ -1800,7 +2109,7 @@
 
 
 
-"label": "Säljer E91"
+"label": "Säljer 91-oktanig bensin"
 
 
 
@@ -1816,7 +2125,7 @@
 
 
 
-"label": "Säljer E95"
+"label": "Säljer 95-oktanig bensin"
 
 
 
@@ -1832,7 +2141,7 @@
 
 
 
-"label": "Säljer E98"
+"label": "Säljer 98-oktanig bensin"
 
 
 
@@ -1870,20 +2179,7 @@
 
 
 
-"placeholder": "Okänt",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"male": "Man",
 
 
 
@@ -1897,13 +2193,26 @@
 
 
 
+"male": "Man",
+
+
+
+
+
+
 "unisex": "Unisex"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Okänt"
 
 
 
@@ -2126,14 +2435,14 @@
 
 
 
-"up": "Upp",
+"down": "Ner",
 
 
 
 
 
 
-"down": "Ner"
+"up": "Upp"
 
 
 
@@ -2184,13 +2493,6 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
 "no": "Nej",
 
 
@@ -2198,7 +2500,7 @@
 
 
 
-"wlan": "Wifi",
+"terminal": "Terminal",
 
 
 
@@ -2212,7 +2514,14 @@
 
 
 
-"terminal": "Terminal"
+"wlan": "Wifi",
+
+
+
+
+
+
+"yes": "Ja"
 
 
 
@@ -2317,13 +2626,6 @@
 
 
 
-"evergreen": "Vintergröna",
-
-
-
-
-
-
 "deciduous": "Lövfällande",
 
 
@@ -2331,7 +2633,14 @@
 
 
 
-"semi_evergreen": "Delvist vintergröna",
+"evergreen": "Vintergröna",
+
+
+
+
+
+
+"mixed": "Mixat",
 
 
 
@@ -2345,7 +2654,7 @@
 
 
 
-"mixed": "Mixat"
+"semi_evergreen": "Delvist vintergröna"
 
 
 
@@ -2387,7 +2696,7 @@
 
 
 
-"needleleaved": "Barr",
+"leafless": "Utan löv",
 
 
 
@@ -2401,7 +2710,7 @@
 
 
 
-"leafless": "Utan löv"
+"needleleaved": "Barr"
 
 
 
@@ -2440,6 +2749,22 @@
 
 
 "label": "Längd (meter)"
+
+
+
+
+},
+
+
+
+
+"level": {
+
+
+
+
+
+"label": "Våning"
 
 
 
@@ -2553,12 +2878,6 @@
 
 
 
-"placeholder": "0, 1, 2, 3...",
-
-
-
-
-
 "options": {
 
 
@@ -2614,7 +2933,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2631,12 +2956,6 @@
 
 
 "label": "Svårighetsgrad enligt IMBA",
-
-
-
-
-
-"placeholder": "Enkel, medel, svår...",
 
 
 
@@ -2683,7 +3002,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Enkel, medel, svår..."
 
 
 
@@ -2700,12 +3025,6 @@
 
 
 "label": "Mountainbike svårighetsgrad uppför",
-
-
-
-
-
-"placeholder": "0, 1, 2, 3...",
 
 
 
@@ -2759,7 +3078,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "0, 1, 2, 3..."
 
 
 
@@ -2874,6 +3199,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "undefined": "Förväntas vara Nej",
 
 
@@ -2881,14 +3213,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nej"
+"yes": "Ja"
 
 
 
@@ -2923,6 +3248,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "undefined": "Förväntas vara Ja",
 
 
@@ -2930,14 +3262,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nej"
+"yes": "Ja"
 
 
 
@@ -3042,34 +3367,6 @@
 
 
 
-"surface": "Yta",
-
-
-
-
-
-
-"multi-storey": "Flera våningar",
-
-
-
-
-
-
-"underground": "Underjordisk",
-
-
-
-
-
-
-"sheds": "Skjul",
-
-
-
-
-
-
 "carports": "Carportar",
 
 
@@ -3084,7 +3381,35 @@
 
 
 
-"lane": "Fickparkering"
+"lane": "Fickparkering",
+
+
+
+
+
+
+"multi-storey": "Flera våningar",
+
+
+
+
+
+
+"sheds": "Skjul",
+
+
+
+
+
+
+"surface": "Yta",
+
+
+
+
+
+
+"underground": "Underjordisk"
 
 
 
@@ -3134,34 +3459,7 @@
 
 
 
-"placeholder": "Lätt, Medel, Avancerad...",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"novice": "Nybörjare (undervisning)",
-
-
-
-
-
-
-"easy": "Enkel (grön cirkel)",
-
-
-
-
-
-
-"intermediate": "Medel (blå fyrkant)",
 
 
 
@@ -3175,7 +3473,21 @@
 
 
 
+"easy": "Enkel (grön cirkel)",
+
+
+
+
+
+
 "expert": "Expert (dubbel svart diamant)",
+
+
+
+
+
+
+"extreme": "Extrem (klättringsutrustning krävs)",
 
 
 
@@ -3189,13 +3501,26 @@
 
 
 
-"extreme": "Extrem (klättringsutrustning krävs)"
+"intermediate": "Medel (blå fyrkant)",
 
 
 
 
 
-}
+
+"novice": "Nybörjare (undervisning)"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Lätt, Medel, Avancerad..."
 
 
 
@@ -3224,20 +3549,6 @@
 
 
 
-"classic": "Klassisk",
-
-
-
-
-
-
-"mogul": "Puckelpist",
-
-
-
-
-
-
 "backcountry": "Off-pist",
 
 
@@ -3245,7 +3556,21 @@
 
 
 
+"classic": "Klassisk",
+
+
+
+
+
+
 "classic+skating": "Klassisk och skating",
+
+
+
+
+
+
+"mogul": "Puckelpist",
 
 
 
@@ -3301,7 +3626,28 @@
 
 
 
+"hike": "Vandringsled",
+
+
+
+
+
+
+"ice_skate": "Skridskoåkning",
+
+
+
+
+
+
 "nordic": "Längdskidåkning",
+
+
+
+
+
+
+"playground": "Lekplats",
 
 
 
@@ -3322,13 +3668,6 @@
 
 
 
-"hike": "Vandringsled",
-
-
-
-
-
-
 "sleigh": "Slädåkning ",
 
 
@@ -3336,21 +3675,7 @@
 
 
 
-"ice_skate": "Skridskoåkning",
-
-
-
-
-
-
-"snow_park": "Snöpark",
-
-
-
-
-
-
-"playground": "Lekplats"
+"snow_park": "Snöpark"
 
 
 
@@ -3405,6 +3730,22 @@
 
 
 "label": "Typ"
+
+
+
+
+},
+
+
+
+
+"power_supply": {
+
+
+
+
+
+"label": "Strömförsörjning"
 
 
 
@@ -3485,6 +3826,48 @@
 
 
 "label": "Accepterar papper"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"label": "Återvinningstyp",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Återvinningscentral",
+
+
+
+
+
+
+"container": "Container"
+
+
+
+
+
+}
 
 
 
@@ -3618,34 +4001,7 @@
 
 
 
-"placeholder": "Bergsvandring, alpin vandring",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"hiking": "T1: Vandring",
-
-
-
-
-
-
-"mountain_hiking": "T2: Bergsvandring",
-
-
-
-
-
-
-"demanding_mountain_hiking": "T3: Krävande bergsvandring",
 
 
 
@@ -3666,13 +4022,56 @@
 
 
 
-"difficult_alpine_hiking": "T6: Svår alpin vandring"
+"demanding_mountain_hiking": "T3: Krävande bergsvandring",
 
 
 
 
 
-}
+
+"difficult_alpine_hiking": "T6: Svår alpin vandring",
+
+
+
+
+
+
+"hiking": "T1: Vandring",
+
+
+
+
+
+
+"mountain_hiking": "T2: Bergsvandring"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Bergsvandring, alpin vandring"
+
+
+
+
+},
+
+
+
+
+"sanitary_dump_station": {
+
+
+
+
+
+"label": "Latrintömning "
 
 
 
@@ -3733,6 +4132,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "undefined": "Förväntas vara Nej",
 
 
@@ -3740,14 +4146,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nej"
+"yes": "Ja"
 
 
 
@@ -3782,6 +4181,13 @@
 
 
 
+"no": "Nej",
+
+
+
+
+
+
 "undefined": "Förväntas vara Nej",
 
 
@@ -3789,14 +4195,7 @@
 
 
 
-"yes": "Ja",
-
-
-
-
-
-
-"no": "Nej"
+"yes": "Ja"
 
 
 
@@ -3831,14 +4230,7 @@
 
 
 
-"spur": "Industrispår",
-
-
-
-
-
-
-"yard": "Bangård",
+"crossover": "Växelförbindelse",
 
 
 
@@ -3852,7 +4244,14 @@
 
 
 
-"crossover": "Växelförbindelse"
+"spur": "Industrispår",
+
+
+
+
+
+
+"yard": "Bangård"
 
 
 
@@ -3944,12 +4343,6 @@
 
 
 
-"placeholder": "Nej, separat, ja...",
-
-
-
-
-
 "options": {
 
 
@@ -3957,14 +4350,7 @@
 
 
 
-"no": "Rökning ej tillåtet",
-
-
-
-
-
-
-"separated": "I rökområde, ej fysiskt separerat",
+"dedicated": "Dedikerat för rökare (t.ex. rökklubb)",
 
 
 
@@ -3978,6 +4364,13 @@
 
 
 
+"no": "Rökning ej tillåtet",
+
+
+
+
+
+
 "outside": "Tillåtet utomhus",
 
 
@@ -3985,20 +4378,26 @@
 
 
 
-"yes": "Tillåtet överallt",
+"separated": "I rökområde, ej fysiskt separerat",
 
 
 
 
 
 
-"dedicated": "Dedikerat för rökare (t.ex. rökklubb)"
+"yes": "Tillåtet överallt"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Nej, separat, ja..."
 
 
 
@@ -4020,13 +4419,14 @@
 
 
 
-"placeholder": "Tunna hjul, hjul, terräng...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Robusta hjul: trekkingcykel, bil, riksha",
 
 
 
@@ -4047,14 +4447,21 @@
 
 
 
+"horrible": "Terräng: tunga terrängfordon",
+
+
+
+
+
+
+"impassable": "Oframkomligt / Inga hjulfordon",
+
+
+
+
+
+
 "intermediate": "Hjul: cykel, rullstol, scooter",
-
-
-
-
-
-
-"bad": "Robusta hjul: trekkingcykel, bil, riksha",
 
 
 
@@ -4068,27 +4475,19 @@
 
 
 
-"horrible": "Terräng: tunga terrängfordon",
+"very_horrible": "Specialiserade för terräng: traktor, fyrhjuling"
 
 
 
 
 
-
-"very_horrible": "Specialiserade för terräng: traktor, fyrhjuling",
-
+},
 
 
 
 
 
-"impassable": "Oframkomligt / Inga hjulfordon"
-
-
-
-
-
-}
+"placeholder": "Tunna hjul, hjul, terräng..."
 
 
 
@@ -4196,12 +4595,6 @@
 
 
 
-"placeholder": "Okänt",
-
-
-
-
-
 "options": {
 
 
@@ -4216,7 +4609,7 @@
 
 
 
-"tunnel": "Tunnel",
+"cutting": "Vägsnitt",
 
 
 
@@ -4230,20 +4623,26 @@
 
 
 
-"cutting": "Vägsnitt",
+"ford": "Vadställe",
 
 
 
 
 
 
-"ford": "Vadställe"
+"tunnel": "Tunnel"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Okänt"
 
 
 
@@ -4345,20 +4744,7 @@
 
 
 
-"placeholder": "Ja, nej, enbart hämtmat",
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": "Ja",
 
 
 
@@ -4372,13 +4758,26 @@
 
 
 
-"only": "Enbart hämtmat"
+"only": "Enbart hämtmat",
 
 
 
 
 
-}
+
+"yes": "Ja"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Ja, nej, enbart hämtmat"
 
 
 
@@ -4407,14 +4806,7 @@
 
 
 
-"flush": "Spola",
-
-
-
-
-
-
-"pitlatrine": "Grop/Latrin",
+"bucket": "Behållare",
 
 
 
@@ -4428,7 +4820,14 @@
 
 
 
-"bucket": "Behållare"
+"flush": "Spola",
+
+
+
+
+
+
+"pitlatrine": "Grop/Latrin"
 
 
 
@@ -4488,12 +4887,6 @@
 
 
 
-"placeholder": "Fast, Mestadels fast, Mjuk ...",
-
-
-
-
-
 "options": {
 
 
@@ -4535,7 +4928,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Fast, Mestadels fast, Mjuk ..."
 
 
 
@@ -4557,13 +4956,14 @@
 
 
 
-"placeholder": "Utmärkt, bra, dåligt...",
-
-
-
-
-
 "options": {
+
+
+
+
+
+
+"bad": "Dåligt: inga markörer, stig ibland osynlig/stiglös",
 
 
 
@@ -4584,21 +4984,14 @@
 
 
 
-"intermediate": "Medel: få markörer, stig mestadels synliga",
-
-
-
-
-
-
-"bad": "Dåligt: inga markörer, stig ibland osynlig/stiglös",
-
-
-
-
-
-
 "horrible": "Hemsk: ofta stiglös, en del orienteringskunskaper krävs",
+
+
+
+
+
+
+"intermediate": "Medel: få markörer, stig mestadels synliga",
 
 
 
@@ -4611,7 +5004,13 @@
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Utmärkt, bra, dåligt..."
 
 
 
@@ -4685,6 +5084,22 @@
 
 
 
+"water_point": {
+
+
+
+
+
+"label": "Vattenpåfyllning"
+
+
+
+
+},
+
+
+
+
 "waterway": {
 
 
@@ -4707,7 +5122,7 @@
 
 
 
-"label": "Websida",
+"label": "Webbsida",
 
 
 
@@ -5071,7 +5486,7 @@
 
 
 
-"terms": "flygplats, flygfält, flyghamn, aerodrom, landningsplats, lufthamn"
+"terms": "flygplats, flygfält, flyghamn, aerodrom, landningsplats, lufthamn, flygplan"
 
 
 
@@ -5093,7 +5508,7 @@
 
 
 
-"terms": "Flygplansparkering, flygplansplatta, flygplattsplatta, flygparkering, parkering av flygplan, parkering av plan, apron"
+"terms": "Flygplansparkering, flygplansplatta, flygplatsplatta, flygparkering, parkering av flygplan, parkering av plan, apron"
 
 
 
@@ -5115,7 +5530,7 @@
 
 
 
-"terms": "Gate, flyggate, flygplattsgate"
+"terms": "Gate, flyggate, flygplatsgate"
 
 
 
@@ -5137,7 +5552,7 @@
 
 
 
-"terms": "Hangar, garage för flygplan, flygplanshall, flygverkstad, flygplangarage, flyggarage"
+"terms": "Hangar, garage för flygplan, flygplanshall, flygverkstad, flygplansgarage, flyggarage"
 
 
 
@@ -5159,7 +5574,7 @@
 
 
 
-"terms": "Helipad, Helikopterplatta"
+"terms": "Helipad, Helikopterplatta, helikopter"
 
 
 
@@ -5291,7 +5706,7 @@
 
 
 
-"terms": "uttagsautomat, bankomat, minuten, atm, otto"
+"terms": "uttagsautomat, bankomat, minuten, atm, otto, pengar, kontanter"
 
 
 
@@ -5313,7 +5728,7 @@
 
 
 
-"terms": "Bank, kreditinrättning, penninginrättning, penninganstalt, kassa, bankkontor, banklokal, låneinstitut"
+"terms": "Bank, kreditinrättning, penninginrättning, penninganstalt, kassa, bankkontor, banklokal, låneinstitut, insättning, fonder, investering, besparing, bankvalv"
 
 
 
@@ -5335,7 +5750,7 @@
 
 
 
-"terms": "Bar, krog, servering, matställe, pub, cocktailsalong, saloon"
+"terms": "Bar, krog, servering, matställe, pub, cocktailsalong, saloon, öl, sprit"
 
 
 
@@ -5357,7 +5772,7 @@
 
 
 
-"terms": "Grill, Barbecue, eldplats, eldstad, grillplats, grillning, eldning"
+"terms": "Grill, Barbecue, eldplats, eldstad, grillplats, grillning, eldning, bbq"
 
 
 
@@ -5401,7 +5816,7 @@
 
 
 
-"terms": "Cykelparkering, ställplats, cykelställ, Parkering"
+"terms": "Cykelparkering, ställplats, cykelställ, Parkering, cykel"
 
 
 
@@ -5423,7 +5838,7 @@
 
 
 
-"terms": "Cykeluthyrning, cykellån, cykelleasing, lånecykel, hyrcykel"
+"terms": "Cykeluthyrning, cykellån, cykelleasing, lånecykel, hyrcykel, cykel"
 
 
 
@@ -5446,6 +5861,28 @@
 
 
 "terms": "Cykelreparation, kedjebrytare, cykelpump, tryckluft, pumpstation, cykel, "
+
+
+
+
+},
+
+
+
+
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Ölträdgård",
+
+
+
+
+
+"terms": "ölträdgård, Biergarten, uteservering,ölcafé, utecafé, trädgårdspub, öl, sprit"
 
 
 
@@ -5489,7 +5926,7 @@
 
 
 
-"terms": "Växlingskontor, växling, valuta, pengar, pengaväxling, resecheckar "
+"terms": "Växlingskontor, växling, valuta, pengar, pengaväxling, resecheckar, pengaväxlare"
 
 
 
@@ -5533,7 +5970,7 @@
 
 
 
-"terms": "kaffeservering, kaffestuga, kafeteria, cafeteria, servering, konditori, kondis, fik"
+"terms": "kaffeservering, kaffestuga, kafeteria, cafeteria, servering, konditori, kondis, fik, kaffe, te"
 
 
 
@@ -5609,6 +6046,28 @@
 
 
 
+"amenity/casino": {
+
+
+
+
+
+"name": "Kasino",
+
+
+
+
+
+"terms": "Casino, kasino, spelhus, spelhåla, spelrum, spelsalong, hasardspel, spelklubb, kortspel, spel, roulette, Tärning, poker, blackjack"
+
+
+
+
+},
+
+
+
+
 "amenity/charging_station": {
 
 
@@ -5665,7 +6124,7 @@
 
 
 
-"terms": "Bio, Biograf, Biografteater"
+"terms": "Bio, Biograf, Biografteater, film, drive-in, bioduk"
 
 
 
@@ -5687,7 +6146,7 @@
 
 
 
-"terms": "Klinik, vårdcentral, primärvård, distriktsläkare, distriktssköterska, sjukhus"
+"terms": "Klinik, vårdcentral, primärvård, distriktsläkare, distriktssköterska, sjukhus, läkare, doktor, sjukvård"
 
 
 
@@ -5819,7 +6278,7 @@
 
 
 
-"terms": "Tandläkare, tanddoktor, odontolog, tandhygienist, "
+"terms": "Tandläkare, tanddoktor, odontolog, tandhygienist, tänder, tandborstning, tand, tandhygien"
 
 
 
@@ -5841,7 +6300,7 @@
 
 
 
-"terms": "Doktor, vårdcentral, sjukhus, klinik, vårdinrättning, läkare"
+"terms": "Doktor, vårdcentral, sjukhus, klinik, vårdinrättning, läkare, läkare, doktor, sjukvårdare, sjukvård"
 
 
 
@@ -5863,7 +6322,7 @@
 
 
 
-"terms": "Dojo, kampsport, träningslokal, budo, japansk konst, japan, kampkonst"
+"terms": "Dojo, kampsport, träningslokal, budo, japansk konst, japan, kampkonst, dojang"
 
 
 
@@ -5885,7 +6344,7 @@
 
 
 
-"terms": "Dricksvatten, källa, vatten"
+"terms": "Dricksvatten, källa, vatten, fontän"
 
 
 
@@ -5901,7 +6360,7 @@
 
 
 
-"name": "Embassad",
+"name": "Ambassad",
 
 
 
@@ -5929,7 +6388,7 @@
 
 
 
-"terms": "Snabbmat, skräpmat, gatuköksmat, bukfylla, junk-food, gatukök"
+"terms": "Snabbmat, skräpmat, gatuköksmat, bukfylla, junk-food, gatukök, restaurang"
 
 
 
@@ -5995,7 +6454,7 @@
 
 
 
-"terms": "Bensinstation, tapp, mack, bränsle, tankstation"
+"terms": "Bensinstation, tapp, mack, bränsle, tankstation, bensin, diesel, disel, propan"
 
 
 
@@ -6039,7 +6498,7 @@
 
 
 
-"terms": "Sandlåda, sandkista, sandbehållare, halkbekämpning, halka"
+"terms": "Sandlåda, sandkista, sandbehållare, halkbekämpning, halka, sand, salt"
 
 
 
@@ -6061,7 +6520,7 @@
 
 
 
-"terms": "Sjukhusområde, lasarett, sjukhus"
+"terms": "Sjukhusområde, lasarett, sjukhus, klinik, läkare, läkarmottagning, sjukvård, sjukstuga, vårdhem, sjuk, kirurgi"
 
 
 
@@ -6083,7 +6542,7 @@
 
 
 
-"terms": "Förskola, dagis, daghem, lekskola, kindergarten, lekis, lekplats"
+"terms": "Förskola, dagis, daghem, lekskola, kindergarten, lekis, lekplats, "
 
 
 
@@ -6105,7 +6564,7 @@
 
 
 
-"terms": "Bibliotek, boksamling, bokskatt, bokrum, läsesal, bibbla"
+"terms": "Bibliotek, boksamling, bokskatt, bokrum, läsesal, bibbla, bok, böcker"
 
 
 
@@ -6121,7 +6580,7 @@
 
 
 
-"name": "Maknadsplats",
+"name": "Marknadsplats",
 
 
 
@@ -6149,7 +6608,7 @@
 
 
 
-"terms": "Nattklubb, disko, diskotek, klubb, nöjeslokal, dansställe, bar"
+"terms": "Nattklubb, disko, diskotek, klubb, nöjeslokal, dansställe, bar, disco, dans, dansklubb"
 
 
 
@@ -6215,7 +6674,7 @@
 
 
 
-"terms": "Läkemedel, apotek,  läkemedelsaffär, farmaceut, droghandel"
+"terms": "Läkemedel, apotek,  läkemedelsaffär, farmaceut, droghandel, drog, medicin"
 
 
 
@@ -6237,7 +6696,7 @@
 
 
 
-"terms": "Kyrka, tempel, moské, synagoga, gudshus, kyrkobyggnad, kapell, bönehus, böneplats, missionshus, dom, katedral, tabernakel, helgedom, gudstjänstlokal,tro, religion, helgedom, tillbedjan, predikan"
+"terms": "Kyrka, tempel, moské, synagoga, gudshus, kyrkobyggnad, kapell, bönehus, böneplats, missionshus, dom, katedral, tabernakel, helgedom, gudstjänstlokal,tro, religion, helgedom, tillbedjan, predikan, gud, guds hus, bönehus, helgedom, synagoga, tempel, moske"
 
 
 
@@ -6259,7 +6718,7 @@
 
 
 
-"terms": "Buddhism, tempel, Buddha"
+"terms": "Buddhism, tempel, Buddha, kloster, tempel, dojo"
 
 
 
@@ -6281,7 +6740,7 @@
 
 
 
-"terms": "Kyrka, tempel, gudshus, kyrkobyggnad, kapell, bönehus, böneplats, missionshus, dom, katedral, helgedom, gudstjänstlokal,tro, religion, helgedom, kristen, kristendom, församling, tillbedjan, predikan"
+"terms": "Kyrka, tempel, gudshus, kyrkobyggnad, kapell, bönehus, böneplats, missionshus, dom, katedral, helgedom, gudstjänstlokal,tro, religion, helgedom, kristen, kristendom, församling, tillbedjan, predikan, katedral, kor, kapell, guds hus, gud, bönehus, socken, helgedom, tempel"
 
 
 
@@ -6347,7 +6806,7 @@
 
 
 
-"terms": "Polis, ordningsmakt, polisväsende, polismyndighet, polismakt; polisstation, snut, konstapel, poliskonstapel, polisman, pass, "
+"terms": "Polis, ordningsmakt, polisväsende, polismyndighet, polismakt, polisstation, snut, konstapel, poliskonstapel, polisman, pass, kriminalare, lag"
 
 
 
@@ -6369,7 +6828,7 @@
 
 
 
-"terms": "Brevlåda, postlåda, brevinkast"
+"terms": "Brevlåda, postlåda, brevinkast, brev, post"
 
 
 
@@ -6391,7 +6850,7 @@
 
 
 
-"terms": "Postkontor, post, posten, postverk, postväsende, brev, paket, försändelser, postgång"
+"terms": "Postkontor, post, posten, postverk, postväsende, brev, paket, försändelser, postgång, kort, frimärke,"
 
 
 
@@ -6413,7 +6872,7 @@
 
 
 
-"terms": "Pub, bar, ölservering, ölstuga, krog, nattklubb"
+"terms": "Pub, bar, ölservering, ölstuga, krog, nattklubb, öl, sprit"
 
 
 
@@ -6435,7 +6894,7 @@
 
 
 
-"terms": "Offentlig bokhylla, publik bokhylla, begagnade böcker, låneböcker, bokdelning"
+"terms": "Offentlig bokhylla, publik bokhylla, begagnade böcker, låneböcker, bokdelning, bibliotek, bokbyte"
 
 
 
@@ -6457,7 +6916,7 @@
 
 
 
-"terms": "Friluftsanläggningen, friluftsområde, park, friluftsliv, infocenter, informationscenter "
+"terms": "Friluftsanläggningen, friluftsområde, park, friluftsliv, infocenter, informationscenter, besökscenter"
 
 
 
@@ -6479,7 +6938,7 @@
 
 
 
-"terms": "återvinning, återbruk, återvinningsstation, sopstation "
+"terms": "återvinning, återbruk, återvinningsstation, sopstation, burkar, flaskor, skrot, skräp"
 
 
 
@@ -6523,7 +6982,29 @@
 
 
 
-"terms": "Restaurang, matservering, matställe, servering, restauration, näringsställe, grillbar, bar, krog, värdshus, pub, bodega, brasserie, rotisseri, pizzeria, kafé, cafeteria, sylta"
+"terms": "Restaurang, matservering, matställe, servering, restauration, näringsställe, grillbar, bar, krog, värdshus, pub, bodega, brasserie, rotisseri, pizzeria, kafé, cafeteria, sylta, café. matsal, kaffe, lunch"
+
+
+
+
+},
+
+
+
+
+"amenity/sanitary_dump_station": {
+
+
+
+
+
+"name": "Latrintömning",
+
+
+
+
+
+"terms": "Latrintömning, sanitet, campingplats, torrtoalett, toalettömning, Campingtoalett, gråvatten, tömningsplats"
 
 
 
@@ -6545,7 +7026,7 @@
 
 
 
-"terms": "Skolgård, skolområde, Campus, universitetsområde, högskoleområde, universitet, högskola"
+"terms": "Skolgård, skolområde, Campus, universitetsområde, högskoleområde, universitet, högskola, grundskola, mellanstadium, lågstadium, högstadium, gymnasium"
 
 
 
@@ -6567,7 +7048,7 @@
 
 
 
-"terms": "Skydd, tak över huvudet, hydda, vindskydd, koja, väntkur, grotta, väderskydd"
+"terms": "Skydd, tak över huvudet, hydda, vindskydd, koja, väntkur, grotta, väderskydd, lusthus, picknick"
 
 
 
@@ -6633,7 +7114,7 @@
 
 
 
-"terms": "Gruppboende, grupphem, kollektiv, hjälparbete, välgörenhetsorganisationer, välgörenhet"
+"terms": "Gruppboende, grupphem, kollektiv, hjälparbete, välgörenhetsorganisationer, välgörenhet, gammal, ålderdomshem"
 
 
 
@@ -6677,7 +7158,7 @@
 
 
 
-"terms": "Studio, inspelningslokal, utsändningslokal, filmstudio, radiostudio, TV-studio, TV, radio"
+"terms": "Studio, inspelningslokal, utsändningslokal, filmstudio, radiostudio, TV-studio, TV, radio, inspelning, radio, television, filminspelning"
 
 
 
@@ -6721,7 +7202,7 @@
 
 
 
-"terms": "Taxihållplats, taxificka, taxistation"
+"terms": "Taxihållplats, taxificka, taxistation, taxi"
 
 
 
@@ -6765,7 +7246,7 @@
 
 
 
-"terms": "föreställning, teaterföreställning, drama, skådespel, pjäs; skådeplats, skådebana, scen "
+"terms": "föreställning, teaterföreställning, drama, skådespel, pjäs, skådeplats, skådebana, scen, teater, musikal"
 
 
 
@@ -6787,7 +7268,7 @@
 
 
 
-"terms": "Toalett, klosett, vattenklosett, wc, avträde, toa, dass, utedass, bajamaja, torrklosett, hemlighus, klo, mugg, bekvämlighetsinrättning, skithus, Baja-Maja"
+"terms": "Toalett, klosett, vattenklosett, wc, avträde, toa, dass, utedass, bajamaja, torrklosett, hemlighus, klo, mugg, bekvämlighetsinrättning, skithus, Baja-Maja, badrum, latrin, vattentoalett"
 
 
 
@@ -6809,7 +7290,7 @@
 
 
 
-"terms": "Stadshus, förvaltning, myndighet, ämbetsverk, representation, fullmäktige, riksdag, parlament, kommunalhus, samlingsplats, folkets hus, samlingslokal,"
+"terms": "Stadshus, förvaltning, myndighet, ämbetsverk, representation, fullmäktige, riksdag, parlament, kommunalhus, samlingsplats, folkets hus, samlingslokal, by, stad, kommunstyrelse, domstolsbyggnad, kommun"
 
 
 
@@ -6853,7 +7334,7 @@
 
 
 
-"terms": "Varuautomat, varumaskin, godisautomat, tuggummiautomater"
+"terms": "Varuautomat, varumaskin, godisautomat, tuggummiautomater, godisautomat, läsk, biljett, biljetter, biljettautomat, läskautomat, mellanmål"
 
 
 
@@ -6875,7 +7356,7 @@
 
 
 
-"terms": "Veterinär, djurläkare, djurdoktor"
+"terms": "Veterinär, djurläkare, djurdoktor, djurklinik, djursjukhus"
 
 
 
@@ -6897,7 +7378,7 @@
 
 
 
-"terms": "Soptunna, papperskorg, sopkärl, papperskärl, skräpkorg, avfallskorg"
+"terms": "Soptunna, papperskorg, sopkärl, papperskärl, skräpkorg, avfallskorg, skräp, sopor"
 
 
 
@@ -6920,6 +7401,28 @@
 
 
 "terms": "Yta, areal, område, plan, utrymme, fällt, mark"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Vägbeläggning",
+
+
+
+
+
+"terms": "Vägyta, vägplan, köryta, promenatyta, torg"
 
 
 
@@ -7513,7 +8016,7 @@
 
 
 
-"terms": "Gymnasie, gymnasium, gymnasiebyggnad"
+"terms": "Gymnasie, gymnasium, gymnasiebyggnad, universitet"
 
 
 
@@ -7821,7 +8324,7 @@
 
 
 
-"terms": "Förskola, dagis, daghem, lekskola, kindergarten, lekis,  förskolebyggnad, dagisbyggnad, dagishus, förskolehus"
+"terms": "Förskola, dagis, daghem, lekskola, kindergarten, lekis,  förskolebyggnad, dagisbyggnad, dagishus, förskolehus, barnomsorg"
 
 
 
@@ -7931,7 +8434,7 @@
 
 
 
-"terms": "Skolbyggnad, skola, läroanstalt, undervisningsanstalt, lärosäte, grundskola, gymnasium, folkhögskola, läroverk, skolhus, skolväsen, undervisning, utbildning"
+"terms": "Skolbyggnad, skola, läroanstalt, undervisningsanstalt, lärosäte, grundskola, gymnasium, folkhögskola, läroverk, skolhus, skolväsen, undervisning, utbildning, mellanstadium, lågstadium, högstadium, komvux"
 
 
 
@@ -8217,7 +8720,7 @@
 
 
 
-"terms": "Bokbindare, bokbindning, bok, böcker, bindning, bokbinderi"
+"terms": "Bokbindare, bokbindning, bok, böcker, bindning, bokbinderi, bokreparatör"
 
 
 
@@ -8349,7 +8852,7 @@
 
 
 
-"terms": "Fik, Kafé"
+"terms": "Fik, Kafé, sötsaker, kakor, bullar, godis"
 
 
 
@@ -8371,7 +8874,7 @@
 
 
 
-"terms": "Sömmerska, skräddare, Dressmaker, Klädsömmare, sömmnad, sy, kvinnokläder, kläder, klädtillverkning, klänning"
+"terms": "Sömmerska, skräddare, Dressmaker, Klädsömmare, sömnad, sy, kvinnokläder, kläder, klädtillverkning, klänning"
 
 
 
@@ -8393,7 +8896,7 @@
 
 
 
-"terms": "Elektriker, elmontör, elreparatör, montör, el, elmontör, starkströmsmontör, systembyggare"
+"terms": "Elektriker, elmontör, elreparatör, montör, el, elmontör, starkströmsmontör, systembyggare, kabeldragning, elkraft"
 
 
 
@@ -8415,7 +8918,7 @@
 
 
 
-"terms": "Trädgårdsmästare, trädgård, handelsträdgård"
+"terms": "Trädgårdsmästare, trädgård, handelsträdgård, landskapsarkitekt"
 
 
 
@@ -8437,7 +8940,7 @@
 
 
 
-"terms": "glasblåsare, fönster, solskydd, glaskonst, glas"
+"terms": "glasblåsare, fönster, solskydd, glaskonst, glas, målat glas"
 
 
 
@@ -8481,7 +8984,7 @@
 
 
 
-"terms": "VVS, rörmokare, värme, ventilation, sanitet, avlopp, vatten, vattenförsörjning, styrsystem, övervakningssystem, inomhusklimat, energiförsörjning, tryckluft, gas, sprinkler, uppvärmning, installationsteknik, kyla, luftkonditionering, air condition"
+"terms": "VVS, rörmokare, värme, ventilation, sanitet, avlopp, vatten, vattenförsörjning, styrsystem, övervakningssystem, inomhusklimat, energiförsörjning, tryckluft, gas, sprinkler, uppvärmning, installationsteknik, kyla, luftkonditionering, air condition, ventilation"
 
 
 
@@ -8585,7 +9088,7 @@
 
 
 
-"name": "Metalarbete",
+"name": "Metallarbete",
 
 
 
@@ -8987,7 +9490,7 @@
 
 
 
-"terms": "Skräddare, kläder"
+"terms": "Skräddare, kläder, kostym, klänning"
 
 
 
@@ -9097,7 +9600,7 @@
 
 
 
-"terms": "Fönstertillverkare, dörrtillverkare, fönsterinstallatör, dörrinstallatör, dörr, dörrar, fönster, fönsterleverantör, dörrleverantör, fönstermontör, dörrmontör"
+"terms": "Fönstertillverkare, dörrtillverkare, fönsterinstallatör, dörrinstallatör, dörr, dörrar, fönster, fönsterleverantör, dörrleverantör, fönstermontör, dörrmontör, glas"
 
 
 
@@ -9163,7 +9666,7 @@
 
 
 
-"terms": "Ambulansstation, räddningstjänst, ambulans"
+"terms": "Ambulansstation, räddningstjänst, ambulans, räddning"
 
 
 
@@ -9245,13 +9748,13 @@
 
 
 
-"name": "Korsning",
+"name": "Vägpassage",
 
 
 
 
 
-"terms": "Korsning, övergångsställe, övergång, passage, vad, gångpassage"
+"terms": "Vägövergång, övergångsställe, vägpassage, gångvägspassage, gångpassage"
 
 
 
@@ -9267,13 +9770,13 @@
 
 
 
-"name": "Övergångsställe",
+"name": "Övergångsställe för gående",
 
 
 
 
 
-"terms": "Övergångsställe, gångpassage"
+"terms": "Övergångsställe för gående, övergångsställe, Vägövergång, vägpassage, gångvägspassage, gångpassage"
 
 
 
@@ -9537,7 +10040,7 @@
 
 
 
-"terms": "Ridväg, ridstig, häst, rida, ridning"
+"terms": "Ridväg, ridstig, häst, rida, ridning, ryttare, "
 
 
 
@@ -9569,19 +10072,41 @@
 
 
 
+"highway/corridor": {
+
+
+
+
+
+"name": "Korridor inomhus",
+
+
+
+
+
+"terms": "Korridor inomhus, inomhuskorridor, korridor, inomhus, gång,förbindelsegång, gångpassage"
+
+
+
+
+},
+
+
+
+
 "highway/crossing": {
 
 
 
 
 
-"name": "Korsning",
+"name": "Vägkorsning",
 
 
 
 
 
-"terms": "Korsning, kryss, mot, plankorsning"
+"terms": "Korsning, kryss, vägkors, kors, vägskäl, gatukorsning, plankorsning, vägpassage"
 
 
 
@@ -9597,13 +10122,13 @@
 
 
 
-"name": "Övergångsställe",
+"name": "Övergångsställe för gående",
 
 
 
 
 
-"terms": "Övergångsställe, gångpassage"
+"terms": "Övergångsställe för gående, övergångsställe, Vägövergång, vägpassage, gångvägspassage, gångpassage"
 
 
 
@@ -9625,7 +10150,7 @@
 
 
 
-"terms": "cykelväg, cykelled, gc-väg, gång- och cykelväg"
+"terms": "cykelväg, cykelled, gc-väg, gång- och cykelväg, cykel"
 
 
 
@@ -9647,7 +10172,7 @@
 
 
 
-"terms": "gångväg, gc-väg, gång- och cykelväg, stig"
+"terms": "gångväg, gc-väg, gång- och cykelväg, stig, vandring, vandra, löparbana, motionsspår, promenad"
 
 
 
@@ -9779,7 +10304,7 @@
 
 
 
-"terms": "Stig, gång, led, spår, gångväg, vandringsled"
+"terms": "Stig, gång, led, spår, gångväg, vandringsled, vandra, vandring, promenad, löparbana, motionsspår"
 
 
 
@@ -9801,7 +10326,7 @@
 
 
 
-"terms": "Gångbana, gående, fotgängare"
+"terms": "Gågata, gångbana, gående, fotgängare, gånggata, affärsgata, shoppinggata"
 
 
 
@@ -9867,7 +10392,7 @@
 
 
 
-"terms": " racerbana, motorracerbana, motorbana, tävlingsbana, motortävling, rally, rallybana, kappkörning, gokart, go-kart, tävlingsbana"
+"terms": "racerbana, motorracerbana, motorbana, tävlingsbana, motortävling, rally, rallybana, kappkörning, gokart, go-kart, tävlingsbana"
 
 
 
@@ -10153,7 +10678,7 @@
 
 
 
-"terms": "Trappa, trapp, rulltrappa, trappsteg"
+"terms": "Trappa, trapp, rulltrappa, trappsteg, trappor, trappuppgång, trappnedgång"
 
 
 
@@ -10197,7 +10722,7 @@
 
 
 
-"terms": "Gatlampa, Gatubelysning, lampa, belysning, lyktstolpe"
+"terms": "Gatlampa, Gatubelysning, lampa, belysning, lyktstolpe, gatuljus"
 
 
 
@@ -10263,7 +10788,7 @@
 
 
 
-"terms": "Bruksväg, traktorväg, skogsväg, åkerväg, virkesväg, timmerväg, traktor, skogsmaskin, åker, timmer, jordbruk"
+"terms": "Bruksväg, traktorväg, skogsväg, åkerväg, virkesväg, timmerväg, traktor, skogsmaskin, åker, timmer, jordbruk, brandväg, brandgata"
 
 
 
@@ -10285,7 +10810,7 @@
 
 
 
-"terms": "Trafikljus, trafiksignal, stoppljus, signalljus"
+"terms": "Trafikljus, trafiksignal, stoppljus, signalljus, ljus, stoppljus, trafikljus"
 
 
 
@@ -10549,7 +11074,7 @@
 
 
 
-"terms": "Vägkors, kors vid väg, krucifix, pilgim"
+"terms": "Vägkors, kors vid väg, krucifix, pilgrim"
 
 
 
@@ -10999,6 +11524,28 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Plantskola",
+
+
+
+
+
+"terms": "Plantskola, handelsträdgård "
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
@@ -11109,6 +11656,28 @@
 
 
 
+"leisure/adult_gaming_centre": {
+
+
+
+
+
+"name": "Center för vuxenspel",
+
+
+
+
+
+"terms": "Center för vuxenspel, vuxenspel, spelmaskiner, spel, spelmaskin, flipperspel, flipper"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
@@ -11121,7 +11690,7 @@
 
 
 
-"terms": "Allmänning, allmän mark, fritt tillträde"
+"terms": "Allmänning, allmän mark, fritt tillträde, öppet område"
 
 
 
@@ -11165,7 +11734,7 @@
 
 
 
-"terms": "Eldstad, eldgrop, lägerplats, lägereld, brasa, grill, grillplats, grillning, eldning"
+"terms": "Eldstad, eldgrop, lägerplats, lägereld, brasa, grill, grillplats, grillning, eldning, campingbrasa"
 
 
 
@@ -11231,7 +11800,7 @@
 
 
 
-"terms": "Skridskobana, ishall, ishockey, ishockeybana, isrink, konstisbana, isbana, skridsko, skridskohall, ishockeyhall"
+"terms": "Skridskobana, ishall, ishockey, ishockeybana, isrink, konstisbana, isbana, skridsko, skridskohall, ishockeyhall, hockey, skridskoåkning, curling"
 
 
 
@@ -11253,7 +11822,7 @@
 
 
 
-"terms": "Marina, småbårtshamn, hamn, småbåt, segelbåt, yacht, fritidsbåt, gästhamn"
+"terms": "Marina, småbåtshamn, hamn, småbåt, segelbåt, yacht, fritidsbåt, gästhamn, båt"
 
 
 
@@ -11297,7 +11866,7 @@
 
 
 
-"terms": "rekreationsområde, friluftsområde, trädgård, plantering, grönområde, lund, stadsoas, oas "
+"terms": "rekreationsområde, friluftsområde, trädgård, plantering, grönområde, lund, stadsoas, oas, esplanad, skog, park, gräs, gräsmatta, äng, lekplats, nöjesträdgård, plaza, skogsmark"
 
 
 
@@ -11319,7 +11888,7 @@
 
 
 
-"terms": "Picknickbord, bord, Picknick, matbord, utflyktsbord, utebord"
+"terms": "Picknickbord, bord, Picknick, matbord, utflyktsbord, utebord, bänk"
 
 
 
@@ -11341,7 +11910,7 @@
 
 
 
-"terms": "Idrottsplats,  idrottsplan, plan,  idrottsanläggning, arena, stadion, sportplats"
+"terms": "Idrottsplats,  idrottsplan, plan,  idrottsanläggning, arena, stadion, sportplats, fällt"
 
 
 
@@ -11517,7 +12086,7 @@
 
 
 
-"terms": "Lekplats, lekområde, lekpark"
+"terms": "Lekplats, lekområde, lekpark, klätterställning, gunga"
 
 
 
@@ -11561,7 +12130,7 @@
 
 
 
-"terms": "Stapelbädd, Sjösättningsplats, staplar, varv, docka, fartygsdocka, torrdocka, båtramp"
+"terms": "Stapelbädd, Sjösättningsplats, staplar, varv, docka, fartygsdocka, torrdocka, båtramp, sjösättning, båtramp"
 
 
 
@@ -11703,6 +12272,28 @@
 
 
 
+"man_made/adit": {
+
+
+
+
+
+"name": "Horisontell gruvgång (Stoll)",
+
+
+
+
+
+"terms": "stoll, gruva, gruvgång, horisontell gruvgång, gruvgång, gruvingång, gruvhål, dagort, sidoort, Stollen, lichtloch"
+
+
+
+
+},
+
+
+
+
 "man_made/breakwater": {
 
 
@@ -11813,6 +12404,28 @@
 
 
 
+"man_made/mast": {
+
+
+
+
+
+"name": "Radiomast",
+
+
+
+
+
+"terms": "radiomast, mast, antenn, mobilmast, mobilantenn, radioantenn, sändartorn, mobiltelefon, radiomast, TV-torn, radiosändning"
+
+
+
+
+},
+
+
+
+
 "man_made/observation": {
 
 
@@ -11825,7 +12438,29 @@
 
 
 
-"terms": "Utkikstorn, utsiktstorn, observationstorn, utsiktspost, observationspost"
+"terms": "Utkikstorn, utsiktstorn, observationstorn, utsiktspost, observationspost, brandtorn"
+
+
+
+
+},
+
+
+
+
+"man_made/petroleum_well": {
+
+
+
+
+
+"name": "Oljeborr",
+
+
+
+
+
+"terms": "Oljeborr, olja, petroleum, Oljeborrning, oljetorn, oljepump"
 
 
 
@@ -11870,6 +12505,50 @@
 
 
 "terms": "Pipeline, rörledning, ledning, oljeledning, avloppsledning, vattenledning"
+
+
+
+
+},
+
+
+
+
+"man_made/silo": {
+
+
+
+
+
+"name": "Silo",
+
+
+
+
+
+"terms": "Silo, spannmålslagring, spannmål, spannmålssilo, fodersilo"
+
+
+
+
+},
+
+
+
+
+"man_made/storage_tank": {
+
+
+
+
+
+"name": "Lagringstank",
+
+
+
+
+
+"terms": "Lagringstank, tank, reservoar, vattentorn, cistern"
 
 
 
@@ -11935,7 +12614,7 @@
 
 
 
-"terms": "Avloppsreningsverk, reningsverk, avloppsverk"
+"terms": "Avloppsreningsverk, reningsverk, avloppsverk, avlopp, vattenreningsverk, vattenrening"
 
 
 
@@ -12045,7 +12724,7 @@
 
 
 
-"terms": "Baracker, barack, militärbarack, inkvartering, förläggning, kersern "
+"terms": "Baracker, barack, militärbarack, inkvartering, förläggning, kasern "
 
 
 
@@ -12221,7 +12900,7 @@
 
 
 
-"terms": "kustlinje, kustremsa, kust, hav, ö, strand"
+"terms": "kustlinje, kustremsa, kust, hav, ö, strand, kust"
 
 
 
@@ -12243,7 +12922,7 @@
 
 
 
-"terms": "Fjäll, trädgräns, högfjäll, fjällanskap"
+"terms": "Fjäll, trädgräns, högfjäll, fjällandskap"
 
 
 
@@ -12259,13 +12938,13 @@
 
 
 
-"name": "Glassiär",
+"name": "Glaciär",
 
 
 
 
 
-"terms": "Glassiär, landis, ismassa, jökel, gletscher"
+"terms": "Glaciär, landis, ismassa, jökel, gletscher"
 
 
 
@@ -12331,7 +13010,29 @@
 
 
 
-"terms": "Bergstopp, berg, alp, hjässa, kalott, klack, klint, klätt"
+"terms": "Bergstopp, berg, alp, hjässa, kalott, klack, klint, klätt, kulle, höjdpunkt, höjd, topp"
+
+
+
+
+},
+
+
+
+
+"natural/saddle": {
+
+
+
+
+
+"name": "Bergskam",
+
+
+
+
+
+"terms": "Bergskam, bergskrön, bergskrön, berg, dal, dalgång"
 
 
 
@@ -12353,7 +13054,7 @@
 
 
 
-"terms": "Stensamling, röse, Taluskon, stenras, stenanhopning"
+"terms": "Stensamling, röse, Taluskon, stenras, stenanhopning, lösa block, block"
 
 
 
@@ -12429,6 +13130,50 @@
 
 
 
+"natural/tree_row": {
+
+
+
+
+
+"name": "Träallé",
+
+
+
+
+
+"terms": "Träallé, allé, trädrad, aveny, esplanad, boulevard, trädkantad väg, lövgång"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Vulkan",
+
+
+
+
+
+"terms": "Vulkan, berg, krater, vulkankrater, lava, magma, "
+
+
+
+
+},
+
+
+
+
 "natural/water": {
 
 
@@ -12485,7 +13230,7 @@
 
 
 
-"terms": "damm, tjärn, göl "
+"terms": "damm, tjärn, göl, liten sjö, kvarndamm, tjärn"
 
 
 
@@ -12551,7 +13296,7 @@
 
 
 
-"terms": "skog, Urskog, djungel, bush, regnskog, vildmark"
+"terms": "skog, Urskog, djungel, bush, regnskog, vildmark, träd"
 
 
 
@@ -12705,7 +13450,7 @@
 
 
 
-"terms": "Arbetsförmedling, arbetsförmedlingen, arbetslös, arbetssökande, förmedling"
+"terms": "Arbetsförmedling, arbetsförmedlingen, arbetslös, arbetssökande, förmedling, jobb"
 
 
 
@@ -12815,7 +13560,7 @@
 
 
 
-"terms": "IT-kontor, datorföretag, dataföretag, IT-företag, informationsteknologi, dotcomföretag, IT-kunsult, datakonsult, datorkonsult, helpdesk"
+"terms": "IT-kontor, datorföretag, dataföretag, IT-företag, informationsteknologi, dotcomföretag, IT-konsult, datakonsult, datorkonsult, helpdesk"
 
 
 
@@ -12881,7 +13626,7 @@
 
 
 
-"terms": "Icke-statlig organisation, organisation, hjälporganisation, fackförening, ideell förening, ideell, förening, icke-kommersiel, frivilligorganisation, frivillig, intresseorganisation"
+"terms": "Icke-statlig organisation, organisation, hjälporganisation, fackförening, ideell förening, ideell, förening, icke-kommersiell, frivilligorganisation, frivillig, intresseorganisation"
 
 
 
@@ -13035,7 +13780,7 @@
 
 
 
-"terms": "Pist, skidspår, skidbacke, slalombacke, skidbana, utförsåkning, längdskidåkning, längdskidspår"
+"terms": "Pist, skidspår, skidbacke, slalombacke, skidbana, utförsåkning, längdskidåkning, längdskidspår, skidor, skida, pulka, snowboard, utförsåkning, skoter"
 
 
 
@@ -13089,6 +13834,28 @@
 
 
 
+"place/farm": {
+
+
+
+
+
+"name": "Gård",
+
+
+
+
+
+"terms": "gård, jordbruk, lantgård, farm, bondgård, lantbruk, lantegendom"
+
+
+
+
+},
+
+
+
+
 "place/hamlet": {
 
 
@@ -13123,7 +13890,7 @@
 
 
 
-"terms": "ö, holme, skär, kobbe, klippa, rev, atoll"
+"terms": "ö, holme, skär, kobbe, klippa, rev, atoll, skärgård, rev"
 
 
 
@@ -13607,7 +14374,7 @@
 
 
 
-"terms": "Bergbana"
+"terms": "Bergbana, linbana"
 
 
 
@@ -13645,13 +14412,13 @@
 
 
 
-"name": "Plankorsning",
+"name": "Järnvägskorsning",
 
 
 
 
 
-"terms": "Korsning, järnvägskorsning, kryss, vägkors, kors, vägkors, vägskäl, gatukorsning, plankorsning"
+"terms": "Järnvägskorsning, järnvägsövergång, järnvägspassage, spårpassage, tågövergång, tågkorsning"
 
 
 
@@ -13761,7 +14528,7 @@
 
 
 
-"terms": "Järnvägsstation, station, central, centralstation"
+"terms": "Järnvägsstation, station, central, centralstation, tåg, tågstation"
 
 
 
@@ -13937,7 +14704,7 @@
 
 
 
-"terms": "Vinaffär, spritaffär, vin- och sprit, vin- och spritaffär, systemet, systembolaget, bolaget"
+"terms": "Vinaffär, spritaffär, vin- och sprit, vin- och spritaffär, systemet, systembolaget, bolaget, alkohol, öl, vin, sprit"
 
 
 
@@ -14047,7 +14814,7 @@
 
 
 
-"terms": "Väskaffär, väskor, resväskor, bagage, bagageväskor, handväskor"
+"terms": "Väskaffär, väskor, resväskor, bagage, bagageväskor, handväskor, handväska, plånbok"
 
 
 
@@ -14113,7 +14880,7 @@
 
 
 
-"terms": "Skönhetssalong, skönhet, skönhetsbehandlingar, nagelsalong, solarium, shiatsu, massage, spa, hälsoanläggning, kuranstalt, kurort, kosmetik, smink"
+"terms": "Skönhetssalong, skönhet, skönhetsbehandlingar, nagelsalong, solarium, shiatsu, massage, spa, hälsoanläggning, kuranstalt, kurort, kosmetik, smink, naglar, salong"
 
 
 
@@ -14333,7 +15100,7 @@
 
 
 
-"terms": "Bildelar, biltillbehör, reservdelar, bilreservdelar"
+"terms": "Bildelar, biltillbehör, reservdelar, bilreservdelar, motor"
 
 
 
@@ -14355,7 +15122,7 @@
 
 
 
-"terms": "Bilverkstad, verkstad, bilreparatör"
+"terms": "Bilverkstad, verkstad, bilreparatör, motor"
 
 
 
@@ -14377,7 +15144,7 @@
 
 
 
-"terms": "Mattaffär, mattor"
+"terms": "Mattaffär, mattor, matta"
 
 
 
@@ -14487,7 +15254,7 @@
 
 
 
-"terms": "Datorbutik, datoraffär, data, dator, datorer, datorhårdvara, datorprogram, datortförsäljning "
+"terms": "Datorbutik, datoraffär, data, dator, datorer, datorhårdvara, datorprogram, datorförsäljning"
 
 
 
@@ -14531,7 +15298,7 @@
 
 
 
-"terms": "Närbutik, kvartersbutik, livsmedelbutik, livsmedel, mataffär"
+"terms": "Närbutik, kvartersbutik, livsmedelsbutik, livsmedel, mataffär"
 
 
 
@@ -14619,7 +15386,7 @@
 
 
 
-"terms": "Gardinaffär, gardiner, draperier"
+"terms": "Gardinaffär, gardiner, draperier, drapera, fönster"
 
 
 
@@ -14641,7 +15408,7 @@
 
 
 
-"terms": "Mejeriaffär, mejeri, mjölk, mjölkaffär"
+"terms": "Mejeriaffär, mejeri, mjölk, mjölkaffär, ägg, ost"
 
 
 
@@ -14663,7 +15430,7 @@
 
 
 
-"terms": "Delikatessaffär, delikatess, delikatesser, finmat"
+"terms": "Delikatessaffär, delikatess, delikatesser, finmat, lunch, kött, smörgås"
 
 
 
@@ -14751,7 +15518,7 @@
 
 
 
-"terms": "Elektronikbutik, hemelektronik, TV, radio, dator, datorer, kylskåp, spisar, vitvaror, tvättmaskin, torktumlare, hushållsapparater, kablar, batterier"
+"terms": "Elektronikbutik, hemelektronik, TV, radio, dator, datorer, kylskåp, spisar, vitvaror, tvättmaskin, torktumlare, hushållsapparater, kablar, batterier, apparater, ljud"
 
 
 
@@ -14795,7 +15562,7 @@
 
 
 
-"terms": "Tygaffär, tyger, tyg, sömnad"
+"terms": "Tygaffär, tyger, tyg, sömnad, sy"
 
 
 
@@ -14927,7 +15694,7 @@
 
 
 
-"terms": "begravningsbyrå, begravningsceremoni, begravning, bodelning, jordfästning, gravsättning, kremering"
+"terms": "begravningsbyrå, begravningsceremoni, begravning, bodelning, jordfästning, gravsättning, kremering, begravningsentreprenör, gravsten, gravstenar"
 
 
 
@@ -14949,7 +15716,7 @@
 
 
 
-"terms": "Värmepannor, pannor, uppvärmning, ugnar, värmesystem, ugn, kakelugn, kamin"
+"terms": "Värmepannor, pannor, uppvärmning, ugnar, värmesystem, ugn, kakelugn, kamin, spis"
 
 
 
@@ -14971,7 +15738,7 @@
 
 
 
-"terms": "Möbelaffär, möbelgrossist, möbelvaruhus, inredning"
+"terms": "Möbelaffär, möbelgrossist, möbelvaruhus, inredning, stolar, soffor, soffa, stol, bord, hylla"
 
 
 
@@ -14993,7 +15760,7 @@
 
 
 
-"terms": "Trädgårdscenter, plantskola, blommor, blomkrukor, krukväxter, buskar, träd, trädgårdsväxter, trädgård, trädgårdsverktyg, planteringsjord, jord"
+"terms": "Trädgårdscenter, plantskola, blommor, blomkrukor, krukväxter, buskar, träd, trädgårdsväxter, trädgård, trädgårdsverktyg, planteringsjord, jord, landskap, kompost, jord"
 
 
 
@@ -15147,7 +15914,7 @@
 
 
 
-"terms": "HIFI-butik, hifi, ljud, ljudåtergivning, förstärkare, högtalare, ljudanläggning, audio, stereo, stereoanläggning"
+"terms": "HIFI-butik, hifi, ljud, ljudåtergivning, förstärkare, högtalare, ljudanläggning, audio, stereo, stereoanläggning, video"
 
 
 
@@ -15169,7 +15936,7 @@
 
 
 
-"terms": "husgeråd, köksredskap, bestick, porslin, prydnadsföremål"
+"terms": "husgeråd, köksredskap, bestick, porslin, prydnadsföremål, hem, hushåll"
 
 
 
@@ -15213,7 +15980,7 @@
 
 
 
-"terms": "Juvelare, smycken, halsband, ring, ringar, örhänge, örhängen, klocka, klockor, guld, silver"
+"terms": "Juvelerare, smycken, halsband, ring, ringar, örhänge, örhängen, klocka, klockor, guld, silver, diamant, pärla, pärlor"
 
 
 
@@ -15323,7 +16090,7 @@
 
 
 
-"terms": "Låssmed, nyckeltillverkning, nyckelkopiering, nyckel, lås, låsinstallation, dyrkning"
+"terms": "Låssmed, nyckeltillverkning, nyckelkopiering, nyckel, lås, låsinstallation, dyrkning, Låsdyrkning "
 
 
 
@@ -15499,7 +16266,7 @@
 
 
 
-"terms": "Musikaffär, musikbutik, CD-affär, CD, kasset, vinyl, LP, skivaffär , skivbutik"
+"terms": "Musikaffär, musikbutik, CD-affär, CD, kassett, vinyl, LP, skivaffär , skivbutik"
 
 
 
@@ -15565,7 +16332,7 @@
 
 
 
-"terms": "Optiker, synundersökning, glasögon, linser"
+"terms": "Optiker, synundersökning, glasögon, linser, ögon"
 
 
 
@@ -15653,7 +16420,7 @@
 
 
 
-"terms": "pantbank, pantbanken, \tpantbelåning,\tpantlånekontor, varubelåning, pant"
+"terms": "pantbank, pantbanken, pantbelåning, pantlånekontor, varubelåning, pant"
 
 
 
@@ -15675,7 +16442,7 @@
 
 
 
-"terms": "Djuraffär, djur, husdjur, hund, hundar, katt, katter, djurmat, djurtillbehör, djurburar, akvarium"
+"terms": "Djuraffär, djur, husdjur, hund, hundar, katt, katter, djurmat, djurtillbehör, djurburar, akvarium, hund, fisk"
 
 
 
@@ -15697,7 +16464,7 @@
 
 
 
-"terms": "fotoaffär, bild, foto, video, fotografi, fotoredigering, framkallning, ram, kameratillbehör, kamera, kameror, filmkamera, fotokamera, konvertering"
+"terms": "fotoaffär, bild, foto, video, fotografi, fotoredigering, framkallning, ram, kameratillbehör, kamera, kameror, filmkamera, fotokamera, konvertering, film"
 
 
 
@@ -15895,7 +16662,7 @@
 
 
 
-"terms": "pappersvaror , pappershandel, papper, anteckningsböcker, grattiskort, kuvert, pennor, Kontorsmaterial "
+"terms": "pappersvaror , pappershandel, papper, anteckningsböcker, grattiskort, kuvert, pennor, Kontorsmaterial, kort, papper"
 
 
 
@@ -15917,7 +16684,7 @@
 
 
 
-"terms": "självbetjäningsbutik, självköp, supermarket, snabbköp, dagligvarubutik, affär, mataffär"
+"terms": "självbetjäningsbutik, självköp, supermarket, snabbköp, dagligvarubutik, affär, mataffär, livsmedel, livsmedelsbutik, mat"
 
 
 
@@ -15939,7 +16706,7 @@
 
 
 
-"terms": "Skräddare, kläder"
+"terms": "Skräddare, kläder, kostym, klänning"
 
 
 
@@ -16247,7 +17014,7 @@
 
 
 
-"terms": "Vapenaffär, vapen, ammunition, jakt, skjutvapen"
+"terms": "Vapenaffär, vapen, ammunition, jakt, skjutvapen, kniv, knivar, pistol"
 
 
 
@@ -16357,7 +17124,7 @@
 
 
 
-"terms": "Konst, publik konst, gatukonst, offentlig konst"
+"terms": "Konst, publik konst, gatukonst, offentlig konst, väggmålning, målning, skulptur, staty"
 
 
 
@@ -16467,7 +17234,7 @@
 
 
 
-"terms": "Gästhus, vandrarhem, övernattningsställe, logi, pensionat , Bed & Breakfast."
+"terms": "Gästhus, vandrarhem, övernattningsställe, logi, pensionat, Bed & Breakfast, B&D"
 
 
 
@@ -16577,7 +17344,7 @@
 
 
 
-"terms": "museum, samling, konstsamling, museibyggnad, vetenskap, historia, historik, historia, konst, arkeologi"
+"terms": "museum, samling, konstsamling, museibyggnad, vetenskap, historia, historik, historia, konst, arkeologi, utställning, galleri"
 
 
 
@@ -16599,7 +17366,7 @@
 
 
 
-"terms": "Picknickplats, rastplats, picknick, utflykt"
+"terms": "Picknickplats, rastplats, picknick, utflykt, camping, campingplats"
 
 
 
@@ -17423,6 +18190,28 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Sjömack",
+
+
+
+
+
+"terms": "Sjömack, båtmack, bränslestation, tankstation båtbensninmack, båtmensinstation"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -17479,7 +18268,7 @@
 
 
 
-"terms": "vattendrag, bäck, dike"
+"terms": "vattendrag, bäck, dike, biflöde, flöde, ström, flod, flöde, rännil, biflod"
 
 
 

@@ -28,6 +28,22 @@
 
 
 
+"category-golf": {
+
+
+
+
+
+"name": "Golf"
+
+
+
+
+},
+
+
+
+
 "category-landuse": {
 
 
@@ -67,6 +83,22 @@
 
 
 "name": "Lestarteinar"
+
+
+
+
+},
+
+
+
+
+"category-restriction": {
+
+
+
+
+
+"name": "Takmörkun"
 
 
 
@@ -119,6 +151,22 @@
 
 
 
+},
+
+
+
+
+"category-water-line": {
+
+
+
+
+
+"name": "Vatn"
+
+
+
+
 }
 
 
@@ -144,180 +192,7 @@
 
 
 
-"placeholder": "Óþekkt",
-
-
-
-
-
-"types": {
-
-
-
-
-
-
-"access": "Almennt",
-
-
-
-
-
-
-"foot": "Fótgangandi",
-
-
-
-
-
-
-"motor_vehicle": "Vélknúin ökutæki",
-
-
-
-
-
-
-"bicycle": "Hjól",
-
-
-
-
-
-
-"horse": "Hestar"
-
-
-
-
-
-},
-
-
-
-
-
 "options": {
-
-
-
-
-
-
-"yes": {
-
-
-
-
-
-
-
-"title": "Leyft",
-
-
-
-
-
-
-
-"description": "Aðgangur leyfður með lögum"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"no": {
-
-
-
-
-
-
-
-"title": "Aðgangur bannaður",
-
-
-
-
-
-
-
-"description": "Aðgangur óheimill almenningi"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"permissive": {
-
-
-
-
-
-
-
-"title": "Með leyfi",
-
-
-
-
-
-
-
-"description": "Aðgangur heimill þar til eigandi dregur leyfi til baka"
-
-
-
-
-
-
-},
-
-
-
-
-
-
-"private": {
-
-
-
-
-
-
-
-"title": "Einka",
-
-
-
-
-
-
-
-"description": "Aðgangur heimill eingöngu með samþykki landeiganda"
-
-
-
-
-
-
-},
 
 
 
@@ -332,7 +207,7 @@
 
 
 
-"title": "Merking",
+"description": "Aðgangur heimill sökum skilta eða reglna",
 
 
 
@@ -340,7 +215,7 @@
 
 
 
-"description": "Aðgangur heimill sökum skilta eða reglna"
+"title": "Merking"
 
 
 
@@ -362,7 +237,7 @@
 
 
 
-"title": "Áfangastaður",
+"description": "Aðgangur leyfður aðeins ef í fararleið",
 
 
 
@@ -370,7 +245,127 @@
 
 
 
-"description": "Aðgangur leyfður aðeins ef í fararleið"
+"title": "Áfangastaður"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"no": {
+
+
+
+
+
+
+
+"description": "Aðgangur óheimill almenningi",
+
+
+
+
+
+
+
+"title": "Aðgangur bannaður"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Aðgangur heimill þar til eigandi dregur leyfi til baka",
+
+
+
+
+
+
+
+"title": "Með leyfi"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"private": {
+
+
+
+
+
+
+
+"description": "Aðgangur heimill eingöngu með samþykki landeiganda",
+
+
+
+
+
+
+
+"title": "Einka"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"yes": {
+
+
+
+
+
+
+
+"description": "Aðgangur leyfður með lögum",
+
+
+
+
+
+
+
+"title": "Leyft"
 
 
 
@@ -383,7 +378,98 @@
 
 
 
+},
+
+
+
+
+
+"placeholder": "Óþekkt",
+
+
+
+
+
+"types": {
+
+
+
+
+
+
+"access": "Almennt",
+
+
+
+
+
+
+"bicycle": "Hjól",
+
+
+
+
+
+
+"foot": "Fótgangandi",
+
+
+
+
+
+
+"horse": "Hestar",
+
+
+
+
+
+
+"motor_vehicle": "Vélknúin ökutæki"
+
+
+
+
+
 }
+
+
+
+
+},
+
+
+
+
+"access_simple": {
+
+
+
+
+
+"label": "Aðgangur",
+
+
+
+
+
+"placeholder": "já"
+
+
+
+
+},
+
+
+
+
+"access_toilets": {
+
+
+
+
+
+"label": "Aðgangur"
 
 
 
@@ -412,14 +498,28 @@
 
 
 
-"street": "Gata",
-
-
-
-
-
-
 "city": "Sveitarfélag",
+
+
+
+
+
+
+"country": "Land",
+
+
+
+
+
+
+"housenumber": "123",
+
+
+
+
+
+
+"street": "Gata",
 
 
 
@@ -471,14 +571,14 @@
 
 
 
-"exit": "Útgangur",
+"both": "Bæði",
 
 
 
 
 
 
-"both": "Bæði"
+"exit": "Útgangur"
 
 
 
@@ -730,14 +830,14 @@
 
 
 
-"clockwise": "Réttsælis",
+"anticlockwise": "Rangsælis",
 
 
 
 
 
 
-"anticlockwise": "Rangsælis"
+"clockwise": "Réttsælis"
 
 
 
@@ -1153,7 +1253,7 @@
 
 
 
-"wlan": "Þráðlaust",
+"terminal": "Útstöð",
 
 
 
@@ -1167,7 +1267,7 @@
 
 
 
-"terminal": "Útstöð"
+"wlan": "Þráðlaust"
 
 
 
@@ -1320,6 +1420,51 @@
 
 
 "placeholder": "40, 50, 60..."
+
+
+
+
+},
+
+
+
+
+"mtb/scale": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"2": "2: laust undirlag, stórar hindranir, auðveldar beygjur"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"mtb/scale/imba": {
+
+
+
+
+
+"placeholder": "Auðvelt, miðlungs, erfitt..."
 
 
 
@@ -1574,6 +1719,12 @@
 
 
 
+"label": "Tegund",
+
+
+
+
+
 "options": {
 
 
@@ -1581,14 +1732,14 @@
 
 
 
-"sleigh": "Sleði",
+"ice_skate": "Skautar",
 
 
 
 
 
 
-"ice_skate": "Skautar"
+"sleigh": "Sleði"
 
 
 
@@ -1968,12 +2119,6 @@
 
 
 
-"placeholder": "Óþekkt",
-
-
-
-
-
 "options": {
 
 
@@ -1988,7 +2133,7 @@
 
 
 
-"tunnel": "Göng",
+"cutting": "Rás",
 
 
 
@@ -2002,13 +2147,19 @@
 
 
 
-"cutting": "Rás"
+"tunnel": "Göng"
 
 
 
 
 
-}
+},
+
+
+
+
+
+"placeholder": "Óþekkt"
 
 
 
@@ -2543,6 +2694,22 @@
 
 
 "name": "Hjólaleiga"
+
+
+
+
+},
+
+
+
+
+"amenity/bicycle_repair_station": {
+
+
+
+
+
+"name": "Hjólaviðgerðastöð"
 
 
 
@@ -4434,22 +4601,6 @@
 
 
 
-"highway/crossing": {
-
-
-
-
-
-"name": "Þverun"
-
-
-
-
-},
-
-
-
-
 "highway/cycleway": {
 
 
@@ -4553,22 +4704,6 @@
 
 
 "name": "Stígur"
-
-
-
-
-},
-
-
-
-
-"highway/pedestrian": {
-
-
-
-
-
-"name": "Fótgangandi"
 
 
 
@@ -6168,6 +6303,38 @@
 
 
 
+"office/financial": {
+
+
+
+
+
+"name": "Fjármálafyrirtæki"
+
+
+
+
+},
+
+
+
+
+"office/government": {
+
+
+
+
+
+"name": "Opinber stofnun"
+
+
+
+
+},
+
+
+
+
 "office/newspaper": {
 
 
@@ -6191,6 +6358,22 @@
 
 
 "name": "Stjórnmálaflokkur"
+
+
+
+
+},
+
+
+
+
+"office/research": {
+
+
+
+
+
+"name": "Rannsóknarstofa"
 
 
 
@@ -6543,22 +6726,6 @@
 
 
 "name": "Toglest"
-
-
-
-
-},
-
-
-
-
-"railway/level_crossing": {
-
-
-
-
-
-"name": "Jöfn vegamót"
 
 
 
@@ -7199,6 +7366,22 @@
 
 
 "name": "Byggingavöruverslun"
+
+
+
+
+},
+
+
+
+
+"shop/herbalist": {
+
+
+
+
+
+"name": "Grasalæknir"
 
 
 
