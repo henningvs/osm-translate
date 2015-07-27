@@ -3841,7 +3841,7 @@
 
 
 
-"label": "Tipo de Reciclaje",
+"label": "Tipo de reciclaje",
 
 
 
@@ -3854,7 +3854,7 @@
 
 
 
-"centre": "Centro de Reciclaje",
+"centre": "Centro de reciclaje",
 
 
 
@@ -7422,7 +7422,7 @@
 
 
 
-"terms": "superficie"
+"terms": "superficie, revestimiento, cobertura"
 
 
 
@@ -9754,7 +9754,7 @@
 
 
 
-"terms": "cruce"
+"terms": "cruce, paso"
 
 
 
@@ -9770,13 +9770,13 @@
 
 
 
-"name": "Cruce Peatonal",
+"name": "Cruce peatonal",
 
 
 
 
 
-"terms": "paso peatonal, paso de peatones, paso de cebra, cebra"
+"terms": "cruce, paso, peatón, peatones, peatonal, cebra, cruce peatonal, paso de peatones"
 
 
 
@@ -10078,13 +10078,13 @@
 
 
 
-"name": "Corredor Interior",
+"name": "Pasillo interior",
 
 
 
 
 
-"terms": "pasillo interior"
+"terms": "pasillo, corredor, interior, pasillo interior, corredor interior"
 
 
 
@@ -10100,13 +10100,13 @@
 
 
 
-"name": "Cruce de Calle",
+"name": "Cruce de calle",
 
 
 
 
 
-"terms": "cruce"
+"terms": "cruce, paso"
 
 
 
@@ -10122,13 +10122,13 @@
 
 
 
-"name": "Cruce Peatonal",
+"name": "Cruce peatonal",
 
 
 
 
 
-"terms": "paso peatonal, paso de peatones, paso de cebra, cebra"
+"terms": "cruce, paso, peatón, peatones, peatonal, cebra, cruce peatonal, paso de peatones"
 
 
 
@@ -10320,13 +10320,13 @@
 
 
 
-"name": "Calle Peatonal",
+"name": "Calle peatonal",
 
 
 
 
 
-"terms": "peatonal, alameda peatonal"
+"terms": "calle, peatón, peatonal, alameda peatonal"
 
 
 
@@ -11530,13 +11530,13 @@
 
 
 
-"name": "Vivero",
+"name": "Vivero de plantas",
 
 
 
 
 
-"terms": "vivero, jardinería"
+"terms": "vivero, invernadero, jardinería, plantas"
 
 
 
@@ -11668,7 +11668,7 @@
 
 
 
-"terms": "máquinas de juego"
+"terms": "juego, videojuegos, azar, juegos de azar, máquinas de juego, salón de juegos"
 
 
 
@@ -12284,7 +12284,7 @@
 
 
 
-"terms": "entrada"
+"terms": "socavón, entrada, minería"
 
 
 
@@ -14412,13 +14412,13 @@
 
 
 
-"name": "Cruce de Vías Férreas",
+"name": "Cruce de vías férreas",
 
 
 
 
 
-"terms": "cruce ferroviario"
+"terms": "cruce, ferrocarril, tren, ferroviario, cruce ferroviario"
 
 
 
