@@ -703,7 +703,12 @@
 
 
 
-"incomplete_relation": "Aquestes característiques no poden ser fusionades perquè com a mínim una d'elles no s'ha descarregat del tot."
+"incomplete_relation": "Aquestes característiques no poden ser fusionades perquè com a mínim una d'elles no s'ha descarregat del tot.",
+
+
+
+
+"conflicting_tags": "Aquestes línies no poden ser fusionades ja que algunes de les seves etiquetes tenen valors conflictius."
 
 
 
@@ -2126,6 +2131,9 @@
 "cannot_zoom": "No es pot allunyar més la vista al mode actual.",
 
 
+"full_screen": "Passar a pantalla completa",
+
+
 "gpx": {
 
 
@@ -2186,7 +2194,7 @@
 
 
 
-"gps": "# GPS\n\nLes dades de GPS són la font més fiable de dades per a l'OpenStreetMap. Aquest editor \nés compatible amb les traces locals - fitxers`.gpx`al vostre ordinador. Pots recollir aquest tipus de traça GPS amb algunes aplicacions per a smartphones com també \ndispositius personals de GPS.\n\nPer a més informació sobre com recollir dades amb GPS, llegeix\n[Recollir dades amb GPS](http://learnosm.org/en/beginner/using-gps/).\n\nper fer servir una traça GPX per editar el mapa, arrossega i deixa el fitxer GPX a l'editor. \nSi es detecta, s'afegirà el mapa com una línia verda llampant. \nClica a 'Dades del mapa'  al cantó dret per activar,\ndesactivar, o per ajustar la vista a aquesta capa GPX.\n\nLa traça GPX no és pujada directament a OpenStreetMap - la millor manera de \nfer-la servir és dibuixar tu el mapa, fent-la servir com a guia per a les noves característiques que afegiràs. també les pots [pujar a l'OpenStreetMap] \n(http://www.openstreetmap.org/trace/create)\nperquè d'altres persones les utilitzin.\n",
+"gps": "# GPS \n\nLes dades de GPS són una font fiable de dades per a l'OpenStreetMap. Aquest editor és compatible amb les traces locals - fitxers`.gpx`al vostre ordinador. Pots recollir aquest tipus de traça GPS amb algunes aplicacions per a smartphones com també dispositius personals de GPS.\n\n Per a més informació sobre com recollir dades amb GPS, llegeix [Recollir dades amb GPS](http://learnosm.org/en/mobile-mapping/).\n\n Per fer servir una traça GPX per editar el mapa, arrossega i deixa el fitxer GPX a l'editor. Si es detecta, s'afegirà el mapa com una línia lila llampant. Clica al menú 'Dades del mapa' al cantó dret per activar, desactivar, o per ajustar la vista a aquesta capa GPX. \n\nLa traça GPX no és pujada directament a OpenStreetMap - la millor manera de fer-la servir és dibuixar tu el mapa, fent-la servir com a guia per a les noves característiques que afegiràs. També les pots [pujar a l'OpenStreetMap] (http://www.openstreetmap.org/trace/create) perquè d'altres persones les utilitzin.\n",
 
 
 
@@ -2198,7 +2206,7 @@
 
 
 
-"inspector": "# Utilitzant l'inspector\n\nL'Inspector és l'element de l'interfície d'usuari que es troba al cantó dret de la pàgina i que+\napareix quan una característica és seleccionada i permet editar-ne els detalls.\n\n### Selecció del tipus de característica\n\nDesprés d'afegir un punt, línia, o àrea, podeu escollir quin tipus de característica és,\nTant si és una autopista com un carrer residencial, un supermercat o un cafè.\nL'inspector mostrarà botons per els tipus de característica més comuns, i en podeu trobar d'altres escrivint el que esteu buscant al quadre de cerca.\n\nCliqueu la 'i' al cantó inferior dret del botó  del tipus de característica per saber-ne més. Cliqueu el botó per seleccionar-la.\n\n### Utilització dels camps i les etiquetes d'edició\n\nDesprés d'escollir la característica, o quan seleccioneu una característica que ja té\nun tipus assignat, l'inspector mostrarà uns camps amb detalls de la característica \ncom ara el seu nom o la seva adreça .\n\nA sota dels camps que veieu, podeu clicar algunes icones per afegir altres detalls,\ncom ara infrmació de la [Viquipèdia](http://www.wikipedia.org/), l'accés per a cadires de rodes,\ni alguna cosa més.\n\nAl capdavall de l'inspector, cliqueu 'Etiquetes adicionals' per afegir altres etiquetes arbitràries a l'element. [Taginfo](http://taginfo.openstreetmap.org/) és una gran eina per aprendre'n més sobre les combinacions d'etiquetes més populars.\n\nEls canvis que feu a l'inspector s'aplicaran automàticament al mapa.\nEls podeu desfer en qualsevol moment clicant al botó de 'Desfer' .\n\n",
+"inspector": "# Utilitzant l'inspector \n\nL'Inspector és la secció de l'interfície d'usuari que es troba al cantó esquerra de la pàgina i que permet editar els detalls de la cracterística seleccionada.\n\n ### Selecció del tipus de característica\n\n Després d'afegir un punt, línia, o àrea, pots escollir quin tipus de característica és, Tant si és una autopista com un carrer residencial, un supermercat o un cafè. L'inspector mostrarà botons per els tipus de característica més comuns, i en pots trobar d'altres escrivint el que estàs buscant al quadre de cerca.\n\nCliqueu la 'i' al cantó inferior dret del botó del tipus de característica per saber-ne més. Cliqueu el botó per seleccionar-la.\n\n ### Utilització dels camps i les etiquetes d'edició\n\n Després d'escollir el tipus característica, o quan seleccionis una característica que ja té un tipus assignat, l'inspector mostrarà uns camps amb detalls de la característica com ara el seu nom o la seva adreça.\n\n A sota dels camps que veus, pots clicar a 'Afegir camp' per afegir altres detalls, com ara un enllaç amb la Viquipèdia, l'accés per a cadires de rodes, i alguna cosa més. \n\nAl capdavall de l'inspector, clica 'Etiquetes adicionals' per afegir altres etiquetes arbitràries a l'element. [Taginfo](http://taginfo.openstreetmap.org/) és una gran eina per aprendre'n més sobre les combinacions d'etiquetes més populars. \n\nEls canvis que facis a l'inspector s'aplicaran automàticament al mapa. Els pots desfer en qualsevol moment clicant al botó 'Desfer'.\n",
 
 
 

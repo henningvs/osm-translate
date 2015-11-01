@@ -17,7 +17,7 @@
 
 
 
-"description": "Agregar parques, edificios, lagos u otras zonas en el mapa",
+"description": "Añade parques, edificios, lagos u otras zonas en el mapa.",
 
 
 
@@ -40,12 +40,12 @@
 
 
 
-"description": "Las líneas pueden ser autopistas, calles, pasos peatonales o canales.",
+"description": "Añade carreteras, calles, pasos peatonales, canales u otras líneas al mapa.",
 
 
 
 
-"tail": "Haga clic en el mapa para empezar a dibujar una calle, camino o ruta."
+"tail": "Haga clic en el mapa para empezar a dibujar un camino, una senda o ruta."
 
 
 
@@ -63,7 +63,7 @@
 
 
 
-"description": "Añadir restaurantes, monumentos, buzones postales u otros puntos al mapa.",
+"description": "Añade restaurantes, monumentos, buzones postales u otros puntos al mapa.",
 
 
 
@@ -212,12 +212,12 @@
 
 
 
-"not_eligible": "Aquí no se pueden continuar líneas",
+"not_eligible": "Aquí no se pueden continuar líneas.",
 
 
 
 
-"multiple": "Varias líneas pueden continuar aquí. Para seleccionar una, presione la tecla \"Shift\" y haga click en una línea para seleccionarla.",
+"multiple": "Varias líneas pueden continuar aquí. Para seleccionar una línea, presione la tecla \"Shift\" y haga clic en una línea para seleccionarla.",
 
 
 
@@ -302,13 +302,13 @@
 
 
 
-"line": "Redondear línea",
+"line": "Hace circular esta línea.",
 
 
 
 
 
-"area": "Redondear área."
+"area": "Hace circular esta área."
 
 
 
@@ -329,13 +329,13 @@
 
 
 
-"line": "Redondear línea.",
+"line": "Hace circular una línea.",
 
 
 
 
 
-"area": "Redondear área."
+"area": "Hace circular un área."
 
 
 
@@ -345,7 +345,7 @@
 
 
 
-"not_closed": "Esto no se puede redondear porque no es un bucle.",
+"not_closed": "Esto no se puede redondear porque no es un círculo.",
 
 
 
@@ -539,17 +539,17 @@
 
 
 
-"incomplete_relation": "Está característica no puede ser borrada porque no se ha descargado completamente.",
+"incomplete_relation": "Este elemento no se puede eliminar porque no se ha descargado completamente.",
 
 
 
 
-"part_of_relation": "Esta característica no puede ser eliminada porque es parte de una relación más grande. Usted debe quitarla de la relación primero.",
+"part_of_relation": "Este elemento no se puede eliminar porque es parte de una relación más amplia. Debe quitarlo de la relación primero.",
 
 
 
 
-"connected_to_hidden": "Esto no puede ser borrado porque está conectado a una característica oculta."
+"connected_to_hidden": "Esto no se puede eliminar porque está conectado a un elemento oculto."
 
 
 
@@ -575,7 +575,7 @@
 
 
 
-"annotation": "Quitar un miembro de una relación."
+"annotation": "Quitado un miembro de una relación."
 
 
 
@@ -688,12 +688,12 @@
 
 
 
-"not_eligible": "Estas características no pueden ser combinadas.",
+"not_eligible": "Estos elementos no pueden ser combinados.",
 
 
 
 
-"not_adjacent": "Estas líneas no pueden ser fusionadas porque no están conectadas",
+"not_adjacent": "Estas líneas no pueden ser combinadas porque no están conectadas.",
 
 
 
@@ -703,7 +703,12 @@
 
 
 
-"incomplete_relation": "Estas características no pueden ser combinadas porque al menos una no ha sido descargado por completo."
+"incomplete_relation": "Estos elementos no pueden ser combinados porque al menos uno no ha sido descargado por completo.",
+
+
+
+
+"conflicting_tags": "Estas líneas no pueden ser combinadas porque algunas de sus etiquetas tienen conflictos en sus valores."
 
 
 
@@ -990,7 +995,7 @@
 
 
 
-"toggle_off": "Haga clic para eliminar la restricción  de \"{restriction}\""
+"toggle_off": "Haga clic para quitar la restricción «{restriction}»"
 
 
 
@@ -1083,7 +1088,7 @@
 },
 
 
-"zoom_in_edit": "Zoom para editar",
+"zoom_in_edit": "Acercar para editar",
 
 
 "logout": "Cerrar sesión",
@@ -1099,11 +1104,11 @@
 
 
 
-"hidden_warning": "{count} características ocultas",
+"hidden_warning": "{count} elementos ocultos",
 
 
 
-"hidden_details": "Estas características actualmente están ocultas: {details}"
+"hidden_details": "Estos elementos actualmente están ocultos: {details}"
 
 
 },
@@ -1171,7 +1176,7 @@
 
 
 
-"deleted": "Borrado",
+"deleted": "Eliminado",
 
 
 
@@ -1375,7 +1380,7 @@
 
 
 
-"feature_list": "Buscar características",
+"feature_list": "Buscar elementos",
 
 
 
@@ -1491,11 +1496,11 @@
 
 
 
-"title": "Datos de mapa",
+"title": "Datos del mapa",
 
 
 
-"description": "Datos de mapa",
+"description": "Datos del mapa",
 
 
 
@@ -1507,11 +1512,11 @@
 
 
 
-"map_features": "Características del mapa",
+"map_features": "Elementos del mapa",
 
 
 
-"autohidden": "Estas características se han ocultado automáticamente porque existen demasiadas mostradas en la pantalla. Puede acercarse para editarlos."
+"autohidden": "Estos elementos se han ocultado automáticamente porque se mostrarían demasiados en pantalla. Puede acercarse para editarlos."
 
 
 },
@@ -1616,7 +1621,7 @@
 
 
 
-"description": "Características de usos del suelo",
+"description": "Elementos de uso del suelo",
 
 
 
@@ -1652,7 +1657,7 @@
 
 
 
-"description": "Características de agua",
+"description": "Elementos de agua",
 
 
 
@@ -1670,7 +1675,7 @@
 
 
 
-"description": "Características ferroviarias",
+"description": "Elementos ferroviarios",
 
 
 
@@ -1688,7 +1693,7 @@
 
 
 
-"description": "Características de energía",
+"description": "Elementos de energía",
 
 
 
@@ -1897,7 +1902,7 @@
 
 
 
-"delete": "Dejar borrado",
+"delete": "Dejar eliminado",
 
 
 
@@ -1912,7 +1917,7 @@
 
 
 
-"help": "Otro usuario cambió algunas de las mismas características del mapa que cambió.\nHaga clic en cada ítem para más detalles sobre el conflicto, y elija si desea mantener\nsus cambios o los cambios de los otros usuarios.\n"
+"help": "Otro usuario cambió algunos de los mismos elementos del mapa que cambió.\nHaga clic en cada ítem para ver más detalles sobre el conflicto, y elija si desea mantener\nsus cambios o los cambios de los otros usuarios.\n"
 
 
 
@@ -1931,7 +1936,7 @@
 
 
 
-"deleted": "Este objeto ha sido borrado por {user}.",
+"deleted": "Este objeto ha sido eliminado por {user}.",
 
 
 
@@ -1989,7 +1994,7 @@
 
 
 
-"help_html": "Los cambios deben aparecer en la capa «Estándar» en pocos minutos. Otras capas, y ciertas características, podría tomar más tiempo\n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>ver detalles</a>).\n"
+"help_html": "Los cambios deben aparecer en la capa «Estándar» en pocos minutos. Otras capas, y ciertos elementos, podrían tomar más tiempo\n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map' target='_blank'>ver detalles</a>).\n"
 
 
 },
@@ -2021,7 +2026,7 @@
 
 
 
-"walkthrough": "Iniciar la guía",
+"walkthrough": "Iniciar el recorrido",
 
 
 
@@ -2091,15 +2096,15 @@
 
 
 
-"untagged_point_tooltip": "Seleccione un tipo de característica que describa lo que es este punto.",
+"untagged_point_tooltip": "Seleccione un tipo de elemento que describa lo que es este punto.",
 
 
 
-"untagged_line_tooltip": "Seleccione un tipo de característica que describa lo que es esta línea.",
+"untagged_line_tooltip": "Seleccione un tipo de elemento que describa lo que es esta línea.",
 
 
 
-"untagged_area_tooltip": "Seleccione un tipo de característica que describa lo que es esta área.",
+"untagged_area_tooltip": "Seleccione un tipo de elemento que describa lo que es esta área.",
 
 
 
@@ -2124,6 +2129,9 @@
 
 
 "cannot_zoom": "No se puede alejar más la imagen en el modo actual.",
+
+
+"full_screen": "Cambiar a pantalla completa",
 
 
 "gpx": {
@@ -2178,7 +2186,7 @@
 
 
 
-"editing_saving": "# Editar & Guardar\n\nEste editor está diseñado para trabajar en línea principalmente, y en estos\nmomentos esta accediendo a través de un sitio web.\n\n### Seleccionar características\n\nPara seleccionar una característica del mapa, como una carretera o un punto de\ninterés, haga clic sobre ella en el mapa. Esto resaltará el elemento seleccionado,\nabriendo un panel con sus detalles, y mostrará un menú de cosas que puedes\nhacer con ese elemento.\n\nPara seleccionar múltiples elementos, mantenga pulsada la tecla 'Mayús'. Luego\nhaga clic en las características que desea seleccionar o arrastre en el mapa para\ndibujar un rectángulo. Esto dibujará una caja y seleccionará todos los puntos\ndentro de ella.\n\n### Guardar ediciones\n\nCuando haga cambios como editar carreteras, edificios o lugares, estos se\nalmacenan localmente en su ordenador hasta que los guarde en el servidor.\nNo se preocupe si comete un error - puede deshacer los cambios haciendo\nclic en el botón 'Deshacer', y rehacerlos haciendo clic en el botón 'Rehacer'.\n\nHaga clic en 'Guardar' para finalizar un grupo de ediciones - por ejemplo, si ha\ncompletado una zona de la ciudad y quisiera empezar en un área nueva. Tendrá\nla oportunidad de revisar lo que ha hecho, y el editor proporciona avisos y\nsugerencias útiles si algo parece no ser correcto en los cambios.\n\nSi ve que todo es correcto, puede escribir un breve comentario explicando el\ncambio que ha hecho, y haga clic en 'Guardar' de nuevo para registrar los\ncambios en [OpenStreetMap.org](http://www.openstreetmap.org/), donde serán\nvisibles para todos los demás usuarios y estarán disponible para que otros\npuedan seguir construyendo y mejorando el mapa.\n\nSi no puede terminar sus ediciones en una sola sesión, puede dejar la ventana\ndel editor y volver más tarde (al mismo navegador y ordenador), y el editor le\npermitirá retomar su trabajo.\n\n### Uso del editor\n\nUna lista de métodos abreviados de teclado disponibles puede encontrarse [aquí](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
+"editing_saving": "# Editar & Guardar\n\nEste editor está diseñado para trabajar en línea principalmente, y en estos\nmomentos esta accediendo a través de un sitio web.\n\n### Seleccionar elementos\n\nPara seleccionar un elemento del mapa, como una carretera o un punto de\ninterés, haga clic sobre el en el mapa. Esto resaltará el elemento seleccionado,\nabriendo un panel con sus detalles, y mostrará un menú de cosas que puedes\nhacer con ese elemento.\n\nPara seleccionar múltiples elementos, mantenga pulsada la tecla 'Mayús'. Luego\nhaga clic en los elementos que desea seleccionar o arrastre en el mapa para\ndibujar un rectángulo. Esto dibujará una caja y seleccionará todos los puntos\ndentro de ella.\n\n### Guardar ediciones\n\nCuando haga cambios como editar carreteras, edificios o lugares, estos se\nalmacenan localmente en su ordenador hasta que los guarde en el servidor.\nNo se preocupe si comete un error - puede deshacer los cambios haciendo\nclic en el botón 'Deshacer', y rehacerlos haciendo clic en el botón 'Rehacer'.\n\nHaga clic en 'Guardar' para finalizar un grupo de ediciones - por ejemplo, si ha\ncompletado una zona de la ciudad y quisiera empezar en un área nueva. Tendrá\nla oportunidad de revisar lo que ha hecho, y el editor proporciona avisos y\nsugerencias útiles si algo parece no ser correcto en los cambios.\n\nSi ve que todo es correcto, puede escribir un breve comentario explicando el\ncambio que ha hecho, y haga clic en 'Guardar' de nuevo para registrar los\ncambios en [OpenStreetMap.org](http://www.openstreetmap.org/), donde serán\nvisibles para todos los demás usuarios y estarán disponible para que otros\npuedan seguir construyendo y mejorando el mapa.\n\nSi no puede terminar sus ediciones en una sola sesión, puede dejar la ventana\ndel editor y volver más tarde (al mismo navegador y ordenador), y el editor le\npermitirá retomar su trabajo.\n\n### Uso del editor\n\nUna lista de métodos abreviados de teclado disponibles puede encontrarse [aquí](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
 
 
 
@@ -2186,11 +2194,11 @@
 
 
 
-"gps": "# GPS\n\nLos datos provenientes de un GPS son la fuente de información más fiable para OpenStreetMap. Este editor soporta el uso de trazas GPS locales: archivos con la extensión \".gpx\" ubicados en su equipo. Usted puede capturar este tipo de trazas GPS mediante numerosas aplicaciones que existen para teléfonos inteligentes, así como con dispositivos GPS de uso personal.\n\nPara obtener información sobre cómo realizar un levantamiento de información mediante GPS lea [Tomando datos con un GPS] (http://learnosm.org/es/beginner/using-gps/) .\n\nPara utilizar una traza GPX que le ayude a cartografiar, arrastre y suelte el archivo GPX sobre el editor del mapa editor. Si se reconoce el tipo de archivo la traza aparecerá en el mapa en un color púrpura brillante. Haga clic en el menú \"Configuración del fondo\" del lado derecho para activar,  desactivar o poder hacer zoom sobre esta nueva capa GPX.\n\nTenga en cuenta que el archivo GPX no está subido a OpenStreetMap. La mejor manera de utilizar esta traza es dibujar en el mapa usándola como guía para añadir nuevas características al mapa, así como [subirla a los servidores de OpenStreetMap] (http://www.openstreetmap.org/trace/create) para que otros usuarios puedan también utilizarla en sus ediciones.\n",
+"gps": "# GPS\n\nLas trazas de GPS recogidas son una valiosa fuente de datos para OpenStreetMap. Este\neditor soporta trazas locales - archivos `.gpx` en su equipo local. Usted puede obtener\neste tipo de traza GPS con una serie de aplicaciones de smartphone, como también con\nhardware GPS personal.\n\nPara más información sobre cómo realizar un relevamiento GPS, lea\n[Mapear con un smartphone, GPS, o papel](http://learnosm.org/es/mobile-mapping/).\n\nPara utilizar una traza GPX para mapear, arrastre y suelte el archivo GPX en el editor\nde mapa. Si este es reconocido, se añadirá al mapa como una línea púrpura brillante.\nHaga clic en el menú 'Datos del mapa' en el lado derecho para activar,\ndesactivar o acercar a esta nueva capa alimentada por GPX.\n\nLa traza GPX no se carga directamente a OpenStreetMap - la mejor manera de\nutilizarlo es dibujar en el mapa, usándolo como guía para las nuevos elementos que\nagregue, y también [subirlo a OpenStreetMap](http://www.openstreetmap.org/trace/create)\npara que otros usuarios lo utilicen.\n",
 
 
 
-"imagery": "# imágenes\n\nimágenes aéreas es un importante recurso para el trazado de mapas. Una combinación\nde vuelos aéreos, vistas de satélite, y compilaciones grátis están disponibles\nen el editor bajo el menú 'Ajustes de Fondo' a la derecha.\n\nPor defecto [Bing Maps](http://www.bing.com/maps/) capa satelital es\npresentado en el editor, pero mientras se mueve y hace zoom a nuevas áreas\ngeográficas, nuevas fuentes estarán disponibles. Algunos Países, como los Estados\nUnidos, Francia, y Dinamarca poseen imágenes de muy alta calidad disponible\npara algunas áreas.\n\nImágenes aveces están desplazadas de la data del mapa por un error en el\nproveedor de imágenes. Si observa muchos caminos desplazados del fondo,\nno los mueva inmediatamente para emparejarlos. En cambio puede ajustar\nlas imágenes para que ella se empareje con los datos existentes dando click\nen  'Corregir Alineación' en el botón de Ajustes de Fondo.\n",
+"imagery": "# imágenes\n\nLas imágenes aéreas son un importante recurso para el trazado de mapas. Una combinación\nde vuelos aéreos, vistas de satélite, y compilaciones de fuentes gratuitas están disponibles\nen el editor bajo el menú 'Configuración del Fondo' a la derecha.\n\nPor defecto se presenta la capa de satélite de [Bing Maps](http://www.bing.com/maps/) en el editor, pero mientras se mueve y hace zoom a nuevas áreas\ngeográficas, nuevas fuentes estarán disponibles. Algunos países, como los Estados\nUnidos, Francia, y Dinamarca poseen imágenes de muy alta calidad disponible\npara algunas áreas.\n\nLas imágenes a veces están desplazadas de los datos del mapa por un error en el\nproveedor de imágenes. Si observa muchos caminos desplazados del fondo,\nno los mueva inmediatamente para emparejarlos. En cambio puede ajustar\nla imagen para que coincida con los datos existentes haciendo clic\nen  'Corregir la alineación' en el botón de Configuración del Fondo.\n",
 
 
 
@@ -2198,7 +2206,7 @@
 
 
 
-"inspector": "# Usar el inspector\n\nEl inspector es la sección situado al lado izquierdo de la pantalla, el cual permite editar los detalles del elemento seleccionado en el mapa.\n\n### Seleccionar una tipo de elemento\n\nDespués de agregar una punto, una línea o un área, puede indicar que tipo de elemento representa en el mapa: una carretera, una calle urbana, un supermercado o una cafetería. El inspector mostrará botones con los tipos de elementos más comunes, no obstante se pueden encontrar otros simplemente escribiendo lo que está buscando en la caja de búsqueda.\n\nHaciendo clic con el ratón en el botón 'i' que aparece en la esquina inferior derecha es posible conocer más acerca de ese tipo de elemento. Pulsando sobre el botón le seleccionaremos. \n\n### Utilizar los formularios y editar etiquetas\n\nUna vez elegido el tipo de elemento que representa el dibujo del mapa, o seleccionado un tipo de elemento ya previamente asignado, el inspector mostrará una serie de campos con las características de este, tales como su nombre o dirección.   \n\nUna vez visto los campos, puede hacer clic en los iconos para añadir nuevos detalles que lo complemente, como agregar un enlace a su artículo en la  [Wikipedia](http://www.wikipedia.org/), si es posible el acceso en silla de ruedas y muchas más.\n\nEn la parte inferior del inspector puede hacer clic sobre 'Etiquetas adicionales' para agregar tantas etiquetas como desee. [Taginfo](http://taginfo.openstreetmap.org/) es un gran recurso para aprender más acerca de la combinación de etiquetas más populares.\n\nLos cambios aplicados en el inspector se aplican automáticamente al mapa. Puede anularlo en cualquier momento haciendo clic sobre el botón 'Deshacer'.\n",
+"inspector": "# Usando el inspector\n\nEl inspector es la sección en la parte izquierda de la página que le permite\neditar los detalles del elemento seleccionado.\n\n## Selección de un tipo de elemento\n\nDespués de agregar un punto, línea o área, puede elegir qué tipo de elemento\nes, como si se trata de una carretera o camino residencial, supermercado o una cafetería.\nEl inspector mostrará botones para tipos de elementos comunes, y usted puede\nencontrar otros escribiendo lo que  está buscando en el cuadro de búsqueda.\n\nHaga clic en la 'i' de la esquina inferior derecha de un botón de tipo de elemento\npara aprender más sobre él. Haga clic en un botón para elegir ese tipo.\n\n\n### Uso de formularios y edición de etiquetas\n\nDespués de elegir un tipo de elemento, o cuando se selecciona un elemento\nque ya tiene un tipo asignado, el inspector mostrará campos con detalles sobre\nel elemento como su nombre y dirección.\n\nDebajo de los campos que ve, puede hacer clic en el desplegable 'Añadir campo'\npara agregar otros detalles, como un enlace de Wikipedia,  acceso en silla de ruedas, y más.\n\nEn la parte inferior del inspector, haga clic en 'Etiquetas adicionales' para agregar otras\netiquetas arbitrarias al elemento. [Taginfo](http://taginfo.openstreetmap.org/) es un\ngran recurso para aprender más acerca de las combinaciones de etiquetas populares.\n\nLos cambios que realice en el inspector se aplican automáticamente al mapa.\nPuede deshacerlos en cualquier momento haciendo clic en el botón 'Deshacer'.\n",
 
 
 
@@ -2236,7 +2244,7 @@
 
 
 
-"header": "El encabezado nos muestra el tipo de característica.",
+"header": "El encabezado nos muestra el tipo de elemento.",
 
 
 
@@ -2269,7 +2277,7 @@
 
 
 
-"search": "Existen muchas características diferentes que pueden ser representadas por puntos. El punto que acaba de añadir es una Cafetería. ** Busque por '{name}' **",
+"search": "Existen muchos elementos diferentes que pueden ser representadas por puntos. El punto que acaba de añadir es una Cafetería. ** Busque por '{name}' **",
 
 
 
@@ -2299,7 +2307,7 @@
 
 
 
-"reselect_delete": "Todos las características en el mapa pueden ser eliminadas. **Haga clic en el punto que creó.**",
+"reselect_delete": "Todos los elementos en el mapa pueden ser eliminados. **Haga clic en el punto que creó.**",
 
 
 
@@ -2322,7 +2330,7 @@
 
 
 
-"add": "Las áreas son utilizadas para mostrar los límites de características como lagos, edificios y zonas residenciales. Estas también pueden ser utilizadas para mapear con más detalle las diversas características que pondría normalmente en el mapa como puntos. ** Haga clic en el botón «área» para añadir una nueva área.**",
+"add": "Las áreas son utilizadas para mostrar los límites de elementos como lagos, edificios y zonas residenciales. Estas también pueden ser utilizadas para mapear con más detalle los diversos elementos que pondría normalmente en el mapa como puntos. ** Haga clic en el botón «área» para añadir una nueva área.**",
 
 
 
@@ -2347,7 +2355,7 @@
 
 
 
-"describe": "**De un nombre y cierre el editor de características**"
+"describe": "**De un nombre y cierre el editor de elementos**"
 
 
 
@@ -2365,7 +2373,7 @@
 
 
 
-"add": "Las líneas son utilizadas para representar características como vías, líneas férreas y ríos. **Haga clic en el botón «línea» para agregar una nueva línea.**",
+"add": "Las líneas son utilizadas para representar elementos como vías, líneas férreas y ríos. **Haga clic en el botón «línea» para agregar una nueva línea.**",
 
 
 
@@ -2395,7 +2403,7 @@
 
 
 
-"describe": "**De un nombre a la vía y cierre el editor de características.**",
+"describe": "**De un nombre a la vía y cierre el editor de elementos.**",
 
 
 
@@ -2423,7 +2431,7 @@
 
 
 
-"help": "Más documentación y este tutorial están disponibles aquí.",
+"help": "Más documentación y este recorrido están disponibles aquí.",
 
 
 

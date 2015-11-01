@@ -212,7 +212,7 @@
 
 
 
-"not_eligible": "Viivaa ei voi jatkaa tästä.",
+"not_eligible": "Viivaa ei voi pidentää tästä.",
 
 
 
@@ -406,13 +406,13 @@
 
 
 
-"line": "Viiva muutettu suorakulmaiseksi.",
+"line": "Viiva muutettiin suorakulmaiseksi.",
 
 
 
 
 
-"area": "Alue muutettu suorakulmaiseksi."
+"area": "Alue muutettiin suorakulmaiseksi."
 
 
 
@@ -499,37 +499,37 @@
 
 
 
-"point": "Paikkapiste poistettu.",
+"point": "Paikkapiste poistettiin.",
 
 
 
 
 
-"vertex": "Piste poistettu viivalta.",
+"vertex": "Piste poistettiin viivalta.",
 
 
 
 
 
-"line": "Viiva poistettu.",
+"line": "Viiva poistettiin.",
 
 
 
 
 
-"area": "Alue poistettu.",
+"area": "Alue poistettiin.",
 
 
 
 
 
-"relation": "Relaatio poistettu.",
+"relation": "Relaatio poistettiin.",
 
 
 
 
 
-"multiple": "{n] kohdetta poistettu."
+"multiple": "{n] kohdetta poistettiin."
 
 
 
@@ -1092,7 +1092,7 @@
 "loading_auth": "Yhdistetään OpenStreetMap-palveluun...",
 
 
-"report_a_bug": "ilmoita ongelmasta",
+"report_a_bug": "Ilmoita ongelmasta",
 
 
 "feature_info": {
@@ -1135,7 +1135,7 @@
 
 
 
-"description_placeholder": "Kuvaile lyhyesti karttaan tehtyjä muutoksia",
+"description_placeholder": "Kuvaile lyhyesti karttaan tehtyjä muutoksia. Kirjoita muokkausten kohdemaan paikallisella kielellä (esimerkiksi Suomessa suomeksi tai ruotsiksi) tai englanniksi.",
 
 
 
@@ -1143,11 +1143,11 @@
 
 
 
-"upload_explanation": "Palvelimelle lähetettävät muutokset tulevat pian näkyviin kaikkiin OpenStreetMap-kartta-aineistoa käyttäviin palveluihin.",
+"upload_explanation": "Palvelimelle tallennettavat muutokset tulevat pian näkyviin kaikkiin OpenStreetMap-kartta-aineistoa käyttäviin palveluihin.",
 
 
 
-"upload_explanation_with_user": "Palvelimelle lähetetään muutokset käyttäjätunnisteella {user}. Muutokset tulevat pian näkyviin kaikkiin OpenStreetMap-kartta-aineistoa käyttäviin palveluihin.",
+"upload_explanation_with_user": "Muutokset tallennetaan palvelimelle käyttäjätunnisteella {user}. Muutokset tulevat pian näkyviin kaikkiin OpenStreetMap-kartta-aineistoa käyttäviin palveluihin.",
 
 
 
@@ -1155,7 +1155,7 @@
 
 
 
-"cancel": "Peru",
+"cancel": "Takaisin muokkaamaan",
 
 
 
@@ -1211,7 +1211,23 @@
 
 
 
+"center": "Keskus",
+
+
+
+"perimeter": "Kehä",
+
+
+
 "length": "Pituus",
+
+
+
+"area": "Alue",
+
+
+
+"centroid": "Keskusalue",
 
 
 
@@ -1224,6 +1240,32 @@
 
 
 "imperial": "Brittiläinen järjestelmä"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "piste",
+
+
+
+"vertex": "keskipiste",
+
+
+
+"line": "viiva",
+
+
+
+"area": "alue",
+
+
+
+"relation": "relaatio"
 
 
 },
@@ -1430,7 +1472,12 @@
 
 
 
-"description": "Pienoiskartta"
+"description": "Pienoiskartta",
+
+
+
+
+"tooltip": "Näytä pienoiskartta laajemmalta alueelta nykyisen muokkausnäkymän sijainnin havainnollistamiseksi."
 
 
 
@@ -2074,6 +2121,9 @@
 "cannot_zoom": "Nykyisessä tilassa ei voi loitontaa enempää.",
 
 
+"full_screen": "Koko näytön tila",
+
+
 "gpx": {
 
 
@@ -2130,19 +2180,11 @@
 
 
 
-"gps": "# GPS \n\nGPS-mittaukset ovat tärkein OpenStreetMapin aineiston lähde. Tämä \nmuokkausohjelma tukee omalta tietokoneeltasi ladattavia `.gpx`-tiedostoja. \nGPS-mittauksia voi tehdä useilla älypuhelinsovelluksilla ja tietysti myös erillisillä \nGPS-mittalaitteilla. \n\nLisätietoja GPS-mittausten tekemisestä on sivuilla [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/) ja [Aloittelijan opas](http://wiki.openstreetmap.org/wiki/Fi:Beginners_Guide_1.1).\n\nKäytä GPX-tiedostoa kartoittamisen apuna vetämällä ja pudottamalla tiedosto kartanmuokkausohjelmaan. Jos se toimii, GPS-jälki ilmestyy karttapohjalle \nkirkkaanviolettina viivana. Piilota, näytä uudelleen tai muuta tämän GPX-tason \nlähennystasoa Karttatiedot-valikosta oikeasta reunasta.\n\nTällä tavalla kartoittamisen apuna käytettyä GPX-tiedostoa ei tallenneta OpenStreetMapiin - tiedosto tulee hyödynnettyä parhaiten tallentamalla tiedosto myös muiden [karttakehittäjien käyttöön](http://www.openstreetmap.org/trace/create).\n",
-
-
-
 "imagery": "# Ilmakuvat\n\nIlmakuvat ovat tärkeä kartoittamisen apuväline. Lentokuvien,\nsatelliittikuvien ja vapaasti koottujen materiaalien kokoelma on\nkäytettävissä Taustan asetukset -valikosta oikean reunan sivupalkista.\n\nOletuksena taustalla näytetään [Bing-karttojen](http://www.bing.com/maps/) satelliittikuvat,\nmutta karttaa lähentämällä vaihtoehtoja tulee lisää.\nJoissakin maissa, kuten Suomessa, Ranskassa ja Tanskassa\non saatavilla korkealaatuisia lentokoneesta kuvattuja ilmakuvia.\n\nIlmakuva voi näyttää virheelliseltä palveluntarjoajan sivuston\nvirheen vuoksi. Jos tiestön sijainti heittää ilmakuvasta, älä ala heti\nsiirtämään niitä vastaamaan taustakuvaa, vaan siirrä ilmakuvataustaa\nvastaamaan tiestöä asetuksella \"Korjaa ilmakuvavirhe\"\nTaustan asetusten alaosassa.\n",
 
 
 
 "addresses": "# Osoitteet\n\nOsoitteet ovat yksi tärkeimmistä kartalla olevasta tiedosta.\n\nSen lisäksi että osoitetiedot ovat myös katujen nimiä,\nOpenStreetMapissa ne ovat olennaisia myös rakennusten\nja muiden kadunvarsikohteiden tiedoissa.\n\nOsoitetietoja voi katujen lisäksi lisätä rakennuksien ulkoreunoille\nja paikkapisteille. Paras osoitetietojen lähde on jalkautuminen tai\noma paikallistuntemus. Kuten kaikessa muussakin muokkaamisessa,\ntietojen kopioiminen kaupallisista lähteistä kuten Google Kartoista\non ehdottomasti kielletty.\n",
-
-
-
-"inspector": "# Kohdemuokkaimen \nkäyttö\n\nKohdemuokkain on näytön vasemmassa reunassa oleva osio,\njolla muutetaan valitun kohteen ominaisuuksia.\n\n### Kohteen tyypin valitseminen\n\nPisteen, viivan tai alueen lisäämisen jälkeen valitaan, millainen kohde\non kyseessä - kuten kahvila, moottoritie, joki tai leikkipuisto. Kohdemuokkain\nnäyttää painikkeet yleisimmille kohteille. Jos kohde ei näy listalla, hae\npaikkaa hakusanalla ja valitse se sitten luettelosta. Haku ymmärtää myös\nsynonyymit ja paikkaan liittyviä sanoja, joten kokeile sitä rohkeasti.\n\nTarkastele kohdetyypin lisätietoja tarkemmin napsauttamalla i-kirjainta\nsen reunassa. Valitse kohdetyyppi muokattavalle kohteelle napsauttamalla sitä hakutuloslistassa.\n\n### Kohteen tagien muokkaaminen\n\nKun kohdetyyppi on valittu, kohdemuokkain näyttää tietokenttiä, joilla\nvoidaan kuvailla kohteen ominaisuuksia, kuten nimi ja osoite.\n\nKenttäjoukon alapuolella on rivi painikkeita, joilla voi avata lisätietokenttiä,\nkuten [Wikipedia-sivun](http://fi.wikipedia.org/), esteettömyystiedot\nja paljon muuta.\n\nKohdemuokkaimen alaosassa on Kaikki tagit -kohta, jossa voi lisätä\nkohteelle mitä tahansa tageja eli ominaisuustietoja. [Taginfosta](http://taginfo.openstreetmap.org/)\nlöytää lisätietoja erilaisista tageista ja niiden käyttömahdollisuuksista.\n\nKohdemuokkaimella tehtävät muutokset päivittyvät muokkauskartalle.\nreaaliaikaisesti. Muutoksen voi kuitenkin aina perua napsauttamalla\nKumoa-painiketta.\n",
 
 
 

@@ -703,7 +703,12 @@
 
 
 
-"incomplete_relation": "Questi elementi non posso essere uniti perché almeno uno di loro non è stato completamente scaricato."
+"incomplete_relation": "Questi elementi non posso essere uniti perché almeno uno di loro non è stato completamente scaricato.",
+
+
+
+
+"conflicting_tags": "Queste linee non possono essere unite perché alcuni dei loro tag sono in conflitto tra loro."
 
 
 
@@ -2126,6 +2131,9 @@
 "cannot_zoom": "Impossibile fare zooCannot zoom out further in current mode.",
 
 
+"full_screen": "Passa a schermo intero",
+
+
 "gpx": {
 
 
@@ -2186,7 +2194,7 @@
 
 
 
-"gps": "# GPS\n\nI dati provenienti dal GPS sono la sorgente dati più fidata per OpenStreetMap.\nQuesto editor supporta i tracciati locali - i file `.gpx` che si trovano sul tuo\ncomputer.  È possibile raccogliere questo tipo di tracciati GPS con un gran\nnumero di applicazioni per smartphone o tramite dispositivi GPS personali.\n\nPer informazioni su come effettuare un rilevamento GPS è possibile leggere\n[Rilevamenti con un GPS](http://learnosm.org/en/beginner/using-gps/).\n\nPer utilizzare un tracciato GPX al fine di effettuare una mappatura, trascina il\nfile GPX sull'editor di mappe. Se viene riconosciuto verrà aggiunto alla mappa\ned evidenziato tramite una linea violetta. Cliccare sul menu 'Dati mappa' che si trova sulla sinitra per abilitare, disabilitare o zoomare il livello creato dal file GPX.\n\nIl tracciato GPX non viene caricato direttamente su OpenStreetMap - il modo\nmigliore di utilizzarlo è quello di disegnare sulla mappa usando il tracciato\ncome guida per i nuovi elementi che vuoi aggiungere e [caricarlo comunque\nsu OpenStreetMap](http://www.openstreetmap.org/trace/create) per renderlo\npoi disponibile agli altri utenti.\n",
+"gps": "# GPS\n\nLe tracce provenienti dal GPS sono una sorgente dati fidata per OpenStreetMap. Questo editor\nsupporta i tracciati locali - i file `.gpx` che si trovano sul tuo computer. È possibile raccogliere\nquesto tipo di tracciati GPS con un gran numero di applicazioni per smartphone\no tramite dispositivi GPS personali.\n\nPer informazioni su come effettuare un rilevamento GPS è possibile\nleggere [Mappare con uno smartphone, un GPS o una cartina](http://learnosm.org/en/mobile-mapping/).\n\nPer utilizzare un tracciato GPX al fine di effettuare una mappatura,\ntrascina il file GPX sull'editor di mappe. Se viene riconosciuto verrà\naggiunto alla mappa ed evidenziato tramite una linea violetta. Clicca\nsul menu 'Dati mappa' che si trova sulla sinistra per abilitare,\ndisabilitare o zoomare il livello creato dal file GPX.\n\nIl tracciato GPX non viene caricato direttamente su OpenStreetMap - il\nmodo migliore di utilizzarlo è quello di disegnare sulla mappa usando il\ntracciato come guida per i nuovi elementi che vuoi aggiungere e\n[caricarlo comunque su OpenStreetMap](http://www.openstreetmap.org/trace/create) per renderlo poi\ndisponibile agli altri utenti.\n",
 
 
 
@@ -2198,7 +2206,7 @@
 
 
 
-"inspector": "# Utilizzo dell'inspector\n\nL'inspector è quell'elemento dell'interfaccia utente sulla parte sinistra della pagina che appare quando viene selezionata una funzionalità e che consente di modificarne i dettagli.\n\n### Selezione di un tipo di funzionalità\n\nDopo che è stato aggiunto un punto, una linea o un'area, è possibile scegliere quale tipo di caratteristica abbia, come ad esempio se si tratta di una strada principale o una strada residenziale, di un supermarket o di un caffè.\nL'inspector visualizzerà i pulsanti per le caratteristiche più comuni e sarà possibile trovarne altre semplicemente digitando la caratteristica voluta nella casella di ricerca.\n\nFare clic sulla 'i' che si trova nell'angolo in basso a destra del pulsante per saperne di più. Fare clic su un pulsante per scegliere quel tipo.\n\n### Utilizzo di Form e di Tag di modifica\n\nDopo aver scelto un tipo di caratteristica o quando si è selezionato una caratteristica per la quale è già stato assegnato un tipo, l'inspector mostrerà i campi con i dettagli come ad esempio il nome e l'indirizzo.\n\nAl di sotto dei campi è possibile fare clic sulle icone per aggiungere ulteriori dettagli come ad es. informazioni [Wikipedia](http://www.wikipedia.org/), accesso consentito alle carrozzine, e altro.\n\nSotto l'inspector è possibile fare clic su 'Tag aggiuntivi' per aggiungere arbitrariamente altri tag all'elemento. [Taginfo](http://taginfo.openstreetmap.org/) è una buona risorsa per imparare qualcosa sulle combinazioni di tag più comuni.\n\nLe modifiche effettuate nell'inspector vengono applicate automaticamente alla mappa.\nE' possibile annullarle in ogni momento cliccando semplicemente sul pulsante 'Ripristina'.\n",
+"inspector": "# Utilizzo dell'inspector\n\nL'inspector è quell'elemento dell'interfaccia utente sulla parte sinistra\ndella pagina che consente di modificare i dettagli dell'elemento\nselezionato.\n\n### Selezione di un tipo di elemento\n\nDopo che è stato aggiunto un punto, una linea o un'area, è possibile\nscegliere quale tipo di caratteristica abbia, come ad esempio se si\ntratta di una strada principale o una strada residenziale, di un\nsupermarket o di un caffè. L'inspector visualizzerà i pulsanti per le\ncaratteristiche più comuni e sarà possibile trovarne altre\nsemplicemente digitando la caratteristica voluta nella casella di ricerca.\n\nFai clic sulla 'i' che si trova nell'angolo in basso a destra del pulsante\nper saperne di più. Fai clic su un pulsante per scegliere quel tipo.\n\n### Utilizzo di Form e di Tag di modifica\n\nDopo aver scelto un tipo di elemento o quando si è selezionato un\nelemento per il quale è già stato assegnato un tipo, l'inspector\nmostrerà i campi con i dettagli come ad esempio il nome e l'indirizzo.\n\nAl di sotto dei campi è possibile fare clic sulle icone per aggiungere\nulteriori dettagli come ad es. link a Wikipedia, accesso\nconsentito alle carrozzine, e altro.\n\nSotto l'inspector è possibile fare clic su 'Tag aggiuntivi' per aggiungere\narbitrariamente altri tag all'elemento. [Taginfo](http://taginfo.openstreetmap.org/) è una buona risorsa\nper imparare qualcosa sulle combinazioni di tag più comuni.\n\nLe modifiche effettuate nell'inspector vengono applicate\nautomaticamente alla mappa. E' possibile annullarle in ogni momento\ncliccando semplicemente sul pulsante 'Ripristina'.\n",
 
 
 

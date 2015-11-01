@@ -138,12 +138,6 @@
 
 
 
-"label": "Toegang",
-
-
-
-
-
 "options": {
 
 
@@ -320,20 +314,7 @@
 
 
 
-"placeholder": "Onbekend",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Algemene",
 
 
 
@@ -378,12 +359,6 @@
 
 
 "access_simple": {
-
-
-
-
-
-"label": "Toegang",
 
 
 
@@ -3709,38 +3684,6 @@
 
 
 "name": "Padteken"
-
-
-
-
-},
-
-
-
-
-"landuse": {
-
-
-
-
-
-"name": "Landsgebruik"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Toegewysde lappie grond"
 
 
 

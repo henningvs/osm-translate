@@ -186,7 +186,7 @@
 
 
 
-"label": "Acceso",
+"label": "Acceso permitido",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Destino"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Acceso permitido pero el ciclista debe desmontar",
+
+
+
+
+
+
+
+"title": "Desmontar"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Desconocido",
+"placeholder": "No especificado",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "General",
+"access": "Todo",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Acceso",
+"label": "Acceso permitido",
 
 
 
@@ -526,7 +556,7 @@
 
 
 
-"hamlet": "Aldea",
+"hamlet": "Poblamiento laxo",
 
 
 
@@ -1620,7 +1650,7 @@
 
 
 
-"title": "Vía para bicicletas"
+"title": "Pista para bicicletas"
 
 
 
@@ -1909,7 +1939,7 @@
 
 
 
-"label": "De pago"
+"label": "Tarifado"
 
 
 
@@ -2500,7 +2530,7 @@
 
 
 
-"terminal": "Terminal",
+"terminal": "Terminal de Internet",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Ciclo de la hoja",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Caduco",
+
+
+
+
+
+
+"evergreen": "Perenne",
+
+
+
+
+
+
+"semi_deciduous": "Semicaducifolio",
+
+
+
+
+
+
+"semi_evergreen": "Semiperenne"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2711,6 +2797,55 @@
 
 
 "needleleaved": "Hoja angosta"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Tipo de hoja",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Hoja ancha",
+
+
+
+
+
+
+"leafless": "Sin hojas",
+
+
+
+
+
+
+"needleleaved": "Coníferas"
 
 
 
@@ -2780,7 +2915,7 @@
 
 
 
-"label": "Niveles",
+"label": "Niveles del edificio",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Acepta botellas de vidrio"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Acepta papel"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Acepta plástico"
 
 
 
@@ -4944,6 +5111,22 @@
 
 
 
+"traffic_signals": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
 "trail_visibility": {
 
 
@@ -5370,7 +5553,7 @@
 
 
 
-"name": "Pilar de transporte por cable",
+"name": "Pilona de transporte por cable",
 
 
 
@@ -5414,13 +5597,13 @@
 
 
 
-"name": "Estación de transporte por cable",
+"name": "Estación de remonte",
 
 
 
 
 
-"terms": "estación, parada, central, puesto"
+"terms": "estación, estación de transporte por cable, estación de remonte"
 
 
 
@@ -5530,7 +5713,7 @@
 
 
 
-"terms": "puerta de embarque, puerta, embarque, aeropuerto"
+"terms": "puerta de embarque, puerta, embarque, aeropuerto, gate"
 
 
 
@@ -5706,7 +5889,7 @@
 
 
 
-"terms": "cajero automático,redbanc,ATM,ATH"
+"terms": "cajero automático,redbanc,ATM,ATH,banelco,link"
 
 
 
@@ -5838,7 +6021,7 @@
 
 
 
-"terms": "alquiler de bicicletas, préstamo de bicicletas, bici, bicicleta"
+"terms": "alquiler, renta, préstamo, flete, bici, bicicleta"
 
 
 
@@ -5854,13 +6037,13 @@
 
 
 
-"name": "Estación de reparación de bicicletas",
+"name": "Estación pública de reparación de bicicletas",
 
 
 
 
 
-"terms": "bicicletería pública, reparación de bicicletas pública, bicicleta"
+"terms": "bicicletería, reparación, estación, taller, pública, bicicleta, bici"
 
 
 
@@ -5926,7 +6109,7 @@
 
 
 
-"terms": "cambio de divisas, dinero, divisas, banco, monedas, billetes, dolares, euros, libras, yenes, casa de cambio"
+"terms": "cambio de divisas, dinero, divisas, banco, monedas, billetes, dolares, euros, libras, yenes, casa de cambio, moneda extranjera"
 
 
 
@@ -6080,7 +6263,7 @@
 
 
 
-"terms": "recarga, electricidad, eléctrico"
+"terms": "recarga, electricidad, eléctrico, estación de carga para vehículos eléctricos"
 
 
 
@@ -6096,7 +6279,7 @@
 
 
 
-"name": "Guardería / Cuidado de niños",
+"name": "Guardería/Cuidado de niños",
 
 
 
@@ -6190,7 +6373,7 @@
 
 
 
-"terms": "instituto, instituto, terreno, área, suelo"
+"terms": "instituto, instituto, terreno, área, suelo, facultad"
 
 
 
@@ -6250,7 +6433,7 @@
 
 
 
-"name": "Palacio de justicia",
+"name": "Juzgado",
 
 
 
@@ -6294,13 +6477,13 @@
 
 
 
-"name": "Doctor",
+"name": "Consultorio médico",
 
 
 
 
 
-"terms": "médico, médica, doctor, curador, curandero"
+"terms": "médico, médica, doctor, curador, curandero, consultorio"
 
 
 
@@ -6338,7 +6521,7 @@
 
 
 
-"name": "Agua potable",
+"name": "Fuente de agua potable",
 
 
 
@@ -6410,7 +6593,7 @@
 
 
 
-"terms": "Estación de Bomberos, Bomberos"
+"terms": "Estación de Bomberos, Bomberos, parque de bomberos"
 
 
 
@@ -6426,13 +6609,13 @@
 
 
 
-"name": "Fuente ornamental",
+"name": "Fuente o surtidor ornamental",
 
 
 
 
 
-"terms": "fuente, chorro"
+"terms": "fuente, chorro, surtidor ornamental"
 
 
 
@@ -6470,7 +6653,7 @@
 
 
 
-"name": "Cementerio",
+"name": "Camposanto",
 
 
 
@@ -6492,7 +6675,7 @@
 
 
 
-"name": "Depósito de sal",
+"name": "Contenedor de gravilla",
 
 
 
@@ -6536,7 +6719,7 @@
 
 
 
-"name": "Terreno de preescolar / Jardín de infancia",
+"name": "Terreno de preescolar/Jardín de infancia",
 
 
 
@@ -6586,7 +6769,29 @@
 
 
 
-"terms": "mercado, mercadillo"
+"terms": "mercado, mercadillo, mercado público"
+
+
+
+
+},
+
+
+
+
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Aparcamiento de motocicletas",
+
+
+
+
+
+"terms": "motocicleta, moto, estacionamiento, aparcamiento, parking"
 
 
 
@@ -6674,7 +6879,7 @@
 
 
 
-"terms": "farmacia,botica, laboratorio, apoteca, herbolario"
+"terms": "farmacia,botica, laboratorio, apoteca, herbolario, medicamentos, remedios"
 
 
 
@@ -6734,7 +6939,7 @@
 
 
 
-"name": "Iglesia",
+"name": "Iglesia cristiana",
 
 
 
@@ -6806,7 +7011,7 @@
 
 
 
-"terms": "policía, comisaría, gendarmería, cuartel, guardia civil, guardia municipal"
+"terms": "policía, policia, comisaría, gendarmería, cuartel, guardia civil, guardia municipal"
 
 
 
@@ -6844,13 +7049,13 @@
 
 
 
-"name": "Oficina de correos",
+"name": "Oficina postal",
 
 
 
 
 
-"terms": "oficina de correos, correo, correos, casa de correos, oficina postal, estafeta de correos"
+"terms": "correo, oficina de correos, casa de correos, estafeta de correos"
 
 
 
@@ -6910,13 +7115,13 @@
 
 
 
-"name": "Puesto de guardaparques",
+"name": "Estación de guardaparque",
 
 
 
 
 
-"terms": "Estación de guardaparques, estación de guardabosques, guarda forestal, guardaparque, guardabosque"
+"terms": "Estación de guardaparques, estación de guardabosques, guarda forestal, guardaparque, guardaparques, guardabosque, puesto de guardaparque"
 
 
 
@@ -6932,7 +7137,7 @@
 
 
 
-"name": "Reciclaje",
+"name": "Contenedor de reciclado",
 
 
 
@@ -7152,13 +7357,13 @@
 
 
 
-"name": "Estudio",
+"name": "Estudio de grabación",
 
 
 
 
 
-"terms": "estudio, taller, gabinete"
+"terms": "estudio, estudio de grabación"
 
 
 
@@ -7290,7 +7495,7 @@
 
 
 
-"terms": "ayuntamiento, alcaldía, municipio, municipalidad, municipal, corporación, concejo, consistorio, cabildo, gobierno local, gobierno municipal, alcalde, intendente, concejales, ediles, comuna, casa consistorial"
+"terms": "ayuntamiento, alcaldía, municipio, municipalidad, municipal, concejo, consistorio, cabildo, gobierno local, gobierno municipal, alcalde, intendente, concejales, ediles, comuna, casa consistorial"
 
 
 
@@ -7356,7 +7561,7 @@
 
 
 
-"terms": "veterinario, albéitar, mascotas, animales, perros, gatos"
+"terms": "veterinario, veterinaria, albéitar, mascotas, animales, perros, gatos"
 
 
 
@@ -7592,7 +7797,7 @@
 
 
 
-"name": "Entrada",
+"name": "Entrada / Apertura de barrera",
 
 
 
@@ -7620,7 +7825,7 @@
 
 
 
-"terms": "valla, vallado, cercado, seto, muro, empalizada, barrera, tapia, verja, estacada, alambrada"
+"terms": "valla, vallado, cercado, verja, alambrada, cerca"
 
 
 
@@ -7642,7 +7847,7 @@
 
 
 
-"terms": "portón, abertura, pórtico, portillo, cancela, entrada, salida, paso, puerta"
+"terms": "portón, abertura, pórtico, portillo, cancela, entrada, salida, paso, puerta, tranquera"
 
 
 
@@ -7702,13 +7907,13 @@
 
 
 
-"name": "Barrera levadiza",
+"name": "Barrera",
 
 
 
 
 
-"terms": "Barrera elevada"
+"terms": "Barrera elevada, barrera levadiza"
 
 
 
@@ -7730,7 +7935,7 @@
 
 
 
-"terms": "Muro de contención"
+"terms": "muro, pared, contención, retención, gavión"
 
 
 
@@ -7746,13 +7951,13 @@
 
 
 
-"name": "Escalones de cerca",
+"name": "Escalera de paso",
 
 
 
 
 
-"terms": "Peldaños en una valla, escalones de cerca"
+"terms": "Peldaños en una valla, escalones de cerca, escalera de paso"
 
 
 
@@ -7768,13 +7973,13 @@
 
 
 
-"name": "Peaje",
+"name": "Cabina de peaje",
 
 
 
 
 
-"terms": "Cabina de peaje"
+"terms": "Cabina de peaje, peaje"
 
 
 
@@ -8016,7 +8221,7 @@
 
 
 
-"terms": "edificio del instituto, edificio instituto"
+"terms": "edificio del instituto, edificio instituto, facultad"
 
 
 
@@ -8076,13 +8281,13 @@
 
 
 
-"name": "Casa unifamiliar",
+"name": "Casa independiente",
 
 
 
 
 
-"terms": "chalet, unifamiliar, casa, vivienda"
+"terms": "Casa independiente, chalet"
 
 
 
@@ -8444,6 +8649,28 @@
 
 
 
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Casa adosada o duplex",
+
+
+
+
+
+"terms": "casa adosada, casa pareada, duplex"
+
+
+
+
+},
+
+
+
+
 "building/shed": {
 
 
@@ -8610,7 +8837,7 @@
 
 
 
-"terms": "oficio, trabajo, artesanal"
+"terms": "oficio, trabajo, artesanal, manual"
 
 
 
@@ -9110,13 +9337,13 @@
 
 
 
-"name": "Óptico",
+"name": "Oculista",
 
 
 
 
 
-"terms": "óptico, óptica, gafas, optometrista, oculista, lentillas"
+"terms": "óptico, óptica, optometrista, oculista"
 
 
 
@@ -9616,13 +9843,13 @@
 
 
 
-"name": "Bodega",
+"name": "Bodega de vitivinicultura",
 
 
 
 
 
-"terms": "Bodega, Vinería"
+"terms": "Bodega, vitivinicultura"
 
 
 
@@ -9644,7 +9871,7 @@
 
 
 
-"terms": "terraplén, muro de contención"
+"terms": "terraplén, terraplen, muro de contención"
 
 
 
@@ -9682,13 +9909,13 @@
 
 
 
-"name": "Boca de incendio",
+"name": "Hidrante contra incendios",
 
 
 
 
 
-"terms": "boca de incendio,hidrante de incendio"
+"terms": "boca de incendio,hidrante de incendio, hidrante contra incendios"
 
 
 
@@ -9748,13 +9975,13 @@
 
 
 
-"name": "Cruce de calle",
+"name": "Cruce de acera peatonal",
 
 
 
 
 
-"terms": "cruce, paso"
+"terms": "cruce de calle, paso de peatones, peatonal"
 
 
 
@@ -10100,13 +10327,13 @@
 
 
 
-"name": "Cruce de calle",
+"name": "Paso de peatones",
 
 
 
 
 
-"terms": "cruce, paso"
+"terms": "cruce de calle, paso de peatones"
 
 
 
@@ -10144,13 +10371,13 @@
 
 
 
-"name": "Sendero ciclista",
+"name": "Ciclovía",
 
 
 
 
 
-"terms": "Camino para bicicletas, senda ciclable, sendero ciclista, carril bici, bicisenda"
+"terms": "Camino para bicicletas, senda ciclable, sendero ciclista, carril bici, bicisenda, ciclovía, carril para bicicletas,pista para ciclistas"
 
 
 
@@ -10166,13 +10393,13 @@
 
 
 
-"name": "Sendero peatonal",
+"name": "Acera peatonal",
 
 
 
 
 
-"terms": "camino peatonal, sendero peatonal, peatón, sendero natural"
+"terms": "camino peatonal, sendero peatonal, peatón, acera peatonal, vereda peatonal"
 
 
 
@@ -10254,13 +10481,13 @@
 
 
 
-"name": "Cruce/salida de autopista",
+"name": "Salida de autopista",
 
 
 
 
 
-"terms": "enlace, acceso, autopista, autovía, salida"
+"terms": "enlace, cruce de autopista, salida de autopista"
 
 
 
@@ -10348,7 +10575,7 @@
 
 
 
-"terms": "carretera, primaria, principal"
+"terms": "carretera primaria, carretera principal, vía principal"
 
 
 
@@ -10364,13 +10591,13 @@
 
 
 
-"name": "Enlace a carretera primaria",
+"name": "Enlace de carretera primaria",
 
 
 
 
 
-"terms": "enlace, carretera, primaria"
+"terms": "enlace carretera primaria, Enlace a carretera primaria, enlace a vía primaria"
 
 
 
@@ -10414,7 +10641,7 @@
 
 
 
-"terms": "calle, vía, paseo, avenida, bulevar, rambla, ronda, carrera, arteria, corredera, callejón, travesía, pasadizo, pasaje, rúa, vial, costanilla, callejuela"
+"terms": "calle urbana, calle residencial"
 
 
 
@@ -10458,7 +10685,7 @@
 
 
 
-"terms": "calle, ronda, carril, ruta, arteria, rúa, trayecto, avenida, carretera, paseo, camino, vía"
+"terms": "calle, ronda, carril, ruta, arteria, rúa, trayecto, carretera, paseo, camino, vía"
 
 
 
@@ -10480,7 +10707,7 @@
 
 
 
-"terms": "calle, ronda, carril, ruta, arteria, rúa, trayecto, avenida, carretera, paseo, camino, vía, secundaria"
+"terms": "Carretera secundaria, vía secundaria"
 
 
 
@@ -10496,13 +10723,13 @@
 
 
 
-"name": "Enlace a carretera secundaria",
+"name": "Enlace de carretera secundaria",
 
 
 
 
 
-"terms": "enlace, unión, cruce, calle, ronda, carril, ruta, arteria, rúa, trayecto, avenida, carretera, paseo, camino, vía, secundaria"
+"terms": "Enlace a carretera secundaria, Enlace de carretera secundaria"
 
 
 
@@ -10524,7 +10751,7 @@
 
 
 
-"terms": "calle, ronda, carril, ruta, arteria, rúa, trayecto, avenida, carretera, paseo, camino, vía"
+"terms": "vía de servicio, calle de servicio, servicio"
 
 
 
@@ -10568,7 +10795,7 @@
 
 
 
-"terms": "ventanilla, autoservicio, autobanco, autofarmacia"
+"terms": "ventanilla, autoservicio, autobanco, autofarmacia, servicio por ventanilla, ventanilla para auto"
 
 
 
@@ -10694,7 +10921,7 @@
 
 
 
-"name": "Señal de Alto",
+"name": "Señal de Alto / Stop",
 
 
 
@@ -10738,13 +10965,13 @@
 
 
 
-"name": "Carretera terciaria",
+"name": "Carretera local",
 
 
 
 
 
-"terms": "calle, ronda, carril, ruta, arteria, rúa, trayecto, avenida, carretera, paseo, camino, vía, local, terciaria"
+"terms": "Carretera terciaria, Carretera local"
 
 
 
@@ -10760,13 +10987,13 @@
 
 
 
-"name": "Enlace a carretera terciaria",
+"name": "Enlace de carretera local",
 
 
 
 
 
-"terms": "enlace, unión, cruce, calle, ronda, carril, ruta, arteria, rúa, trayecto, avenida, carretera, paseo, camino, vía, local, terciaria"
+"terms": "Enlace a carretera terciaria, Enlace a carretera local, Enlace de carretera local"
 
 
 
@@ -10826,13 +11053,13 @@
 
 
 
-"name": "Carretera troncal",
+"name": "Carretera principal",
 
 
 
 
 
-"terms": "Carretera principal, nacional"
+"terms": "Carretera principal, carretera nacional, Carretera troncal"
 
 
 
@@ -10848,13 +11075,13 @@
 
 
 
-"name": "Enlace a carretera troncal",
+"name": "Enlace de carretera principal",
 
 
 
 
 
-"terms": "Enlace principal"
+"terms": "Enlace principal, Enlace a carretera troncal"
 
 
 
@@ -10876,7 +11103,7 @@
 
 
 
-"terms": "círculo, giro, retorno, cul de sac"
+"terms": "círculo de giro, cul de sac"
 
 
 
@@ -10898,7 +11125,7 @@
 
 
 
-"terms": "carretera, camino, vía, camino rural"
+"terms": "Carretera sin clasificación, Carretera sin clasificar"
 
 
 
@@ -10936,13 +11163,13 @@
 
 
 
-"name": "Sitio arqueológico",
+"name": "Yacimiento arqueológico",
 
 
 
 
 
-"terms": "arqueológico, sitio, lugar, histórico, excavación"
+"terms": "sitio arqueológico, yacimiento arqueológico"
 
 
 
@@ -10964,7 +11191,7 @@
 
 
 
-"terms": "Mojón, fronterizo"
+"terms": "mojón, piedra fronteriza"
 
 
 
@@ -11002,13 +11229,13 @@
 
 
 
-"name": "Monumento pequeño",
+"name": "Monumento conmemorativo",
 
 
 
 
 
-"terms": "monumento, memorial, monolito, obelisco, pirámide, estatua, túmulo, panteón, mausoleo, menhir, dolmen, escultura, busto"
+"terms": "monumento conmemorativo, memorial, estatua, busto"
 
 
 
@@ -11030,7 +11257,7 @@
 
 
 
-"terms": "monumento, memorial, monolito, obelisco, pirámide, estatua, túmulo, panteón, mausoleo, menhir, dolmen, escultura, busto"
+"terms": "monumento, monolito, obelisco, pirámide, estatua, túmulo, panteón, mausoleo, menhir, dolmen"
 
 
 
@@ -11052,7 +11279,7 @@
 
 
 
-"terms": "restos, escombros, cascotes, vestigios, reliquias, despojos"
+"terms": "restos, ruina, ruinas, vestigios, destruido"
 
 
 
@@ -11068,13 +11295,13 @@
 
 
 
-"name": "Cruz de término",
+"name": "Crucero",
 
 
 
 
 
-"terms": "crucero, cruz, humilladero"
+"terms": "crucero, cruz, cruz de término, humilladero"
 
 
 
@@ -11090,13 +11317,13 @@
 
 
 
-"name": "Proskynetarion",
+"name": "Humilladero",
 
 
 
 
 
-"terms": "santuario, sagrario, Ermita, Proskynetarion, oratorio, lugar de culto, icono"
+"terms": "santuario, sagrario, Ermita, Proskynetarion, proskynetaria, oratorio, lugar de culto, icono, figura, humilladero"
 
 
 
@@ -11112,7 +11339,7 @@
 
 
 
-"name": "Cruce",
+"name": "Intersección vial",
 
 
 
@@ -11134,13 +11361,13 @@
 
 
 
-"name": "Uso de suelo",
+"name": "Uso del suelo",
 
 
 
 
 
-"terms": "uso, suelo, usos"
+"terms": "uso del suelo, uso de la tierra, uso de tierras, explotación del suelo, utilización del suelo, uso del terreno, utilización del terreno, ocupación del suelo"
 
 
 
@@ -11156,13 +11383,13 @@
 
 
 
-"name": "Huertos comunitarios",
+"name": "Jardín comunitario",
 
 
 
 
 
-"terms": "huerto, parcela, terreno, tierra"
+"terms": "jardín, huerto, huerta, comunitario, comunal, vecindad"
 
 
 
@@ -11222,13 +11449,13 @@
 
 
 
-"name": "Camposanto",
+"name": "Terreno de iglesia",
 
 
 
 
 
-"terms": "camposanto, sacramental"
+"terms": "sacramental"
 
 
 
@@ -11244,13 +11471,13 @@
 
 
 
-"name": "Área comercial",
+"name": "Área comercial y oficinas",
 
 
 
 
 
-"terms": "área comercial, comercio, negocio, tiendas"
+"terms": "área comercial, oficinas, parques empresariales"
 
 
 
@@ -11266,13 +11493,13 @@
 
 
 
-"name": "Construcción",
+"name": "Área de construcción",
 
 
 
 
 
-"terms": "Construcción, obras"
+"terms": "Construcción, construccion, obras"
 
 
 
@@ -11288,7 +11515,7 @@
 
 
 
-"name": "Tierras de cultivo",
+"name": "Tierra de labranza",
 
 
 
@@ -11310,7 +11537,7 @@
 
 
 
-"name": "Tierras de cultivo",
+"name": "Tierra de labranza",
 
 
 
@@ -11332,13 +11559,13 @@
 
 
 
-"name": "Edificio de granja",
+"name": "Edificio agrario",
 
 
 
 
 
-"terms": "corral, redil, edificio granja, graneros, cobertizos"
+"terms": "corral, redil, edificio granja, graneros, cobertizos, edificio de granja, edificio agrario"
 
 
 
@@ -11376,7 +11603,7 @@
 
 
 
-"name": "Garajes privados",
+"name": "Garajes particulares",
 
 
 
@@ -11398,7 +11625,7 @@
 
 
 
-"name": "Césped",
+"name": "Césped en parques o franjas de separación",
 
 
 
@@ -11508,13 +11735,13 @@
 
 
 
-"name": "Huerta",
+"name": "Huerta frutal",
 
 
 
 
 
-"terms": "herbazal, pradera, pradería, prado, pasto, majada, monte, dehesa, huerta, riego, sembrado"
+"terms": "huerta, huerto"
 
 
 
@@ -11558,7 +11785,7 @@
 
 
 
-"terms": "cantera, mina"
+"terms": "cantera, mina, extracción mineral"
 
 
 
@@ -11580,7 +11807,7 @@
 
 
 
-"terms": "área residencial"
+"terms": "área residencial, zona residencial"
 
 
 
@@ -11596,13 +11823,13 @@
 
 
 
-"name": "Área comercial",
+"name": "Área de tiendas y mercado minorista",
 
 
 
 
 
-"terms": "área comercial, comercio, negocio, tienda"
+"terms": "comercios, tiendas, mercado minorista"
 
 
 
@@ -11678,19 +11905,41 @@
 
 
 
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Pista de bolos",
+
+
+
+
+
+"terms": "bowling, bolos, boliche, juego de bolos, pista de bowling"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
 
 
 
-"name": "Común",
+"name": "Tierras comunes -Reino Unido-",
 
 
 
 
 
-"terms": "campa, prado, mies, terreno comunal, comunal"
+"terms": "tierras comunales, terreno comunal, comunal, tierras comunes"
 
 
 
@@ -11712,7 +11961,7 @@
 
 
 
-"terms": "perro,can,parque"
+"terms": "perro, can, parque de perros"
 
 
 
@@ -11734,7 +11983,7 @@
 
 
 
-"terms": "firepit"
+"terms": "fogata, hoguera"
 
 
 
@@ -11778,7 +12027,7 @@
 
 
 
-"terms": "Campo de golf"
+"terms": "Campo de golf, cancha de golf"
 
 
 
@@ -11800,7 +12049,7 @@
 
 
 
-"terms": "pista de patinaje, pista de hielo, pista helada"
+"terms": "pista de patinaje, pista de hielo, pista helada, patinaje sobre hielo"
 
 
 
@@ -11816,13 +12065,13 @@
 
 
 
-"name": "Muelle",
+"name": "Puerto deportivo",
 
 
 
 
 
-"terms": "marina, muelle, puerto, embarcadero"
+"terms": "marina, puerto, embarcadero, puerto deportivo, dársena"
 
 
 
@@ -11866,7 +12115,7 @@
 
 
 
-"terms": "parque, plaza, recreación, natural, plazuela, recreación, jardines"
+"terms": "parque, plaza, natural, plazuela, jardines"
 
 
 
@@ -11904,7 +12153,7 @@
 
 
 
-"name": "Cancha deportiva",
+"name": "Cancha de juego",
 
 
 
@@ -11932,7 +12181,7 @@
 
 
 
-"terms": "Cancha de fútbol americano"
+"terms": "cancha, campo, fútbol, football, americano, gridiron"
 
 
 
@@ -11954,7 +12203,7 @@
 
 
 
-"terms": "Campo de Beisbol"
+"terms": "campo de beisbol, béisbol, beisbol, baseball"
 
 
 
@@ -11976,7 +12225,51 @@
 
 
 
-"terms": "Cancha de Baloncesto"
+"terms": "cancha de baloncesto, baloncesto, basketball, básquetbol"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Campo de rugby liga",
+
+
+
+
+
+"terms": "cancha, campo, liga, rugby, rugbi, fútbol rugby, rugby a 13, rugby league"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Campo de rugby unión",
+
+
+
+
+
+"terms": "cancha, campo, unión, rugby, rugbi, fútbol rugby, rugby a 15, rugby union"
 
 
 
@@ -11998,7 +12291,7 @@
 
 
 
-"terms": "Parque de skate boarding"
+"terms": "Parque de skate boarding, Skate Park, Skate-Park, Skate"
 
 
 
@@ -12020,7 +12313,7 @@
 
 
 
-"terms": "terreno, campo, pista, fútbol, juego, balompie"
+"terms": "campo, cancha, fútbol, fulbito, balompie, football, soccer"
 
 
 
@@ -12042,7 +12335,7 @@
 
 
 
-"terms": "Pista de Tenis"
+"terms": "Pista de Tenis, tenis, tennis"
 
 
 
@@ -12058,13 +12351,13 @@
 
 
 
-"name": "Cancha de voleibol",
+"name": "Cancha de vóleibol",
 
 
 
 
 
-"terms": "Pista de Voleibol"
+"terms": "Pista de Voleibol, volleyball, vóleibol, balonvolea"
 
 
 
@@ -12080,13 +12373,13 @@
 
 
 
-"name": "Parque infantil",
+"name": "Zona de juegos",
 
 
 
 
 
-"terms": "parque infantil, jardín infantil, área de juegos, zona de juegos, juegos, infantil, niños, niñas"
+"terms": "parque infantil, área de juegos, zona de juegos, juegos, infantil, niños, niñas, plaza, parque"
 
 
 
@@ -12108,7 +12401,7 @@
 
 
 
-"terms": "circuitos de running, pistas de carreras"
+"terms": "circuitos de running, pistas de carreras, running, atletismo"
 
 
 
@@ -12124,13 +12417,13 @@
 
 
 
-"name": "Grada",
+"name": "Rampa para botes",
 
 
 
 
 
-"terms": "Grada, Varadero"
+"terms": "Grada, rampa, rampa para botes"
 
 
 
@@ -12146,13 +12439,13 @@
 
 
 
-"name": "Centro deportivo / Gimnasio",
+"name": "Polideportivo / Gimnasio",
 
 
 
 
 
-"terms": "centro deportivo, club deportivo, club atlético, gimnasio"
+"terms": "centro deportivo, club deportivo, club atlético, gimnasio, recinto deportivo, polideportivo"
 
 
 
@@ -12174,7 +12467,7 @@
 
 
 
-"terms": "estadio,cancha"
+"terms": "estadio, cancha"
 
 
 
@@ -12196,7 +12489,7 @@
 
 
 
-"terms": "piscina, natación, parque acuático"
+"terms": "piscina, natación, parque acuático, pileta"
 
 
 
@@ -12240,7 +12533,7 @@
 
 
 
-"terms": "línea, fila, cola"
+"terms": "línea, linea"
 
 
 
@@ -12256,13 +12549,13 @@
 
 
 
-"name": "Estructura artificial",
+"name": "Estructura artificial creada por el hombre",
 
 
 
 
 
-"terms": "manufactura, industrial, fabricado, manufacturado, fábrica, industria, hecho por el hombre"
+"terms": "estructura, artificial, hecho por el hombre, creado por el hombre"
 
 
 
@@ -12284,7 +12577,7 @@
 
 
 
-"terms": "socavón, entrada, minería"
+"terms": "socavón, entrada, mina"
 
 
 
@@ -12306,7 +12599,7 @@
 
 
 
-"terms": "rompeolas, escollera, dique, malecón, espigón, andén, muelle, desembarcadero"
+"terms": "cortaolas, rompeolas, malecón"
 
 
 
@@ -12322,13 +12615,13 @@
 
 
 
-"name": "Cortafuegos",
+"name": "Línea de corte forestal",
 
 
 
 
 
-"terms": "Corte de línea, línea de corte"
+"terms": "cortafuegos, cortafuegos forestal, línea de corte, linea de corte"
 
 
 
@@ -12350,7 +12643,7 @@
 
 
 
-"terms": "terraplén, protector"
+"terms": "terraplén, terraplen"
 
 
 
@@ -12372,7 +12665,7 @@
 
 
 
-"terms": "asta de bandera, polo de bandera"
+"terms": "mástil, mastil, asta de bandera, astabandera"
 
 
 
@@ -12394,7 +12687,7 @@
 
 
 
-"terms": "faro, fanal"
+"terms": "faro"
 
 
 
@@ -12416,7 +12709,7 @@
 
 
 
-"terms": "mástil, torre, estructura, radio, telefonía, telecomunicación"
+"terms": "mástil, torre, estructura, radio, telefonía, telecomunicación, comunicación, TV, televisión, antena, torre de transmisión, torre de telefonía celular, antena de telefonía móvil, torre venteada, torre de telefonía móvil, torre de radio, torre de televisión, mástil de transmisión, torre de transmisión, torre de TV"
 
 
 
@@ -12438,7 +12731,7 @@
 
 
 
-"terms": "Torre de observación"
+"terms": "Torre de observación, torre de vigilancia"
 
 
 
@@ -12460,7 +12753,7 @@
 
 
 
-"terms": "pozo, petróleo, aceite"
+"terms": "pozo, petróleo, plataforma de perforación, torre de perforación, perforación de petróleo, plataforma petrolera"
 
 
 
@@ -12482,7 +12775,7 @@
 
 
 
-"terms": "Pilote, Embarcadero"
+"terms": "Pilote, Embarcadero, entarimado"
 
 
 
@@ -12504,7 +12797,7 @@
 
 
 
-"terms": "tubería, cañería, caño, conducto, red"
+"terms": "tubería, cañería, caño, conducto, óleoducto, gasoducto"
 
 
 
@@ -12526,7 +12819,7 @@
 
 
 
-"terms": "silo, contenedor, grano, maíz, trigo, agro, agricultura"
+"terms": "silo, contenedor, grano, maíz, trigo"
 
 
 
@@ -12548,7 +12841,7 @@
 
 
 
-"terms": "tanque, almacenamiento, líquido, gas, petróleo"
+"terms": "tanque, depósito, deposito, almacenamiento, líquido, gas, petróleo"
 
 
 
@@ -12570,7 +12863,7 @@
 
 
 
-"terms": "Vértice geodésico"
+"terms": "vértice geodésico, punto geodésico"
 
 
 
@@ -12592,7 +12885,7 @@
 
 
 
-"terms": "torre, mástil, torreta"
+"terms": "torre, mástil, edificio, estructura alta"
 
 
 
@@ -12608,13 +12901,13 @@
 
 
 
-"name": "Planta depuradora de aguas",
+"name": "Planta depuradora de aguas residuales",
 
 
 
 
 
-"terms": "depuradora, aguas residuales, agua, EDAR, PTAR, tratamiento, plan de depuración, planta depuradora, saneamiento"
+"terms": "depuradora, depuración, aguas residuales, EDAR, PTAR, planta depuradora, saneamiento, planta de tratamiento de aguas residuales"
 
 
 
@@ -12636,7 +12929,7 @@
 
 
 
-"terms": "Depósito de agua elevado"
+"terms": "Depósito de agua elevado, tanque de agua, tanque, torre de agua"
 
 
 
@@ -12658,7 +12951,7 @@
 
 
 
-"terms": "Pozo de Agua"
+"terms": "Pozo de Agua, agua en pozo"
 
 
 
@@ -12674,13 +12967,13 @@
 
 
 
-"name": "Abastecimiento de agua potable",
+"name": "Obras hidráulicas",
 
 
 
 
 
-"terms": "Depósito de agua"
+"terms": "obras hidráulicas, obras hidraulicas, obra Hidráulica, obras sanitarias, obras hídricas, infraestructura hidráulica"
 
 
 
@@ -12696,13 +12989,13 @@
 
 
 
-"name": "Aeródromo",
+"name": "Base aérea militar",
 
 
 
 
 
-"terms": "Aerodromo, Aeropuerto, Pista"
+"terms": "aeródromo, aviación, aéreo, campo de aviación, base aérea, militar"
 
 
 
@@ -12718,13 +13011,13 @@
 
 
 
-"name": "Cuartel",
+"name": "Cuartel militar",
 
 
 
 
 
-"terms": "cuartel, barracones, acantonamiento, acuartelamiento, campamento"
+"terms": "cuartel, barracones, campamento, caserón, cuarteles, barracas"
 
 
 
@@ -12756,19 +13049,129 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Punto de control",
+
+
+
+
+
+"terms": "punto, puesto, control, revisión, retén, militar, policial"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Área de peligro",
+
+
+
+
+
+"terms": "área, zona, lugar, peligro, riesgo"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Base naval",
+
+
+
+
+
+"terms": "base, fuerte, fuerza, naval, militar, marina, marítimo"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Pista de obstáculos",
+
+
+
+
+
+"terms": "pista, camino, circuito, serie, trayecto, obstáculo, barrera, militar, naval, marina, policial"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
 
 
 
-"name": "Campo militar de tiro",
+"name": "Prácticas militares",
 
 
 
 
 
-"terms": "campo, entrenamiento, militar, tiro, prácticas"
+"terms": "campo, entrenamiento, militar, tiro, prácticas, prácticas militares"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Área de entrenamiento",
+
+
+
+
+
+"terms": "área, zona, lugar, entrenamiento, preparación, formación, capacitación, militar, naval, marina, policial"
 
 
 
@@ -12850,13 +13253,13 @@
 
 
 
-"name": "Entrada de la cueva",
+"name": "Entrada de cueva",
 
 
 
 
 
-"terms": "cueva, gruta, caverna, entrada"
+"terms": "cueva, gruta, caverna, entrada de cueva"
 
 
 
@@ -12878,7 +13281,7 @@
 
 
 
-"terms": "acantilado, despeñadero, risco, precipicio, escarpadura"
+"terms": "acantilado, despeñadero, risco, precipicio, escarpadura, farallón, barranco"
 
 
 
@@ -12900,7 +13303,7 @@
 
 
 
-"terms": "costa, litoral, playa, orilla, acantilado, margen"
+"terms": "costa, litoral, playa, orilla, margen, línea de costa"
 
 
 
@@ -12916,13 +13319,13 @@
 
 
 
-"name": "Meseta",
+"name": "Colina",
 
 
 
 
 
-"terms": "montaña, monte, brezal"
+"terms": "colina, páramo, brezal, meseta"
 
 
 
@@ -12944,7 +13347,7 @@
 
 
 
-"terms": "glaciar, nevero, helero, ventisquero"
+"terms": "glaciar, glaciares"
 
 
 
@@ -12982,7 +13385,7 @@
 
 
 
-"name": "Landa",
+"name": "Brezal / Landa",
 
 
 
@@ -13010,7 +13413,7 @@
 
 
 
-"terms": "pico, montaña, cresta, cima, cúspide, cumbre, picacho, aguja"
+"terms": "pico, montaña, cresta, cima, cúspide, cumbre, picacho, aguja, alpes, corona, colina, monte"
 
 
 
@@ -13026,13 +13429,13 @@
 
 
 
-"name": "Puerto de montaña",
+"name": "Collado",
 
 
 
 
 
-"terms": "collado,depresión,paso de montaña,portillo,puerto,punto de silla,abra"
+"terms": "collado,depresión,paso de montaña,portillo,punto de silla,abra, ensillada, cañada"
 
 
 
@@ -13048,13 +13451,13 @@
 
 
 
-"name": "Acumulación de piedras y rocas",
+"name": "Pedregal",
 
 
 
 
 
-"terms": "conglomeráticos, pedregal"
+"terms": "Talud, Pedrero, pedregal, derrubio, zona de desprendimientos"
 
 
 
@@ -13070,13 +13473,13 @@
 
 
 
-"name": "Matorral",
+"name": "Matorrales",
 
 
 
 
 
-"terms": "monte bajo, maleza, matorral, mata, monte"
+"terms": "monte bajo, maleza, matorral, mata, monte, arbustos"
 
 
 
@@ -13092,7 +13495,7 @@
 
 
 
-"name": "Manantial",
+"name": "Fuente / Manantial",
 
 
 
@@ -13120,7 +13523,7 @@
 
 
 
-"terms": "árbol, arbusto"
+"terms": "árbol, arbol, arbusto"
 
 
 
@@ -13142,7 +13545,7 @@
 
 
 
-"terms": "árboles en fila"
+"terms": "hilera, fila, línea, árbol, árboles"
 
 
 
@@ -13164,7 +13567,7 @@
 
 
 
-"terms": "volcán"
+"terms": "volcán, lava, magma, ceniza, cráter"
 
 
 
@@ -13180,13 +13583,13 @@
 
 
 
-"name": "Lámina de agua",
+"name": "Cuerpo de agua",
 
 
 
 
 
-"terms": "río, agua, lago, laguna, albufera, ibón, estanque, embalse, pantano, balsa"
+"terms": "río, agua, lago, laguna, albufera, ibón, estanque, embalse, pantano, balsa, cuerpo de agua, aguas, Lámina de agua"
 
 
 
@@ -13208,7 +13611,7 @@
 
 
 
-"terms": "agua, lago, laguna, ibón, estanque, embalse, pantano, balsa"
+"terms": "lago, laguna, ibón"
 
 
 
@@ -13230,7 +13633,7 @@
 
 
 
-"terms": "estanque, charca, pozo de agua, agua estancada"
+"terms": "estanque, charco, charca, laguna"
 
 
 
@@ -13252,7 +13655,7 @@
 
 
 
-"terms": "agua, lago, ibón, estanque, embalse, pantano, balsa, laguna, dique, presa, represa, reservorio"
+"terms": "embalse, presa, represa, reservorio"
 
 
 
@@ -13274,7 +13677,7 @@
 
 
 
-"terms": "Humedal"
+"terms": "Pantano, Humedal"
 
 
 
@@ -13296,7 +13699,7 @@
 
 
 
-"terms": "bosque, bosque natural, madera, foresta, arbolado, monte, árbol, boscaje, frondosidad"
+"terms": "bosque, bosque natural, boscaje, frondosidad"
 
 
 
@@ -13318,7 +13721,7 @@
 
 
 
-"terms": "Puesto, Oficina"
+"terms": "oficina, despacho, trabajo, salón"
 
 
 
@@ -13340,7 +13743,7 @@
 
 
 
-"terms": "contable, contador, tesorero, interventor, cajero, administrador, contabilidad, gestor"
+"terms": "contable, contador, contadora, contabilidad"
 
 
 
@@ -13362,7 +13765,7 @@
 
 
 
-"terms": "administrativo, gestoría, asesoría"
+"terms": "oficina administrativa, oficina de administración, administrativo, gestoría, asesoría"
 
 
 
@@ -13384,7 +13787,7 @@
 
 
 
-"terms": "constructor, proyectista, edificador, aparejador, urbanista"
+"terms": "arquitecto, arquitectos, arquitecta, urbanista"
 
 
 
@@ -13406,7 +13809,7 @@
 
 
 
-"terms": "Sede de la empresa"
+"terms": "oficina, empresa, compañía, sucursal"
 
 
 
@@ -13422,13 +13825,13 @@
 
 
 
-"name": "Instiución educativa",
+"name": "Institución educativa",
 
 
 
 
 
-"terms": "institución educacional"
+"terms": "institución educacional, institución educacional, institución de enseñanza, institución docente, centro de enseñanza, institución escolar, centro docente, centro educativo, institución académica"
 
 
 
@@ -13444,13 +13847,13 @@
 
 
 
-"name": "Agencia de colocación",
+"name": "Agencia de empleo",
 
 
 
 
 
-"terms": "agencia, empleo, desempleo, colocación, trabajo, ocupación, paro, desocupación, INEM"
+"terms": "empleo, desempleo, colocación, trabajo, ocupación, desocupación, INEM, agencia de colocación, oficina de empleo, agencia de trabajo, agencia de contratación"
 
 
 
@@ -13472,7 +13875,7 @@
 
 
 
-"terms": "agencia, bienes raíces, inmobiliaria, alquiler, inmueble, venta"
+"terms": "bienes raíces, inmobiliaria, inmueble, oficina"
 
 
 
@@ -13488,13 +13891,13 @@
 
 
 
-"name": "Oficina financiera",
+"name": "Financiera",
 
 
 
 
 
-"terms": "Oficina financiera"
+"terms": "financiera, financiero, bancario"
 
 
 
@@ -13516,7 +13919,7 @@
 
 
 
-"terms": "Oficina gubernamental"
+"terms": "Oficina gubernamental, oficina del gobierno"
 
 
 
@@ -13538,7 +13941,7 @@
 
 
 
-"terms": "oficina, aseguradora, seguro"
+"terms": "aseguradora, seguro, oficina de seguros"
 
 
 
@@ -13554,13 +13957,13 @@
 
 
 
-"name": "Oficina informática",
+"name": "Oficina de informática",
 
 
 
 
 
-"terms": "Oficina de It, oficina de informáticos, oficina de ti, oficina de tecnologías de información"
+"terms": "Oficina de IT, oficina de TI, oficina de informáticos, oficina de tecnologías de información, IT, TI, tecnologías"
 
 
 
@@ -13582,7 +13985,7 @@
 
 
 
-"terms": "despacho, bufete, abogado, procurador, letrado, jurisconsulto, jurisperito, jurista, legista"
+"terms": "despacho, bufete, abogado, procurador, letrado, jurisconsulto, jurisperito, jurista, legista, oficina jurídica, bufete jurídico, despacho de abogados, oficina de abogados, estudio jurídico"
 
 
 
@@ -13604,7 +14007,7 @@
 
 
 
-"terms": "Periódico"
+"terms": "Periódico, diario"
 
 
 
@@ -13626,7 +14029,7 @@
 
 
 
-"terms": "oficina, ONG, organización no gubernamental, Oficina de la ONG"
+"terms": "ONG, organización no gubernamental, Oficina de la ONG"
 
 
 
@@ -13648,7 +14051,7 @@
 
 
 
-"terms": "médico, médica, curador, curandero"
+"terms": "médico, médica, curador, curandero, doctor, facultativo, clínico"
 
 
 
@@ -13670,7 +14073,7 @@
 
 
 
-"terms": "Partido político"
+"terms": "Partido político, formación política, grupo político"
 
 
 
@@ -13692,7 +14095,7 @@
 
 
 
-"terms": "Oficina de investigación, Laboratorio de investigación, Departamento de investigación, Centro de investigación"
+"terms": "oficina, despacho, laboratorio, departamento, centro, investigación"
 
 
 
@@ -13714,7 +14117,7 @@
 
 
 
-"terms": "Oficina de telecomunicaciones"
+"terms": "Oficina de telecomunicaciones, telecomunicaciones, telefónica"
 
 
 
@@ -13824,7 +14227,7 @@
 
 
 
-"terms": "urbe, capital, metrópoli, ciudad, núcleo urbano, localidad, villa"
+"terms": "urbe, capital, metrópoli, ciudad, núcleo urbano"
 
 
 
@@ -13868,7 +14271,7 @@
 
 
 
-"terms": "aldea, caserío, poblado, pueblo, aldehuela, aldeorrio, villorrio, localidad, barrio, vecindario"
+"terms": "poblamiento, aldea, caserío, pueblecito, barrio, diseminado, asentamiento aislado"
 
 
 
@@ -13934,7 +14337,7 @@
 
 
 
-"terms": "paraje, lugar, sitio, rincón"
+"terms": "paraje, rincón"
 
 
 
@@ -13950,13 +14353,13 @@
 
 
 
-"name": "Barrio",
+"name": "Vecindario",
 
 
 
 
 
-"terms": "barrio, vecindario, vecindad"
+"terms": "barrio, vecindario, vecindad, urbanización, colonia"
 
 
 
@@ -13978,7 +14381,7 @@
 
 
 
-"terms": "ciudad, municipio, barrio"
+"terms": "municipio, barrio, distrito, partido"
 
 
 
@@ -13994,13 +14397,13 @@
 
 
 
-"name": "Pueblo",
+"name": "Ciudad pequeña",
 
 
 
 
 
-"terms": "ciudad, pueblo, población, localidad, villa, núcleo urbano, urbano"
+"terms": "ciudad, pueblo, municipio"
 
 
 
@@ -14016,13 +14419,13 @@
 
 
 
-"name": "Pueblo",
+"name": "Población",
 
 
 
 
 
-"terms": "localidad, población, aldea, pueblo, villa, ciudad, lugar, sitio, parroquia"
+"terms": "población, aldea, pueblo, poblado"
 
 
 
@@ -14088,7 +14491,7 @@
 
 
 
-"terms": "energía, potencia, electricidad, subestación, tendido, eléctrico, línea, eléctrica"
+"terms": "subestación, generador, generador eléctrico, generador de electricidad, generador de potencia"
 
 
 
@@ -14110,7 +14513,7 @@
 
 
 
-"terms": "energía, potencia, electricidad, subestación, tendido, eléctrico, línea, eléctrica, torre"
+"terms": "energía, línea, eléctrica, líneas eléctricas, linea electrica, lineas electricas"
 
 
 
@@ -14154,7 +14557,7 @@
 
 
 
-"terms": "torre, torreta, alta, tensión, poste, electricidad"
+"terms": "poste, electricidad, postes de electricidad, poste de electricidad"
 
 
 
@@ -14170,13 +14573,13 @@
 
 
 
-"name": "Subestación",
+"name": "Subestación eléctrica",
 
 
 
 
 
-"terms": "Subestación"
+"terms": "Subestación, subestaciones"
 
 
 
@@ -14192,13 +14595,13 @@
 
 
 
-"name": "Subestación",
+"name": "Subestación eléctrica",
 
 
 
 
 
-"terms": "Subestación"
+"terms": "Subestación, subestaciones"
 
 
 
@@ -14220,7 +14623,7 @@
 
 
 
-"terms": "Torre de alto voltaje"
+"terms": "Torre de alto voltaje, torres de alta tensión, torre de electricidad"
 
 
 
@@ -14236,13 +14639,13 @@
 
 
 
-"name": "Transformador",
+"name": "Transformador de energía",
 
 
 
 
 
-"terms": "Transformador"
+"terms": "Transformador, transformador de potencia, transformador eléctrico, transformador de energía"
 
 
 
@@ -14280,13 +14683,13 @@
 
 
 
-"name": "Punto de parada",
+"name": "Punto de detención",
 
 
 
 
 
-"terms": "punto de detención, stop, parada"
+"terms": "punto de detención, stop, parada, posición de parada"
 
 
 
@@ -14308,7 +14711,7 @@
 
 
 
-"terms": "ferrocarril, tren, convoy, suburbano, línea férrea, metro"
+"terms": "ferrocarril, tren, convoy, línea férrea, metro, ferrocarril, ferrocarriles, vía férrea"
 
 
 
@@ -14324,13 +14727,13 @@
 
 
 
-"name": "Ferrocarril abandonado",
+"name": "Vía de ferrocarril abandonada",
 
 
 
 
 
-"terms": "Ferrocarril abandonado"
+"terms": "Ferrocarril abandonado, traza abandonada"
 
 
 
@@ -14346,7 +14749,7 @@
 
 
 
-"name": "Ferrocarril en desuso",
+"name": "Vía de ferrocarril en desuso",
 
 
 
@@ -14374,7 +14777,7 @@
 
 
 
-"terms": "Funicular, Teleférico, Telecabina"
+"terms": "Funicular"
 
 
 
@@ -14390,13 +14793,13 @@
 
 
 
-"name": "Apeadero",
+"name": "Apeadero de ferrocarril",
 
 
 
 
 
-"terms": "apeadero,estación,ferrocarril,tren,andén"
+"terms": "alto, apeadero, detención, interrupción"
 
 
 
@@ -14412,13 +14815,13 @@
 
 
 
-"name": "Cruce de vías férreas",
+"name": "Paso a nivel",
 
 
 
 
 
-"terms": "cruce, ferrocarril, tren, ferroviario, cruce ferroviario"
+"terms": "cruce, ferrocarril, tren, ferroviario, cruce ferroviario, cruce de vías férreas"
 
 
 
@@ -14440,7 +14843,7 @@
 
 
 
-"terms": "Monorail"
+"terms": "monorraíl, monorriel, monocarril"
 
 
 
@@ -14456,13 +14859,13 @@
 
 
 
-"name": "Carril de vía estrecha",
+"name": "Ferrocarril de vía estrecha",
 
 
 
 
 
-"terms": "Ferrocarril de vía estrecha"
+"terms": "Ferrocarril de vía estrecha, vía angosta, gálibo estrecho"
 
 
 
@@ -14478,13 +14881,13 @@
 
 
 
-"name": "Andén",
+"name": "Andén de ferrocarril",
 
 
 
 
 
-"terms": "Andén de ferrocarril"
+"terms": "Andén de ferrocarril, plataforma ferroviaria"
 
 
 
@@ -14500,13 +14903,13 @@
 
 
 
-"name": "Riel",
+"name": "Vía de ferrocarril",
 
 
 
 
 
-"terms": "Rail"
+"terms": "Rail, ferrocarril, riel, tren, raíl, vía"
 
 
 
@@ -14528,7 +14931,7 @@
 
 
 
-"terms": "Estación de Ferrocarril"
+"terms": "Estación de Ferrocarril, estaciones de ferrocarril, estación de tren"
 
 
 
@@ -14550,7 +14953,7 @@
 
 
 
-"terms": "Metro"
+"terms": "metro, subte"
 
 
 
@@ -14566,13 +14969,13 @@
 
 
 
-"name": "Entrada de metro",
+"name": "Boca de metro",
 
 
 
 
 
-"terms": "Entrada de metro"
+"terms": "entrada de metro, entrada de subte,  entrada, ingreso, acceso"
 
 
 
@@ -14660,7 +15063,7 @@
 
 
 
-"terms": "ruta, ferry, transbordador, lancha, embarcación"
+"terms": "ruta, ferry, transbordador, lancha, embarcación, trasbordador"
 
 
 
@@ -14704,7 +15107,7 @@
 
 
 
-"terms": "licor, trago, bebida, alcohol, licorería, tienda, almacén, negocio"
+"terms": "licor, trago, bebida, alcohol, licorería, tienda de licores, almacén de licores"
 
 
 
@@ -14720,7 +15123,7 @@
 
 
 
-"name": "Tienda de Anime",
+"name": "Tienda de anime",
 
 
 
@@ -14742,13 +15145,13 @@
 
 
 
-"name": "Tienda de Antigüedades",
+"name": "Tienda de antigüedades",
 
 
 
 
 
-"terms": "Tienda de antigüedades"
+"terms": "Tienda de antigüedades, antigüedades, antiguedades"
 
 
 
@@ -14764,13 +15167,13 @@
 
 
 
-"name": "Galería de Arte",
+"name": "Galería de arte",
 
 
 
 
 
-"terms": "Galería de arte"
+"terms": "Galería de arte, galerías de arte, sala de arte"
 
 
 
@@ -14792,7 +15195,7 @@
 
 
 
-"terms": "bebe, niño, niña, infantil, tienda, almacén, negocio"
+"terms": "bebe, niño, niña, infantil, criatura, cariño, guagua"
 
 
 
@@ -14808,13 +15211,13 @@
 
 
 
-"name": "Tienda de carteras/equipaje",
+"name": "Tienda de carteras / equipaje",
 
 
 
 
 
-"terms": "cartera, billetera, monedero, equipaje, maleta, valija, mochila, tienda, almacén, negocio"
+"terms": "cartera, billetera, monedero, equipaje, maleta, valija, mochila, equipaje, equipajes, maletas"
 
 
 
@@ -14836,7 +15239,7 @@
 
 
 
-"terms": "panadería, horno, tahona, tienda, pastelería, confitería, pastel, pan, bollería, bollo"
+"terms": "panadería, horno, tahona, pastelería, confitería, pastel, pan, bollería, bollo"
 
 
 
@@ -14858,7 +15261,7 @@
 
 
 
-"terms": "baño, lavabo, tienda, almacén, negocio"
+"terms": "baño, lavabo, equipamiento, muebles"
 
 
 
@@ -14902,7 +15305,7 @@
 
 
 
-"terms": "almohada, sábanas, cama, colchón, ropa de cama, tienda, almacén, negocio"
+"terms": "almohada, sábanas, cama, colchón, ropa de cama"
 
 
 
@@ -14924,7 +15327,7 @@
 
 
 
-"terms": "bebida, brebaje, alcohol, tienda, almacén, negocio"
+"terms": "bebida, brebaje, almacén de bebidas"
 
 
 
@@ -14946,7 +15349,7 @@
 
 
 
-"terms": "tienda de bicicletas, taller de bicicletas, reparación de bicicletas, bici, bicicleta"
+"terms": "tienda, taller, reparación, bici, bicicleta"
 
 
 
@@ -14962,13 +15365,13 @@
 
 
 
-"name": "Librero",
+"name": "Encuadernador",
 
 
 
 
 
-"terms": "libro, encuadernador, manuscrito, restaurador, fascimil"
+"terms": "libro, encuadernador, librero"
 
 
 
@@ -14990,7 +15393,7 @@
 
 
 
-"terms": "libro, librería, tienda, almacén, negocio"
+"terms": "libro, librería, libreria"
 
 
 
@@ -15012,7 +15415,7 @@
 
 
 
-"terms": "boutique, tienda de moda"
+"terms": "boutique, tienda de moda, tienda"
 
 
 
@@ -15034,7 +15437,7 @@
 
 
 
-"terms": "carnicería, tablajería, casquería, tocinería, fiambrería, pollería, chacinería, charcutería, alimentación, carne, vacuno, caballo, vaca, pollo, embutido, jamón"
+"terms": "carnicería, carnicero, carne"
 
 
 
@@ -15056,7 +15459,7 @@
 
 
 
-"terms": "velas"
+"terms": "velas, vela, cirio, candela"
 
 
 
@@ -15078,7 +15481,7 @@
 
 
 
-"terms": "coche, carro, auto, automóvil, vehículo, concesión, franquicia, concesionario, venta, reventa"
+"terms": "coche, carro, auto, automóvil, concesionario, concesionario de automóviles, concesionario de coches, concesionario de autos"
 
 
 
@@ -15094,13 +15497,13 @@
 
 
 
-"name": "Tienda de piezas de automóviles",
+"name": "Tienda de componentes de automóvil",
 
 
 
 
 
-"terms": "coche, carro, auto, automóvil, vehículo, repuestos, piezas, partes,  tienda, almacén, negocio"
+"terms": "coche, carro, auto, automóvil, vehículo, repuestos, piezas, partes, tienda de partes, autopartes"
 
 
 
@@ -15122,7 +15525,7 @@
 
 
 
-"terms": "coche, carro, auto, automóvil, vehículo, taller, mecánico, chapero, reparación"
+"terms": "coche, carro, auto, automóvil, vehículo, taller, mecánico, chapero, reparación, reparación de vehículos, reparación de automóviles, reparación del automóvil, taller de reparación, taller de reparaciones, tienda de reparación"
 
 
 
@@ -15144,7 +15547,7 @@
 
 
 
-"terms": "alfombra, moqueta, tapiz, tienda, almacén, negocio"
+"terms": "alfombra, moqueta, tapiz"
 
 
 
@@ -15166,7 +15569,7 @@
 
 
 
-"terms": "quesería, quesos, tienda, almacén, negocio"
+"terms": "quesería, quesos, lácteos"
 
 
 
@@ -15182,13 +15585,13 @@
 
 
 
-"name": "Droguería",
+"name": "Droguería / Parafarmacia",
 
 
 
 
 
-"terms": "farmacéutico, botica, farmacia, boticario, apoteca"
+"terms": "droguería, drogueria, parafarmacia, perfumería, cosméticos, salud, belleza, wellness"
 
 
 
@@ -15210,7 +15613,7 @@
 
 
 
-"terms": "chocolate, cacao, tienda, almacén, negocio"
+"terms": "chocolate, bombón"
 
 
 
@@ -15232,7 +15635,7 @@
 
 
 
-"terms": "ropa, vestido, traje, vestimenta, textil, ropaje, sastrería, tienda, almacén, negocio"
+"terms": "tienda de ropa, local de ropa, ropa, vestido, traje, vestimenta, textil, ropaje, sastrería"
 
 
 
@@ -15248,13 +15651,13 @@
 
 
 
-"name": "Tienda informática",
+"name": "Tienda de informática",
 
 
 
 
 
-"terms": "informática, ordenador, computador, hardware, software, tienda, almacén, negocio"
+"terms": "informática, ordenador, computador, hardware, software, tienda de informática, computación, casa de computación, casa de informática, local de computación, local de informática"
 
 
 
@@ -15270,13 +15673,13 @@
 
 
 
-"name": "Confitería",
+"name": "Tienda de dulces",
 
 
 
 
 
-"terms": "dulce, caramelo, dulcería, confitería, bombonería, bombones, tienda, almacén, negocio"
+"terms": "dulce, caramelo, dulcería, confitería, bombonería, bombones, tienda de dulces, chucherías, tienda de chucherías"
 
 
 
@@ -15292,13 +15695,13 @@
 
 
 
-"name": "Tienda de alimentación",
+"name": "Tienda multiservicio",
 
 
 
 
 
-"terms": "abarrote, alimentos, colmado, tienda, almacén, negocio"
+"terms": "abarrote, alimentos, colmado, tienda, almacén, tienda de alimentación"
 
 
 
@@ -15314,13 +15717,13 @@
 
 
 
-"name": "Tienda de copiado",
+"name": "Centro de copiado",
 
 
 
 
 
-"terms": "copiado, fotocopiado, fotocopiadora, tienda, almacén, negocio"
+"terms": "copiado, fotocopiado, fotocopiadora, fotocopia, tienda de copiado"
 
 
 
@@ -15342,7 +15745,7 @@
 
 
 
-"terms": "cosmético, belleza, estética, cuidado personal, tienda, almacén, negocio"
+"terms": "cosmético, cosméticos, cosmética, belleza, estética, cuidado personal"
 
 
 
@@ -15358,13 +15761,13 @@
 
 
 
-"name": "Tienda de artes y oficios",
+"name": "Tienda de artesanías",
 
 
 
 
 
-"terms": "arte, pintura, oficio, artesanía, manualidades, tienda, almacén, negocio"
+"terms": "arte, pintura, oficio, artesanía, manualidades, tienda de artesanías"
 
 
 
@@ -15386,7 +15789,7 @@
 
 
 
-"terms": "cortina, sala, tienda, almacén, negocio"
+"terms": "cortina, cortinajes"
 
 
 
@@ -15408,7 +15811,7 @@
 
 
 
-"terms": "leche, lácteos, lechería, tienda, almacén, negocio"
+"terms": "leche, lácteos, lechería, quesería, central lechera"
 
 
 
@@ -15430,7 +15833,7 @@
 
 
 
-"terms": "delicatessen, tienda, comestibles, gourmet, exquisiteces, comida"
+"terms": "delicatessen, gourmet, exquisiteces, charcutería"
 
 
 
@@ -15452,7 +15855,7 @@
 
 
 
-"terms": "grandes almacenes, tienda, almacén, negocio"
+"terms": "grandes almacenes, almacén, gran almacén, centro comercial, emporio"
 
 
 
@@ -15468,13 +15871,13 @@
 
 
 
-"name": "Tienda de bricolaje",
+"name": "Tienda de bricolaje / Hágalo usted mismo",
 
 
 
 
 
-"terms": "bricolaje, ferretería, por ti mismo, tienda, almacén, negocio"
+"terms": "bricolaje, por ti mismo, diy, hágalo usted mismo"
 
 
 
@@ -15512,13 +15915,13 @@
 
 
 
-"name": "Tienda de electrónica",
+"name": "Tienda de electrónica y electrodomésticos",
 
 
 
 
 
-"terms": "electrónica, electrodoméstico, aparatos, equipos, línea blanca, tienda, almacén, negocio"
+"terms": "electrónica, electrónicos, electrodoméstico, aparatos, equipos, línea blanca"
 
 
 
@@ -15540,7 +15943,7 @@
 
 
 
-"terms": "erótica, sexo, sexual, sex shop, tienda, almacén, negocio"
+"terms": "erótica, erótico, erotica, erotico, sexual, sex shop"
 
 
 
@@ -15562,7 +15965,7 @@
 
 
 
-"terms": "tela, tejido, género, textilería, tienda, almacén, negocio"
+"terms": "tela, tejido, género, textilería, tejidos"
 
 
 
@@ -15578,13 +15981,13 @@
 
 
 
-"name": "Exposición de productos",
+"name": "Tienda de productos agrícolas",
 
 
 
 
 
-"terms": "Soporte de Productos"
+"terms": "granja, agrícola, productos agrícolas, productos de granja"
 
 
 
@@ -15606,7 +16009,7 @@
 
 
 
-"terms": "moda, marca, fashion, ropa, tienda, almacén, negocio"
+"terms": "moda, marca, fashion, ropa, diseñadora"
 
 
 
@@ -15622,13 +16025,13 @@
 
 
 
-"name": "Pescadería",
+"name": "Pescadería -en desuso-",
 
 
 
 
 
-"terms": "pescado, pescadería, pez, pescadero, salazón, marisquería, marisco, pulpería, tienda, alimentación, mar"
+"terms": "pescado, pescadería, pez, pescadero, salazón, marisquería, marisco, tienda de mar"
 
 
 
@@ -15650,7 +16053,7 @@
 
 
 
-"terms": "floristería, florista, flores, ramos, plantas, tienda, comercio"
+"terms": "floristería, florista, flores, ramos, plantas, floricultor"
 
 
 
@@ -15666,13 +16069,13 @@
 
 
 
-"name": "Tienda de Enmarcado",
+"name": "Tienda de enmarcación",
 
 
 
 
 
-"terms": "enmarcado, encuadrado"
+"terms": "enmarcado, enmarcaciones, encuadrado, encuadre, marcos"
 
 
 
@@ -15694,7 +16097,7 @@
 
 
 
-"terms": "Funeraria"
+"terms": "Funeraria, funeral, entierro, sepelio, funerario, fúnebre"
 
 
 
@@ -15716,7 +16119,7 @@
 
 
 
-"terms": "horno, caldera, tienda, almacén, negocio"
+"terms": "hornería, horno, caldera"
 
 
 
@@ -15738,7 +16141,7 @@
 
 
 
-"terms": "mueble, mobiliario, utensilio, armario, mesa, silla, decoración, cocina, tienda, almacén, negocio"
+"terms": "mueble, mobiliario, armario, mesa, silla, cocina, muebles, tienda de muebles"
 
 
 
@@ -15754,13 +16157,13 @@
 
 
 
-"name": "Centro de jardinería",
+"name": "Centro de jardinería / Vivero",
 
 
 
 
 
-"terms": "Centro de jardinería, Tienda de jardinería"
+"terms": "centro de jardinería, tienda de jardinería, vivero"
 
 
 
@@ -15776,13 +16179,13 @@
 
 
 
-"name": "Tienda de regalos",
+"name": "Tienda de regalos / recuerdo",
 
 
 
 
 
-"terms": "tienda, comercio, local, regalo, obsequio, presentes"
+"terms": "regalo, obsequio, presentes, recuerdo, tienda de obsequios, tienda de regalos"
 
 
 
@@ -15798,13 +16201,13 @@
 
 
 
-"name": "Frutería",
+"name": "Verdulería / Frutería",
 
 
 
 
 
-"terms": "hortaliza, verdura, fruta, verdulería, frutería,  legumbre, vegetal, tienda, alimentación, verdulero, frutero"
+"terms": "hortaliza, verdura, fruta, verdulería, frutería, legumbre, vegetal, verdulero, frutero"
 
 
 
@@ -15826,7 +16229,7 @@
 
 
 
-"terms": "peluquería barbería, peluquero, barbero, pelo, corte, salón, belleza, manicura, estética, esteticién, depilación"
+"terms": "peluquería, peluquero, peluquera, barbería, barbero, pelo, corte, salón"
 
 
 
@@ -15848,7 +16251,7 @@
 
 
 
-"terms": "ferretería, tienda, almacén, negocio"
+"terms": "ferretería,  herramientas"
 
 
 
@@ -15870,7 +16273,7 @@
 
 
 
-"terms": "audífono, audio, oído, sordo, aparato, equipo, tienda, almacén, negocio"
+"terms": "audífono, oído, sordo, prótesis auditivas, aparatos auditivos, ayudas auditivas, centro auditivo"
 
 
 
@@ -15892,7 +16295,7 @@
 
 
 
-"terms": "Herbolario, yerbatero"
+"terms": "herbolario, yerbatero, naturópata, herbalista"
 
 
 
@@ -15914,7 +16317,7 @@
 
 
 
-"terms": "sonido, hifi, alta fidelidad, electrónica, altavoz, amplificador, tienda, almacén, negocio"
+"terms": "sonido, hifi, alta fidelidad, altavoz, amplificador, equipos HIFI"
 
 
 
@@ -15936,7 +16339,7 @@
 
 
 
-"terms": "artículos del hogar, enseres del hogar, hogar, casa, almacén, comercio, negocio, tienda"
+"terms": "artículos del hogar, enseres del hogar, hogar, houseware"
 
 
 
@@ -15958,7 +16361,7 @@
 
 
 
-"terms": "interior, diseño, decoración, sala de estar, salón, dormitorio, cuarto, tienda, almacén, negocio"
+"terms": "diseño, decoración, decoración interior, decoración de interiores"
 
 
 
@@ -15980,7 +16383,7 @@
 
 
 
-"terms": "joyería, joyero, argentería, orfebrería, orfebre, platero"
+"terms": "joyería, joyero, argentería, orfebrería, orfebre, platero, joyas, alhajas"
 
 
 
@@ -16002,7 +16405,7 @@
 
 
 
-"terms": "diarios, noticias"
+"terms": "diarios, noticias, quisco, kiosco"
 
 
 
@@ -16024,7 +16427,7 @@
 
 
 
-"terms": "cocina, diseño, tienda, almacén, negocio"
+"terms": "cocina, cocinas, diseño de cocinas"
 
 
 
@@ -16046,7 +16449,7 @@
 
 
 
-"terms": "lavandería, lavadero, colada, ropa, tintorería, limpieza"
+"terms": "lavandería, lavadero, colada, tintorería, limpieza, lavado, lavandería, ropa sucia"
 
 
 
@@ -16062,13 +16465,13 @@
 
 
 
-"name": "Tienda de cuero",
+"name": "Talabartería",
 
 
 
 
 
-"terms": "cuero, piel, gamuza, tienda, almacén, negocio"
+"terms": "cuero, piel, gamuza, tienda de cuero, talabartería"
 
 
 
@@ -16090,7 +16493,7 @@
 
 
 
-"terms": "cerrajero, cerradura, candado"
+"terms": "cerrajero, cerradura, cerrajería"
 
 
 
@@ -16106,13 +16509,13 @@
 
 
 
-"name": "Tienda de lotería",
+"name": "Lotería",
 
 
 
 
 
-"terms": "lotería, juego"
+"terms": "lotería, juego,  sorteo "
 
 
 
@@ -16134,7 +16537,7 @@
 
 
 
-"terms": "mall,centro comercial,plaza comercial"
+"terms": "mall, centro comercial, plaza comercial, galería comercial"
 
 
 
@@ -16156,7 +16559,7 @@
 
 
 
-"terms": "masaje"
+"terms": "masaje, salón de masaje, salón de masajes"
 
 
 
@@ -16172,13 +16575,13 @@
 
 
 
-"name": "Tienda de suplementos médicos",
+"name": "Tienda de aparatos ortopédicos",
 
 
 
 
 
-"terms": "suplemento, medicina, medicamento, farmacia, droguería, tienda, almacén, negocio"
+"terms": "suministros médicos, bolas del ejercicio, vendajes, muletas, sujeción del arco, ortesis, esfigmomanómetros, glucómetro, aparatos ortopédicos, ortopedia"
 
 
 
@@ -16194,13 +16597,13 @@
 
 
 
-"name": "Tienda de teléfonos móviles",
+"name": "Tienda de telefonía móvil",
 
 
 
 
 
-"terms": "teléfono, celular, móvil, smartphone, comunicación, telecomunicación, tienda, almacén, negocio"
+"terms": "teléfono, celular, móvil, movil, smartphone, teléfono móvil, teléfono celular, telefonía móvil, telefonía celular"
 
 
 
@@ -16222,7 +16625,7 @@
 
 
 
-"terms": "prestamista"
+"terms": "prestamista, prestador, prestadora"
 
 
 
@@ -16244,7 +16647,7 @@
 
 
 
-"terms": "motocicleta, ciclomotor, ciclomoto"
+"terms": "motocicleta, ciclomotor, ciclomoto, moto"
 
 
 
@@ -16266,7 +16669,7 @@
 
 
 
-"terms": "música, audio, discos, discográfica, tienda, almacén, negocio"
+"terms": "música, audio, discos, discográfica, tienda de discos"
 
 
 
@@ -16288,7 +16691,7 @@
 
 
 
-"terms": "música, audio, sonido, aparato, equipo, instrumento, tienda, almacén, negocio"
+"terms": "música, audio, instrumento, instrumento musical, instrumento de música"
 
 
 
@@ -16304,13 +16707,13 @@
 
 
 
-"name": "Tienda de Periódicos / Revistas",
+"name": "Puesto de Periódicos / Revistas",
 
 
 
 
 
-"terms": "Periódico, Revista"
+"terms": "periódico, periodico, revista, diario, Tienda de Periódicos, Tienda de Revistas, puesto de diarios, puesto de periódicos"
 
 
 
@@ -16332,7 +16735,7 @@
 
 
 
-"terms": "óptica, gafas, lentillas, oculista, óptico, tienda"
+"terms": "óptica, optica, gafas, lentillas"
 
 
 
@@ -16354,7 +16757,7 @@
 
 
 
-"terms": "orgánico, ecológico, natural, productos, vegetales, tienda, almacén, negocio"
+"terms": "orgánico, ecológico, natural,  orgánica, orgánicas"
 
 
 
@@ -16376,7 +16779,7 @@
 
 
 
-"terms": "al aire libre, fuera de casa, exterior, excursión, campamento, tienda, almacén, negocio"
+"terms": "al aire libre, fuera de casa, exterior, excursión, campamento"
 
 
 
@@ -16392,13 +16795,13 @@
 
 
 
-"name": "Tienda de pintura",
+"name": "Tienda de pinturas",
 
 
 
 
 
-"terms": "pintura, colores, solventes, tienda, almacén, negocio"
+"terms": "pintura, pinturas, pinturería"
 
 
 
@@ -16414,13 +16817,13 @@
 
 
 
-"name": "Tienda de empeño",
+"name": "Casa de empeño",
 
 
 
 
 
-"terms": "Casa de empeño"
+"terms": "Casa de empeño, empeño, tienda de empeño"
 
 
 
@@ -16442,7 +16845,7 @@
 
 
 
-"terms": "mascota, animal, tienda, almacén, negocio"
+"terms": "mascota, animal, tienda de animales"
 
 
 
@@ -16464,7 +16867,7 @@
 
 
 
-"terms": "fotografía, fotógrafo, cámara, retratista, revelado, tienda, almacén, negocio"
+"terms": "fotografía, fotógrafo, cámara, retratista, revelado, film, rollo, impresión, fotos"
 
 
 
@@ -16486,7 +16889,7 @@
 
 
 
-"terms": "fuegos artificiales, pirotecnia, tienda, almacén, negocio"
+"terms": "fuegos artificiales, pirotecnia"
 
 
 
@@ -16508,7 +16911,7 @@
 
 
 
-"terms": "electrónica, radio, componentes, equipo, aparato, instrumento, tienda, almacén, negocio"
+"terms": "electrónica, radio, componentes, radioelectrónica"
 
 
 
@@ -16530,7 +16933,7 @@
 
 
 
-"terms": "religión, religioso, santerio, santos, tienda, almacén, negocio"
+"terms": "religión, religioso, santerio, santos"
 
 
 
@@ -16546,13 +16949,13 @@
 
 
 
-"name": "Tienda de Submarinismo",
+"name": "Tienda de buceo",
 
 
 
 
 
-"terms": "Submarinismo, Scuba"
+"terms": "submarinismo, scuba,  buceo, buceo submarino"
 
 
 
@@ -16568,13 +16971,13 @@
 
 
 
-"name": "Tienda de frutos de mar",
+"name": "Pescados y mariscos",
 
 
 
 
 
-"terms": "Tienda de comida de mar"
+"terms": "pescado, marisco, comida de mar, frutos de mar, pescadería, marisquería"
 
 
 
@@ -16590,13 +16993,13 @@
 
 
 
-"name": "Tienda de envío/ahorro",
+"name": "Tienda de segunda mano",
 
 
 
 
 
-"terms": "dinero, envío, remesa, ahorro, depósito, tienda, almacén, negocio"
+"terms": "segunda mano, usado, productos usados, reventa"
 
 
 
@@ -16618,7 +17021,7 @@
 
 
 
-"terms": "zapato, zapatilla, calzado, sandalia, chancla, alpargata, zapatería, tienda, almacén, negocio"
+"terms": "zapato, zapatilla, calzado, sandalia, chancla, alpargata, zapatería"
 
 
 
@@ -16640,7 +17043,7 @@
 
 
 
-"terms": "deporte, deportivo, tienda, almacén, negocio"
+"terms": "deporte, deportivo"
 
 
 
@@ -16662,7 +17065,7 @@
 
 
 
-"terms": "papel, papelería, escritorio, oficina, tienda, almacén, negocio"
+"terms": "papel, papelería, escritorio, oficina, artículos de papelería, material de papelería, material de escritorio, papel de escribir, artículos de oficina"
 
 
 
@@ -16684,7 +17087,7 @@
 
 
 
-"terms": "supermercado, autoservicio, mercado, hipermercado, alimentación, víveres"
+"terms": "supermercado, supermercados, cadena de supermercados, hipermercado"
 
 
 
@@ -16700,13 +17103,13 @@
 
 
 
-"name": "Sastre",
+"name": "Sastrería",
 
 
 
 
 
-"terms": "Sastre"
+"terms": "Sastre,  taller de costura, costura, taller de sastrería, sastrería"
 
 
 
@@ -16728,7 +17131,7 @@
 
 
 
-"terms": "tatuaje"
+"terms": "tatuaje, tatuar, tattoo"
 
 
 
@@ -16744,13 +17147,13 @@
 
 
 
-"name": "Tienda de té",
+"name": "Casa de té",
 
 
 
 
 
-"terms": "te, infusión, tienda, almacén, negocio"
+"terms": "te, infusión, té, tienda de té, casa de té"
 
 
 
@@ -16766,13 +17169,13 @@
 
 
 
-"name": "Venta de entradas",
+"name": "Venta de boletos",
 
 
 
 
 
-"terms": "Venta de tickets"
+"terms": "Venta de tickets, billete, entrada, boleto, venta de entradas"
 
 
 
@@ -16788,13 +17191,13 @@
 
 
 
-"name": "Tabaquería",
+"name": "Estanco",
 
 
 
 
 
-"terms": "Tabaquería, tienda de tabacos"
+"terms": "Tabaquería, tienda de tabacos, tabaco, cigarillos, cigarros, puros, expendeduría, quiosco, kiosko"
 
 
 
@@ -16810,13 +17213,13 @@
 
 
 
-"name": "Tienda de juguetes",
+"name": "Juguetería",
 
 
 
 
 
-"terms": "juguetes, juego, juguetería, tienda, almacén, negocio"
+"terms": "juguetes, juego, juguetería, tienda de juguetes"
 
 
 
@@ -16838,7 +17241,7 @@
 
 
 
-"terms": "agencia de viajes, agencia de turismo"
+"terms": "agencia de viajes, agencia de turismo, viajes, turismo"
 
 
 
@@ -16860,7 +17263,7 @@
 
 
 
-"terms": "neumático, llanta, goma, tienda, almacén, negocio"
+"terms": "neumático, llanta, goma, gomería"
 
 
 
@@ -16876,13 +17279,13 @@
 
 
 
-"name": "Local vacío",
+"name": "Local disponible",
 
 
 
 
 
-"terms": "Tienda Libre"
+"terms": "Tienda Libre, vacante, libre, vacío, desocupado, disponible"
 
 
 
@@ -16904,7 +17307,7 @@
 
 
 
-"terms": "aspiradora, limpiadora, limpieza, tienda, almacén, negocio"
+"terms": "aspiradora, limpiadora, limpieza, aspirador"
 
 
 
@@ -16920,13 +17323,13 @@
 
 
 
-"name": "Tienda de variedades",
+"name": "Tienda de variedades o bazar",
 
 
 
 
 
-"terms": "variedad, diversidad, bazar, tienda, almacén, negocio"
+"terms": "variedad, bazar, tienda de todo a, todo a, todo por"
 
 
 
@@ -16948,7 +17351,7 @@
 
 
 
-"terms": "vídeo, película, cine, videoclub, alquiler, renta, tienda, almacén, negocio"
+"terms": "vídeo, película, cine, videoclub, alquiler, tienda de vídeo"
 
 
 
@@ -16964,13 +17367,13 @@
 
 
 
-"name": "Tienda de video juegos",
+"name": "Tienda de videojuegos",
 
 
 
 
 
-"terms": "video juego, juegos electrónicos, tienda, almacén, negocio"
+"terms": "video juego, juegos electrónicos, videojuegos"
 
 
 
@@ -16986,7 +17389,7 @@
 
 
 
-"name": "Tienda de Deportes acuáticos / Natación",
+"name": "Tienda de deportes acuáticos / Natación",
 
 
 
@@ -17014,7 +17417,7 @@
 
 
 
-"terms": "Armería"
+"terms": "armería, tienda de armas"
 
 
 
@@ -17036,7 +17439,7 @@
 
 
 
-"terms": "ventana, persiana, tienda, almacén, negocio"
+"terms": "ventana, persiana"
 
 
 
@@ -17058,7 +17461,7 @@
 
 
 
-"terms": "vinatería, vinos, espirituosos, licorería, bebidas"
+"terms": "vinatería, vinos, espirituosos, licorería, bebidas, establecimiento de vinos"
 
 
 
@@ -17102,7 +17505,7 @@
 
 
 
-"terms": "Refugio de montaña, refugio alpino"
+"terms": "Refugio de montaña, refugio alpino, refugio,  cabaña, choza, caseta, chabola, cabina, cobertizo"
 
 
 
@@ -17146,7 +17549,7 @@
 
 
 
-"terms": "punto de interés, interesante, interés turístico, atracción turística"
+"terms": "punto de interés, interés turístico, atracción turística, atracciones turísticas, atractivos turísticos, lugares turísticos"
 
 
 
@@ -17162,13 +17565,13 @@
 
 
 
-"name": "Lugar de acampada",
+"name": "Camping",
 
 
 
 
 
-"terms": "camping,acampada"
+"terms": "camping, campings, acampada, lugar de acampada, campamento"
 
 
 
@@ -17212,7 +17615,7 @@
 
 
 
-"terms": "casa"
+"terms": "chalet, chalé"
 
 
 
@@ -17228,13 +17631,13 @@
 
 
 
-"name": "Casa de huéspedes",
+"name": "Casa de huéspedes / B&B",
 
 
 
 
 
-"terms": "hostal, hotel, pensión, B&B, Bed & Breakfast, casa rural, bed and breakfast, posada, cama y desayuno, alojamiento, alojamiento rural, agroturismo, casa de aldea, casa de labranza, hostería"
+"terms": "casa de huéspedes, casa de invitados,  huésped, invitado, pensión, pensiones, hostal, hospedería"
 
 
 
@@ -17256,7 +17659,7 @@
 
 
 
-"terms": "hostal, hotel, pensión, alojamiento, albergue, hostería"
+"terms": "hostal, alojamiento, albergue, hostería, residencia, hostel"
 
 
 
@@ -17278,7 +17681,7 @@
 
 
 
-"terms": "hotel, hostal, pensión, alojamiento"
+"terms": "hotel, alojamiento"
 
 
 
@@ -17294,13 +17697,13 @@
 
 
 
-"name": "Información",
+"name": "Información turística",
 
 
 
 
 
-"terms": "información, aviso, señal, información turística"
+"terms": "información, información turística, oficina de información"
 
 
 
@@ -17322,7 +17725,7 @@
 
 
 
-"terms": "hostal, hotel, motel, pensión, alojamiento"
+"terms": "motel, alojamiento"
 
 
 
@@ -17344,7 +17747,7 @@
 
 
 
-"terms": "museo,exposición,galería"
+"terms": "museo, exposición, galería, museo de arte"
 
 
 
@@ -17366,7 +17769,7 @@
 
 
 
-"terms": "picnic, barbacoa, espercimiento, merendero"
+"terms": "picnic, espercimiento, merendero, sitio de picnic, lugar de picnic, zona de picnic"
 
 
 
@@ -17404,13 +17807,13 @@
 
 
 
-"name": "Mirador",
+"name": "Vista panorámica / Mirador",
 
 
 
 
 
-"terms": "oteadero, punto de vista, mirador, vistas, vista panorámica"
+"terms": "oteadero, punto de vista, mirador, vistas, vista panorámica, perspectiva"
 
 
 
@@ -17448,7 +17851,7 @@
 
 
 
-"name": "Badén",
+"name": "Badén corto",
 
 
 
@@ -17470,7 +17873,7 @@
 
 
 
-"name": "Resalte",
+"name": "Badén largo",
 
 
 
@@ -17498,7 +17901,7 @@
 
 
 
-"terms": "banda sonora, calmado del tráfico, tráfico, pacificación del tráfico, velocidad"
+"terms": "banda sonora, calmado del tráfico, tráfico, pacificación del tráfico, reductor de velocidad"
 
 
 
@@ -17514,13 +17917,13 @@
 
 
 
-"name": "Paso de peatones elevado",
+"name": "Cruce peatonal elevado",
 
 
 
 
 
-"terms": "cruce, paso, peatón, peatonal, cebra, paso peatonal, cruce peatonal, paso de peatones, paso de cebra, reducción velocidad"
+"terms": "cruce, paso, peatón, peatonal, cebra, paso peatonal, cruce peatonal, paso de peatones, paso de cebra, reducción velocidad, cruce peatonal"
 
 
 
@@ -17558,7 +17961,7 @@
 
 
 
-"name": "Frontera administrativa",
+"name": "Límite Administrativo",
 
 
 
@@ -17674,7 +18077,7 @@
 
 
 
-"terms": "continuar, recto, de frente, a derecho"
+"terms": "continuar, recto, de frente, a derecho, prohibido seguir derecho, no seguir"
 
 
 
@@ -17690,13 +18093,13 @@
 
 
 
-"name": "Prohibido cambiar de sentido",
+"name": "Prohibido cambiar de sentido / girar en U",
 
 
 
 
 
-"terms": "giro en U, cambio de sentido"
+"terms": "giro en U, cambio de sentido, vuelta en U, no girar en U, prohibido girar en U"
 
 
 
@@ -17822,13 +18225,13 @@
 
 
 
-"name": "Recorrido de bus",
+"name": "Ruta de bus",
 
 
 
 
 
-"terms": "ruta de autobús, ruta de bus, línea de autobús, recorrido, trayecto, itinerario, autobus, autobús, bus, buses, colectivo, micro, guagua"
+"terms": "ruta de autobús, ruta de bus, línea de autobús, recorrido, trayecto, itinerario, autobus, autobús, bus, buses, colectivo, micro, guagua, recorrido de bus"
 
 
 
@@ -17916,7 +18319,7 @@
 
 
 
-"terms": "Ruta de senderismo"
+"terms": "Ruta de senderismo,  excursionismo, caminata, excursionismo a pie"
 
 
 
@@ -17938,7 +18341,7 @@
 
 
 
-"terms": "ruta, itinerario, rumbo, dirección, trayecto, ferry, trasbordador, tubería, gasoducto, oleoducto, conducto, cañería"
+"terms": "ruta, tubería, gasoducto, oleoducto, conducto, cañería, ducto"
 
 
 
@@ -17960,7 +18363,7 @@
 
 
 
-"terms": "línea de alta tensión, cable, electricidad, energía, red elećtrica"
+"terms": "línea de alta tensión, cable, electricidad, energía, red elećtrica, línea electrica"
 
 
 
@@ -17982,7 +18385,7 @@
 
 
 
-"terms": "carretera, camino"
+"terms": "carretera, camino, ruta, vía, calle, calzada, firme"
 
 
 
@@ -18004,7 +18407,7 @@
 
 
 
-"terms": "Ruta de tren, Línea de tren"
+"terms": "ruta de tren, línea de tren, tren, ferrocarril, vía"
 
 
 
@@ -18026,7 +18429,7 @@
 
 
 
-"terms": "Ruta de tranvía, Línea de tranvía"
+"terms": "ruta de tranvía, línea de tranvía, tranvía"
 
 
 
@@ -18070,7 +18473,7 @@
 
 
 
-"terms": "diferente, distinto, ajeno, otro"
+"terms": "otro, vértice"
 
 
 
@@ -18092,7 +18495,7 @@
 
 
 
-"terms": "canal, cauce, acueducto, fluvial, agua, río"
+"terms": "cauce, acueducto, fluvial, agua, vía navegable, vía fluvial, vía marítima"
 
 
 
@@ -18114,7 +18517,7 @@
 
 
 
-"terms": "canaleta, canaleja, canalón, canalizo, caño, cañería, reguero, reguera, tubería, conducto, caz, cacera, zanja, acequia, cauce, cloaca, acueducto, canal"
+"terms": "canaleta, canaleja, canalón, canalizo, cauce, canal, canales"
 
 
 
@@ -18130,13 +18533,13 @@
 
 
 
-"name": "Represa",
+"name": "Presa",
 
 
 
 
 
-"terms": "represa"
+"terms": "presa, presas, represa, represas, embalse, dique"
 
 
 
@@ -18158,7 +18561,7 @@
 
 
 
-"terms": "Foso, Zanja, Hoyo, Cuneta"
+"terms": "zanja, zanjas, acequia, foso, cuneta, hoyo"
 
 
 
@@ -18180,7 +18583,7 @@
 
 
 
-"terms": "Desagüe, Sumidero"
+"terms": "drenaje, desagüe, sumidero, alcantarilla, alcantarillado, resumidero"
 
 
 
@@ -18196,13 +18599,13 @@
 
 
 
-"name": "Estación de combustible marino",
+"name": "Combustible marítimo",
 
 
 
 
 
-"terms": "estación, combustible, carburante, gasolina, mar, río, fluvial, marino"
+"terms": "estación marítima, combustible marítimo"
 
 
 
@@ -18224,7 +18627,7 @@
 
 
 
-"terms": "río, torrente, arroyo, torrentera, riachuelo, riacho, afluente, regato"
+"terms": "río, afluente"
 
 
 
@@ -18240,7 +18643,7 @@
 
 
 
-"name": "Ribera de río",
+"name": "Ribera de río ancho",
 
 
 
@@ -18268,7 +18671,7 @@
 
 
 
-"terms": "desecho, inodoro, taza, letrina, servicio, baño, aseo, lavabo, mar, río, fluvial, marino"
+"terms": "desecho, inodoro, taza, letrina, servicio, baño, aseo, lavabo, marino"
 
 
 
@@ -18284,13 +18687,13 @@
 
 
 
-"name": "Arroyo",
+"name": "Arroyo / Riachuelo",
 
 
 
 
 
-"terms": "torrente, riachuelo, arroyuelo, regato, reguero, torrentera, rivera, corriente, afluente, brazo, toma, río, arroyo"
+"terms": "torrente, riachuelo, arroyuelo, regato, reguero, torrentera, rivera, corriente, afluente, arroyo, arroyos, flujo, flujos, corrientes, chorro, cauce"
 
 
 
@@ -18306,13 +18709,13 @@
 
 
 
-"name": "Presa",
+"name": "Represa",
 
 
 
 
 
-"terms": "presa, azud, dique"
+"terms": "presa, presas, azud, represa"
 
 
 

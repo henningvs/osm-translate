@@ -252,7 +252,7 @@
 
 
 
-"annotation": "Tekenen afgebroken."
+"annotation": "Tekenen afgebroken"
 
 
 
@@ -698,12 +698,17 @@
 
 
 
-"restriction": "De lijnen kunnen niet samengevoegd worden, omdat minstens één ervan onderdeel uitmaakt van een \"{relation}\"-relatie.",
+"restriction": "De lijnen kunnen niet samengevoegd worden omdat minstens één ervan onderdeel uitmaakt van een \"{relation}\"-relatie.",
 
 
 
 
-"incomplete_relation": "Deze objecten kunnen niet samengevoegd worden omdat minstens één ervan niet volledig gedownload is."
+"incomplete_relation": "Deze objecten kunnen niet samengevoegd worden omdat minstens één ervan niet volledig gedownload is.",
+
+
+
+
+"conflicting_tags": "De lijnen kunnen niet samengevoegd worden omdat sommige van hun tags conflicteren."
 
 
 
@@ -2126,6 +2131,9 @@
 "cannot_zoom": "Kan niet verder uitzoomen in huidige modus",
 
 
+"full_screen": "Volledig scherm aan/uit",
+
+
 "gpx": {
 
 
@@ -2186,7 +2194,7 @@
 
 
 
-"gps": "# GPS\n\nGPS-data is de databron die het meest wordt vertrouwd voor OpenStreetMap. Dit bewerkingsprogramma ondersteunt lokale GPS-paden – '.gpx'-bestanden op je eigen computer. Je kan dit soort paden opnemen met een aantal smartphone-apps of met aparte GPS-toestellen.\n\nVoor meer informatie over hoe je onderzoek kan doen met GPS, kan je terecht op [Surveying with a GPS (Engels)](http://learnosm.org/en/beginner/using-gps/) of [Sur le terrain avec un GPS (Frans)](http://learnosm.org/fr/beginner/using-gps/). \n\nOm een GPX-pad te gebruiken bij het karteren, sleep je het GPX-bestand op het kaartbewerkingsprogramma. Als het wordt herkend, zal het op de kaart worden getoond als een helderpaarse lijn. Open het menu 'Kaartgegevens' aan de rechterkant om deze nieuwe GPX-laag aan of uit te zetten of te zoomen.\n\nHet GPX-pad wordt niet rechtstreeks als een weg geüpload naar OpenStreetMap. De beste manier om het te gebruiken is als een hulpmiddel om op de kaart tekenen. Je wordt aangemoedigd het ook te [uploaden naar OpenStreetMap](http://www.openstreetmap.org/trace/create) zodat anderen het op dezelfde manier kunnen gebruiken.\n",
+"gps": "# GPS\n\nGPS-data is een waardevolle databron voor OpenStreetMap. Dit bewerkingsprogramma ondersteunt lokale GPS-paden – '.gpx'-bestanden op je eigen computer. Je kan dit soort paden opnemen met een aantal smartphone-apps of met aparte GPS-toestellen.\n\nVoor meer informatie over hoe je onderzoek kan doen met GPS, kan je terecht op [Mapping with a smartphone, GPS, or paper (Engels)](http://learnosm.org/en/mobile-mapping/) of [Sur le terrain avec un GPS (Frans)](http://learnosm.org/fr/beginner/using-gps/).\n\nOm een GPX-pad te gebruiken bij het karteren, sleep je het GPX-bestand op het kaartbewerkingsprogramma. Als het wordt herkend, zal het op de kaart worden getoond als een helderpaarse lijn. Open het menu 'Kaartgegevens' aan de rechterkant om deze nieuwe GPX-laag aan of uit te zetten of hem volledig in beeld te brengen.\n\nHet GPX-pad wordt niet rechtstreeks als een weg geüpload naar OpenStreetMap. De beste manier om het te gebruiken is als een hulpmiddel om op de kaart tekenen. Je wordt aangemoedigd het ook te [uploaden naar OpenStreetMap](http://www.openstreetmap.org/trace/create), zodat anderen het op dezelfde manier kunnen gebruiken.\n",
 
 
 
@@ -2198,7 +2206,7 @@
 
 
 
-"inspector": "# Het inspectiegereedschap\n\nHet inspectie­gereedschap is het schermelement links op de pagina dat verschijnt als een object wordt geselecteerd en maakt het je mogelijk om eigenschappen aan te passen.\n\n### Een objecttype selecteren\n\nNadat je een punt, lijn of vlak hebt toegevoegd, kan je kiezen wat voor type object het is, bijvoorbeeld of het een snelweg of woonerf is, een supermarkt of een café. Het inspectiegereedschap toont knoppen voor veelvoorkomende objecttypen en je kan andere vinden door een term in het zoekscherm in te vullen.\n\nKlik op de 'i' in de rechterbenedenhoek van een objecttypeknop om meer te weten te komen. Klik op een knop om het type te selecteren.\n\n### Formulieren gebruiken en tags bewerken\n\nNadat je een objecttype hebt gekozen, of wanneer je een object selecteert dat al een type toegekend heeft gekregen, dan toont het inspectiegereedschap allerlei eigenschappen van het object, zoals naam en adres.\n\nOnder de getoonde eigenschappen kan je op icoontjes klikken om meer eigenschappen toe te voegen, zoals informatie uit [Wikipedia](http://www.wikipedia.org/), toegankelijkheid voor rolstoelgebruikers, etc.\n\nOnderaan het inspectiegereedschap klik je op 'Extra tags' om andere tags toe te voegen. [Taginfo](http://taginfo.openstreetmap.org/) biedt een prachtig overzicht om meer te weten te komen over veelgebruikte combinaties van tags.\n\nAanpassingen die je in het inspectiegereedschap maakt zijn meteen zichtbaar in de kaart. Je kan ze op ieder moment ongedaan maken, door op de knop 'Ongedaan maken' te klikken.\n",
+"inspector": "# Inspectie&shy;gereedschap\n\nHet inspectie­gereedschap is het schermelement links op de pagina waarin je de eigenschappen van het geselecteerde element aan kan passen.\n\n### Een objecttype selecteren\n\nNadat je een punt, lijn of vlak hebt toegevoegd, kan je kiezen wat voor soort object het is, bijvoorbeeld een snelweg of woonerf, een supermarkt of een café. Het inspectiegereedschap toont knoppen voor veelvoorkomende objecttypen en je kan andere vinden door een term in het zoekscherm in te vullen.\n\nKlik op de 'i' in de rechterbenedenhoek van een objecttypeknop om meer te weten te komen. Klik op een knop om dat type te selecteren.\n\n### Formulieren gebruiken en tags bewerken\n\nNadat je een objecttype hebt gekozen, of wanneer je een object selecteert dat al een type toegekend heeft gekregen door iemand anders, toont het inspectiegereedschap allerlei eigenschappen van het object, zoals naam en adres.\n\nOnder de getoonde eigenschappen kan je op icoontjes klikken om meer eigenschappen toe te voegen, zoals een link naar het bijhorende Wikipedia-artikel, toegankelijkheid voor rolstoelgebruikers, etc.\n\nOnderaan het inspectiegereedschap klik je op 'Extra tags' om andere tags toe te voegen. [Taginfo](http://taginfo.openstreetmap.org/) biedt een prachtig overzicht om meer te weten te komen over veelgebruikte combinaties van tags.\n\nAanpassingen die je in het inspectiegereedschap maakt, zijn meteen zichtbaar in de kaart. Je kan ze op ieder moment ongedaan maken door op de knop 'Ongedaan maken' te klikken.\n",
 
 
 

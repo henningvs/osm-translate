@@ -186,12 +186,6 @@
 
 
 
-"label": "Accesu",
-
-
-
-
-
 "options": {
 
 
@@ -246,6 +240,36 @@
 
 
 "title": "Destín"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Accesu permitíu pero tien de desmontar",
+
+
+
+
+
+
+
+"title": "Desmontáu"
 
 
 
@@ -384,20 +408,7 @@
 
 
 
-"placeholder": "Desconocíu",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Xeneral",
 
 
 
@@ -442,12 +453,6 @@
 
 
 "access_simple": {
-
-
-
-
-
-"label": "Accesu",
 
 
 
@@ -850,6 +855,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Tipu"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -1332,6 +1353,22 @@
 
 
 "label": "Tipu"
+
+
+
+
+},
+
+
+
+
+"crop": {
+
+
+
+
+
+"label": "Collecha"
 
 
 
@@ -5888,6 +5925,22 @@
 
 
 
+"amenity/casino": {
+
+
+
+
+
+"name": "Casino"
+
+
+
+
+},
+
+
+
+
 "amenity/charging_station": {
 
 
@@ -5977,6 +6030,22 @@
 
 
 "name": "Reló"
+
+
+
+
+},
+
+
+
+
+"amenity/college": {
+
+
+
+
+
+"name": "Terrén de colexu universitariu"
 
 
 
@@ -6756,6 +6825,22 @@
 
 
 
+"amenity/shelter": {
+
+
+
+
+
+"name": "Abellugu"
+
+
+
+
+},
+
+
+
+
 "amenity/social_facility": {
 
 
@@ -7069,6 +7154,22 @@
 
 
 "name": "Área"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Superficie de la carretera"
 
 
 
@@ -7494,6 +7595,22 @@
 
 
 
+"building/college": {
+
+
+
+
+
+"name": "Edificiu de colexu universitariu"
+
+
+
+
+},
+
+
+
+
 "building/commercial": {
 
 
@@ -7523,22 +7640,6 @@
 
 
 "terms": "Obra, Arreglu"
-
-
-
-
-},
-
-
-
-
-"building/detached": {
-
-
-
-
-
-"name": "Vivienda aisllada"
 
 
 
@@ -9908,38 +10009,6 @@
 
 
 
-"landuse": {
-
-
-
-
-
-"name": "Usu del suelu"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Güertes recreatives"
-
-
-
-
-},
-
-
-
-
 "landuse/basin": {
 
 
@@ -10196,6 +10265,22 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Viveru"
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
@@ -10267,6 +10352,22 @@
 
 
 "name": "Recréu"
+
+
+
+
+},
+
+
+
+
+"leisure/dog_park": {
+
+
+
+
+
+"name": "Parque pa perros"
 
 
 
@@ -11610,6 +11711,22 @@
 
 
 
+"office/educational_institution": {
+
+
+
+
+
+"name": "Institución educativa"
+
+
+
+
+},
+
+
+
+
 "office/employment_agency": {
 
 
@@ -11714,6 +11831,38 @@
 
 
 
+"office/it": {
+
+
+
+
+
+"name": "Despachu de teunoloxía de la información"
+
+
+
+
+},
+
+
+
+
+"office/lawyer": {
+
+
+
+
+
+"name": "Despachu d'abogaos"
+
+
+
+
+},
+
+
+
+
 "office/newspaper": {
 
 
@@ -11758,6 +11907,22 @@
 
 
 
+"office/physician": {
+
+
+
+
+
+"name": "Médicu"
+
+
+
+
+},
+
+
+
+
 "office/political_party": {
 
 
@@ -11765,6 +11930,54 @@
 
 
 "name": "Partíu políticu"
+
+
+
+
+},
+
+
+
+
+"office/research": {
+
+
+
+
+
+"name": "Despachu d'investigación"
+
+
+
+
+},
+
+
+
+
+"office/telecommunication": {
+
+
+
+
+
+"name": "Oficina de telecomunicaciones"
+
+
+
+
+},
+
+
+
+
+"office/therapist": {
+
+
+
+
+
+"name": "Terapeuta"
 
 
 
@@ -12456,6 +12669,22 @@
 
 
 
+"roundabout": {
+
+
+
+
+
+"name": "Rotonda"
+
+
+
+
+},
+
+
+
+
 "route/ferry": {
 
 
@@ -12501,6 +12730,54 @@
 
 
 "terms": "Bodega"
+
+
+
+
+},
+
+
+
+
+"shop/anime": {
+
+
+
+
+
+"name": "Tienda d'anime"
+
+
+
+
+},
+
+
+
+
+"shop/antiques": {
+
+
+
+
+
+"name": "Anticuariu"
+
+
+
+
+},
+
+
+
+
+"shop/art": {
+
+
+
+
+
+"name": "Galería d'arte"
 
 
 
@@ -12798,6 +13075,28 @@
 
 
 
+"shop/dry_cleaning": {
+
+
+
+
+
+"name": "Llimpieza en seco",
+
+
+
+
+
+"terms": "tintorería,llavandería"
+
+
+
+
+},
+
+
+
+
 "shop/electronics": {
 
 
@@ -12814,13 +13113,63 @@
 
 
 
+"shop/erotic": {
+
+
+
+
+
+"name": "Artículos eróticos",
+
+
+
+
+
+"terms": "sex-shop"
+
+
+
+
+},
+
+
+
+
+"shop/fashion": {
+
+
+
+
+
+"name": "Tienda de moda",
+
+
+
+
+
+"terms": "boutique, moda"
+
+
+
+
+},
+
+
+
+
 "shop/fishmonger": {
 
 
 
 
 
-"name": "Pescadería"
+"name": "Pescadería",
+
+
+
+
+
+"terms": "pescadería"
 
 
 
@@ -12836,7 +13185,13 @@
 
 
 
-"name": "Floristería"
+"name": "Floristería",
+
+
+
+
+
+"terms": "flores, florista, floristería"
 
 
 
@@ -13034,6 +13389,28 @@
 
 
 
+"shop/lottery": {
+
+
+
+
+
+"name": "Loteríes",
+
+
+
+
+
+"terms": "Alministración de loteríes,"
+
+
+
+
+},
+
+
+
+
 "shop/mall": {
 
 
@@ -13057,6 +13434,28 @@
 
 
 "name": "Telefonía móvil"
+
+
+
+
+},
+
+
+
+
+"shop/money_lender": {
+
+
+
+
+
+"name": "Prestamista",
+
+
+
+
+
+"terms": "préstamos"
 
 
 
@@ -13098,13 +13497,107 @@
 
 
 
+"shop/musical_instrument": {
+
+
+
+
+
+"name": "Instrumentos musicales",
+
+
+
+
+
+"terms": "luthier"
+
+
+
+
+},
+
+
+
+
+"shop/newsagent": {
+
+
+
+
+
+"name": "Prensa y revistes",
+
+
+
+
+
+"terms": "Puestu de periódicos,"
+
+
+
+
+},
+
+
+
+
 "shop/optician": {
 
 
 
 
 
-"name": "Óptica"
+"name": "Óptica",
+
+
+
+
+
+"terms": "ópticu, optometrista"
+
+
+
+
+},
+
+
+
+
+"shop/paint": {
+
+
+
+
+
+"name": "Tienda de pintures",
+
+
+
+
+
+"terms": "barnices, droguería"
+
+
+
+
+},
+
+
+
+
+"shop/pawnbroker": {
+
+
+
+
+
+"name": "Casa d'empeños",
+
+
+
+
+
+"terms": "Monte de piedá"
 
 
 
@@ -13120,7 +13613,13 @@
 
 
 
-"name": "Tienda de mascotes"
+"name": "Tienda de mascotes",
+
+
+
+
+
+"terms": "paxarería"
 
 
 
@@ -13244,13 +13743,129 @@
 
 
 
+"shop/tailor": {
+
+
+
+
+
+"name": "Sastrería",
+
+
+
+
+
+"terms": "sastre"
+
+
+
+
+},
+
+
+
+
+"shop/tattoo": {
+
+
+
+
+
+"name": "Tatuaxes",
+
+
+
+
+
+"terms": "Tatuador"
+
+
+
+
+},
+
+
+
+
+"shop/tea": {
+
+
+
+
+
+"name": "Tienda de tes",
+
+
+
+
+
+"terms": "te, ferviatos"
+
+
+
+
+},
+
+
+
+
+"shop/ticket": {
+
+
+
+
+
+"name": "Venta d'entraes",
+
+
+
+
+
+"terms": "taquilla, venta anticipada"
+
+
+
+
+},
+
+
+
+
+"shop/tobacco": {
+
+
+
+
+
+"name": "Estancu",
+
+
+
+
+
+"terms": "tabacos, fumador"
+
+
+
+
+},
+
+
+
+
 "shop/toys": {
 
 
 
 
 
-"name": "Xuguetería"
+"name": "Xuguetería",
+
+
+
+
+
+"terms": "xuguetes"
 
 
 
@@ -13266,7 +13881,13 @@
 
 
 
-"name": "Axencia de viaxes"
+"name": "Axencia de viaxes",
+
+
+
+
+
+"terms": "viaxes"
 
 
 
@@ -13282,7 +13903,13 @@
 
 
 
-"name": "Neumáticos"
+"name": "Neumáticos",
+
+
+
+
+
+"terms": "ruedes,neumáticos"
 
 
 
@@ -13790,7 +14417,13 @@
 
 
 
-"name": "Ruta a pie"
+"name": "Ruta a pie",
+
+
+
+
+
+"terms": "sienda, PR, GR, ruta"
 
 
 
@@ -13828,7 +14461,13 @@
 
 
 
-"name": "Ruta de tubería"
+"name": "Ruta de tubería",
+
+
+
+
+
+"terms": "ruta de tubería"
 
 
 
@@ -13844,7 +14483,13 @@
 
 
 
-"name": "Ruta d'enerxía"
+"name": "Ruta d'enerxía",
+
+
+
+
+
+"terms": "Ruta de llinia d'enerxía"
 
 
 
@@ -13860,7 +14505,13 @@
 
 
 
-"name": "Ruta per carretera"
+"name": "Ruta per carretera",
+
+
+
+
+
+"terms": "Ruta de carretera"
 
 
 
@@ -14014,6 +14665,28 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Bomba de combustible marín",
+
+
+
+
+
+"terms": "gasolinera de combustible marín"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -14042,7 +14715,35 @@
 
 
 
-"name": "Ribera"
+"name": "Ribera",
+
+
+
+
+
+"terms": "ribera, oriella"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Vaciáu de sentines",
+
+
+
+
+
+"terms": "toma de saneamientu"
 
 
 
@@ -14080,7 +14781,13 @@
 
 
 
-"name": "Ñora"
+"name": "Ñora",
+
+
+
+
+
+"terms": "ñora, presa, banzáu"
 
 
 

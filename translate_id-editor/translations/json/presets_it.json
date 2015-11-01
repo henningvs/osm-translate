@@ -186,7 +186,7 @@
 
 
 
-"label": "Accesso",
+"label": "Permesso d'accesso",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Destinazione"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Accesso consentito, ma si deve scendere dal veicolo",
+
+
+
+
+
+
+
+"title": "Scendere dal veicolo"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Sconosciuto",
+"placeholder": "Non specificato",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Generale",
+"access": "Chiunque",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Accesso",
+"label": "Accesso consentito",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Fogliame",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Deciduo",
+
+
+
+
+
+
+"evergreen": "Sempreverde",
+
+
+
+
+
+
+"semi_deciduous": "Semi-deciduo",
+
+
+
+
+
+
+"semi_evergreen": "Semi-sempreverde"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2704,6 +2790,55 @@
 
 
 "mixed": "Misto",
+
+
+
+
+
+
+"needleleaved": "Aghifoglia"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Tipo di foglia",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Latifoglia",
+
+
+
+
+
+
+"leafless": "Senza foglie",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Bottiglie di vetro"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Accetta Carta"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Plastica"
 
 
 
@@ -4224,6 +4391,13 @@
 
 
 "options": {
+
+
+
+
+
+
+"crossover": "Scambio",
 
 
 
@@ -6558,6 +6732,28 @@
 
 
 
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Parcheggio moto",
+
+
+
+
+
+"terms": "parcheggio scooter,moto,scooter"
+
+
+
+
+},
+
+
+
+
 "amenity/nightclub": {
 
 
@@ -8020,13 +8216,13 @@
 
 
 
-"name": "Casa autonoma",
+"name": "Casa indipendente",
 
 
 
 
 
-"terms": "casa autonoma"
+"terms": "abitazione indipendente,indipendente"
 
 
 
@@ -8373,6 +8569,28 @@
 
 
 "terms": "accademia,alma mater,lavagna,collegio,dipartimento,disciplina,classe,facoltà,aula,istituto,istituzione,riformatorio,scuola,edificio scolastico,seminario,università"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Casa semi indipendente",
+
+
+
+
+
+"terms": "semi-indipendente,semiindipendente,semindipendente, abitazione semi indipendente"
 
 
 
@@ -10724,13 +10942,13 @@
 
 
 
-"name": "Uso del suolo",
+"name": "Utilizzi del terreno",
 
 
 
 
 
-"terms": "Utilizzo del suolo"
+"terms": "uso del suolo,suolo,terreno,uso,utilizzo,destinazione"
 
 
 
@@ -10752,7 +10970,7 @@
 
 
 
-"terms": "Area pubblica concessa ai cittadini per la realizzazione di orti"
+"terms": "orti,orto,pubblico,concessione,comune,giardino,lotto"
 
 
 
@@ -11259,6 +11477,28 @@
 
 
 "terms": "gioco d'azzardo,casinò,bisca"
+
+
+
+
+},
+
+
+
+
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Sala da Bowling",
+
+
+
+
+
+"terms": "sala,bowling,birilli"
 
 
 
@@ -12324,6 +12564,50 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Posto di controllo",
+
+
+
+
+
+"terms": "checkpoint,check point,posto di blocco"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Base navale",
+
+
+
+
+
+"terms": "base,navi,marina,marina militare"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12331,6 +12615,28 @@
 
 
 "name": "Poligono di tiro militare"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Area di addestramento",
+
+
+
+
+
+"terms": "campo di addestramento,addestramento"
 
 
 
@@ -13205,6 +13511,22 @@
 
 
 "terms": "circolo,partito,politica,sezione"
+
+
+
+
+},
+
+
+
+
+"office/research": {
+
+
+
+
+
+"name": "Istituto di Ricerca"
 
 
 
@@ -14952,6 +15274,22 @@
 
 
 
+"shop/fashion": {
+
+
+
+
+
+"name": "Negozio di moda"
+
+
+
+
+},
+
+
+
+
 "shop/fishmonger": {
 
 
@@ -15150,6 +15488,22 @@
 
 
 
+"shop/herbalist": {
+
+
+
+
+
+"name": "Erboristeria"
+
+
+
+
+},
+
+
+
+
 "shop/hifi": {
 
 
@@ -15207,6 +15561,38 @@
 
 
 "terms": "Gioielleria"
+
+
+
+
+},
+
+
+
+
+"shop/kiosk": {
+
+
+
+
+
+"name": "Edicola"
+
+
+
+
+},
+
+
+
+
+"shop/kitchen": {
+
+
+
+
+
+"name": "Negozio di cucine"
 
 
 
@@ -15349,6 +15735,22 @@
 
 
 "terms": "Negozio di Cellulari"
+
+
+
+
+},
+
+
+
+
+"shop/money_lender": {
+
+
+
+
+
+"name": "Agenzia Prestito"
 
 
 
@@ -15548,6 +15950,22 @@
 
 
 
+"shop/radiotechnics": {
+
+
+
+
+
+"name": "Negozio di elettronica"
+
+
+
+
+},
+
+
+
+
 "shop/religion": {
 
 
@@ -15687,6 +16105,22 @@
 
 
 "terms": "sarto,vestiti,abiti"
+
+
+
+
+},
+
+
+
+
+"shop/tattoo": {
+
+
+
+
+
+"name": "Studio per Tatuaggi"
 
 
 
@@ -15921,6 +16355,22 @@
 
 
 "name": "Armeria"
+
+
+
+
+},
+
+
+
+
+"shop/window_blind": {
+
+
+
+
+
+"name": "Negozio di tapparelle e serrande"
 
 
 

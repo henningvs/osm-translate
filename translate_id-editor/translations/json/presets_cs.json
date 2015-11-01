@@ -186,7 +186,7 @@
 
 
 
-"label": "Přístup",
+"label": "Povolený vstup/vjezd",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Jen do místa"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Vstup povolen, ale cyklista (jezdec apod.) musí sesednout",
+
+
+
+
+
+
+
+"title": "Sesednout"
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Přístup",
+"label": "Povolený vstup/vjezd",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Opadavost listí",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Opadavé",
+
+
+
+
+
+
+"evergreen": "Stálezelené",
+
+
+
+
+
+
+"semi_deciduous": "Poloopadavé",
+
+
+
+
+
+
+"semi_evergreen": "Polostálezelené"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2704,6 +2790,55 @@
 
 
 "mixed": "Smíšené",
+
+
+
+
+
+
+"needleleaved": "Jehličnaté"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Druh listů",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Listnaté",
+
+
+
+
+
+
+"leafless": "Bezlisté",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Pro skleněné láhve"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Papír"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Pro plast"
 
 
 
@@ -8444,6 +8611,28 @@
 
 
 
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Polovina dvojdomku",
+
+
+
+
+
+"terms": "dvojdomek,půldomek,dvojdům,půldům,polovina"
+
+
+
+
+},
+
+
+
+
 "building/shed": {
 
 
@@ -11134,7 +11323,7 @@
 
 
 
-"name": "Užití krajiny",
+"name": "Využití krajiny",
 
 
 
@@ -11669,6 +11858,28 @@
 
 
 "terms": "herna,automaty,hazard,hrací automaty,výherní hrací automaty,gambling"
+
+
+
+
+},
+
+
+
+
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Bowlingová dráha",
+
+
+
+
+
+"terms": "bowlingová herna,kuželková dráha,kuželková herna,kuželna"
 
 
 

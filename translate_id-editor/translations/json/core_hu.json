@@ -207,7 +207,7 @@
 
 
 
-"description": "A vonal folytatása.",
+"description": "Ez a vonal folytatása.",
 
 
 
@@ -2126,6 +2126,9 @@
 "cannot_zoom": "Nem lehet jobban eltávolítani ebben a módban.",
 
 
+"full_screen": "Váltás Teljes Képernyőre",
+
+
 "gpx": {
 
 
@@ -2186,19 +2189,11 @@
 
 
 
-"gps": "# GPS\n\nA GPS adatok az OpenStreetMap adatainak legmegbízhatóbb forrásai. Ez a\nszerkesztő támogatja a helyi nyomvonalakat - a helyi számítógépen lévő\n„.gpx” fájlokat. Az ilyen fajta GPS nyomvonalakat begyűjtheti számos\nokostelefon alkalmazással, valamint személyes GPS hardverrel.\n\nHa információt szeretne arról, hogy hogyan végezhet GPS felmérést, olvassa\nel [felmérés GPS eszközzel](http://learnosm.org/en/beginner/using-gps/) tájékoztatót.\n\nA GPX nyomvonal térképezéshez való használatához fogja meg és ejtse a GPX\nfájlt a térképszerkesztőre. Ha sikerült felismerni, akkor világos lila\nvonallal lesz hozzáadva a térképhez. Kattintson a jobb oldalon lévő\n„Térképadatok” menüre ennek az új GPX-alapú rétegnek az engedélyezéshez,\nletiltáshoz vagy a nagyításhoz.\n\nA GPX nyomvonal nem kerül közvetlenül feltöltésre az OpenStreetMap\nadatbázisba - a használatának legjobb módja a térképre rajzolás. Használja\nútmutatóként új elemek hozzáadásához, és [töltse fel az OpenStreetMap](http://www.openstreetmap.org/trace/create)\nadatbázisába, hogy más felhasználók is használhassák.\n",
-
-
-
 "imagery": "# Légifelvétel\n\nA légifelvétel a térképezés egyik fontos forrása. A repülőgépes ortofotók, műholdképek és szabadon összeállított források kombinációja rendelkezésre áll a szerkesztőben a bal oldali menü 'Háttérbeállítások' gombjára kattintva.\n\nAlapértelmezésként a [Bing Maps](http://www.bing.com/maps/) műholdkép réteg jelenik meg a szerkesztőben, de ahogy új helyekre görgeted a térképet, új források jelennek meg. Néhány országban, mint az Egyesül Államok, Franciaország, vagy Dánia nagyon jó minőségű légifelvételek érhetőek el egyes területeken.\n\nA légifelvételek gyakran el vannak csúszva a valósághoz képest, a légifelvétel szolgáltatók hibájából. Ha látsz egy csomó utat eltolódva a háttértől, ne húzd őket rögtön a háttérképhez. Ehelyett igazítsd úgy a háttérképet, hogy a meglévő adatok illeszkedjenek rá. Ehhez kattints a Háttérbeállítások menü 'Elcsúszás korrigálása' gombjára.\n",
 
 
 
 "addresses": "# Lakcímek\n\nA lakcímek a térkép egyik leghasznosabb információi.\n\nHabár a címeket gyakran az utca részeként ábrázolják, az OpenStreetMap\naz utca mentén levő házak és helyek tulajdonságaiként tárolja őket.\n\nCím információkat adhatsz épület körvonalként felrajzolt helyekhez, vagy\nönálló pontokhoz. A címadatok javasolt forrása a helyszíni felmérés, vagy\nszemélyes ismeretek. Mint minden más adatnál, a kereskedelmi források\n(mint Google Maps) másolása szigorúan tilos.\n",
-
-
-
-"inspector": "# A címkeszerkesztő használata\n\nA címkeszerkesztő az ablak jobb oldalán jelenik meg, amikor egy elemet \nkiválasztasz, lehetővé téve a részleteinek szerkesztését.\n\n### Elemtípus kiválasztása\n\nMiután létrehoztál egy pontot, vonalat, vagy területet, ki tudod választani, hogy \naz elem milyen típusú, például közút, lakóút, szupermarket, vagy egy kávézó.\nA címkeszerkesztő gombokat jelenít meg a leggyakoribb elemtípussal, a többi \ntípust pedig a keresődobozba írva tudod megtalálni.\n\nKattints az 'i'-re az elemtípus gomb jobb sarkában, hogy többet tudj meg róla. \nA típus kiválasztásához kattints rá.\n\n### Űrlapok használata és a címkék szerkesztése\n\nMiután választottál egy elemtípust, vagy kiválasztottál egy típussal rendelkező \nelemet, a címkeszerkesztő megjelenít egy űrlapot az elem részletes adataival, \nmint a neve, vagy címe.\n\nA mezők alatt egy ikonsort láthatsz, amivel egyéb részleteket adhatsz meg, \npéldául [Wikipédia](http://www.wikipedia.org/) hivatkozás, kerekesszékes \nmegközelíthetőséget, stb.\n\nA címkeszerkesztő legalján találsz egy 'Összes címke' gombot, amivel bármilyen \ntetszőleges címkét megadhatsz. A [Taginfo](http://taginfo.openstreetmap.org/) \negy jó forrás, ha többet akarsz megtudni a népszerű címkekombinációkról.\n\nA címkeszerkesztőben végzett változtatások automatikusan alkalmazva \nlesznek a térképen. Bármikor visszavonhatod őket a 'Visszavonás' gombbal.\n\n",
 
 
 

@@ -938,6 +938,85 @@
 
 
 
+},
+
+
+
+
+"not_eligible": "Les llinies nun pueden partise al principiu o al final.",
+
+
+
+
+"multiple_ways": "Equí hai demasiaes llinies que partir.",
+
+
+
+
+"connected_to_hidden": "Nun puede partise porque ta coneutao con una carauterística tapecida."
+
+
+
+},
+
+
+
+"restriction": {
+
+
+
+
+"help": {
+
+
+
+
+
+"select": "Fai click pa seleicionar un segmentu de carretera",
+
+
+
+
+
+"toggle": "Fai click pa conmutar les torgues de xiru.",
+
+
+
+
+
+"toggle_on": "Fai click p'amestar una torga «{restriction}».",
+
+
+
+
+
+"toggle_off": "Fai click pa desaniciar la torga «{restriction}»."
+
+
+
+
+},
+
+
+
+
+"annotation": {
+
+
+
+
+
+"create": "Amestada una torga de xiru",
+
+
+
+
+
+"delete": "Desaniciada una torga de xiru"
+
+
+
+
 }
 
 
@@ -1678,6 +1757,42 @@
 
 
 
+},
+
+
+
+"partial": {
+
+
+
+
+"description": "Rellenu parcial",
+
+
+
+
+"tooltip": "Les árees dibúxense col rellenu sólo alredor de los berbesos internos. (Recomendao pa mapeadores principiantes)"
+
+
+
+},
+
+
+
+"full": {
+
+
+
+
+"description": "Rellenu completu",
+
+
+
+
+"tooltip": "Les árees dibúxense col rellenu completu"
+
+
+
 }
 
 
@@ -1719,6 +1834,14 @@
 
 
 "no_changes": "Nun hai cambios que guardar.",
+
+
+
+"error": "Hebo errores al intentar guardar",
+
+
+
+"status_code": "El sirvidor devolvió'l códigu d'estáu {code}",
 
 
 
@@ -1828,7 +1951,11 @@
 
 
 
-"okay": "Aceutar"
+"okay": "Aceutar",
+
+
+
+"cancel": "Encaboxar"
 
 
 },

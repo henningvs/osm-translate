@@ -186,7 +186,7 @@
 
 
 
-"label": "Acesso",
+"label": "Acesso permitido",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Destino"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Acesso permitido mas cavaleiro deve desmontar",
+
+
+
+
+
+
+
+"title": "Desmontar"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Desconhecido",
+"placeholder": "Não Especificado",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Geral",
+"access": "Todos",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Acesso",
+"label": "Acesso permitido",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Ciclo de Folhagem",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Caducifólia",
+
+
+
+
+
+
+"evergreen": "Perenifólia",
+
+
+
+
+
+
+"semi_deciduous": "Semi-caducifólia",
+
+
+
+
+
+
+"semi_evergreen": "Semi-perenifólia"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2704,6 +2790,55 @@
 
 
 "mixed": "Mista",
+
+
+
+
+
+
+"needleleaved": "Acicufoliada"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Tipo de Folha",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Latifoliada",
+
+
+
+
+
+
+"leafless": "Sem folhas",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Aceita garrafa de vidro"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Aceita Papel"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Aceita Plástico"
 
 
 
@@ -4944,6 +5111,22 @@
 
 
 
+"traffic_signals": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
 "trail_visibility": {
 
 
@@ -5948,7 +6131,7 @@
 
 
 
-"terms": "Estação Rodoviária, Terminal Rodoviário"
+"terms": "Estação Rodoviária, Terminal Rodoviário, Terminal de Ônibus"
 
 
 
@@ -6052,7 +6235,13 @@
 
 
 
-"name": "Cassino"
+"name": "Cassino",
+
+
+
+
+
+"terms": "Cassino"
 
 
 
@@ -6590,6 +6779,28 @@
 
 
 
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Estacionamento de motos",
+
+
+
+
+
+"terms": "Estacionamento de motocicletas, estacionamento de motos, estacionamento"
+
+
+
+
+},
+
+
+
+
 "amenity/nightclub": {
 
 
@@ -6992,7 +7203,13 @@
 
 
 
-"name": "Ponto de Descarga de Dejetos (para trailers)"
+"name": "Ponto de Descarga de Dejetos (para trailers)",
+
+
+
+
+
+"terms": "Depósito de Toaletes de Trailers"
 
 
 
@@ -7389,6 +7606,28 @@
 
 
 "terms": "Área"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Superfície da estrada",
+
+
+
+
+
+"terms": "Superfície rodoviária"
 
 
 
@@ -8048,7 +8287,7 @@
 
 
 
-"terms": "Casa Separada"
+"terms": "Moradia Isolada, Casa Isolada"
 
 
 
@@ -8401,6 +8640,28 @@
 
 
 "terms": "Edifício Escolar"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Casa Geminada",
+
+
+
+
+
+"terms": "Casa irmanada"
 
 
 
@@ -9708,6 +9969,50 @@
 
 
 
+"footway/crossing": {
+
+
+
+
+
+"name": "Travessia em Rua",
+
+
+
+
+
+"terms": "Faixa de cruzamento"
+
+
+
+
+},
+
+
+
+
+"footway/crosswalk": {
+
+
+
+
+
+"name": "Travessia de Pedestres",
+
+
+
+
+
+"terms": "Faixa de Pedestres"
+
+
+
+
+},
+
+
+
+
 "footway/sidewalk": {
 
 
@@ -9994,6 +10299,72 @@
 
 
 
+"highway/corridor": {
+
+
+
+
+
+"name": "Corredor Interno",
+
+
+
+
+
+"terms": "Corredor interno, corredor interior, corredor coberto"
+
+
+
+
+},
+
+
+
+
+"highway/crossing": {
+
+
+
+
+
+"name": "Travessia em Rua",
+
+
+
+
+
+"terms": "Faixa de cruzamento"
+
+
+
+
+},
+
+
+
+
+"highway/crosswalk": {
+
+
+
+
+
+"name": "Travessia de Pedestres",
+
+
+
+
+
+"terms": "Faixa de Pedestres"
+
+
+
+
+},
+
+
+
+
 "highway/cycleway": {
 
 
@@ -10176,7 +10547,13 @@
 
 
 
-"name": "Calçadão"
+"name": "Calçadão",
+
+
+
+
+
+"terms": "Rua de Pedestres, Calçadão, Rua Fechada"
 
 
 
@@ -10984,13 +11361,13 @@
 
 
 
-"name": "Uso da Terra",
+"name": "Uso da terra",
 
 
 
 
 
-"terms": "Uso da Terra"
+"terms": "Uso do Solo, Ocupação da Terra, Ordenamento Territorial, Exploração da Terra, Utilização da Terra"
 
 
 
@@ -11006,13 +11383,13 @@
 
 
 
-"name": "Horta Urbana",
+"name": "Jardim Comunitário",
 
 
 
 
 
-"terms": "Horta Urbana"
+"terms": "Horta comunitária"
 
 
 
@@ -11374,6 +11751,28 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Viveiro de Plantas",
+
+
+
+
+
+"terms": "Berçário de Plantas"
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
@@ -11475,6 +11874,44 @@
 
 
 "terms": "Lazer"
+
+
+
+
+},
+
+
+
+
+"leisure/adult_gaming_centre": {
+
+
+
+
+
+"name": "Centro de Jogos para Adultos"
+
+
+
+
+},
+
+
+
+
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Pista de Boliche",
+
+
+
+
+
+"terms": "Boliche"
 
 
 
@@ -11792,6 +12229,38 @@
 
 
 
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Campo de rugby league"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Campo de rugby union"
+
+
+
+
+},
+
+
+
+
 "leisure/pitch/skateboard": {
 
 
@@ -12069,6 +12538,22 @@
 
 
 "terms": "Construção Humana"
+
+
+
+
+},
+
+
+
+
+"man_made/adit": {
+
+
+
+
+
+"name": "Ádito de Mineração"
 
 
 
@@ -12540,6 +13025,94 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Posto de controle de segurança",
+
+
+
+
+
+"terms": "Checkpoint, Ponto de Verificação"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Área Perigosa",
+
+
+
+
+
+"terms": "Área de Perigo, Perigo"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Base Naval",
+
+
+
+
+
+"terms": "Base da Marinha"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Percurso de obstáculos",
+
+
+
+
+
+"terms": "Pista de obstáculos"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12553,6 +13126,28 @@
 
 
 "terms": "tiro, estande"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Área de treinamento",
+
+
+
+
+
+"terms": "Área de treino, CT, Campo de treinamento"
 
 
 
@@ -12804,6 +13399,28 @@
 
 
 
+"natural/saddle": {
+
+
+
+
+
+"name": "Passo de Montanha",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Saddle', separated by commas>"
+
+
+
+
+},
+
+
+
+
 "natural/scree": {
 
 
@@ -12898,7 +13515,13 @@
 
 
 
-"name": "Fileira de árvores"
+"name": "Fileira de árvores",
+
+
+
+
+
+"terms": "Fileira de árvores"
 
 
 
@@ -12914,7 +13537,13 @@
 
 
 
-"name": "Vulcão"
+"name": "Vulcão",
+
+
+
+
+
+"terms": "Vulcão, área vulcânica, vulcânico"
 
 
 
@@ -14147,6 +14776,28 @@
 
 
 "terms": "Estação de Parada na Ferrovia, Estação Simples, Estação Sem Facilidades"
+
+
+
+
+},
+
+
+
+
+"railway/level_crossing": {
+
+
+
+
+
+"name": "Travessia em Ferrovia",
+
+
+
+
+
+"terms": "Cruzamento férreo"
 
 
 
@@ -17644,7 +18295,7 @@
 
 
 
-"terms": "Rota de Trekking, "
+"terms": "Rota de Trekking"
 
 
 

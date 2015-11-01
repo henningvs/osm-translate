@@ -186,7 +186,7 @@
 
 
 
-"label": "Juurdepääs",
+"label": "Lubatud ligipääs",
 
 
 
@@ -200,6 +200,14 @@
 
 
 "designated": {
+
+
+
+
+
+
+
+"description": "Pääs antud märkide või kindlate kohalike seadustega",
 
 
 
@@ -230,6 +238,28 @@
 
 
 "title": "Sihtkoht"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"title": "Käekõrval"
 
 
 
@@ -289,7 +319,7 @@
 
 
 
-"title": "Soovituslik"
+"title": "Omaniku lubatud"
 
 
 
@@ -368,20 +398,7 @@
 
 
 
-"placeholder": "Teadmata",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Üldine",
 
 
 
@@ -426,12 +443,6 @@
 
 
 "access_simple": {
-
-
-
-
-
-"label": "Juurdepääs",
 
 
 
@@ -996,6 +1007,22 @@
 
 
 
+"lit": {
+
+
+
+
+
+"label": "Valgustatud"
+
+
+
+
+},
+
+
+
+
 "maxspeed": {
 
 
@@ -1066,7 +1093,40 @@
 
 
 
-"label": "Ühesuunaline"
+"label": "Ühesuunaline",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Ei",
+
+
+
+
+
+
+"undefined": "Eeldatavasti mitte",
+
+
+
+
+
+
+"yes": "Jah"
+
+
+
+
+
+}
 
 
 
@@ -1082,7 +1142,40 @@
 
 
 
-"label": "Ühesuunaline"
+"label": "Ühesuunaline",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Ei",
+
+
+
+
+
+
+"undefined": "Eeldatavasti Jah",
+
+
+
+
+
+
+"yes": "Jah"
+
+
+
+
+
+}
 
 
 
@@ -1188,6 +1281,22 @@
 
 
 
+"restrictions": {
+
+
+
+
+
+"label": "Pöörangu piirangud"
+
+
+
+
+},
+
+
+
+
 "shelter": {
 
 
@@ -1195,6 +1304,112 @@
 
 
 "label": "Varjualune"
+
+
+
+
+},
+
+
+
+
+"smoking": {
+
+
+
+
+
+"label": "Suitsetamine"
+
+
+
+
+},
+
+
+
+
+"smoothness": {
+
+
+
+
+
+"label": "Tasasus",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"bad": "Vastupidavad rattad: matka- ja maastikuratas, auto",
+
+
+
+
+
+
+"excellent": "Rullid: rulluisud, rula",
+
+
+
+
+
+
+"good": "Kitsad rattad: maanteeratas",
+
+
+
+
+
+
+"horrible": "Maastiku rattad: maastur, džiip",
+
+
+
+
+
+
+"impassable": "Ratastel läbimatu",
+
+
+
+
+
+
+"intermediate": "Rattad: linnaratas, ratastool, motoroller",
+
+
+
+
+
+
+"very_bad": "Kõrge kliirens: linnamaastur",
+
+
+
+
+
+
+"very_horrible": "Spetsiaalselt maastikule: traktor, ATV"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Rullidele, Ratastele, Maastiku sõidukitele..."
 
 
 
@@ -1242,6 +1457,12 @@
 
 
 
+"label": "Rajatis",
+
+
+
+
+
 "options": {
 
 
@@ -1257,6 +1478,13 @@
 
 
 "embankment": "Tamm",
+
+
+
+
+
+
+"ford": "Koolmekoht",
 
 
 
@@ -1324,6 +1552,22 @@
 
 
 "placeholder": "http://näidis24.ee/"
+
+
+
+
+},
+
+
+
+
+"width": {
+
+
+
+
+
+"label": "Laius (meetrites)"
 
 
 
@@ -1412,6 +1656,38 @@
 
 
 "name": "Kopteriväljak"
+
+
+
+
+},
+
+
+
+
+"aeroway/runway": {
+
+
+
+
+
+"name": "Lennurada"
+
+
+
+
+},
+
+
+
+
+"aeroway/taxiway": {
+
+
+
+
+
+"name": "Ruleerimistee"
 
 
 
@@ -1533,6 +1809,54 @@
 
 
 
+"amenity/boat_rental": {
+
+
+
+
+
+"name": "Paadi laenutus"
+
+
+
+
+},
+
+
+
+
+"amenity/bureau_de_change": {
+
+
+
+
+
+"name": "Valuutavahetus"
+
+
+
+
+},
+
+
+
+
+"amenity/bus_station": {
+
+
+
+
+
+"name": "Bussijaam"
+
+
+
+
+},
+
+
+
+
 "amenity/cafe": {
 
 
@@ -1581,6 +1905,54 @@
 
 
 
+"amenity/casino": {
+
+
+
+
+
+"name": "Kasiino"
+
+
+
+
+},
+
+
+
+
+"amenity/charging_station": {
+
+
+
+
+
+"name": "Laadimisjaam"
+
+
+
+
+},
+
+
+
+
+"amenity/childcare": {
+
+
+
+
+
+"name": "Lastehoid"
+
+
+
+
+},
+
+
+
+
 "amenity/cinema": {
 
 
@@ -1597,6 +1969,38 @@
 
 
 
+"amenity/clinic": {
+
+
+
+
+
+"name": "Kliinik"
+
+
+
+
+},
+
+
+
+
+"amenity/compressed_air": {
+
+
+
+
+
+"name": "Suruõhk"
+
+
+
+
+},
+
+
+
+
 "amenity/courthouse": {
 
 
@@ -1604,6 +2008,54 @@
 
 
 "name": "Kohtumaja"
+
+
+
+
+},
+
+
+
+
+"amenity/dentist": {
+
+
+
+
+
+"name": "Hambaarst"
+
+
+
+
+},
+
+
+
+
+"amenity/doctor": {
+
+
+
+
+
+"name": "Arst"
+
+
+
+
+},
+
+
+
+
+"amenity/drinking_water": {
+
+
+
+
+
+"name": "Joogivesi"
 
 
 
@@ -1741,6 +2193,38 @@
 
 
 
+"amenity/nightclub": {
+
+
+
+
+
+"name": "Ööklubi"
+
+
+
+
+},
+
+
+
+
+"amenity/parking": {
+
+
+
+
+
+"name": "Autoparkla"
+
+
+
+
+},
+
+
+
+
 "amenity/pharmacy": {
 
 
@@ -1859,7 +2343,35 @@
 
 
 
-"name": "Kõrts"
+"name": "Kõrts",
+
+
+
+
+
+"terms": "Pubi"
+
+
+
+
+},
+
+
+
+
+"amenity/register_office": {
+
+
+
+
+
+"name": "Perekonnaseisu osakond",
+
+
+
+
+
+"terms": "Perekonnaseisuamet"
 
 
 
@@ -1876,6 +2388,22 @@
 
 
 "name": "Restoran"
+
+
+
+
+},
+
+
+
+
+"amenity/shelter": {
+
+
+
+
+
+"name": "Varjualune"
 
 
 
@@ -1940,6 +2468,22 @@
 
 
 "name": "Tualett"
+
+
+
+
+},
+
+
+
+
+"amenity/townhall": {
+
+
+
+
+
+"name": "Linnahall"
 
 
 
@@ -2189,22 +2733,6 @@
 
 
 
-"building/detached": {
-
-
-
-
-
-"name": "Eramu"
-
-
-
-
-},
-
-
-
-
 "building/dormitory": {
 
 
@@ -2429,6 +2957,60 @@
 
 
 
+"building/school": {
+
+
+
+
+
+"name": "Koolihoone"
+
+
+
+
+},
+
+
+
+
+"building/shed": {
+
+
+
+
+
+"name": "Kuur"
+
+
+
+
+},
+
+
+
+
+"building/stable": {
+
+
+
+
+
+"name": "Tall",
+
+
+
+
+
+"terms": "Hobusetall"
+
+
+
+
+},
+
+
+
+
 "building/train_station": {
 
 
@@ -2589,6 +3171,146 @@
 
 
 
+"craft/clockmaker": {
+
+
+
+
+
+"name": "Kellassepp"
+
+
+
+
+},
+
+
+
+
+"craft/confectionery": {
+
+
+
+
+
+"name": "Kondiiter",
+
+
+
+
+
+"terms": "Maiustused"
+
+
+
+
+},
+
+
+
+
+"craft/dressmaker": {
+
+
+
+
+
+"name": "Rätsep"
+
+
+
+
+},
+
+
+
+
+"craft/electrician": {
+
+
+
+
+
+"name": "Elektrik"
+
+
+
+
+},
+
+
+
+
+"craft/handicraft": {
+
+
+
+
+
+"name": "Käsitöö"
+
+
+
+
+},
+
+
+
+
+"craft/jeweler": {
+
+
+
+
+
+"name": "Kullassepp"
+
+
+
+
+},
+
+
+
+
+"craft/key_cutter": {
+
+
+
+
+
+"name": "Võtmemeister",
+
+
+
+
+
+"terms": "Võtmeabi, Võtmete valmistamine"
+
+
+
+
+},
+
+
+
+
+"craft/locksmith": {
+
+
+
+
+
+"name": "Lukuabi"
+
+
+
+
+},
+
+
+
+
 "emergency/phone": {
 
 
@@ -2596,6 +3318,76 @@
 
 
 "name": "Hädaabi telefon"
+
+
+
+
+},
+
+
+
+
+"footway/crossing": {
+
+
+
+
+
+"name": "Ülekäik"
+
+
+
+
+},
+
+
+
+
+"footway/crosswalk": {
+
+
+
+
+
+"name": "Jalakäijate ülekäik"
+
+
+
+
+},
+
+
+
+
+"footway/sidewalk": {
+
+
+
+
+
+"name": "Kõnnitee"
+
+
+
+
+},
+
+
+
+
+"ford": {
+
+
+
+
+
+"name": "Koolmekoht",
+
+
+
+
+
+"terms": "Koole"
 
 
 
@@ -2653,6 +3445,38 @@
 
 
 
+"highway/crossing": {
+
+
+
+
+
+"name": "Ülekäigurada"
+
+
+
+
+},
+
+
+
+
+"highway/crosswalk": {
+
+
+
+
+
+"name": "Jalakäijate ülekäik"
+
+
+
+
+},
+
+
+
+
 "highway/cycleway": {
 
 
@@ -2691,7 +3515,13 @@
 
 
 
-"name": "Majadevaheline tänav"
+"name": "Majadevaheline tänav",
+
+
+
+
+
+"terms": "Õueala tänav"
 
 
 
@@ -2749,6 +3579,22 @@
 
 
 
+"highway/pedestrian": {
+
+
+
+
+
+"name": "Jalakäijate tänav"
+
+
+
+
+},
+
+
+
+
 "highway/primary": {
 
 
@@ -2781,6 +3627,38 @@
 
 
 
+"highway/rest_area": {
+
+
+
+
+
+"name": "Puhkeala"
+
+
+
+
+},
+
+
+
+
+"highway/road": {
+
+
+
+
+
+"name": "Teadmata tee"
+
+
+
+
+},
+
+
+
+
 "highway/secondary": {
 
 
@@ -2797,6 +3675,44 @@
 
 
 
+"highway/secondary_link": {
+
+
+
+
+
+"name": "Tugimaantee"
+
+
+
+
+},
+
+
+
+
+"highway/service": {
+
+
+
+
+
+"name": "Juurdepääsutee",
+
+
+
+
+
+"terms": "Service Road, Teenindustee, Juurdesõidutee"
+
+
+
+
+},
+
+
+
+
 "highway/steps": {
 
 
@@ -2804,6 +3720,22 @@
 
 
 "name": "Trepp"
+
+
+
+
+},
+
+
+
+
+"highway/street_lamp": {
+
+
+
+
+
+"name": "Tänavavalgusti"
 
 
 
@@ -2845,6 +3777,28 @@
 
 
 
+"highway/trunk": {
+
+
+
+
+
+"name": "E-tähistusega põhimaantee",
+
+
+
+
+
+"terms": "Trunk Road"
+
+
+
+
+},
+
+
+
+
 "highway/turning_circle": {
 
 
@@ -2852,6 +3806,28 @@
 
 
 "name": "Ümberpööramiskoht"
+
+
+
+
+},
+
+
+
+
+"highway/unclassified": {
+
+
+
+
+
+"name": "Olulise tähtsusega kohalik tee",
+
+
+
+
+
+"terms": "Unclassified Road, Klassifitseerimata tee"
 
 
 
@@ -2909,6 +3885,22 @@
 
 
 
+"historic/castle": {
+
+
+
+
+
+"name": "Loss"
+
+
+
+
+},
+
+
+
+
 "historic/memorial": {
 
 
@@ -2957,6 +3949,22 @@
 
 
 
+"junction": {
+
+
+
+
+
+"name": "Ristmik"
+
+
+
+
+},
+
+
+
+
 "landuse": {
 
 
@@ -2989,6 +3997,38 @@
 
 
 
+"landuse/commercial": {
+
+
+
+
+
+"name": "Kommertsala"
+
+
+
+
+},
+
+
+
+
+"landuse/construction": {
+
+
+
+
+
+"name": "Ehitus"
+
+
+
+
+},
+
+
+
+
 "landuse/forest": {
 
 
@@ -3012,6 +4052,28 @@
 
 
 "name": "Muru"
+
+
+
+
+},
+
+
+
+
+"landuse/landfill": {
+
+
+
+
+
+"name": "Prügila",
+
+
+
+
+
+"terms": "Prügimägi"
 
 
 
@@ -3085,6 +4147,44 @@
 
 
 
+"leisure/dog_park": {
+
+
+
+
+
+"name": "Koerapark"
+
+
+
+
+},
+
+
+
+
+"leisure/firepit": {
+
+
+
+
+
+"name": "Lõkkease",
+
+
+
+
+
+"terms": "Lõkkekoht"
+
+
+
+
+},
+
+
+
+
 "leisure/garden": {
 
 
@@ -3117,6 +4217,38 @@
 
 
 
+"leisure/ice_rink": {
+
+
+
+
+
+"name": "Uisuväljak"
+
+
+
+
+},
+
+
+
+
+"leisure/marina": {
+
+
+
+
+
+"name": "Jahisadam"
+
+
+
+
+},
+
+
+
+
 "leisure/park": {
 
 
@@ -3124,6 +4256,38 @@
 
 
 "name": "Park"
+
+
+
+
+},
+
+
+
+
+"leisure/picnic_table": {
+
+
+
+
+
+"name": "Piknikulaud"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch": {
+
+
+
+
+
+"name": "Spordiväljak"
 
 
 
@@ -3156,6 +4320,28 @@
 
 
 "name": "Korvpalliväljak"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/skateboard": {
+
+
+
+
+
+"name": "Rulapark",
+
+
+
+
+
+"terms": "Skate park"
 
 
 
@@ -3277,6 +4463,28 @@
 
 
 
+"man_made": {
+
+
+
+
+
+"name": "Inimtehtud",
+
+
+
+
+
+"terms": "Tehislik, Tehis"
+
+
+
+
+},
+
+
+
+
 "man_made/cutline": {
 
 
@@ -3293,6 +4501,44 @@
 
 
 
+"man_made/embankment": {
+
+
+
+
+
+"name": "Tamm",
+
+
+
+
+
+"terms": "Muldkeha"
+
+
+
+
+},
+
+
+
+
+"man_made/flagpole": {
+
+
+
+
+
+"name": "Lipumast"
+
+
+
+
+},
+
+
+
+
 "man_made/lighthouse": {
 
 
@@ -3300,6 +4546,38 @@
 
 
 "name": "Tuletorn"
+
+
+
+
+},
+
+
+
+
+"man_made/mast": {
+
+
+
+
+
+"name": "Raadiomast"
+
+
+
+
+},
+
+
+
+
+"man_made/observation": {
+
+
+
+
+
+"name": "Vaatlustorn"
 
 
 
@@ -3332,6 +4610,28 @@
 
 
 "name": "Torujuhe"
+
+
+
+
+},
+
+
+
+
+"man_made/silo": {
+
+
+
+
+
+"name": "Silo",
+
+
+
+
+
+"terms": "Silo hoidla, Silo mahuti"
 
 
 
@@ -3389,6 +4689,72 @@
 
 
 
+"man_made/water_well": {
+
+
+
+
+
+"name": "Veekaev",
+
+
+
+
+
+"terms": "Kaev"
+
+
+
+
+},
+
+
+
+
+"military/airfield": {
+
+
+
+
+
+"name": "Lennuväli",
+
+
+
+
+
+"terms": "Lennuväljak"
+
+
+
+
+},
+
+
+
+
+"military/bunker": {
+
+
+
+
+
+"name": "Varjend",
+
+
+
+
+
+"terms": "Punker"
+
+
+
+
+},
+
+
+
+
 "natural": {
 
 
@@ -3437,13 +4803,41 @@
 
 
 
+"natural/cave_entrance": {
+
+
+
+
+
+"name": "Koopa sissepääs",
+
+
+
+
+
+"terms": "Koobas"
+
+
+
+
+},
+
+
+
+
 "natural/cliff": {
 
 
 
 
 
-"name": "Kalju"
+"name": "Kalju",
+
+
+
+
+
+"terms": "Kuristik"
 
 
 
@@ -3459,7 +4853,13 @@
 
 
 
-"name": "Rannajoon"
+"name": "Rannajoon",
+
+
+
+
+
+"terms": "Rand"
 
 
 
@@ -3581,6 +4981,22 @@
 
 
 
+"natural/volcano": {
+
+
+
+
+
+"name": "Vulkaan"
+
+
+
+
+},
+
+
+
+
 "natural/water": {
 
 
@@ -3668,6 +5084,38 @@
 
 
 "name": "Mets"
+
+
+
+
+},
+
+
+
+
+"office/government": {
+
+
+
+
+
+"name": "Valitsuse kontor"
+
+
+
+
+},
+
+
+
+
+"piste": {
+
+
+
+
+
+"name": "Suusarada"
 
 
 
@@ -3837,6 +5285,22 @@
 
 
 
+"public_transport/platform": {
+
+
+
+
+
+"name": "Platvorm"
+
+
+
+
+},
+
+
+
+
 "railway": {
 
 
@@ -3844,6 +5308,22 @@
 
 
 "name": "Raudtee"
+
+
+
+
+},
+
+
+
+
+"railway/abandoned": {
+
+
+
+
+
+"name": "Mahajäetud raudtee"
 
 
 
@@ -3869,6 +5349,22 @@
 
 
 
+"railway/level_crossing": {
+
+
+
+
+
+"name": "Raudteeülesõit"
+
+
+
+
+},
+
+
+
+
 "railway/monorail": {
 
 
@@ -3876,6 +5372,22 @@
 
 
 "name": "Monorelss"
+
+
+
+
+},
+
+
+
+
+"railway/narrow_gauge": {
+
+
+
+
+
+"name": "Kitsarööpaline raudtee"
 
 
 
@@ -3997,6 +5509,22 @@
 
 
 
+"roundabout": {
+
+
+
+
+
+"name": "Ringtee"
+
+
+
+
+},
+
+
+
+
 "route/ferry": {
 
 
@@ -4045,6 +5573,22 @@
 
 
 
+"shop/art": {
+
+
+
+
+
+"name": "Kunstigalerii"
+
+
+
+
+},
+
+
+
+
 "shop/bakery": {
 
 
@@ -4084,6 +5628,22 @@
 
 
 "name": "Rattapood"
+
+
+
+
+},
+
+
+
+
+"shop/books": {
+
+
+
+
+
+"name": "Raamatupood"
 
 
 
@@ -4180,6 +5740,22 @@
 
 
 "name": "Arvutipood"
+
+
+
+
+},
+
+
+
+
+"shop/confectionery": {
+
+
+
+
+
+"name": "Kommipood"
 
 
 

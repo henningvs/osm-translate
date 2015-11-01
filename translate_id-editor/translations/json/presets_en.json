@@ -186,7 +186,7 @@
 
 
 
-"label": "Access",
+"label": "Allowed Access",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Destination"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Access permitted but rider must dismount",
+
+
+
+
+
+
+
+"title": "Dismount"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Unknown",
+"placeholder": "Not Specified",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "General",
+"access": "All",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Access",
+"label": "Allowed Access",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Leaf Cycle",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Deciduous",
+
+
+
+
+
+
+"evergreen": "Evergreen",
+
+
+
+
+
+
+"semi_deciduous": "Semi-Deciduous",
+
+
+
+
+
+
+"semi_evergreen": "Semi-Evergreen"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2704,6 +2790,55 @@
 
 
 "mixed": "Mixed",
+
+
+
+
+
+
+"needleleaved": "Needleleaved"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Leaf Type",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Broadleaved",
+
+
+
+
+
+
+"leafless": "Leafless",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Accepts Glass Bottles"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Accepts Paper"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Accepts Plastic"
 
 
 
@@ -4935,6 +5102,22 @@
 
 
 "placeholder": "Solid, Mostly Solid, Soft..."
+
+
+
+
+},
+
+
+
+
+"traffic_signals": {
+
+
+
+
+
+"label": "Type"
 
 
 
@@ -6596,6 +6779,28 @@
 
 
 
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Motorcycle Parking",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Motorcycle Parking', separated by commas>"
+
+
+
+
+},
+
+
+
+
 "amenity/nightclub": {
 
 
@@ -8076,13 +8281,13 @@
 
 
 
-"name": "Detached Home",
+"name": "Detached House",
 
 
 
 
 
-"terms": "<translate with synonyms or related terms for 'Detached Home', separated by commas>"
+"terms": "<translate with synonyms or related terms for 'Detached House', separated by commas>"
 
 
 
@@ -8435,6 +8640,28 @@
 
 
 "terms": "<translate with synonyms or related terms for 'School Building', separated by commas>"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Semi-Detached House",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Semi-Detached House', separated by commas>"
 
 
 
@@ -11134,13 +11361,13 @@
 
 
 
-"name": "Landuse",
+"name": "Land Use",
 
 
 
 
 
-"terms": "<translate with synonyms or related terms for 'Landuse', separated by commas>"
+"terms": "<translate with synonyms or related terms for 'Land Use', separated by commas>"
 
 
 
@@ -11156,13 +11383,13 @@
 
 
 
-"name": "Allotments",
+"name": "Community Garden",
 
 
 
 
 
-"terms": "<translate with synonyms or related terms for 'Allotments', separated by commas>"
+"terms": "<translate with synonyms or related terms for 'Community Garden', separated by commas>"
 
 
 
@@ -11678,6 +11905,28 @@
 
 
 
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Bowling Alley",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Bowling Alley', separated by commas>"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
@@ -11977,6 +12226,50 @@
 
 
 "terms": "<translate with synonyms or related terms for 'Basketball Court', separated by commas>"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Rugby League Field",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Rugby League Field', separated by commas>"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Rugby Union Field",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Rugby Union Field', separated by commas>"
 
 
 
@@ -12756,6 +13049,94 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Checkpoint",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Checkpoint', separated by commas>"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Danger Area",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Danger Area', separated by commas>"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Naval Base",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Naval Base', separated by commas>"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Obstacle Course",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Obstacle Course', separated by commas>"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12769,6 +13150,28 @@
 
 
 "terms": "<translate with synonyms or related terms for 'Military Range', separated by commas>"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Training area",
+
+
+
+
+
+"terms": "<translate with synonyms or related terms for 'Training area', separated by commas>"
 
 
 

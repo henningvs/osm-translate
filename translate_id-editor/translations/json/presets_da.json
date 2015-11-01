@@ -186,7 +186,7 @@
 
 
 
-"label": "Adgang",
+"label": "Tilladt adgang",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Destination"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Kørsel forbudt, cyklist skal trække",
+
+
+
+
+
+
+
+"title": "Trækken tilladt"
 
 
 
@@ -357,7 +387,7 @@
 
 
 
-"description": "Adgang tilladt i følge loven",
+"description": "Adgang tilladt ifølge loven",
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Ukendt",
+"placeholder": "Ikke specificeret",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Generelt",
+"access": "Alle",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Adgang",
+"label": "Tilladt adgang",
 
 
 
@@ -1432,7 +1462,7 @@
 
 
 
-"description": "Cykelvejbane adskilt fra traffiken med opmalet linje.",
+"description": "Cykelvejbane adskilt fra trafikken med en opmalet linje",
 
 
 
@@ -1530,7 +1560,7 @@
 
 
 
-"title": "Modsat rettet cykelvejbane"
+"title": "Modsat cykelvejbane"
 
 
 
@@ -1552,7 +1582,7 @@
 
 
 
-"description": "En cykelvejbane delt med busvejbane",
+"description": "En cykelvejbane delt med en busvejbane",
 
 
 
@@ -1582,7 +1612,7 @@
 
 
 
-"description": "Cykelvejbane med ingen adskillelse fra biltrafikken",
+"description": "Cykelvejbane uden adskillelse fra biltrafikken",
 
 
 
@@ -1612,7 +1642,7 @@
 
 
 
-"description": "Cykelsti adskilt fysisk fra trafikken med en barrierer",
+"description": "Cykelsti adskilt fra trafikken med en fysisk barriere",
 
 
 
@@ -1639,7 +1669,7 @@
 
 
 
-"placeholder": "Ingen",
+"placeholder": "ingen",
 
 
 
@@ -2186,14 +2216,14 @@
 
 
 
-"female": "Kvinde",
+"female": "Hunkøn",
 
 
 
 
 
 
-"male": "Mand",
+"male": "Hankøn",
 
 
 
@@ -2514,7 +2544,7 @@
 
 
 
-"wlan": "Wifi",
+"wlan": "Wi-fi",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Bladcyklus",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Løvfældende",
+
+
+
+
+
+
+"evergreen": "Stedsegrønt",
+
+
+
+
+
+
+"semi_deciduous": "Delvist løvfældende",
+
+
+
+
+
+
+"semi_evergreen": "Delvist stedsegrønt"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2704,6 +2790,55 @@
 
 
 "mixed": "Blandet",
+
+
+
+
+
+
+"needleleaved": "Nåleblade"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Bladtype",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Løvtræsblade",
+
+
+
+
+
+
+"leafless": "Bladløs",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Accepterer glasflasker"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Accepterer papir"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Accepterer plastik"
 
 
 
@@ -4935,6 +5102,22 @@
 
 
 "placeholder": "Fast, overvejende fast, blød …"
+
+
+
+
+},
+
+
+
+
+"traffic_signals": {
+
+
+
+
+
+"label": "Type"
 
 
 
@@ -6596,6 +6779,28 @@
 
 
 
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Motorcykelparkering",
+
+
+
+
+
+"terms": "Motorcykelparkering"
+
+
+
+
+},
+
+
+
+
 "amenity/nightclub": {
 
 
@@ -8082,7 +8287,7 @@
 
 
 
-"terms": "Parcelhus"
+"terms": "Parcelhus, Familieparcelhus"
 
 
 
@@ -8435,6 +8640,28 @@
 
 
 "terms": "Skolebygning"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Rækkehus",
+
+
+
+
+
+"terms": "Rækkehus"
 
 
 
@@ -11134,13 +11361,13 @@
 
 
 
-"name": "Brug af land",
+"name": "Arealanvendelse",
 
 
 
 
 
-"terms": "Brug af land"
+"terms": "Arealanvendelse"
 
 
 
@@ -11156,13 +11383,13 @@
 
 
 
-"name": "Kolonihaver",
+"name": "Kolonihave",
 
 
 
 
 
-"terms": "Kolonihaver, Haveforeninger, Nyttehaver"
+"terms": "kolonihaveområde, kolonihave, "
 
 
 
@@ -11678,6 +11905,28 @@
 
 
 
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Bowlingbaner",
+
+
+
+
+
+"terms": "Bowlingbaner, Bowlingcenter"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
@@ -11977,6 +12226,50 @@
 
 
 "terms": "Basketballbane"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Rugby station",
+
+
+
+
+
+"terms": "Rugby station"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Rugby bane",
+
+
+
+
+
+"terms": "Rugby bane"
 
 
 
@@ -12756,6 +13049,94 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Militært checkpoint",
+
+
+
+
+
+"terms": "Militært chechpoint, Militæradgangsunkt"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Farligt militærtområde",
+
+
+
+
+
+"terms": "Farligt militærtområde"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Flådebase",
+
+
+
+
+
+"terms": "Flådebase, Flådestation"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Forhindringsbane",
+
+
+
+
+
+"terms": "Forhindringsbane, Militærforhindringsbane"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12769,6 +13150,28 @@
 
 
 "terms": "Skydebane, Skydeplads, Militærskydebane"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Militærttræningsområde",
+
+
+
+
+
+"terms": "Militærttræningsområde"
 
 
 

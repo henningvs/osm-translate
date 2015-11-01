@@ -1011,6 +1011,10 @@
 
 
 
+"message_label": "Muutuskogumi kommentaar",
+
+
+
 "upload_explanation": "Su salvestatavad muudatused on nähtaval kõikidel kaartidel mis kasutavad OpenStreetMap-i andmeid.",
 
 
@@ -1024,6 +1028,10 @@
 
 
 "cancel": "Tühista",
+
+
+
+"changes": "{count} Muudatust",
 
 
 
@@ -1054,6 +1062,82 @@
 
 
 "truncated_list": "Muutjad: {users} ja {count} teist"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} valitud",
+
+
+
+"geometry": "Geomeetria",
+
+
+
+"closed": "suletud",
+
+
+
+"center": "Keskel",
+
+
+
+"perimeter": "Välisäär",
+
+
+
+"length": "Pikkus",
+
+
+
+"area": "Ala",
+
+
+
+"centroid": "Tsentroid",
+
+
+
+"location": "Asukoht",
+
+
+
+"metric": "Meeter",
+
+
+
+"imperial": "Inglise"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "punkt",
+
+
+
+"vertex": "tipp",
+
+
+
+"line": "joon",
+
+
+
+"area": "ala",
+
+
+
+"relation": "relatsioon"
 
 
 },
@@ -1171,6 +1255,24 @@
 
 
 
+"check": {
+
+
+
+
+"yes": "Jah",
+
+
+
+
+"no": "Ei"
+
+
+
+},
+
+
+
 "none": "Puudub",
 
 
@@ -1187,7 +1289,11 @@
 
 
 
-"location": "Asukoht"
+"location": "Asukoht",
+
+
+
+"add_fields": "Lisa väli:"
 
 
 },
@@ -1225,7 +1331,333 @@
 
 
 
-"reset": "lähtesta"
+"reset": "lähtesta",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minikaart",
+
+
+
+
+"tooltip": "Näita väljasuumitud kaarti, et aidata tuvastada kuvatud ala."
+
+
+
+}
+
+
+},
+
+
+"map_data": {
+
+
+
+"title": "Kaardi andmed",
+
+
+
+"description": "Kaardi andmed",
+
+
+
+"data_layers": "Andmekihid",
+
+
+
+"fill_area": "Täida alad",
+
+
+
+"map_features": "Kaardikuva"
+
+
+},
+
+
+"feature": {
+
+
+
+"points": {
+
+
+
+
+"description": "Punktid",
+
+
+
+
+"tooltip": "Huvipunktid"
+
+
+
+},
+
+
+
+"major_roads": {
+
+
+
+
+"description": "Põhiteed",
+
+
+
+
+"tooltip": "Maanteed, tänavad.."
+
+
+
+},
+
+
+
+"minor_roads": {
+
+
+
+
+"description": "Vähetähtsad teed",
+
+
+
+
+"tooltip": "Juurdepääsuteed, parkla teed, metsavaheteed.."
+
+
+
+},
+
+
+
+"paths": {
+
+
+
+
+"description": "Rajad",
+
+
+
+
+"tooltip": "Kõnniteed, jalgteed, rattateed.."
+
+
+
+},
+
+
+
+"buildings": {
+
+
+
+
+"description": "Hooned",
+
+
+
+
+"tooltip": "Majad, varjualused, garaažid.."
+
+
+
+},
+
+
+
+"landuse": {
+
+
+
+
+"description": "Maakasutus",
+
+
+
+
+"tooltip": "Metsad, põllumaad, pargid, elamumaa, ärimaa.."
+
+
+
+},
+
+
+
+"boundaries": {
+
+
+
+
+"description": "Piirjooned",
+
+
+
+
+"tooltip": "Administratiivpiirid"
+
+
+
+},
+
+
+
+"water": {
+
+
+
+
+"description": "Veekogud",
+
+
+
+
+"tooltip": "Jõed, järved, tiigid, hoidlad.."
+
+
+
+},
+
+
+
+"rail": {
+
+
+
+
+"description": "Raudtee taristu",
+
+
+
+
+"tooltip": "Raudteed"
+
+
+
+},
+
+
+
+"power": {
+
+
+
+
+"description": "Elektritaristu",
+
+
+
+
+"tooltip": "Elektriliinid, eletrijaamad, alajaamad.."
+
+
+
+},
+
+
+
+"past_future": {
+
+
+
+
+"description": "Minevik/Tulevik",
+
+
+
+
+"tooltip": "Planeeritud, ehitamisel, mahajäetud, lammutatud.."
+
+
+
+},
+
+
+
+"others": {
+
+
+
+
+"description": "Muu",
+
+
+
+
+"tooltip": "Kõik ülejäänud"
+
+
+
+}
+
+
+},
+
+
+"area_fill": {
+
+
+
+"wireframe": {
+
+
+
+
+"description": "Täiteta (sõrestik)",
+
+
+
+
+"tooltip": "Sõrestikurežiimis on lihtne näha taustakaarte."
+
+
+
+},
+
+
+
+"partial": {
+
+
+
+
+"description": "Osaline täide",
+
+
+
+
+"tooltip": "Alad on täidetud ainult siseservade ümber. (Soovitav alustavale kaardistajatele)"
+
+
+
+},
+
+
+
+"full": {
+
+
+
+
+"description": "Täielik täide",
+
+
+
+
+"tooltip": "Alad kuvatakse täielikult täidetuna."
+
+
+
+}
 
 
 },
@@ -1269,11 +1701,125 @@
 
 
 
+"error": "Salvestamise tekkisid vead",
+
+
+
+"status_code": "Server vastas olekukoodiga {code}",
+
+
+
+"unknown_error_details": "Palun kontrolli Internetiühendust.",
+
+
+
 "uploading": "Muudatuste üleslaadimine OpenStreetMap'i.",
 
 
 
-"unsaved_changes": "Sul on salvestamata muudatusi"
+"unsaved_changes": "Sul on salvestamata muudatusi",
+
+
+
+"conflict": {
+
+
+
+
+"header": "Lahenda konfliktsed muudatused",
+
+
+
+
+"count": "Konflikt {num}. Kokku {total}.",
+
+
+
+
+"previous": "< Eelmine",
+
+
+
+
+"next": "Järgmine >",
+
+
+
+
+"keep_local": "Jäta minu oma",
+
+
+
+
+"keep_remote": "Kasuta tema oma",
+
+
+
+
+"restore": "Taasta",
+
+
+
+
+"delete": "Jäta kustutatuna",
+
+
+
+
+"download_changes": "Või lae alla oma muudatused.",
+
+
+
+
+"done": "Kõik konfliktid lahendatud!",
+
+
+
+
+"help": "Teine kasutaja muutis kaardil samu objekte mida sinagi.\nKlikkides allolevatele objektidele näed konflikti detaile ning saad valida\nkas säilitada sinu või teise tasutaja muudatused.\n"
+
+
+
+}
+
+
+},
+
+
+"merge_remote_changes": {
+
+
+
+"conflict": {
+
+
+
+
+"deleted": "See objekt on kustutatud {user} poolt.",
+
+
+
+
+"location": "See objekt on nii sinu kui {user} poolt liigutatud.",
+
+
+
+
+"nodelist": "Sõlmi on muudetud nii sinu kui ka {user} poolt.",
+
+
+
+
+"memberlist": "Seose liikmeid on muudetud nii sinu kui ka {user} poolt.",
+
+
+
+
+"tags": "Sina määrasid <b>{tag}</b> lipiku väärtuseks \"{local}\", {user} aga määras \"{remote}\"."
+
+
+
+}
 
 
 },
@@ -1317,7 +1863,11 @@
 
 
 
-"okay": "Korras"
+"okay": "Korras",
+
+
+
+"cancel": "Tühista"
 
 
 },
@@ -1438,6 +1988,24 @@
 
 
 "browse": "Vali .gpx fail"
+
+
+},
+
+
+"mapillary": {
+
+
+
+"tooltip": "Tänava-tasandi fotod Mapillary'st",
+
+
+
+"title": "Foto-pealiskiht (Mapillary)",
+
+
+
+"view_on_mapillary": "Vaata seda fotot Mapillary's"
 
 
 },

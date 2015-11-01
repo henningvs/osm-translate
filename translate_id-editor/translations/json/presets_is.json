@@ -186,12 +186,6 @@
 
 
 
-"label": "Aðgangur",
-
-
-
-
-
 "options": {
 
 
@@ -384,20 +378,7 @@
 
 
 
-"placeholder": "Óþekkt",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Almennt",
 
 
 
@@ -442,12 +423,6 @@
 
 
 "access_simple": {
-
-
-
-
-
-"label": "Aðgangur",
 
 
 
@@ -3875,22 +3850,6 @@
 
 
 
-"building/detached": {
-
-
-
-
-
-"name": "Raðhús"
-
-
-
-
-},
-
-
-
-
 "building/dormitory": {
 
 
@@ -5222,38 +5181,6 @@
 
 
 "name": "Tilbeiðsluskríni"
-
-
-
-
-},
-
-
-
-
-"landuse": {
-
-
-
-
-
-"name": "Landnotkun"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Ræktunargarðar"
 
 
 

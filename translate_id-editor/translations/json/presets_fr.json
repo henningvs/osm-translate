@@ -130,7 +130,7 @@
 
 
 
-"name": "Route"
+"name": "Itinéraire"
 
 
 
@@ -186,7 +186,7 @@
 
 
 
-"label": "Accès",
+"label": "Accès autorisé",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Interdit sauf riverains"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Accès autorisé mais le cycliste-cavalier doit mettre pied à terre",
+
+
+
+
+
+
+
+"title": "Mettre pied à terre"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Inconnu",
+"placeholder": "Non spécifié",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Général",
+"access": "Tous",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Accès",
+"label": "Accès autorisé",
 
 
 
@@ -2045,7 +2075,7 @@
 
 
 
-"label": "Vend du E10"
+"label": "Vente de E10"
 
 
 
@@ -2061,7 +2091,7 @@
 
 
 
-"label": "Vends du E85"
+"label": "Vente de E85"
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Cycle de vie des feuilles",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Caduac",
+
+
+
+
+
+
+"evergreen": "à feuilles persistantes",
+
+
+
+
+
+
+"semi_deciduous": "semi-caduque",
+
+
+
+
+
+
+"semi_evergreen": "semi-persistant"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2711,6 +2797,55 @@
 
 
 "needleleaved": "Arbres à aiguilles"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Type de feuilles",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Feuilles",
+
+
+
+
+
+
+"leafless": "Sans feuilles",
+
+
+
+
+
+
+"needleleaved": "Aiguilles"
 
 
 
@@ -2780,7 +2915,7 @@
 
 
 
-"label": "Niveaux",
+"label": "Étages",
 
 
 
@@ -3044,7 +3179,7 @@
 
 
 
-"1": "1: Inclinaison < 15%, sol consistant, quelques menus obstacles",
+"1": "1: Inclinaison < 15%, sol consistant, quelques petits obstacles",
 
 
 
@@ -3388,7 +3523,7 @@
 
 
 
-"multi-storey": "Multiples niveaux",
+"multi-storey": "Multiples étages",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Accepte les bouteilles en verre"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Accepte le papier"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Accepte le plastique"
 
 
 
@@ -4944,6 +5111,22 @@
 
 
 
+"traffic_signals": {
+
+
+
+
+
+"label": "Type"
+
+
+
+
+},
+
+
+
+
 "trail_visibility": {
 
 
@@ -5128,7 +5311,7 @@
 
 
 
-"placeholder": "http://example.com"
+"placeholder": "http://exemple.fr"
 
 
 
@@ -6030,7 +6213,7 @@
 
 
 
-"name": "Lavage de voiture, Lave auto",
+"name": "Lavage de voiture",
 
 
 
@@ -6212,7 +6395,7 @@
 
 
 
-"terms": "Salle festive, Salle polyvalente, Centre communautaire => Canada"
+"terms": "Salle festive, Salle polyvalente, Centre communautaire"
 
 
 
@@ -6256,7 +6439,7 @@
 
 
 
-"terms": "Palais de Justice, Tribunal"
+"terms": "Palais de Justice"
 
 
 
@@ -6542,7 +6725,7 @@
 
 
 
-"terms": "Terrains d'école maternelle / jardin d'enfants"
+"terms": "Crèche,Halte-garderie,Jardin d'enfants,École maternelle,École enfantine"
 
 
 
@@ -6596,6 +6779,28 @@
 
 
 
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Parking pour motos",
+
+
+
+
+
+"terms": "Parc à motos,Stationnement motos"
+
+
+
+
+},
+
+
+
+
 "amenity/nightclub": {
 
 
@@ -6624,7 +6829,7 @@
 
 
 
-"name": "Parc de stationnement",
+"name": "Parking",
 
 
 
@@ -6938,7 +7143,7 @@
 
 
 
-"terms": "Recyclage"
+"terms": "déchèterie,déchetterie"
 
 
 
@@ -7114,7 +7319,7 @@
 
 
 
-"terms": "Résidence collective pour personnes âgées"
+"terms": "Maison de retraite"
 
 
 
@@ -7290,7 +7495,7 @@
 
 
 
-"terms": "Mairie"
+"terms": "Mairie,Hôtel de ville,Maison commune"
 
 
 
@@ -8082,7 +8287,7 @@
 
 
 
-"terms": "Maison non attenante"
+"terms": "Maison indépendante"
 
 
 
@@ -8324,7 +8529,7 @@
 
 
 
-"terms": "Bâtiment d'école maternelle / jardin d'enfants"
+"terms": "Crèche,Halte-garderie,Jardin d'enfants,École maternelle,École enfantine"
 
 
 
@@ -8435,6 +8640,28 @@
 
 
 "terms": "Bâtiment d'école primaire, collège, lycée  Cycles primaires et secondaires"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "maison mitoyenne",
+
+
+
+
+
+"terms": "maison jumelée"
 
 
 
@@ -10326,7 +10553,7 @@
 
 
 
-"terms": "Rue piétonnisée,Espace piétonnier"
+"terms": "Rue piétonnière,Espace piétonnier,Place piétonne,Rue piétonne"
 
 
 
@@ -11134,13 +11361,13 @@
 
 
 
-"name": "Type de terrain",
+"name": "Utilisation du sol",
 
 
 
 
 
-"terms": "Utilisation du terrain"
+"terms": "Type d'utilisation du sol, terrain"
 
 
 
@@ -11162,7 +11389,7 @@
 
 
 
-"terms": "Jardins familiaux, eco-jardins, jardins communautaires, jardin communautaire"
+"terms": "Jardins familiaux"
 
 
 
@@ -11332,13 +11559,13 @@
 
 
 
-"name": "Exploitation agricole",
+"name": "Cour de ferme",
 
 
 
 
 
-"terms": "Cour de ferme, ensemble des bâtiments d'une ferme"
+"terms": "exploitation agricole,cour de ferme,ensemble des bâtiments d'une ferme"
 
 
 
@@ -11678,6 +11905,28 @@
 
 
 
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Bowling",
+
+
+
+
+
+"terms": "Jeux de boules,Jeu de quilles,Quilles"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
@@ -11970,7 +12219,7 @@
 
 
 
-"name": "Terrain de basketball",
+"name": "Terrain de basket",
 
 
 
@@ -11986,13 +12235,57 @@
 
 
 
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Terrain de rugby à XIII",
+
+
+
+
+
+"terms": "Rugby"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Terrain de Rugby à XV",
+
+
+
+
+
+"terms": "Rugby"
+
+
+
+
+},
+
+
+
+
 "leisure/pitch/skateboard": {
 
 
 
 
 
-"name": "Planchodrome",
+"name": "Skatepark",
 
 
 
@@ -12130,7 +12423,7 @@
 
 
 
-"terms": "Cale de lancement"
+"terms": "Cale de lancement, Cale, Cale de mise à l'eau"
 
 
 
@@ -12756,6 +13049,94 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Poste de contrôle militaire",
+
+
+
+
+
+"terms": "Poste-frontière, Point de contrôle, Poste de contrôle,Militaire"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Zone militaire dangeureuse",
+
+
+
+
+
+"terms": "Zone dangereuse, Région dangereuse, Dangereuse, Danger,Militaire"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Base navale",
+
+
+
+
+
+"terms": "Base Navale, Base militaire, Marine, Port maritime"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Parcours du combattant",
+
+
+
+
+
+"terms": "Parcours du combattant, Course, Obstacles"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12769,6 +13150,28 @@
 
 
 "terms": "Champ de tir,Stand de tir"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Zone d'entraînement militaire",
+
+
+
+
+
+"terms": "Zone d'entraînement"
 
 
 
@@ -12988,7 +13391,7 @@
 
 
 
-"terms": "Santé"
+"terms": "Bruyère"
 
 
 
@@ -13796,13 +14199,13 @@
 
 
 
-"name": "Toponymie",
+"name": "Lieu",
 
 
 
 
 
-"terms": "Lieu"
+"terms": "Toponymie,Place"
 
 
 
@@ -15578,13 +15981,13 @@
 
 
 
-"name": "Étal de fruits et légumes",
+"name": "Magasin de producteurs",
 
 
 
 
 
-"terms": "Étal de fruits et légumes"
+"terms": "Étal de fruits et légumes,Vente à la ferme,Vente producteurs"
 
 
 
@@ -17492,13 +17895,13 @@
 
 
 
-"name": "Section de route à rainurage",
+"name": "Bande rugueuse",
 
 
 
 
 
-"terms": "Bande rugueuse"
+"terms": "Section de route à rainurage"
 
 
 

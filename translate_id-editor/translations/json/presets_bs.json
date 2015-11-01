@@ -170,12 +170,6 @@
 
 
 
-"label": "Pristup",
-
-
-
-
-
 "options": {
 
 
@@ -368,20 +362,7 @@
 
 
 
-"placeholder": "Nepoznato",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Opće",
 
 
 
@@ -416,22 +397,6 @@
 
 
 }
-
-
-
-
-},
-
-
-
-
-"access_simple": {
-
-
-
-
-
-"label": "Pristup"
 
 
 
@@ -5965,50 +5930,6 @@
 
 
 "terms": "znamenje kraj puta,kapelica"
-
-
-
-
-},
-
-
-
-
-"landuse": {
-
-
-
-
-
-"name": "Upotreba zemljišta",
-
-
-
-
-
-"terms": "upotreba zemljišta,namjena zemljišta"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Parcele",
-
-
-
-
-
-"terms": "parcele,zemlja za vrtlarstvo"
 
 
 

@@ -186,7 +186,7 @@
 
 
 
-"label": "Accés",
+"label": "Accés permès",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Destinació"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Accés permès però el pilot ha de baixar del mitjà ",
+
+
+
+
+
+
+
+"title": "Baixar del mitjà de transport"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Desconegut",
+"placeholder": "Sense especificar",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "General",
+"access": "Tots",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Accés",
+"label": "Accés permès",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Cicle de renovació de fulla",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Caducifòlia",
+
+
+
+
+
+
+"evergreen": "Perennifòlia",
+
+
+
+
+
+
+"semi_deciduous": "Semicaducifòlia",
+
+
+
+
+
+
+"semi_evergreen": "Semiperennifòlia"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2711,6 +2797,55 @@
 
 
 "needleleaved": "Fulles primes"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Tipus de fulla",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Panifoli",
+
+
+
+
+
+
+"leafless": "Sense fulles",
+
+
+
+
+
+
+"needleleaved": "Fulla en agulla"
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Accepta ampolles de vidre"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Accepta paper"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Accepta Plàstic"
 
 
 
@@ -4413,7 +4580,7 @@
 
 
 
-"label": "Uniformitat",
+"label": "Uniformitat per a vehicles",
 
 
 
@@ -4935,6 +5102,22 @@
 
 
 "placeholder": "Sòlid, majoritàriament sòlid, tou..."
+
+
+
+
+},
+
+
+
+
+"traffic_signals": {
+
+
+
+
+
+"label": "Tipus"
 
 
 
@@ -5552,13 +5735,13 @@
 
 
 
-"name": "Carrer de rodatge",
+"name": "Plataforma de rodada",
 
 
 
 
 
-"terms": "Carrer de rodatge, Pista de trànsit lent."
+"terms": "Plataforma de Rodada, Carrer de Taxi, Pista de Taxi, Carrer de Rodament, Carrer de Rodatge, Carril de Rodada, Carril de Rodatge"
 
 
 
@@ -6407,6 +6590,22 @@
 
 
 "terms": "Mercat, Mercat veïnal, Mercat de carrer"
+
+
+
+
+},
+
+
+
+
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Aparcament per a motocicletes"
 
 
 
@@ -7752,13 +7951,7 @@
 
 
 
-"name": "Xalet unifamiliar",
-
-
-
-
-
-"terms": "casa aïllada, casa d'urbanització, xalet, chalet, xalets, chalets, casa i jardí, casa amb jardí"
+"name": "Casa a quatre vents"
 
 
 
@@ -8063,6 +8256,22 @@
 
 
 "terms": "Escola, Gimnàs, Poliesportiu, Aulari, Seminaris, Pati, Esbarjo, Aules, Despatxos, Tallers, Ateliers, Aules d'informàtica, Classes, Classe, Sala de música, Corredors, Corredor, Pasillo, Pasillos, Passadís, Passadissos, Sala de professors, Recepció"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Casa adossada"
 
 
 
@@ -10306,13 +10515,7 @@
 
 
 
-"name": "Aprofitament del terreny",
-
-
-
-
-
-"terms": "Ús del terra, Ús del sòl"
+"name": "Ús de la terra"
 
 
 
@@ -10328,13 +10531,7 @@
 
 
 
-"name": "Horts",
-
-
-
-
-
-"terms": "Assignació"
+"name": "Jardí comunitari"
 
 
 
@@ -10778,6 +10975,22 @@
 
 
 
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Bolera"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
@@ -11047,6 +11260,38 @@
 
 
 "terms": "Pista de bàsquet, Pavelló de bàsquet"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Camp de la lliga de Rugbi"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Camp de la Unió de Rugbi"
 
 
 
@@ -11730,6 +11975,70 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Punt de control"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Àrea de perill"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Base Naval"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Cursa d'obstacles"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -11737,6 +12046,22 @@
 
 
 "name": "Terreny per a usos militars"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Àrea d'entrenament"
 
 
 

@@ -186,7 +186,7 @@
 
 
 
-"label": "Pristup",
+"label": "Dozvoljen pristup",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Destinacija"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Pristup dozvoljen ali vozač mora sići",
+
+
+
+
+
+
+
+"title": "Bez vožnje"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Nepoznat",
+"placeholder": "Nepoznato",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Općeniti pristup",
+"access": "Svi",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Pristup",
+"label": "Dozvoljen pristup",
 
 
 
@@ -850,6 +880,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Vrsta"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -2591,6 +2637,230 @@
 
 
 
+"leaf_cycle": {
+
+
+
+
+
+"label": "Padanje lišća",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Listopadno",
+
+
+
+
+
+
+"evergreen": "Zimzeleno",
+
+
+
+
+
+
+"mixed": "Mješano",
+
+
+
+
+
+
+"semi_deciduous": "Polu-listopadni",
+
+
+
+
+
+
+"semi_evergreen": "Polu-zimzeleni"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Padanje lišća",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Listopadan",
+
+
+
+
+
+
+"evergreen": "Zimzeleno",
+
+
+
+
+
+
+"semi_deciduous": "Polu-listopadni",
+
+
+
+
+
+
+"semi_evergreen": "Polu-zimzeleni"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type": {
+
+
+
+
+
+"label": "Vrsta listova",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Široki list",
+
+
+
+
+
+
+"leafless": "Bez lišća",
+
+
+
+
+
+
+"mixed": "Mješano",
+
+
+
+
+
+
+"needleleaved": "Iglice"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Vrsta listova",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Široki list",
+
+
+
+
+
+
+"leafless": "Bez lišća",
+
+
+
+
+
+
+"needleleaved": "Iglice"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leisure": {
 
 
@@ -3668,6 +3938,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Prima staklene boce"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3684,7 +3970,29 @@
 
 
 
+"recycling/plastic": {
+
+
+
+
+
+"label": "Prima plastiku"
+
+
+
+
+},
+
+
+
+
 "recycling/type": {
+
+
+
+
+
+"label": "Tip reciklaže",
 
 
 
@@ -4038,6 +4346,22 @@
 
 
 
+"service_rail": {
+
+
+
+
+
+"label": "Vrsta usluge"
+
+
+
+
+},
+
+
+
+
 "shelter": {
 
 
@@ -4229,6 +4553,22 @@
 
 
 
+"social_facility_for": {
+
+
+
+
+
+"label": "Posluživanje"
+
+
+
+
+},
+
+
+
+
 "source": {
 
 
@@ -4301,6 +4641,13 @@
 
 
 
+"ford": "Prijelaz preko potoka",
+
+
+
+
+
+
 "tunnel": "Tunel"
 
 
@@ -4314,6 +4661,38 @@
 
 
 "placeholder": "Nepoznat"
+
+
+
+
+},
+
+
+
+
+"studio_type": {
+
+
+
+
+
+"label": "Vrsta"
+
+
+
+
+},
+
+
+
+
+"substation": {
+
+
+
+
+
+"label": "Vrsta"
 
 
 
@@ -4346,6 +4725,61 @@
 
 
 "label": "Površina"
+
+
+
+
+},
+
+
+
+
+"takeaway": {
+
+
+
+
+
+"label": "Dostava",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"no": "Ne",
+
+
+
+
+
+
+"only": "Samo dostava",
+
+
+
+
+
+
+"yes": "Da"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Da, ne, samo dostava..."
 
 
 
@@ -4410,6 +4844,60 @@
 
 
 "label": "Vidljivost staze",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"bad": "Loša: nema markacija, staza je ponekad nevidljiva",
+
+
+
+
+
+
+"excellent": "Sjajna: staza je jasna, markacije svuda",
+
+
+
+
+
+
+"good": "Dobra: markacije vidljive, ponekad ih je potrebno potražiti",
+
+
+
+
+
+
+"horrible": "Grozna: staze često nema, potrebne su vještine orjentacije",
+
+
+
+
+
+
+"intermediate": "Srednja: par markacija, staza je obično vidljiva",
+
+
+
+
+
+
+"no": "Nema: staza ne postoji, potrebna sjajna vještina orjentacije"
+
+
+
+
+
+},
 
 
 
@@ -5335,6 +5823,28 @@
 
 
 
+"amenity/casino": {
+
+
+
+
+
+"name": "Kasino",
+
+
+
+
+
+"terms": "casino, kockarnica"
+
+
+
+
+},
+
+
+
+
 "amenity/charging_station": {
 
 
@@ -5520,6 +6030,22 @@
 
 
 "name": "Doktor"
+
+
+
+
+},
+
+
+
+
+"amenity/dojo": {
+
+
+
+
+
+"name": "Škola borilačkih vještina"
 
 
 
@@ -5750,6 +6276,22 @@
 
 
 "terms": "tržnica,pijaca,pijac,pija,plac"
+
+
+
+
+},
+
+
+
+
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Parkiralište za motocikle"
 
 
 
@@ -6765,7 +7307,13 @@
 
 
 
-"name": "Apartmani"
+"name": "Stambena zgrada",
+
+
+
+
+
+"terms": "Zgrada sa stanovima, zgrada sa apartmanima"
 
 
 
@@ -6813,6 +7361,22 @@
 
 
 
+"building/cabin": {
+
+
+
+
+
+"name": "Mala drvena kućica, sklonište"
+
+
+
+
+},
+
+
+
+
 "building/cathedral": {
 
 
@@ -6835,7 +7399,13 @@
 
 
 
-"name": "Kapelica"
+"name": "Kapelica",
+
+
+
+
+
+"terms": "kapela, kapelica"
 
 
 
@@ -6900,22 +7470,6 @@
 
 
 "name": "Zgrada u izgradnji"
-
-
-
-
-},
-
-
-
-
-"building/detached": {
-
-
-
-
-
-"name": "Samostojni dom"
 
 
 
@@ -7135,7 +7689,7 @@
 
 
 
-"name": "Stambena zgrada"
+"name": "Građevina za stanovanje"
 
 
 
@@ -7279,6 +7833,22 @@
 
 
 
+"craft": {
+
+
+
+
+
+"name": "Zanat"
+
+
+
+
+},
+
+
+
+
 "craft/beekeeper": {
 
 
@@ -7366,6 +7936,22 @@
 
 
 "name": "Stolar"
+
+
+
+
+},
+
+
+
+
+"craft/carpet_layer": {
+
+
+
+
+
+"name": "Postavljač tepiha"
 
 
 
@@ -8065,6 +8651,28 @@
 
 
 
+"footway/crossing": {
+
+
+
+
+
+"name": "Pješački prijelaz",
+
+
+
+
+
+"terms": "zebra"
+
+
+
+
+},
+
+
+
+
 "footway/sidewalk": {
 
 
@@ -8072,6 +8680,22 @@
 
 
 "name": "Pločnik"
+
+
+
+
+},
+
+
+
+
+"ford": {
+
+
+
+
+
+"name": "Prijelaz preko potoka"
 
 
 
@@ -8142,6 +8766,28 @@
 
 
 "terms": "bus stanica,stanica za bus,autobusna stanica,busna stanica"
+
+
+
+
+},
+
+
+
+
+"highway/crossing": {
+
+
+
+
+
+"name": "Pješački prijelaz",
+
+
+
+
+
+"terms": "zebra"
 
 
 
@@ -8276,6 +8922,22 @@
 
 
 "name": "Staza"
+
+
+
+
+},
+
+
+
+
+"highway/pedestrian": {
+
+
+
+
+
+"name": "Pješačka zona"
 
 
 
@@ -8538,6 +9200,22 @@
 
 
 "terms": "znak stop,stop,prometni znak,znak"
+
+
+
+
+},
+
+
+
+
+"highway/street_lamp": {
+
+
+
+
+
+"name": "Ulična lampa"
 
 
 
@@ -8849,13 +9527,13 @@
 
 
 
-"landuse": {
+"junction": {
 
 
 
 
 
-"name": "Korištenje"
+"name": "Križanje"
 
 
 
@@ -8865,19 +9543,13 @@
 
 
 
-"landuse/allotments": {
+"landuse": {
 
 
 
 
 
-"name": "Vrtovi",
-
-
-
-
-
-"terms": "urbani vrtovi,gradski vrtovi"
+"name": "Zemljišna zona"
 
 
 
@@ -9165,6 +9837,22 @@
 
 
 
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Kuglalište"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
@@ -9292,6 +9980,22 @@
 
 
 "name": "Park"
+
+
+
+
+},
+
+
+
+
+"leisure/picnic_table": {
+
+
+
+
+
+"name": "Stol za "
 
 
 
@@ -9537,6 +10241,22 @@
 
 
 
+"leisure/sports_center": {
+
+
+
+
+
+"name": "Sportski centar"
+
+
+
+
+},
+
+
+
+
 "leisure/stadium": {
 
 
@@ -9616,6 +10336,22 @@
 
 
 "terms": "ljudske tvorevine,napravio čovjek,umjetno,ljudska tvorevina u okolišu"
+
+
+
+
+},
+
+
+
+
+"man_made/adit": {
+
+
+
+
+
+"name": "Položeni ulaz u rudnik"
 
 
 
@@ -9868,6 +10604,28 @@
 
 
 "terms": "vodotoranj,toranj sa spremištem za vodu,spremište za vodu,vodeni toranj,toranj s vodom"
+
+
+
+
+},
+
+
+
+
+"man_made/water_well": {
+
+
+
+
+
+"name": "Zdenac",
+
+
+
+
+
+"terms": "bunar"
 
 
 
@@ -10167,6 +10925,22 @@
 
 
 
+"natural/saddle": {
+
+
+
+
+
+"name": "Prijevoj"
+
+
+
+
+},
+
+
+
+
 "natural/scree": {
 
 
@@ -10246,6 +11020,38 @@
 
 
 "terms": "stablo,drvo,deblo"
+
+
+
+
+},
+
+
+
+
+"natural/tree_row": {
+
+
+
+
+
+"name": "Drvored"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Vulkan"
 
 
 
@@ -11337,6 +12143,44 @@
 
 
 
+"shop/baby_goods": {
+
+
+
+
+
+"name": "Trgovina za bebe",
+
+
+
+
+
+"terms": "Baby, bebe, dojenčad, kolica, pelene"
+
+
+
+
+},
+
+
+
+
+"shop/bag": {
+
+
+
+
+
+"name": "Trgovina sa torbama"
+
+
+
+
+},
+
+
+
+
 "shop/bakery": {
 
 
@@ -11388,6 +12232,28 @@
 
 
 "terms": "kozmetički salon,solarij,salon ljepote,pediker,beauty centar"
+
+
+
+
+},
+
+
+
+
+"shop/bed": {
+
+
+
+
+
+"name": "Trgovina opreme za krevete",
+
+
+
+
+
+"terms": "madrac, madraci, podnica, podnice, posteljina, jastuk, jastuci"
 
 
 
@@ -11719,6 +12585,28 @@
 
 
 
+"shop/copyshop": {
+
+
+
+
+
+"name": "Fotokopiraona",
+
+
+
+
+
+"terms": "Copy dućan, trgovina za kopiranje, kopiraonica"
+
+
+
+
+},
+
+
+
+
 "shop/cosmetics": {
 
 
@@ -11726,6 +12614,44 @@
 
 
 "name": "Prodavaonica kozmetike"
+
+
+
+
+},
+
+
+
+
+"shop/craft": {
+
+
+
+
+
+"name": "Hobby & art dućan",
+
+
+
+
+
+"terms": "dućan za hobije, slikarski dućan, kistovi"
+
+
+
+
+},
+
+
+
+
+"shop/curtain": {
+
+
+
+
+
+"name": "Trgovina za zastore"
 
 
 
@@ -11877,6 +12803,22 @@
 
 
 
+"shop/fabric": {
+
+
+
+
+
+"name": "Trgovina za tkanine"
+
+
+
+
+},
+
+
+
+
 "shop/farm": {
 
 
@@ -11884,6 +12826,22 @@
 
 
 "name": "Prodavaonica proizvoda farme"
+
+
+
+
+},
+
+
+
+
+"shop/fashion": {
+
+
+
+
+
+"name": "Modni dućan"
 
 
 
@@ -11928,6 +12886,44 @@
 
 
 "terms": "cvjećara,cvjećarna,cvjećarnica,trgovina cvijećem,prodavaonica cvijeća"
+
+
+
+
+},
+
+
+
+
+"shop/frame": {
+
+
+
+
+
+"name": "Trgovina za okvire"
+
+
+
+
+},
+
+
+
+
+"shop/funeral_directors": {
+
+
+
+
+
+"name": "Pogrebno poduzeće",
+
+
+
+
+
+"terms": "Pogrebna služba, posmrtna pripomoć"
 
 
 
@@ -12107,6 +13103,22 @@
 
 
 
+"shop/interior_decoration": {
+
+
+
+
+
+"name": "Trgovina unutarnjeg uređenja"
+
+
+
+
+},
+
+
+
+
 "shop/jewelry": {
 
 
@@ -12145,6 +13157,28 @@
 
 
 
+"shop/kitchen": {
+
+
+
+
+
+"name": "Trgovina kuhinjskog namještaja",
+
+
+
+
+
+"terms": "kuhinje, pećnice, hladnjak"
+
+
+
+
+},
+
+
+
+
 "shop/laundry": {
 
 
@@ -12158,6 +13192,22 @@
 
 
 "terms": "praonica rublja"
+
+
+
+
+},
+
+
+
+
+"shop/leather": {
+
+
+
+
+
+"name": "Trgovina kožnom galanterijom"
 
 
 
@@ -12243,6 +13293,28 @@
 
 
 
+"shop/medical_supply": {
+
+
+
+
+
+"name": "Trgovina medicinske opreme",
+
+
+
+
+
+"terms": "proteze, medicinske potrepštine"
+
+
+
+
+},
+
+
+
+
 "shop/mobile_phone": {
 
 
@@ -12309,6 +13381,44 @@
 
 
 
+"shop/musical_instrument": {
+
+
+
+
+
+"name": "Trgovina glazbenih instrumenata",
+
+
+
+
+
+"terms": "Muzička trgovina, muzički dućan, gitare, bubnjevi"
+
+
+
+
+},
+
+
+
+
+"shop/newsagent": {
+
+
+
+
+
+"name": "Trgovina za novine i magazine"
+
+
+
+
+},
+
+
+
+
 "shop/optician": {
 
 
@@ -12322,6 +13432,44 @@
 
 
 "terms": "optičar"
+
+
+
+
+},
+
+
+
+
+"shop/organic": {
+
+
+
+
+
+"name": "Trgovina za organsku hranu"
+
+
+
+
+},
+
+
+
+
+"shop/outdoor": {
+
+
+
+
+
+"name": "Trgovina sa opremom za kampiranje",
+
+
+
+
+
+"terms": "planinarenje, trčanje, kampiranje"
 
 
 
@@ -12398,6 +13546,22 @@
 
 
 "terms": "vatromet,pirotehnika,petarda,prskalice"
+
+
+
+
+},
+
+
+
+
+"shop/radiotechnics": {
+
+
+
+
+
+"name": "Trgovina za elektroniku"
 
 
 
@@ -12581,6 +13745,44 @@
 
 
 
+"shop/tea": {
+
+
+
+
+
+"name": "Trgovina za čajeve"
+
+
+
+
+},
+
+
+
+
+"shop/tobacco": {
+
+
+
+
+
+"name": "Trgovina za duhanske proizvode",
+
+
+
+
+
+"terms": "cigare, cigarete, duhan"
+
+
+
+
+},
+
+
+
+
 "shop/toys": {
 
 
@@ -12669,6 +13871,22 @@
 
 
 
+"shop/vacuum_cleaner": {
+
+
+
+
+
+"name": "Trgovina za usisavače"
+
+
+
+
+},
+
+
+
+
 "shop/variety_store": {
 
 
@@ -12726,6 +13944,44 @@
 
 
 "terms": "računalne igre, igrice"
+
+
+
+
+},
+
+
+
+
+"shop/water_sports": {
+
+
+
+
+
+"name": "Trgovina za vodene sportove",
+
+
+
+
+
+"terms": "plivanje, ronjenje"
+
+
+
+
+},
+
+
+
+
+"shop/weapons": {
+
+
+
+
+
+"name": "Trgovina za oružje"
 
 
 
@@ -13759,6 +15015,22 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Benzinska postaja za brodove"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -13788,6 +15060,22 @@
 
 
 "terms": "riječna obala,obala rijeke,rijeka"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Pražnjenje brodskog spremnika fekalija"
 
 
 

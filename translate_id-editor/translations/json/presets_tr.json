@@ -186,12 +186,6 @@
 
 
 
-"label": "Ulaşım",
-
-
-
-
-
 "options": {
 
 
@@ -384,20 +378,7 @@
 
 
 
-"placeholder": "Bilinmeyen",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Genel",
 
 
 
@@ -442,12 +423,6 @@
 
 
 "access_simple": {
-
-
-
-
-
-"label": "Giriş",
 
 
 
@@ -2151,7 +2126,13 @@
 
 
 
-"label": "İsim"
+"label": "İsim",
+
+
+
+
+
+"placeholder": "Genel adı (eğer varsa)"
 
 
 
@@ -4685,22 +4666,6 @@
 
 
 
-"building/detached": {
-
-
-
-
-
-"name": "Ayrık Ev"
-
-
-
-
-},
-
-
-
-
 "building/dormitory": {
 
 
@@ -6292,38 +6257,6 @@
 
 
 "name": "Yol Ayrımı"
-
-
-
-
-},
-
-
-
-
-"landuse": {
-
-
-
-
-
-"name": "Arazi Kullanımı"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Bostanlar"
 
 
 

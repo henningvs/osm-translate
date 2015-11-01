@@ -703,7 +703,12 @@
 
 
 
-"incomplete_relation": "Không thể gộp vì một trong số đối tượng này chưa được tải về hoàn toàn."
+"incomplete_relation": "Không thể gộp vì một trong số đối tượng này chưa được tải về hoàn toàn.",
+
+
+
+
+"conflicting_tags": "Không thể gộp các đường kẻ này vì một số thẻ có giá trị xung đột."
 
 
 
@@ -2126,6 +2131,9 @@
 "cannot_zoom": "Không thể thu nhỏ hơn trong chế độ hiện tại.",
 
 
+"full_screen": "Bật/tắt Chế độ Toàn màn hình",
+
+
 "gpx": {
 
 
@@ -2186,7 +2194,7 @@
 
 
 
-"gps": "# GPS\n\nHệ thống định vị toàn cầu, còn gọi GPS, là nguồn dữ liệu tin tưởng nhất trong dự án OpenStreetMap. Trình vẽ này hỗ trợ các tuyến đường thu thập được từ máy GPS, tức tập tin `.gpx` trên máy tính của bạn. Bạn có thể thu loại tuyến đường GPS này bằng một ứng dụng cài đặt trên điện thoại thông minh hoặc máy thu GPS, chẳng hạn máy Garmin.\n\nĐọc thêm về cách thu thập dữ liệu bằng GPS tại “[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/)”.\n\nĐể sử dụng một tuyến đường GPX trong việc vẽ bản đồ, kéo thả tập tin GPX vào trình vẽ bản đồ này. Nếu trình vẽ nhận ra tuyến đường, tuyến đường sẽ được tô màu hồng sẫm trên bản đồ. Mở hộp “Dữ liệu Bản đồ” ở thanh công cụ bên phải để bật tắt hoặc thu phóng lớp GPX này.\n\nTuyến đường GPX không được tải lên OpenStreetMap trực tiếp. Cách tốt nhất để sử dụng nó là vạch đường theo nó trên bản đồ, cũng như [tải nó lên OpenStreetMap](http://www.openstreetmap.org/trace/create) để cho người khác sử dụng.\n",
+"gps": "# GPS\n\nHệ thống định vị toàn cầu, còn gọi GPS, là nguồn dữ liệu tin tưởng nhất trong dự án OpenStreetMap. Trình vẽ này hỗ trợ các tuyến đường thu thập được từ máy GPS, tức tập tin `.gpx` trên máy tính của bạn. Bạn có thể thu loại tuyến đường GPS này bằng một ứng dụng cài đặt trên điện thoại thông minh hoặc máy thu GPS.\n\nĐọc thêm về cách thu thập dữ liệu bằng GPS tại “[Mapping with a smartphone, GPS, or paper](http://learnosm.org/en/mobile-mapping/)”.\n\nĐể sử dụng một tuyến đường GPX trong việc vẽ bản đồ, kéo thả tập tin GPX vào trình vẽ bản đồ này. Nếu trình vẽ nhận ra tuyến đường, tuyến đường sẽ được tô màu hồng sẫm trên bản đồ. Mở hộp “Dữ liệu Bản đồ” ở thanh công cụ bên phải để bật tắt hoặc thu phóng lớp GPX này.\n\nTuyến đường GPX không được tải trực tiếp lên OpenStreetMap. Cách tốt nhất để sử dụng nó là vạch đường theo nó trên bản đồ, cũng như [tải nó lên OpenStreetMap](http://www.openstreetmap.org/trace/create) để cho người khác sử dụng.\n",
 
 
 
@@ -2198,7 +2206,7 @@
 
 
 
-"inspector": "# Biểu mẫu\n\nBiểu mẫu là hộp ở bên trái của trang cho phép sửa đổi các chi tiết của các đối tượng được chọn.\n\n### Chọn Thể loại\n\nSau khi thêm địa điểm, đường kẻ, hoặc vùng vào bản đồ, bạn có thể cho biết đối tượng này tượng trưng cho gì, chẳng hạn con đường, siêu thị, hoặc quán cà phê. Biểu mẫu trình bày các nút tiện để chọn các thể loại đối tượng thường gặp, hoặc bạn có thể gõ một vài chữ mô tả vào hộp tìm kiếm để tìm ra các thể loại khác.\n\nNhấn vào hình dấu trang ở phía dưới bên phải của một nút thể loại để tìm hiểu thêm về thể loại đó. Nhấn vào nút để chọn thể loại đó.\n\n### Điền đơn và Gắn thẻ\n\nSau khi bạn chọn thể loại, hoặc nếu chọn một đối tượng đã có thể loại, biểu mẫu trình bày các trường văn bản và điều khiển để xem và sửa các thuộc tính của đối tượng như tên và địa chỉ.\n\nỞ dưới các điều khiển có một số hình tượng có thể nhấn để thêm chi tiết, chẳng hạn tên bài [Wikipedia](http://www.wikipedia.org/) và mức hỗ trợ xe lăn.\n\nNhấn vào “Các thẻ năng cao” ở cuối biểu mẫu để gắn bất cứ thẻ nào vào đối tượng. [Taginfo](http://taginfo.openstreetmap.org/) là một công cụ rất hữu ích để tìm ra những phối hợp thẻ phổ biến.\n\nCác thay đổi trong biểu mẫu được tự động áp dụng vào bản đồ. Bạn có thể nhấn vào nút “Hoàn tác” vào bất cứ lúc nào để hoàn tác các thay đổi.\n",
+"inspector": "# Trình kiểm tra\n\nTrình kiểm tra là hộp ở bên trái của trang cho phép sửa đổi các chi tiết của các đối tượng được chọn.\n\n### Chọn một Thể loại Đối tượng\n\nSau khi thêm địa điểm, đường kẻ, hoặc vùng vào bản đồ, bạn có thể cho biết đối tượng này tượng trưng cho gì, chẳng hạn con đường, siêu thị, hoặc quán cà phê. Trình kiểm tra trình bày các nút tiện để chọn các thể loại đối tượng thường gặp, hoặc bạn có thể gõ một vài chữ mô tả vào hộp tìm kiếm để tìm ra các thể loại khác.\n\nNhấn vào hình “i” ở góc phía dưới bên phải của một nút thể loại để tìm hiểu thêm về thể loại đó. Nhấn vào nút để chọn thể loại đó.\n\n### Điền đơn và Gắn thẻ\n\nSau khi bạn chọn thể loại, hoặc nếu chọn một đối tượng đã có thể loại, trình kiểm tra trình bày các trường văn bản và điều khiển để xem và sửa các thuộc tính của đối tượng như tên và địa chỉ.\n\nỞ dưới các điều khiển có một trình đơn “Thêm chi tiết” cho phép bổ sung thêm chi tiết, chẳng hạn tên bài [Wikipedia](http://www.wikipedia.org/) và mức hỗ trợ xe lăn.\n\nNhấn vào “Tất cả các thẻ” ở cuối trình kiểm tra để gắn bất cứ thẻ nào vào đối tượng. [Taginfo](http://taginfo.openstreetmap.org/) là một công cụ rất hữu ích để tìm ra những phối hợp thẻ phổ biến.\n\nCác thay đổi trong trình kiểm tra được tự động áp dụng vào bản đồ. Bạn có thể nhấn vào nút “Hoàn tác” vào bất cứ lúc nào để hoàn tác các thay đổi.\n",
 
 
 

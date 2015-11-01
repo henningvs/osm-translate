@@ -186,7 +186,7 @@
 
 
 
-"label": "通行限制",
+"label": "允許通行限制",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "目的地"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "允許進入但駕駛需下車",
+
+
+
+
+
+
+
+"title": "下車"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "未知種類",
+"placeholder": "並未指定",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "一般",
+"access": "全部",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "通行限制",
+"label": "允許通行",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "落葉期",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "落葉樹",
+
+
+
+
+
+
+"evergreen": "常青樹",
+
+
+
+
+
+
+"semi_deciduous": "半落葉樹",
+
+
+
+
+
+
+"semi_evergreen": "半長青樹"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2711,6 +2797,55 @@
 
 
 "needleleaved": "針葉林"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "葉子種類",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "闊葉樹",
+
+
+
+
+
+
+"leafless": "落葉樹",
+
+
+
+
+
+
+"needleleaved": "針葉樹"
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "可收玻璃瓶"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "接受廢紙"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "可收塑膠"
 
 
 
@@ -4935,6 +5102,22 @@
 
 
 "placeholder": "堅硬地面、硬物鋪面、軟鋪面"
+
+
+
+
+},
+
+
+
+
+"traffic_signals": {
+
+
+
+
+
+"label": "號誌種類"
 
 
 
@@ -6596,6 +6779,28 @@
 
 
 
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "機車停車場",
+
+
+
+
+
+"terms": "機車停車場,速克達停車場,摩托車停車場"
+
+
+
+
+},
+
+
+
+
 "amenity/nightclub": {
 
 
@@ -8076,13 +8281,13 @@
 
 
 
-"name": "獨立式住宅",
+"name": "獨立式房屋",
 
 
 
 
 
-"terms": "獨立式家屋,獨立式房子"
+"terms": "獨立式住宅,獨立式房子"
 
 
 
@@ -8435,6 +8640,28 @@
 
 
 "terms": "學校建物,學校建築,小學建築,中學建築"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "半獨立式房屋",
+
+
+
+
+
+"terms": "半獨立式住宅,半獨立式房子"
 
 
 
@@ -11134,13 +11361,13 @@
 
 
 
-"name": "土地用途",
+"name": "土地利用",
 
 
 
 
 
-"terms": "土地使用"
+"terms": "土地利用,國土利用,使用分區"
 
 
 
@@ -11156,13 +11383,13 @@
 
 
 
-"name": "社區花園",
+"name": "社區農園",
 
 
 
 
 
-"terms": "城市花園"
+"terms": "社區田圃,城市農園,社區園圃,社區農地"
 
 
 
@@ -11678,6 +11905,28 @@
 
 
 
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "保齡球館",
+
+
+
+
+
+"terms": "保齡球館,保齡球場,地球社"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
@@ -11977,6 +12226,50 @@
 
 
 "terms": "籃球場,球場"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "聯盟式橄欖球",
+
+
+
+
+
+"terms": "聯盟式橄欖球"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "聯合式橄欖球",
+
+
+
+
+
+"terms": "聯合式橄欖球"
 
 
 
@@ -12756,6 +13049,94 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "崗哨",
+
+
+
+
+
+"terms": "軍事崗哨,哨點"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "危險區",
+
+
+
+
+
+"terms": "危險地區,危險區域"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "海軍基地",
+
+
+
+
+
+"terms": "軍港"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "障礙物",
+
+
+
+
+
+"terms": "障礙物"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12769,6 +13150,28 @@
 
 
 "terms": "靶場"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "訓練場地",
+
+
+
+
+
+"terms": "教練場"
 
 
 

@@ -186,12 +186,6 @@
 
 
 
-"label": "Prieiga",
-
-
-
-
-
 "options": {
 
 
@@ -246,6 +240,36 @@
 
 
 "title": "Tikslinis"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Priėjimas leidžiamas, bet dviratininkas turi nulipti nuo dviračio",
+
+
+
+
+
+
+
+"title": "Nulipti"
 
 
 
@@ -384,20 +408,7 @@
 
 
 
-"placeholder": "Nežinoma",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Bendra",
 
 
 
@@ -442,12 +453,6 @@
 
 
 "access_simple": {
-
-
-
-
-
-"label": "Prieiga",
 
 
 
@@ -499,6 +504,13 @@
 
 
 "city": "Miestas",
+
+
+
+
+
+
+"conscriptionnumber": "123",
 
 
 
@@ -843,6 +855,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Tipas"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -1270,6 +1298,22 @@
 
 
 
+"content": {
+
+
+
+
+
+"label": "Turinys"
+
+
+
+
+},
+
+
+
+
 "country": {
 
 
@@ -1357,6 +1401,124 @@
 
 
 "label": "Virtuvė"
+
+
+
+
+},
+
+
+
+
+"cycleway": {
+
+
+
+
+
+"label": "Dviračių juostos",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"lane": {
+
+
+
+
+
+
+
+"description": "Dviračių juosta atskirta nuo automobilių eismo nubrėžta linija",
+
+
+
+
+
+
+
+"title": "Standartinė dviračių juosta"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"none": {
+
+
+
+
+
+
+
+"description": "Nėra dviračių juostos",
+
+
+
+
+
+
+
+"title": "Nėra"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"opposite": {
+
+
+
+
+
+
+
+"description": "Abiejų krypčių dviračių juosta vienpusėje gatvėje",
+
+
+
+
+
+
+
+"title": "Dviračių juostos kryptis prieš eismą"
+
+
+
+
+
+
+}
+
+
+
+
+
+}
 
 
 
@@ -6745,22 +6907,6 @@
 
 
 
-"building/detached": {
-
-
-
-
-
-"name": "Atskirtas namas"
-
-
-
-
-},
-
-
-
-
 "building/dormitory": {
 
 
@@ -8525,7 +8671,7 @@
 
 
 
-"name": "Žingsniai",
+"name": "Laiptai",
 
 
 
@@ -8903,50 +9049,6 @@
 
 
 
-"landuse": {
-
-
-
-
-
-"name": "Žemėnauda",
-
-
-
-
-
-"terms": "žemėnauda"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Žemės sklypai",
-
-
-
-
-
-"terms": "sodai,kolektyviniai sodai"
-
-
-
-
-},
-
-
-
-
 "landuse/basin": {
 
 
@@ -9085,13 +9187,13 @@
 
 
 
-"name": "Sodyba",
+"name": "Ūkis",
 
 
 
 
 
-"terms": "ūkio sodyba,ferma"
+"terms": "ūkis,ūkio sodyba,ferma"
 
 
 
@@ -10473,7 +10575,7 @@
 
 
 
-"name": "Medis",
+"name": "Miškas",
 
 
 

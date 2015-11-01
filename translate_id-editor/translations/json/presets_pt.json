@@ -186,7 +186,7 @@
 
 
 
-"label": "Acesso",
+"label": "Acesso autorizado",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Destino"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Acesso permitido mas o cavaleiro deve desmontar",
+
+
+
+
+
+
+
+"title": "Desmontar"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Desconhecido",
+"placeholder": "Não especificado",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Geral",
+"access": "A todos",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Acesso",
+"label": "Acesso permitido",
 
 
 
@@ -850,6 +880,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Tipo"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -2654,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Ciclo de folhagem",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Caduco",
+
+
+
+
+
+
+"evergreen": "Persistente",
+
+
+
+
+
+
+"semi_deciduous": "Semi-caduco",
+
+
+
+
+
+
+"semi_evergreen": "Semi-persistente"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2688,6 +2790,55 @@
 
 
 "mixed": "Mistura",
+
+
+
+
+
+
+"needleleaved": "Agulhas"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Tipo de folha",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Folha larga",
+
+
+
+
+
+
+"leafless": "Sem folhas",
 
 
 
@@ -3803,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Aceita Garrafas de Vidro"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3810,6 +3977,22 @@
 
 
 "label": "Aceita Papel"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Aceita Plástico"
 
 
 
@@ -4040,6 +4223,22 @@
 
 
 "placeholder": "Caminhada de Montanha, Caminhada Alpina..."
+
+
+
+
+},
+
+
+
+
+"sanitary_dump_station": {
+
+
+
+
+
+"label": "Escoamento sanitário"
 
 
 
@@ -4674,7 +4873,7 @@
 
 
 
-"label": "Tipo de Superfície "
+"label": "Tipo de superfície "
 
 
 
@@ -4849,7 +5048,7 @@
 
 
 
-"label": "Qualidade da Superfície ",
+"label": "Qualidade da superfície ",
 
 
 
@@ -4903,6 +5102,22 @@
 
 
 "placeholder": "Sólido, Intermédio, Macio..."
+
+
+
+
+},
+
+
+
+
+"traffic_signals": {
+
+
+
+
+
+"label": "Tipo"
 
 
 
@@ -6014,6 +6229,28 @@
 
 
 
+"amenity/casino": {
+
+
+
+
+
+"name": "Casino",
+
+
+
+
+
+"terms": "Casino"
+
+
+
+
+},
+
+
+
+
 "amenity/charging_station": {
 
 
@@ -6542,6 +6779,28 @@
 
 
 
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Parque de Motas",
+
+
+
+
+
+"terms": "Motorcycle Parking, Motas"
+
+
+
+
+},
+
+
+
+
 "amenity/nightclub": {
 
 
@@ -6938,6 +7197,28 @@
 
 
 
+"amenity/sanitary_dump_station": {
+
+
+
+
+
+"name": "Escoamento sanitário de autocaravana",
+
+
+
+
+
+"terms": "RV Toilet Disposal"
+
+
+
+
+},
+
+
+
+
 "amenity/school": {
 
 
@@ -7325,6 +7606,22 @@
 
 
 "terms": "Espaço, Extensão, Zona"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Área de Estrada"
 
 
 
@@ -7978,13 +8275,7 @@
 
 
 
-"name": "Casa Isolada",
-
-
-
-
-
-"terms": "Detached Home, Cabana, Bangaló, Villa, Mansão"
+"name": "Casa Isolada"
 
 
 
@@ -8337,6 +8628,22 @@
 
 
 "terms": "School Building, Pavilhão Escolar"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Casa Semi-isolada"
 
 
 
@@ -10412,13 +10719,13 @@
 
 
 
-"name": "Traseiras",
+"name": "Viela",
 
 
 
 
 
-"terms": "Beco"
+"terms": "Traseiras, Beco"
 
 
 
@@ -11006,13 +11313,7 @@
 
 
 
-"name": "Uso do Solo",
-
-
-
-
-
-"terms": "Uso de Terra, Uso de Solo"
+"name": "Uso do Solo"
 
 
 
@@ -11028,13 +11329,7 @@
 
 
 
-"name": "Hortas",
-
-
-
-
-
-"terms": "Horta Comunitária, Horta Urbana"
+"name": "Horta / Jardin Comunitário"
 
 
 
@@ -11396,6 +11691,22 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Viveiro de plantas"
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
@@ -11497,6 +11808,38 @@
 
 
 "terms": "Lazer, Diversão, Leisure"
+
+
+
+
+},
+
+
+
+
+"leisure/adult_gaming_centre": {
+
+
+
+
+
+"name": "Centro de jogos para adultos"
+
+
+
+
+},
+
+
+
+
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Bowling"
 
 
 
@@ -12100,6 +12443,28 @@
 
 
 
+"man_made/adit": {
+
+
+
+
+
+"name": "Galeria de acesso",
+
+
+
+
+
+"terms": "entrada, acesso, mina, galeria mineira"
+
+
+
+
+},
+
+
+
+
 "man_made/breakwater": {
 
 
@@ -12550,6 +12915,54 @@
 
 
 
+"military/danger_area": {
+
+
+
+
+
+"name": "Área de Perigo"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Base Naval"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Pista de Obstáculos "
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12563,6 +12976,22 @@
 
 
 "terms": "Military Range"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Área de Treinos"
 
 
 
@@ -16702,7 +17131,7 @@
 
 
 
-"terms": "Variety Store, Loja dos 300, Loja dos Trezentos javascript:;"
+"terms": "Variety Store, Loja dos 300, Loja dos Trezentos"
 
 
 
@@ -18023,6 +18452,22 @@
 
 
 "terms": "Riverbank"
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Escoamento sanitário marinho"
 
 
 

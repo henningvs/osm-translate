@@ -170,12 +170,6 @@
 
 
 
-"label": "通",
-
-
-
-
-
 "options": {
 
 
@@ -368,20 +362,7 @@
 
 
 
-"placeholder": "未知",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "總體",
 
 
 
@@ -416,22 +397,6 @@
 
 
 }
-
-
-
-
-},
-
-
-
-
-"access_simple": {
-
-
-
-
-
-"label": "通"
 
 
 
@@ -5193,50 +5158,6 @@
 
 
 "terms": "Wayside Shrine,路邊神社,路邊神祠"
-
-
-
-
-},
-
-
-
-
-"landuse": {
-
-
-
-
-
-"name": "用地",
-
-
-
-
-
-"terms": "Landuse,土地用途,用地"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "菜地",
-
-
-
-
-
-"terms": "Allotments,社區花園,菜地"
 
 
 

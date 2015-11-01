@@ -170,12 +170,6 @@
 
 
 
-"label": "Tilgang",
-
-
-
-
-
 "options": {
 
 
@@ -355,12 +349,6 @@
 
 
 },
-
-
-
-
-
-"placeholder": "Ukjent",
 
 
 
@@ -3444,38 +3432,6 @@
 
 
 "name": "Ruiner"
-
-
-
-
-},
-
-
-
-
-"landuse": {
-
-
-
-
-
-"name": "Arealbruk"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Kolonihage"
 
 
 

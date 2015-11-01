@@ -259,6 +259,36 @@
 
 
 
+"dismount": {
+
+
+
+
+
+
+
+"description": "Chỉ cho phép nếu xuống đi bộ",
+
+
+
+
+
+
+
+"title": "Bắt xuống đi bộ"
+
+
+
+
+
+
+},
+
+
+
+
+
+
 "no": {
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Tổng quát",
+"access": "Tất cả",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Thời gian Mọc Lá",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Rụng Lá",
+
+
+
+
+
+
+"evergreen": "Thường xanh",
+
+
+
+
+
+
+"semi_deciduous": "Bán Rụng Lá",
+
+
+
+
+
+
+"semi_evergreen": "Bán Thường xanh"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2704,6 +2790,55 @@
 
 
 "mixed": "Pha trộn",
+
+
+
+
+
+
+"needleleaved": "Hình Kim"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Loại Lá",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Hình Quạt",
+
+
+
+
+
+
+"leafless": "Không có",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Nhận Chai Thủy tinh"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Nhận Tờ giấy"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Nhận Đồ Nhựa"
 
 
 
@@ -4935,6 +5102,22 @@
 
 
 "placeholder": "Rất chắc, Khá Chắc, Mềm…"
+
+
+
+
+},
+
+
+
+
+"traffic_signals": {
+
+
+
+
+
+"label": "Kiểu"
 
 
 
@@ -6587,6 +6770,28 @@
 
 
 "terms": "chợ phiên, chợ trời, chợ xổm, chợ, cho phien, cho troi, cho xom, cho"
+
+
+
+
+},
+
+
+
+
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Chỗ Đậu Xe máy",
+
+
+
+
+
+"terms": "chỗ đậu xe máy, đậu xe máy, chỗ đậu mô-tô, chỗ đậu mô tô, đậu mô-tô, chỗ đậu mô tô, chỗ đậu xe hai bánh, đậu xe hai bánh, chỗ đậu xe ba bánh, đậu xe ba bánh, cho dau xe may, dau xe may, cho dau mo-to, cho dau mo to, dau mo-to, dau mo to, cho dau xe hai banh, dau xe hai banh, cho dau xe ba banh, dau xe ba banh"
 
 
 
@@ -8435,6 +8640,28 @@
 
 
 "terms": "nhà trường, trường học, học viện, nha truong, truong học, hoc vien"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Nhà Bán tách biệt",
+
+
+
+
+
+"terms": "nhà bán tách biệt, nhà bán biệt lập, nha ban tach biet, nha ban biet lap"
 
 
 
@@ -11134,13 +11361,13 @@
 
 
 
-"name": "Kiểu Sử dụng Đất",
+"name": "Sử dụng Đất",
 
 
 
 
 
-"terms": "kiểu sử dụng đất, kieu su dung dat"
+"terms": "kiểu sử dụng đất, kiểu dùng đất, kieu su dung dat, kieu dung dat"
 
 
 
@@ -11162,7 +11389,7 @@
 
 
 
-"terms": "khu vườn gia đình, khu vuon gia dinh"
+"terms": "khu vườn gia đình, khu vườn cộng đồng, khu vuon gia dinh, khu vuon cong dong"
 
 
 
@@ -11678,6 +11905,28 @@
 
 
 
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Khu Bowling",
+
+
+
+
+
+"terms": "khu bowling, trung tâm bowling, khu bóng gỗ, trung tam bowling, khu bong go"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
@@ -11977,6 +12226,50 @@
 
 
 "terms": "sân bóng rổ, san bong ro"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Sân cỏ Bóng bầu dục Liên đoàn",
+
+
+
+
+
+"terms": "sân cỏ bóng bầu dục liên đoàn, sân cỏ banh bầu dục liên đoàn, sân cỏ bóng rugby league, sân cỏ banh rugby league, san co bong bau duc lien doan, san co banh bau duc lien doan, san co bong rugby league, san co banh rugby league"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Sân cỏ Bóng bầu dục Liên minh",
+
+
+
+
+
+"terms": "sân cỏ bóng bầu dục liên minh, sân cỏ banh bầu dục liên minh, sân cỏ bóng rugby union, sân cỏ banh rugby union, san co bong bau duc lien minh, san co banh bau duc lien minh, san co bong rugby union, san co banh rugby union"
 
 
 
@@ -12756,6 +13049,94 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Trạm Kiểm soát",
+
+
+
+
+
+"terms": "trạm kiểm soát, tram kiem soat"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Khu vực Nguy hiểm",
+
+
+
+
+
+"terms": "khu vực nguy hiểm, vùng nguy hiểm, khu vuc nguy hiem, vung nguy hiem"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Căn cứ Hải quân",
+
+
+
+
+
+"terms": "căn cứ hải quân, can cu hai quan"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Đường Chạy vượt Chướng ngại vật",
+
+
+
+
+
+"terms": "đường chạy vượt chướng ngại vật, duong chay vuot chuong ngai vat"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12769,6 +13150,28 @@
 
 
 "terms": "tầm đạn, tầm súng, tam dan, tam sung"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Khu Tập luyện",
+
+
+
+
+
+"terms": "khu tập luyện, khu luyện tập, khu tap luyen, khu luyen tap"
 
 
 

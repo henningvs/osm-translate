@@ -2126,6 +2126,9 @@
 "cannot_zoom": "Aktuální nastavení nedovoluje větší zvětšení.",
 
 
+"full_screen": "Na celou obrazovku",
+
+
 "gpx": {
 
 
@@ -2182,19 +2185,11 @@
 
 
 
-"gps": "# GPS\n\nData z GPS jsou nejdůvěryhodnějším zdrojem informací pro OpenStreetMap. Tento editor podporuje zobrazení tras ve formátu `.gpx` nahraných z vašeho počítače. Takovou trasu můžete nasbírat s pomocí nejrůznějších aplikací pro mobily nebo s pomocí specializované navigace.\n\nPro více informací, jak provést takový sběr dat z GPS, viz např. návod anglicky: [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nPokud už máte záznam ve formátu GPX, přetáhněte soubor myší či prstem nad editor. Rozpozná-li editor formát souboru, zobrazí se trasa v mapě jako světle růžová čára. Pokud chcete tuto novou vrstvu zapnout, vypnout nebo zvětšit na velikost pracovní plochy, klikněte na menu 'Mapová data' na pravé straně.\n\nTrasa GPX nebude přímo nahrána na OpenStreetMap - pouze slouží jako vodítko, podle kterého se můžete orientovat, a podle kterého můžete kreslit nové objekty do mapy. Pokud chcete přímo trasu GPX poskytnout i ostatním, můžete ji [nahrát do samostatné databáze OpenStreetMap](http://www.openstreetmap.org/trace/create).\n",
-
-
-
 "imagery": "# Podkladové snímky\n\nSatelitní a letecké snímky jsou důležitým zdrojem mapových dat. V menu 'Nastavení pozadí' na levé straně editoru je k dispozici kombinace leteckých snímků, satelitních snímků a dalších volně dostupných podkladů.\n\nImplicitní vrstvou jsou satelitní snímky [Bing](http://www.bing.com/maps/), ale jakmile se přesunete do konkrétní geografické oblasti a nastavíte dostatečné zvětšení, nabídnou se vám další mapové podklady. V některých státech, jako jsou Spojené státy, Francie či Dánskou, jsou k dispozici snímky ve vysoké kvalitě. Pro velkou část České republiky jsou také dostupné velmi detailní satelitní snímky. **Data z katastru nemovitostí a letecké mapy ÚHUL** je možné zobrazit dle [návodu zde](https://wiki.openstreetmap.org/wiki/WikiProject_Czech_Republic/freemap#WMS_UHUL_-_ortofotomapa).\n\nPodklady jsou někdy posunuté vůči mapě, kvůli chybám na straně poskytovatele snímků. Pokud uvidíte, že je mnoho cest v mapě posunuto vůči pozadí, nesnažte se je hned přesunout - posun obvykle znamená chybu v podkladu a ne chybu v mapě. V menu 'Nastavení pozadí' klikněte na 'Zarovnat pozadí' - to vám dovolí posunout podklad, aby lícoval s mapou.\n",
 
 
 
 "addresses": "# Adresy\n\nJednou z nejužitečnějších součástí mapy jsou adresy.\n\nAdresy jsou sice někdy chápány jako označení kousku ulice, ale v OpenStreetMap jsou uloženy v budovách či objektech podél ulice. V České republice jsou adresy většinou samostatným uzlem uvnitř budovy.\n\nMůžete tedy data o adrese vkládat jak k samostatnému bodu, tak k ploše označující budovu.\nNejlepším zdrojem informací o adresách je průzkum přímo v terénu či jeho dobrá znalost - stejně jako u celého projektu OpenStreetMap je přebírání dat z komerčních zdrojů typu Google Maps přísně zakázáno.\n",
-
-
-
-"inspector": "# Používání Inspektoru\n\nInspektor je prvek uživatelského rozhraní na levé straně, který umožňuje editovat vlastnosti zvoleného objektu.\n\n### Výběr typu objektu\n\nJakmile vytvoříte uzel, čáru nebo plochu, můžete zvolit typ vytvořeného objektu. Např. jestli jde o silnici nebo pěšinu, obchod nebo hospodu. Inspektor zobrazí tlačítka pro nejčastější typy objektů; další můžete najít prostřednictvím pole pro vyhledávání.\n\nKdyž u tlačítka typu objektu kliknete na 'i' vpravo dole, zobrazí se vám o něm více informací. Když kliknete na samotné tlačítko, vyberete příslušný typ.\n\n### Formuláře a editace vlastností\n\nPoté, co vyberete typ objektu nebo když vyberete objekt s už přiřazeným typem, v inspektoru se zobrazí pole s bližšími informacemi o objektu - jako třeba název nebo adresa.\n\nPod těmito poli jsou další ikony. Když na ně kliknete, tak můžete přidávat další detaily, jako vazbu na [Wikipedii](http://www.wikipedia.org/), přístup pro vozíčkáře atd.\n\nPokud chcete přidat k objektu ještě nějaké jiné vlastnosti, klikněte na 'Další vlastnosti' úplně dole. Jedním z informačních zdrojů pak může být [Taginfo](http://taginfo.openstreetmap.org/), kde se dozvíte o nejčastějších kombinacích tagů.\n\nZměny provedené v inspektoru jsou ihned vidět na mapě zobrazené ve vašem prohlížeči. Můžete je vrátit zpět kliknutím na tlačítko 'Undo'.\n",
 
 
 

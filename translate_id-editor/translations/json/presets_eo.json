@@ -12,6 +12,22 @@
 
 
 
+"category-building": {
+
+
+
+
+
+"name": "Konstruaĵo"
+
+
+
+
+},
+
+
+
+
 "category-golf": {
 
 
@@ -35,6 +51,38 @@
 
 
 "name": "Vojo"
+
+
+
+
+},
+
+
+
+
+"category-rail": {
+
+
+
+
+
+"name": "Relo"
+
+
+
+
+},
+
+
+
+
+"category-restriction": {
+
+
+
+
+
+"name": "Restrikto"
 
 
 
@@ -97,6 +145,96 @@
 
 
 
+"designated": {
+
+
+
+
+
+
+
+"description": "Aliro rajtis laŭ signoj aŭ specifaj lokaj leĝoj",
+
+
+
+
+
+
+
+"title": "Nomita"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"destination": {
+
+
+
+
+
+
+
+"description": " Aliro rajtis nur al atingi cellokon ",
+
+
+
+
+
+
+
+"title": "Celloko"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Aliro rajtis sed rajdanto dev elseliĝ",
+
+
+
+
+
+
+
+"title": "Elseliĝ"
+
+
+
+
+
+
+},
+
+
+
+
+
+
 "no": {
 
 
@@ -105,7 +243,37 @@
 
 
 
+"description": "Aliro ne rajtita al la publiko",
+
+
+
+
+
+
+
 "title": "Malpermesita"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"permissive": {
+
+
+
+
+
+
+
+"description": "Aliro rajtis ĝis tiam, kiam la posedanto revok la permeso"
 
 
 
@@ -146,12 +314,6 @@
 
 
 
-"placeholder": "Nekonata",
-
-
-
-
-
 "types": {
 
 
@@ -166,7 +328,21 @@
 
 
 
-"horse": "Ĉevaloj"
+"foot": "Piedo",
+
+
+
+
+
+
+"horse": "Ĉevaloj",
+
+
+
+
+
+
+"motor_vehicle": "Aŭtomobiloj"
 
 
 
@@ -189,6 +365,22 @@
 
 
 "placeholder": "jes"
+
+
+
+
+},
+
+
+
+
+"access_toilets": {
+
+
+
+
+
+"label": "Aliro"
 
 
 
@@ -224,7 +416,21 @@
 
 
 
+"conscriptionnumber": "123",
+
+
+
+
+
+
 "country": "Lando",
+
+
+
+
+
+
+"district": "Distrikto",
 
 
 
@@ -844,6 +1050,38 @@
 
 
 }
+
+
+
+
+},
+
+
+
+
+"trail_visibility": {
+
+
+
+
+
+"placeholder": "Bonega, Bona, Malbona..."
+
+
+
+
+},
+
+
+
+
+"website": {
+
+
+
+
+
+"placeholder": "http://example.com/"
 
 
 

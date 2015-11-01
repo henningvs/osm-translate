@@ -162,7 +162,7 @@
 
 
 
-"name": "Waterlopen"
+"name": "Waterloop"
 
 
 
@@ -186,7 +186,7 @@
 
 
 
-"label": "Toegang",
+"label": "Gebruik toegelaten voor",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Bestemming"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Toegang toegestaan maar afstappen is verplicht",
+
+
+
+
+
+
+
+"title": "Afstappen"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Onbekend",
+"placeholder": "Niet nader bepaald",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Algemeen",
+"access": "Alles",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Toegang",
+"label": "Gebruik toegelaten voor",
 
 
 
@@ -2093,7 +2123,7 @@
 
 
 
-"label": "Verkoopt Racing Brandstof"
+"label": "Verkoopt racingbrandstof"
 
 
 
@@ -2109,7 +2139,7 @@
 
 
 
-"label": "Verkoopt Gewone Benzine"
+"label": "Verkoopt gewone benzine (octane 91)"
 
 
 
@@ -2125,7 +2155,7 @@
 
 
 
-"label": "Verkoopt Standaard Brandstof"
+"label": "Verkoopt Super 95"
 
 
 
@@ -2141,7 +2171,7 @@
 
 
 
-"label": "Verkoopt Premium Benzine"
+"label": "Verkoopt Super 98"
 
 
 
@@ -2647,14 +2677,70 @@
 
 
 
-"semi_deciduous": "Half-Bladverliezend",
+"semi_deciduous": "Half-bladverliezend",
 
 
 
 
 
 
-"semi_evergreen": "Half-Groenblijvend"
+"semi_evergreen": "Half-groenblijvend"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Bladercyclus",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Bladverliezend",
+
+
+
+
+
+
+"evergreen": "Groenblijvend",
+
+
+
+
+
+
+"semi_deciduous": "Half-bladverliezend",
+
+
+
+
+
+
+"semi_evergreen": "Half-groenblijvend"
 
 
 
@@ -2689,7 +2775,7 @@
 
 
 
-"broadleaved": "Brede bladeren",
+"broadleaved": "Loofbomen",
 
 
 
@@ -2710,7 +2796,56 @@
 
 
 
-"needleleaved": "Naalden"
+"needleleaved": "Naaldbomen"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Bladsoort",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Loofboom",
+
+
+
+
+
+
+"leafless": "Bladloos",
+
+
+
+
+
+
+"needleleaved": "Naaldboom"
 
 
 
@@ -3300,7 +3435,7 @@
 
 
 
-"label": "Uitgebaat door"
+"label": "Uitbatend bedrijf"
 
 
 
@@ -3777,7 +3912,7 @@
 
 
 
-"label": "Aanvaardt Blikjes"
+"label": "Aanvaardt blikjes"
 
 
 
@@ -3793,7 +3928,7 @@
 
 
 
-"label": "Aanvaardt Kleren"
+"label": "Aanvaardt kleren"
 
 
 
@@ -3809,7 +3944,23 @@
 
 
 
-"label": "Aanvaardt Glas"
+"label": "Aanvaardt glas"
+
+
+
+
+},
+
+
+
+
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Aanvaardt glazen flessen"
 
 
 
@@ -3825,7 +3976,23 @@
 
 
 
-"label": "Aanvaardt Papier"
+"label": "Aanvaardt papier"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Aanvaardt kunststof"
 
 
 
@@ -4935,6 +5102,22 @@
 
 
 "placeholder": "Vast, Voornamelijk Vast, Los …"
+
+
+
+
+},
+
+
+
+
+"traffic_signals": {
+
+
+
+
+
+"label": "Type"
 
 
 
@@ -6518,6 +6701,28 @@
 
 
 
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Motorfietsparking",
+
+
+
+
+
+"terms": "motorparking,motoparking,motostalling,motorstalling,motorfietsparking,motoren,moto's,parking voor motoren,parking voor moto's,parking voor motorfietsen"
+
+
+
+
+},
+
+
+
+
 "amenity/nightclub": {
 
 
@@ -6750,7 +6955,7 @@
 
 
 
-"terms": "postbus, bpost"
+"terms": "postbus,bpost,posterijen,postnl"
 
 
 
@@ -6772,7 +6977,7 @@
 
 
 
-"terms": "brievenbus, bpost"
+"terms": "postbus,brievenbus,bpost,posterijen,postnl"
 
 
 
@@ -7178,7 +7383,7 @@
 
 
 
-"terms": "WC"
+"terms": "wc,wc's,privaat,sanitaire,urinoir,w.c.,plee"
 
 
 
@@ -7304,13 +7509,13 @@
 
 
 
-"name": "Gebied",
+"name": "Vlak",
 
 
 
 
 
-"terms": "vlak"
+"terms": "gebied,anders,overige,iets anders,algemeen"
 
 
 
@@ -7332,7 +7537,7 @@
 
 
 
-"terms": "rand van weg;gebied;wegoppervlak"
+"terms": "rand van weg,gebied,wegoppervlak"
 
 
 
@@ -7540,13 +7745,13 @@
 
 
 
-"name": "Hek",
+"name": "Poort",
 
 
 
 
 
-"terms": "hekken, poort"
+"terms": "hekken,poort"
 
 
 
@@ -7950,13 +8155,13 @@
 
 
 
-"name": "Alleenstaand Huis",
+"name": "Alleenstaand huis",
 
 
 
 
 
-"terms": "villa, woning"
+"terms": "villa,woning"
 
 
 
@@ -8297,6 +8502,22 @@
 
 
 "terms": "school, onderwijs, secundair onderwijs, lager onderwijs, basisschool, middelbaar, voortgezet onderwijs"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "NIET GEBRUIKEN - Koppelwoninghelft"
 
 
 
@@ -9504,7 +9725,7 @@
 
 
 
-"terms": "trottoir, voetpad, stoep"
+"terms": "trottoir,stoep"
 
 
 
@@ -9718,7 +9939,7 @@
 
 
 
-"name": "Wegennet"
+"name": "Weg"
 
 
 
@@ -9826,7 +10047,13 @@
 
 
 
-"name": "Fietspad"
+"name": "Fietspad",
+
+
+
+
+
+"terms": "rijwielpad,fietssnelweg,flitsfietspad"
 
 
 
@@ -9842,13 +10069,13 @@
 
 
 
-"name": "Voetpad",
+"name": "Wandelpad",
 
 
 
 
 
-"terms": "voetpad, wandelpad"
+"terms": "voetpad"
 
 
 
@@ -10156,7 +10383,7 @@
 
 
 
-"terms": "steeg, steegje"
+"terms": "steegje"
 
 
 
@@ -10642,7 +10869,13 @@
 
 
 
-"name": "Landgebruik"
+"name": "Landgebruik",
+
+
+
+
+
+"terms": "landindeling,doel"
 
 
 
@@ -10658,7 +10891,13 @@
 
 
 
-"name": "Volkstuinen"
+"name": "Volkstuin",
+
+
+
+
+
+"terms": "tuin,moestuin,aparte tuin"
 
 
 
@@ -10970,7 +11209,13 @@
 
 
 
-"name": "Militair gebied"
+"name": "Militair gebied",
+
+
+
+
+
+"terms": "legerkazerne,kazerne,kwartier,landmacht,marinebasis,luchtmacht"
 
 
 
@@ -11140,7 +11385,29 @@
 
 
 
-"terms": "casino;slot machine;slots;gokken"
+"terms": "casino,slot machine,slots,gokken,slotmachine"
+
+
+
+
+},
+
+
+
+
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Bowlingbaan",
+
+
+
+
+
+"terms": "bowlingcentrum,kegelbaan,bowlen,bowl inn"
 
 
 
@@ -11386,6 +11653,50 @@
 
 
 
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Rugby League-veld",
+
+
+
+
+
+"terms": "rugby,american football,football"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Rugby Union-veld",
+
+
+
+
+
+"terms": "rugby,american football,football"
+
+
+
+
+},
+
+
+
+
 "leisure/pitch/skateboard": {
 
 
@@ -11610,7 +11921,13 @@
 
 
 
-"name": "Lijn"
+"name": "Lijn",
+
+
+
+
+
+"terms": "anders,overige,iets anders,algemeen"
 
 
 
@@ -12060,19 +12377,129 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Checkpoint",
+
+
+
+
+
+"terms": "grenscontrole,militair gebied,leger,paramilitiar gebied,controlepunt,douane"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Militaire ontruimingszone",
+
+
+
+
+
+"terms": "exclusiezone,gevarenzone,gevaar,leger,verboden"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Marinebasis",
+
+
+
+
+
+"terms": "leger,vloot"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Militair hindernissenparcours",
+
+
+
+
+
+"terms": "oefenterrein,leger"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
 
 
 
-"name": "Legerterrein",
+"name": "Militair schietterrein",
 
 
 
 
 
-"terms": "legerterrein"
+"terms": "leger,oefenplaats"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Militair oefenterrein",
+
+
+
+
+
+"terms": "leger,hindernissenparcours,training,opleiding"
 
 
 
@@ -12372,7 +12799,13 @@
 
 
 
-"name": "Vulkaan"
+"name": "Vulkaan",
+
+
+
+
+
+"terms": "vulkaan,caldera,krater"
 
 
 
@@ -12808,7 +13241,13 @@
 
 
 
-"name": "Telecomkantoor"
+"name": "Telecomkantoor",
+
+
+
+
+
+"terms": "belwinkel"
 
 
 
@@ -12824,7 +13263,13 @@
 
 
 
-"name": "Therapeut"
+"name": "Therapeut",
+
+
+
+
+
+"terms": "behandelaar,kliniek"
 
 
 
@@ -12878,7 +13323,13 @@
 
 
 
-"name": "Plaats"
+"name": "Plaats",
+
+
+
+
+
+"terms": "plaats,gemeente,stad"
 
 
 
@@ -12894,7 +13345,13 @@
 
 
 
-"name": "Stad"
+"name": "Stad",
+
+
+
+
+
+"terms": "plaats,gemeente,stad"
 
 
 
@@ -13002,7 +13459,35 @@
 
 
 
-"name": "Buurt"
+"name": "Buurt",
+
+
+
+
+
+"terms": "buurt,wijk"
+
+
+
+
+},
+
+
+
+
+"place/suburb": {
+
+
+
+
+
+"name": "Stadsdeel",
+
+
+
+
+
+"terms": "stadsdeel,buurt,wijk"
 
 
 
@@ -13018,7 +13503,13 @@
 
 
 
-"name": "Plaats"
+"name": "Plaats",
+
+
+
+
+
+"terms": "stad,plaats,gemeente"
 
 
 
@@ -13034,7 +13525,13 @@
 
 
 
-"name": "Dorp"
+"name": "Dorp",
+
+
+
+
+
+"terms": "dorp,gehucht,woonkern,kern,buurt,buurtschap,vlek,kerkdorp,oort,gemeente"
 
 
 
@@ -13050,7 +13547,13 @@
 
 
 
-"name": "Punt"
+"name": "Punt",
+
+
+
+
+
+"terms": "anders,overige,iets anders,algemeen"
 
 
 
@@ -13306,7 +13809,13 @@
 
 
 
-"name": "In onbruik geraakte spoorbaan"
+"name": "Verloederde spoorbaan",
+
+
+
+
+
+"terms": "in onbruik geraakte spoorbaan,ongebruikte spoorweg,oude spoorweg,voormalige spoorweg"
 
 
 
@@ -13322,7 +13831,13 @@
 
 
 
-"name": "In onbruik geraakte spoorbaan"
+"name": "Ongebruikte spoorweg",
+
+
+
+
+
+"terms": "in onbruik geraakte spoorbaan,verloederde spoorweg,oude spoorweg,voormalige spoorweg"
 
 
 
@@ -13344,7 +13859,7 @@
 
 
 
-"terms": "kabelbaan, teleferiek, funiculaire"
+"terms": "kabelbaan,teleferiek,funiculaire"
 
 
 
@@ -13360,7 +13875,13 @@
 
 
 
-"name": "Treinhalte"
+"name": "Treinhalte",
+
+
+
+
+
+"terms": "treinhalte,strainstation,treinstop,stop,halte,station"
 
 
 
@@ -13398,13 +13919,13 @@
 
 
 
-"name": "Monorail, magneetzweefbaan",
+"name": "Monorail",
 
 
 
 
 
-"terms": "monorail"
+"terms": "magneetzweefbaan"
 
 
 
@@ -13426,7 +13947,7 @@
 
 
 
-"terms": "smalspoor"
+"terms": "smal spoor,normaalspoor"
 
 
 
@@ -13442,7 +13963,13 @@
 
 
 
-"name": "Perron"
+"name": "Spoorperron",
+
+
+
+
+
+"terms": "spoorwegperron"
 
 
 
@@ -13458,7 +13985,13 @@
 
 
 
-"name": "Via een derde spoorrails"
+"name": "Spoorweg",
+
+
+
+
+
+"terms": "treinspoor,tramspoor,spoorlijn"
 
 
 
@@ -13474,7 +14007,13 @@
 
 
 
-"name": "Treinstation"
+"name": "Treinstation",
+
+
+
+
+
+"terms": "treinhalte"
 
 
 
@@ -13490,7 +14029,13 @@
 
 
 
-"name": "Metro"
+"name": "Metrospoor",
+
+
+
+
+
+"terms": "metrolijn"
 
 
 
@@ -13506,7 +14051,7 @@
 
 
 
-"name": "Metrostation"
+"name": "Ingang van metrostation"
 
 
 
@@ -13522,13 +14067,13 @@
 
 
 
-"name": "Tram",
+"name": "Tramspoor",
 
 
 
 
 
-"terms": "tram"
+"terms": "tramlijn"
 
 
 
@@ -13816,7 +14361,13 @@
 
 
 
-"name": "Drankenwinkel"
+"name": "Drankenwinkel",
+
+
+
+
+
+"terms": "drankenhandel,bierhuis,drankenhuis,drankhandel,wijnhandel,drankenwinkel,slijterij"
 
 
 
@@ -14038,7 +14589,7 @@
 
 
 
-"terms": "apotheek, apotheker, apothekerij"
+"terms": "apotheek,apotheker,apothekerij"
 
 
 
@@ -14124,7 +14675,13 @@
 
 
 
-"name": "Buurtsuper"
+"name": "Gemakswinkel",
+
+
+
+
+
+"terms": "buurtsuper,kruidenier,buurtwinkel,tankstationwinkel"
 
 
 
@@ -14226,7 +14783,13 @@
 
 
 
-"name": "Delicatessenwinkel"
+"name": "Delicatessenwinkel",
+
+
+
+
+
+"terms": "delicatesse,speciaalzaak,delicatessenwinkel,delicatessen,winkel"
 
 
 
@@ -14520,7 +15083,13 @@
 
 
 
-"name": "Tuincentrum"
+"name": "Tuincentrum",
+
+
+
+
+
+"terms": "tuincentrum,bloemist,kas,kassen"
 
 
 
@@ -15594,7 +16163,13 @@
 
 
 
-"name": "wapen winkel"
+"name": "wapen winkel",
+
+
+
+
+
+"terms": "wapenwinkel"
 
 
 
@@ -15680,7 +16255,13 @@
 
 
 
-"name": "Kunstwerk"
+"name": "Kunstwerk",
+
+
+
+
+
+"terms": "kunst,object,kunstobject"
 
 
 
@@ -15750,7 +16331,13 @@
 
 
 
-"name": "Chalet"
+"name": "Chalet",
+
+
+
+
+
+"terms": "chalet,vakantiehuis,vakantiehuisje,huisje,bungalow"
 
 
 
@@ -15826,7 +16413,13 @@
 
 
 
-"name": "Informatie"
+"name": "Informatie",
+
+
+
+
+
+"terms": "i,info,vvv"
 
 
 
@@ -15880,7 +16473,13 @@
 
 
 
-"name": "Picknickplek"
+"name": "Picknickplek",
+
+
+
+
+
+"terms": "park"
 
 
 

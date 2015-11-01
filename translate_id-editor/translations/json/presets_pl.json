@@ -66,7 +66,7 @@
 
 
 
-"name": "Ścieżka"
+"name": "Droga dla pieszych"
 
 
 
@@ -181,12 +181,6 @@
 
 
 "access": {
-
-
-
-
-
-"label": "Dostęp",
 
 
 
@@ -384,20 +378,7 @@
 
 
 
-"placeholder": "Nieznane",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Ogólny",
 
 
 
@@ -442,12 +423,6 @@
 
 
 "access_simple": {
-
-
-
-
-
-"label": "Dostęp",
 
 
 
@@ -849,6 +824,22 @@
 
 
 "label": "Typ"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"label": "Rodzaj"
 
 
 
@@ -1453,7 +1444,15 @@
 
 
 
-"description": "Pas rowerowy dzielony z buspasem"
+"description": "Pas rowerowy dzielony z buspasem",
+
+
+
+
+
+
+
+"title": "Pas rowerowy dzielony z buspasem"
 
 
 
@@ -1497,7 +1496,7 @@
 
 
 
-"title": "Ścieżka rowerowa"
+"title": "Droga rowerowa"
 
 
 
@@ -3407,7 +3406,14 @@
 
 
 
-"sled": "Tor saneczkowy"
+"sled": "Tor saneczkowy",
+
+
+
+
+
+
+"snow_park": "Snowpark"
 
 
 
@@ -3558,6 +3564,13 @@
 
 
 "options": {
+
+
+
+
+
+
+"centre": "Punkt Selektywnej Zbiórki Odpadów Komunalnych",
 
 
 
@@ -3807,6 +3820,35 @@
 
 
 "yes": "Tak"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"service_rail": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"yard": "Podwórko"
 
 
 
@@ -5307,6 +5349,22 @@
 
 
 
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Ogródek piwny"
+
+
+
+
+},
+
+
+
+
 "amenity/boat_rental": {
 
 
@@ -5440,6 +5498,22 @@
 
 
 "terms": "myjnia"
+
+
+
+
+},
+
+
+
+
+"amenity/casino": {
+
+
+
+
+
+"name": "Kasyno"
 
 
 
@@ -6623,6 +6697,22 @@
 
 
 
+"area/highway": {
+
+
+
+
+
+"name": "Nawierzchnia"
+
+
+
+
+},
+
+
+
+
 "barrier": {
 
 
@@ -7222,22 +7312,6 @@
 
 
 "terms": "Budowa"
-
-
-
-
-},
-
-
-
-
-"building/detached": {
-
-
-
-
-
-"name": "Dom wolnostojący"
 
 
 
@@ -8577,6 +8651,22 @@
 
 
 
+"footway/crossing": {
+
+
+
+
+
+"name": "Przejście dla pieszych"
+
+
+
+
+},
+
+
+
+
 "footway/sidewalk": {
 
 
@@ -8659,7 +8749,7 @@
 
 
 
-"name": "Ścieżka do jazdy konnej",
+"name": "Droga dla koni",
 
 
 
@@ -8703,7 +8793,7 @@
 
 
 
-"name": "Ścieżka rowerowa",
+"name": "Droga rowerowa",
 
 
 
@@ -8851,7 +8941,7 @@
 
 
 
-"name": "Ścieżka",
+"name": "Droga dla pieszych",
 
 
 
@@ -9245,7 +9335,7 @@
 
 
 
-"terms": "droga,trzeciorzędna,powiatowa"
+"terms": "droga,trzeciorzędna"
 
 
 
@@ -9327,13 +9417,13 @@
 
 
 
-"name": "Droga ekspresowa",
+"name": "Droga główna",
 
 
 
 
 
-"terms": "ekspresowa,szybkiego,ruchu"
+"terms": "główna"
 
 
 
@@ -9349,7 +9439,7 @@
 
 
 
-"name": "Droga ekspresowa - zjazd/wjazd",
+"name": "Droga główna - zjazd/wjazd",
 
 
 
@@ -9399,7 +9489,7 @@
 
 
 
-"terms": "droga,niesklasyfikowana,klasyfikacji,bez"
+"terms": "droga,czwartorzędna"
 
 
 
@@ -9629,35 +9719,7 @@
 
 
 
-"name": "Użytkowanie gruntów",
-
-
-
-
-
-"terms": "teren,zagospodarowanie,terenu,użytkowanie,wykorzystanie"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Ogródki działkowe",
-
-
-
-
-
-"terms": "działki,ogródki,ogródek"
+"name": "Zagospodarowanie terenu"
 
 
 
@@ -12304,6 +12366,22 @@
 
 
 "terms": "stacja,przystanek,kolej,kolejowa"
+
+
+
+
+},
+
+
+
+
+"railway/level_crossing": {
+
+
+
+
+
+"name": "Przejazd kolejowy"
 
 
 

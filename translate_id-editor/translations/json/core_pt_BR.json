@@ -703,7 +703,12 @@
 
 
 
-"incomplete_relation": "Estes elementos não podem ser mesclados porque pelo menos um deles não foi transferido completamente."
+"incomplete_relation": "Estes elementos não podem ser mesclados porque pelo menos um deles não foi transferido completamente.",
+
+
+
+
+"conflicting_tags": "Essas linhas não podem ser mescladas porque algumas de suas etiquetas têm valores conflitantes."
 
 
 
@@ -2126,6 +2131,9 @@
 "cannot_zoom": "Não é possível afastar mais no modo atual.",
 
 
+"full_screen": "Alterar para Tela Cheia",
+
+
 "gpx": {
 
 
@@ -2186,7 +2194,7 @@
 
 
 
-"gps": "# GPS\n\nOs dados de GPS são as fontes mais confiáveis do OpenStreetMap. Este\neditor suporta traçados locais - arquivos '.gpx'. Você pode utilizar aplicativos de celulares ou aparelhos de GPS para coletar esse tipo de traçado.\n\nPara informações sobre como realizar levantamento com GPS, leia\n[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nPara usar um traçado GPX para mapeamento, arraste e solte o arquivo GPX\nno editor de mapa. Caso seja reconhecido, será adicionado ao mapa como \nlinhas roxo claras. Clique no menu 'Dados do Mapa', no lado direito, para \nativar, desativas ou dar zoom nesta nova camada alimentada pelo GPX.\n\nO traçado GPX não é diretamente subido ao OpenStreetMap - o melhor \ncaminho para usá-lo é desenhar no mapa, usando-o como uma guia \npara os novos elementos que você adicionar, e [subi-lo no OpenStreetMap](http://www.openstreetmap.org/trace/create) para outros usuários utilizá-lo.\n",
+"gps": "# GPS\n\nOs dados de GPS são as fontes mais confiáveis do OpenStreetMap. Este editor suporta trilhas locais - arquivos '.gpx'. Você pode utilizar aplicativos de celular ou aparelhos de GPS para coletar esse tipo de trilha. Para informações sobre como realizar levantamento com GPS, leia [Mapeando com smartphone, GPS ou papel](http://learnosm.org/pt/mobile-mapping/).\n\nPara usar uma trilha GPX para mapeamento, arraste e solte o arquivo GPX no editor de mapa iD. Caso seja reconhecida, será adicionada ao mapa como linhas roxo-claras. Clique no menu 'Dados do Mapa', no lado direito, para ativar, desativar ou focar o zoom nesta nova camada alimentada pelo GPX.\n\nA trilha GPX não é diretamente enviada ao OpenStreetMap - a melhor maneira para usá-la é desenhar no mapa, usando-a como um guia para os novos elementos que você adicionar, e também [enviá-lo ao OpenStreetMap](http://www.openstreetmap.org/trace/create) para que outros usuários possam usá-la.\n",
 
 
 
@@ -2198,7 +2206,7 @@
 
 
 
-"inspector": "# Usando o Inspetor\n\nO inspetor é a seção no lado esquerdo da página que aparece quando um \nrecurso é selecionado e permite que você edite seus detalhes.\n\n### Selecionando um tipo de recurso\n\nDepois de adicionar um ponto, linha ou área, você pode escolher que \ntipo de característica ele tem, como por exemplo se é uma autoestrada \nou via residencial, supermercado ou cafeteria.\nO inspetor vai exibir botões para os tipos de recursos mais comuns, e \nvocê pode encontrar outros, digitando o que você está procurando na \ncaixa de pesquisa.\n\nClique no botão \"i\" no canto inferior direito de um botão de recurso para\naprender mais sobre ele. Clique em um botão para escolher o tipo.\n\n### Usando formas e editando etiquetas\n\nDepois de escolher um tipo de recurso, ou quando você seleciona um \nrecurso que já tem um tipo atribuído, o inspetor vai exibir campos com \ndetalhes sobre o recurso como seu nome e endereço. \n\nAbaixo dos campos que você vê, você pode clicar nos ícones para adicionar \noutros detalhes, como informações da [Wikipedia] (http://www.wikipedia.org/),\nacesso para cadeirantes, entre outros. \n\nNa parte inferior do inspetor, clique em 'Etiquetas adicionais' para adicionar\noutras etiquetas ao elemento. O [Taginfo] (http://taginfo.openstreetmap.org/) é\num excelente recurso para aprender mais sobre as combinações de etiquetas \nmais populares.\n\nAs alterações feitas no Inspetor são automaticamente aplicadas ao mapa.\nVocê pode desfazê-los a qualquer momento, clicando no botão 'Desfazer'.\n",
+"inspector": "# Usando o Inspetor\n\nO inspetor é a seção no lado esquerdo da página que aparece quando um recurso é selecionado e permite que você edite seus detalhes.\n\n### Selecionando um tipo de recurso\n\nDepois de adicionar um ponto, linha ou área, você pode escolher que tipo de característica ele tem, como por exemplo se é uma autoestrada ou via residencial, supermercado ou cafeteria.\nO inspetor mostrará botões para os tipos de recursos mais comuns, e você pode encontrar outros, digitando o que você está procurando na caixa de pesquisa.\n\nClique no botão \"i\" no canto direito de um botão de recurso para aprender mais sobre ele. Clique em um botão para alterar o tipo.\n\n### Usando formas e editando etiquetas\n\nDepois de escolher um tipo de recurso, ou quando você seleciona um recurso que já tem um tipo atribuído, o inspetor vai exibir campos com detalhes sobre o recurso como seu nome e endereço. Abaixo dos campos que você vê, você pode clicar nos ícones para adicionar outros detalhes, como link da Wikipédia, acesso para cadeirantes, entre outros. Na parte inferior do inspetor, você pode clicar em 'Etiquetas adicionais' para adicionar outras etiquetas ao elemento. O [Taginfo](http://taginfo.openstreetmap.org/) é um excelente recurso para aprender mais sobre as combinações de etiquetas mais populares. As alterações feitas no Inspetor são automaticamente aplicadas ao mapa. Você pode desfazê-los a qualquer momento, clicando no botão 'Desfazer'.\n",
 
 
 

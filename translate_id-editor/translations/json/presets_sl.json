@@ -186,12 +186,6 @@
 
 
 
-"label": "Dostop",
-
-
-
-
-
 "options": {
 
 
@@ -384,20 +378,7 @@
 
 
 
-"placeholder": "Neznano",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Splošno",
 
 
 
@@ -442,12 +423,6 @@
 
 
 "access_simple": {
-
-
-
-
-
-"label": "Dostop",
 
 
 
@@ -6813,28 +6788,6 @@
 
 
 
-"building/detached": {
-
-
-
-
-
-"name": "Enodružinska hiša",
-
-
-
-
-
-"terms": "samostojna hiša"
-
-
-
-
-},
-
-
-
-
 "building/dormitory": {
 
 
@@ -9614,50 +9567,6 @@
 
 
 "terms": "kapelica"
-
-
-
-
-},
-
-
-
-
-"landuse": {
-
-
-
-
-
-"name": "Raba tal",
-
-
-
-
-
-"terms": "dejanska raba tal,namembnost zemljišča"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Vrtički",
-
-
-
-
-
-"terms": "vrtci,vrtovi"
 
 
 

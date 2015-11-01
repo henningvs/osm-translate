@@ -1,4 +1,4 @@
 {
-    "content": "hi_IN:\n  modes:\n    add_area:\n      title: क्षेत्र\n    add_line:\n      title: रेखा\n    add_point:\n      title: बिन्दु\n  operations:\n    continue:\n      key: A\n      title: जारी रखें\n    circularize:\n      key: O\n", 
+    "content": "hi_IN: {}\n", 
     "mimetype": "text/plain"
 }

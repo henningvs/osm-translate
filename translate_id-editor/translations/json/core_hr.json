@@ -2126,6 +2126,9 @@
 "cannot_zoom": "Nemoguće smanjiti povećanje u trenutnom môdu.",
 
 
+"full_screen": "Slika preko cijelog zaslona",
+
+
 "gpx": {
 
 
@@ -2186,7 +2189,7 @@
 
 
 
-"gps": "# GNSS \n\nGNSS podaci su najpouzdaniji izvor podataka za OpenStreetMap. Ovaj uređivač podržava lokalne tragove - `.gpx` datoteteke s tvog računala. Takav oblik GNSS traga možeš prikupiti s raznim aplikacijama za pametne telefone kao i s drugim GNSS/GPS uređajima.\n\nZa više informacija o postupku izmjere pomoću GNSS satelita, pročitaj članak [\"Mjerenje sa GPS-om\"](http://learnosm.org/en/beginner/using-gps/).\n\nKako bi koristio GPX tragove za kartiranje, povuci i ispusti GPX datoteku na uređivač karte. Ako se datoteka ispravno učita, biti će dodana na kartu kao linija svjetlo ljubičaste boje. Klikni na izbornik \"Podaci karte\" s desne strane za uključivanje, isključivanje ili povećanje na taj novi GPX sloj.\n\nGPX trag nije direktno postavljen na OpenStreetMap, samo je prikazan na karti. Da bi ga iskoristio/la na najbolji način, preko njega crtaj na karti koristeći ga kao vodilju za dodavanje novih značajki. Trag možeš također [postaviti na OpenStreetMap](http://www.openstreetmap.org/trace/create) kako bi ga i drugi\nkorisnici mogli koristiti.\n",
+"gps": "# GNSS\n\nGNSS podaci su najpouzdaniji izvor podataka za OpenStreetMap. Ovaj uređivač\npodržava lokalne tragove - `.gpx` datoteteke s tvog računala. Takav oblik GNSS\ntraga možeš prikupiti s raznim aplikacijama za pametne telefone kao i s drugim\nGNSS/GPS uređajima.\n\nZa više informacija o postupku izmjere pomoću GNSS satelita, pročitaj članak \n[\"Kartiranje s pametnim telefonom, GPS-om ili papirom\"](http://learnosm.org/en/mobile-mapping/).\n\nKako bi koristio/la GPX tragove za kartiranje, povuci i ispusti GPX datoteku na uređivač \nkarte. Ako se datoteka ispravno učita, biti će dodana na kartu kao linija svjetlo ljubičaste \nboje. Klikni na izbornik \"Podaci karte\" s desne strane za uključivanje, isključivanje \nili povećanje na taj novi GPX sloj.\n\nGPX trag nije direktno postavljen na OpenStreetMap, samo je prikazan na karti. Da bi ga \niskoristio/la na najbolji način, preko njega crtaj na karti koristeći ga kao vodilju za \ndodavanje novih značajki. Trag možeš također [postaviti na OpenStreetMap](http://www.openstreetmap.org/trace/create) \nkako bi ga i drugi korisnici mogli koristiti.\n",
 
 
 
@@ -2198,7 +2201,7 @@
 
 
 
-"inspector": "# Korištenje preglednika\n\nPreglednik je element korisničkog sučelja na lijevoj strani stranice koji se pojavljuje\nnakon što se neka značajka odabere i on omogućava uređivanje detalja značajke.\n\n### Odabir vrste značajke\n\nNakon što dodaš točku, liniju ili područje, možeš odabrati koje je vrste ta značajka,\nnpr. je li to državna cesta ili ulica, veletrgovina ili kafić.\n\nPreglednik će prikazati tipke za često korištene vrste značajki, a ostale možeš\npronaći upisivanjem naziva vrste koju tražiš u okvir za pretraživanje.\n\nKlikni na \"i\" na desnoj strani vrste značajke da saznaš više o toj značajki. Klikni na\ntipku sa imenom vrste da odabereš tu vrstu.\n\n### Korištenje obrazaca i oznaka\n\nNakon što odabereš vrstu značajke ili kada odabereš značajku koja već ima\ndefeniranu vrstu, preglednik će ti prikazati polja sa detaljima o značajki, npr.\nnjezino ime i adresu.\n\nIspod polja možeš kliknuti na ikone za dodavanje drugih detalja, kao informacije sa\n[Wikipedije](http://www.wikipedia.org/), pristup invalidskim kolicima i drugo.\n\nNa dnu preglednika, klikni na \"Sve oznake\" za dodavanje proizvoljnih drugih\noznaka za značajke. [Taginfo](http://taginfo.openstreetmap.org/) je izvrstan\nizvornik za učenje o popularnim kombinacijama oznaka koje se koriste.\n\nPromjene koje napraviš u pregledniku su automatski primijenjene na kartu.\n\nMožeš poništiti promjene u bilo kojem trenutku pritiskom na tipku \"Opovrgni\".\n",
+"inspector": "# Korištenje preglednika \n\nPreglednik je element korisničkog sučelja na lijevoj strani stranice koji se \npojavljuje nakon što se neka značajka odabere i on omogućava uređivanje detalja značajke. \n\n### Odabir vrste značajke \n\nNakon što dodaš točku, liniju ili područje, možeš odabrati koje je vrste ta značajka, \nnpr. je li to državna cesta ili ulica, veletrgovina ili kafić. Preglednik će prikazati \ntipke za često korištene vrste značajki, a ostale možeš pronaći upisivanjem naziva vrste \nkoju tražiš u okvir za pretraživanje. \n\nKlikni na \"i\" na desnoj strani vrste značajke da saznaš više o toj značajki. \nKlikni na tipku sa imenom vrste da odabereš tu vrstu. \n\n### Korištenje obrazaca i oznaka \n\nNakon što odabereš vrstu značajke ili kada odabereš značajku koja već ima defeniranu \nvrstu, preglednik će ti prikazati polja sa detaljima o značajki, npr. njezino ime i adresu. \n\nIspod polja možeš kliknuti na ikone za dodavanje drugih detalja, npr. poveznicu na\nWikipediju, pristup invalidskim kolicima i drugo. \n\nNa dnu preglednika, klikni na \"Sve oznake\" za dodavanje proizvoljnih drugih oznaka za \nznačajke. [Taginfo](http://taginfo.openstreetmap.org/) je izvrstan izvornik za učenje \no popularnim kombinacijama oznaka koje se koriste. \n\nPromjene koje napraviš u pregledniku su automatski primijenjene na kartu. \nMožeš poništiti promjene u bilo kojem trenutku pritiskom na tipku \"Opovrgni\".\n",
 
 
 

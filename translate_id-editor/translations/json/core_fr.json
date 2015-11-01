@@ -12,7 +12,7 @@
 
 
 
-"title": "Polygone",
+"title": "Surface",
 
 
 
@@ -703,7 +703,12 @@
 
 
 
-"incomplete_relation": "Ces éléments ne peuvent pas être fusionnés parce qu'au moins l'un d'entre eux n'a pas été complètement téléchargé."
+"incomplete_relation": "Ces éléments ne peuvent pas être fusionnés parce qu'au moins l'un d'entre eux n'a pas été complètement téléchargé.",
+
+
+
+
+"conflicting_tags": "Ces lignes ne peuvent pas être fusionnées car certains de leur tags ont des valeurs contradictoires."
 
 
 
@@ -2126,6 +2131,9 @@
 "cannot_zoom": "Impossible de zoomer plus en arrière dans ce mode.",
 
 
+"full_screen": "Basculer en plein écran",
+
+
 "gpx": {
 
 
@@ -2178,11 +2186,15 @@
 
 
 
+"editing_saving": "# Édition & sauvegarde\n\nCet éditeur est conçu pour fonctionner de façon connecté et vous êtes \nactuellement en train de l'utiliser depuis un site web.\n\n### Sélection des éléments\n\nPour sélectionner un élément de la carte comme une route ou un point d’intérêt, \nil faut cliquer dessus sur la carte. Il sera alors mis en surbrillance et un \npanneau latéral s’ouvrira avec tous ses détails élément ainsi qu'un menu des \nactions disponibles pour cet élément.\n\nPour sélectionner plusieurs éléments, laisser appuyer sur la touche «Shift» du \nclavier. Pendant ce temps, vous pouvez au choix sélectionner les différents \néléments directement ou dessiner une zone rectangulaire à l'aide de la souris. \nLorsque le bouton de la souris est relâché, tous les objets à l'intérieur du \nrectangle seront sélectionnés.\n\n### Sauvegarde des modifications\n\nLorsque vous modifiez la carte (par exemple modification de routes, bâtiments \net places), ces changements sont conservés localement en attendant que vous \nles sauvegardiez sur le serveur. En cas d'erreur, il est possible d'annuler les \nchangements en cliquant sur le bouton idoine. De façon similaire il est possible\n de ré-appliquer un changement qui a été annulé.\n\nLorsque vous souhaitez sauvegarder sur le serveur vos changements, appuyer sur \nle bouton «Sauvegarder». La liste de vos modifications s'affichera alors, vous \npermettant de vérifier vos modifications. Par ailleurs, l'éditeur vous \npréviendra et conseillera si quelque chose semble incorrect.\n\nSi tout semble correct, vous pourrez alors écrire un commentaire du travail \neffectué (par exemple «Ajout d'une boulangerie») puis il faudra à nouveau \nappuyer sur le bouton «Sauvegarder» pour envoyer les changements sur \n[OpenStreetMap.org](http://www.openstreetmap.org/). Vos changements seront \nvisible par tous peu de temps après.\n\nSi vous ne pouvez pas terminer vos changements en une seule fois, vous pouvez \nfermer la fenêtre de l'éditeur. Vos changements seront enregistrés localement. \nLorsque vous ouvrirez à nouveau l'éditeur, sur le même ordinateur et avec le \nmême navigateur Web, l'éditeur vous proposera de récupérer le travail de la \nséance précédente.\n\n### Utilisation de l'éditeur\n\nUne liste des raccourcis claviers est disponible \n[ici](http://wiki.openstreetmap.org/wiki/ID/Shortcuts).\n",
+
+
+
 "roads": "# Routes\n\nVous pouvez créer, mettre à jour et supprimer des routes à l'aide de l'éditeur. Il peut s'agir de tous types de routes : chemins, autoroutes, pistes cyclables, et plus encore : toute voie régulièrement fréquentée peut être cartographiée.\n\n### Sélection\n\nCliquez sur une route pour la sélectionner. Elle sera alors surlignée et un menu 'outils' apparaîtra sur la carte, ainsi qu'une barre d'état affichant des informations supplémentaires.\n\n### Modification\n\nIl est fréquent que les routes ne soient pas bien alignées avec l'imagerie satellite ou avec les traces GPS. Vous pouvez ajuster et corriger la position des routes.\n\nCliquez d'abord sur la route à modifier. Elle est alors surlignée et des points de contrôle apparaissent qui permettent de corriger sa position. Pour ajouter des points de contrôle, double-cliquez sur un segment de la route sans nœuds.\n\nSi la route est connectée à une autre, mais que la connexion est incorrecte, vous pouvez déplacer un de ses points de contrôle sur la seconde route pour corriger la connexion. Des routes bien connectées sont essentielles pour la carte et pour fournir de bonnes informations d'itinéraire.\n\nVous pouvez également cliquer sur l'outil 'Déplacer' ou appuyer sur le raccourci `M` pour déplacer l'ensemble de la route en une fois, puis cliquer de nouveau une fois pour sauvegarder le déplacement.\n\n### Suppression\n\nSi une route est complètement fausse - c'est-à-dire qu'elle n'apparaît pas sur l'image satellite, et que dans l'idéal, vous avez confirmé qu'elle n'existe pas sur le terrain - vous pouvez la supprimer, ce qui l'enlèvera de la carte. Faites attention lorsque vous supprimez des éléments : comme n'importe quelle autre modification, le résultat sera visible par tout le monde sur la carte. Les photos aériennes sont souvent dépassées et la route est peut-être tout simplement récente.\n\nPour supprimer une route, sélectionnez-la en cliquant dessus, puis cliquez sur l'icône 'Poubelle' ou appuyez sur la touche 'Suppr'.\n\n### Création\n\nVous avez constaté qu'une route de votre connaissance manque à la carte ? Cliquez sur l'icône 'Ligne' en haut à gauche de l'éditeur ou appuyez sur le raccourci `2` pour dessiner une route. \n\nPour commencer le dessin, cliquez sur l'endroit où commence la route. Si elle commence à l'embranchement d'une autre route, commencez le dessin en cliquant à l'endroit de la connexion.\n\nCliquez ensuite régulièrement le long de la route pour ajouter des points, en utilisant l'imagerie satellite comme référence. Si la route que vous dessinez croise une autre route, connectez les deux en cliquant à l'endroit de l'intersection. Lorsque vous avez terminé le dessin, double-cliquez ou appuyez sur 'Entrée'.\n",
 
 
 
-"gps": "# GPS\n\nLa donnée GPS est la source la plus fiable de données pour OpenStreetMap. Cet éditeur\nsupporte les traces en local - fichiers `.gpx` sur votre ordinateur. Vous pouvez collecter\nce genre de trace GPS à l'aide de nombreuses applications pour smartphones ainsi qu'avec\ndu matériel GPS personnel.\n\nPour de la documentation sur la manière de faire un relevé GPS, lisez\n[Sur le terrain avec un GPS](http://learnosm.org/fr/beginner/using-gps/).\n\nPour utiliser un tracé GPX pour cartographier, effectuer un \"glissé-déposé\" du fichier GPX dans l'éditeur de cartes.\nS'il est reconnu, il sera ajouté à la carte comme une ligne violette en surbrillance.\nCliquez dans le menu \"Données de la carte\" sur le côté droit pour activer,\ndésactiver, ou zoomer dans ce nouveau calque GPX.\n\nLe tracé GPX n'est pas directement chargé vers OpenStreetMap - le meilleur moyen de\nl'utiliser est de dessiner sur la carte, en l'utilisant comme guide pour les nouveaux éléments que\nvous ajoutez, et aussi de le [charger dans OpenStreetMap](http://www.openstreetmap.org/trace/create) pour que les autres utilisateurs puissent s'en servir.\n",
+"gps": "# GPS \n\nLe GPS est la source la plus fiable de données pour OpenStreetMap. Cet éditeur \nsupporte les traces en local - fichiers `.gpx` sur votre ordinateur. Vous pouvez collecter \nce genre de trace GPS à l'aide de nombreuses applications pour smartphones ainsi \nqu'avec du matériel GPS personnel. \n\nPour savoir comment effectuer un relevé GPS, lisez \n[Sur le terrain avec un GPS](http://learnosm.org/fr/beginner/using-gps/). \n\nPour utiliser un tracé GPX pour cartographier, effectuer un \"glissé-déposé\" du \nfichier GPX dans l'éditeur de cartes. S'il est reconnu, une ligne violette en \nsurbrillance apparaîtra sur la carte. Cliquez dans le menu \"Données de la carte\"\nsur le côté droit pour activer, désactiver, ou zoomer dans ce nouveau calque GPX. \n\nLe tracé GPX n'est pas directement envoyé sur OpenStreetMap - le meilleur moyen de\nl'utiliser est de dessiner sur la carte, en l'utilisant comme guide pour les \nnouveaux éléments que vous ajoutez, et aussi de le \n[charger dans OpenStreetMap](http://www.openstreetmap.org/trace/create) pour que\nles autres utilisateurs puissent s'en servir. \n",
 
 
 
@@ -2194,7 +2206,7 @@
 
 
 
-"inspector": "# Utilisation de l'inspecteur⏎\n⏎\nL'inspecteur est l'élément de l'interface utilisateur qui apparaît à droite de la page quand un élément est sélectionné. Il permet de mettre à jour les détails concernant l'élément sélectionné.⏎\n⏎\n### Sélectionner un type d'élément⏎\n⏎\nAprès ajout d'un point, d'une ligne ou d'un polygone, vous pouvez indiquer de quel type d'élément il s'agit : une route principale ou résidentielle, un supermarché, un café... L'inspecteur affiche des boutons pour les éléments les plus communs, et vous pouvez trouver les autres à l'aide du formulaire de recherche.⏎\n⏎\nCliquez sur 'i' dans le coin en bas à droite des boutons pour en savoir plus sur l'élément dont il s'agit. Cliquez sur le bouton pour choisir cet élément.⏎\n⏎\n### Utiliser les formulaires et les tags⏎\n⏎\nAprès avoir choisi le type d'élément, ou lorsque vous sélectionnez un élément dont la nature est déjà indiquée, l'inspecteur affiche des champs comprenant des détails sur l'élément concerné - adresse, nom, etc.⏎\n⏎\nEn-dessous des champs, vous pouvez cliquer sur les icônes pour ajouter des détails supplémentaires, comme des informations issues de [Wikipedia](http://www.wikipedia.org/), des renseignements sur l'accès handicapé, ou plus encore.⏎\n⏎\nEn bas de l'inspecteur, cliquez sur 'attributs supplémentaires' pour ajouter des attributs arbitraires à l'élément. [Taginfo](http://taginfo.openstreetmap.org/) est une excellente ressource pour en savoir plus sur les combinaisons d'attributs les plus fréquentes.⏎\n⏎\nLes changements que vous effectuez dans l'inspecteur sont immédiatement visibles sur la carte. Vous pouvez les annulez dès que vous le souhaitez en cliquant sur 'annuler'. ⏎\n⏎\n",
+"inspector": "# Utilisation de l'inspecteur \n\nL'inspecteur est l'élément de l'interface utilisateur qui apparaît à droite de \nla page quand un élément est sélectionné. \n\nIl permet de mettre à jour les détails concernant l'élément sélectionné.\n\n### Sélectionner un type d'élément\n\nAprès ajout d'un point, d'une ligne ou d'un polygone, vous pouvez indiquer de \nquel type d'élément il s'agit : une route principale ou résidentielle, un \nsupermarché, un café... L'inspecteur affiche des boutons pour les éléments les \nplus communs, et vous pouvez trouver les autres à l'aide du formulaire de recherche. \n\nCliquez sur 'i' dans le coin en bas à droite des boutons pour en savoir plus sur\n l'élément dont il s'agit. Cliquez sur le bouton pour choisir cet élément.  \n\n### Utiliser les formulaires et les tags  \n\nAprès avoir choisi le type d'élément, ou lorsque vous sélectionnez un élément \ndont la nature est déjà indiquée, l'inspecteur affiche des champs comprenant des \ndétails sur l'élément concerné - adresse, nom, etc. \n\nEn-dessous des champs, vous pouvez cliquer sur les icônes pour ajouter des \ndétails supplémentaires, comme des informations issues de [Wikipedia](http://www.wikipedia.org/), \ndes renseignements sur l'accès handicapé, ou plus encore.  \n\nEn bas de l'inspecteur, cliquez sur 'Attributs Supplémentaires' pour ajouter des \nattributs arbitraires à l'élément. [Taginfo](http://taginfo.openstreetmap.org/) est \nune excellente ressource pour en savoir plus sur les combinaisons d'attributs les \nplus fréquentes. \n\nLes changements que vous effectuez dans l'inspecteur sont immédiatement visibles \nsur la carte. Vous pouvez les annulez dès que vous le souhaitez en cliquant sur 'annuler'.  \n",
 
 
 

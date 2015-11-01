@@ -259,6 +259,36 @@
 
 
 
+"dismount": {
+
+
+
+
+
+
+
+"description": "Pääsy sallittu, mutta ajoneuvon kuljettajan on jalkauduttava",
+
+
+
+
+
+
+
+"title": "Jalkautumisvelvollisuus"
+
+
+
+
+
+
+},
+
+
+
+
+
+
 "no": {
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Tuntematon",
+"placeholder": "Ei määritelty",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Yleinen",
+"access": "Kaikki",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Käyttöoikeus",
+"label": "Sallittu käyttäjäryhmä",
 
 
 
@@ -505,6 +535,13 @@
 
 
 
+"conscriptionnumber": "123",
+
+
+
+
+
+
 "country": "Valtio",
 
 
@@ -513,6 +550,13 @@
 
 
 "district": "Seutu",
+
+
+
+
+
+
+"hamlet": "Pikkukylä",
 
 
 
@@ -836,6 +880,22 @@
 
 
 "amenity": {
+
+
+
+
+
+"label": "Tyyppi"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
 
 
 
@@ -3677,6 +3737,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Lasipullojenkeräys"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3684,6 +3760,64 @@
 
 
 "label": "Paperinkeräys"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Muovinkeräys"
+
+
+
+
+},
+
+
+
+
+"recycling/type": {
+
+
+
+
+
+"label": "Kierrätyksen tyyppi",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"centre": "Kierrätyskeskus",
+
+
+
+
+
+
+"container": "Säiliö"
+
+
+
+
+
+}
 
 
 
@@ -4223,6 +4357,83 @@
 
 
 
+"smoothness": {
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"bad": "Tukevat renkaat: maastopyörä, auto, riksa",
+
+
+
+
+
+
+"excellent": "Kapeat rullat: rullaluistimet, skateboard",
+
+
+
+
+
+
+"good": "Kapeat renkaat: kilpapyörä",
+
+
+
+
+
+
+"horrible": "Maasto: raskaat maastoajoneuvot",
+
+
+
+
+
+
+"impassable": "Läpikulku mahdotonta / Ei pyörällisille kulkuneuvoille",
+
+
+
+
+
+
+"intermediate": "Renkaat: kaupunkipyörä, rullatuoli, skootteri",
+
+
+
+
+
+
+"very_horrible": "Erikoismaastoajoneuvo: traktori, mönkijä"
+
+
+
+
+
+},
+
+
+
+
+
+"placeholder": "Ohuet rullat, renkaat, maasto..."
+
+
+
+
+},
+
+
+
+
 "social_facility_for": {
 
 
@@ -4343,6 +4554,13 @@
 
 
 "embankment": "Penger",
+
+
+
+
+
+
+"ford": "Kahlauspaikka",
 
 
 
@@ -4686,6 +4904,22 @@
 
 
 "label": "Tyyppi"
+
+
+
+
+},
+
+
+
+
+"water_point": {
+
+
+
+
+
+"label": "Vesipsite"
 
 
 
@@ -5429,6 +5663,28 @@
 
 
 
+"amenity/biergarten": {
+
+
+
+
+
+"name": "Ulkoilmaolutravintola",
+
+
+
+
+
+"terms": "ravintola, olut, terassi, juoma, juomaterassi, juottola, juomala, alkoholi, juominen, olutterassi"
+
+
+
+
+},
+
+
+
+
 "amenity/boat_rental": {
 
 
@@ -5568,6 +5824,22 @@
 
 
 "terms": "autopesu, automaattipesu, pesula, pesukone, pesuhalli, auto, autot"
+
+
+
+
+},
+
+
+
+
+"amenity/casino": {
+
+
+
+
+
+"name": "Kasino"
 
 
 
@@ -5884,6 +6156,28 @@
 
 
 "terms": "hautausmaa, kalmisto, luutarha"
+
+
+
+
+},
+
+
+
+
+"amenity/grit_bin": {
+
+
+
+
+
+"name": "Soralaatikko",
+
+
+
+
+
+"terms": "hiekoitus, hiekoitushiekka, hiekka, sora, hiekoitussora, hiekotus, sandi"
 
 
 
@@ -6287,6 +6581,22 @@
 
 
 
+"amenity/register_office": {
+
+
+
+
+
+"name": "Maistraatti"
+
+
+
+
+},
+
+
+
+
 "amenity/restaurant": {
 
 
@@ -6638,6 +6948,22 @@
 
 
 "name": "Alue"
+
+
+
+
+},
+
+
+
+
+"area/highway": {
+
+
+
+
+
+"name": "Tien päällyste"
 
 
 
@@ -7400,6 +7726,22 @@
 
 
 "name": "Koulurakennus"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Paritalo"
 
 
 
@@ -8429,6 +8771,38 @@
 
 
 
+"footway/crossing": {
+
+
+
+
+
+"name": "Suojatieväylä"
+
+
+
+
+},
+
+
+
+
+"footway/crosswalk": {
+
+
+
+
+
+"name": "Jalankulkijoiden suojatieväylä"
+
+
+
+
+},
+
+
+
+
 "footway/sidewalk": {
 
 
@@ -8679,6 +9053,60 @@
 
 
 
+"highway/corridor": {
+
+
+
+
+
+"name": "Sisäkäytävä",
+
+
+
+
+
+"terms": "katettu, katos, käytävä, sisällä, sisätila, sisätiloissa"
+
+
+
+
+},
+
+
+
+
+"highway/crossing": {
+
+
+
+
+
+"name": "Suojatie"
+
+
+
+
+},
+
+
+
+
+"highway/crosswalk": {
+
+
+
+
+
+"name": "Jalankulkijoiden suojatie"
+
+
+
+
+},
+
+
+
+
 "highway/cycleway": {
 
 
@@ -8816,6 +9244,22 @@
 
 
 "name": "Polku"
+
+
+
+
+},
+
+
+
+
+"highway/pedestrian": {
+
+
+
+
+
+"name": "Kävelykatu"
 
 
 
@@ -9447,22 +9891,6 @@
 
 
 
-"landuse/allotments": {
-
-
-
-
-
-"name": "Siirtolapuutarha"
-
-
-
-
-},
-
-
-
-
 "landuse/basin": {
 
 
@@ -9754,6 +10182,44 @@
 
 
 "name": "Vapaa-aika"
+
+
+
+
+},
+
+
+
+
+"leisure/adult_gaming_centre": {
+
+
+
+
+
+"name": "Uhkapelipelaamo"
+
+
+
+
+},
+
+
+
+
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Keilauskeskus",
+
+
+
+
+
+"terms": "keila, keilaaminen, keilaus, keilarata"
 
 
 
@@ -10089,7 +10555,7 @@
 
 
 
-"name": "Juoksupolku",
+"name": "Juoksureitti",
 
 
 
@@ -10398,6 +10864,22 @@
 
 
 "name": "Putki"
+
+
+
+
+},
+
+
+
+
+"man_made/silo": {
+
+
+
+
+
+"name": "Siilo"
 
 
 
@@ -10767,6 +11249,28 @@
 
 
 
+"natural/saddle": {
+
+
+
+
+
+"name": "Sola",
+
+
+
+
+
+"terms": "kanjoni, rinne"
+
+
+
+
+},
+
+
+
+
 "natural/scree": {
 
 
@@ -10828,6 +11332,38 @@
 
 
 "name": "Puu"
+
+
+
+
+},
+
+
+
+
+"natural/tree_row": {
+
+
+
+
+
+"name": "Puurivi"
+
+
+
+
+},
+
+
+
+
+"natural/volcano": {
+
+
+
+
+
+"name": "Tulivuori"
 
 
 
@@ -11819,6 +12355,28 @@
 
 
 
+"railway/level_crossing": {
+
+
+
+
+
+"name": "Tasoristeys",
+
+
+
+
+
+"terms": "rautatie, junarata, juna, ylitys, ylittäminen, ylityspaikka, ylityskohta"
+
+
+
+
+},
+
+
+
+
 "railway/monorail": {
 
 
@@ -12417,7 +12975,13 @@
 
 
 
-"name": "Vaatekauppa"
+"name": "Vaatekauppa",
+
+
+
+
+
+"terms": "vaate, muoti, vaatetus, vaatteet, pukeutuminen, pukea, pukeutua, hm, h&m, hennes, mauritz, dressmann, lindex, kappahl, carlings, bikbok, bik bok, seppälä, aleksi13, aleksi 13,  cubus, ginatricot, gina, tricot, halonen, mango, zara, kauppa, liike, yritys, putiikki, myymälä, vaateliike, vaateyritys, vaatemyymälä"
 
 
 
@@ -12466,6 +13030,28 @@
 
 
 "name": "Lähikauppa"
+
+
+
+
+},
+
+
+
+
+"shop/copyshop": {
+
+
+
+
+
+"name": "Kopiointiliike",
+
+
+
+
+
+"terms": "kopiokone, kopio, kopiointi, kopioida"
 
 
 
@@ -12574,6 +13160,22 @@
 
 
 "name": "Askartelukauppa"
+
+
+
+
+},
+
+
+
+
+"shop/dry_cleaning": {
+
+
+
+
+
+"name": "Kuivapesula"
 
 
 
@@ -12723,6 +13325,22 @@
 
 
 
+"shop/furnace": {
+
+
+
+
+
+"name": "Uunimyymälä"
+
+
+
+
+},
+
+
+
+
 "shop/furniture": {
 
 
@@ -12822,6 +13440,28 @@
 
 
 "name": "Rautakauppa"
+
+
+
+
+},
+
+
+
+
+"shop/hearing_aids": {
+
+
+
+
+
+"name": "Kuuloapumyymälä",
+
+
+
+
+
+"terms": "kuulo, kuuleminen, kuulovamma, kuulovammaisuus, vamma, vammaisuus, kuulokoje, huono kuulo"
 
 
 
@@ -13117,6 +13757,28 @@
 
 
 
+"shop/organic": {
+
+
+
+
+
+"name": "Luomumyymälä",
+
+
+
+
+
+"terms": "luomu, luomuruoka, ympäristö, ympäristöystävällisyys, ruoka, ruokakauppa"
+
+
+
+
+},
+
+
+
+
 "shop/paint": {
 
 
@@ -13130,6 +13792,22 @@
 
 
 "terms": "maalaaminen, maali, maalit, maalaus, rautakauppa, maalimyymälä, maaliliike"
+
+
+
+
+},
+
+
+
+
+"shop/pawnbroker": {
+
+
+
+
+
+"name": "Panttilainaamo"
 
 
 
@@ -14443,6 +15121,28 @@
 
 
 
+"waterway/fuel": {
+
+
+
+
+
+"name": "Venehuoltoasema",
+
+
+
+
+
+"terms": "veneily, vene, laiva, polttoaine, polttoneste, bensiini, diesel, tankkaus, tankkaaminen, vesi, järvi, meri, alus"
+
+
+
+
+},
+
+
+
+
 "waterway/river": {
 
 
@@ -14481,7 +15181,13 @@
 
 
 
-"name": "Satama-WC:n tyhjennystekniikka"
+"name": "Veneiden jäteveden tyhjennyspiste",
+
+
+
+
+
+"terms": "jätevesi, WC, satama, vene, veneily, lika, likavesi, vesi, viemäri, viemärivesi, jäte, jätteet, tyhjentää, tyhjennys, poisto, poistaa, tyhjentäminen"
 
 
 

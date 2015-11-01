@@ -186,7 +186,7 @@
 
 
 
-"label": "Prístup",
+"label": "Povolený vstup",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Prejazd zakázaný"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Vstup povolený, ale jazdci musia zosadnúť",
+
+
+
+
+
+
+
+"title": "Zosadnutie z vozidla"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Neznámy",
+"placeholder": "Nešpecifikované",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Všeobecné",
+"access": "Všetko",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Prístup",
+"label": "Povolený vstup",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Opadavosť",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Opadavý",
+
+
+
+
+
+
+"evergreen": "Neopadavý",
+
+
+
+
+
+
+"semi_deciduous": "Krátkoopadavý",
+
+
+
+
+
+
+"semi_evergreen": "Poloopadavý"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2689,7 +2775,7 @@
 
 
 
-"broadleaved": "Širokolisté",
+"broadleaved": "Listnaté",
 
 
 
@@ -2711,6 +2797,55 @@
 
 
 "needleleaved": "Ihličnaté"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Typ listov",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Listnatý",
+
+
+
+
+
+
+"leafless": "Bezlistý",
+
+
+
+
+
+
+"needleleaved": "Ihličnatý"
 
 
 
@@ -3402,7 +3537,7 @@
 
 
 
-"surface": "Povrch",
+"surface": "Povrchové",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Hnedé sklo"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Papier"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Plasty"
 
 
 
@@ -7416,13 +7583,13 @@
 
 
 
-"name": "Povrch cesty",
+"name": "Plocha cesty",
 
 
 
 
 
-"terms": "povrch"
+"terms": "plocha cesty, "
 
 
 
@@ -8061,28 +8228,6 @@
 
 
 "terms": "budova vo vystavbe,stavba,stavenisko"
-
-
-
-
-},
-
-
-
-
-"building/detached": {
-
-
-
-
-
-"name": "Samostatný dom",
-
-
-
-
-
-"terms": "samostatny dom"
 
 
 
@@ -11140,29 +11285,7 @@
 
 
 
-"terms": "vyuzitie uzemia,využitie,zyuzitie,les,lúka,luka,hora,pole"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Záhradkárska osada",
-
-
-
-
-
-"terms": "zahradkarska osada,zahradky,záhradky,zahrady,záhrady,kolonia,kolónia"
+"terms": "vuzitie uzemia, vyuzitie pody, využitie pôdy, krajina"
 
 
 
@@ -11524,6 +11647,28 @@
 
 
 
+"landuse/plant_nursery": {
+
+
+
+
+
+"name": "Lesná škôlka",
+
+
+
+
+
+"terms": "lesna skolka,stromy,stromčeky,stromceky,skolka,škôlka"
+
+
+
+
+},
+
+
+
+
 "landuse/quarry": {
 
 
@@ -11647,6 +11792,28 @@
 
 
 "terms": "vyherne automaty,hracie automaty"
+
+
+
+
+},
+
+
+
+
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Bowlingová hala",
+
+
+
+
+
+"terms": "bowlinkova hala,bowling,kúželky,kuzelky,bouling"
 
 
 

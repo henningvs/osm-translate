@@ -18,12 +18,6 @@
 
 
 
-"label": "Piekļuve",
-
-
-
-
-
 "options": {
 
 
@@ -201,13 +195,6 @@
 
 
 "types": {
-
-
-
-
-
-
-"access": "Vispārīgs",
 
 
 
@@ -2445,22 +2432,6 @@
 
 
 "name": "Pilsdrupas"
-
-
-
-
-},
-
-
-
-
-"landuse": {
-
-
-
-
-
-"name": "Zemes pielietojums"
 
 
 

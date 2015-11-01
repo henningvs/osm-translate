@@ -186,7 +186,7 @@
 
 
 
-"label": "Zugangsberechtigung",
+"label": "Erlaubter Zugang",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Ziel"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Zutritt erlaubt, aber Radfahrer müssen absteigen",
+
+
+
+
+
+
+
+"title": "Absteigen"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Unbekannt",
+"placeholder": "Nicht spezifiert",
 
 
 
@@ -397,7 +427,7 @@
 
 
 
-"access": "Allgemein",
+"access": "Alle",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Zugang",
+"label": "Zugang erlaubt",
 
 
 
@@ -752,7 +782,7 @@
 
 
 
-"label": "beheizt"
+"label": "Beheizt"
 
 
 
@@ -1363,7 +1393,7 @@
 
 
 
-"label": "Ernte"
+"label": "Feldfrucht"
 
 
 
@@ -1411,7 +1441,7 @@
 
 
 
-"label": "Fahrradwege",
+"label": "Fahrradinfrastruktur",
 
 
 
@@ -1530,7 +1560,7 @@
 
 
 
-"title": "Gegenüberliegender Fahrradstreifen"
+"title": "Fahrradstreifen gegen die Verkehrsrichtung"
 
 
 
@@ -1560,7 +1590,7 @@
 
 
 
-"title": "Fahrradstreifen auf der Busse fahren "
+"title": "Fahrradstreifen auf der Busspur"
 
 
 
@@ -1590,7 +1620,7 @@
 
 
 
-"title": "Fahrradstreifen auf Autospur"
+"title": "Fahrradstreifen auf Fahrbahn"
 
 
 
@@ -1620,7 +1650,7 @@
 
 
 
-"title": "Fernradweg"
+"title": "Separierter Radweg"
 
 
 
@@ -1938,7 +1968,7 @@
 
 
 
-"pillar": "Ständer/Oberirdisch",
+"pillar": "Stützen/Oberirdisch",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Blätterzyklus",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Sommergrün",
+
+
+
+
+
+
+"evergreen": "Immergrün",
+
+
+
+
+
+
+"semi_deciduous": "Halbsommergrün",
+
+
+
+
+
+
+"semi_evergreen": "Halbimmergrün"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2710,7 +2796,56 @@
 
 
 
-"needleleaved": "Nadelblätter"
+"needleleaved": "Nadelblättrig"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Blatttyp",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Breitblättrig",
+
+
+
+
+
+
+"leafless": "Blattlos",
+
+
+
+
+
+
+"needleleaved": "Nadelblättrig"
 
 
 
@@ -2899,7 +3034,7 @@
 
 
 
-"2": "2: Viel looser Untergrund, große Hindernisse, einfach Haarnadelkurven",
+"2": "2: Viel loser Untergrund, große Hindernisse, einfache Haarnadelkurven",
 
 
 
@@ -2927,7 +3062,7 @@
 
 
 
-"6": "6: Nicht befahrbar ausgenommen durch die allerbesten Mountain Biker"
+"6": "6: Nicht befahrbar ausgenommen durch die allerbesten Mountainbiker"
 
 
 
@@ -2968,14 +3103,14 @@
 
 
 
-"0": "Am Einfachsten (weißer Kreis)",
+"0": "Am einfachsten (weißer Kreis)",
 
 
 
 
 
 
-"1": "einfach (grüner Kreis)",
+"1": "Einfach (grüner Kreis)",
 
 
 
@@ -3024,7 +3159,7 @@
 
 
 
-"label": "Mountain Bike Bergauf-Hinderniss",
+"label": "Mountainbike Schwierigkeit bergauf",
 
 
 
@@ -3037,7 +3172,7 @@
 
 
 
-"0": "0: Durschnittliche Steigung <10%, Kies/verdichtete Erde, keine Hindernisse",
+"0": "0: Durchschnittliche Steigung <10%, Kies/verdichtete Erde, keine Hindernisse",
 
 
 
@@ -3051,7 +3186,7 @@
 
 
 
-"2": "2: Durchschnittliche Steigung <20%, stabiel Oberfläche, fautgroße Steine/Wurzeln",
+"2": "2: Durchschnittliche Steigung <20%, stabil Oberfläche, faustgroße Steine/Wurzeln",
 
 
 
@@ -3072,7 +3207,7 @@
 
 
 
-"5": "5: sehr steig, Fahrrad muss generell geschoben oder getragen werden"
+"5": "5: sehr steil, Fahrrad muss generell geschoben oder getragen werden"
 
 
 
@@ -3466,7 +3601,7 @@
 
 
 
-"advanced": "fortgeschritten (schwarze Raute)",
+"advanced": "Fortgeschritten (schwarze Raute)",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Glasflaschen"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Papier"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Plastik"
 
 
 
@@ -3995,7 +4162,7 @@
 
 
 
-"label": "Wanderweg Klassifizierung",
+"label": "Schwierigkeitsgrad des Wanderwegs",
 
 
 
@@ -4008,14 +4175,14 @@
 
 
 
-"alpine_hiking": "T4: Bergsteigen",
+"alpine_hiking": "T4: Alpines Bergwandern",
 
 
 
 
 
 
-"demanding_alpine_hiking": "T5: Anspruchsvolles Bergsteigen",
+"demanding_alpine_hiking": "T5: Anspruchsvolles alpines Bergwandern",
 
 
 
@@ -4029,7 +4196,7 @@
 
 
 
-"difficult_alpine_hiking": "T6: Schwieriges Bergsteigen",
+"difficult_alpine_hiking": "T6: Schwieriges alpines Bergsteigen",
 
 
 
@@ -4055,7 +4222,7 @@
 
 
 
-"placeholder": "Bergwandern, Bergsteigen ..."
+"placeholder": "Bergwandern, alpines Bergwandern..."
 
 
 
@@ -4413,7 +4580,7 @@
 
 
 
-"label": "Gleichmäßigkeit",
+"label": "Ebenheit",
 
 
 
@@ -4468,14 +4635,14 @@
 
 
 
-"very_bad": "Hoher Radstand: leichtes Off-Road-Fahrzeug",
+"very_bad": "Hohe Bodenfreiheit: Fahrzeug mit leichter Geländegängigkeit",
 
 
 
 
 
 
-"very_horrible": "Spezialisiertes Off-Road: Traktor, Quad"
+"very_horrible": "Spezialisiertes Off-Road: Traktor, Geländefahrzeug"
 
 
 
@@ -4901,7 +5068,7 @@
 
 
 
-"grade2": "Großteils Fest: Kies/Stein gemischt mit etwas weichem Material",
+"grade2": "Großenteils fest: Kies/Stein gemischt mit etwas weichem Material",
 
 
 
@@ -4915,14 +5082,14 @@
 
 
 
-"grade4": "Großteils weich: Erde/Sand/Gras gemischt mit etwas hartem Material",
+"grade4": "Großenteils weich: Erde/Sand/Gras gemischt mit etwas hartem Material",
 
 
 
 
 
 
-"grade5": "Weiche: Erde/Sand/Gras"
+"grade5": "Weich: Erde/Sand/Gras"
 
 
 
@@ -4934,7 +5101,23 @@
 
 
 
-"placeholder": "fest, großteils fest, weich ..."
+"placeholder": "Fest, Großenteils fest, Weich ..."
+
+
+
+
+},
+
+
+
+
+"traffic_signals": {
+
+
+
+
+
+"label": "Typ"
 
 
 
@@ -4984,7 +5167,7 @@
 
 
 
-"horrible": "Schrecklich: oft kein Weg, teilweise Orientierungserfahrung benötigt",
+"horrible": "Sehr schlecht: oft kein Weg, teilweise Orientierungserfahrung benötigt",
 
 
 
@@ -5332,7 +5515,7 @@
 
 
 
-"terms": "Kinderschilift, Zauberteppichlift, Babylift"
+"terms": "Kinderskilift, Zauberteppichlift, Babylift"
 
 
 
@@ -5590,7 +5773,7 @@
 
 
 
-"name": "Piste",
+"name": "Start- und Landebahn",
 
 
 
@@ -5766,13 +5949,13 @@
 
 
 
-"name": "Grillrestaurant",
+"name": "Grillplatz",
 
 
 
 
 
-"terms": "Grill, Barbecue, Steakhouse"
+"terms": "Grill, Barbecue, BBQ"
 
 
 
@@ -5854,13 +6037,13 @@
 
 
 
-"name": "Fahrradreperaturstation",
+"name": "Fahrradreparaturstation",
 
 
 
 
 
-"terms": "Fahrradreperaturstation, Fahrradreperaturbox"
+"terms": "Fahrradreparaturstation, Fahrradreparaturbox"
 
 
 
@@ -5898,13 +6081,13 @@
 
 
 
-"name": "Bootvermietung",
+"name": "Bootsvermietung",
 
 
 
 
 
-"terms": "Bootsverleih"
+"terms": "Bootsverleih, Bootsvermietung"
 
 
 
@@ -5948,7 +6131,7 @@
 
 
 
-"terms": "Omnibusbahnhof, ZOB"
+"terms": "Omnibusbahnhof, ZOB, Busbahnhof"
 
 
 
@@ -5970,7 +6153,7 @@
 
 
 
-"terms": "Kaffee,Tee,Kaffeehandlung"
+"terms": "Kaffee,Café, Kaffeehaus"
 
 
 
@@ -6014,7 +6197,7 @@
 
 
 
-"terms": "Autoteilen, Car Sharing"
+"terms": "Autoteilen, Car Sharing, Teilauto"
 
 
 
@@ -6058,7 +6241,7 @@
 
 
 
-"terms": "Straßenbelag"
+"terms": "Spielothek, Casino, Spielbank, Glücksspiel, Spielcasino"
 
 
 
@@ -6080,7 +6263,7 @@
 
 
 
-"terms": "Ladestation"
+"terms": "Ladestation, E-Tankstelle, Stromtankstelle"
 
 
 
@@ -6190,7 +6373,7 @@
 
 
 
-"terms": "Schulgelände,Collegegeglände"
+"terms": "Schulgelände,Collegegelände,Universitätsgelände"
 
 
 
@@ -6278,7 +6461,7 @@
 
 
 
-"terms": "Zahnarzt, Dentist"
+"terms": "Zahnarzt, Dentist, Stomatologe"
 
 
 
@@ -6300,7 +6483,7 @@
 
 
 
-"terms": "Arzt, Mediziner"
+"terms": "Arzt, Mediziner, Doktor"
 
 
 
@@ -6322,7 +6505,7 @@
 
 
 
-"terms": "Kampfsportstudio, Kampfsportzentrum, Karatestudio"
+"terms": "Kampfsportstudio, Kampfsportzentrum, Karatestudio, Dojo"
 
 
 
@@ -6382,7 +6565,7 @@
 
 
 
-"name": "Fast Food",
+"name": "Schnellimbiss",
 
 
 
@@ -6426,13 +6609,13 @@
 
 
 
-"name": "Brunnen",
+"name": "Springbrunnen",
 
 
 
 
 
-"terms": "Springbrunnen"
+"terms": "Springbrunnen, Wasserspiel"
 
 
 
@@ -6454,7 +6637,7 @@
 
 
 
-"terms": "Tankstelle"
+"terms": "Tankstelle, Tanke"
 
 
 
@@ -6492,13 +6675,13 @@
 
 
 
-"name": "Streugutkist",
+"name": "Streugutkiste",
 
 
 
 
 
-"terms": "Streugutkiste, Streugutbehälter, Splitkiste"
+"terms": "Streugutkiste, Streugutbehälter, Splittkiste"
 
 
 
@@ -6587,6 +6770,28 @@
 
 
 "terms": "Marktplatz"
+
+
+
+
+},
+
+
+
+
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Motorradparkplatz",
+
+
+
+
+
+"terms": "Motorrad-Parkplatz"
 
 
 
@@ -6998,13 +7203,13 @@
 
 
 
-"name": "Campingplatz Toilettenentsorgungsanlage",
+"name": "Campingtoiletten-Entsorgungsanlage",
 
 
 
 
 
-"terms": "Campingplatz Toilettenentsorgungsanlage"
+"terms": "Campingtoilette, Toilettenentsorgungsanlage"
 
 
 
@@ -7510,7 +7715,7 @@
 
 
 
-"terms": "Viehgitter"
+"terms": "Viehgitter, Viehrost"
 
 
 
@@ -7752,7 +7957,7 @@
 
 
 
-"terms": "Zaunübertritt"
+"terms": "Zaunübertritt, Zauntritt, Stägel, Mauertritt"
 
 
 
@@ -8076,13 +8281,13 @@
 
 
 
-"name": "freistehendes Haus",
+"name": "Einzelhaus",
 
 
 
 
 
-"terms": "freistehendes Haus, Einfamilienhaus"
+"terms": "alleinstehendes Haus, freistehendes Haus, Einfamilienhaus"
 
 
 
@@ -8435,6 +8640,28 @@
 
 
 "terms": "Schulgebäude, Schulhaus"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Doppelhaus",
+
+
+
+
+
+"terms": "Doppelhaushälfte"
 
 
 
@@ -9066,7 +9293,7 @@
 
 
 
-"name": "Schlüsseldienst",
+"name": "Schlosser",
 
 
 
@@ -9638,13 +9865,13 @@
 
 
 
-"name": "Fahrdamm",
+"name": "Böschung",
 
 
 
 
 
-"terms": "Damm"
+"terms": "Damm, Aufschüttung, Böschung"
 
 
 
@@ -10018,7 +10245,7 @@
 
 
 
-"terms": "Autobahn"
+"terms": "Fahrbahn, Autobahn, Straße, Weg"
 
 
 
@@ -10386,13 +10613,13 @@
 
 
 
-"name": "Autorennstrecke",
+"name": "Motorrennstrecke",
 
 
 
 
 
-"terms": "Autorennstrecke"
+"terms": "Autorennstrecke, Motorrennstrecke"
 
 
 
@@ -10524,7 +10751,7 @@
 
 
 
-"terms": "Zufahrtstraße"
+"terms": "Zufahrtsstraße"
 
 
 
@@ -10672,7 +10899,7 @@
 
 
 
-"name": "Treppen",
+"name": "Treppe",
 
 
 
@@ -10716,7 +10943,7 @@
 
 
 
-"name": "Straßenlaterne",
+"name": "Straßenlampe",
 
 
 
@@ -10804,7 +11031,7 @@
 
 
 
-"name": "Ampeln",
+"name": "Ampel",
 
 
 
@@ -10832,7 +11059,7 @@
 
 
 
-"terms": "Fernstraße, Autobahn"
+"terms": "Fernstraße, Schnellstraße"
 
 
 
@@ -11134,13 +11361,13 @@
 
 
 
-"name": "Landnutzung",
+"name": "Flächennutzung",
 
 
 
 
 
-"terms": "Flächennutzung, Landnutzung"
+"terms": "Flächennutzung, Raumnutzung, Bodennutzung, Landnutzung"
 
 
 
@@ -11156,13 +11383,13 @@
 
 
 
-"name": "Kleingartenanlage",
+"name": "Gemeinschaftsgarten",
 
 
 
 
 
-"terms": "Schrebergärten, Kleingärten, Kleingartenanlage"
+"terms": "Gemeinsamer Garten"
 
 
 
@@ -11294,7 +11521,7 @@
 
 
 
-"terms": "Ackerland, Landwirtschaftsflächen, Ackerboden"
+"terms": "Ackerland, Landwirtschaftsfläche, Ackerboden"
 
 
 
@@ -11316,7 +11543,7 @@
 
 
 
-"terms": "Ackerland, Landwirtschaftsflächen, Ackerboden"
+"terms": "Ackerland, Landwirtschaftsfläche, Ackerboden"
 
 
 
@@ -11354,13 +11581,13 @@
 
 
 
-"name": "Wald",
+"name": "Forst",
 
 
 
 
 
-"terms": "Forst, bewirtschafteter Wald"
+"terms": "Forst, bewirtschafteter Wald, Wald"
 
 
 
@@ -11448,7 +11675,7 @@
 
 
 
-"terms": "Demonise, Mülldeponie, Geländeauffüllung"
+"terms": "Deponie, Mülldeponie, Geländeauffüllung"
 
 
 
@@ -11596,13 +11823,13 @@
 
 
 
-"name": "Fachmarktzentrum",
+"name": "Einzelhandelsgebiet",
 
 
 
 
 
-"terms": "Fachmarktzentrum, Einkaufszentrum"
+"terms": "Einzelhandelsgebiet, Einzelhandelsfläche"
 
 
 
@@ -11640,13 +11867,13 @@
 
 
 
-"name": "Erholung",
+"name": "Freizeit",
 
 
 
 
 
-"terms": "Freizeit"
+"terms": "Freizeit, Erholung"
 
 
 
@@ -11662,13 +11889,35 @@
 
 
 
-"name": "Erwachsenenspielzentrum",
+"name": "Spielothek",
 
 
 
 
 
-"terms": "Erwachsenenspielzentrum"
+"terms": "Erwachsenenspielzentrum, Spielhölle, Spielothek, Spielautomat, Spielcasino, Spielsalon"
+
+
+
+
+},
+
+
+
+
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Kegelbahn",
+
+
+
+
+
+"terms": "Kegelbahn"
 
 
 
@@ -11690,7 +11939,7 @@
 
 
 
-"terms": "öffentliche Grünfläche"
+"terms": "öffentliche Grünfläche, Allmende, Allmeind"
 
 
 
@@ -11734,7 +11983,7 @@
 
 
 
-"terms": "Feuerstelle, Lavaseekrater"
+"terms": "Feuerstelle"
 
 
 
@@ -11882,7 +12131,7 @@
 
 
 
-"name": "Jausentisch",
+"name": "Picknicktisch",
 
 
 
@@ -11932,7 +12181,7 @@
 
 
 
-"terms": "American Football Platz"
+"terms": "American-Football-Platz"
 
 
 
@@ -11977,6 +12226,50 @@
 
 
 "terms": "Basketball-Platz, Basketball-Feld"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Rugby-League-Feld",
+
+
+
+
+
+"terms": "Rugby-League-Feld"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Rugby-Union-Feld",
+
+
+
+
+
+"terms": "Rugby-Union-Feld"
 
 
 
@@ -12086,7 +12379,7 @@
 
 
 
-"terms": "Kinderspielplatz,Klettergerüst"
+"terms": "Kinderspielplatz"
 
 
 
@@ -12108,7 +12401,7 @@
 
 
 
-"terms": "Laufbahn.Fahrstraße"
+"terms": "Laufbahn, Tartanbahn"
 
 
 
@@ -12256,13 +12549,13 @@
 
 
 
-"name": "Zivilbauten",
+"name": "Bauten",
 
 
 
 
 
-"terms": "künstlich"
+"terms": "künstlich, Bauwerk"
 
 
 
@@ -12306,7 +12599,7 @@
 
 
 
-"terms": "Mole"
+"terms": "Wellenbrecher, Buhnen"
 
 
 
@@ -12328,7 +12621,7 @@
 
 
 
-"terms": "Schneise"
+"terms": "Schneise, Durchhau, Lücke, Bewuchsunterbrechung"
 
 
 
@@ -12344,7 +12637,7 @@
 
 
 
-"name": "Fahrdamm",
+"name": "Böschung",
 
 
 
@@ -12482,7 +12775,7 @@
 
 
 
-"terms": "Anleger, Pier"
+"terms": "Anleger, Pier, Seebrücke"
 
 
 
@@ -12724,7 +13017,7 @@
 
 
 
-"terms": "Barracken"
+"terms": "Baracken"
 
 
 
@@ -12756,6 +13049,94 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "Kontrollpunkt",
+
+
+
+
+
+"terms": "Grenzübergang"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Gefahrenbereich",
+
+
+
+
+
+"terms": "Gefahrenbereich, gefährlicher Bereich"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Marinestützpunkt",
+
+
+
+
+
+"terms": "Marinestützpunkt, Flottenstützpunkt"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Hindernisstrecke",
+
+
+
+
+
+"terms": "Hindernisbahn"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12769,6 +13150,28 @@
 
 
 "terms": "Schießstand, Truppenübungsplatz"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Übungsplatz",
+
+
+
+
+
+"terms": "Truppenübungsplatz"
 
 
 
@@ -12900,7 +13303,7 @@
 
 
 
-"terms": "Ufer"
+"terms": "Ufer, Küste"
 
 
 
@@ -12916,13 +13319,13 @@
 
 
 
-"name": "Bergweide",
+"name": "Fjell",
 
 
 
 
 
-"terms": "Fjell, Fjäll, Fjall, Tunturi, Bergtundra, Bergweide, Bergwiese, Almwiese, Alm, Alp, Matte, Alpine Matte"
+"terms": "Fjell, Fjäll, Fjall, Tunturi, Bergtundra"
 
 
 
@@ -12960,13 +13363,13 @@
 
 
 
-"name": "Wiese",
+"name": "Grasland",
 
 
 
 
 
-"terms": "Weide, Wiese, Grünland"
+"terms": "Grünland"
 
 
 
@@ -13010,7 +13413,7 @@
 
 
 
-"terms": "Gipfel,Felsnadel,Alpe,Höhepunkt,Scheitelpunkt,Hügel,Berg,Bergspitze,Bergkuppe,Zipfel"
+"terms": "Gipfel,Felsnadel,Alpe,Höhepunkt,Hügel,Berg,Bergspitze,Bergkuppe,Zipfel"
 
 
 
@@ -13290,13 +13693,13 @@
 
 
 
-"name": "Wald",
+"name": "Naturwald",
 
 
 
 
 
-"terms": "Urwald, Naturwald"
+"terms": "Urwald, Naturwald, Wald"
 
 
 
@@ -13626,7 +14029,7 @@
 
 
 
-"terms": "Gemeinnütziger Verein"
+"terms": "NRO, Nichtregierungsorganisation"
 
 
 
@@ -13862,13 +14265,13 @@
 
 
 
-"name": "Siedlung",
+"name": "Weiler",
 
 
 
 
 
-"terms": "Weiler, kleines Dorf"
+"terms": "Weiler, sehr kleines Dorf, kleine Siedlung, Zinken, Hofschaft, Drubbel"
 
 
 
@@ -13890,7 +14293,7 @@
 
 
 
-"terms": "Inselgruppe,Archipel,Atoll,Inselchen,Insel,Koralleninsel,Riff"
+"terms": "Insel"
 
 
 
@@ -13912,7 +14315,7 @@
 
 
 
-"terms": "frei stehendes Haus, Einzelhaus"
+"terms": "frei stehendes Haus, Einzelhaus, Einöde"
 
 
 
@@ -13928,7 +14331,7 @@
 
 
 
-"name": "Ortschaft",
+"name": "Örtlichkeit",
 
 
 
@@ -14000,7 +14403,7 @@
 
 
 
-"terms": "Stadt, Ortschaft"
+"terms": "Kleinstadt"
 
 
 
@@ -14258,13 +14661,13 @@
 
 
 
-"name": "Bahnsteig",
+"name": "Bahn-/ Bussteig ",
 
 
 
 
 
-"terms": "Halte-Plattform"
+"terms": "Halte-Plattform, Bussteig"
 
 
 
@@ -14324,13 +14727,13 @@
 
 
 
-"name": "Stillgelegte Eisenbahnstrecke",
+"name": "Aufgelassene Eisenbahnstrecke",
 
 
 
 
 
-"terms": "Stillgelegte Eisenbahn, Verfallene Eisenbahn"
+"terms": "Verfallene Eisenbahn, Aufgegebene Bahnstrecke"
 
 
 
@@ -14352,7 +14755,7 @@
 
 
 
-"terms": "Ungenutzte Eisenbahn, Eingestellte Eisenbahnstrecke"
+"terms": "Ungenutzte Eisenbahn, Eingestellte Eisenbahnstrecke, Stillgelegte Eisenbahn, Stillgelegte Bahnstrecke"
 
 
 
@@ -14412,7 +14815,7 @@
 
 
 
-"name": "Eisenbahnkreuzung",
+"name": "Bahnübergang",
 
 
 
@@ -14456,7 +14859,7 @@
 
 
 
-"name": "Schmalspureisenbahn",
+"name": "Schmalspurbahn",
 
 
 
@@ -14506,7 +14909,7 @@
 
 
 
-"terms": "Eisenbahnschienen"
+"terms": "Gleise, Eisenbahnschienen, Schiene"
 
 
 
@@ -14528,7 +14931,7 @@
 
 
 
-"terms": "Bahnhof, Haltepunkt, Haltestelle"
+"terms": "Bahnhof, Haltestelle"
 
 
 
@@ -14616,7 +15019,7 @@
 
 
 
-"terms": "Relation, Beziehung, Verbindung"
+"terms": "Relation, Beziehung"
 
 
 
@@ -14704,7 +15107,7 @@
 
 
 
-"terms": "Alkohol"
+"terms": "Alkoholika"
 
 
 
@@ -14720,13 +15123,13 @@
 
 
 
-"name": "Zeichentrickladen",
+"name": "Anime-Geschäft",
 
 
 
 
 
-"terms": "Zeichentrickladen,Zeichentrickgeschäft"
+"terms": "Anime"
 
 
 
@@ -14770,7 +15173,7 @@
 
 
 
-"terms": "Kunstgalerie"
+"terms": "Kunstgalerie, Galerie"
 
 
 
@@ -15540,7 +15943,7 @@
 
 
 
-"terms": "Erotikladen"
+"terms": "Erotikladen, sexshop"
 
 
 
@@ -15578,13 +15981,13 @@
 
 
 
-"name": "Obst- und Gemüsestand",
+"name": "Hofladen",
 
 
 
 
 
-"terms": "Hofladen"
+"terms": "Obst- und Gemüsestand, Hofladen"
 
 
 
@@ -15694,7 +16097,7 @@
 
 
 
-"terms": "Beerdigungsinstitut, Bestattungsinstitut, Bestattungsunternehmen"
+"terms": "Beerdigungsinstitut, Bestattungsinstitut, Bestattungsunternehmen, Bestatter, Pompfüneberer"
 
 
 
@@ -15710,7 +16113,7 @@
 
 
 
-"name": "Heizungsinstallateur",
+"name": "Heizungsfachgeschäft",
 
 
 
@@ -15760,7 +16163,7 @@
 
 
 
-"terms": "Gartenzentrum, Gartencenter"
+"terms": "Gartenzentrum, Gartencenter, Gartenmarkt"
 
 
 
@@ -15870,7 +16273,7 @@
 
 
 
-"terms": "Hörgerätegeschäft,Hörhilfengeschäft"
+"terms": "Hörgerätegeschäft, Hörhilfengeschäft, Akustiker"
 
 
 
@@ -16310,7 +16713,7 @@
 
 
 
-"terms": "Zeitungs/Zeitschriftenladen"
+"terms": "Zeitungs-/ Zeitschriftenladen"
 
 
 
@@ -16354,7 +16757,7 @@
 
 
 
-"terms": "Bioladen,Biolebensmittelhändler"
+"terms": "Bioladen,Biolebensmittelhändler, Biomarkt"
 
 
 
@@ -16728,7 +17131,7 @@
 
 
 
-"terms": "Tätowierungsladen,Peckerlstube"
+"terms": "Tätowierungsladen, Peckerlstube, Tattoostudio"
 
 
 
@@ -16876,13 +17279,13 @@
 
 
 
-"name": "Freistehendes Geschäft",
+"name": "Leerstehendes Geschäft",
 
 
 
 
 
-"terms": "leer stehendes Geschäft"
+"terms": "leerstehendes Geschäft, leeres Geschäft"
 
 
 
@@ -17448,13 +17851,13 @@
 
 
 
-"name": "Temposchwelle",
+"name": "Bremsschwelle (schmal)",
 
 
 
 
 
-"terms": "Temposchwelle, Bodenschwelle, Beruhigungsschwelle, Rüttelschwelle, Fahrbahnhöcker, Bremsschwelle, Bremshügel"
+"terms": "Temposchwelle, Bodenschwelle, Beruhigungsschwelle, Rüttelschwelle, Fahrbahnhöcker, Bremsschwelle, Bremshügel, Drempel"
 
 
 
@@ -17470,13 +17873,13 @@
 
 
 
-"name": "Bodenschwelle",
+"name": "Bremsschwelle (breit)",
 
 
 
 
 
-"terms": "Bodenschwelle, Bremshügel"
+"terms": "Temposchwelle, Bodenschwelle, Beruhigungsschwelle, Rüttelschwelle, Fahrbahnhöcker, Bremsschwelle, Bremshügel, Drempel"
 
 
 
@@ -17492,13 +17895,13 @@
 
 
 
-"name": "Fahrbahnschwelle",
+"name": "Rüttelstreifen",
 
 
 
 
 
-"terms": "Fahrbahnschwelle, Rüttelstreifen"
+"terms": "Rumpelstreifen, Rüttelstreifen, Holperstreifen"
 
 
 
@@ -17520,7 +17923,7 @@
 
 
 
-"terms": "Erhöhter Fußgängerübergang"
+"terms": "Erhöhter Fußgängerübergang, Aufpflasterung"
 
 
 
@@ -17756,13 +18159,13 @@
 
 
 
-"name": "Kehrtwendeverbot",
+"name": "Abbiegeverbot",
 
 
 
 
 
-"terms": "Kehrwendeverbot, keine Kehrtwende erlaubt, Umdrehverbot, Umdrehen verboten"
+"terms": "Abbiegeverbot, nur geradeaus, Abbiegen verboten"
 
 
 
@@ -17800,13 +18203,13 @@
 
 
 
-"name": "Radweg",
+"name": "Radwanderweg",
 
 
 
 
 
-"terms": "Radroute"
+"terms": "Radroute, Fahrradroute"
 
 
 
@@ -17916,7 +18319,7 @@
 
 
 
-"terms": "Wanderweg,Spazierweg,Pilgerweg"
+"terms": "Wanderweg, Fernwanderweg, Pilgerweg, Trekking"
 
 
 
@@ -18048,7 +18451,7 @@
 
 
 
-"terms": "Routemaster, Doppeldeckerbus"
+"terms": "Routemaster"
 
 
 
@@ -18180,7 +18583,7 @@
 
 
 
-"terms": "Ablauf, Abfluss, Kanal"
+"terms": "Ablauf, Abfluss"
 
 
 
@@ -18196,13 +18599,13 @@
 
 
 
-"name": "Meerestankstelle",
+"name": "Bootstankstelle",
 
 
 
 
 
-"terms": "Schiffstankstelle, Meerestankstelle"
+"terms": "Bootstankstelle"
 
 
 

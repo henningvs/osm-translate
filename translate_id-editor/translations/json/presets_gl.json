@@ -186,12 +186,6 @@
 
 
 
-"label": "Acceso",
-
-
-
-
-
 "options": {
 
 
@@ -207,7 +201,7 @@
 
 
 
-"description": "Acceso permitido segundo sinais ou ordenanzas locais específicas",
+"description": "Acceso libre e regulado por sinais e ordenanzas locais",
 
 
 
@@ -267,7 +261,7 @@
 
 
 
-"description": "Acceso non permitido ao público en xeral",
+"description": "Acceso restrinxido ao público xeral",
 
 
 
@@ -297,7 +291,7 @@
 
 
 
-"description": "Acceso permitido ata que o propietario revogue o permiso",
+"description": "Acceso permitido até que o propietario revogue o permiso",
 
 
 
@@ -384,20 +378,7 @@
 
 
 
-"placeholder": "Descoñecido",
-
-
-
-
-
 "types": {
-
-
-
-
-
-
-"access": "Xeral",
 
 
 
@@ -442,12 +423,6 @@
 
 
 "access_simple": {
-
-
-
-
-
-"label": "Acceso",
 
 
 
@@ -505,7 +480,21 @@
 
 
 
+"conscriptionnumber": "123",
+
+
+
+
+
+
 "country": "País",
+
+
+
+
+
+
+"district": "Distrito",
 
 
 
@@ -547,7 +536,28 @@
 
 
 
+"province": "Provincia",
+
+
+
+
+
+
+"state": "Estado",
+
+
+
+
+
+
 "street": "Rúa",
+
+
+
+
+
+
+"subdistrict": "Subdistrito",
 
 
 
@@ -577,6 +587,22 @@
 
 
 "label": "Nivel administrativo"
+
+
+
+
+},
+
+
+
+
+"aerialway": {
+
+
+
+
+
+"label": "Tipo"
 
 
 
@@ -1266,7 +1292,7 @@
 
 
 
-"label": "Biodiesel"
+"label": "Con Biodiesel"
 
 
 
@@ -1282,7 +1308,7 @@
 
 
 
-"label": "Diésel"
+"label": "Con Diésel"
 
 
 
@@ -1298,7 +1324,7 @@
 
 
 
-"label": "Gasolina 95"
+"label": "Con Gasolina 95"
 
 
 
@@ -1314,7 +1340,7 @@
 
 
 
-"label": "Gasolina 98"
+"label": "Con Gasolina 98"
 
 
 
@@ -1635,7 +1661,7 @@
 
 
 
-"label": "Dificultade en Bicicleta de Montaña",
+"label": "Dificultade en bicicleta de montaña",
 
 
 
@@ -1763,7 +1789,7 @@
 
 
 
-"undefined": "Suponse Non",
+"undefined": "Suponse «Non»",
 
 
 
@@ -1812,7 +1838,7 @@
 
 
 
-"undefined": "Suponse Si",
+"undefined": "Suponse «Si»",
 
 
 
@@ -2103,7 +2129,7 @@
 
 
 
-"label": "Refuxio"
+"label": "Pousada"
 
 
 
@@ -2167,7 +2193,7 @@
 
 
 
-"label": "Estructura",
+"label": "Estrutura",
 
 
 
@@ -2347,7 +2373,7 @@
 
 
 
-"placeholder": "http://exemplo.com/"
+"placeholder": "http://exemplo.gal/"
 
 
 
@@ -2581,7 +2607,7 @@
 
 
 
-"name": "Aparcadoiro de Bicicletas"
+"name": "Aparcadoiro de bicicletas"
 
 
 
@@ -2597,7 +2623,7 @@
 
 
 
-"name": "Alugamento de Bicicletas"
+"name": "Alugamento de bicicletas"
 
 
 
@@ -2843,7 +2869,7 @@
 
 
 
-"name": "Parque de Bombeiros"
+"name": "Parque de bombeiros"
 
 
 
@@ -2955,7 +2981,7 @@
 
 
 
-"name": "Aparcadoiro de Automóviles"
+"name": "Aparcadoiro de automóviles"
 
 
 
@@ -2987,7 +3013,7 @@
 
 
 
-"name": "Lugar de Culto",
+"name": "Lugar de culto",
 
 
 
@@ -3285,7 +3311,7 @@
 
 
 
-"terms": "casa do concello, concello, ayuntamiento, municipal"
+"terms": "casa do concello, concello, consistorio, municipio, municipal, cabido"
 
 
 
@@ -3911,7 +3937,7 @@
 
 
 
-"name": "Estrada Primaria"
+"name": "Estrada primaria"
 
 
 
@@ -4039,7 +4065,7 @@
 
 
 
-"name": "Estrada Terciaria"
+"name": "Estrada terciaria"
 
 
 
@@ -4103,7 +4129,7 @@
 
 
 
-"name": "Estrada Troncal"
+"name": "Estrada troncal"
 
 
 
@@ -4135,7 +4161,7 @@
 
 
 
-"name": "Círculo de Xiro"
+"name": "Círculo de xiro"
 
 
 
@@ -4167,7 +4193,7 @@
 
 
 
-"name": "Lugar Histórico"
+"name": "Lugar histórico"
 
 
 
@@ -4237,7 +4263,7 @@
 
 
 
-"name": "Monumento"
+"name": "Monumento conmemorativo"
 
 
 
@@ -4302,38 +4328,6 @@
 
 
 "name": "Peto de ánimas"
-
-
-
-
-},
-
-
-
-
-"landuse": {
-
-
-
-
-
-"name": "Uso do Solo"
-
-
-
-
-},
-
-
-
-
-"landuse/allotments": {
-
-
-
-
-
-"name": "Horta"
 
 
 
@@ -4445,7 +4439,7 @@
 
 
 
-"name": "Campo"
+"name": "Prado"
 
 
 
@@ -4461,7 +4455,7 @@
 
 
 
-"name": "Pomar"
+"name": "Área de froitais"
 
 
 
@@ -4579,7 +4573,7 @@
 
 
 
-"name": "Campo Deportivo"
+"name": "Campo deportivo"
 
 
 
@@ -4595,7 +4589,7 @@
 
 
 
-"name": "Campo de Fútbol Americano"
+"name": "Campo de fútbol americano"
 
 
 
@@ -4611,7 +4605,7 @@
 
 
 
-"name": "Diamante de Béisbol"
+"name": "Diamante de béisbol"
 
 
 
@@ -4627,7 +4621,7 @@
 
 
 
-"name": "Cancha de Baloncesto"
+"name": "Cancha de baloncesto"
 
 
 
@@ -4643,7 +4637,7 @@
 
 
 
-"name": "Campo de Fútbol"
+"name": "Campo de fútbol"
 
 
 
@@ -4659,7 +4653,7 @@
 
 
 
-"name": "Cancha de Tenis"
+"name": "Cancha de tenis"
 
 
 
@@ -4691,7 +4685,7 @@
 
 
 
-"name": "Parque Infantil"
+"name": "Área de recreo"
 
 
 
@@ -4803,7 +4797,7 @@
 
 
 
-"name": "Embarcadoiro"
+"name": "Peirao"
 
 
 
@@ -4835,7 +4829,7 @@
 
 
 
-"name": "Vértice Xeodésico"
+"name": "Vértice xeodésico"
 
 
 
@@ -5017,7 +5011,7 @@
 
 
 
-"name": "Páramo"
+"name": "Uceira ou breixeira"
 
 
 
@@ -5617,7 +5611,7 @@
 
 
 
-"name": "Entrada de Metro"
+"name": "Entrada de metro"
 
 
 
@@ -6423,7 +6417,7 @@
 
 
 
-"name": "Zona de Picnic"
+"name": "Zona de picnic"
 
 
 

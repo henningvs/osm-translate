@@ -2126,6 +2126,9 @@
 "cannot_zoom": "V tomto móde nemožno viac oddialiť.",
 
 
+"full_screen": "Prepni na plnú obrazovku",
+
+
 "gpx": {
 
 
@@ -2186,7 +2189,7 @@
 
 
 
-"gps": "# GPS\nGPS údaje sú najviac dôveryhodný zdroj dát pre OpenStreetMap. Tento editor podporuje stopy z lokálnych \".gpx\" súborov na vašom počítači. Tento typ GPS stôp môžete zachytiť pomocou rôznych aplikácií pre múdre telefóny ako aj GPS prístrojmi.\n\nPre informácie, ako robiť GPS prieskum, si prečítajte [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nAby ste použili GPX trasu pre mapovanie, pretiahnite a pustite GPX súbor na mapový editor. Po rozpoznaní, bude pridaný na mapu ako jasná fialová čiara. Kliknite na ponuku \"Mapové údaje\" na ľavej strane pre zapnutie, vypnutie alebo priblíženie na túto novú GPX vrstvu.\n\nGPX trasa nie je priamo nahraná na OpenStreetMap. Najlepší spôsob ako ju využiť je, použiť ju ako predlohu pre zakreslovanie nových objektov a potom ju [nahrať na OpenStreetMap](http://www.openstreetmap.org/trace/create) pre ďalších uživateľov.\n \n",
+"gps": "# GPS\n\nzozbierané GPS údaje sú najcennejší zdroj dát pre OpenStreetMap. Tento editor\npodporuje stopy z lokálnych \".gpx\" súborov na vašom počítači. Tento typ GPS stôp\nmôžete zachytiť pomocou rôznych aplikácií pre smartfóny ako aj GPS\nprístrojmi.\n\nPre informácie, ako robiť GPS prieskum, si prečítajte\n[Mapovanie so smartfónom, GPS alebo papierom](http://learnosm.org/en/mobile-mapping/).\n\nPre použitie GPX stopy pre mapovanie, pretiahnite a pustite GPX súbor na mapový\neditor. Po rozpoznaní, bude pridaná na mapu ako jasná fialová\nčiara. Kliknite na ponuku \"Mapové údaje\" na pravej strane pre zapnutie,\nvypnutie alebo priblíženie na túto novú GPX vrstvu. \n\nGPX stopa nie je priamo nahraná na OpenStreetMap. Najlepší spôsob ako\nju využiť je, použiť ju ako predlohu pre zakreslovanie nových objektov\na potom ju [nahrať na OpenStreetMap](http://www.openstreetmap.org/trace/create)\npre ďalších uživateľov.\n",
 
 
 
@@ -2198,7 +2201,7 @@
 
 
 
-"inspector": "# Používanie Inšpektora\n\nInšpektor je používateľské rozhranie na ľavej strane stránky, ktoré sa objaví po vybraní objektu a umožní vám upravovať detaily.\n\n### Voľba typu objektu\n\nPo tom ako pridáte bod, čiaru alebo plochu, môžete vybrať aký je to typ objektu. Napríklad či je to diaľnica alebo obytná ulica, či supermarket alebo kaviareň. Inšpektor zobrazí tlačítka pre bežné typy objektov a nájsť ďalšie môžete zadaním toho, čo hľadáte do vyhľadávacieho poľa.\n\nKliknite na \"i\" v pravom dolnom rohu tlačítka pre výber typu objektu, ak sa chcete o ňom dozvedieť viac. Kliknite na tlačítko a vyberte typ objektu.\n\n### Používanie formulárov a upravovanie označenia\n\nPo tom ako zvolíte typ objektu, alebo keď vyberiete objekt, ktorý už má pridelený typ, inšpektor zobrazí polia s detailmi o objekte ako jeho meno a adresa.\n\nPod poliami sú ikony, na ktoré môžete kliknúť a pridať ďalšie detaily ako informácie z [Wikipédie](http://www.wikipedia.org/), prístup pre vozičkárov a ďalšie.\n\nNaspodku inšpektora kliknite na \"Dodatočné označenia\" pre pridanie  ľubovoľných označení pre daný element. [Taginfo](http://taginfo.openstreetmap.org/) je výborný zdroj pre zistenie populárnych kombinácií označení.\n\nZmeny, ktoré spravíte v inšpektorovi, sú automaticky aplikované na mapu. Vrátiť späť ich môžete kedykoľvek kliknutím na tlačítko \"Vrátiť\".\n",
+"inspector": "# Používanie Inšpektora\n\nInšpektor je sekcia na ľavej strane stránky, ktorá vám umožní\nupravovať detaily vybraného objektu.\n\n### Voľba typu objektu \n\nPo tom ako pridáte bod, čiaru alebo plochu, môžete vybrať aký je to typ objektu.\nNapríklad či je to diaľnica alebo obytná ulica, či supermarket alebo kaviareň.\nInšpektor zobrazí tlačítka pre bežné typy objektov a ďalšie môžete nájsť zadaním\ntoho, čo hľadáte do vyhľadávacieho poľa.\n\nKliknite na \"i\" v pravom dolnom rohu tlačítka pre výber typu objektu, ak sa chcete o ňom dozvedieť viac. Kliknutím na tlačítko vyberiete tento typ objektu.\n\n### Používanie formulárov a upravovanie označenia\n\nPo tom ako zvolíte typ objektu, alebo keď vyberiete objekt, ktorý už má\npridelený typ, inšpektor zobrazí polia s detailmi o objekte ako jeho\nmeno a adresa. \n\nPod poliami, ktoré vidíte, môžete kliknúť na \"Pridať pole\" a pridať ďalšie detaily\nako odkaz na Wikipédiu, prístup pre vozičkárov a ďalšie.\n\nNaspodku inšpektora kliknite na \"Dodatočné označenia\" pre pridanie ľubovoľných\noznačení pre daný element. [Taginfo](http://taginfo.openstreetmap.org/) je\nvýborný zdroj pre zistenie populárnych kombinácií označení.\n\nZmeny, ktoré spravíte v inšpektorovi, sú automaticky aplikované na mapu.\nVrátiť späť ich môžete kedykoľvek kliknutím na tlačítko \"Vrátiť\".\n",
 
 
 

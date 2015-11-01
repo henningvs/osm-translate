@@ -972,7 +972,7 @@
 
 
 
-"select": "Spustelėkite, kad pasiringtumėte kelio atkarpą.",
+"select": "Spustelėkite, kad pasirinktumėte kelio atkarpą.",
 
 
 
@@ -1139,6 +1139,10 @@
 
 
 
+"message_label": "Pakeitimo komentaras",
+
+
+
 "upload_explanation": "Jūsų įkeliami pakeitimai bus matomi visuose žemėlapiuose, naudojančiuose OpenStreetMap duomenis.",
 
 
@@ -1186,6 +1190,82 @@
 
 
 "truncated_list": "Keitėjai {users} ir {count} kitų"
+
+
+},
+
+
+"infobox": {
+
+
+
+"selected": "{n} pažymėta",
+
+
+
+"geometry": "Geometrija",
+
+
+
+"closed": "uždaryta",
+
+
+
+"center": "Centras",
+
+
+
+"perimeter": "Perimetras",
+
+
+
+"length": "Ilgis",
+
+
+
+"area": "Plotas",
+
+
+
+"centroid": "Centroidas",
+
+
+
+"location": "Vieta",
+
+
+
+"metric": "Metrinė",
+
+
+
+"imperial": "Imperinė"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "taškas",
+
+
+
+"vertex": "viršūnė",
+
+
+
+"line": "linija",
+
+
+
+"area": "plotas",
+
+
+
+"relation": "ryšys"
 
 
 },
@@ -1383,7 +1463,25 @@
 
 
 
-"reset": "iš naujo"
+"reset": "iš naujo",
+
+
+
+"minimap": {
+
+
+
+
+"description": "Minižemėlapis",
+
+
+
+
+"tooltip": "Rodyti atitolintą žemėlapį, kad būtų lengviau rasti šiuo metu rodomą vietą."
+
+
+
+}
 
 
 },
@@ -2084,10 +2182,6 @@
 
 
 
-"gps": "# GPS\n\nGPS duomenys - patikimiausias duomenų šaltinis atvirame žemėlapyje. Šis redaktorius palaiko vietinius pėdsakus - „.gpx“ failus jūsų kompiuteryje. Jūs galite surinkti tokius GPS pėdsakus eile išmaniųjų telefonų aplikacijų arba asmenine GPS įranga.\n\nDaugiau informacijos apie tai, kaip daryti GPS apžiūrą rasite [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nNorint panaudoti GPX pėdsaką žymėjimui, atitempkite GPX failą ant žemėlapio. Jei jis bus atpažintas - pamatysite jį žemėlapyje kaip ryškią purpurinę liniją. Spauskite dešinėje esantį meniu „Žemėlapio duomenys“, norėdami įjungti, išjungti ar priartinti šį naują GPX valdomą sluoksnį.\n\nGPX pėdsakas nekeliamas tiesiogiai į OpenStreetMap - geriausias naudojimo būdas - naudoti pėdsaką kaip orientyrą braižant naujus žemėlapio objektus. Vėliau pėdsaką patartina įkelti, kad jį galėtų naudoti kiti braižytojai [upload it to OpenStreetMap](http://www.openstreetmap.org/trace/create).\n",
-
-
-
 "imagery": "# Nuotraukos\n\nIš oro ar palydovo darytos nuotraukos - svarbus žemėlapio paišymo pagalbininkas.\nDešinėje esančiame meniu rasite įvairių nuotraukų, darytų iš lėktuvų, palydovų ar\nkombinuotų šaltinių.\n\nTik įjungus redaktorių bus automatiškai įjungtas [Bing Maps](http://www.bing.com/maps/)\npalydovinis sluoksnis, bet priklausomai nuo to, kurioje geografinėje vietoje\nredaguojate - bus rodomi ir kiti nuotraukų šaltiniai. Kai kurios šalys, tokios kaip\nJAV, Prancūzija, Danija ir Lietuva turi labai aukštos kokybės ir tikslumo\nortofotonuotraukas. Pavyzdžiui Lietuvoje reikėtų naudoti NŽT ORT10LT.\n\nNuotraukos kartais būna pasislinkusios nuo realios pozicijos dėl nuotraukų\ntiekėjo klaidų. Jei matote, kad daug kelių ar kitų objektų yra pasislinkę nuo\nnuotraukos, nepulkite jų tempti į „teisingas“ vietas. Vietoje to geriau pataisykite\nnuotraukos poziciją pagal esamus duomenis, paspaudę fono parinkčių apačioje\n„Taisyti lygiavimą“. NŽT ORT10LT lygiavimas yra teisingas visoje Lietuvos\nteritorijoje, taigi jo taisyti nereikia.\n",
 
 
@@ -2096,7 +2190,7 @@
 
 
 
-"inspector": "# Inspektoriaus naudojimas\n\nInspekatorius - tai puslapio kairėje esanti dalis, kurioje jūs galite keisti pažymėto objekto detales.\n\n### Objekto tipo parinkimas\n\nPo to, kai jūs pridedate tašką, liniją ar plotą, jūs galite pasirinkti kokio tipo tai objektas, pavyzdžiui ar tai yra greitkelis ar kelias, prekybos centras ar kavinė. Inspektorius rodys mygtukus populiariausiems objektų tipams, o kitus galite rasti įrašydami raktažodžius į paieškos lauką.\n\nSpauskite „i“ objekto tipo mygtuko dešinėje apatinėje pusėje, jei norite sužinoti daugiau. Spauskite mygtuką, jei norite parinkti tipą.\n\n### Formų naudojimas ir žymų keitimas\n\nPo to, kai jūs parenkate objekto tipą, arba kai parinkote objektą, kurio tipas jau buvo nurodytas, inspektorius rodys laukus su objekto informacija, tokia kaip pavadinimas ir adresas.\n\nPo šiais laukais jūs galite spausti piktogramas, kad pridėtumėte kitas detales, tokias kaip [Wikipedijos](http://www.wikipedia.org/) informaciją, prieinamumą vėžymėlyje ir pan.\n\nInspektoriaus apačioje spauskite „Papildomo žymos“, kad pridėtumėte prie objekto bet kokias kitas žymas. [Taginfo](http://taginfo.openstreetmap.org/) - puikus resursas, kurio pagalba galite sužinoti daugiau apie kitas populiarias žymų kombinacijas.\n\nPakeitimai, kuriuos darote inspektoriuje automatiškai pritaikomi žemėlapiui. Bet kuriuo metu galite atstatyti pakeitimus spausdami mygtuką „atstatyti“.\n",
+"inspector": "# Inspektoriaus naudojimas\n\nInspektorius - tai kairėje puslapio pusėje esanti skiltis, leidžianti jums keisti pažymėto objekto savybes.\n\n### Objekto tipo parinkimas\n\nPridėję tašką, liniją ar plotą, jūs galite parinkti, kokio tipo tai objektas. Pavyzdžiui ar tai greitkelis ar gyvenamasis kelias, parduotuvė ar kavinė. Inspektorius rodys mygtukus populiariausiems objektų tipams, o kitus tipus rasite rašydami paieškos lauke tai, ko norite.\n\nSpauskite objekto tipo mygtuko dešinėje apačioje esantį mygtuką „i“, kad sužinotumėte daugiau. Spauskite patį mygtuką, kad parinktumėte tipą.\n\n### Formų naudojimas ir žymų keitimas\n\nParinkus objekto tipą arba pažymėjus objektą, kurio tipas jau parinktas, inspektorius rodys objekto tipo laukus, tokius kaip pavadinimas ir adresas.\n\nPo šių laukų galite spausti iškrentantį sąrašą „Pridėti lauką“, kad pridėtumėte kitą informaciją, tokia kaip nuorodą į wikipediją, prieigą neįgaliesiems ir pan.\n\nInspektoriaus apačioje galite spausti „Papildomos žhmos“, kad pridėtumėte bet kokias norimas kitas žymas. [Taginfo](http://taginfo.openstreetmap.org/) yra puiki vieta, kur galima sužinoti apie populiarias žymų kombinacijas.\n\nInspektoriuje padaryti pakeitimai automatiškai pritaikomi žemėlapiui. Pakeitimus galite atstatyti bet kokiu metu paspaudę mygtuką „Atšaukti“.\n",
 
 
 

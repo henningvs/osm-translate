@@ -186,7 +186,7 @@
 
 
 
-"label": "Tillgång",
+"label": "Tillåten åtkomst",
 
 
 
@@ -246,6 +246,36 @@
 
 
 "title": "Destination"
+
+
+
+
+
+
+},
+
+
+
+
+
+
+"dismount": {
+
+
+
+
+
+
+
+"description": "Åtkomst tillåten, men förare måste stiga av",
+
+
+
+
+
+
+
+"title": "Avstigning"
 
 
 
@@ -384,7 +414,7 @@
 
 
 
-"placeholder": "Okänt",
+"placeholder": "Ej specificerat",
 
 
 
@@ -447,7 +477,7 @@
 
 
 
-"label": "Tillgång",
+"label": "Tillåten åtkomst",
 
 
 
@@ -2670,6 +2700,62 @@
 
 
 
+"leaf_cycle_singular": {
+
+
+
+
+
+"label": "Lövcykel",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"deciduous": "Lövfällande",
+
+
+
+
+
+
+"evergreen": "Vintergrön",
+
+
+
+
+
+
+"semi_deciduous": "Delvist lövfällande",
+
+
+
+
+
+
+"semi_evergreen": "Delvist vintergrön"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
 "leaf_type": {
 
 
@@ -2704,6 +2790,55 @@
 
 
 "mixed": "Blandat",
+
+
+
+
+
+
+"needleleaved": "Barr"
+
+
+
+
+
+}
+
+
+
+
+},
+
+
+
+
+"leaf_type_singular": {
+
+
+
+
+
+"label": "Lövtyp",
+
+
+
+
+
+"options": {
+
+
+
+
+
+
+"broadleaved": "Löv",
+
+
+
+
+
+
+"leafless": "Utan löv",
 
 
 
@@ -3819,6 +3954,22 @@
 
 
 
+"recycling/glass_bottles": {
+
+
+
+
+
+"label": "Accepterar glasflaskor"
+
+
+
+
+},
+
+
+
+
 "recycling/paper": {
 
 
@@ -3826,6 +3977,22 @@
 
 
 "label": "Accepterar papper"
+
+
+
+
+},
+
+
+
+
+"recycling/plastic": {
+
+
+
+
+
+"label": "Accepterar plast"
 
 
 
@@ -4935,6 +5102,22 @@
 
 
 "placeholder": "Fast, Mestadels fast, Mjuk ..."
+
+
+
+
+},
+
+
+
+
+"traffic_signals": {
+
+
+
+
+
+"label": "Typ"
 
 
 
@@ -6596,6 +6779,28 @@
 
 
 
+"amenity/motorcycle_parking": {
+
+
+
+
+
+"name": "Motorcykelparkering",
+
+
+
+
+
+"terms": "Motorcykelparkering, parkering motorcykel, ställplats, motorcykelställ, parkering, motorcykel, parkeringsplats, parkeringsplats motorcykel"
+
+
+
+
+},
+
+
+
+
 "amenity/nightclub": {
 
 
@@ -8076,13 +8281,13 @@
 
 
 
-"name": "Fristående villa",
+"name": "Fristående hus",
 
 
 
 
 
-"terms": "Villa, hus, småhus, enfamiljshus, enbostadshus, kåk, egnahem, fristående hus, friliggande hus, envåningshus"
+"terms": "Villa, hus, småhus, enfamiljshus, enbostadshus, kåk, egnahem, fristående hus, friliggande hus, envåningshus, fristående villa, friliggande villa"
 
 
 
@@ -8435,6 +8640,28 @@
 
 
 "terms": "Skolbyggnad, skola, läroanstalt, undervisningsanstalt, lärosäte, grundskola, gymnasium, folkhögskola, läroverk, skolhus, skolväsen, undervisning, utbildning, mellanstadium, lågstadium, högstadium, komvux"
+
+
+
+
+},
+
+
+
+
+"building/semidetached_house": {
+
+
+
+
+
+"name": "Delvist Fristående hus",
+
+
+
+
+
+"terms": "Villa, hus, småhus, fristående hus, friliggande hus, radhus, parhus, radhusområde, parhusområde"
 
 
 
@@ -10612,7 +10839,7 @@
 
 
 
-"terms": "Utryckningsfordon, Räddningsväg, brandväg"
+"terms": "Utryckningsfordon, Räddningsväg, brandväg, brandbil, ambulans, polis, brandkår"
 
 
 
@@ -11140,7 +11367,7 @@
 
 
 
-"terms": "Markanvändning, Översiktsplan"
+"terms": "Markanvändning, landanvändning, användningsområde"
 
 
 
@@ -11156,13 +11383,13 @@
 
 
 
-"name": "Kolonilotter",
+"name": "Koloniområde",
 
 
 
 
 
-"terms": "Kolonilott, lott, täppa, koloniträdgård, odlingslott, "
+"terms": "Kolonilott, lott, täppa, koloniträdgård, odlingslott, koloniområde"
 
 
 
@@ -11678,6 +11905,28 @@
 
 
 
+"leisure/bowling_alley": {
+
+
+
+
+
+"name": "Bowlinghall",
+
+
+
+
+
+"terms": "Bowlingbana, bowlinghall, bowling, kägelsport, kägelspel"
+
+
+
+
+},
+
+
+
+
 "leisure/common": {
 
 
@@ -11977,6 +12226,50 @@
 
 
 "terms": "Basketplan, basket, korgboll"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_league": {
+
+
+
+
+
+"name": "Rugby League-plan",
+
+
+
+
+
+"terms": "Rugby League, rugby, rugger, rugby football, rugbyplan"
+
+
+
+
+},
+
+
+
+
+"leisure/pitch/rugby_union": {
+
+
+
+
+
+"name": "Rugby Union-plan",
+
+
+
+
+
+"terms": "Rugby Union-plan, rugby union, rugby, rugger, rugby football, rugbyplan"
 
 
 
@@ -12756,6 +13049,94 @@
 
 
 
+"military/checkpoint": {
+
+
+
+
+
+"name": "kontrollpunkt",
+
+
+
+
+
+"terms": "Kontrollpunkt, kontrollstation, militär kontroll"
+
+
+
+
+},
+
+
+
+
+"military/danger_area": {
+
+
+
+
+
+"name": "Farligt område",
+
+
+
+
+
+"terms": "Farligt område, skjutbana, säkerhetszon, militärt skyddsområde, militärt övningsområde"
+
+
+
+
+},
+
+
+
+
+"military/naval_base": {
+
+
+
+
+
+"name": "Marinbas",
+
+
+
+
+
+"terms": "Marinbas, marint förband, marinen, flottan, amfibiekåren, Kustartilleriet, flottilj, flottbas, örlogsbas"
+
+
+
+
+},
+
+
+
+
+"military/obstacle_course": {
+
+
+
+
+
+"name": "Hinderbana",
+
+
+
+
+
+"terms": "Hinderbana, hoppbana, hinderlöpning, hinderlopp"
+
+
+
+
+},
+
+
+
+
 "military/range": {
 
 
@@ -12769,6 +13150,28 @@
 
 
 "terms": "Militärt övningsområde, övningsområde, skjutbana"
+
+
+
+
+},
+
+
+
+
+"military/training_area": {
+
+
+
+
+
+"name": "Övningsfält",
+
+
+
+
+
+"terms": "Övningsfält, skjutbana, övningsområde"
 
 
 
@@ -13120,7 +13523,7 @@
 
 
 
-"terms": "träd, trä, trädstam, stam; barrträd, lövträd, gran, ek, björk, stock"
+"terms": "träd,trä,trädstam,stam,barrträd,lövträd,gran,ek,björk,stock"
 
 
 
@@ -15034,7 +15437,7 @@
 
 
 
-"terms": "Slaktare, kött, köttaffär, köttstyckare; charkuterist, charkuterihandlare, styckare, chark"
+"terms": "slaktare,kött,köttaffär,köttstyckare,charkuterist,charkuterihandlare,styckare,chark"
 
 
 
@@ -18247,6 +18650,28 @@
 
 
 "terms": "flodstrand, åstrand, flodbank, "
+
+
+
+
+},
+
+
+
+
+"waterway/sanitary_dump_station": {
+
+
+
+
+
+"name": "Marin latrintömning",
+
+
+
+
+
+"terms": "Marin latrintömning, latrintömning, båttömnig, båtlatrin, sanitet, båtsanitet, toalettömning, campingtoalett, gråvatten, tömningsplats, gråvattentömning, Båt, Vattenfarkoster, sanitära, Dumpstation, utpumpning, Pumpa ut, Elsan, CDP, CTDP, kemisk toalett"
 
 
 

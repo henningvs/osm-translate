@@ -703,7 +703,12 @@
 
 
 
-"incomplete_relation": "Dessa objekt kan inte sammanfogas då åtminstone ett inte hämtats fullständigt."
+"incomplete_relation": "Dessa objekt kan inte sammanfogas då åtminstone ett inte hämtats fullständigt.",
+
+
+
+
+"conflicting_tags": "Dessa linjer kan inte sammanfogas då några av dess taggar har motstridiga värden."
 
 
 
@@ -2126,6 +2131,9 @@
 "cannot_zoom": "Går ej att zooma ut ytterligare med nuvarande sätt.",
 
 
+"full_screen": "Växla fullskärm",
+
+
 "gpx": {
 
 
@@ -2186,7 +2194,7 @@
 
 
 
-"gps": "# GPS\n\nGPS-data är den mest tillförlitliga källan för data till OpenStreetMap. Denna redigeraren stöder lokala spår - .gpx-filer på din lokala dator. Du kan samla in denna typ av GPS-spår med ett antal olika appar till din smartphone eller en GPS-enhet.\n\nFör information om du du gör en GPS-uppmätning, läs [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nFör att använda ett GPX-spår för att kartlägga, dra och släpp GPX-filen på kartredigeraren. Om det accepteras kommer det att läggas till på kartan som en ljuslila linje. Klicka på menyn Kartdata till höger för att aktivera, avaktivera eller zooma in till detta nya GPX-skapade lager.\n\nGPX-spåret laddas inte direkt upp till OpenStreetMap - bästa sätet att använda det är att rita på kartan och använda det som en guide för att lägga till ny information, men också för att [ladda upp det till OpenStreetMap] (http://www.openstreetmap.org/trace/create) så att andra kan använda det. \n",
+"gps": "# GPS\n\nInsamlade GPS-spår är en värdefull källan för data till OpenStreetMap. Denna redigeraren \nstöder lokala spår - .gpx-filer på din lokala dator. Du kan samla\nin denna typ av GPS-spår med ett antal olika appar till din smartphone eller en GPS-enhet. \n\nFör information om du du gör en GPS-uppmätning, läs\n[Mapping with a smartphone, GPS, or paper](http://learnosm.org/en/mobile-mapping/).\n\nFör att använda ett GPX-spår för att kartlägga, dra och släpp GPX-filen på kartredigeraren. \nOm den accepteras kommer det att läggas till på kartan som en ljuslila\nlinje. Klicka på menyn Kartdata till höger för att aktivera,\navaktivera eller zooma in till detta nya GPX-skapade lager.\n\nGPX-spåret laddas inte direkt upp till OpenStreetMap - bästa sätet att använda\ndet är att rita på kartan och använda det som en guide för att lägga till ny information, \nmen också för att [ladda upp det till OpenStreetMap] (http://www.openstreetmap.org/trace/create) \nså att andra kan använda det.\n",
 
 
 
@@ -2198,7 +2206,7 @@
 
 
 
-"inspector": "# Använda kontrollfunktionen\n\nUpplysningen är området området till vänster på sidan som låter dig ändra detaljerna för valt objekt.\n\n### Välj objekttyp\n\nEfter att du lagt till en punkt, linje eller område kan du välja vad för typ av objekt det är, t.ex. om det är en huvudväg eller bostadsgata, shoppingcenter eller café. \nDetaljverktyget visar knappar för vanliga objekttyper, och du kan söka efter andra typer i sökfönstret. \n\nKlicka på 'i' i högra nedre hörnet för en objekttyp för att lära dig mer om det. Klicka på en knapp för att välja typ.\n\n### Andra formulär och ändra taggar\n\nEfter att du valt en objekttyp, eller om du väljer ett objekt som redan har en typ associerad, kommer kontrollfunktionen visa fällt med detaljer om objekttypen som namn och adress. \n\nUnder fälten kan du klicka på ikoner för att lägga till andra detaljer, som t.ex.  [Wikipedia]-information (http://www.wikipedia.se/), handikappanpassning m.m.\n\nLängst ner i kontrollfunktionen, klicka på 'Fler taggar' för att lägga till ytterligare godtyckliga taggar till objektet.  [Taginfo](http://taginfo.openstreetmap.org/) är en bra resurs för att lära dig mer om populära tagg-kombinationer.\n\nÄndringar du gör i kontrollfunktionen dyker automatiskt upp på kartan. Du kan ångra dem när du vill genom att klicka på 'Ånga'-knappen.\n",
+"inspector": "# Använda objektredigeraren\n\nObjektredigeraren är området till vänster på sidan som låter dig \nändra detaljerna för valt objekt.\n\n ### Välj objekttyp\n\nEfter att du lagt till en punkt, linje eller område kan du välja vad för typ av objekt det\när, t.ex. om det är en huvudväg eller bostadsgata, shoppingcenter eller café.\nobjektredigeraren visar knappar för vanliga objekttyper, och du kan \nsöka efter andra typer i sökfönstret.\n\nKlicka på 'i' i nedre högra hörnet för en objekttyp för\natt läsa mer om det. Klicka på en knapp för att välja typ. \n\n ### Använda formulär och ändra taggar\n\nEfter att du valt en objekttyp, eller om du väljer ett objekt som redan\nhar en typ associerad, kommer objektredigeraren visa fällt med detaljer om objekttypen så som namn och adress.\n\nUnder fälten du ser kan du klicka på menyn 'Lägg till fällt\" för att lägga till\nandra detaljer, som t.ex. Wikipedia-länk, handikappanpassning m.m.\n\nLängst ner i objektredigeraren, klicka på 'Alla taggar' för att lägga till ytterligare godtyckliga\ntaggar till objektet. [Taginfo](http://taginfo.openstreetmap.org/) är en\nbra resurs för att lära dig mer om populära tagg-kombinationer.\n\nÄndringar du gör i objektredigeraren visas automatiskt på kartan.\nDu kan ångra dem när du vill genom att klicka på 'Ånga'-knappen. \n",
 
 
 

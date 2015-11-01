@@ -1132,11 +1132,69 @@
 
 
 
+"selected": "{n} seçilmiş",
+
+
+
+"geometry": "Geometri",
+
+
+
+"closed": "kapalı",
+
+
+
+"center": "Merkez",
+
+
+
+"perimeter": "Çevre",
+
+
+
 "length": "Uzunluk",
 
 
 
-"area": "Alan"
+"area": "Alan",
+
+
+
+"centroid": "Sentroid",
+
+
+
+"location": "Konum",
+
+
+
+"metric": "Metrik",
+
+
+
+"imperial": "İmparatorluk"
+
+
+},
+
+
+"geometry": {
+
+
+
+"point": "nokta",
+
+
+
+"line": "çizgi",
+
+
+
+"area": "alan",
+
+
+
+"relation": "ilişki"
 
 
 },
@@ -1254,6 +1312,24 @@
 
 
 
+"check": {
+
+
+
+
+"yes": "Evet",
+
+
+
+
+"no": "Hayır"
+
+
+
+},
+
+
+
 "none": "Hiç",
 
 
@@ -1270,7 +1346,11 @@
 
 
 
-"location": "Konum"
+"location": "Konum",
+
+
+
+"add_fields": "Alan ekle:"
 
 
 },
@@ -1353,7 +1433,12 @@
 
 
 
-"description": "Noktalar"
+"description": "Noktalar",
+
+
+
+
+"tooltip": "İlgi Çekici Nokta (POI)"
 
 
 

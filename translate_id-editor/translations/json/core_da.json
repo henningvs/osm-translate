@@ -703,7 +703,12 @@
 
 
 
-"incomplete_relation": "Disse kortegenskaber kan ikke fusioneres, da de ikke er blevet downloadet helt."
+"incomplete_relation": "Disse kortegenskaber kan ikke fusioneres, da de ikke er blevet downloadet helt.",
+
+
+
+
+"conflicting_tags": "Disse linjer kan ikke fusioneres pga nogle af tags har konflikt værdier."
 
 
 
@@ -1907,12 +1912,12 @@
 
 
 
-"done": "All konflikter løst!",
+"done": "Alle konflikter løst!",
 
 
 
 
-"help": "En anden bruger ændrede nogle af de kortobjekter du ændrede.\nKlik på hver af dem for flere informationer om konflikten og vælg hvilken der skal beholdes\ndine ændringer eller den anden brugers ændringer\n"
+"help": "En anden bruger ændrede nogle af de kortobjekter du ændrede.\nKlik på hvert af dem for flere oplysninger om konflikten og vælg om dine eller den anden brugers ændringer skal beholdes.\n"
 
 
 
@@ -1941,7 +1946,7 @@
 
 
 
-"nodelist": "Punkter var ændret af både dig og {user}.",
+"nodelist": "Punkter blev ændret af både dig og {user}.",
 
 
 
@@ -1951,7 +1956,7 @@
 
 
 
-"tags": "Du ændrede <b>{tag}</b> tag til \"{local}\" og {user}  ændrede det til \"{remote}\"."
+"tags": "Du ændrede <b>{tag}</b>-tagget til \"{local}\" og {user} ændrede det til \"{remote}\"."
 
 
 
@@ -2003,7 +2008,7 @@
 
 
 
-"cancel": "Fortryd"
+"cancel": "Annuller"
 
 
 },
@@ -2039,7 +2044,7 @@
 
 
 
-"lose_changes": "Du har ændringer som ikke er gemt endnu. At skifte kortserver vil kassere ændringerne. Er du sikker på at du vil skifte server?",
+"lose_changes": "Du har ændringer som ikke er gemt endnu. Hvis du skifter kortserver, vil dine ændringer blive kasseret. Er du sikker på at du vil skifte server?",
 
 
 
@@ -2126,6 +2131,9 @@
 "cannot_zoom": "Kan ikke zoome længere ud i nuværende tilstand.",
 
 
+"full_screen": "Skift fuld skærmtilstand",
+
+
 "gpx": {
 
 
@@ -2186,7 +2194,7 @@
 
 
 
-"gps": "## GPS\n\nGPS data er de mest troværdige data for OpenStreetMap. Dette redigeringsværktøj\nunderstøtter lokalt lagrede - `.gpx` filer på din computer. Du kan indsamle\nGPX spor med mange forskellige smartphone applikationer og med dedikeret\nGPS hardware.\n\nDu kan finde mere information om hvordan du laver en GPS undersøgelse - læs\n[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nFor at bruge et GPX spor til kortlægning - træk og slip GPX filen indover kortet i \nredigeringsværktøjet. Hvis den bliver genkendt som gyldigt format, så vil den blive tilføjet kortet som en\nlyse grøn linje. Klik på \"Baggrundsindstillinger\" menuen på den højre side for tilkoble\neller frakoble. Eller også zoom til det nye GPX understøttet lag.\n\nGPX sporet er ikke direkte oploadet til OpenStreetMap - Den bedste måde\nat bruge dette spor at indtegne efter det og bruge det som en rettesnor for de\nnye objekter du tilføjer. Du kan også [opload GPX sporet til OpenStreetMap](http://www.openstreetmap.org/trace/create)\nderved kan andre brugere også bruge dette.\n",
+"gps": "# GPS\n\nIndsamlede GPS-spor er en værdifuld kilde til data for OpenStreetMap. Denne editor understøtter lokale spor – '.gpx'-filer på din lokale computer. Du kan indsamle denne form for GPS-spor med en række smartphone-applikationer såvel som personlige GPS-apparater.\n\nLæs [Mapping with a Smartphone, GPS or Paper] (http://learnosm.org/en/mobile-mapping/, på engelsk) for information om, hvordan du udfører en GPS-undersøgelse.\n\nFor at bruge et GPX-spor til kortlægning, skal du trække og slippe en GPX-fil over på kort-editoren. Hvis sporet bliver accepteret, vil det blive tilføjet kortet som en lys lilla linje. Klik på \"Kortdata\"-menuen til højre for at aktivere, deaktivere eller zoome til dette nye GPX-drevne lag.\n\nGPX-sporet bliver ikke direkte uploadet til OpenStreetMap. Den bedste måde at bruge sporet er at tegne på kortet, mens du bruger sporet som en vejledning til de nye elementer,\ndu tilføjer, og også at [uploade det til OpenStreetMap] (http://www.openstreetmap.org/trace/create), så andre brugere kan bruge det.\n",
 
 
 
@@ -2198,7 +2206,7 @@
 
 
 
-"inspector": "# Brug af inspiceringspanelet\n\nInspiceringspanelet er sektionen i venstre side som tillader dig at\nrette detaljer for et valgt objekt.\n\n### Udvælgelse af et objekt\n\nEfter du har tilføjet et punkt, linje eller område, så kan du vælge hvilken slags objekt\ndet er, fx om det er en motorvej eller villavej, supermarked eller cafe.\nInspiceringspanelet vil vise nogle knapper for de mest brugte objekttyper og du kan\nfinde andre ved at søge i søgeboksen.\n\nKlik på 'i' nede i højre hjørne ved objekttypeknappen for at få mere \ninformation. Klik på en knap for at vælge den objekttype.\n\n### Formularer og rettelse af tags\n\nNår du har valgt en type, eller hvis du har valg et objekt der allerede har en type, viser panelet nogle felter\nmed oplysningerne for typen, f.eks. navn og adresse.\n\nUnder felterne er der ikoner til at tilføje andre oplysninger, som [Wikipedia](http://www.wikipedia.org/)-\ninformation, adgang for rullestol, med flere.\n\nI bunden af panelet kan du klikke på \"Flere tags\" for at tilføje \nvilkårlige tags til objektet. [Taginfo](http://taginfo.openstreetmap.org/) kan \nbruges til at lære mere om populære tag-kombinationer.\n\nÆndringer du laver i panelet bliver automatisk anvendt på kortet.\nDu kan fortryde dem på et vilkårligt tidspunkt ved at klikke på knappen \"Fortryd\".\n",
+"inspector": "Oversæt\n# Brug af Inspektøren\n\nInspektøren er området til venstre på siden, hvor du kan redigere detaljerne for det valgte objekt.\n\n### Valg af objekttype\n\nNår du har tilføjet et punkt, en linje eller område, kan du vælge, hvilken type objekt det er, fx om det er en motorvej eller villavej, supermarked eller café. Inspektøren vil vise knapper for fælles objekttyper, og du kan finde andre ved at skrive, hvad du leder efter, i søgefeltet.\n\nKlik på i'et i nederste højre hjørne af en objekttypeknap for at lære mere om den pågældende objekttype. Klik på selve knappen for at vælge denne type.\n\n### Brug af formularer og redigeringsmærker\n\nNår du vælger en objekttype, eller når du vælger et objekt, der allerede har en type tilknyttet, vil inspektøren vise felter med detaljer om objektet, såsom dets navn og adresse.\n\nNeden for de felter, du kan se, kan du klikke på \"Tilføj felt\" for at tilføje andre detaljer, såsom et Wikipedia-link, oplysninger om adgang for kørestole og meget mere.\n\nI bunden af ​​inspektøren kan du klikke på 'Ekstra mærker' for at tilføje vilkårlige andre mærker til elementet. [Taginfo] (http://taginfo.openstreetmap.org/, på engelsk) er et godt sted at lære mere om populære kombinationer af mærker ('tags' på engelsk).\n\nÆndringer, du foretager i inspektøren, bliver automatisk anvendt på kortet. Du kan fortryde dem når som helst ved at klikke på knappen 'Fortryd'.\n",
 
 
 
@@ -2264,32 +2272,32 @@
 
 
 
-"place": "Punktet kan placeres ved at klikke på kortet.**Placerer punktet ovenpå bygningen.**",
+"place": "Punktet kan placeres ved at klikke på kortet. **Placerer punktet ovenpå bygningen.**",
 
 
 
 
-"search": "Der er mange forskellige objekter, der kan repræsenteres ved punkter. Punktet du lige tilføjede var en cafe.** Søg efter '{name}'**",
+"search": "Der er mange forskellige objekter, der kan repræsenteres ved punkter. Punktet du lige tilføjede var en cafe. ** Søg efter '{name}'**",
 
 
 
 
-"choose": "**Vælg cafe fra listen.**",
+"choose": "**Vælg Cafe fra listen.**",
 
 
 
 
-"describe": "Punktet er nu markeret som en cafe. Ved at bruge redigeringsværktøjet kan vi tilføje mere information om elementet.**Tilføj et navn**",
+"describe": "Punktet er nu markeret som en cafe. Ved at bruge redigeringsværktøjet kan vi tilføje mere information om elementet. **Tilføj et navn**",
 
 
 
 
-"close": "Elementeditoren kan lukkes ved at klikke på luk knappen.\n**Luk redigeringsværktøjet**",
+"close": "Elementeditoren kan lukkes ved at klikke på luk-knappen.\n**Luk redigeringsværktøjet**",
 
 
 
 
-"reselect": "Ofte vil punkter allerede findes, men have fejl eller mangler. Vi kan rette i allerede eksisterende punkter.**Vælg punktet du lige lavede.**",
+"reselect": "Ofte vil punkter allerede eksistere, men have fejl eller mangler. Vi kan rette i eksisterende punkter. **Vælg punktet du lige oprettede.**",
 
 
 
@@ -2299,12 +2307,12 @@
 
 
 
-"reselect_delete": "Alle geografiske objekter på kortet kan slettes.**Klik på punktet du har lavet.**",
+"reselect_delete": "Alle objekter på kortet kan slettes. **Klik på punktet du oprettede.**",
 
 
 
 
-"delete": "Menuen omkring punktet indeholder værktøjer der kan bruges på det, inkl. sletning.**Slet punktet.**"
+"delete": "Menuen omkring punktet indeholder værktøjer der kan bruges på det, inklusive sletning. **Slet punktet.**"
 
 
 
@@ -2322,17 +2330,17 @@
 
 
 
-"add": "Områder bruges til at vise omkredsen af objekter som fx søer, bygninger og beboelsesområder. De kan også bruges til mere detaljeret kortlægning af objekter som du normalt kortlægger som punkter. *'Klik på Område knappen for at tilføje et nyt område.**",
+"add": "Områder bruges til at vise omkredsen af objekter som fx søer, bygninger og beboelsesområder. De kan også bruges til mere detaljeret kortlægning af objekter som du normalt kortlægger som punkter. **Klik på Område-knappen for at tilføje et nyt område.**",
 
 
 
 
-"corner": "Områder indtegnes ved at placere punkter der markerer områdets afgrænsning. **Placerer startpunktet på et af legepladsens hjørner.**",
+"corner": "Områder indtegnes ved at placere punkter der samlet markerer områdets ydergrænse. **Placer startpunktet på et af legepladsens hjørner.**",
 
 
 
 
-"place": "Tegn området ved at placere flere punkter. Afslut området ved at klikke på det først indtegnede punkt.**Tegn legepladsens område.**",
+"place": "Indtegn området ved at placere flere punkter. Afslut området ved at klikke på det først indtegnede punkt. **Indtegn legepladsens område.**",
 
 
 
@@ -2342,12 +2350,12 @@
 
 
 
-"choose": "**Vælg legeplads fra listen.**",
+"choose": "**Vælg Legeplads fra listen.**",
 
 
 
 
-"describe": "**Tilføj et navn og luk så redigeringsværktøjet**"
+"describe": "**Tilføj et navn og luk redigeringsværktøjet**"
 
 
 
@@ -2365,17 +2373,17 @@
 
 
 
-"add": "Linjer bruges til at beskrive ting som fx veje, jernbanespor og floder.**Klik på linjeknappen for at tilføje en ny linje.**",
+"add": "Linjer bruges til at beskrive objekter som veje, jernbanespor og floder. **Klik på Linje-knappen for at tilføje en ny linje.**",
 
 
 
 
-"start": "**Start linjen ved at klikke på enden af vejen**",
+"start": "**Start linjen ved at klikke på enden af vejen.**",
 
 
 
 
-"intersect": "Klik for at tilføje flere punkter til linjen. Du kan om nødvendigt trække i kortet mens du tegner. Veje og mange andre typer linjer er dele af et større netværk. Det er meget vigtigt at disse linjer er forbundet korrekt for at navigationsværktøjer kan fungere.**Klik på Flower Street for at lave et skæringspunkt der forbinder de to linjer.**",
+"intersect": "Klik for at tilføje flere punkter til linjen. Du kan om nødvendigt trække i kortet mens du tegner. Veje og mange andre typer linjer er dele af et større netværk. Det er meget vigtigt at disse linjer er forbundet korrekt for at navigationsværktøjer kan fungere. **Klik på Flower Street for at lave et skæringspunkt der forbinder de to linjer.**",
 
 
 
@@ -2385,12 +2393,12 @@
 
 
 
-"road": "**Vælg vej fra listen**",
+"road": "**Vælg Vej fra listen**",
 
 
 
 
-"residential": "Der er forskellige typer veje, af hvilke den mest brugte er villavej.**Vælg villavej**",
+"residential": "Der er forskellige typer veje. Den mest brugte er Villavej. **Vælg vejtypen Villavej**",
 
 
 
@@ -2405,7 +2413,7 @@
 
 
 
-"wrong_preset": "Du valgte ikke Villavej typen. **Klik her for at vælge igen***"
+"wrong_preset": "Du valgte ikke typen Villavej. **Klik her for at vælge igen***"
 
 
 
@@ -2423,7 +2431,7 @@
 
 
 
-"help": "Mere dokumentation samt denne gennemgang kan ses her.",
+"help": "Mere dokumentation og denne gennemgang kan ses her.",
 
 
 
